@@ -1,5 +1,6 @@
 ---
 layout: default
+supress_title: true
 ---
 
 # Deep Dungeon Compendium

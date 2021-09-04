@@ -20,7 +20,7 @@
         <ul>
         {% for floorset in site.potd_floorsets %}
           <li>
-            <a href="{{ floorset.url }}">{{ floorset.floorset }}-{{ floorset.floorset | plus: 9 }}</a>
+            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset }}-{{ floorset.floorset | plus: 9 }}</a>
           </li>
         {% endfor %}
         </ul>
@@ -29,9 +29,9 @@
     </nav>
     <main class="page-content" aria-label="Content">
       <div id="main">
-        {% if page.title %}
+        {% unless page.supress_title %}
           <h1>{{ page.title }}</h1>
-        {% endif %}
+        {% endunless %}
         {{ content }}
       </div>
     </main>
