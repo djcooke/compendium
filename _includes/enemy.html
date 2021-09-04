@@ -1,0 +1,27 @@
+<h3>{{ include.enemy.name }}{% if include.enemy.family %} ({{ include.enemy.family }}){% endif %}</h3>
+<table class="attributeTable">
+  <tr>
+    <td>Floors:</td>
+    <td>{{ include.enemy.start_floor }}-{{ include.enemy.end_floor }} {% if include.enemy.patrol %}(Patrol){% endif %}</td>
+    <td>Agro:</td>
+    <td>{{ include.enemy.agro }}</td>
+  </tr>
+</table>
+{% if include.enemy.abilities %}
+  <h4>Abilities</h4>
+  <ul>
+    {% for ability in include.enemy.abilities %}
+      <li><strong>{{ ability.name }}</strong>: {{ ability.description }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% if include.enemy.notes %}
+  <h4>Notes</h4>
+  {% include notes.html notes=include.enemy.notes %}
+{% endif %}
+{% unless include.enemy.abilities or include.enemy.notes %}
+  <h4>Notes</h4>
+  <ul>
+    <li>No notes</li>
+  </ul>
+{% endunless %}

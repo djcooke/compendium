@@ -1,0 +1,142 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<table class="attributeTable">
+  <tr>
+    <td>Rooms/floor:</td>
+    <td>{{ page.rooms_per_floor | default: 'undetermined' }}</td>
+    <td>Enemies/room:</td>
+    <td>{{ page.enemies_per_room | default: 'undetermined' }}</td>
+  </tr>
+  <tr>
+    <td>Chests/floor:</td>
+    <td>{{ page.chests_per_floor | default: 'undetermined' }}</td>
+    <td>Mimics:</td>
+    <td>{{ page.mimic_type }}</td>
+  </tr>
+  <tr>
+    <td>Hoard:</td>
+    <td>{{ page.hoard_type }}</td>
+  </tr>
+</table>
+
+<h2 id=enemies>Enemies</h2>
+
+{% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
+{% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
+    | append: page.floorset | append: '/' | relative_url %}
+<div id="galleryContainer">
+  <div class="imagePane">
+    {% for enemy in site[enemy_collection] %}
+      {% if enemy.image %}
+        <img class="galleryImage" src="{{ image_dir | append: enemy.image }}">
+      {% else %}
+        <span class="galleryImage">No Image</span>
+      {% endif %}
+    {% endfor %}
+    <div id="galleryLeft" onClick="selectNext()">&#10094;</div>
+    <div id="galleryRight" onClick="selectPrevious()">&#10095;</div>
+  </div>
+  <div id="galleryBottom" class="surfacePane">
+    {% for enemy in site[enemy_collection] %}
+      <div class="galleryItem">
+        {% include enemy.html enemy=enemy %}
+      </div>
+    {% endfor %}
+    <h4>
+      Job-Specific Notes:
+      {% include job_select.html %}
+    </h4>
+    {% for enemy in site[enemy_collection] %}
+      <div class="galleryJobNotes">
+        {% for job in site.jobs %}
+          <div class="jobSpecific job{{ job }}">
+            {% if enemy.job_specifics and enemy.job_specifics[job] %}
+              <p>Difficulty: {{ enemy.job_specifics[job].difficulty | default: 'Unrated' }}</p>
+              {% assign notes = enemy.job_specifics[job].notes %}
+              {% include notes.html notes=notes hide_empty=true %}
+            {% else %}
+              <p>Difficulty: Unrated</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<h2>Enemies by Floor</h2>
+
+<table class="banded">
+{% assign ninth_floor = page.floorset | plus: 8 %}
+{% for floor in (page.floorset..ninth_floor) %}
+  {% assign enemies = '' %}
+  {% assign first = true %}
+  {% assign index = 0 %}
+  {% assign sorted_enemies = site[enemy_collection] | sort: 'patrol' %}
+  {% for enemy in sorted_enemies %}
+    {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
+      {% if first %}
+        {% assign first = false %}
+      {% else %}
+        {% assign enemies = enemies | append: ' • ' %}
+      {% endif %}
+      {% assign enemies = enemies
+        | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
+        | append: enemy.nickname %}
+      {% if enemy.patrol %}
+        {% assign enemies = enemies | append: ' (patrol)' %}
+      {% endif %}
+      {% assign enemies = enemies | append: '</a>' %}
+    {% endif %}
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
+  <tr>
+    <td>{{ floor }}:</td>
+    <td style="width: 100%;">{{ enemies }}</td>
+  </tr>
+{% endfor %}
+</table>
+
+<h2>Boss: {{ page.boss }}</h2>
+
+<div id="bossPane">
+  {% if page.boss_image %}
+    <div class="imagePane">
+      <img class="boss" src="{{ image_dir | append: page.boss_image }}">
+    </div>
+  {% endif %}
+  <div class="surfacePane">
+    <h4>Notes:</h4>
+
+    {% include notes.html notes=page.boss_notes %}
+
+    <h4>
+      Job-Specific Notes:
+      {% include job_select.html %}
+    </h4>
+
+    {% for job in site.jobs %}
+      <div class="jobSpecific job{{ job }}">
+          {% assign notes = nil %}
+          {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].notes %}
+            {% assign notes = page.boss_job_specifics[job].notes %}
+          {% endif %}
+          {% include notes.html notes=notes default='No notes written' %}
+          <h4>Job-Specific Kill Times</h4>
+          <ul>
+            {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].timing %}
+              {% for note in page.boss_job_specifics[job].timing %}
+                <li>{{ note }}</li>
+              {% endfor %}
+            {% else %}
+              <li>No times recorded</li>
+            {% endif %}
+          </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div>

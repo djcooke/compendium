@@ -1,0 +1,5 @@
+<select class="jobSelect" onChange="selectJob(this.value)">
+  {% for job in site.jobs %}
+    <option value="{{ job }}">{{ job }}</option>
+  {% endfor %}
+</select>

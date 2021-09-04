@@ -1,0 +1,18 @@
+{% if include.notes and include.notes.size > 0 %}
+  <ul>
+    {% for note in include.notes %}
+      {% if note.subnotes %}
+        <li>
+          {{ note.note }}
+          {% include notes.html notes=note.subnotes %}
+        </li>
+      {% else %}
+        <li>{{ note }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% elsif include.hide_empty != true %}
+  <ul>
+    <li>{{ include.default | default: 'No notes' }}</li>
+  </ul>
+{% endif %}
