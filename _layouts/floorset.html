@@ -26,22 +26,23 @@ layout: default
 <h2 id=enemies>Enemies</h2>
 
 {% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
+{% assign enemies_sorted = site[enemy_collection] | sort: 'start_floor' %}
 {% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
     | append: page.floorset | append: '/' | relative_url %}
 <div id="galleryContainer">
   <div class="imagePane">
-    {% for enemy in site[enemy_collection] %}
+    {% for enemy in enemies_sorted %}
       {% if enemy.image %}
         <img class="galleryImage" src="{{ image_dir | append: enemy.image }}">
       {% else %}
         <span class="galleryImage">No Image</span>
       {% endif %}
     {% endfor %}
-    <div id="galleryLeft" onClick="selectNext()">&#10094;</div>
-    <div id="galleryRight" onClick="selectPrevious()">&#10095;</div>
+    <div id="galleryLeft" onClick="selectPrevious()">&#10094;</div>
+    <div id="galleryRight" onClick="selectNext()">&#10095;</div>
   </div>
   <div id="galleryBottom" class="surfacePane">
-    {% for enemy in site[enemy_collection] %}
+    {% for enemy in enemies_sorted %}
       <div class="galleryItem">
         {% include enemy.html enemy=enemy %}
       </div>
@@ -50,7 +51,7 @@ layout: default
       Job-Specific Notes:
       {% include job_select.html %}
     </h4>
-    {% for enemy in site[enemy_collection] %}
+    {% for enemy in enemies_sorted %}
       <div class="galleryJobNotes">
         {% for job in site.jobs %}
           <div class="jobSpecific job{{ job }}">
@@ -76,8 +77,8 @@ layout: default
   {% assign enemies = '' %}
   {% assign first = true %}
   {% assign index = 0 %}
-  {% assign sorted_enemies = site[enemy_collection] | sort: 'patrol' %}
-  {% for enemy in sorted_enemies %}
+  {% assign enemies_patrol_last = enemies_sorted | sort: 'patrol' %}
+  {% for enemy in enemies_patrol_last %}
     {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
       {% if first %}
         {% assign first = false %}
