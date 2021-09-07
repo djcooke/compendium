@@ -32,6 +32,8 @@ github_username:  jekyll
 collections:
   potd_floorsets:
     output: true
+  potd_141_enemies:
+    output: false
   potd_151_enemies:
     output: false
   potd_161_enemies:
@@ -73,7 +75,7 @@ exclude:
   - templates
 
 # Build settings
-# theme: minima
+theme: null
 # plugins:
 #   - jekyll-feed
 
