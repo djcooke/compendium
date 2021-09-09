@@ -77,8 +77,7 @@ layout: default
   {% assign enemies = '' %}
   {% assign first = true %}
   {% assign index = 0 %}
-  {% assign enemies_patrol_last = enemies_sorted | sort: 'patrol' %}
-  {% for enemy in enemies_patrol_last %}
+  {% for enemy in enemies_sorted %}
     {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
       {% if first %}
         {% assign first = false %}
