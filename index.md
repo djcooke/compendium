@@ -5,8 +5,8 @@ supress_title: true
 
 # Deep Dungeon Compendium
 
-<strong>PLEASE NOTE: This site is still under construction, and this is not its
-permanent address.</strong>
+<strong>PLEASE NOTE: This site is under heavy construction, and much content is
+still being added. Check back for updates regularly!</strong>
 
 This site is an attempt to collect as much knowledge of FFXIV deep dungeons in
 one place as possible. It should serve as a good guide for groups looking to
