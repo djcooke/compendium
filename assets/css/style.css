@@ -37,11 +37,11 @@ li li:first-child {
 }
 
 #nav {
-  height: 100%;
   width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
+  bottom: 0;
   left: 0;
   background-color: var(--surface);
   overflow-x: hidden;
