@@ -20,7 +20,7 @@
         <ul>
         {% for floorset in site.potd_floorsets %}
           <li>
-            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset }}-{{ floorset.floorset | plus: 9 }}</a>
+            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
           </li>
         {% endfor %}
         </ul>
