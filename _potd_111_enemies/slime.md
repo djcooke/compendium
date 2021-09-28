@@ -10,6 +10,7 @@ abilities:
     description: 'applies stacking physical vulnerability up; this is used
     instead of auto-attacks, but does magical damage, so does not affect its
     own damage'
-  - name: '?'
-    description: 'Enrage; explodes, doing huge AoE damage'
+  - name: 'Rapture'
+    description: 'Enrage; explodes, doing huge AoE damage; used if not killed
+    quickly enough'
 ---
