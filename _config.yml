@@ -32,6 +32,8 @@ github_username:  jekyll
 collections:
   potd_floorsets:
     output: true
+  potd_001_enemies:
+    output: false
   potd_081_enemies:
     output: false
   potd_091_enemies:

@@ -1,9 +1,9 @@
 ---
-name: Deep Palace Hornet
+name: Palace Hornet
 nickname: Hornet
 image: hornet.png
-start_floor: 106
-end_floor: 109
+start_floor: 6
+end_floor: 9
 agro: Proximity
 abilities:
   - name: Final Sting
