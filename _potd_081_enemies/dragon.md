@@ -1,6 +1,7 @@
 ---
 name: Flame Dragon
 nickname: Dragon
+image: dragon.png
 start_floor: 81
 end_floor: 89
 agro: Sight

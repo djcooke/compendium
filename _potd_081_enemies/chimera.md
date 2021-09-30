@@ -1,6 +1,7 @@
 ---
 name: Palace Chimera
 nickname: Chimera
+image: chimera.png
 start_floor: 81
 end_floor: 89
 patrol: true
