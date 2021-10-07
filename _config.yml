@@ -38,6 +38,8 @@ collections:
     output: false
   potd_021_enemies:
     output: false
+  potd_031_enemies:
+    output: false
   potd_071_enemies:
     output: false
   potd_081_enemies:
