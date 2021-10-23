@@ -209,7 +209,7 @@ img.boss {
   width: 100%;
 }
 
-.surfacePane th, .markdownTable td {
+.surfacePane th, .surfacePane td {
   padding: 8px;
 }
 
@@ -244,6 +244,15 @@ img.boss {
 
   #nav.open {
     display: block;
+  }
+
+  /* Offset linked position on page so headings aren't hidden behind fixed topnav */
+  h1:before, h2:before {
+    display: block;
+    height: 40px;
+    margin-top: -40px;
+    content: "";
+    visibility: hidden;
   }
 
   .attributeTable tr td {

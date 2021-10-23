@@ -29,9 +29,8 @@
     </nav>
     <main class="page-content" aria-label="Content">
       <div id="main">
-        <a id="top"></a>
         {% unless page.supress_title %}
-          <h1>{{ page.title }}</h1>
+          <h1 id="top">{{ page.title }}</h1>
         {% endunless %}
         {{ content }}
       </div>
