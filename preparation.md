@@ -34,9 +34,9 @@ also be farming potsherds this way.
 
 When playing with matched groups, it's nice to mention that you're going for
 silver chests, and also make sure not to slow down the group too much.
-</div>
 
 [Back to top](#top)
+</div>
 
 ## Regen Potions
 
@@ -56,13 +56,13 @@ sustaining potions, such as a tank, physical ranged, or red mage.
 
 **HoH**: Beating floor 30 always gives you a potsherd, so it's easiest to just
 spam floor 21-30 in a party or matched groups.
-</div>
 
 [Back to top](#top)
+</div>
 
 ## Other Items
 
-<div class="surfacePane markdownTable" markdown="1">
+<div class="surfacePane" markdown="1">
 ### HP Potions
 
 Potions are great to have in deep dungeons as an extra heal. The best potion to
@@ -98,6 +98,6 @@ useful to tanks. Just note that they share a cooldown with HP potions.
 * Echo Drops: Can cure silence from impeding traps
 * Phoenix Down: Good to have if you're in a party. These drop from bronze
   chests in the earlier floors of both PotD and HoH.
-</div>
 
 [Back to top](#top)
+</div>

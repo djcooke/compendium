@@ -20,6 +20,7 @@ information. Knowledge is power!
 
 ## Rooms
 
+<div class="surfacePane" markdown="1">
 Each floor is composed of multiple rooms connected by halls. The number of
 rooms a floor may have is always somewhat random, but depends on the floorset,
 with higher floors tending to have more rooms. The floorset pages list the
@@ -43,9 +44,11 @@ the room they spawned in, there are 0-1 traps per room, one can still be a
 treasure room, etc.
 
 [Back to top](#top)
+</div>
 
 ## Cairns of Passage and Return
 
+<div class="surfacePane" markdown="1">
 Note: these are called "Beacons" rather than "Cairns" in HoH.
 
 The number of enemies you must kill to activate the Cairns is random, with a
@@ -57,9 +60,11 @@ Each Cairn appears in a random room on each floor with the exception that the
 Cairn of Passage cannot appear in the starting room.
 
 [Back to top](#top)
+</div>
 
 ## Enemies
 
+<div class="surfacePane" markdown="1">
 Most rooms will begin with 2-3 enemies in them, but there are exceptions:
 
 * The starting room begins with no enemies
@@ -102,9 +107,11 @@ There are three different agro types an enemy may have:
   It is often very difficult to get around them without killing them
 
 [Back to top](#top)
+</div>
 
 ## Chests
 
+<div class="surfacePane" markdown="1">
 Most floors will have 4-6 chests, but some floorsets have a different range.
 The range is listed on each of the floorset pages. There are three types of
 chests:
@@ -126,9 +133,11 @@ may be a mimic depends on the floorset, and is listed on the floorset pages. In
 the later floors, it is always gold chests that may be mimics.
 
 [Back to top](#top)
+</div>
 
 ## Traps
 
+<div class="surfacePane" markdown="1">
 Each room besides the starting room may contain 1 trap. Some rooms have no
 traps, but a room cannot have more than 1 trap. Traps are invisible unless you
 use a Pomander of Sight to reveal them. They can also be removed from the floor
@@ -149,9 +158,11 @@ Trap types:
   reducing max HP for 30 seconds
 
 [Back to top](#top)
+</div>
 
 ## Floor Effects
 
+<div class="surfacePane" markdown="1">
 When you arrive on a new floor, there is a chance that one or more floor
 effects will be applied. These are mostly detrimental, but a few are actually
 helpful.
@@ -179,3 +190,4 @@ helpful.
 * **HoH Only**: Sprint - Movement speed is increased
 
 [Back to top](#top)
+</div>
