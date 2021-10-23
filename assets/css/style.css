@@ -203,6 +203,25 @@ img.boss {
   padding: 12px;
 }
 
+.surfacePane table {
+  border: 1px solid var(--background);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.surfacePane th, .markdownTable td {
+  padding: 8px;
+}
+
+.surfacePane thead {
+  background-color: var(--on-surface);
+  color: var(--background);
+}
+
+.surfacePane tbody tr:nth-child(odd) {
+  background-color: var(--background);
+}
+
 @media screen and (max-width: 600px) {
 
   #nav {
