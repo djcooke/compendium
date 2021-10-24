@@ -6,13 +6,9 @@ window.onload = function() {
   selectJob(selectedJob);
 }
 
-function toggleMenu() {
-  var menu = document.getElementById("nav");
-  if (menu.className === "open") {
-    menu.className = "";
-  } else {
-    menu.className = "open";
-  }
+function toggleOpen(id) {
+  var element = document.getElementById(id);
+  element.classList.toggle('open');
 }
 
 function selectNext() {

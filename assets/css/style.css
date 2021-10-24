@@ -48,7 +48,7 @@ li li:first-child {
   padding-top: 20px;
 }
 
-#nav a, .navHeading {
+#nav a {
   display: block;
   padding: 6px 16px 6px 16px;
   font-size: 20px;
@@ -61,10 +61,6 @@ li li:first-child {
 
 #nav a:hover {
   color: var(--on-surface-bright);
-}
-
-.navHeading {
-  color: var(--on-surface-dim);
 }
 
 #nav ul {
@@ -96,10 +92,27 @@ li li:first-child {
   text-align: center;
   font-size: 30px;
   color: #818181;
+  user-select: none;
 }
 
 #navButton:hover {
   color: #f1f1f1;
+}
+
+.submenu .navHeading:before {
+  content: "▶ ";
+}
+
+.submenu ul {
+  display: none;
+}
+
+.submenu.open .navHeading:before {
+  content: "▼ ";
+}
+
+.submenu.open ul {
+  display: block;
 }
 
 #main {

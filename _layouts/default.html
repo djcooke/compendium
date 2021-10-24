@@ -6,7 +6,7 @@
   <body>
     <nav>
       <div id="topnav">
-        <div id="navButton" onclick="toggleMenu()">
+        <div id="navButton" onclick="toggleOpen('nav')">
           ≡
         </div>
       </div>
@@ -16,14 +16,24 @@
         <a href="{{ '/preparation.html' | relative_url }}">Preparation</a>
         <a href="{{ '/pomanders.html' | relative_url }}">Pomanders</a>
         <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
-        <span class="navHeading">PotD Floors</span>
-        <ul>
-        {% for floorset in site.potd_floorsets %}
-          <li>
-            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-          </li>
-        {% endfor %}
-        </ul>
+        <div id="potdMenu" class="submenu">
+          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
+          <ul>
+          {% for floorset in site.potd_floorsets %}
+            <li>
+              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div id="hohMenu" class="submenu">
+          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
+          <ul>
+            <li>
+              <a href="{{ '/' | relative_url }}">Coming soon!</a>
+            </li>
+          </ul>
+        </div>
         <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
       </div>
     </nav>
