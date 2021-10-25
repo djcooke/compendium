@@ -1,11 +1,15 @@
 ---
 name: Deep Palace Badguy # full name in game; required
-nickname: Badguy # short name; required
+nickname: Badguy # short name; required unless gallery_only == true
 image: badguy.png # within /assets/images/<dungeon>/<floorset>/); optional
 family: Bomb # type of enemy; optional. Omit if it's already in the name
 start_floor: 3 # first floor it appears on; required
 end_floor: 8 # last floor it appears on; required
 patrol: true # Optional (default: false)
+gallery_only: true # Optional (default: false); if true, enemy will only be
+                   # shown in the floorset "Enemies" gallery, and hidden
+                   # everywhere else. Intended for Mimics and PotD special
+                   # enemies
 agro: Sight # Sight, Sound, or Proximity; required
 abilities: # any skills used by the enemy; optional
   - name: Fierce Attack

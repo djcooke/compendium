@@ -28,7 +28,7 @@ layout: default
 <h2 id=enemies>Enemies</h2>
 
 {% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
-{% assign enemies_sorted = site[enemy_collection] | sort: 'start_floor' %}
+{% assign enemies_sorted = site[enemy_collection] | sort: 'start_floor' | sort: 'gallery_only' %}
 {% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
     | append: page.floorset | append: '/' | relative_url %}
 <div id="galleryContainer">
@@ -80,7 +80,7 @@ layout: default
   {% assign first = true %}
   {% assign index = 0 %}
   {% for enemy in enemies_sorted %}
-    {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
+    {% if enemy.start_floor <= floor and enemy.end_floor >= floor and enemy.gallery_only != true %}
       {% if first %}
         {% assign first = false %}
       {% else %}
