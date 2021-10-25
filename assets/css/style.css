@@ -134,6 +134,10 @@ li li:first-child {
   margin-bottom: 0;
 }
 
+.spaceTop {
+  margin-top: 12px;
+}
+
 #galleryContainer {
   color: var(--on-surface);
 }
