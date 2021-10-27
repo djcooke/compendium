@@ -4,26 +4,38 @@ layout: default
 
 {{ content }}
 
-<table class="attributeTable">
-  <tr>
-    <td>Rooms/floor:</td>
-    <td>{{ page.rooms_per_floor | default: 'undetermined' }}</td>
-    <td>Enemies/room:</td>
-    <td>{{ page.enemies_per_room | default: 'undetermined' }}</td>
-  </tr>
-  <tr>
-    <td>Chests/floor:</td>
-    <td>{{ page.chests_per_floor | default: 'undetermined' }}</td>
-    <td>Mimics:</td>
-    <td>{{ page.mimic_type }}</td>
-  </tr>
-  <tr>
-    <td>Hoard:</td>
-    <td>{{ page.hoard_type }}</td>
-    <td>Respawns:</td>
-    <td>{{ page.respawns | default: 'undetermined' }}</td>
-  </tr>
-</table>
+<div class="attributeList">
+  <div>
+    <label>Rooms/floor:
+      <span>{{ page.rooms_per_floor | default: 'undetermined' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Enemies/room:
+      <span>{{ page.enemies_per_room | default: 'undetermined' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Chests/floor:
+      <span>{{ page.chests_per_floor | default: 'undetermined' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Mimics:
+      <span>{{ page.mimic_type | default: 'undetermined' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Hoard:
+      <span>{{ page.hoard_type | default: 'undetermined' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Respawns:
+      <span>{{ page.respawns | default: 'undetermined' }}</span>
+    </label>
+  </div>
+</div>
 
 <h2 id=enemies>Enemies</h2>
 
