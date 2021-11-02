@@ -83,6 +83,37 @@ layout: default
   </div>
 </div>
 
+<h2>Enemies by Agro Type</h2>
+
+<table class="banded">
+  {% for agro_type in site.agro_types %}
+    {% assign enemies = '' %}
+    {% assign first = true %}
+    {% assign index = 0 %}
+    {% for enemy in enemies_sorted %}
+      {% if enemy.agro == agro_type and enemy.gallery_only != true %}
+        {% if first %}
+          {% assign first = false %}
+        {% else %}
+          {% assign enemies = enemies | append: ' • ' %}
+        {% endif %}
+        {% assign enemies = enemies
+          | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
+          | append: enemy.nickname %}
+        {% if enemy.patrol %}
+          {% assign enemies = enemies | append: ' (patrol)' %}
+        {% endif %}
+        {% assign enemies = enemies | append: '</a>' %}
+      {% endif %}
+      {% assign index = index | plus: 1 %}
+    {% endfor %}
+    <tr>
+      <td>{{ agro_type }}:</td>
+      <td style="width: 100%;">{% if first %}(None){% else %}{{ enemies }}{% endif %}</td>
+    </tr>
+  {% endfor %}
+</table>
+
 <h2>Enemies by Floor</h2>
 
 <table class="banded">

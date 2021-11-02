@@ -92,6 +92,11 @@ jobs:
   - WAR
   - WHM
 
+agro_types:
+  - Proximity
+  - Sight
+  - Sound
+
 defaults:
   - scope:
       path: ""
