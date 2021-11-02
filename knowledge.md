@@ -20,7 +20,7 @@ traps:
     image: toading.png
     only_in: PotD
     description: 'Turns you into a toad, preventing all actions and reducing max
-    HP for 20 seconds. Beward snakes while you are toaded, as they will use
+    HP for 20 seconds. Beware snakes while you are toaded, as they will use
     Devour to instantly kill a toad'
   - name: Otter
     image: otter.png
@@ -41,7 +41,7 @@ information. Knowledge is power!
 * [Enemies](#enemies)
 * [Chests](#chests)
 * [Traps](#traps)
-* [Floor Effects](#floor-effects)
+* [Enchantments](#enchantments)
 
 
 ## Rooms
@@ -192,12 +192,11 @@ by using a Pomander of Safety.
 [Back to top](#top)
 </div>
 
-## Floor Effects
+## Enchantments
 
 <div class="surfacePane" markdown="1">
-When you arrive on a new floor, there is a chance that one or more floor
-effects will be applied. These are mostly detrimental, but a few are actually
-helpful.
+When you arrive on a new floor, there is a chance that one or more enchantments
+will be applied. These are mostly detrimental, but a few are actually helpful.
 
 ### Detrimental Effects
 
@@ -208,7 +207,7 @@ helpful.
 * Auto-heal Penalty - HP regeneration has stopped
 * Blind - Encroaching darkness is lowering accuracy
 * Gloom - Enemies have increased attack, defense, and movement speed
-* **PotD Only**: Sprint Penalty
+* **PotD Only**: Sprint Penalty - Unable to use Sprint
 * **PotD Only**: Knockback Penalty - This mostly means that Pomander of Rage
   will not be useful; however, it also prevents enemies' draw-in abilities,
   which can be beneficial in some cases

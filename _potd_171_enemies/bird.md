@@ -20,5 +20,5 @@ job_specifics:
     difficulty: Medium
     note:
       - 'These are usually fairly easy, but can do some burst damage, and are
-        more dangerous with floor effects such as HP down or gloom'
+        more dangerous with enchantments such as HP down or gloom'
 ---

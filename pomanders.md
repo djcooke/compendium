@@ -90,10 +90,11 @@ pomanders:
     image: serenity.png
     description: 'Removes all enchantments from the current floor.'
     tips:
-      - 'Use when you can''t deal with the floor effects and don''t want to use
-      a rage/petrify/magicite'
-      - 'Make sure the save one for HoH floor 99, which always has 3 floor
-      effects.'
+      - 'Use when you can''t deal with the floor enchantments and don''t want
+      to use a rage/petrify/magicite - especially if you have other beneficial
+      effects such as strength, steel, flight, or alteration running'
+      - 'Make sure to save one for HoH floor 99, which always has 3
+      enchantments.'
   - name: Intuition
     image: intuition.png
     description: 'Reveals the floor''s hidden treasure.'
