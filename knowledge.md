@@ -1,6 +1,32 @@
 ---
 layout: default
 title: Knowledge
+traps:
+  - name: Enfeebling
+    image: enfeebling.png
+    description: 'Increases damage taken and reduces damage dealt, both 30%'
+  - name: Impeding
+    image: impeding.png
+    description: 'Applies silence and pacification to everyone nearby (enemies
+    included)'
+  - name: Landmine
+    image: landmine.png
+    description: 'Deals damage equal to 80% of current health to everyone nearby
+    (enemies included)'
+  - name: Luring
+    image: luring.png
+    description: 'Spawns 3 enemies with agro on the person who hit the trap'
+  - name: Toading
+    image: toading.png
+    only_in: PotD
+    description: 'Turns you into a toad, preventing all actions and reducing max
+    HP for 20 seconds. Beward snakes while you are toaded, as they will use
+    Devour to instantly kill a toad'
+  - name: Otter
+    image: otter.png
+    only_in: HoH
+    description: 'Turns you into an otter, preventing all actions and reducing
+    max HP for 30 seconds'
 ---
 
 Basic information about how deep dungeons work can be found in the official
@@ -143,19 +169,25 @@ traps, but a room cannot have more than 1 trap. Traps are invisible unless you
 use a Pomander of Sight to reveal them. They can also be removed from the floor
 by using a Pomander of Safety.
 
-Trap types:
-
-* Enfeebling: increases damage taken and reduces damage dealt, both 30%
-* Impeding: applies silence and pacification to everyone nearby (enemies
-  included)
-* Landmine: deals damage equal to 80% of current health to everyone nearby
-  (enemies included)
-* Luring: spawns 3 enemies with agro on the person who hit the trap
-* **PotD Only**: Toading: Turns you into a toad, preventing all actions and
-  reducing max HP for 20 seconds. Beward snakes while you are toaded, as they
-  will use Devour to instantly kill a toad
-* **HoH Only**: Otter: Turns you into an otter, preventing all actions and
-  reducing max HP for 30 seconds
+<table>
+  <thead>
+    <th colspan="2">Type</th><th>Description</th>
+  </thead>
+  <tbody>
+    {% for trap in page.traps %}
+      <tr>
+        <td><img src="{{ '/assets/images/traps/' | append: trap.image | relative_url}}" alt="{{ trap.name }} Trap" width="48" height="48"></td>
+        <td>
+          {{ trap.name }}
+          {% if trap.only_in %}
+            <br/>({{ trap.only_in }}&nbsp;Only)
+          {% endif %}
+        </td>
+        <td>{{ trap.description }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 [Back to top](#top)
 </div>
