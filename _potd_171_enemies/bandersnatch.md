@@ -5,6 +5,13 @@ image: bandersnatch.png
 start_floor: 171
 end_floor: 173
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Catching Claws
     description: instant cleave attack

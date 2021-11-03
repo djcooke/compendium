@@ -5,6 +5,13 @@ image: wolf.png
 start_floor: 173
 end_floor: 176
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Sanguine Bite
     description: 'instant attack that drains HP and applies a strong frostbite

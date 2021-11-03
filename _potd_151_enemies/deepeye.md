@@ -5,6 +5,13 @@ image: deepeye.png
 start_floor: 151
 end_floor: 155
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Optical Intrusion
     description: fairly weak attack (cleave?)

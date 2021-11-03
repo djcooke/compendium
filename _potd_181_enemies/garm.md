@@ -7,6 +7,13 @@ start_floor: 181
 end_floor: 189
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: false
+  resolution: false
 abilities:
   - name: 'The Dragon''s Voice'
     description: 'untelegraphed donut AoE - get IN. Can be interrupted'

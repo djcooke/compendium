@@ -11,6 +11,13 @@ gallery_only: true # Optional (default: false); if true, enemy will only be
                    # everywhere else. Intended for Mimics and PotD special
                    # enemies
 agro: Sight # Sight, Sound, or Proximity; required
+vulnerabilities: # For each, true=vulnerable, false=immune, otherwise unknown
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: true # true=weak to, false=not weak to
 abilities: # any skills used by the enemy; optional
   - name: Fierce Attack
     description: 'telegraphed conal AoE'

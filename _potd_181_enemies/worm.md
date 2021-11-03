@@ -4,6 +4,13 @@ nickname: Worm
 start_floor: 183
 end_floor: 189
 agro: Sound
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Sand Pillar
     description: 'instant circle AoE used out of combat. Be very careful if

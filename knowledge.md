@@ -207,10 +207,11 @@ will be applied. These are mostly detrimental, but a few are actually helpful.
 * Auto-heal Penalty - HP regeneration has stopped
 * Blind - Encroaching darkness is lowering accuracy
 * Gloom - Enemies have increased attack, defense, and movement speed
-* **PotD Only**: Sprint Penalty - Unable to use Sprint
-* **PotD Only**: Knockback Penalty - This mostly means that Pomander of Rage
-  will not be useful; however, it also prevents enemies' draw-in abilities,
-  which can be beneficial in some cases
+* **PotD Only**: Sprint Penalty - Unable to sprint
+* **PotD Only**: Knockback Penalty - Unable to use knockback and draw-in
+  effects. This mostly means that Pomander of Rage will not be useful; however,
+  it also prevents enemies' draw-in abilities, which can be beneficial in some
+  cases
 * **HoH Only**: Unmagicked - Unable to use magicite
 
 ### Beneficial Effects

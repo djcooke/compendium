@@ -58,7 +58,7 @@ layout: default
   <div id="galleryBottom" class="surfacePane">
     {% for enemy in enemies_sorted %}
       <div class="galleryItem">
-        {% include enemy.html enemy=enemy %}
+        {% include enemy.html enemy=enemy resolution_possible=page.resolution_possible %}
       </div>
     {% endfor %}
     <h4>

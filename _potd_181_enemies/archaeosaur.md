@@ -4,6 +4,13 @@ nickname: Archaeosaur
 start_floor: 184
 end_floor: 188
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Underbite
     description: 'tankbuster'

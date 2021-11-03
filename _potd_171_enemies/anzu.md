@@ -5,6 +5,13 @@ image: anzu.png
 start_floor: 176
 end_floor: 179
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: '?'
     description: applies windburn (DoT)

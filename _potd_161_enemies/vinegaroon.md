@@ -6,6 +6,13 @@ start_floor: 164
 end_floor: 166
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Third Leg Forward
     description: telegraphed conal AoE

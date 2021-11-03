@@ -5,6 +5,13 @@ image: sasquatch.png
 start_floor: 175
 end_floor: 179
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Ripe Banana
     description: 'used out of combat only. Grants a strong attack boost. After

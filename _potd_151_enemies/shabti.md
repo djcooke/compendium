@@ -7,6 +7,13 @@ start_floor: 151
 end_floor: 153
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: 'Death''s Door'
     description: 'quick, long, narrow line AoE. It will spam this every few

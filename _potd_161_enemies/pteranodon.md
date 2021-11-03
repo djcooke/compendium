@@ -6,6 +6,13 @@ start_floor: 166
 end_floor: 169
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Lightning Bolt
     description: 'telegraphed circle AoE'

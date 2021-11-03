@@ -5,6 +5,13 @@ image: archaeosaur.png
 start_floor: 165
 end_floor: 169
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Underbite
     description: tankbuster

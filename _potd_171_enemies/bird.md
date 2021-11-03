@@ -6,6 +6,13 @@ start_floor: 176
 end_floor: 179
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: false
+  resolution: false
 abilities:
   - name: Filoplumes
     description: tankbuster

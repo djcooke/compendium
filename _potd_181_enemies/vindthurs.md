@@ -7,6 +7,13 @@ start_floor: 184
 end_floor: 186
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: false
+  resolution: false
 abilities:
   - name: Freezeover
     description: 'telegraphed circle AoE'

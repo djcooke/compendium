@@ -6,6 +6,13 @@ start_floor: 161
 end_floor: 163
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Chilling Cyclone
     description: 'telegraphed conal AoE'

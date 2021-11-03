@@ -6,6 +6,13 @@ image: bicephalus.png
 start_floor: 194
 end_floor: 198
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: false
+  slow: true
+  stun: false
+  resolution: true
 abilities:
   - name: Glass Punch
     description: tank buster

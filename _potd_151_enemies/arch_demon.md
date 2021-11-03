@@ -6,6 +6,13 @@ start_floor: 157
 end_floor: 159
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Abyssal Swing
     description: 'telegraphed conal AoE. Try to stay very near or far when

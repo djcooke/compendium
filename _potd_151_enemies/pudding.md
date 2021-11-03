@@ -6,6 +6,13 @@ family: Flan
 start_floor: 151
 end_floor: 154
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Amorphic Flail
     description: 'tankbuster (melee)'

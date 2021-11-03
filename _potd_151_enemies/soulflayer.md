@@ -5,6 +5,13 @@ image: soulflayer.png
 start_floor: 156
 end_floor: 159
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: false
+  slow: false
+  stun: true
+  resolution: false
 abilities:
   - name: Mind Blast
     description: 'telegraphed pointblank AoE'
@@ -12,6 +19,7 @@ abilities:
     description: 'drains HP'
 notes:
   - Caster - kiting doesn't help to mitigate damage
+  - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
   MCH:
     difficulty: Hard

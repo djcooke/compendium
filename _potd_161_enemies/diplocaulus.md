@@ -6,6 +6,13 @@ image: diplocaulus.png
 start_floor: 166
 end_floor: 169
 agro: Proximity
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Mucin
     description: 'grants Stoneskin that can''t be broken for a few seconds. Can

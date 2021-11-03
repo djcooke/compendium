@@ -6,6 +6,13 @@ start_floor: 174
 end_floor: 176
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: true
+  slow: true
+  stun: false
+  resolution: false
 notes:
   - 'Enrage after 30 seconds - does draw-in that applies weight, then a huge AoE'
   - Knockback immunity can prevent draw-in

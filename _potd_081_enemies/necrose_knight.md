@@ -5,9 +5,17 @@ image: necrose_knight.png
 start_floor: 81
 end_floor: 89
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: false
+  stun: false
+  resolution: true
 gallery_only: true
 notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
+  - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Laniaitte... Francel... I wish you all...'
 ---

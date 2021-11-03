@@ -97,6 +97,14 @@ agro_types:
   - Sight
   - Sound
 
+statuses:
+  - bind
+  - heavy
+  - sleep
+  - slow
+  - stun
+  - resolution
+
 defaults:
   - scope:
       path: ""

@@ -4,6 +4,13 @@ nickname: Knight
 start_floor: 195
 end_floor: 199
 agro: Proximity
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: false
+  slow: true
+  stun: false
+  resolution: true
 abilities:
   - name: Death Spiral
     description: scary-looking telegraphed donut AoE

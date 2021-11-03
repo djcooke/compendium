@@ -5,6 +5,13 @@ image: morbol.png
 start_floor: 117
 end_floor: 119
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: '(Unnamed)'
     description: 'instant conal AoE applying sleep and slow'

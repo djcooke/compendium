@@ -6,6 +6,13 @@ start_floor: 111
 end_floor: 113
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Sticky Tongue
     description: 'draw-in that also stuns if you are looking AWAY; be sure to

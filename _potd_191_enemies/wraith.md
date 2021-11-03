@@ -4,6 +4,13 @@ nickname: Wraith
 start_floor: 192
 end_floor: 199
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: true
 abilities:
   - name: Scream
     description: 'huge telegraphed pointblank AoE that inflicts terror. Can be

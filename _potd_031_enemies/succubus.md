@@ -6,6 +6,12 @@ start_floor: 31
 end_floor: 35
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
 abilities:
   - name: Dark Mist
     description: 'telegraphed pointblank AoE cuasing terror'

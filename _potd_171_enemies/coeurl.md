@@ -4,6 +4,13 @@ nickname: Coeurl
 start_floor: 176
 end_floor: 179
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Megablaster
     description: 'telegraphed conal AoE. Doesn''t use this while you''re

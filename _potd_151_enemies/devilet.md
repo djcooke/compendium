@@ -6,6 +6,13 @@ image: devilet.png
 start_floor: 155
 end_floor: 159
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: false
+  stun: true
+  resolution: false
 abilities:
   - name: Ice Spikes
     description: 'Causes you to take significant damage whenever you hit the
@@ -20,6 +27,7 @@ notes:
   - 'Some people prefer to disengage during Ice Spikes and stun/interrupt Void
     Blizzard. Make sure to disengage again quickly, but you will probably still
     get one autoattack in and take Ice Spikes damage.'
+  - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
   MCH:
     difficulty: Medium

@@ -5,6 +5,13 @@ family: Flytrap
 start_floor: 191
 end_floor: 194
 agro: Sound
+vulnerabilities:
+  bind: unknown
+  heavy: unknown
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: '?'
     description: telegraphed conal AoE

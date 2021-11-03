@@ -5,6 +5,13 @@ image: lion.png
 start_floor: 174
 end_floor: 178
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Mark of the Beast
     description: 'instant cleave attack'

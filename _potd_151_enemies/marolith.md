@@ -6,6 +6,13 @@ start_floor: 154
 end_floor: 157
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Carpomission
     description: tankbuster

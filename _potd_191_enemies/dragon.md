@@ -4,6 +4,13 @@ nickname: Dragon
 start_floor: 193
 end_floor: 196
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: false
+  stun: true
+  resolution: true
 abilities:
   - name: Evil Eye
     description: 360 degree gaze - look away

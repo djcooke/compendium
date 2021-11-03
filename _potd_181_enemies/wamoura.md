@@ -5,6 +5,13 @@ start_floor: 181
 end_floor: 183
 patrol: true
 agro: Sight
+vulnerabilities:
+  bind: true
+  heavy: true
+  sleep: false
+  slow: true
+  stun: true
+  resolution: false
 abilities:
   - name: Poison Dust
     description: 'telegraphed conal AoE'

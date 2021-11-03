@@ -5,6 +5,13 @@ start_floor: 191
 end_floor: 193
 patrol: true
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: false
+  sleep: false
+  slow: true
+  stun: true
+  resolution: true
 abilities:
   - name: Butterfly Float
     description: '(painful) gap closer. Does this on first agro and every 30

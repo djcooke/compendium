@@ -4,6 +4,13 @@ nickname: Gourmand
 start_floor: 196
 end_floor: 199
 agro: Proximity
+vulnerabilities:
+  bind: false
+  heavy: true
+  sleep: true
+  slow: true
+  stun: true
+  resolution: true
 abilities:
   - name: '?'
     description: tank buster

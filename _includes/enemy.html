@@ -11,6 +11,40 @@
     </label>
   </div>
 </div>
+
+<div style="margin: 1.33em 0;">
+  <span>Vulnerabilities:</span>
+  <div style="display: inline-block; vertical-align: middle;">
+    {% for status in site.statuses %}
+      {% if status == 'resolution' and include.resolution_possible != true %}
+        {% continue %}
+      {% endif %}
+      {% assign image = '/assets/images/status/' | append: status %}
+      {% if enemy.vulnerabilities[status] == true %}
+        {% if status == 'resolution' %}
+          {% assign alt = 'Weak to ' %}
+        {% else %}
+          {% assign alt = 'Vulnerable to ' %}
+        {% endif %}
+        {% assign alt = alt | append: status %}
+      {% elsif enemy.vulnerabilities[status] == false %}
+        {% assign image = image | append: '_immune' %}
+        {% if status == 'resolution' %}
+          {% assign alt = 'Not weak to ' %}
+        {% else %}
+          {% assign alt = 'Immune to ' %}
+        {% endif %}
+        {% assign alt = alt | append: status %}
+      {% else %}
+        {% assign image = image | append: '_unknown' %}
+        {% assign alt = status | capitalize | append: ' status unknown' %}
+      {% endif %}
+      {% assign image = image | append: '.png' | relative_url %}
+      <img src="{{ image }}" alt="{{ alt }}" title="{{ alt }}" width="27" height="32">
+    {% endfor %}
+  </div>
+</div>
+
 {% if include.enemy.abilities %}
   <h4>Abilities</h4>
   <ul>
