@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Coeurl
 nickname: Coeurl
+image: coeurl.png
 start_floor: 176
 end_floor: 179
 agro: Sight
