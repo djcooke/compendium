@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Taurus
 nickname: Taurus
+image: taurus.png
 start_floor: 156
 end_floor: 159
 agro: Sight
