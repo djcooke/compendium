@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Worm
 nickname: Worm
+image: worm.png
 start_floor: 183
 end_floor: 189
 agro: Sound

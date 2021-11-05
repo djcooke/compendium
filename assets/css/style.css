@@ -245,6 +245,10 @@ img.boss {
   background-color: var(--background);
 }
 
+.noteImage {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 600px) {
 
   #nav {

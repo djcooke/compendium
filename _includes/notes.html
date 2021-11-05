@@ -1,14 +1,25 @@
 {% if include.notes and include.notes.size > 0 %}
   <ul>
     {% for note in include.notes %}
-      {% if note.subnotes %}
-        <li>
+      <li>
+        {% if note.note %}
           {{ note.note }}
+        {% else %}
+          {{ note }}
+        {% endif %}
+        {% if note.image %}
+          {% assign image_url = '/assets/images/' | append: note.image | relative_url %}
+          <a href="{{ image_url }}" target="_blank">
+            <img class="noteImage" src="{{ image_url }}">
+          </a>
+        {% endif %}
+        {% if note.image_caption %}
+          {{ note.image_caption }}
+        {% endif %}
+        {% if note.subnotes %}
           {% include notes.html notes=note.subnotes %}
-        </li>
-      {% else %}
-        <li>{{ note }}</li>
-      {% endif %}
+        {% endif %}
+      </li>
     {% endfor %}
   </ul>
 {% elsif include.hide_empty != true %}

@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Wamoura
 nickname: Wamoura
+image: wamoura.png
 start_floor: 181
 end_floor: 183
 patrol: true

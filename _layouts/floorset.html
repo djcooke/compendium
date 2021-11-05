@@ -40,7 +40,7 @@ layout: default
 <h2 id=enemies>Enemies</h2>
 
 {% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
-{% assign enemies_sorted = site[enemy_collection] | sort: 'start_floor' | sort: 'gallery_only' %}
+{% assign enemies_sorted = site[enemy_collection] | sort: 'end_floor' | sort: 'start_floor' | sort: 'gallery_only' %}
 {% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
     | append: page.floorset | append: '/' | relative_url %}
 <div id="galleryContainer">

@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Archaeosaur
 nickname: Archaeosaur
+image: archaeosaur.png
 start_floor: 184
 end_floor: 188
 agro: Sight
