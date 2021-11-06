@@ -207,7 +207,7 @@ li li:first-child {
   color: var(--on-surface-bright);
 }
 
-img.boss {
+img.surfaceImage {
   display: block;
   height: 200px;
   margin: auto;
