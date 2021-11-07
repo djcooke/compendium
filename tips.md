@@ -84,7 +84,7 @@ There are some wall traps here, especially in the donut room. Pictures needed
 #### PotD 151+
 
 * Dead-end room with the square wall:
-  <img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}">
 * Dead-end "Stonehenge" room (has square pillars) has one in the same spot as
   above. Picture needed
 * Room the with blocky wall on the east side can have a trap near the middle of
@@ -94,7 +94,8 @@ There are some wall traps here, especially in the donut room. Pictures needed
 
 * The room with narrow strips going to the corners where chests sometimes spawn
   can have traps at the start of these narrow strips, making it impossible to
-  collect the chest without hitting the trap (Pictures needed)
+  collect the chest without hitting the trap:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
 * I'm sure there are some others. Pictures needed
 * Some rooms have fences or other items that push you away from the walls, and
   there can be traps along the edges of these

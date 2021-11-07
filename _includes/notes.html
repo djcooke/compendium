@@ -10,11 +10,11 @@
         {% if note.image %}
           {% assign image_url = '/assets/images/' | append: note.image | relative_url %}
           <a href="{{ image_url }}" target="_blank">
-            <img class="noteImage" src="{{ image_url }}">
+            <br><img class="noteImage" src="{{ image_url }}">
           </a>
         {% endif %}
         {% if note.image_caption %}
-          {{ note.image_caption }}
+          <br>{{ note.image_caption }}
         {% endif %}
         {% if note.subnotes %}
           {% include notes.html notes=note.subnotes %}
