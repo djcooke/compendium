@@ -72,7 +72,7 @@ layout: default
     </h4>
     {% for enemy in enemies_sorted %}
       <div class="galleryJobNotes">
-        {% for job in site.jobs %}
+        {% for job in site.data.jobs %}
           <div class="jobSpecific job{{ job }}">
             {% if enemy.job_specifics and enemy.job_specifics[job] %}
               <p>Difficulty: {{ enemy.job_specifics[job].difficulty | default: 'Unrated' }}</p>
@@ -91,7 +91,7 @@ layout: default
 <h2>Enemies by Agro Type</h2>
 
 <table class="banded">
-  {% for agro_type in site.agro_types %}
+  {% for agro_type in site.data.agro_types %}
     {% assign enemies = '' %}
     {% assign first = true %}
     {% assign index = 0 %}
@@ -169,7 +169,7 @@ layout: default
       {% include job_select.html %}
     </h4>
 
-    {% for job in site.jobs %}
+    {% for job in site.data.jobs %}
       <div class="jobSpecific job{{ job }}">
           {% assign notes = nil %}
           {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].notes %}

@@ -15,7 +15,7 @@
 <div style="margin: 1.33em 0;">
   <span>Vulnerabilities:</span>
   <div style="display: inline-block; vertical-align: middle;">
-    {% for status in site.statuses %}
+    {% for status in site.data.statuses %}
       {% if status == 'resolution' and include.resolution_possible != true %}
         {% continue %}
       {% endif %}

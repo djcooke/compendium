@@ -73,38 +73,6 @@ collections:
   potd_191_enemies:
     output: false
 
-jobs:
-  - AST
-  - BLM
-  - BRD
-  - DNC
-  - DRG
-  - DRK
-  - GNB
-  - MCH
-  - MNK
-  - NIN
-  - PLD
-  - RDM
-  - SAM
-  - SCH
-  - SMN
-  - WAR
-  - WHM
-
-agro_types:
-  - Proximity
-  - Sight
-  - Sound
-
-statuses:
-  - bind
-  - heavy
-  - sleep
-  - slow
-  - stun
-  - resolution
-
 defaults:
   - scope:
       path: ""

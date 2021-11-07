@@ -190,7 +190,7 @@ are concealed, the trap will not be sprung.
 
 <div class="surfacePane" markdown="1">
 
-{% for job in site.jobs %}
+{% for job in site.data.jobs %}
   <div class="jobSpecific job{{ job }}">
     {% assign notes = nil %}
     {% if page.job_specific_notes[job] %}
