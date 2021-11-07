@@ -26,3 +26,20 @@ resources.
 
 -Daleven Vindhler
 </div>
+
+## Recent Updates
+
+<div class="surfacePane" markdown="1">
+
+{% for change in site.data.changelog limit:5 %}
+  <h3>{{ change.date }}</h3>
+  <ul>
+  {% for update in change.updates %}
+    <li>{{ update }}</li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+
+See [full change log](changelog.html) for older updates.
+
+</div>
