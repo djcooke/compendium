@@ -3,8 +3,9 @@ layout: default
 title: Contributing
 ---
 
-Have corrections or additional knowledge to share? Great! There are several
-ways to contribute to the Compendium.
+Have corrections or additional knowledge to share? Great! I'm open to any
+suggestions for improving the site as well. There are several ways to
+contribute to the Compendium.
 
 ## Make a Pull Request
 
@@ -12,8 +13,8 @@ ways to contribute to the Compendium.
 
 If you can make the changes yourself, submitting a pull request is easiest for
 me! If it's a large change or you're not sure it'll be accepted for some
-reason, it would be best to open an issue or contact me on Discord before you
-spend the time on it.
+reason, it would be best to open an issue or contact me on Discord to discuss
+before you spend the time on it.
 
 [GitHub repo](https://github.com/djcooke/compendium)
 
@@ -24,7 +25,7 @@ spend the time on it.
 <div class="surfacePane" markdown="1">
 
 If you have a GitHub account or want to make one, this is the best place to
-track any suggestions or requests.
+track and discuss any suggestions or requests.
 
 [New Issue](https://github.com/djcooke/compendium/issues/new)
 
