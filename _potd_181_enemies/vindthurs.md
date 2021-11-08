@@ -6,7 +6,7 @@ image: vindthurs.png
 start_floor: 184
 end_floor: 186
 patrol: true
-agro: Sight
+agro: Proximity
 vulnerabilities:
   bind: true
   heavy: true

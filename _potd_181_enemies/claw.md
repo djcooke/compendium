@@ -19,8 +19,8 @@ abilities:
     description: 'attack that applies slow. Can be outrun'
 notes:
   - 'Does a draw-in that applies Prey status followed by Impale. Knockback
-    immunity does not work, but draw-in will not work on floors with the no
-    knockback debuff'
+    immunity does not work, but draw-in will not work on floors with knockback
+    penalty, making them easier to deal with'
 job_specifics:
   MCH:
     difficulty: Hard

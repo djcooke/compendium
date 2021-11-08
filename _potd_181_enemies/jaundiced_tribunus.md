@@ -1,6 +1,7 @@
 ---
 name: Jaundiced Tribunus
 family: Fallen NPC
+image: jaundiced_tribunus.png
 start_floor: 181
 end_floor: 189
 agro: Proximity

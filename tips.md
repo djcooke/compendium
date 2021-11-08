@@ -85,8 +85,9 @@ There are some wall traps here, especially in the donut room. Pictures needed
 
 * Dead-end room with the square wall:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}">
-* Dead-end "Stonehenge" room (has square pillars) has one in the same spot as
-  above. Picture needed
+* Dead-end "Stonehenge" room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}">
+  <br>Image courtesy of Nisei (Discord: chakku#3093)
 * Room the with blocky wall on the east side can have a trap near the middle of
   the wall. This one seems more rare than the other two. Picture needed
 

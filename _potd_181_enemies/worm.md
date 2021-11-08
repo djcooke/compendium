@@ -18,9 +18,12 @@ abilities:
     there are several worms nearby as getting hit by a few of these at once
     could kill you'
 notes:
-  - Double-attacks
   - 'Enrages after 30 seconds - does draw-in and a pointblank AoE. Knockback
-    immunity does not work. The draw-in can be out-ranged, but it''s big'
+    immunity does not work, but draw-in will not work on floors with knockback
+    penalty, making them easier to deal with. The draw-in can also be
+    out-ranged, but it''s big'
+  - 'Can appear on any floor from 181-189, but seems fairly rare in the earlier
+    floors, and more common in the later floors'
 job_specifics:
   MCH:
     difficulty: Hard

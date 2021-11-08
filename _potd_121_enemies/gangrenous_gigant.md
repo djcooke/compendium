@@ -1,6 +1,7 @@
 ---
 name: Gangrenous Gigant
 family: Fallen NPC
+image: gangrenous_gigant.png
 start_floor: 121
 end_floor: 129
 agro: Proximity
