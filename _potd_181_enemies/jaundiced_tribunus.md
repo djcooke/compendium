@@ -17,4 +17,12 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+job_specifics:
+  MCH:
+    difficulty: Hard
+  RDM:
+    difficulty: Extreme
+    notes:
+      - Steel required
+      - Strength recommended
 ---

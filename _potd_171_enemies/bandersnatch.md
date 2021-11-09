@@ -23,4 +23,6 @@ job_specifics:
     difficulty: Medium
     notes:
       - Can be painful. Sprint and Leg Graze recommended
+  RDM:
+    difficulty: Hard
 ---

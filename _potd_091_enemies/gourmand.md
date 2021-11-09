@@ -12,4 +12,9 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: true
+abilities:
+  - name: 'Beatdown'
+    description: tank buster
+  - name: 'Dirty Sneeze'
+    description: 'random target damage and stun; not used vs. solo adventurers'
 ---

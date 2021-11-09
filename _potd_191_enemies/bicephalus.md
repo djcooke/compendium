@@ -22,4 +22,8 @@ job_specifics:
   MCH:
     difficulty: Medium
     notes: Steel recommended. Tank buster hurts
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
 ---

@@ -32,4 +32,8 @@ job_specifics:
     notes:
       - 'Can be VERY painful. Only pull with Sprint and burst unless you have
         steel active'
+  RDM:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
 ---

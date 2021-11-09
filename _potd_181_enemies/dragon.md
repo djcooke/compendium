@@ -13,11 +13,17 @@ vulnerabilities:
   stun: false
   resolution: false
 abilities:
-  - name: '?'
+  - name: 'Sheet of Ice'
     description: 'instant circle AoE that applies a strong DoT'
+  - name: 'Granite Rain'
+    description: telegraphed pointblank AoE
 job_specifics:
   MCH:
     difficulty: Extreme
     notes:
       - Worst thing you can fight. Avoid
+  RDM:
+    difficulty: Extreme
+    notes:
+      - Strength AND steel recommended
 ---

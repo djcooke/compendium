@@ -2,7 +2,7 @@
 name: Deep Palace Worm
 nickname: Worm
 image: worm.png
-start_floor: 183
+start_floor: 181
 end_floor: 189
 agro: Sound
 vulnerabilities:
@@ -29,4 +29,9 @@ job_specifics:
     difficulty: Hard
     notes:
       - Avoid if possible
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
+      - Strength recommended
 ---

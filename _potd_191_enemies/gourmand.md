@@ -12,12 +12,18 @@ vulnerabilities:
   stun: true
   resolution: true
 abilities:
-  - name: '?'
+  - name: 'Beatdown'
     description: tank buster
+  - name: 'Dirty Sneeze'
+    description: 'random target damage and stun; not used vs. solo adventurers'
 job_specifics:
   MCH:
     difficulty: Medium
     notes:
       - Steel required
       - Can be painful. Sprint and Leg Graze recommended
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
 ---

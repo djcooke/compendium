@@ -22,4 +22,14 @@ notes:
   - 'Sometimes found in gold chests'
   - 'Pomander of Alteration transforms all enemies in a random room on the next
   floor into either mimics or mandragoras'
+job_specifics:
+  MCH:
+    difficulty: Medium
+    notes:
+      - 'Crits can be scary, especially under gloom or HP penalty'
+      - 'Still better than a lot of the other things you can fight on this set'
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel recommended
 ---

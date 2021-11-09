@@ -14,6 +14,10 @@ vulnerabilities:
 abilities:
   - name: Death Spiral
     description: scary-looking telegraphed donut AoE
+  - name: Skullsplinter
+    description: tank buster
+  - name: Ossify
+    description: does damage and increases defense
 notes:
   - 'Do not fight one of these with a Wraith nearby, as the Wraith can cast
     Accursed Pox outside of combat and fill in the safe spot normally left
@@ -23,4 +27,9 @@ job_specifics:
     difficulty: Medium
     notes:
       - Steel required
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
+      - Strength recommended
 ---

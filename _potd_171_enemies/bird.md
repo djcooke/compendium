@@ -28,4 +28,6 @@ job_specifics:
     note:
       - 'These are usually fairly easy, but can do some burst damage, and are
         more dangerous with enchantments such as HP down or gloom'
+  RDM:
+    difficulty: Medium
 ---

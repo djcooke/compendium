@@ -26,4 +26,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required unless floor has no knockback debuff
+  RDM:
+    difficulty: Extreme
+    notes:
+      - Steel required
 ---

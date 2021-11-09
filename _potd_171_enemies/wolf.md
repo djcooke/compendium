@@ -25,4 +25,8 @@ job_specifics:
     notes:
       - Avoid if possible
       - Sprint and Leg Graze if you have to fight them
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
 ---

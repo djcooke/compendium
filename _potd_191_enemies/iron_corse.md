@@ -22,4 +22,8 @@ job_specifics:
     notes:
       - Avoid if possible
       - Steel recommended and Tactician before pull
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
 ---

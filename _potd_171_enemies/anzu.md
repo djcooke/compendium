@@ -29,4 +29,8 @@ job_specifics:
         GCDs and then use before it dives on you'
       - 'Consider raging if you''re going to have to kill a few to get off the
         floor'
+  RDM:
+    difficulty: Extreme
+    notes:
+      - Witching recommended
 ---

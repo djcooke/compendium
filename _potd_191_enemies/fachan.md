@@ -14,15 +14,20 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
+  - name: Stone
+    description: Used instead of auto-attacks
   - name: Level 5 Death
     description: 'untelegraphed conal gaze AoE causing instant death - look
     away, get behind, or get away'
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Can be slowed if transfigured via Pomander of Witching'
+  - 'Interrupts spell casts very often'
 job_specifics:
   MCH:
     difficulty: Medium
     notes:
       - Steel required
+  RDM:
+    difficulty: Medium
 ---

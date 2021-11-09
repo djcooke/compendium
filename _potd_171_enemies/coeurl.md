@@ -27,4 +27,6 @@ job_specifics:
     notes:
       - 'Delay getting paralyzed by maintaining distance with Sprint and Leg
         Graze'
+  RDM:
+    difficulty: Medium
 ---

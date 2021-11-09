@@ -27,4 +27,8 @@ job_specifics:
     notes:
       - 'Interrupt Scream only if you can''t get out. The long cast gives you
         lots of breathing room'
+  RDM:
+    difficulty: Easy
+    notes:
+      - Save Displacement for Scream if possible to move out faster
 ---

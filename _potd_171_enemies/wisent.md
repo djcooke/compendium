@@ -13,14 +13,23 @@ vulnerabilities:
   slow: true
   stun: false
   resolution: false
-notes:
-  - 'Enrage after 30 seconds - does draw-in that applies weight, then a huge AoE'
-  - Knockback immunity can prevent draw-in
-  - AoE can be interrupted
+abilities:
+  - name: Khoomii
+    description: 'draws players in and applies an extreme heavy debuff; used 30
+    seconds after pull; can use knockback immunity. Draw-in will not work under
+    the Knockback Penalty enchantment'
+  - name: Horroisonous Blast
+    description: 'telegraphed pointblank AoE that causes damage and paralyze;
+    used immediately after Khoomii, making it difficult to escape'
 job_specifics:
   MCH:
     difficulty: Easy
     notes:
       - 'Very dangerous with no abilities as you can''t prevent draw-in,
         interrupt the AoE, or burst it down quickly'
+  RDM:
+    difficulty: Medium
+    notes:
+      - Strength or steel recommended
+      - You can use Displacement to get out of the Horroisonous Blast AoE
 ---

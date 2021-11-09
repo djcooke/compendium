@@ -13,6 +13,8 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
+  - name: Beak Snap
+    description: tank buster
   - name: Shriek
     description: telegraphed pointblank AoE
 job_specifics:
@@ -20,4 +22,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - Can be painful. Sprint and Leg Graze recommended
+  RDM:
+    difficulty: Hard
+    notes:
+      - Steel required
 ---

@@ -12,4 +12,8 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Voidblood
+    description: 'telegraphed circle AoE that inflicts Voidblood (increases
+    damage taken); not used vs. solo adventurers'
 ---

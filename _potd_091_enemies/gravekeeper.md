@@ -12,4 +12,9 @@ vulnerabilities:
   slow: true
   stun: false
   resolution: true
+abilities:
+  - name: Nail in the Coffin
+    description: tank buster
+  - name: Vengeance Soul
+    description: '?; not used vs. solo adventurers'
 ---

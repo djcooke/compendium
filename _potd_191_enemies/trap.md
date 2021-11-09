@@ -13,7 +13,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: '?'
+  - name: 'Swift Sough'
     description: telegraphed conal AoE
 notes:
   - 'Will not come into melee range if you stay away from it, doing very little
@@ -25,4 +25,6 @@ job_specifics:
     difficulty: Easy
     notes:
       - Easiest thing to fight here. Just keep your distance
+  RDM:
+    difficulty: Easy
 ---

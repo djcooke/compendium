@@ -25,6 +25,8 @@ abilities:
     description: 'telegraphed conal AoE'
 notes:
   - 'These mostly just spam abilities, doing very little autoattack damage'
+  - 'Try to stand behind it during Dragon''s Voice to delay its next
+  auto-attack'
 job_specifics:
   MCH:
     difficulty: Easy
@@ -33,4 +35,6 @@ job_specifics:
         when necessary. A bit of range will help to avoid some autoattacks too'
       - 'Can interrupt a Voice if you need to, but save for emergencies
         (avoiding another patrol, etc.)'
+  RDM:
+    difficulty: Easy
 ---

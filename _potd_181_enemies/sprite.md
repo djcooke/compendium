@@ -12,12 +12,18 @@ vulnerabilities:
   slow: false
   stun: true
   resolution: false
+abilities:
+  - name: Blizzard
+    description: 'Used instead of auto-attacks'
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Can be slowed if transfigured via Pomander of Witching'
+  - 'Interrupts spell casts very often'
 job_specifics:
   MCH:
     difficulty: Hard
     notes:
       - Steel required
+  RDM:
+    difficulty: Medium
 ---

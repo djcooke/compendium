@@ -13,10 +13,12 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Evil Eye
-    description: 360 degree gaze - look away
+    description: conal gaze AoE - look away, get behind, or get away
   - name: Miasma Breath
     description: telegraphed conal AoE
 job_specifics:
   MCH:
+    difficulty: Easy
+  RDM:
     difficulty: Easy
 ---
