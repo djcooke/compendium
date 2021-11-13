@@ -29,9 +29,11 @@
         <div id="hohMenu" class="submenu">
           <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
           <ul>
+            {% for floorset in site.hoh_floorsets %}
             <li>
-              <a href="{{ '/' | relative_url }}">Coming soon!</a>
+              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
             </li>
+          {% endfor %}
           </ul>
         </div>
         <a href="{{ '/resources.html' | relative_url }}">Resources</a>

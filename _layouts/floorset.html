@@ -54,7 +54,7 @@ layout: default
       {% if enemy.image %}
         <img class="galleryImage" src="{{ image_dir | append: enemy.image }}">
       {% else %}
-        <span class="galleryImage">No Image</span>
+        <span class="galleryImage">Picture Needed</span>
       {% endif %}
     {% endfor %}
     <div id="galleryLeft" onClick="selectPrevious()">&#10094;</div>
