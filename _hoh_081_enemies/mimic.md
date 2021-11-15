@@ -3,8 +3,8 @@ name: Quivering Coffer
 nickname: Mimic
 family: Mimic
 image: ../mimic_gold.png
-start_floor: 71
-end_floor: 79
+start_floor: 81
+end_floor: 89
 agro: Proximity
 vulnerabilities:
   bind: false
@@ -24,7 +24,11 @@ notes:
   floor into either mimics or mandragoras'
 job_specifics:
   MCH:
-    difficulty: Medium
+    difficulty: Hard
+    notes:
+      - 'Steel required'
   PLD:
-    difficulty: Medium
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
 ---

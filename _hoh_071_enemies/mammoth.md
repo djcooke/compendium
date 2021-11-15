@@ -15,8 +15,8 @@ abilities:
   - name: 'Wooly Inspiration'
     description: 'telegraphed narrow but long conal AoE draw-in'
   - name: '?'
-    description: 'non-telegraphed conal AoE; used immediately after draw-in,
-    but is a wider cone than the draw-in - get behind!'
+    description: 'non-telegraphed conal AoE; used instantly after draw-in, but
+    is a wider cone than the draw-in - get behind!'
   - name: 'Prehistoric Trumpet'
     description: 'huge non-telegraphed pointblank AoE; used out of combat only'
 notes:

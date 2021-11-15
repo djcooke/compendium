@@ -76,6 +76,8 @@ collections:
     output: true
   hoh_071_enemies:
     output: false
+  hoh_081_enemies:
+    output: false
 
 defaults:
   - scope:

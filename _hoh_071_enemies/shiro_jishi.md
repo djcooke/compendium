@@ -11,7 +11,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Pounce
@@ -26,7 +26,7 @@ job_specifics:
       - 'These hit almost as hard as griffins, but do less AoE, so you don''t
       get much time to recover'
   PLD:
-    difficulty: Easy
+    difficulty: Medium
     notes:
       - 'Stun Cry for uptime'
 ---
