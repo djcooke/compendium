@@ -2,6 +2,7 @@
 name: Heavenly Araragi
 nickname: Araragi
 family: Goobue
+image: araragi.png
 start_floor: 86
 end_floor: 89
 agro: Sight

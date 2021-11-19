@@ -2,6 +2,7 @@
 name: Heavenly Yuki-Tokage
 nickname: Yuki-Tokage
 family: Elbst
+image: yuki_tokage.png
 start_floor: 73
 end_floor: 77
 agro: Sight

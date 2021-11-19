@@ -6,15 +6,21 @@ start_floor: 86
 end_floor: 89
 agro: Sight
 vulnerabilities:
-  bind: unknown
+  bind: false
   heavy: false
   sleep: true
-  slow: false
+  slow: true
   stun: true
 abilities:
-  - name: '?'
+  - name: 'Straight Punch'
     description: 'tankbuster'
+  - name: 'Plain Pound'
+    description: 'telegraphed circle AoE'
 job_specifics:
   MCH:
     difficulty: Extreme
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended'
 ---

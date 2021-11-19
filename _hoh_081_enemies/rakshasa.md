@@ -2,6 +2,7 @@
 name: Heavenly Rakshasa
 nickname: Rakshasa
 family: Manticore
+image: rakshasa.png
 start_floor: 86
 end_floor: 89
 patrol: true

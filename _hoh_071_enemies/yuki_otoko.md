@@ -2,6 +2,7 @@
 name: Heavenly Yuki-Otoko
 nickname: Yuki-Otoko
 family: Yeti
+image: yuki_otoko.png
 start_floor: 77
 end_floor: 79
 agro: Sight
@@ -9,7 +10,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Frozen Mist'

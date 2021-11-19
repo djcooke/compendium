@@ -2,6 +2,7 @@
 name: Heavenly Shinzei
 nickname: Shinzei
 family: Suud
+image: shinzei.png
 start_floor: 84
 end_floor: 86
 patrol: true
