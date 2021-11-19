@@ -97,14 +97,14 @@ There are some wall traps here, especially in the donut room. Pictures needed
   can have traps at the start of these narrow strips, making it impossible to
   collect the chest without hitting the trap:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
-* I'm sure there are some others. Pictures needed
-* Some rooms have fences or other items that push you away from the walls, and
-  there can be traps along the edges of these
+* Some rooms have fences that push you away from the walls, and there can be
+  traps along the edges of these. Pictures needed
 
 #### HoH 41-79
 
 * In the room with rocks coming out from the four corners, there can be a trap
-  on the corner of the rock that sticks out the most. Picture needed
+  on the corner of the rock that sticks out the most:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_41_1.png' | relative_url }}">
 
 #### HoH 81+
 
