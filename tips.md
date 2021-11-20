@@ -72,44 +72,13 @@ tips related to pomander usage.
 
 <div class="surfacePane" markdown="1">
 
+See [Traps in the Knowledge section](knowledge.html#traps) for information on
+the trap types and icons. As for dealing with them:
+
 ### Avoid Them
 
 This usually means hugging the walls, as traps are **usually** not against the
-walls. There are exceptions, however...
-
-#### PotD 111-149
-
-There are some wall traps here, especially in the donut room. Pictures needed
-
-#### PotD 151+
-
-* Dead-end room with the square wall:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}">
-* Dead-end "Stonehenge" room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}">
-  <br>Image courtesy of Nisei (Discord: chakku#3093)
-* Room the with blocky wall on the east side can have a trap near the middle of
-  the wall. This one seems more rare than the other two. Picture needed
-
-#### HoH 1-29
-
-* The room with narrow strips going to the corners where chests sometimes spawn
-  can have traps at the start of these narrow strips, making it impossible to
-  collect the chest without hitting the trap:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
-* Some rooms have fences that push you away from the walls, and there can be
-  traps along the edges of these. Pictures needed
-
-#### HoH 41-79
-
-* In the room with rocks coming out from the four corners, there can be a trap
-  on the corner of the rock that sticks out the most:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_41_1.png' | relative_url }}">
-
-#### HoH 81+
-
-* In the room that has square pits/pools in the corners, making it kind-of "+"
-  shaped, there can be a trap along one of the pits. Picture needed
+walls. There are exceptions, however... See [Wall Traps](wall_traps.html).
 
 ### Survive Them
 
