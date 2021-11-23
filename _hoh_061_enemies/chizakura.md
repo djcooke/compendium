@@ -5,6 +5,7 @@ family: Leshy
 image: chizakura.png
 start_floor: 66
 end_floor: 69
+patrol: true
 agro: Sight
 vulnerabilities:
   bind: unknown

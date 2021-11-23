@@ -7,13 +7,13 @@ start_floor: 64
 end_floor: 67
 agro: Sound
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true
 abilities:
-  - name: '?'
+  - name: 'Swift Sough'
     description: 'telegraphed conal AoE'
 job_specifics:
   MCH:

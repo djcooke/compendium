@@ -10,7 +10,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Chilling Cyclone'

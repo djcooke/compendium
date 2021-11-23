@@ -4,6 +4,7 @@ nickname: Morbol
 image: morbol.png
 start_floor: 64
 end_floor: 66
+patrol: true
 agro: Sight
 vulnerabilities:
   bind: false
