@@ -9,7 +9,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Shatter'

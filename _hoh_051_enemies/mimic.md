@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: false
   sleep: false
   slow: false
-  stun: false
+  stun: true
 gallery_only: true
 abilities:
   - name: Malice
