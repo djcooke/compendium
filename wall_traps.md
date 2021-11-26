@@ -56,8 +56,8 @@ There are some wall traps here, especially in the donut room. Pictures needed
 
 <div class="surfacePane" markdown="1">
 
-* In the room with rocks coming out from the four corners, there can be a trap
-  on the corner of the rock in the north-east:
+* In the rocky room, there can be a trap on the corner of the rock in the
+  north-east:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_41_1.png' | relative_url }}">
 
 [Back to top](#top)
