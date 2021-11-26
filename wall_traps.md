@@ -44,7 +44,10 @@ There are some wall traps here, especially in the donut room. Pictures needed
   collect the chest without hitting the trap:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
 * Some rooms have fences that push you away from the walls, and there can be
-  traps along the edges of these. Pictures needed
+  traps along the edges of these
+  * South point of the room that's at the top of some stairs:
+    <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_2.png' | relative_url }}">
+  * There are more in this and/or similar rooms. Pictures needed
 
 [Back to top](#top)
 </div>
@@ -54,7 +57,7 @@ There are some wall traps here, especially in the donut room. Pictures needed
 <div class="surfacePane" markdown="1">
 
 * In the room with rocks coming out from the four corners, there can be a trap
-  on the corner of the rock that sticks out the most:
+  on the corner of the rock in the north-east:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_41_1.png' | relative_url }}">
 
 [Back to top](#top)
