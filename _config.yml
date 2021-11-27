@@ -74,6 +74,8 @@ collections:
     output: false
   hoh_floorsets:
     output: true
+  hoh_021_enemies:
+    output: false
   hoh_031_enemies:
     output: false
   hoh_041_enemies:
