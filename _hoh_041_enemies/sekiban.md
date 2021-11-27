@@ -11,4 +11,6 @@ vulnerabilities:
   sleep: false
   slow: true
   stun: false
+notes:
+  - 'Have an enrage'
 ---

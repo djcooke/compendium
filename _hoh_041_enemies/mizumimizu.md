@@ -13,4 +13,10 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: true
+abilities:
+  - name: '?'
+    description: 'draw-in that applies heavy; used ~30s after pull'
+  - name: '?'
+    description: 'telegraphed pointblank AoE for big damage (enrage); used
+    immediately after draw-in'
 ---
