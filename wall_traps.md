@@ -40,14 +40,17 @@ There are some wall traps here, especially in the donut room. Pictures needed
 <div class="surfacePane" markdown="1">
 
 * The room with narrow strips going to the corners where chests sometimes spawn
-  can have traps at the start of these narrow strips, making it impossible to
-  collect the chest without hitting the trap:
+  can have traps along these narrow strips, making it impossible to collect the
+  chest without hitting the trap:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
-* Some rooms have fences that push you away from the walls, and there can be
-  traps along the edges of these
-  * South point of the room that's at the top of some stairs:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_3.png' | relative_url }}">
+* There are three similar rooms that have fences coming out of three walls
+  * One of these rooms is at the top of some stairs, and has a trap at the
+    point of the fence on the south wall:
     <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_2.png' | relative_url }}">
-  * There are more in this and/or similar rooms. Pictures needed
+  * One has no stairs going into it, and has a trap along the south-east wall:
+    <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_4.png' | relative_url }}">
+  * One is at the bottom of some stairs, and has no known wall traps
 
 [Back to top](#top)
 </div>
