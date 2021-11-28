@@ -22,6 +22,16 @@ abilities:
   - name: 'Moldy Sneeze'
     description: 'telegraphed conal AoE; used immediately after draw-in; actual
     AoE may be wider than the telegraph - get behind!'
+notes:
+  - note: 'Rotation:'
+    subnotes:
+      - 'Goobue''s Grief'
+      - 'Moldy Phlegm'
+      - 'Goobue''s Grief'
+      - 'draw-in + Moldy Sneeze'
+      - 'Goobue''s Grief'
+      - 'Time for roughly 3 auto-attacks before it restarts (another Goobue''s
+      Grief)'
 job_specifics:
   MCH:
     difficulty: 'Easy if you can LoS Goobue''s Grief well'
