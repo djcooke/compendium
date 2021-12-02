@@ -226,7 +226,7 @@ img.surfaceImage {
   padding: 12px;
 }
 
-.surfacePane table {
+.surfacePane table:not(.unstyled) {
   border: 1px solid var(--background);
   border-collapse: collapse;
   width: 100%;
@@ -241,12 +241,61 @@ img.surfaceImage {
   color: var(--background);
 }
 
-.surfacePane tbody tr:nth-child(odd) {
+.surfacePane table:not(.unstyled) tbody tr:nth-child(odd) {
   background-color: var(--background);
 }
 
 .noteImage {
   max-width: 100%;
+}
+
+span.rotated {
+  display: block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.chartLegendEntry {
+  float: left;
+  cursor: pointer;
+}
+
+.chartLegendEntry span:last-child {
+  margin-left: 4px;
+  margin-right: 12px;
+}
+
+.percentAreaChart line {
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 5;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.percentAreaChart line.selected {
+  stroke: white;
+  stroke-width: 4;
+  stroke-dasharray: 5;
+  opacity: 1;
+}
+
+.percentAreaChart polygon {
+  stroke: black;
+  stroke-width: 2;
+}
+
+.percentAreaChart polygon.selectedShape {
+  stroke: white;
+  stroke-width: 4;
+  stroke-dasharray: 5;
+  fill: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @media screen and (max-width: 600px) {

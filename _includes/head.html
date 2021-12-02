@@ -5,6 +5,12 @@
   <title>{% if page.title and page.title != site.title %}{{ page.title | append: ' - '}}{% endif %} {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+
+  {% if page.scripts %}
+    {% for script in page.scripts %}
+      <script src="{{ '/assets/js/' | append: script | relative_url }}"></script>
+    {% endfor %}
+  {% endif %}
   
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/icon/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/icon/favicon-32x32.png' | relative_url }}">
