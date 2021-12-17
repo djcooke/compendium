@@ -11,7 +11,7 @@ vulnerabilities:
   bind: unknown
   heavy: unknown
   sleep: true
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Body Blow

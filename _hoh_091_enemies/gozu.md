@@ -2,6 +2,7 @@
 name: Heavenly Gozu
 nickname: Gozu
 family: Minotaur
+image: gozu.png
 start_floor: 91
 end_floor: 94
 patrol: true

@@ -1,6 +1,7 @@
 ---
 name: Heavenly Shabti
 nickname: Shabti
+image: shabti.png
 start_floor: 97
 end_floor: 99
 agro: Sight

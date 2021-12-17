@@ -2,6 +2,7 @@
 name: Heavenly Tenma
 nickname: Tenma
 family: Pegasus
+image: tenma.png
 start_floor: 96
 end_floor: 99
 agro: Sight
