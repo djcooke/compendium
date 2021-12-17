@@ -15,10 +15,12 @@ vulnerabilities:
 abilities:
   - name: Nail in the Coffin
     description: tank buster
-  - name: Vengeance Soul
-    description: '?; not used vs. solo adventurers'
+  - name: Vengeful Soul
+    description: 'instant circle AoE on random target; not used vs. solo
+    adventurers'
 notes:
   - 'Highest DPS enemy in PotD'
+  - 'If in a party, spread out to minimize damage from Vengeful Soul'
 job_specifics:
   MCH:
     difficulty: Extreme
