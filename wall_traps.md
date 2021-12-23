@@ -46,10 +46,12 @@ There are some wall traps here, especially in the donut room. Pictures needed
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_3.png' | relative_url }}">
 * There are three similar rooms that have fences coming out of three walls
   * One of these rooms is at the top of some stairs, and has a trap at the
-    point of the fence on the south wall:
+    point of the fence on the south (right) wall:
     <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_2.png' | relative_url }}">
-  * One has no stairs going into it, and has a trap along the south-east wall:
+  * One has no stairs going into it, and has traps along the south-east (far
+    left) wall and at the point of the fence on the south (far) wall:
     <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_4.png' | relative_url }}">
+    <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_5.png' | relative_url }}">
   * One is at the bottom of some stairs, and has no known wall traps
 
 [Back to top](#top)
