@@ -1,5 +1,5 @@
 ---
-name: Staff-Spinning Adventurer
+name: Staff-spinning Adventurer
 family: Fallen NPC
 image: staff_adventurer.png
 start_floor: 11

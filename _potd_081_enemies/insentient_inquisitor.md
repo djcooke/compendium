@@ -16,4 +16,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: The dragons will...rend you...asunder...'
 ---

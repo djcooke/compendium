@@ -1,6 +1,7 @@
 ---
-name: Spear-Shaking Adventurer
+name: Spear-shaking Adventurer
 family: Fallen NPC
+image: spear_adventurer.png
 start_floor: 11
 end_floor: 19
 agro: Proximity
@@ -16,4 +17,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: Oh, Dolorous. Even in death...I will always...'
 ---

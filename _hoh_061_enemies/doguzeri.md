@@ -10,11 +10,14 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Swift Sough'
     description: 'telegraphed conal AoE'
+notes:
+  - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
+  Witching since it doesn''t normally do melee auto-attacks'
 job_specifics:
   MCH:
     difficulty: Easy

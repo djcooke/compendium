@@ -1,5 +1,5 @@
 ---
-name: Sword-Spinning Adventurer
+name: Sword-spinning Adventurer
 family: Fallen NPC
 image: sword_adventurer.png
 start_floor: 11

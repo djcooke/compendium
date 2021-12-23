@@ -8,8 +8,8 @@ end_floor: 69
 patrol: true
 agro: Sight
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: true
   slow: true
   stun: false
