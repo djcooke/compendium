@@ -70,7 +70,7 @@ use depends on your max HP, so will mainly be based on your level, job, and
 food. In the early floors of PotD, the type of potion that's dropping from the
 floor you're on is likely sufficient. By the time you hit 60, you'll want to
 use either Max or Super Potions, depending on your job. Note that Super Potions
-do not drop in PotD even though they are best for many jobs in the later
+do not drop in PotD even though they are best for some jobs in the later
 floors. You will get tons of Super Potions from HoH.
 
 | Type (HQ) | Heals | Max | Best until Max HP |
@@ -79,8 +79,8 @@ floors. You will get tons of Super Potions from HoH.
 | Hi-Potion | 40% | 440 | 1,257 |
 | Mega-Potion | 35% | 840 | 2,800 |
 | X-Potion | 30% | 1300 | 4,333 |
-| Max-Potion | 30% | 2400 | 16,000 |
-| Super-Potion | 15% | 6000 | n/a |
+| Max-Potion | 30% | 2400 | 9,600 |
+| Super-Potion | 25% | 3600 | n/a |
 
 ### Food
 
