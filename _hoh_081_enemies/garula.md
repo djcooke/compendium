@@ -27,6 +27,9 @@ notes:
   - 'You can duck behind a corner as it uses Rush to steer it into the wall.
   You''ll still take damage, but it can give you a chance to heal before it''s
   in range to auto-attack'
+  - 'If LoSing Earthquake, you can peek out between stomps for uptime, but the
+  timing is weird. Damage is applied when it hits the ground as expected, but
+  it snapshots your position earlier, as its feet come off the ground'
 job_specifics:
   MCH:
     difficulty: Medium
