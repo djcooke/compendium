@@ -1,3 +1,7 @@
+- date: 2022-01-05
+  updates:
+    - 'Added Endwalker (6.0) kill times for most HoH bosses for SGE, SCH, WHM,
+    AST, SAM, and BLM, courtesy of Finh Bezahl'
 - date: 2022-01-04
   updates:
     - 'A few minor HoH enemy updates'
