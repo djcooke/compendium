@@ -33,4 +33,6 @@ job_specifics:
       - 'Try to bait the first Freefall so you can still be in range to DPS
       while it casts'
       - 'Steel or frailty recommended; have sprint and heals ready otherwise'
+  PLD:
+    difficulty: 'Medium'
 ---

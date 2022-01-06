@@ -10,7 +10,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 notes:
   - 'Does a tankbuster/knockback 3 times in a row'
@@ -18,6 +18,11 @@ notes:
   - 'Generally want to avoid these'
 job_specifics:
   MCH:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel required'
+      - 'Avoid if possible'
+  PLD:
     difficulty: 'Hard'
     notes:
       - 'Steel required'

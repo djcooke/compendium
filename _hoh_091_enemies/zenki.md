@@ -22,4 +22,6 @@ job_specifics:
     difficulty: 'Hard'
     notes:
       - 'Steel recommended'
+  PLD:
+    difficulty: 'Easy'
 ---

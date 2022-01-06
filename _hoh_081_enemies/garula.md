@@ -35,4 +35,6 @@ job_specifics:
     difficulty: Medium
   PLD:
     difficulty: Easy
+    notes:
+      - 'Stand behind during Earthquake'
 ---

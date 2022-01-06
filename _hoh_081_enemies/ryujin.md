@@ -18,7 +18,7 @@ abilities:
     description: 'telegraphed circle AoE'
   - name: Elbow Drop'
     description: 'non-telegraphed conal AoE BEHIND the enemy; used if there is
-    someone behind after [circle AoE]'
+    someone behind after Firewater'
 notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by
   it!'

@@ -27,6 +27,8 @@ job_specifics:
       - 'Steel recommended'
       - 'Use Arm''s Length to overwrite its haste with slow'
   PLD:
+    difficulty: 'Medium'
     notes:
+      - 'Steel recommended'
       - 'Try to stun Featherfoot for uptime'
 ---

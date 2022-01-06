@@ -24,4 +24,8 @@ job_specifics:
     difficulty: 'Medium'
     notes:
       - 'Steel recommended'
+  PLD:
+    difficulty: 'Easy'
+    notes:
+      - 'Interrupt or stun Nicker for uptime'
 ---

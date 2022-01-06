@@ -28,4 +28,6 @@ job_specifics:
   MCH:
     difficulty: Medium
     notes: 'Have heals ready - these hit HARD while the damage bonus is up'
+  PLD:
+    difficulty: 'Medium'
 ---

@@ -19,4 +19,6 @@ job_specifics:
     difficulty: 'Easy'
     notes:
       - 'So easy you can even kill them under gloom + item penalty + amnesia'
+  PLD:
+    difficulty: 'Easy'
 ---
