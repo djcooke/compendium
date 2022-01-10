@@ -32,7 +32,7 @@ scripts:
     <li>
       This is based on data I [Daleven] collected from my own runs only. The
       data for floors 81+ and especially 91+ is likely to be a bit off as at
-      this time, it's only based on about 530 chests from 81-89 and about 140
+      this time, it's only based on about 950 chests from 81-89 and about 280
       from 91-99. Data for floors 1-79 is based on 1000-2000 chests per set, so
       should be more accurate
     </li>
