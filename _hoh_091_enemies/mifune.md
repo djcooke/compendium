@@ -9,7 +9,7 @@ vulnerabilities:
   bind: unknown
   heavy: unknown
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: 'Valfodr'

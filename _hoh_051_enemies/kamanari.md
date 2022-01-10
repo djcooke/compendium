@@ -4,7 +4,7 @@ nickname: Kamanari
 image: kamanari.png
 start_floor: 51
 end_floor: 53
-agro: Proximity
+agro: Sound
 vulnerabilities:
   bind: false
   heavy: true

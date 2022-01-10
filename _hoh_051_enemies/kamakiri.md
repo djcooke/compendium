@@ -5,7 +5,7 @@ family: Mantis
 image: kamakiri.png
 start_floor: 51
 end_floor: 53
-agro: Proximity
+agro: Sound
 vulnerabilities:
   bind: true
   heavy: true

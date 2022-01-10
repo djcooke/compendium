@@ -10,7 +10,7 @@ vulnerabilities:
   bind: unknown
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Charybdis'

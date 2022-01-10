@@ -2,6 +2,7 @@
 name: Heavenly Nuppeppo
 nickname: MNK
 family: MNK
+image: nuppeppo_mnk.png
 start_floor: 91
 end_floor: 94
 agro: Sight

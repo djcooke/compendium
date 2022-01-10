@@ -14,6 +14,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Final Sting
-    description: 'Big damage; used if not killed fast enough; possible to
-    outrange'
+    description: 'Deals 99% max HP damage; used if not killed fast enough;
+    possible to outrange'
 ---
