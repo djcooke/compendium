@@ -267,29 +267,25 @@ span.rotated {
 
 .percentAreaChart line {
   stroke: black;
-  stroke-width: 2;
+  stroke-width: 1;
   stroke-dasharray: 5;
   opacity: 0.5;
   pointer-events: none;
+  vector-effect: non-scaling-stroke;
 }
 
 .percentAreaChart line.selected {
   stroke: white;
-  stroke-width: 4;
-  stroke-dasharray: 5;
-  opacity: 1;
-}
-
-.percentAreaChart polygon {
-  stroke: black;
   stroke-width: 2;
+  opacity: 1;
 }
 
 .percentAreaChart polygon.selectedShape {
   stroke: white;
-  stroke-width: 4;
+  stroke-width: 2;
   stroke-dasharray: 5;
   fill: none;
+  vector-effect: non-scaling-stroke;
 }
 
 .clearfix::after {

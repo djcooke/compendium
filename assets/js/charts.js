@@ -77,6 +77,7 @@ var charts = (function() {
         makeItemDropsByFloorTable(hohChestDistributionDataTitleId, hohChestDistributionDataTableId, column, data);
       }
 
+      // draw column shapes
       columns.forEach(column => {
         let polygon = document.createElementNS(SVG_NS, 'polygon');
         polygon.id = 'hohChestContentsColumn_' + column.key;
@@ -99,6 +100,7 @@ var charts = (function() {
         chart.appendChild(polygon)
       });
 
+      // draw floorset lines
       for (let y = 0; y <= viewboxHeight; y += lineSpacing) {
         let line = document.createElementNS(SVG_NS, 'line');
         line.id = 'hohChestContentsLine_' + y;
@@ -161,153 +163,131 @@ var charts = (function() {
       name: 'Safety',
       key: 'safety',
       chestType: 'gold',
-      fillColour: '#7A0000',
-      points: []
+      fillColour: '#7A0000'
     }, {
       name: 'Sight',
       key: 'sight',
       chestType: 'gold',
-      fillColour: '#F96C00',
-      points: []
+      fillColour: '#F96C00'
     }, {
       name: 'Strength',
       key: 'strength',
       chestType: 'gold',
-      fillColour: '#8C0F00',
-      points: []
+      fillColour: '#8C0F00'
     }, {
       name: 'Steel',
       key: 'steel',
       chestType: 'gold',
-      fillColour: '#FA7E08',
-      points: []
+      fillColour: '#FA7E08'
     }, {
       name: 'Affluence',
       key: 'affluence',
       chestType: 'gold',
-      fillColour: '#9E1F00',
-      points: []
+      fillColour: '#9E1F00'
     }, {
       name: 'Flight',
       key: 'flight',
       chestType: 'gold',
-      fillColour: '#FB900F',
-      points: []
+      fillColour: '#FB900F'
     }, {
       name: 'Alteration',
       key: 'alteration',
       chestType: 'gold',
-      fillColour: '#B02E00',
-      points: []
+      fillColour: '#B02E00'
     }, {
       name: 'Purity',
       key: 'purity',
       chestType: 'gold',
-      fillColour: '#FCA217',
-      points: []
+      fillColour: '#FCA217'
     }, {
       name: 'Fortune',
       key: 'fortune',
       chestType: 'gold',
-      fillColour: '#C33E00',
-      points: []
+      fillColour: '#C33E00'
     }, {
       name: 'Witching',
       key: 'witching',
       chestType: 'gold',
-      fillColour: '#FCB51E',
-      points: []
+      fillColour: '#FCB51E'
     }, {
       name: 'Serenity',
       key: 'serenity',
       chestType: 'gold',
-      fillColour: '#D54D00',
-      points: []
+      fillColour: '#D54D00'
     }, {
       name: 'Intuition',
       key: 'intuition',
       chestType: 'gold',
-      fillColour: '#FDC726',
-      points: []
+      fillColour: '#FDC726'
     }, {
       name: 'Raising',
       key: 'raising',
       chestType: 'gold',
-      fillColour: '#E75D00',
-      points: []
+      fillColour: '#E75D00'
     }, {
       name: 'Frailty',
       key: 'frailty',
       chestType: 'gold',
-      fillColour: '#FED92D',
-      points: []
+      fillColour: '#FED92D'
     }, {
       name: 'Concealment',
       key: 'concealment',
       chestType: 'gold',
-      fillColour: '#F96C00',
-      points: []
+      fillColour: '#F96C00'
     }, {
       name: 'Petrification',
       key: 'petrification',
       chestType: 'gold',
-      fillColour: '#FFEB35',
-      points: []
+      fillColour: '#FFEB35'
     }, {
       name: 'Gold Mimic',
       key: 'gold_mimic',
       chestType: 'gold',
-      fillColour: '#D2007F',
-      points: []
+      fillColour: '#D2007F'
     }, {
       name: 'Aetherpool Upgrade',
       key: 'aetherpool',
       chestType: 'silver',
-      fillColour: '#00579A',
-      points: []
+      fillColour: '#00579A'
     }, {
       name: 'Exploding Chest',
       key: 'trap',
       chestType: 'silver',
-      fillColour: '#011176',
-      points: []
+      fillColour: '#011176'
     }, {
       name: 'Magicite',
       key: 'magicite',
       chestType: 'silver',
-      fillColour: '#0191FF',
-      points: []
+      fillColour: '#0191FF'
     }, {
       name: 'Silver Mimic',
       key: 'silver_mimic',
       chestType: 'silver',
-      fillColour: '#D2007F',
-      points: []
+      fillColour: '#D2007F'
     }, {
       name: 'Potion',
       key: 'potion',
       chestType: 'bronze',
-      fillColour: '#7D1800',
-      points: []
+      fillColour: '#7D1800'
     }, {
       name: 'Phoenix Down',
       key: 'phoenix_down',
       chestType: 'bronze',
-      fillColour: '#AA4F39',
-      points: []
+      fillColour: '#AA4F39'
     }, {
       name: 'Potsherd',
       key: 'potsherd',
       chestType: 'bronze',
-      fillColour: '#5E1200',
-      points: []
+      fillColour: '#5E1200'
     }, {
       name: 'Bronze Mimic',
       key: 'bronze_mimic',
       chestType: 'bronze',
-      fillColour: '#D2007F',
-      points: []
-    }];
+      fillColour: '#D2007F'
+    }].map(column => {
+      column.points = [];
+      return column;
+    });
   }
 
   function coords(x, y) {
