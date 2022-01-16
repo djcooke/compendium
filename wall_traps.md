@@ -5,17 +5,83 @@ title: Wall Traps
 
 ## On this Page:
 
-* [PotD 111-149](#potd-111-149)
+* [PotD 31-49](#potd-31-49)
+* [PotD 51-79](#potd-51-79)
+* [PotD 81-109](#potd-81-109)
+* [PotD 111-129](#potd-111-129)
+* [PotD 131-149](#potd-131-149)
 * [PotD 151-199](#potd-151-199)
 * [HoH 1-19](#hoh-1-19)
 * [HoH 41-79](#hoh-41-79)
 * [HoH 81-99](#hoh-81-99)
 
-## PotD 111-149
+## PotD 31-49
 
 <div class="surfacePane" markdown="1">
 
-There are some wall traps here, especially in the donut room. Pictures needed
+* Donut room between the pillar and curved root in the south-west corner:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_1.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
+## PotD 51-79
+
+<div class="surfacePane" markdown="1">
+
+* By south corner/exit of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_1.png' | relative_url }}">
+* South corner/exit of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
+* East corner/exit of this donut room::
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
+* On debris pile by east corner/exit of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_3.png' | relative_url }}">
+* On the debris pile at the left corner entering the dead-end donut room at the
+bottom of the stairs:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_4.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
+## PotD 81-109
+
+<div class="surfacePane" markdown="1">
+
+* Left corner entering the half lava room
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_81_1.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
+## PotD 111-129
+
+<div class="surfacePane" markdown="1">
+
+
+* By the south entrance of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_1.png' | relative_url }}">
+* South wall of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_2.png' | relative_url }}">
+* By the east entrance to this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-2.png' | relative_url }}">
+* South wall of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_4.png' | relative_url }}">
+* South wall of another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_5.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
+## PotD 131-149
+
+<div class="surfacePane" markdown="1">
+
+* East wall of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_131_1.png' | relative_url }}">
+* East wall of another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_131_2.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
@@ -44,6 +110,7 @@ There are some wall traps here, especially in the donut room. Pictures needed
   chest without hitting the trap:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_3.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_6.png' | relative_url }}">
 * There are three similar rooms that have fences coming out of three walls
   * One of these rooms is at the top of some stairs, and has a trap at the
     point of the fence on the south (right) wall:
