@@ -84,14 +84,20 @@ floors. You will get tons of Super Potions from HoH.
 
 ### Food
 
-The main benefit you'll get from food is the increased HP. Use any
-Shadowbringers food that gives +10% VIT for maximum effect. Substats are all
-fairly low in deep dungeons, so the other effects from food are fairly minor.
+The main benefit you'll get from food is the increased HP. Substats are all
+pretty low in deep dungeons, so the other effects from food are minor. That
+said, a minor advantage does still help, so it is ideal to choose the food that
+is best for the job you're playing.
+
+For maximum HP in PotD, non-tanks will want HQ i560 or higher food. Tanks will
+need HQ i580+. In HoH, all jobs will need HQ i580+. This is as of patch 6.05,
+where i580 is the highest available.
 
 ### Stat Potions
 
 Tinctures can be useful for a temporary damage boost, which is especially
-useful to tanks. Just note that they share a cooldown with HP potions.
+useful to tanks. Just note that they share a cooldown with HP potions. Use
+grade 4 or higher tinctures for maximum effect in PotD, and grade 6 in HoH.
 
 ### Misc
 
