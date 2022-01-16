@@ -4,7 +4,7 @@ nickname: Succubus
 image: succubus.png
 start_floor: 146
 end_floor: 149
-agro: Proximity
+agro: Sight
 vulnerabilities:
   bind: false
   heavy: false

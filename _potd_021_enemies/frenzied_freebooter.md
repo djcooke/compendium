@@ -1,6 +1,7 @@
 ---
 name: Frenzied Freebooter
 family: Fallen NPC
+image: freebooter.png
 start_floor: 21
 end_floor: 29
 agro: Proximity
