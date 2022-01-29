@@ -151,6 +151,30 @@ layout: default
 {% endfor %}
 </table>
 
+<h2>Special Enemies</h2>
+
+<table class="banded">
+  {% assign enemies = '' %}
+  {% assign first = true %}
+  {% assign index = 0 %}
+  {% for enemy in enemies_sorted %}
+    {% if enemy.gallery_only == true %}
+      {% if first %}
+        {% assign first = false %}
+      {% else %}
+        {% assign enemies = enemies | append: ' • ' %}
+      {% endif %}
+      {% assign enemies = enemies
+        | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
+        | append: enemy.name | append: '</a>' %}
+    {% endif %}
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
+  <tr>
+    <td style="width: 100%;">{{ enemies }}</td>
+  </tr>
+</table>
+
 <h2>Boss: {{ page.boss }}</h2>
 
 <div id="bossPane">
