@@ -120,6 +120,16 @@ li li:first-child {
   padding: 12px;
 }
 
+.floorsetNav {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 12px;
+}
+
+.floorsetNav a {
+  text-decoration: none;
+}
+
 .surfacePane {
   background-color: var(--surface);
   color: var(--on-surface);

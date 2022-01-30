@@ -32,6 +32,7 @@ ga_measurement_id: G-9Y46PNPE95
 collections:
   potd_floorsets:
     output: true
+    max_floor: 200
   potd_001_enemies:
     output: false
   potd_011_enemies:
@@ -74,6 +75,7 @@ collections:
     output: false
   hoh_floorsets:
     output: true
+    max_floor: 100
   hoh_001_enemies:
     output: false
   hoh_011_enemies:

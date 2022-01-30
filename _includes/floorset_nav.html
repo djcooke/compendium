@@ -1,0 +1,14 @@
+{% assign collection_name = page.dungeon | append: '_floorsets' %}
+{% assign collection = site.collections | where: 'label', collection_name | first %}
+{% assign previous_set = page.floorset | minus: 10 %}
+{% assign next_set = page.floorset | plus: 10 %}
+<div class="clearfix" style="margin: 12px 0;">
+  {% if previous_set > 0 %}
+    {% assign previous_url = previous_set | prepend: '00' | slice: -3, 3 | append: '.html' %}
+    <div class="floorsetNav" style="float: left;"><a href="{{ previous_url }}">&lt; Prev</a></div>
+  {% endif %}
+  {% if next_set < collection.max_floor %}
+    {% assign next_url = next_set | prepend: '00' | slice: -3, 3 | append: '.html' %}
+    <div class="floorsetNav" style="float: right;"><a href="{{ next_url }}">Next &gt;</a></div>
+  {% endif %}
+</div>
