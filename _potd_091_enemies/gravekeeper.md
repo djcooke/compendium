@@ -4,6 +4,7 @@ nickname: Gravekeeper
 image: gravekeeper.png
 start_floor: 97
 end_floor: 99
+patrol: true
 agro: Sound
 vulnerabilities:
   bind: true

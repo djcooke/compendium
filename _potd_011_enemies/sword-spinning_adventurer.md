@@ -1,5 +1,5 @@
 ---
-name: Sword-spinning Adventurer
+name: Sword-swinging Adventurer
 family: Fallen NPC
 image: sword_adventurer.png
 start_floor: 11
@@ -17,4 +17,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: We said we''d...make a name for ourselves...'
 ---

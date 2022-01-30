@@ -14,7 +14,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Levinfang
-    description: applies paralyze
+    description: 'applies paralyze; has to be close to use this, so ranged DPS
+    can avoid by kiting with Sprint and/or Leg Graze'
   - name: Electrify
     description: 'telegraphed circle AoE'
 ---

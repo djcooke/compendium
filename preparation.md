@@ -89,9 +89,8 @@ pretty low in deep dungeons, so the other effects from food are minor. That
 said, a minor advantage does still help, so it is ideal to choose the food that
 is best for the job you're playing.
 
-For maximum HP in PotD, non-tanks will want HQ i560 or higher food. Tanks will
-need HQ i580+. In HoH, all jobs will need HQ i580+. This is as of patch 6.05,
-where i580 is the highest available.
+For maximum HP in PotD, you will need HQ i560 or higher food. In HoH, you will
+need HQ i580+. This is as of patch 6.08, where i580 is the highest available.
 
 ### Stat Potions
 

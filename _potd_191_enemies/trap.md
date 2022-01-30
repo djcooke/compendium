@@ -2,6 +2,7 @@
 name: Deep Palace Trap
 nickname: Trap
 family: Flytrap
+image: trap.png
 start_floor: 191
 end_floor: 194
 agro: Sound

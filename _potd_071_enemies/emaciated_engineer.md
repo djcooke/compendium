@@ -1,6 +1,7 @@
 ---
 name: Emaciated Engineer
 family: Fallen NPC
+image: emaciated_engineer.png
 start_floor: 71
 end_floor: 79
 agro: Proximity
@@ -16,4 +17,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: Ala Mhigo, it...it burns...'
 ---

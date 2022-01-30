@@ -5,7 +5,7 @@ image: hapalit.png
 start_floor: 84
 end_floor: 86
 patrol: true
-agro: Sight
+agro: Sound
 vulnerabilities:
   bind: true
   heavy: false

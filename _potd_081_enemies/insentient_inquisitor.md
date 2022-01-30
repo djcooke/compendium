@@ -1,6 +1,7 @@
 ---
 name: Insentient Inquisitor
 family: Fallen NPC
+image: insentient_inquisitor.png
 start_floor: 81
 end_floor: 89
 agro: Proximity
@@ -17,4 +18,5 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: The dragons will...rend you...asunder...'
+  - 'Image courtesy of Holo The-wise-wolf (Discord: AbsoluteParadox#5937)'
 ---

@@ -1,5 +1,6 @@
 ---
 name: Immortal Flame
+image: immortal_flame.png
 family: Fallen NPC
 start_floor: 31
 end_floor: 39

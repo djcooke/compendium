@@ -4,6 +4,7 @@ nickname: Bird
 image: bird.png
 start_floor: 76
 end_floor: 79
+patrol: true
 agro: Proximity
 vulnerabilities:
   bind: false
