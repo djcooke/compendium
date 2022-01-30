@@ -15,6 +15,14 @@ title: Wall Traps
 * [HoH 41-79](#hoh-41-79)
 * [HoH 81-99](#hoh-81-99)
 
+## PotD 21-29
+
+<div class="surfacePane" markdown="1">
+
+* South-east corner of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-2.png' | relative_url }}">
+
 ## PotD 31-49
 
 <div class="surfacePane" markdown="1">
@@ -33,6 +41,8 @@ title: Wall Traps
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_1.png' | relative_url }}">
 * South corner/exit of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
+* South corner/exit of another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_6.png' | relative_url }}">
 * East corner/exit of this donut room::
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
 * On debris pile by east corner/exit of this room:
@@ -63,13 +73,18 @@ bottom of the stairs:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_1.png' | relative_url }}">
 * South wall of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_2.png' | relative_url }}">
+* South wall of another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_4.png' | relative_url }}">
+* South wall of yet another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_5.png' | relative_url }}">
+* East wall of the same donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_7.png' | relative_url }}">
+  <br>Image courtesy of Holo The-wise-wolf (Discord: AbsoluteParadox#5937)
 * By the east entrance to this room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-2.png' | relative_url }}">
-* South wall of this donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_4.png' | relative_url }}">
-* South wall of another donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_5.png' | relative_url }}">
+* Left corner entering this dead-end room downhill and east from a donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_6.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
