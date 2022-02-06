@@ -58,7 +58,7 @@ bottom of the stairs:
 
 <div class="surfacePane" markdown="1">
 
-* Left corner entering the half lava room
+* Left corner entering the half lava room uphill from a pillar room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_81_1.png' | relative_url }}">
 
 [Back to top](#top)
@@ -83,8 +83,11 @@ bottom of the stairs:
 * By the east entrance to this room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-2.png' | relative_url }}">
-* Left corner entering this dead-end room downhill and east from a donut room:
+* Left corner entering this dead-end room downhill and west from a donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_6.png' | relative_url }}">
+* Right corner of south entrance to this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_8-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_8-2.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
