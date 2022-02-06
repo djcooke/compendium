@@ -5,7 +5,7 @@ image: succubus.png
 start_floor: 31
 end_floor: 35
 patrol: true
-agro: Proximity
+agro: Sight
 vulnerabilities:
   bind: false
   heavy: false
