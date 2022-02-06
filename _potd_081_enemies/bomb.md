@@ -12,4 +12,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: 'Self-Destruct'
+    description: 'Enrage - instant big damage AoE'
 ---

@@ -12,4 +12,6 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+notes:
+  - 'Has an enrage draw-in + pointblank for big damage'
 ---
