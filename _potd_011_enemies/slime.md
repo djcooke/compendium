@@ -4,7 +4,7 @@ nickname: Slime
 image: slime.png
 start_floor: 13
 end_floor: 16
-agro: Proximity
+agro: Sound
 vulnerabilities:
   bind: false
   heavy: false
