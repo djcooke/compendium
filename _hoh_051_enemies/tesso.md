@@ -5,7 +5,7 @@ family: Hand
 image: tesso.png
 start_floor: 54
 end_floor: 57
-agro: Proximity
+agro: Sight
 vulnerabilities:
   bind: false
   heavy: true

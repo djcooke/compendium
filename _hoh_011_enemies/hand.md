@@ -14,5 +14,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Wash Away'
-    description: 'Enrage BIG damage and knockback (after 30s?)'
+    description: 'Enrage BIG damage and knockback used after 30s; can be
+    interrupted'
 ---
