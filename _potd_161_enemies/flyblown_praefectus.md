@@ -18,4 +18,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Lord van Baelsar... Even in death...I serve...'
+job_specifics:
+  PLD:
+    difficulty: Easy
 ---

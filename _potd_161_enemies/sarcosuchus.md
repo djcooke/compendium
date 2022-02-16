@@ -18,4 +18,6 @@ abilities:
 job_specifics:
   MCH:
     difficulty: Easy
+  PLD:
+    difficulty: Easy
 ---

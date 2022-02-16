@@ -35,6 +35,10 @@ job_specifics:
         when necessary. A bit of range will help to avoid some autoattacks too'
       - 'Can interrupt a Voice if you need to, but save for emergencies
         (avoiding another patrol, etc.)'
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Can interrupt Ram''s Voice for uptime'
   RDM:
     difficulty: Easy
 ---

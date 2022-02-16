@@ -16,7 +16,7 @@ abilities:
   - name: Megablaster
     description: 'telegraphed conal AoE. Doesn''t use this while you''re
     paralyzed'
-  - name: x
+  - name: '?'
     description: 'applies paralyze'
 notes:
   - 'If there are several, you may want to pull them in quick succession to
@@ -27,6 +27,12 @@ job_specifics:
     notes:
       - 'Delay getting paralyzed by maintaining distance with Sprint and Leg
         Graze'
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Annoying and slow to fight due to the paralyze'
+      - 'Get hit by Megablaster intentionally. Yes, really! The damage isn''t
+      bad and this will result in a shorter paralysis'
   RDM:
     difficulty: Medium
 ---

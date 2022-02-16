@@ -29,6 +29,13 @@ job_specifics:
     difficulty: Hard
     notes:
       - Avoid if possible
+  PLD:
+    difficulty: Hard
+    notes:
+      - Strength or steel recommended
+      - 'Can probably stun after the draw-in and run out of AoE range (?);
+      otherwise, keep your HP up and use mitigation and the damage isn''t too
+      bad'
   RDM:
     difficulty: Hard
     notes:

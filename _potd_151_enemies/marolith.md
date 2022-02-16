@@ -23,4 +23,6 @@ job_specifics:
     difficulty: Easy
     notes:
       - Can do some burst damage, so you do have to be a bit careful
+  PLD:
+    difficulty: Easy
 ---

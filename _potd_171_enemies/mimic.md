@@ -25,6 +25,8 @@ notes:
 job_specifics:
   MCH:
     difficulty: Medium
+  PLD:
+    difficulty: Medium
   RDM:
     difficulty: Hard
 ---

@@ -29,6 +29,10 @@ job_specifics:
         GCDs and then use before it dives on you'
       - 'Consider raging if you''re going to have to kill a few to get off the
         floor'
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Annoying and slow to fight due to the stuns. Try to avoid.'
   RDM:
     difficulty: Extreme
     notes:

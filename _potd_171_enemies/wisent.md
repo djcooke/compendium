@@ -25,8 +25,13 @@ job_specifics:
   MCH:
     difficulty: Easy
     notes:
-      - 'Very dangerous with no abilities as you can''t prevent draw-in,
+      - 'Very dangerous with amnesia enchantment as you can''t prevent draw-in,
         interrupt the AoE, or burst it down quickly'
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Make sure to interrupt Horroisonous Blast. Avoid if you have amnesia
+      enchantment'
   RDM:
     difficulty: Medium
     notes:

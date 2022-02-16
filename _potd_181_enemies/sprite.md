@@ -24,6 +24,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  PLD:
+    difficulty: Easy
   RDM:
     difficulty: Medium
 ---

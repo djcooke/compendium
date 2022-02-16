@@ -26,6 +26,10 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required unless floor has no knockback debuff
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Stun Tail Screw'
   RDM:
     difficulty: Extreme
     notes:

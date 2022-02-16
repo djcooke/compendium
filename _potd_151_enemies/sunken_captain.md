@@ -18,4 +18,9 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Dyin'' a third time... Forgive me, Diamanda...'
+job_specifics:
+  MCH:
+    difficulty: Easy
+  PLD:
+    difficulty: Easy
 ---

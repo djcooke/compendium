@@ -18,9 +18,14 @@ abilities:
     description: 'grants Stoneskin that can''t be broken for a few seconds. Can
     be interrupted'
   - name: Foregone Gleam
-    description: 'gaze attack (conal?)'
+    description: 'untelegraphed conal gaze AoE - look away, get behind, or get
+    away'
 job_specifics:
   MCH:
+    difficulty: Easy
+    notes:
+      - Make sure to interrupt Mucus for a faster kill
+  PLD:
     difficulty: Easy
     notes:
       - Make sure to interrupt Mucus for a faster kill

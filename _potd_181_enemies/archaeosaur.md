@@ -22,6 +22,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - Can be painful. Sprint and Leg Graze recommended
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Can stun Primordial Bark for uptime'
   RDM:
     difficulty: Hard
     notes:

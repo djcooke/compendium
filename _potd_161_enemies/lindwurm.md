@@ -16,7 +16,12 @@ vulnerabilities:
 abilities:
   - name: Foul Breath
     description: 'telegraphed conal AoE'
+notes:
+  - 'If there are several, you may want to pull them in quick succession to
+    take advantage of diminishing returns on slow'
 job_specifics:
   MCH:
+    difficulty: Easy
+  PLD:
     difficulty: Easy
 ---

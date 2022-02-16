@@ -26,4 +26,6 @@ job_specifics:
       - Keep your distance to avoid some damage
       - 'They still do a fair amount of damage, so it''s ideal to burst them
         down quickly'
+  PLD:
+    difficulty: Easy
 ---

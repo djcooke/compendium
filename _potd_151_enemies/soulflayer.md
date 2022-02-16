@@ -26,4 +26,8 @@ job_specifics:
     notes:
       - The worst thing to fight in this set - avoid if possible
       - Can move in close to bait the AoE for a little breathing room
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Annoying/slow to fight due to the HP drain'
 ---

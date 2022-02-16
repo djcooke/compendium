@@ -25,6 +25,10 @@ job_specifics:
     notes:
       - Avoid if possible
       - Sprint and Leg Graze if you have to fight them
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Annoying/slow to fight because of the HP drain and high DPS'
   RDM:
     difficulty: Hard
     notes:

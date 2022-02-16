@@ -24,4 +24,10 @@ job_specifics:
     notes:
       - 'Heat Blast recast is not affected by slow, so wait until you''re
         slowed to use Hypercharge'
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Annoying/slow to fight due to the slow. If there are several running
+      around, you may want to chain pull them to take advantage of diminishing
+      returns on slow'
 ---

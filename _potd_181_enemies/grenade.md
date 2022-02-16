@@ -19,6 +19,10 @@ abilities:
 job_specifics:
   MCH:
     difficulty: Easy
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Can stun Hypothermal Combustion for uptime'
   RDM:
     difficulty: Easy
 ---

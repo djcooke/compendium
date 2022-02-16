@@ -22,6 +22,10 @@ abilities:
 job_specifics:
   MCH:
     difficulty: Easy
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Stun 100-tonze Swing for uptime'
   RDM:
     difficulty: Easy
 ---

@@ -22,6 +22,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - Can be painful. Sprint and Leg Graze recommended
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Stun Cry for uptime'
   RDM:
     difficulty: Medium
 ---

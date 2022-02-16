@@ -28,4 +28,8 @@ job_specifics:
     notes:
       - 'Delay getting paralyzed by maintaining distance with Sprint and Leg
         Graze'
+  PLD:
+    difficulty: Easy
+    notes:
+      - 'Annoying/slow to fight due to the paralyze'
 ---

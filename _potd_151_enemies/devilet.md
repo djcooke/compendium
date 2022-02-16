@@ -16,11 +16,11 @@ vulnerabilities:
 abilities:
   - name: Ice Spikes
     description: 'Causes you to take significant damage whenever you hit the
-    enemy. Interrupt or disengage immediately. The damage can kill you very
-    quickly'
+    enemy; can be interrupted. Recommended to interrupt or disengage
+    immediately. The damage can kill you very quickly'
   - name: Void Blizzard
-    description: 'Does damage and applies slow. It only has medium range, so
-    you can also run away to avoid it'
+    description: 'Does damage and applies slow; can be interrupted. It only has
+    medium range, so you can also run away to avoid it'
 notes:
   - 'Disengaging during Ice Spikes and running away to avoid Void Blizzard is
     probably the safest option as you avoid all damage'
@@ -39,4 +39,8 @@ job_specifics:
         Void Blizzard'
       - 'Make sure to keep sustaining pots up as kiting won''t help to mitigate
         damage'
+  PLD:
+    difficulty: Medium
+    notes:
+      - 'Try to stun/interrupt both Ice Spikes and Void Blizzard'
 ---

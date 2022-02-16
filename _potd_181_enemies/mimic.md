@@ -28,6 +28,8 @@ job_specifics:
     notes:
       - 'Crits can be scary, especially under gloom or HP penalty'
       - 'Still better than a lot of the other things you can fight on this set'
+  PLD:
+    difficulty: Medium
   RDM:
     difficulty: Hard
     notes:

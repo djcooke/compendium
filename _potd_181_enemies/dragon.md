@@ -14,7 +14,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Sheet of Ice'
-    description: 'instant circle AoE that applies a strong DoT'
+    description: 'instant circle AoE that applies a VERY strong DoT'
   - name: 'Granite Rain'
     description: telegraphed pointblank AoE
 job_specifics:
@@ -22,6 +22,10 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Worst thing you can fight. Avoid
+  PLD:
+    difficulty: Extreme
+    notes:
+      - Avoid
   RDM:
     difficulty: Extreme
     notes:
