@@ -153,7 +153,7 @@ pomanders:
   - name: Frailty
     image: frailty.png
     only_in: HoH
-    description: 'Weakens all enemies on current floor.'
+    description: 'Weakens all enemies on current floor. Duration: 3 minutes'
     tips:
       - 'Use alone for a weaker strength+steel effect'
       - 'Use in combination with strength or steel for even greater effect'

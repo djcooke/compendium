@@ -113,8 +113,10 @@ bottom of the stairs:
 * Dead-end "Stonehenge" room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}">
   <br>Image courtesy of Nisei (Discord: chakku#3093)
-* Room the with blocky wall on the east side can have a trap near the middle of
-  the wall. This one seems more rare than the other two. Picture needed
+* Room the with blocky wall on the east side. This is a T intersection, though sometimes a path is
+blocked off, making it a straight or corner:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_3.png' | relative_url }}">
+  <br>Image courtesy of matt_1705 (Discord: mallen1707#6027)
 
 [Back to top](#top)
 </div>
