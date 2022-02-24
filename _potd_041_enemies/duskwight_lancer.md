@@ -1,6 +1,7 @@
 ---
 name: Duskwight Lancer
 family: Fallen NPC
+image: duskwight_lancer.png
 start_floor: 41
 end_floor: 49
 agro: Proximity
@@ -15,4 +16,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: Impossible! M-My courage is...absolute...'
 ---

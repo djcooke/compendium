@@ -1,5 +1,6 @@
 ---
 name: Heavenly Shark
+image: shark.png
 nickname: Shark
 start_floor: 1
 end_floor: 3
