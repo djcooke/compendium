@@ -23,6 +23,18 @@ job_specific_notes:
     which means it has less time to murder you!'
     - 'Make sure Head Graze is almost ready before opening possible mimics. 7
     seconds left on cooldown is close enough'
+  PLD:
+    - 'Time is your biggest enemy, so keep moving as much as possible. Try to
+    alternate between fighting and exploring efficiently - fight when Fight or
+    Flight is up, and explore when Sprint is up'
+    - 'Can apply DoTs and continue to kill a mob slowly with Shield Lob while
+    exploring. In HoH, Requiescat allows you to do better damage while kiting
+    too'
+    - 'Take advantage of landmines and exploding chests to kill multiple
+    enemies at once, saving lots of time'
+    - 'Keep in mind that Clemency costs you uptime and breaks combos. Use
+    potions and defensive cooldowns to prevent the need for Clemency as much as
+    possible'
 ---
 
 ## On this Page:
