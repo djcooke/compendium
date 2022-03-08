@@ -119,10 +119,11 @@ bottom of the stairs:
 * Dead-end "Stonehenge" room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}">
   <br>Image courtesy of Nisei (Discord: chakku#3093)
-* Room the with blocky wall on the east side. This is a T intersection, though sometimes a path is
-blocked off, making it a straight or corner:
+* Room the with blocky wall on the east side. There are other similar rooms,
+but this one will always have the 4-way stair room north of it, and may be
+connected to dead-end rooms to the south (as in the screenshot) and west:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_3.png' | relative_url }}">
-  <br>Image courtesy of matt_1705 (Discord: mallen1707#6027)
+  <br>Image courtesy of blasterpoard (Discord: blasterpoard#6245)
 
 [Back to top](#top)
 </div>
