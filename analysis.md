@@ -51,6 +51,14 @@ scripts:
       non-drops, so dropped chests were included for determining distribution
       of chest contents per chest type
     </li>
+    <li>
+      Floors 1-6 are separated from 7-9 because there are several items that
+      only start appearing at floor 7. Affluence, flight, and alteration do not
+      drop on floors 9, 19, 29, 39, or 49, but those floors are not separated
+      in the above data. As a result, floors 21-28 have a slightly higher drop
+      chance for these 3 items than shown above to account for floor 29 not
+      dropping them at all.
+    </li>
   </ul>
 
 </div>
