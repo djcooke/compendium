@@ -255,6 +255,18 @@ img.surfaceImage {
   background-color: var(--background);
 }
 
+.conditionHigh {
+  color: hsl(128, 100%, 40%);
+}
+
+.conditionMid {
+  color: yellow;
+}
+
+.conditionLow {
+  color: hsl(0, 100%, 59%);
+}
+
 .noteImage {
   max-width: 100%;
 }

@@ -1,0 +1,9 @@
+{% assign percent = include.count | times: 100 | divided_by: include.total %}
+{% if percent < 50 %}
+  {% assign class = "conditionLow" %}
+{% elsif percent < 75 %}
+  {% assign class = "conditionMid" %}
+{% else %}
+  {% assign class = "conditionHigh" %}
+{% endif %}
+<td class="{{ class }}">{{ percent }}%</td>
