@@ -27,7 +27,7 @@ job_specific_notes:
     - 'Time is your biggest enemy, so keep moving as much as possible. Try to
     alternate between fighting and exploring efficiently - fight when Fight or
     Flight is up, and explore when Sprint is up'
-    - 'Can apply DoTs and continue to kill a mob slowly with Shield Lob while
+    - 'Apply DoTs and continue to kill a mob slowly with Shield Lob while
     exploring. In HoH, Requiescat allows you to do better damage while kiting
     too'
     - 'Take advantage of landmines and exploding chests to kill multiple
