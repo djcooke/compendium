@@ -44,7 +44,7 @@ free to PM me on Discord with any suggestions.
 
 ## Info Needed
 
-<div class="surfacePane" markdown="1">
+<div class="surfacePane" style="overflow-x: auto;" markdown="1">
 
 Looking for something to contribute? The most helpful thing is job-specific
 stuff - enemy notes and difficulty ratings, boss kill times, and boss notes.
