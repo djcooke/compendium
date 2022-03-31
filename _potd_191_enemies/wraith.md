@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Wraith
 nickname: Wraith
+image: wraith.png
 start_floor: 192
 end_floor: 199
 agro: Proximity

@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Iron Corse
 nickname: Iron Corse
+image: iron_corse.png
 start_floor: 191
 end_floor: 193
 patrol: true

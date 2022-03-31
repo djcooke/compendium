@@ -1,6 +1,7 @@
 ---
 name: Onyx Dragon
 nickname: Dragon
+image: dragon.png
 start_floor: 193
 end_floor: 196
 agro: Proximity

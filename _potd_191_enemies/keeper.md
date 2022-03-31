@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Keeper
 nickname: Keeper
+image: keeper.png
 start_floor: 197
 end_floor: 199
 patrol: true

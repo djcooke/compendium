@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Knight
 nickname: Knight
+image: knight.png
 start_floor: 195
 end_floor: 199
 agro: Proximity
@@ -16,8 +17,10 @@ abilities:
     description: scary-looking telegraphed donut AoE
   - name: Skullsplinter
     description: tank buster
+  - name: '?'
+    description: grants 7s attack bonus
   - name: Ossify
-    description: does damage and increases defense
+    description: does damage and grants 15s defense bonus
 notes:
   - 'Do not fight one of these with a Wraith nearby, as the Wraith can cast
     Accursed Pox outside of combat and fill in the safe spot normally left
