@@ -10,6 +10,15 @@ window.onload = function() {
     }
   }
 
+  if (urlParams.has('job')) {
+    const input = urlParams.get('job').toUpperCase();
+    const jobSelects = document.getElementsByClassName('jobSelect');
+    if (jobSelects && jobSelects.length
+        && Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === input)) {
+      selectedJob = input;
+    }
+  }
+
   selectEnemy(selectedEnemy);
   selectJob(selectedJob);
 }
@@ -51,11 +60,11 @@ function selectEnemy(index) {
 }
 
 function selectJob(job) {
-  if (selectedJob === job) {
+  var jobSelects = document.getElementsByClassName('jobSelect');
+  if (!jobSelects || !jobSelects.length
+      || !Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === job)) {
     return;
   }
-  selectedJob = job;
-  var jobSelects = document.getElementsByClassName('jobSelect');
   for (var i = 0; i < jobSelects.length; i++) {
     jobSelects[i].value = job;
   }
@@ -63,9 +72,10 @@ function selectJob(job) {
   for (var i = 0; i < allJobs.length; i++) {
     allJobs[i].className = allJobs[i].className.replace(' active', '');
   }
-  var selectedJob = document.getElementsByClassName('job' + job);
-  for (var i = 0; i < selectedJob.length; i++) {
-    selectedJob[i].className += ' active';
+  var selectedJobElements = document.getElementsByClassName('job' + job);
+  for (var i = 0; i < selectedJobElements.length; i++) {
+    selectedJobElements[i].className += ' active';
   }
+  selectedJob = job;
   window.localStorage.setItem('selectedJob', job);
 }
