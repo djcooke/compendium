@@ -5,9 +5,83 @@ scripts:
   - charts.js
 ---
 
+## On this Page:
+
+* [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
+* [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
+
+## PotD Chest Contents by Floor
+
+<div class="surfacePane">
+
+  <p>Click a column or legend entry to display finds by floor statistics. Click
+  a floorset line or select from the dropdown below to display chest content
+  statistics for that floorset.</p>
+
+  <table class="unstyled">
+    <tr>
+      <td></td>
+      <td style="width: 100%; text-align: center;">Contents</td>
+    </tr>
+    <tr>
+      <td><span class="rotated">Floors</span></td>
+      <td id="potdChestContentsChart" style="padding: 0"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td id="potdChestContentsLegend"></td>
+    </tr>
+  </table>
+
+  <h3 id="potdChestContentsDataTitle"></h3>
+  <table id="potdChestContentsDataTable"></table>
+
+  <h3>Notes</h3>
+
+  <ul>
+    <li>
+      This is based mostly on data I [Daleven] collected from my own runs and
+      supplemented with a few runs from Angelus Demonus VODs. The data for
+      floors 181+ and 191+ is likely to be a bit off as at this time, it's only
+      based on about 370 chests from 181-189 and about 250 from 191-199. Data
+      for floors 1-179 is based on 1000-2000 chests per set, so should be more
+      accurate.
+    </li>
+    <li>
+      Distribution of chest types (gold/silver/bronze) is based on non-drops on
+      floors where I opened all chests or at least saw all rooms to know what
+      was on the floor. Drops were not included, as there is some collection
+      bias and I do not record drop types if I don't collect. I do record chest
+      types for non-drops even if I don't collect them, as long as I saw them
+    </li>
+    <li>
+      Distribution of chest types dropped seems to be the same as non-drops.
+    </li>
+    <li>
+      Distribution of contents within dropped chests seems to be the same as
+      non-drops, so dropped chests were included for determining distribution
+      of chest contents per chest type.
+    </li>
+    <li>
+      Floors 1-6 are separated from 7-9 because there are several items that
+      only start appearing at floor 7. Affluence, flight, and alteration do not
+      drop on the 9th floor of each set from 1-99, but those floors are not
+      separated in the above data. As a result, the first 8 floors of each set
+      have a slightly higher drop chance for these 3 items than shown above to
+      account for the 9th floor not dropping them at all.
+    </li>
+  </ul>
+
+</div>
+
 ## HoH Chest Contents by Floor
 
 <div class="surfacePane">
+
+  <p>Click a column or legend entry to display finds by floor statistics. Click
+  a floorset line or select from the dropdown below to display chest content
+  statistics for that floorset.</p>
+
   <table class="unstyled">
     <tr>
       <td></td>
@@ -34,14 +108,14 @@ scripts:
       data for floors 81+ and especially 91+ is likely to be a bit off as at
       this time, it's only based on about 950 chests from 81-89 and about 280
       from 91-99. Data for floors 1-79 is based on 1000-2000 chests per set, so
-      should be more accurate
+      should be more accurate.
     </li>
     <li>
       Distribution of chest types (gold/silver/bronze) is based on non-drops on
       floors where I opened all chests or at least saw all rooms to know what
       was on the floor. Drops were not included, as there is some collection
       bias and I do not record drop types if I don't collect. I do record chest
-      types for non-drops even if I don't collect them, as long as I saw them
+      types for non-drops even if I don't collect them, as long as I saw them.
     </li>
     <li>
       Distribution of chest types dropped seems to be the same as non-drops
@@ -49,7 +123,7 @@ scripts:
     <li>
       Distribution of contents within dropped chests seems to be the same as
       non-drops, so dropped chests were included for determining distribution
-      of chest contents per chest type
+      of chest contents per chest type.
     </li>
     <li>
       Floors 1-6 are separated from 7-9 because there are several items that
@@ -64,6 +138,9 @@ scripts:
 </div>
 
 <script>
-  let data = {{ site.data.hoh_chests | jsonify }};
-  charts.drawHoHChestDistribution(data);
+  let potd_data = {{ site.data.potd_chests | jsonify }};
+  charts.drawPotdChestDistribution(potd_data);
+
+  let hoh_data = {{ site.data.hoh_chests | jsonify }};
+  charts.drawHohChestDistribution(hoh_data);
 </script>

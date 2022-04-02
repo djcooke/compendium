@@ -2,154 +2,157 @@ var charts = (function() {
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
 
-  const hohChestDistributionChartId = 'hohChestContentsChart';
-  const hohChestDistributionLegendId = 'hohChestContentsLegend';
-  const hohChestDistributionDataTitleId = 'hohChestContentsDataTitle';
-  const hohChestDistributionDataTableId = 'hohChestContentsDataTable';
-  const hohChestDistributionFloorSelect = 'hohChestContents_floorSelect';
-
   return {
-    drawHoHChestDistribution: function(data) {
-      const viewboxWidth = 1000;
-      const lineSpacing = 100;
-      const viewboxHeight = lineSpacing * (data.length - 1);
-
-      let columns = makeHohChestDistributionColumns();
-      data.forEach(floorset => {
-        floorset.total_gold = 0;
-        floorset.total_silver = 0;
-        floorset.total_bronze = 0;
-        columns.forEach(column => {
-          floorset['total_' + column.chestType] += parseInt(floorset[column.key])
-        })
-      });
-
-      let y = 0;
-      data.forEach(floorset => {
-        let x = 0;
-        columns.forEach(column => {
-          column.points.unshift(coords(x, y));
-          let chestCount = parseInt(floorset['total_' + column.chestType]);
-          if (chestCount > 0) {
-            x = x + parseInt(floorset[column.key]) / chestCount * parseFloat(floorset['percent_' + column.chestType]) * (viewboxWidth / 100);
-            x = Math.min(Math.round(x), viewboxWidth);
-          }
-          column.points.push(coords(x, y));
-        });
-        y += lineSpacing;
-      });
-
-      let chart = document.createElementNS(SVG_NS, 'svg');
-      chart.classList.add('percentAreaChart');
-      chart.setAttribute('width', '100%');
-      // SVG coordinate system: width=10000 (percent*100), height=100*(floorsetCount-1)
-      chart.setAttribute('viewBox', `0 0 ${viewboxWidth} ${viewboxHeight}`)
-      
-      function deselectAll() {
-        let allLines = chart.getElementsByTagName('line');
-        for (let line of allLines) {
-          line.classList.remove('selected');
-        }
-        let selectedShape = chart.getElementsByClassName('selectedShape');
-        for (let shape of selectedShape) {
-          shape.remove();
-        }
-        let floorSelect = document.getElementById(hohChestDistributionFloorSelect);
-        floorSelect.value = -1;
-      }
-
-      function selectLine(lineY) {
-        deselectAll();
-        let line = document.getElementById('hohChestContentsLine_' + lineY);
-        line.classList.add('selected');
-        let i = lineY / lineSpacing;
-        makeFloorsetDropsTable(hohChestDistributionDataTitleId, hohChestDistributionDataTableId, columns, data[i]);
-        let floorSelect = document.getElementById(hohChestDistributionFloorSelect);
-        floorSelect.value = i;
-      }
-
-      function selectColumn(column) {
-        deselectAll();
-        let polygon = document.getElementById(`hohChestContentsColumn_${column.key}`);
-        let selected = polygon.cloneNode();
-        selected.classList.add('selectedShape');
-        chart.appendChild(selected);
-        makeItemDropsByFloorTable(hohChestDistributionDataTitleId, hohChestDistributionDataTableId, column, data);
-      }
-
-      // draw column shapes
-      columns.forEach(column => {
-        let polygon = document.createElementNS(SVG_NS, 'polygon');
-        polygon.id = 'hohChestContentsColumn_' + column.key;
-        polygon.setAttribute('points', column.points.join(' '));
-        polygon.setAttribute('fill', column.fillColour);
-        polygon.addEventListener('click', (event) => {
-          let pt = getViewboxPoint(chart, event);
-          let proximity = pt.y % lineSpacing;
-          let threshold = lineSpacing * 0.2;
-          if (proximity < threshold) {
-            let lineY = pt.y - (pt.y % lineSpacing);
-            selectLine(lineY);
-          } else if (Math.abs(proximity - lineSpacing) < threshold) {
-            let lineY = pt.y + (Math.abs(proximity - lineSpacing));
-            selectLine(lineY);
-          } else {
-            selectColumn(column);
-          }
-        });
-        chart.appendChild(polygon)
-      });
-
-      // draw floorset lines
-      for (let y = 0; y <= viewboxHeight; y += lineSpacing) {
-        let line = document.createElementNS(SVG_NS, 'line');
-        line.id = 'hohChestContentsLine_' + y;
-        line.setAttribute('x1', 0);
-        line.setAttribute('y1', y);
-        line.setAttribute('x2', viewboxWidth);
-        line.setAttribute('y2', y);
-        chart.appendChild(line);
-      }
-
-      let target = document.getElementById(hohChestDistributionChartId);
-      target.appendChild(chart);
-
-      let legendContainer = document.getElementById(hohChestDistributionLegendId);
-      let legend = document.createElement('div');
-      legend.classList.add('clearfix');
-      columns.forEach(column => {
-        let entry = document.createElement('div');
-        entry.classList.add('chartLegendEntry');
-        let icon = document.createElement('span');
-        icon.style.color = column.fillColour;
-        icon.textContent = '■';
-        entry.appendChild(icon);
-        let label = document.createElement('span');
-        label.textContent = column.name;
-        entry.appendChild(label);
-        entry.addEventListener('click', event => {
-          selectColumn(column);
-        });
-        legend.appendChild(entry);
-      });
-      legendContainer.appendChild(legend);
-
-      let floorSelect = document.createElement('select');
-      floorSelect.id = hohChestDistributionFloorSelect;
-      floorSelect.style.marginTop = '8px';
-      floorSelect.appendChild(makeOption(-1, 'Select floors'));
-      data.forEach((floorset, index) => {
-        floorSelect.appendChild(makeOption(index, `Floors ${floorset.startFloor}-${floorset.endFloor}`));
-      });
-      floorSelect.addEventListener('change', event => {
-        if (event.target.value >= 0) {
-          let lineY = event.target.value * lineSpacing;
-          selectLine(lineY);
-        }
-      });
-      legendContainer.appendChild(floorSelect);
+    drawPotdChestDistribution: function(data) {
+      drawChestDistribution('potd', data, makePotdChestDistributionColumns());
+    },
+    
+    drawHohChestDistribution: function(data) {
+      drawChestDistribution('hoh', data, makeHohChestDistributionColumns());
     }
   };
+
+  function drawChestDistribution(dungeon, data, columns) {
+    const viewboxWidth = 1000;
+    const lineSpacing = 100;
+    const viewboxHeight = lineSpacing * (data.length - 1);
+
+    data.forEach(floorset => {
+      floorset.total_gold = 0;
+      floorset.total_silver = 0;
+      floorset.total_bronze = 0;
+      columns.forEach(column => {
+        floorset['total_' + column.chestType] += parseInt(floorset[column.key])
+      })
+    });
+
+    let y = 0;
+    data.forEach(floorset => {
+      let x = 0;
+      columns.forEach(column => {
+        column.points.unshift(coords(x, y));
+        let chestCount = parseInt(floorset['total_' + column.chestType]);
+        if (chestCount > 0) {
+          x = x + parseInt(floorset[column.key]) / chestCount * parseFloat(floorset['percent_' + column.chestType]) * (viewboxWidth / 100);
+          x = Math.min(Math.round(x), viewboxWidth);
+        }
+        column.points.push(coords(x, y));
+      });
+      y += lineSpacing;
+    });
+
+    let chart = document.createElementNS(SVG_NS, 'svg');
+    chart.classList.add('percentAreaChart');
+    chart.setAttribute('width', '100%');
+    // SVG coordinate system: width=10000 (percent*100), height=100*(floorsetCount-1)
+    chart.setAttribute('viewBox', `0 0 ${viewboxWidth} ${viewboxHeight}`)
+    
+    const floorSelectorId = `${dungeon}ChestContents_floorSelect`;
+
+    function deselectAll() {
+      let allLines = chart.getElementsByTagName('line');
+      for (let line of allLines) {
+        line.classList.remove('selected');
+      }
+      let selectedShape = chart.getElementsByClassName('selectedShape');
+      for (let shape of selectedShape) {
+        shape.remove();
+      }
+      let floorSelect = document.getElementById(floorSelectorId);
+      floorSelect.value = -1;
+    }
+
+    function selectLine(lineY) {
+      deselectAll();
+      let line = document.getElementById(`${dungeon}ChestContentsLine_${lineY}`);
+      line.classList.add('selected');
+      let i = lineY / lineSpacing;
+      makeFloorsetDropsTable(`${dungeon}ChestContentsDataTitle`, `${dungeon}ChestContentsDataTable`, columns, data[i]);
+      let floorSelect = document.getElementById(floorSelectorId);
+      floorSelect.value = i;
+    }
+
+    function selectColumn(column) {
+      deselectAll();
+      let polygon = document.getElementById(`${dungeon}ChestContentsColumn_${column.key}`);
+      let selected = polygon.cloneNode();
+      selected.classList.add('selectedShape');
+      chart.appendChild(selected);
+      makeItemDropsByFloorTable(`${dungeon}ChestContentsDataTitle`, `${dungeon}ChestContentsDataTable`, column, data);
+    }
+
+    // draw column shapes
+    columns.forEach(column => {
+      let polygon = document.createElementNS(SVG_NS, 'polygon');
+      polygon.id = `${dungeon}ChestContentsColumn_${column.key}`;
+      polygon.setAttribute('points', column.points.join(' '));
+      polygon.setAttribute('fill', column.fillColour);
+      polygon.addEventListener('click', (event) => {
+        let pt = getViewboxPoint(chart, event);
+        let proximity = pt.y % lineSpacing;
+        let threshold = lineSpacing * 0.2;
+        if (proximity < threshold) {
+          let lineY = pt.y - (pt.y % lineSpacing);
+          selectLine(lineY);
+        } else if (Math.abs(proximity - lineSpacing) < threshold) {
+          let lineY = pt.y + (Math.abs(proximity - lineSpacing));
+          selectLine(lineY);
+        } else {
+          selectColumn(column);
+        }
+      });
+      chart.appendChild(polygon)
+    });
+
+    // draw floorset lines
+    for (let y = 0; y <= viewboxHeight; y += lineSpacing) {
+      let line = document.createElementNS(SVG_NS, 'line');
+      line.id = `${dungeon}ChestContentsLine_${y}`;
+      line.setAttribute('x1', 0);
+      line.setAttribute('y1', y);
+      line.setAttribute('x2', viewboxWidth);
+      line.setAttribute('y2', y);
+      chart.appendChild(line);
+    }
+    
+    let target = document.getElementById(`${dungeon}ChestContentsChart`);
+    target.appendChild(chart);
+
+    let legendContainer = document.getElementById(`${dungeon}ChestContentsLegend`);
+    let legend = document.createElement('div');
+    legend.classList.add('clearfix');
+    columns.forEach(column => {
+      let entry = document.createElement('div');
+      entry.classList.add('chartLegendEntry');
+      let icon = document.createElement('span');
+      icon.style.color = column.fillColour;
+      icon.textContent = '■';
+      entry.appendChild(icon);
+      let label = document.createElement('span');
+      label.textContent = column.name;
+      entry.appendChild(label);
+      entry.addEventListener('click', event => {
+        selectColumn(column);
+      });
+      legend.appendChild(entry);
+    });
+    legendContainer.appendChild(legend);
+
+    let floorSelect = document.createElement('select');
+    floorSelect.id = floorSelectorId;
+    floorSelect.style.marginTop = '8px';
+    floorSelect.appendChild(makeOption(-1, 'Select floors'));
+    data.forEach((floorset, index) => {
+      floorSelect.appendChild(makeOption(index, `Floors ${floorset.startFloor}-${floorset.endFloor}`));
+    });
+    floorSelect.addEventListener('change', event => {
+      if (event.target.value >= 0) {
+        let lineY = event.target.value * lineSpacing;
+        selectLine(lineY);
+      }
+    });
+    legendContainer.appendChild(floorSelect);
+  }
 
   function makeOption(value, label) {
     let option = document.createElement('option');
@@ -157,9 +160,47 @@ var charts = (function() {
     option.textContent = label;
     return option;
   }
-
+  
+  function makePotdChestDistributionColumns() {
+    return makeChestDistributionColumns([{
+      name: 'Lust',
+      key: 'lust',
+      chestType: 'gold',
+      fillColour: '#FED92D'
+    }, {
+      name: 'Rage',
+      key: 'rage',
+      chestType: 'gold',
+      fillColour: '#F96C00'
+    }, {
+      name: 'Resolution',
+      key: 'resolution',
+      chestType: 'gold',
+      fillColour: '#FFEB35'
+    }], false)
+  }
+  
   function makeHohChestDistributionColumns() {
-    return [{
+    return makeChestDistributionColumns([{
+      name: 'Frailty',
+      key: 'frailty',
+      chestType: 'gold',
+      fillColour: '#FED92D'
+    }, {
+      name: 'Concealment',
+      key: 'concealment',
+      chestType: 'gold',
+      fillColour: '#F96C00'
+    }, {
+      name: 'Petrification',
+      key: 'petrification',
+      chestType: 'gold',
+      fillColour: '#FFEB35'
+    }], true)
+  }
+
+  function makeChestDistributionColumns(uniquePomanders, includeMagicite) {
+    columns = [{
       name: 'Safety',
       key: 'safety',
       chestType: 'gold',
@@ -224,22 +265,11 @@ var charts = (function() {
       key: 'raising',
       chestType: 'gold',
       fillColour: '#E75D00'
-    }, {
-      name: 'Frailty',
-      key: 'frailty',
-      chestType: 'gold',
-      fillColour: '#FED92D'
-    }, {
-      name: 'Concealment',
-      key: 'concealment',
-      chestType: 'gold',
-      fillColour: '#F96C00'
-    }, {
-      name: 'Petrification',
-      key: 'petrification',
-      chestType: 'gold',
-      fillColour: '#FFEB35'
-    }, {
+    }];
+    
+    columns.push.apply(columns, uniquePomanders);
+
+    columns.push({
       name: 'Gold Mimic',
       key: 'gold_mimic',
       chestType: 'gold',
@@ -254,12 +284,18 @@ var charts = (function() {
       key: 'trap',
       chestType: 'silver',
       fillColour: '#011176'
-    }, {
-      name: 'Magicite',
-      key: 'magicite',
-      chestType: 'silver',
-      fillColour: '#0191FF'
-    }, {
+    });
+    
+    if (includeMagicite) {
+      columns.push({
+        name: 'Magicite',
+        key: 'magicite',
+        chestType: 'silver',
+        fillColour: '#0191FF'
+      })
+    }
+
+    columns.push({
       name: 'Silver Mimic',
       key: 'silver_mimic',
       chestType: 'silver',
@@ -284,7 +320,9 @@ var charts = (function() {
       key: 'bronze_mimic',
       chestType: 'bronze',
       fillColour: '#D2007F'
-    }].map(column => {
+    });
+    
+    return columns.map(column => {
       column.points = [];
       return column;
     });
