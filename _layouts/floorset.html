@@ -105,8 +105,8 @@ layout: default
           {% assign enemies = enemies | append: ' • ' %}
         {% endif %}
         {% assign enemies = enemies
-          | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
-          | append: enemy.nickname %}
+            | append: '<a href="?enemy=' | append: index | append: '#enemies">'
+            | append: enemy.nickname %}
         {% if enemy.patrol %}
           {% assign enemies = enemies | append: ' (patrol)' %}
         {% endif %}
@@ -137,8 +137,8 @@ layout: default
         {% assign enemies = enemies | append: ' • ' %}
       {% endif %}
       {% assign enemies = enemies
-        | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
-        | append: enemy.nickname %}
+          | append: '<a href="?enemy=' | append: index | append: '#enemies">'
+          | append: enemy.nickname %}
       {% if enemy.patrol %}
         {% assign enemies = enemies | append: ' (patrol)' %}
       {% endif %}
@@ -167,8 +167,8 @@ layout: default
         {% assign enemies = enemies | append: ' • ' %}
       {% endif %}
       {% assign enemies = enemies
-        | append: '<a href="#enemies" onclick="selectEnemy(' | append: index | append: ')">'
-        | append: enemy.name | append: '</a>' %}
+          | append: '<a href="?enemy=' | append: index | append: '#enemies">'
+          | append: enemy.name | append: '</a>' %}
     {% endif %}
     {% assign index = index | plus: 1 %}
   {% endfor %}

@@ -2,6 +2,14 @@ var selectedEnemy = 0;
 var selectedJob = window.localStorage.getItem('selectedJob') || 'MCH';
 
 window.onload = function() {
+  urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('enemy')) {
+    const input = parseInt(urlParams.get('enemy'));
+    if (Number.isInteger(input) && input >= 0) {
+      selectedEnemy = urlParams.get('enemy')
+    }
+  }
+
   selectEnemy(selectedEnemy);
   selectJob(selectedJob);
 }
