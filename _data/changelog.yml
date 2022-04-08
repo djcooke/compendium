@@ -2,6 +2,7 @@
   updates:
     - 'Added WAR ratings and notes for most HoH 61-99 enemies'
     - 'Added a few more HoH boss timings for WAR'
+    - 'Corrected kills/passage for PotD floorsets 41 and 91, courtesy of vaxherd'
 - date: 2022-04-02
   updates:
     - 'Added PotD Chest Contents by Floor chart on Analysis page'
