@@ -27,4 +27,9 @@ job_specifics:
     notes:
       - 'Steel required'
       - 'Avoid if possible'
+  WAR:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel required'
+      - 'Not bad with steel, but avoid if you don''t already have it up'
 ---

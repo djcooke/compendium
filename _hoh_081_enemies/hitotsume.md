@@ -26,4 +26,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Can be time-consuming to fight due to dodging AoE'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Can be time-consuming to fight due to dodging AoE'
 ---

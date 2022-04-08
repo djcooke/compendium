@@ -32,4 +32,8 @@ job_specifics:
     difficulty: 'Medium'
     notes:
       - 'Steel recommended'
+  WAR:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
 ---

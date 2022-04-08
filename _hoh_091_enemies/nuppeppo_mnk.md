@@ -32,4 +32,9 @@ job_specifics:
     notes:
       - 'Steel recommended'
       - 'Try to stun Featherfoot for uptime'
+  WAR:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
+      - 'Try to stun Featherfoot for uptime'
 ---

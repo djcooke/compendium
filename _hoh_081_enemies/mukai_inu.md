@@ -36,4 +36,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Can interrupt a Ram''s Voice for uptime'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Can interrupt a Ram''s Voice for uptime'
 ---

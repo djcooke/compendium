@@ -22,4 +22,6 @@ job_specifics:
       Graze, and Foot Graze as needed.'
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

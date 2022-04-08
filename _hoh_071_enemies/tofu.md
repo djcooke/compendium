@@ -30,4 +30,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Make sure to interrupt Golden Tongue'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Make sure to interrupt Golden Tongue'
 ---

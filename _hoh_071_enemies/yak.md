@@ -27,4 +27,6 @@ job_specifics:
       AND burst. Not sure if Horrisonous Blast can be LoS''d'
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

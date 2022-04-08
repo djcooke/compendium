@@ -27,4 +27,6 @@ job_specifics:
     difficulty: Medium
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

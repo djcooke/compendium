@@ -31,4 +31,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel required'
+  WAR:
+    difficulty: Hard
+    notes:
+      - 'Steel required'
 ---

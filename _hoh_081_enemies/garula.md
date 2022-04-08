@@ -19,7 +19,7 @@ abilities:
   - name: 'Heave'
     description: 'telegraphed conal AoE'
   - name: 'Disorienting Groan'
-    description: 'telegraphed large pointblank AoE'
+    description: 'telegraphed large pointblank AoE; can be LoS''d'
   - name: 'Earthquake'
     description: 'stands in place and does 6 stomps, each a non-telegraphed
     huge pointblank AoE; can be LoS''d'
@@ -34,6 +34,10 @@ job_specifics:
   MCH:
     difficulty: Medium
   PLD:
+    difficulty: Easy
+    notes:
+      - 'Stand behind during Earthquake'
+  WAR:
     difficulty: Easy
     notes:
       - 'Stand behind during Earthquake'

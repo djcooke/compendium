@@ -23,4 +23,10 @@ job_specifics:
     difficulty: Easy
   PLD:
     difficulty: Easy
+    notes:
+      - 'Interrupt Scream for uptime'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Interrupt Scream for uptime'
 ---

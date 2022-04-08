@@ -24,4 +24,6 @@ job_specifics:
       - 'Avoid if possible'
   PLD:
     difficulty: Medium
+  WAR:
+    difficulty: Medium
 ---

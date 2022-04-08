@@ -29,4 +29,6 @@ job_specifics:
       - 'Steel recommended'
   PLD:
     difficulty: Medium
+  WAR:
+    difficulty: 'Medium'
 ---

@@ -35,4 +35,6 @@ job_specifics:
       - 'Steel or frailty recommended; have sprint and heals ready otherwise'
   PLD:
     difficulty: 'Medium'
+  WAR:
+    difficulty: Medium
 ---

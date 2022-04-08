@@ -28,4 +28,6 @@ job_specifics:
       even hitting you in-between'
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

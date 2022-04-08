@@ -25,4 +25,6 @@ job_specifics:
     difficulty: 'Easy if you LoS well'
   PLD:
     difficulty: 'Easy if you LoS well'
+  WAR:
+    difficulty: 'Easy if you LoS well'
 ---

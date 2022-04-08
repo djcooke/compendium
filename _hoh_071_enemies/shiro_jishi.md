@@ -29,4 +29,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Stun Cry for uptime'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Stun Cry for uptime'
 ---

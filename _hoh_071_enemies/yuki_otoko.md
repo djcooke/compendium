@@ -25,4 +25,6 @@ job_specifics:
       - 'Need to stay close to dodge all the conals'
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

@@ -28,4 +28,6 @@ job_specifics:
       too though!'
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

@@ -30,4 +30,6 @@ job_specifics:
     notes: 'Have heals ready - these hit HARD while the damage bonus is up'
   PLD:
     difficulty: 'Medium'
+  WAR:
+    difficulty: 'Medium'
 ---

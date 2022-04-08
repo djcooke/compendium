@@ -19,9 +19,14 @@ abilities:
   - name: '?'
     description: 'non-telegraphed huge pointblank AoE that applies a stacking
     vulnerability up; can be LoS''d'
+notes:
+  - 'If you let it do one auto-attack after Vile Utterance and then duck behind
+  a corner, you should avoid the vulnerability up'
 job_specifics:
   MCH:
     difficulty: Easy
   PLD:
+    difficulty: Easy
+  WAR:
     difficulty: Easy
 ---
