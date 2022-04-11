@@ -9,6 +9,7 @@ scripts:
 
 * [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
 * [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
+* [Drop Rates](#drop-rates)
 
 ## PotD Chest Contents by Floor
 
@@ -137,10 +138,84 @@ scripts:
 
 </div>
 
-<script>
-  let potd_data = {{ site.data.potd_chests | jsonify }};
-  charts.drawPotdChestDistribution(potd_data);
+## Drop Rates
 
-  let hoh_data = {{ site.data.hoh_chests | jsonify }};
-  charts.drawHohChestDistribution(hoh_data);
+<div class="surfacePane">
+
+  <h3>Palace of the Dead</h3>
+
+  <div class="hscroll">
+    <table id="potd_droprates">
+      <thead>
+        <tr>
+          <th rowspan="2">Enemy Type</th>
+          <th colspan="3">Normal</th>
+          <th colspan="3">Fortuned</th>
+        </tr>
+        <tr>
+          <th>Drops</th>
+          <th>Kills</th>
+          <th>Rate (%)</th>
+          <th>Drops</th>
+          <th>Kills</th>
+          <th>Rate (%)</th>
+        </tr>
+      </thead>
+      <!-- tbody added via script -->
+    </table>
+  </div>
+
+  <h3>Heaven on High</h3>
+
+  <div class="hscroll">
+    <table id="hoh_droprates">
+      <thead>
+        <tr>
+          <th rowspan="2">Enemy Type</th>
+          <th colspan="3">Normal</th>
+          <th colspan="3">Fortuned</th>
+        </tr>
+        <tr>
+          <th>Drops</th>
+          <th>Kills</th>
+          <th>Rate (%)</th>
+          <th>Drops</th>
+          <th>Kills</th>
+          <th>Rate (%)</th>
+        </tr>
+      </thead>
+      <!-- tbody added via script -->
+    </table>
+  </div>
+
+  <h3>Notes</h3>
+
+  <ul>
+    <li>
+      Drop rate does not seem to vary by floor.
+    </li>
+    <li>
+      Based on the data, I'd guess that Pomander of Fortune increases drop rate
+      from all enemies by roughly 12-13%
+    </li>
+    <li>
+      I have very little data on PotD special mobs since they are very rare.
+      As such, those numbers aren't likely to be accurate.
+    </li>
+  </ul>
+
+</div>
+
+<script>
+  let potd_chest_data = {{ site.data.potd_chests | jsonify }};
+  charts.drawPotdChestDistribution(potd_chest_data);
+
+  let hoh_chest_data = {{ site.data.hoh_chests | jsonify }};
+  charts.drawHohChestDistribution(hoh_chest_data);
+
+  let potd_droprate_data = {{ site.data.potd_drops | jsonify }};
+  charts.writeDropRatesTable(potd_droprate_data, 'potd_droprates');
+
+  let hoh_droprate_data = {{ site.data.hoh_drops | jsonify }};
+  charts.writeDropRatesTable(hoh_droprate_data, 'hoh_droprates');
 </script>

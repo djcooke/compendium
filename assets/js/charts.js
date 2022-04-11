@@ -9,6 +9,22 @@ var charts = (function() {
     
     drawHohChestDistribution: function(data) {
       drawChestDistribution('hoh', data, makeHohChestDistributionColumns());
+    },
+
+    writeDropRatesTable: function(data, tableId) {
+      let table = document.getElementById(tableId);
+      let rows = data.map(datarow => {
+        return [
+          datarow.enemyType,
+          datarow.normalDrops,
+          datarow.normalKills,
+          (datarow.normalDrops / datarow.normalKills * 100).toFixed(2),
+          datarow.fortunedDrops,
+          datarow.fortunedKills,
+          (datarow.fortunedDrops / datarow.fortunedKills * 100).toFixed(2)
+        ];
+      });
+      table.append(makeTbody(rows));
     }
   };
 

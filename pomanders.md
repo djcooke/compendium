@@ -71,7 +71,8 @@ pomanders:
   - name: Fortune
     image: fortune.png
     description: 'Increases the chance enemies on the current floor will drop
-    treasure coffers.'
+    treasure coffers. The increase is roughly 12-13%. See the Analysis page for
+    more information'
     tips:
       - 'Use when you''re missing multiple valuable pomanders and are planning
       to kill a lot of enemies on a floor'
