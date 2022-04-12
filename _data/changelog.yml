@@ -1,6 +1,7 @@
 - date: 2022-04-11
   updates:
     - 'Added drop rate data to the Analysis page'
+    - 'Added alteration effect data to the Analysis page'
 - date: 2022-04-08
   updates:
     - 'Added WAR ratings and notes for most HoH 61-99 enemies'

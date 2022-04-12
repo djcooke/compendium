@@ -12,18 +12,47 @@ var charts = (function() {
     },
 
     writeDropRatesTable: function(data, tableId) {
-      let table = document.getElementById(tableId);
-      let rows = data.map(datarow => {
+      const table = document.getElementById(tableId);
+      const rows = data.map(datarow => {
         return [
           datarow.enemyType,
           datarow.normalDrops,
           datarow.normalKills,
-          (datarow.normalDrops / datarow.normalKills * 100).toFixed(2),
+          get_percent(datarow.normalDrops, datarow.normalKills),
           datarow.fortunedDrops,
           datarow.fortunedKills,
-          (datarow.fortunedDrops / datarow.fortunedKills * 100).toFixed(2)
+          get_percent(datarow.fortunedDrops, datarow.fortunedKills)
         ];
       });
+      table.append(makeTbody(rows));
+    },
+
+    writeAlterationTable: function(data, tableId) {
+      const table = document.getElementById(tableId);
+      let totalMimics = 0;
+      let totalKorrigans = 0;
+      const rows = data.map(datarow => {
+        const mimics = parseInt(datarow.mimics);
+        totalMimics += mimics;
+        const korrigans = parseInt(datarow.korrigans);
+        totalKorrigans += korrigans;
+        const total = mimics + korrigans;
+        return [
+          datarow.floorSet,
+          mimics,
+          get_percent(mimics, total),
+          korrigans,
+          get_percent(korrigans, total)
+        ];
+      });
+      const totalAll = totalMimics + totalKorrigans;
+      rows.push([
+        'Total',
+        totalMimics,
+        get_percent(totalMimics, totalAll),
+        totalKorrigans,
+        get_percent(totalKorrigans, totalAll)
+      ]);
       table.append(makeTbody(rows));
     }
   };
@@ -458,6 +487,10 @@ var charts = (function() {
 
   function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  function get_percent(numerator, denominator) {
+    return (numerator / denominator * 100).toFixed(2);
   }
 
 })();

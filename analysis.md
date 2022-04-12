@@ -10,6 +10,7 @@ scripts:
 * [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
 * [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
 * [Drop Rates](#drop-rates)
+* [Alteration Effects](#alteration-effects)
 
 ## PotD Chest Contents by Floor
 
@@ -206,16 +207,78 @@ scripts:
 
 </div>
 
+## Alteration Effects
+
+<div class="surfacePane">
+
+  <h3>Palace of the Dead</h3>
+
+  <div class="hscroll">
+    <table id="potd_alteration">
+      <thead>
+        <tr>
+          <th>Floorset</th>
+          <th>Mimics</th>
+          <th>% Mimics</th>
+          <th>Korrigans</th>
+          <th>% Korrigans</th>
+        </tr>
+      </thead>
+      <!-- tbody added via script -->
+    </table>
+  </div>
+
+  <h3>Heaven on High</h3>
+
+  <div class="hscroll">
+    <table id="hoh_alteration">
+      <thead>
+        <tr>
+          <th>Floorset</th>
+          <th>Mimics</th>
+          <th>% Mimics</th>
+          <th>Korrigans</th>
+          <th>% Korrigans</th>
+        </tr>
+      </thead>
+      <!-- tbody added via script -->
+    </table>
+  </div>
+
+  <h3>Notes</h3>
+
+  <ul>
+    <li>
+      I don't have a lot of data on this as it depends on alteration drops and
+      usage. Based on the data so far, I'm guessing it's the same for every
+      floor, and either 50/50 or slightly in favour of korrigans. Sets where
+      it's far from 50/50 mostly have very little data. It looks like I've been
+      pretty lucky on HoH 81+ though!
+    </li>
+    <li>
+      The counts here are the number of times alteration produced mimics or
+      korrigans - not the count of how many were in the room.
+    </li>
+  </ul>
+
+</div>
+
 <script>
-  let potd_chest_data = {{ site.data.potd_chests | jsonify }};
+  const potd_chest_data = {{ site.data.potd_chests | jsonify }};
   charts.drawPotdChestDistribution(potd_chest_data);
 
-  let hoh_chest_data = {{ site.data.hoh_chests | jsonify }};
+  const hoh_chest_data = {{ site.data.hoh_chests | jsonify }};
   charts.drawHohChestDistribution(hoh_chest_data);
 
-  let potd_droprate_data = {{ site.data.potd_drops | jsonify }};
+  const potd_droprate_data = {{ site.data.potd_drops | jsonify }};
   charts.writeDropRatesTable(potd_droprate_data, 'potd_droprates');
 
-  let hoh_droprate_data = {{ site.data.hoh_drops | jsonify }};
+  const hoh_droprate_data = {{ site.data.hoh_drops | jsonify }};
   charts.writeDropRatesTable(hoh_droprate_data, 'hoh_droprates');
+
+  const potd_alter_data = {{ site.data.potd_alteration | jsonify }};
+  charts.writeAlterationTable(potd_alter_data, 'potd_alteration');
+
+  const hoh_alter_data = {{ site.data.hoh_alteration | jsonify }};
+  charts.writeAlterationTable(hoh_alter_data, 'hoh_alteration');
 </script>
