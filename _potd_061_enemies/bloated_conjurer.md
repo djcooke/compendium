@@ -1,6 +1,7 @@
 ---
 name: Bloated Conjurer
 family: Fallen NPC
+image: bloated_conjurer.png
 start_floor: 61
 end_floor: 69
 agro: Proximity
@@ -16,4 +17,5 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dying words: I finally remember...who I am...'
 ---
