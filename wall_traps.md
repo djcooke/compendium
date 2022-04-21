@@ -124,6 +124,9 @@ but this one will always have the 4-way stair room north of it, and may be
 connected to dead-end rooms to the south (as in the screenshot) and west:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_3.png' | relative_url }}">
   <br>Image courtesy of blasterpoard (Discord: blasterpoard#6245)
+* Dead-end platform - not quite a wall trap, but it's very easy to hit it if
+you're not careful:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_4.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
