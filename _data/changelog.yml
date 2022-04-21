@@ -1,3 +1,6 @@
+- date: 2022-04-21
+  updates:
+    - 'Corrected kills/passage range for a few PotD floorsets'
 - date: 2022-04-11
   updates:
     - 'Added drop rate data to the Analysis page'
