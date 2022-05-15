@@ -18,8 +18,7 @@ abilities:
     instead of auto-attacks, but does magical damage, so does not affect its
     own damage'
   - name: 'Rapture'
-    description: 'Enrage; explodes, doing huge AoE damage; used if not killed
-    quickly enough'
+    description: 'Enrage; explodes, doing huge AoE damage; used 37 seconds after pull/agro'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

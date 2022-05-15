@@ -12,8 +12,10 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: true
-notes:
-  - 'Only uses auto-attacks'
+abilities:
+  - name: Hoofkick
+    description: 'Non-telegraphed instant knockback used on anyone standing
+    behind it'
 job_specifics:
   MCH:
     difficulty: Medium
