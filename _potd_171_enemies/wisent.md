@@ -37,4 +37,9 @@ job_specifics:
     notes:
       - Strength or steel recommended
       - You can use Displacement to get out of the Horroisonous Blast AoE
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Make sure to interrupt Horroisonous Blast. Avoid if you have amnesia
+      enchantment'
 ---

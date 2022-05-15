@@ -33,4 +33,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  WAR:
+    difficulty: Medium
+    notes:
+      - 'Annoying/slow to fight because of the HP drain and high DPS'
 ---

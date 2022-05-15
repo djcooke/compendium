@@ -17,13 +17,16 @@ abilities:
   - name: Poison Dust
     description: 'telegraphed conal AoE'
   - name: Exuviation
-    description: 'heals another enemy. Make sure not to pull one of these while
-    fighting something else'
+    description: 'heals another enemy. If you pull multiple mobs, kill the
+    Wamoura first. If you pull 2 Wamouras, you''ll probably have to use
+    Witching or Rage to avoid them healing each other forever'
 job_specifics:
   MCH:
     difficulty: Easy
   PLD:
     difficulty: Easy
   RDM:
+    difficulty: Easy
+  WAR:
     difficulty: Easy
 ---

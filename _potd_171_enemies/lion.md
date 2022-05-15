@@ -28,4 +28,8 @@ job_specifics:
       - 'Stun Cry for uptime'
   RDM:
     difficulty: Medium
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Stun Cry for uptime'
 ---

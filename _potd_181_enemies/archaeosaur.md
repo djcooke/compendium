@@ -30,4 +30,6 @@ job_specifics:
     difficulty: Hard
     notes:
       - Strength and/or steel recommended
+  WAR:
+    difficulty: Easy
 ---

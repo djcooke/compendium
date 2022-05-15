@@ -18,6 +18,9 @@ abilities:
     description: 'telegraphed conal AoE'
   - name: Ice Dispenser
     description: 'instant circle AoE that applies slow'
+notes:
+  - 'If there are several, you may want to pull them in quick succession to
+    take advantage of diminishing returns on slow'
 job_specifics:
   MCH:
     difficulty: Easy
@@ -27,7 +30,9 @@ job_specifics:
   PLD:
     difficulty: Easy
     notes:
-      - 'Annoying/slow to fight due to the slow. If there are several running
-      around, you may want to chain pull them to take advantage of diminishing
-      returns on slow'
+      - 'Annoying/slow to fight due to the slow'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Annoying/slow to fight due to the slow'
 ---

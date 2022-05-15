@@ -37,4 +37,8 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Witching recommended
+  WAR:
+    difficulty: Medium
+    notes:
+      - 'Annoying and slow to fight due to the stuns. Try to avoid.'
 ---

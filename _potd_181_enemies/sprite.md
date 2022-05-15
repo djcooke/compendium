@@ -28,4 +28,6 @@ job_specifics:
     difficulty: Easy
   RDM:
     difficulty: Medium
+  WAR:
+    difficulty: Easy
 ---

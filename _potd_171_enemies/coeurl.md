@@ -31,8 +31,14 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Annoying and slow to fight due to the paralyze'
-      - 'Get hit by Megablaster intentionally. Yes, really! The damage isn''t
-      bad and this will result in a shorter paralysis'
+      - 'Mitigate and get hit by Megablaster intentionally. Yes, really! The
+      damage isn''t bad and this will result in a shorter paralysis'
   RDM:
     difficulty: Medium
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Annoying and slow to fight due to the paralyze'
+      - 'Mitigate and get hit by Megablaster intentionally. Yes, really! The
+      damage isn''t bad and this will result in a shorter paralysis'
 ---

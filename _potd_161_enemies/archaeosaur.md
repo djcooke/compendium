@@ -28,4 +28,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Stun Primordial Bark for uptime'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Stun Primordial Bark for uptime'
 ---

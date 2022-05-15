@@ -43,4 +43,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Try to stun/interrupt both Ice Spikes and Void Blizzard'
+  WAR:
+    difficulty: Medium
+    notes:
+      - 'Try to stun/interrupt both Ice Spikes and Void Blizzard'
 ---

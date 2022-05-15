@@ -31,5 +31,11 @@ job_specifics:
   PLD:
     difficulty: Easy
     notes:
-      - 'Annoying/slow to fight due to the paralyze'
+      - 'It''s a quick cast, but try to stun Abyssal Transfixion. Annoying/slow
+      to fight otherwise due to the paralyze'
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'It''s a quick cast, but try to stun Abyssal Transfixion. Annoying/slow
+      to fight otherwise due to the paralyze'
 ---

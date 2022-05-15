@@ -28,4 +28,8 @@ job_specifics:
       - 'Stun 100-tonze Swing for uptime'
   RDM:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Stun 100-tonze Swing for uptime'
 ---

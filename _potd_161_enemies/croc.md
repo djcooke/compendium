@@ -25,4 +25,6 @@ job_specifics:
       - Can be painful. Sprint and Leg Graze recommended
   PLD:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

@@ -34,4 +34,6 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Steel required
+  WAR:
+    difficulty: Easy
 ---

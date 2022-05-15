@@ -41,4 +41,8 @@ job_specifics:
       - 'Can interrupt Ram''s Voice for uptime'
   RDM:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
+    notes:
+      - 'Can interrupt Ram''s Voice for uptime'
 ---

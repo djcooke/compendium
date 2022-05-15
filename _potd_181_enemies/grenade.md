@@ -25,4 +25,6 @@ job_specifics:
       - 'Can stun Hypothermal Combustion for uptime'
   RDM:
     difficulty: Easy
+  WAR:
+    difficulty: Easy
 ---

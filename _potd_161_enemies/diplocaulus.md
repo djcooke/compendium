@@ -29,4 +29,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - Make sure to interrupt Mucus for a faster kill
+  WAR:
+    difficulty: Easy
+    notes:
+      - Make sure to interrupt Mucus for a faster kill
 ---

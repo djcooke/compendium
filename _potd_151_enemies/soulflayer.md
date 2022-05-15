@@ -30,4 +30,6 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Annoying/slow to fight due to the HP drain'
+  WAR:
+    difficulty: Easy
 ---
