@@ -2,6 +2,7 @@
 name: Deep Palace Claw
 nickname: Claw
 family: Scorpion
+image: claw.png
 start_floor: 185
 end_floor: 189
 agro: Sight

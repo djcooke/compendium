@@ -2,6 +2,7 @@
 name: Deep Palace Fachan
 nickname: Fachan
 family: Ahriman
+image: fachan.png
 start_floor: 194
 end_floor: 197
 patrol: true

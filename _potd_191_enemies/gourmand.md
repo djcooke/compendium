@@ -1,6 +1,7 @@
 ---
 name: Deep Palace Gourmand
 nickname: Gourmand
+image: gourmand.png
 start_floor: 196
 end_floor: 199
 agro: Proximity
