@@ -15,5 +15,5 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 111-Tonze Swing
-    description: untelegraphed pointblank AoE
+    description: 'untelegraphed pointblank AoE with knockback'
 ---

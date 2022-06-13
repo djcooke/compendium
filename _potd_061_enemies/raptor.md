@@ -12,4 +12,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Foul Breath
+    description: 'telegraphed conal AoE; applies Burns (DoT)'
 ---

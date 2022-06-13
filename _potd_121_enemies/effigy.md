@@ -14,5 +14,5 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Wild Horn
-    description: 'telegraphed conal AoE'
+    description: 'telegraphed conal AoE with knockback'
 ---

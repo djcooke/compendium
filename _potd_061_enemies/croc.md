@@ -12,4 +12,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Flatten
+    description: 'telegraphed conal AoE'
 ---

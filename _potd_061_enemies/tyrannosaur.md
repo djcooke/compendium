@@ -12,4 +12,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: 'Primordial Roar'
+    description: 'telegraphed pointblank AoE; applies Stun'
 ---

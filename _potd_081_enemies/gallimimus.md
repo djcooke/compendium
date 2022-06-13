@@ -13,4 +13,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Flash Evaporation
+    description: 'telegraphed circle AoE; applies Burns (DoT)'
 ---
