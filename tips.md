@@ -21,7 +21,7 @@ job_specific_notes:
     - 'Save burst for tougher enemies if necessary. You can take something down
     much quicker with Reassemble Drill, Turret, Wildfire, and Hypercharge,
     which means it has less time to murder you!'
-    - 'Make sure Head Graze is almost ready before opening possible mimics. 7
+    - 'Make sure Head Graze is almost ready before opening possible mimics. 8
     seconds left on cooldown is close enough'
   PLD:
     - 'Time is your biggest enemy, so keep moving as much as possible. Try to
@@ -32,9 +32,21 @@ job_specific_notes:
     too'
     - 'Take advantage of landmines and exploding chests to kill multiple
     enemies at once, saving lots of time'
-    - 'Keep in mind that Clemency costs you uptime and breaks combos. Use
-    potions and defensive cooldowns to prevent the need for Clemency as much as
-    possible'
+    - 'Keep in mind that Clemency costs you uptime. Use potions and defensive
+    cooldowns to prevent the need for Clemency as much as possible'
+    - 'Make sure Interject is almost ready before opening possible mimics. 8
+    seconds left on cooldown is close enough'
+  WAR:
+    - 'Time is your biggest enemy, so keep moving as much as possible. Try to
+    alternate between fighting and exploring efficiently - fight when
+    Berserk/Inner Release is up, and explore when Sprint is up'
+    - 'There aren''t many enemies that will give you much trouble, so
+    prioritize killing things that are in your way rather than waiting for them
+    to move'
+    - 'Take advantage of landmines and exploding chests to kill multiple
+    enemies at once, saving lots of time'
+    - 'Make sure Interject is almost ready before opening possible mimics. 8
+    seconds left on cooldown is close enough'
 ---
 
 ## On this Page:
