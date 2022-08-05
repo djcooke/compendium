@@ -5,6 +5,8 @@ title: Wall Traps
 
 ## On this Page:
 
+* [PotD 1-9](#potd-1-9)
+* [PotD 11-19](#potd-11-19)
 * [PotD 31-49](#potd-31-49)
 * [PotD 51-79](#potd-51-79)
 * [PotD 81-109](#potd-81-109)
@@ -15,6 +17,26 @@ title: Wall Traps
 * [HoH 41-79](#hoh-41-79)
 * [HoH 81-99](#hoh-81-99)
 
+## PotD 1-9
+
+<div class="surfacePane" markdown="1">
+
+* South-east corner of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_1.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
+## PotD 11-19
+
+<div class="surfacePane" markdown="1">
+
+* East wall of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_1.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
+
 ## PotD 21-29
 
 <div class="surfacePane" markdown="1">
@@ -22,6 +44,9 @@ title: Wall Traps
 * South-east corner of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-2.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
 
 ## PotD 31-49
 
@@ -45,7 +70,7 @@ title: Wall Traps
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
 * South corner/exit of another donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_6.png' | relative_url }}">
-* East corner/exit of this donut room::
+* East corner/exit of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
 * On debris pile by east corner/exit of this room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_3.png' | relative_url }}">
