@@ -17,6 +17,8 @@ abilities:
   - name: Terror Eye
     description: telegraphed circle AoE. Also used out of combat'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

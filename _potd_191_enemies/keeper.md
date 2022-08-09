@@ -23,6 +23,8 @@ notes:
   - 'Highest DPS enemy in PotD'
   - 'If in a party, spread out to minimize damage from Vengeful Soul'
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Extreme
   RDM:

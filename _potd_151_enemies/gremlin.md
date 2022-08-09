@@ -18,6 +18,8 @@ abilities:
   - name: Fire II
     description: 'telegraphed circle AoE. Can be interrupted'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

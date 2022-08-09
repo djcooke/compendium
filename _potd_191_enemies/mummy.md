@@ -16,6 +16,8 @@ abilities:
   - name: Rotting Bandages
     description: 'telegraphed conal attack'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   RDM:

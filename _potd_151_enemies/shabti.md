@@ -19,6 +19,8 @@ abilities:
     description: 'quick, long, narrow line AoE. It will spam this every few
     seconds'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

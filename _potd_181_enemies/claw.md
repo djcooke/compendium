@@ -23,6 +23,12 @@ notes:
     immunity does not work, but draw-in will not work on floors with knockback
     penalty, making them easier to deal with'
 job_specifics:
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Stun Tail Screw'
+      - 'Slower and more difficult to fight with amnesia enchantment due to the
+      slow'
   MCH:
     difficulty: Hard
     notes:
@@ -31,10 +37,16 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Stun Tail Screw'
+      - 'Slower and more difficult to fight with amnesia enchantment due to the
+      slow'
   RDM:
     difficulty: Extreme
     notes:
       - Steel required
   WAR:
     difficulty: Easy
+    notes:
+      - 'Stun Tail Screw'
+      - 'Slower and more difficult to fight with amnesia enchantment due to the
+      slow'
 ---

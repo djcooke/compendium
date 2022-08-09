@@ -27,6 +27,8 @@ notes:
   - DO NOT pull while it has the attack bonus
   - Be very careful fighting other enemies nearby
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Medium
     notes:

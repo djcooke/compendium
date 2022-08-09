@@ -20,6 +20,8 @@ notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Hard
     notes:

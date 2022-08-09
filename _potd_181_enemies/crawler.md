@@ -18,6 +18,10 @@ abilities:
   - name: '?'
     description: 'instant conal AoE that applies poison'
 job_specifics:
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Slow and annoying to fight due to slow'
   MCH:
     difficulty: Hard
     notes:

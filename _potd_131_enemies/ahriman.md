@@ -15,8 +15,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Level 5 Petrify
-    description: 'untelegraphed conal AoE; applies petrify - look away, get
-    behind, or get away'
+    description: 'untelegraphed conal AoE; applies petrify - get behind, or get
+    away'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

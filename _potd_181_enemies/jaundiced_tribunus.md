@@ -17,6 +17,8 @@ notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
+  - 'Dies in 4 hits from resolution'
+  - 'Dying words: Lord Gaius... I''m coming.'
 job_specifics:
   MCH:
     difficulty: Hard

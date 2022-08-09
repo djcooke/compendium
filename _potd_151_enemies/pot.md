@@ -18,6 +18,8 @@ abilities:
   - name: Double Ray
     description: 'tankbuster'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

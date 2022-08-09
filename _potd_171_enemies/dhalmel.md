@@ -18,6 +18,8 @@ abilities:
   - name: Whistle
     description: 'grants attack bonus'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

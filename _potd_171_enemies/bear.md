@@ -16,6 +16,8 @@ abilities:
   - name: Savage Swipe
     description: 'telegraphed conal attack'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

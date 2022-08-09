@@ -20,6 +20,8 @@ abilities:
   - name: 100-tonze Swing
     description: 'untelegraphed pointblank AoE - get away'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

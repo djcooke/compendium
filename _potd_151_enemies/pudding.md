@@ -20,6 +20,8 @@ notes:
   - 'Caster, but also does melee attacks if you''re close. Keeping distance
     will mitigate some damage'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

@@ -18,6 +18,8 @@ abilities:
     description: '(painful) gap closer. Does this on first agro and every 30
     seconds. Will destroy non-tanks if it crits'
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Hard
     notes:

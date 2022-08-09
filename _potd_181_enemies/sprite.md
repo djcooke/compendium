@@ -20,6 +20,8 @@ notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
   - 'Interrupts spell casts very often'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Hard
     notes:

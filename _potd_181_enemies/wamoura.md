@@ -21,6 +21,8 @@ abilities:
     Wamoura first. If you pull 2 Wamouras, you''ll probably have to use
     Witching or Rage to avoid them healing each other forever'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

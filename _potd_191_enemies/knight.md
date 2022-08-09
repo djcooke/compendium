@@ -26,6 +26,8 @@ notes:
     Accursed Pox outside of combat and fill in the safe spot normally left
     by Death Spiral'
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Medium
     notes:

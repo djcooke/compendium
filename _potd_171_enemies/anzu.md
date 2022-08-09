@@ -20,6 +20,11 @@ abilities:
 notes:
   - If in a party, spread out to minimize damage from Flying Frenzy
 job_specifics:
+  GNB:
+    difficulty: Hard
+    notes:
+      - 'Doable without steel as long as you don''t have item penalty or
+      amnesia enchantments'
   MCH:
     difficulty: Extreme
     notes:

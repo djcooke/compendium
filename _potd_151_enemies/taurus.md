@@ -16,6 +16,8 @@ abilities:
   - name: Frightful Roar
     description: 'telegraphed pointblank AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

@@ -18,6 +18,8 @@ abilities:
   - name: Miasma Breath
     description: telegraphed conal AoE
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   RDM:

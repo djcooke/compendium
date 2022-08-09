@@ -19,6 +19,8 @@ notes:
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Dyin'' a third time... Forgive me, Diamanda...'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

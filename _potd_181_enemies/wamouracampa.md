@@ -16,6 +16,8 @@ abilities:
   - name: Cannonball
     description: 'ranged tankbuster'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

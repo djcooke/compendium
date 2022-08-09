@@ -19,6 +19,8 @@ abilities:
   - name: Isle Drop
     description: 'telegraphed circle AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

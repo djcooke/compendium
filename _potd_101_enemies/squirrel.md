@@ -12,4 +12,10 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: 'Scamper'
+    description: 'grants haste'
+notes:
+  - 'Arm''s Length can be used to override the haste buff and prevent it from
+  re-applying'
 ---

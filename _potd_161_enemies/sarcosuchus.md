@@ -16,6 +16,8 @@ abilities:
   - name: Critical Bite
     description: 'telegraphed conal AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

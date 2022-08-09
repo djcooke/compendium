@@ -23,6 +23,8 @@ notes:
   - 'Do not fight a Knight with one of these nearby, as Accursed Pox can fill
     in the safe spot of the Knight''s donut AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

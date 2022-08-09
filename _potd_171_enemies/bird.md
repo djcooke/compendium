@@ -23,6 +23,8 @@ abilities:
     Revelation. Can be interrupted, but not recommended as its casting will
     give you lots of breathing room'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     note:

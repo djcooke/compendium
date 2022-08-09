@@ -23,6 +23,10 @@ notes:
   - 'Pomander of Alteration transforms all enemies in a random room on the next
   floor into either mimics or mandragoras'
 job_specifics:
+  GNB:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
   MCH:
     difficulty: Hard
     notes:

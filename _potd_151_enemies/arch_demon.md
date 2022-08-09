@@ -23,6 +23,11 @@ notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on paralyze'
 job_specifics:
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'It''s a quick cast, but try to stun Abyssal Transfixion. Annoying/slow
+      to fight otherwise due to the paralyze'
   MCH:
     difficulty: Medium
     notes:

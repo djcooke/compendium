@@ -18,6 +18,8 @@ abilities:
   - name: Hypnotize
     description: 'roomwide gaze sleep - look away'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

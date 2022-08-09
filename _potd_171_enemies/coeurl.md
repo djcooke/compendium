@@ -22,6 +22,12 @@ notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on paralyze'
 job_specifics:
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Annoying and slow to fight due to the paralyze'
+      - 'Mitigate and get hit by Megablaster intentionally. Yes, really! The
+      damage isn''t bad and this will result in a shorter paralysis'
   MCH:
     difficulty: Medium
     notes:

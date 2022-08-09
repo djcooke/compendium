@@ -22,6 +22,8 @@ notes:
   - 'For ranged jobs, these are great to pull and fight in a corner while
     patrols are passing'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

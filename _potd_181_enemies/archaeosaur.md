@@ -18,6 +18,8 @@ abilities:
   - name: Primordial Bark
     description: 'telegraphed pointblank AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

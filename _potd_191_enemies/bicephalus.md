@@ -19,6 +19,8 @@ abilities:
   - name: Catapult
     description: telegraphed circle AoE
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes: Steel recommended. Tank buster hurts

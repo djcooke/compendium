@@ -29,6 +29,10 @@ notes:
     get one autoattack in and take Ice Spikes damage.'
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Try to stun/interrupt both Ice Spikes and Void Blizzard'
   MCH:
     difficulty: Medium
     notes:

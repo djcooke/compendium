@@ -18,6 +18,8 @@ abilities:
   - name: Shriek
     description: telegraphed pointblank AoE
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

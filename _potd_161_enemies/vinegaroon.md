@@ -24,6 +24,8 @@ notes:
   - 'Bait Third Leg Back repeatedly to avoid taking any damage - just keep
     running in and out of its area'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

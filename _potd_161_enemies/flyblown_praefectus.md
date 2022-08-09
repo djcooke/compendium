@@ -19,6 +19,8 @@ notes:
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Lord van Baelsar... Even in death...I serve...'
 job_specifics:
+  GNB:
+    difficulty: Easy
   PLD:
     difficulty: Easy
   WAR:

@@ -25,6 +25,11 @@ notes:
   - 'Can appear on any floor from 181-189, but seems fairly rare in the earlier
     floors, and more common in the later floors'
 job_specifics:
+  GNB:
+    difficulty: Hard
+      - 'Can probably stun after the draw-in and run out of AoE range (?);
+      otherwise, keep your HP up and use mitigation and the damage isn''t too
+      bad'
   MCH:
     difficulty: Hard
     notes:

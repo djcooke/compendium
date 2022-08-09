@@ -18,6 +18,8 @@ abilities:
 notes:
   - Hits pretty hard
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

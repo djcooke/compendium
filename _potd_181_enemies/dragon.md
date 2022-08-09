@@ -18,6 +18,11 @@ abilities:
   - name: 'Granite Rain'
     description: telegraphed pointblank AoE
 job_specifics:
+  GNB:
+    difficulty: Extreme
+    notes:
+      - Avoid
+      - 'Probably need at least steel if you have to fight'
   MCH:
     difficulty: Extreme
     notes:
@@ -26,6 +31,7 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Avoid
+      - 'Probably need at least steel if you have to fight'
   RDM:
     difficulty: Extreme
     notes:

@@ -21,6 +21,12 @@ notes:
   - Caster - kiting doesn't help to mitigate damage
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Stun the first Mind Blast and then mitigate the Drain Touch that comes
+      slightly after to reduce the HP drain. Brutal Shell shield is especially
+      effective'
   MCH:
     difficulty: Hard
     notes:

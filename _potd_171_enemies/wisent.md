@@ -22,6 +22,11 @@ abilities:
     description: 'telegraphed pointblank AoE that causes damage and paralyze;
     used immediately after Khoomii, making it difficult to escape'
 job_specifics:
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Make sure to interrupt Horroisonous Blast. Avoid if you have amnesia
+      enchantment'
   MCH:
     difficulty: Easy
     notes:

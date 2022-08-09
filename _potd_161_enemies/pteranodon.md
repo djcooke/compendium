@@ -17,6 +17,8 @@ abilities:
   - name: Lightning Bolt
     description: 'telegraphed circle AoE'
 job_specifics:
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

@@ -18,6 +18,8 @@ abilities:
   - name: 'Dirty Sneeze'
     description: 'random target damage and stun; not used vs. solo adventurers'
 job_specifics:
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Medium
     notes:

@@ -28,6 +28,10 @@ notes:
   - 'Try to stand behind it during Dragon''s Voice to delay its next
   auto-attack'
 job_specifics:
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Can interrupt Ram''s Voice for uptime'
   MCH:
     difficulty: Easy
     notes:

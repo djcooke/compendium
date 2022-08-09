@@ -21,6 +21,10 @@ abilities:
     description: 'untelegraphed conal gaze AoE - look away, get behind, or get
     away'
 job_specifics:
+  GNB:
+    difficulty: Easy
+    notes:
+      - Make sure to interrupt Mucus for a faster kill
   MCH:
     difficulty: Easy
     notes:
