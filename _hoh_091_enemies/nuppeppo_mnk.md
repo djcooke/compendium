@@ -17,7 +17,7 @@ abilities:
     description: 'grants haste'
   - name: 'Featherfoot'
     description: 'grants evasion up'
-  - name: '?'
+  - name: 'Gutripper'
     description: 'applies concussion (DoT)'
   - name: 'Triple Threat'
     description: 'tankbuster; 3 hits, used 3 times in a row (9 hits total)'
