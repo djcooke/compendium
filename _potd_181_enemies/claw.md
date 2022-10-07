@@ -43,6 +43,12 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Steel required
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Avoid if possible'
+      - 'Steel required'
+      - 'Stun Tail Screw'
   WAR:
     difficulty: Easy
     notes:

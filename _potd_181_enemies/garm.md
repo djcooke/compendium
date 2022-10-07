@@ -25,7 +25,7 @@ abilities:
     description: 'telegraphed conal AoE'
 notes:
   - 'These mostly just spam abilities, doing very little autoattack damage'
-  - 'Try to stand behind it during Dragon''s Voice to delay its next
+  - 'Try to stand behind it during Voice and Breath attacks to delay its next
   auto-attack'
 job_specifics:
   GNB:
@@ -45,6 +45,10 @@ job_specifics:
       - 'Can interrupt Ram''s Voice for uptime'
   RDM:
     difficulty: Easy
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'Can use Hell''s Egress to dodge Ram''s Voice'
   WAR:
     difficulty: Easy
     notes:

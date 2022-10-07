@@ -47,6 +47,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Try to stun/interrupt both Ice Spikes and Void Blizzard'
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'Stun Ice Spikes or disengage until it wears off'
   WAR:
     difficulty: Medium
     notes:

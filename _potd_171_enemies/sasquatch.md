@@ -40,6 +40,11 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel recommended'
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Steel, Bloodbath, and Potion required'
+      - 'Browbeat + auto can almost kill from 100%, so keep your HP up'
   WAR:
     difficulty: Medium
 ---

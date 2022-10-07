@@ -23,6 +23,8 @@ job_specifics:
     difficulty: Easy
   PLD:
     difficulty: Easy
+  RPR:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

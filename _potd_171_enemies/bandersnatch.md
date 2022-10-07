@@ -29,6 +29,10 @@ job_specifics:
     difficulty: Easy
   RDM:
     difficulty: Hard
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Requires steel or Bloodbath and Potion'
   WAR:
     difficulty: Easy
 ---

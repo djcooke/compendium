@@ -42,6 +42,13 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Witching recommended
+  RPR:
+    difficulty: Extreme
+    notes:
+      - 'Avoid if possible'
+      - 'Strength and Steel required'
+      - 'Recommended to use witching if you need to kill one. Can do a couple
+        GCDs and then use before it dives on you'
   WAR:
     difficulty: Medium
     notes:

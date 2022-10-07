@@ -33,6 +33,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Annoying/slow to fight due to the slow'
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'Annoying/slow to fight due to the slow'
   WAR:
     difficulty: Easy
     notes:

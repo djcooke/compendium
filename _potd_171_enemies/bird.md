@@ -34,6 +34,11 @@ job_specifics:
     difficulty: Easy
   RDM:
     difficulty: Medium
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended'
+      - 'Kite to manage Filoplumes damage'
   WAR:
     difficulty: Easy
 ---

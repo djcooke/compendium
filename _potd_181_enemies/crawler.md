@@ -30,4 +30,9 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Witching recommended
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Avoid if possible'
+      - 'Strength or steel required'
 ---

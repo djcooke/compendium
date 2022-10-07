@@ -32,6 +32,10 @@ job_specifics:
     difficulty: Hard
     notes:
       - Strength and/or steel recommended
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel or Bloodbath and potion required'
   WAR:
     difficulty: Easy
 ---

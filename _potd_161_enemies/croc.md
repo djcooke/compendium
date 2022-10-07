@@ -27,6 +27,10 @@ job_specifics:
       - Can be painful. Sprint and Leg Graze recommended
   PLD:
     difficulty: Easy
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Have Bloodbath and potion ready if no steel'
   WAR:
     difficulty: Easy
 ---

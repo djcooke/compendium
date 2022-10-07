@@ -30,6 +30,11 @@ job_specifics:
         down quickly'
   PLD:
     difficulty: Easy
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'If you''re taking too much damage, move out of range and spam Harpe
+      to avoid melee attacks and Amorphic Flail'
   WAR:
     difficulty: Easy
 ---

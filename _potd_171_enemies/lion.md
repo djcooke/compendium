@@ -32,6 +32,10 @@ job_specifics:
       - 'Stun Cry for uptime'
   RDM:
     difficulty: Medium
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Requires steel or Bloodbath and Potion'
   WAR:
     difficulty: Easy
     notes:

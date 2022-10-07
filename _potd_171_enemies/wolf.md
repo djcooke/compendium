@@ -35,6 +35,13 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  RPR:
+    difficulty: Extreme
+    notes:
+      - 'Avoid if possible'
+      - 'Strength or Steel required'
+      - 'Witching recommended'
+      - 'Use Bloodbath to heal through the DoT'
   WAR:
     difficulty: Medium
     notes:

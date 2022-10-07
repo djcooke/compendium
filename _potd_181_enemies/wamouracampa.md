@@ -26,6 +26,10 @@ job_specifics:
     difficulty: Easy
   RDM:
     difficulty: Hard
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Steel required'
   WAR:
     difficulty: Easy
 ---

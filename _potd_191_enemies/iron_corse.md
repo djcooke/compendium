@@ -29,4 +29,9 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Steel required'
+      - 'Use Arcane Crest before pull'
 ---

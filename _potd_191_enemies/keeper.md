@@ -31,4 +31,9 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  RPR:
+    difficulty: Extreme
+    notes:
+      - 'Avoid if possible'
+      - 'Strength and steel required'
 ---

@@ -28,4 +28,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel required
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Requires steel or Bloodbath and Potion'
 ---

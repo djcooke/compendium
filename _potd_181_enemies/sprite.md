@@ -30,6 +30,10 @@ job_specifics:
     difficulty: Easy
   RDM:
     difficulty: Medium
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel required'
   WAR:
     difficulty: Easy
 ---

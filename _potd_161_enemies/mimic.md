@@ -25,6 +25,12 @@ notes:
 job_specifics:
   PLD:
     difficulty: Medium
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Strength or steel recommended'
+      - 'If using no pomanders, kite after the Pox and Deathtrap combo to
+      manage incoming damage'
   WAR:
     difficulty: Easy
 ---

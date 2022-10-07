@@ -30,6 +30,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Stun Primordial Bark for uptime'
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Requires steel or Bloodbath and Potion'
   WAR:
     difficulty: Easy
     notes:

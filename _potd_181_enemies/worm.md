@@ -46,4 +46,9 @@ job_specifics:
     notes:
       - Steel required
       - Strength recommended
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Avoid if possible'
+      - 'Strength or steel required'
 ---

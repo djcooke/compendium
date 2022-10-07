@@ -38,6 +38,12 @@ job_specifics:
     notes:
       - 'It''s a quick cast, but try to stun Abyssal Transfixion. Annoying/slow
       to fight otherwise due to the paralyze'
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'It''s a quick cast, but try to stun Abyssal Transfixion'
+      - 'Can either stay very close or save Hell''s Egress to avoid Abyssal
+      Swing if paralyzed'
   WAR:
     difficulty: Easy
     notes:

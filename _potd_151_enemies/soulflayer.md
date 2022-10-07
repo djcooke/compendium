@@ -36,6 +36,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Annoying/slow to fight due to the HP drain'
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Strength recommended'
   WAR:
     difficulty: Easy
 ---

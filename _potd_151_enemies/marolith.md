@@ -27,6 +27,10 @@ job_specifics:
       - Can do some burst damage, so you do have to be a bit careful
   PLD:
     difficulty: Easy
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended'
   WAR:
     difficulty: Easy
 ---

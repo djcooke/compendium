@@ -30,4 +30,9 @@ job_specifics:
       - Easiest thing to fight here. Just keep your distance
   RDM:
     difficulty: Easy
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'Stay mostly out of melee range and spam Harpe'
+      - 'Use Arcane Crest when going in to melee'
 ---

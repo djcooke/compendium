@@ -37,4 +37,8 @@ job_specifics:
     notes:
       - Steel required
       - Strength recommended
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Requires steel or Bloodbath and Potion'
 ---

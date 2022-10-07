@@ -42,6 +42,11 @@ job_specifics:
     notes:
       - Strength or steel recommended
       - You can use Displacement to get out of the Horroisonous Blast AoE
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended'
+      - 'Use Hell''s Egress after the draw-in to avoid Horroisonous Blast'
   WAR:
     difficulty: Easy
     notes:

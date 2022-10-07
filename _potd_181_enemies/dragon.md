@@ -36,4 +36,11 @@ job_specifics:
     difficulty: Extreme
     notes:
       - Strength AND steel recommended
+  RPR:
+    difficulty: Extreme
+    notes:
+      - 'Avoid if possible'
+      - 'Strength and steel required'
+      - 'Have Bloodbath and potion ready too if you need to fight one'
+      - 'Witching recommended'
 ---

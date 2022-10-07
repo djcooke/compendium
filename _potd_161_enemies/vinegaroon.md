@@ -30,6 +30,10 @@ job_specifics:
     difficulty: Easy
   PLD:
     difficulty: Easy
+  RPR:
+    difficulty: Easy
+    notes:
+      - 'Bloodbath required if not cheesing via Third Leg Back baits'
   WAR:
     difficulty: Easy
 ---

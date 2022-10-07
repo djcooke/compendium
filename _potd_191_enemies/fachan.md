@@ -33,4 +33,8 @@ job_specifics:
       - Steel required
   RDM:
     difficulty: Medium
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Steel or Bloodbath required'
 ---

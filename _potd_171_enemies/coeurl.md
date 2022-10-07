@@ -41,6 +41,10 @@ job_specifics:
       damage isn''t bad and this will result in a shorter paralysis'
   RDM:
     difficulty: Medium
+  RPR:
+    difficulty: Medium
+    notes:
+      - 'Strength or steel recommended'
   WAR:
     difficulty: Easy
     notes:

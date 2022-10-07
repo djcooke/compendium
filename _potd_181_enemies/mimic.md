@@ -36,6 +36,12 @@ job_specifics:
     difficulty: Hard
     notes:
       - Steel recommended
+  RPR:
+    difficulty: Hard
+    notes:
+      - 'Strength or steel required'
+      - 'Witching recommended if no steel'
+      - 'Kite after the Pox and Deathtrap combo to manage incoming damage'
   WAR:
     difficulty: Medium
 ---
