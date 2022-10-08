@@ -10,7 +10,7 @@ vulnerabilities:
   heavy: false
   sleep: false
   slow: false
-  stun: true
+  stun: false
   resolution: true
 abilities:
   - name: Evil Eye

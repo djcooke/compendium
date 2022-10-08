@@ -2,7 +2,7 @@
 name: Deep Palace Wraith
 nickname: Wraith
 image: wraith.png
-start_floor: 192
+start_floor: 191
 end_floor: 199
 agro: Proximity
 vulnerabilities:
