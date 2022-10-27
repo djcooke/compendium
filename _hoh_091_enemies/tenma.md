@@ -10,7 +10,7 @@ vulnerabilities:
   bind: unknown
   heavy: unknown
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Rear Hoof'
