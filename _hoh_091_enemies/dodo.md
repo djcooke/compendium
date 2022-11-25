@@ -7,7 +7,7 @@ vulnerabilities:
   bind: unknown
   heavy: unknown
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: true
   resolution: true
 gallery_only: true
