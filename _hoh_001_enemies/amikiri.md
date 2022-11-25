@@ -13,6 +13,6 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Shirk'
+  - name: 'Shuck'
     description: 'tank buster; very high damage; possible to outrange'
 ---
