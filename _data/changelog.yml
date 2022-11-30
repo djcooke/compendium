@@ -1,3 +1,8 @@
+- date: 2022-11-30
+  updates:
+    - 'Fixed an issue with selecting the specified enemy and job selections on
+    page load and when clicking enemy name links if local storage is disabled
+    or unavailable in the browser'
 - date: 2022-11-27
   updates:
     - 'Added details for PotD boss actions and SGE notes for PotD 10-160

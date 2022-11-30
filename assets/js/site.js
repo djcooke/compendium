@@ -1,5 +1,5 @@
 var selectedEnemy = 0;
-var selectedJob = window.localStorage.getItem('selectedJob') || 'MCH';
+var selectedJob = storageAvailable() ? window.localStorage.getItem('selectedJob') : 'MCH';
 
 window.onload = function() {
   urlParams = new URLSearchParams(window.location.search);
@@ -21,6 +21,23 @@ window.onload = function() {
 
   selectEnemy(selectedEnemy);
   selectJob(selectedJob);
+}
+
+function storageAvailable() {
+  // Simpler version of recommendation here:
+  // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#feature-detecting_localstorage
+  try {
+      const storage = window.localStorage;
+      if (!storage) {
+        return false;
+      }
+      const x = '__storage_test__';
+      storage.setItem(x, x);
+      storage.removeItem(x);
+      return true;
+  } catch(e) {
+      return false;
+  }
 }
 
 function toggleOpen(id) {
@@ -77,5 +94,7 @@ function selectJob(job) {
     selectedJobElements[i].className += ' active';
   }
   selectedJob = job;
-  window.localStorage.setItem('selectedJob', job);
+  if (storageAvailable()) {
+    window.localStorage.setItem('selectedJob', job);
+  }
 }
