@@ -44,7 +44,7 @@ layout: default
   </div>
 </div>
 
-<h2 id=enemies>Enemies</h2>
+<h2 id=enemies>Enemy Details</h2>
 
 {% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
 {% assign enemies_sorted = site[enemy_collection] | sort: 'end_floor' | sort: 'start_floor' | sort: 'gallery_only' %}
@@ -90,92 +90,8 @@ layout: default
   </div>
 </div>
 
-<h2>Enemies by Agro Type</h2>
-
-<table class="banded">
-  {% for agro_type in site.data.agro_types %}
-    {% assign enemies = '' %}
-    {% assign first = true %}
-    {% assign index = 0 %}
-    {% for enemy in enemies_sorted %}
-      {% if enemy.agro == agro_type and enemy.gallery_only != true %}
-        {% if first %}
-          {% assign first = false %}
-        {% else %}
-          {% assign enemies = enemies | append: ' • ' %}
-        {% endif %}
-        {% assign enemies = enemies
-            | append: '<a href="?enemy=' | append: index | append: '#enemies">'
-            | append: enemy.nickname %}
-        {% if enemy.patrol %}
-          {% assign enemies = enemies | append: ' (patrol)' %}
-        {% endif %}
-        {% assign enemies = enemies | append: '</a>' %}
-      {% endif %}
-      {% assign index = index | plus: 1 %}
-    {% endfor %}
-    <tr>
-      <td>{{ agro_type }}:</td>
-      <td style="width: 100%;">{% if first %}(None){% else %}{{ enemies }}{% endif %}</td>
-    </tr>
-  {% endfor %}
-</table>
-
-<h2>Enemies by Floor</h2>
-
-<table class="banded">
-{% assign ninth_floor = page.floorset | plus: 8 %}
-{% for floor in (page.floorset..ninth_floor) %}
-  {% assign enemies = '' %}
-  {% assign first = true %}
-  {% assign index = 0 %}
-  {% for enemy in enemies_sorted %}
-    {% if enemy.start_floor <= floor and enemy.end_floor >= floor and enemy.gallery_only != true %}
-      {% if first %}
-        {% assign first = false %}
-      {% else %}
-        {% assign enemies = enemies | append: ' • ' %}
-      {% endif %}
-      {% assign enemies = enemies
-          | append: '<a href="?enemy=' | append: index | append: '#enemies">'
-          | append: enemy.nickname %}
-      {% if enemy.patrol %}
-        {% assign enemies = enemies | append: ' (patrol)' %}
-      {% endif %}
-      {% assign enemies = enemies | append: '</a>' %}
-    {% endif %}
-    {% assign index = index | plus: 1 %}
-  {% endfor %}
-  <tr>
-    <td>{{ floor }}:</td>
-    <td style="width: 100%;">{{ enemies }}</td>
-  </tr>
-{% endfor %}
-</table>
-
-<h2>Special Enemies</h2>
-
-<table class="banded">
-  {% assign enemies = '' %}
-  {% assign first = true %}
-  {% assign index = 0 %}
-  {% for enemy in enemies_sorted %}
-    {% if enemy.gallery_only == true %}
-      {% if first %}
-        {% assign first = false %}
-      {% else %}
-        {% assign enemies = enemies | append: ' • ' %}
-      {% endif %}
-      {% assign enemies = enemies
-          | append: '<a href="?enemy=' | append: index | append: '#enemies">'
-          | append: enemy.name | append: '</a>' %}
-    {% endif %}
-    {% assign index = index | plus: 1 %}
-  {% endfor %}
-  <tr>
-    <td style="width: 100%;">{{ enemies }}</td>
-  </tr>
-</table>
+{% include enemy_list.html enemies=enemies_sorted
+  start_floor=page.floorset resolution_possible=page.resolution_possible %}
 
 <h2>Boss: {{ page.boss }}</h2>
 

@@ -236,6 +236,81 @@ img.surfaceImage {
   padding: 12px;
 }
 
+.enemyList {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.enemyList thead {
+  background-color: var(--on-surface);
+  color: var(--background);
+}
+
+.enemyList th {
+  padding: 8px 2px;
+}
+
+.enemyList tr {
+  border-bottom: 1px solid var(--background);
+}
+
+.enemyList tr:last-child {
+  border-bottom: 1px solid var(--surface);
+}
+
+.enemyList tbody tr:nth-child(even) {
+  background-color: var(--surface);
+}
+
+.enemyList td img {
+  vertical-align: middle;
+}
+
+.enemyList .floorCell {
+  width: 15px;
+  border-left: 1px solid var(--background);
+  border-right: 1px solid var(--background);
+}
+
+.enemyList td.enemyFloorIn {
+  background-color: var(--on-surface-dim);
+  text-align: center;
+}
+
+.enemyList td.agroCell {
+  width: 24px;
+  padding: 1px 8px;
+}
+
+.enemyList td.iconCell {
+  width: 24px;
+  text-align: center;
+}
+
+.enemyList th.textCell {
+  text-align: left;
+}
+
+.enemyList td.textCell {
+  padding: 8px;
+  padding-left: 1px;
+}
+
+.enemyList td.hpCell, .enemyList td.attackCell {
+  min-width: 60px;
+  width: 60px;
+  color: var(--on-surface-bright);
+  text-align: center;
+}
+
+.enemyList td.hpCell {
+  background-image: linear-gradient(to right, #00CC00 var(--percent), var(--percent), transparent);
+}
+
+.enemyList td.attackCell {
+  background-image: linear-gradient(to right, #CC0000 var(--percent), var(--percent), transparent);
+}
+
 .surfacePane table:not(.unstyled) {
   border: 1px solid var(--background);
   border-collapse: collapse;

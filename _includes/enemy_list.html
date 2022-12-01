@@ -1,0 +1,98 @@
+<h2>Enemies</h2>
+
+<div class="hscroll">
+<table class="enemyList">
+  <thead>
+    <tr>
+      {% for floor in (1..9) %}
+        <th class="floorCell" title="Floor {{ include.start_floor | minus: 1 | plus: floor }}">
+          {{ floor }}
+        </th>
+      {% endfor %}
+      <th title="Agro Type">!</th>
+      <th class="textCell">Name</th>
+      <th>HP</th>
+      <th title="Auto-Attack Damage">AA</th>
+      <th colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">Vulnerabilities</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign index = 0 %}
+  {% assign ninth_floor = include.start_floor | plus: 8 %}
+  {% assign max_hp = include.enemies | map: 'hp' | compact | sort | reverse | first | default: 1 %}
+  {% assign max_attack_damage = include.enemies | map: 'attack_damage' | compact | sort | reverse | first | default: 1 %}
+  {% for enemy in include.enemies %}
+    <tr>
+      {% for floor in (include.start_floor..ninth_floor) %}
+        {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
+          <td class="floorCell enemyFloorIn">
+            {% if enemy.patrol %}
+              <img src="{{ '/assets/images/agro/patrol.svg' | relative_url }}" alt="Patrol" title="Patrol" width="15" height="24">
+            {% endif %}
+          </td>
+        {% else %}
+          <td class="floorCell"></td>
+        {% endif %}
+      {% endfor %}
+      <td class="agroCell">
+        {% case enemy.agro %}
+        {% when "Sight" %}
+          {% assign agro_image = 'eye.svg' %}
+        {% when "Sound" %}
+          {% assign agro_image = 'ear.svg' %}
+        {% when "Proximity" %}
+          {% assign agro_image = 'radar.svg' %} 
+        {% else %}
+          {% assign agro_image = 'question.svg' %}
+        {% endcase %}
+        {% assign alt = enemy.agro | default: 'Unknown' | append: ' agro' %}
+        <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}" alt="{{ alt }}" title="{{ alt }}" width="24" height="24">
+      </td>
+      <td class="textCell">
+        <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}</a>
+      </td>
+      <td class="hpCell" style="--percent:{{ enemy.hp | default: 0 | times: 100 | divided_by: max_hp }}%">
+        {% if enemy.hp >= 10000 %}
+          {{ enemy.hp | divided_by: 1000 }}K
+        {% else %}
+          {{ enemy.hp | default: '?' }}
+        {% endif %}
+      </td>
+      <td class="attackCell" style="--percent:{{ enemy.attack_damage | default: 0 | times: 100 | divided_by: max_attack_damage }}%">
+        {{ enemy.attack_damage | default: '?' }}
+      </td>
+      {% for status in site.data.statuses %}
+        {% if status == 'resolution' and include.resolution_possible != true %}
+          {% continue %}
+        {% endif %}
+        <td class="iconCell">
+          {% assign image = '/assets/images/status/' | append: status %}
+          {% if enemy.vulnerabilities[status] == true %}
+            {% if status == 'resolution' %}
+              {% assign alt = 'Weak to ' %}
+            {% else %}
+              {% assign alt = 'Vulnerable to ' %}
+            {% endif %}
+            {% assign alt = alt | append: status %}
+          {% elsif enemy.vulnerabilities[status] == false %}
+            {% assign image = image | append: '_immune' %}
+            {% if status == 'resolution' %}
+              {% assign alt = 'Not weak to ' %}
+            {% else %}
+              {% assign alt = 'Immune to ' %}
+            {% endif %}
+            {% assign alt = alt | append: status %}
+          {% else %}
+            {% assign image = image | append: '_unknown' %}
+            {% assign alt = status | capitalize | append: ' status unknown' %}
+          {% endif %}
+          {% assign image = image | append: '.png' | relative_url %}
+          <img src="{{ image }}" alt="{{ alt }}" title="{{ alt }}" width="27" height="32">
+        </td>
+      {% endfor %}
+    </tr>
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
+  </tbody>
+</table>
+</div>
