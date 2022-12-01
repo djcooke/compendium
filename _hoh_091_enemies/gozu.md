@@ -24,6 +24,10 @@ abilities:
   - name: '128-tonze Swing'
     description: 'non-telegraphed pointblank AoE - get away'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Use TBN for the pull'
   MCH:
     difficulty: 'Hard'
     notes:

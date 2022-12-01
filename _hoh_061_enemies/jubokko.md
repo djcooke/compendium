@@ -19,6 +19,8 @@ abilities:
   - name: 'Stoneskin'
     description: 'grants stoneskin; only used on other nearby enemies'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

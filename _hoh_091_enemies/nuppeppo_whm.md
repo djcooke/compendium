@@ -21,6 +21,12 @@ notes:
   - 'You can pull these to a corner and LoS Stone casts to avoid all damage.
   Just watch out for patrols while doing this'
 job_specifics:
+  DRK:
+    difficulty: 'Easy if you LoS well'
+    notes:
+      - 'Can use Dark Mind if you need to kite to avoid patrols'
+      - 'Use Salted Earth while LoSing only if you''re sure it won''t
+      accidentally pull a patrol'
   MCH:
     difficulty: 'Easy if you LoS well'
   PLD:

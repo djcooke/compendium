@@ -19,6 +19,8 @@ abilities:
     description: 'grants vulnerability down to self and other nearby enemies;
     can be interrupted'
 job_specifics:
+  DRK:
+    difficulty: 'Easy'
   MCH:
     difficulty: 'Easy'
   PLD:

@@ -23,6 +23,10 @@ notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by
   it!'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Can be scary without steel'
   MCH:
     difficulty: Hard
     notes:

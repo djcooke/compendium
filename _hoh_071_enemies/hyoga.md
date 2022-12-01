@@ -19,6 +19,10 @@ abilities:
   - name: 'Eyeshine'
     description: '360 degree gaze causing deep freeze (I think?) - look away;'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'A good time to use TBN is as the Eyeshine cast finishes'
   MCH:
     difficulty: Medium
     notes:

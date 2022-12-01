@@ -22,6 +22,12 @@ abilities:
   - name: 'Triple Threat'
     description: 'tankbuster; 3 hits, used 3 times in a row (9 hits total)'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended if gloom'
+      - 'Make sure to use your mitigations'
+      - 'Use TBN for Triple Threats'
   MCH:
     difficulty: 'Hard'
     notes:

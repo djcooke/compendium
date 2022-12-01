@@ -16,6 +16,8 @@ abilities:
   - name: Hypothermal Conbustion
     description: 'telegraphed pointblank AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

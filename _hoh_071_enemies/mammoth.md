@@ -23,6 +23,8 @@ notes:
   - 'Be careful near mammoths when you''ve used a Pomander of Concealment, as
   Prehistoric Trumpet will break the effect'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Medium
   PLD:

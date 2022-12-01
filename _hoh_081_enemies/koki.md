@@ -23,6 +23,8 @@ notes:
   - 'If you let it do one auto-attack after Vile Utterance and then duck behind
   a corner, you should avoid the vulnerability up'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

@@ -21,6 +21,10 @@ abilities:
   - name: Thunder II
     description: 'circle AoE on marked target; can be interrupted'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended'
   MCH:
     difficulty: Extreme
   PLD:

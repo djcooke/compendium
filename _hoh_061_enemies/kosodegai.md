@@ -16,6 +16,8 @@ abilities:
   - name: 'Palsynyxis'
     description: 'telegraphed conal AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

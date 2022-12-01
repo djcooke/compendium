@@ -19,6 +19,10 @@ abilities:
     description: 'telegraphed circle AoE; used immediately after Scream; also
     used out of combat'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'Interrupt Scream for uptime'
   MCH:
     difficulty: Easy
   PLD:

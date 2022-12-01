@@ -17,6 +17,11 @@ abilities:
 notes:
   - 'auto-attacks inflict a 10s stacking vulnerability up'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'Consider cycling mitigations if the vulnerability stacks start getting
+      too high'
   MCH:
     difficulty: Easy
   PLD:

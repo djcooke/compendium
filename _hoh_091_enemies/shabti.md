@@ -15,6 +15,8 @@ abilities:
   - name: 'Death''s Door'
     description: 'telegraphed line AoE; spams this a lot'
 job_specifics:
+  DRK:
+    difficulty: 'Easy'
   MCH:
     difficulty: 'Easy'
     notes:

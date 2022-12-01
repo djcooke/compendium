@@ -17,6 +17,8 @@ abilities:
     description: 'instant attack that drains HP and applies a strong frostbite
     (DoT)'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Hard
     notes:

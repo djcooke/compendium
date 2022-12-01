@@ -18,6 +18,8 @@ abilities:
   - name: '100-tonze Swing'
     description: 'non-telegraphed pointblank AoE - get away'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

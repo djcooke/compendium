@@ -18,6 +18,8 @@ abilities:
   - name: 'Ice Dispenser'
     description: 'telegraphed circle AoE; also used out of combat'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

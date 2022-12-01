@@ -19,6 +19,11 @@ abilities:
   - name: 'Dark Dome'
     description: 'tankbuster'
 job_specifics:
+  DRK:
+    difficulty: 'Medium'
+    notes:
+      - 'Make sure to cycle your mitigations'
+      - 'Dark Mind is good for Dark Dome'
   MCH:
     difficulty: 'Medium'
     notes:

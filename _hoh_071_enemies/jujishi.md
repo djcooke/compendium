@@ -27,6 +27,10 @@ notes:
       - 'Freefall'
       - 'Winds of Winter - Be ready to stun or LoS'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'A good time to use TBN is after the first Freefall'
   MCH:
     difficulty: Hard
     notes:

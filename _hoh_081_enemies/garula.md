@@ -31,6 +31,9 @@ notes:
   timing is weird. Damage is applied when it hits the ground as expected, but
   it snapshots your position earlier, as its feet come off the ground'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    note: 'Use TBN for the pull'
   MCH:
     difficulty: Medium
   PLD:

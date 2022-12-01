@@ -17,6 +17,8 @@ abilities:
   - name: 'Plain Pound'
     description: 'telegraphed circle AoE'
 job_specifics:
+  DRK:
+    difficulty: Medium
   MCH:
     difficulty: Extreme
   PLD:

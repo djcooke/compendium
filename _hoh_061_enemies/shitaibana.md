@@ -17,6 +17,8 @@ abilities:
   - name: '?'
     description: 'untelegraphed instant conal AoE inflicting poison'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

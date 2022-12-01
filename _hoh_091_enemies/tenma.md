@@ -20,6 +20,12 @@ abilities:
   - name: 'Nicker'
     description: 'telegraphed large pointblank AoE; can be interrupted'
 job_specifics:
+  DRK:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended if gloom'
+      - 'Make sure to cycle mitigations'
+      - 'Interrupt or stun Nicker for uptime'
   MCH:
     difficulty: 'Medium'
     notes:

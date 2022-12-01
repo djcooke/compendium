@@ -17,6 +17,11 @@ abilities:
   - name: 'Accursed Sigh'
     description: 'telegraphed conal AoE'
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Make good use of TBN and other mitigations to negate its high damage
+      output'
   MCH:
     difficulty: Medium
     notes:

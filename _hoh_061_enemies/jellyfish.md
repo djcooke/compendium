@@ -19,6 +19,8 @@ abilities:
 notes:
   - 'Its line AoEs are quick, so be ready to move fast'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
     notes:

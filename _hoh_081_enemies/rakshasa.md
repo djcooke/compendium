@@ -25,6 +25,10 @@ abilities:
   - name: 'Fireball'
     description: 'telegraphed circle AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'Use TBN for the pull'
   MCH:
     difficulty: Medium
     notes: 'Have heals ready - these hit HARD while the damage bonus is up'

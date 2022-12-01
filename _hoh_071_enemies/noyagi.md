@@ -17,6 +17,8 @@ abilities:
     description: 'Non-telegraphed instant knockback used on anyone standing
     behind it'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

@@ -17,6 +17,8 @@ abilities:
   - name: 'Ice Guillotine'
     description: 'telegraphed conal AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

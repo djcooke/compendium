@@ -15,6 +15,8 @@ abilities:
   - name: 'Shatter'
     description: 'telegraphed pointblank AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

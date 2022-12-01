@@ -20,6 +20,8 @@ abilities:
     description: 'large pointblank AoE; used immediately after draw-in; can
     be interrupted'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

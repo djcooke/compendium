@@ -19,6 +19,8 @@ abilities:
     description: 'telegraphed huge pointblank AoE; used after second Frozen
     Mist; can be interrupted or LoS''d'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Medium
     notes:

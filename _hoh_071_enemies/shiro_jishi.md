@@ -19,6 +19,10 @@ abilities:
   - name: Cry
     description: telegraphed pointblank AoE
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'Stun Cry for uptime'
   MCH:
     difficulty: Hard
     notes:

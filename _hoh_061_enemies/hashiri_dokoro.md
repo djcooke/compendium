@@ -21,10 +21,18 @@ abilities:
     description: 'untelegraphed huge pointblank AoE; instant death if you got
     hit by Frond Fatale'
 job_specifics:
+  DRK:
+    difficulty: Easy
+    notes:
+      - 'Can stun Frond Fatale for uptime'
   MCH:
     difficulty: Easy
   PLD:
     difficulty: Easy
+    notes:
+      - 'Can stun Frond Fatale for uptime'
   WAR:
     difficulty: Easy
+    notes:
+      - 'Can stun Frond Fatale for uptime'
 ---

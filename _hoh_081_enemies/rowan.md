@@ -27,6 +27,10 @@ notes:
   - DO NOT pull while it has the attack bonus
   - Be very careful fighting other enemies nearby
 job_specifics:
+  DRK:
+    difficulty: Medium
+    notes:
+      - 'Steel recommended if gloom'
   MCH:
     difficulty: Hard
     notes:

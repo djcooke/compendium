@@ -19,6 +19,8 @@ abilities:
   - name: 'Entangle'
     description: 'telegraphed circle AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

@@ -18,6 +18,8 @@ abilities:
   - name: 'Offal Breath'
     description: 'telegraphed circle AoE'
 job_specifics:
+  DRK:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

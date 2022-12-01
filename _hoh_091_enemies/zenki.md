@@ -18,6 +18,8 @@ abilities:
   - name: Abyssal Transfixion
     description: 'instant ranged tankbuster; does NOT paralyze like in PotD'
 job_specifics:
+  DRK:
+    difficulty: 'Easy'
   MCH:
     difficulty: 'Hard'
     notes:

@@ -15,6 +15,11 @@ abilities:
   - name: 'Valfodr'
     description: 'telegraphed charge AoE; can be LoS''d'
 job_specifics:
+  DRK:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
+      - 'Doable but scary without steel if you have full burst'
   MCH:
     difficulty: 'Hard'
     notes:

@@ -3,6 +3,8 @@
     - 'Fixed an issue with selecting the specified enemy and job selections on
     page load and when clicking enemy name links if local storage is disabled
     or unavailable in the browser'
+    - 'Added DRK ratings and notes for most HoH 61-99 enemies, and a couple
+    more boss timings, courtesy of Aya'
 - date: 2022-11-27
   updates:
     - 'Added details for PotD boss actions and SGE notes for PotD 10-160
