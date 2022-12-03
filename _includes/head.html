@@ -1,14 +1,15 @@
 <head>
+  {% assign timestamp = 'now' | date: '%Y%m%dT%H%M' %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != site.title %}{{ page.title | append: ' - '}}{% endif %} {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?{{ timestamp }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}?{{ timestamp }}"></script>
 
   {% if page.scripts %}
     {% for script in page.scripts %}
-      <script src="{{ '/assets/js/' | append: script | relative_url }}"></script>
+      <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
     {% endfor %}
   {% endif %}
   

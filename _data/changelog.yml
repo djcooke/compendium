@@ -3,6 +3,8 @@
     - 'Redesigned enemy list on the floorset pages. Thanks to vaxherd for the
     suggestions and working with me on this! Enemy HP and auto-attack damage
     will be added soon'
+    - 'Fixed cached scripts and stylesheets not being updated when the site
+    changes'
 - date: 2022-12-02
   updates:
     - 'Fixed Fear Itself debuff (hysteria, not terror), courtesy of vaxherd'
