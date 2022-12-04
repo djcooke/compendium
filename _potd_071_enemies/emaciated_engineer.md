@@ -5,6 +5,9 @@ image: emaciated_engineer.png
 start_floor: 71
 end_floor: 79
 agro: Proximity
+hp: 8079
+attack_damage: 774
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

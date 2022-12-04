@@ -5,6 +5,9 @@ image: tyrannosaur.png
 start_floor: 61
 end_floor: 64
 agro: Sight
+hp: 5312
+attack_damage: 546
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -13,6 +16,10 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Primordial Roar'
-    description: 'telegraphed pointblank AoE; applies Stun'
+  - name: Underbite
+    potency: 130
+    description: 'instant'
+  - name: Primordial Roar
+    potency: 300
+    description: 'telegraphed pointblank AoE; inflicts stun (4s)'
 ---

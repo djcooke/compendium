@@ -5,6 +5,10 @@ image: slime.png
 start_floor: 113
 end_floor: 116
 agro: Sound
+hp: 13502
+attack_damage: 941
+attack_type: Magic
+attack_name: Acid Spray
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,12 +17,12 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: Acid Spray
-    description: 'applies stacking physical vulnerability up; this is used
-    instead of auto-attacks, but does magical damage, so does not affect its
-    own damage'
   - name: 'Rapture'
-    description: 'Enrage; explodes, doing huge AoE damage; used 37 seconds after pull/agro'
+    potency: 100% of max HP
+    description: 'instant AoE sacrificial enrage'
 notes:
+  - 'Acid Spray inflicts stacking physical vulnerability up (+10% per stack,
+    max 8 stacks, 5s); this ability does magic damage, so its own damage is
+    not affected'
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

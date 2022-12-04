@@ -6,6 +6,9 @@ start_floor: 154
 end_floor: 157
 patrol: true
 agro: Proximity
+hp: 21693
+attack_damage: 1491
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,9 +18,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Carpomission
+    potency: 130
     description: tankbuster
   - name: Isle Drop
-    description: 'telegraphed circle AoE'
+    potency: 300
+    description: 'telegraphed circle AoE; inflicts stun (5s)'
 job_specifics:
   GNB:
     difficulty: Easy

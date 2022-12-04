@@ -6,6 +6,9 @@ start_floor: 174
 end_floor: 176
 patrol: true
 agro: Sight
+hp: 25345
+attack_damage: 2221
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,9 +18,9 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Khoomii
-    description: 'draws players in and applies an extreme heavy debuff; used 30
-    seconds after pull; can use knockback immunity. Draw-in will not work under
-    the Knockback Penalty enchantment'
+    description: 'draws players in and inflicts an extreme heavy debuff (10s);
+    used 30 seconds after pull; can use knockback immunity. Draw-in will not
+    work under the Knockback Penalty enchantment'
   - name: Horroisonous Blast
     description: 'telegraphed pointblank AoE that causes damage and paralyze;
     used immediately after Khoomii, making it difficult to escape'

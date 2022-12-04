@@ -6,6 +6,9 @@ start_floor: 191
 end_floor: 193
 patrol: true
 agro: Proximity
+hp: 29330?
+attack_damage: 2949
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,8 +18,9 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Butterfly Float
-    description: '(painful) gap closer. Does this on first agro and every 30
-    seconds. Will destroy non-tanks if it crits'
+    potency: 150
+    description: 'instant gap closer; used on aggro and every 30 seconds
+    afterward. Will destroy non-tanks if it crits'
 job_specifics:
   GNB:
     difficulty: Medium

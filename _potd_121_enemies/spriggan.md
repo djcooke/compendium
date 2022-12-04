@@ -5,6 +5,10 @@ image: spriggan.png
 start_floor: 121
 end_floor: 125
 agro: Sight
+hp: 14277
+attack_damage: 976
+attack_type: Magic
+attack_name: Blizzard
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,8 +18,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Fast Boulder'
-    description: 'telegraphed circle AoE; also casts randomly while out of
-    combat'
+    potency: 300
+    description: 'telegraphed circle AoE; also used out of combat'
+  - name: Haste
+    description: 'grants haste (30s) to self'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

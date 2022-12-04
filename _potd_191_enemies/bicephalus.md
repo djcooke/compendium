@@ -6,6 +6,9 @@ image: bicephalus.png
 start_floor: 194
 end_floor: 198
 agro: Proximity
+hp: 30215
+attack_damage: 3048
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -15,6 +18,7 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Glass Punch
+    potency: 150
     description: tank buster
   - name: Catapult
     description: telegraphed circle AoE

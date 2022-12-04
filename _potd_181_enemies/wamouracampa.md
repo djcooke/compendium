@@ -5,6 +5,9 @@ image: wamouracampa.png
 start_floor: 181
 end_floor: 185
 agro: Sound
+hp: 26009
+attack_damage: 2458
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Cannonball
-    description: 'ranged tankbuster'
+    potency: 130
+    description: 'instant ranged attack'
 job_specifics:
   GNB:
     difficulty: Easy

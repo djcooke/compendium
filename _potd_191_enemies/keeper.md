@@ -6,6 +6,9 @@ start_floor: 197
 end_floor: 199
 patrol: true
 agro: Sound
+hp: 32097
+attack_damage: 3140?
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -15,10 +18,12 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Nail in the Coffin
-    description: tank buster
-  - name: Vengeful Soul
-    description: 'instant circle AoE on random target; not used vs. solo
-    adventurers'
+    potency: 150
+    description: 'instant'
+  - name: Vengeance Soul
+    potency: 130?
+    description: 'instant circle AoE; only used against lower-emnity party
+    members (not used against solo adventurers)'
 notes:
   - 'Highest DPS enemy in PotD'
   - 'If in a party, spread out to minimize damage from Vengeful Soul'

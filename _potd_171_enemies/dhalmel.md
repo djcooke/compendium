@@ -5,6 +5,9 @@ image: dhalmel.png
 start_floor: 171
 end_floor: 175
 agro: Proximity
+hp: 23906
+attack_damage: 2077
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Whiplash
+    potency: 300
     description: 'telegraphed conal AoE'
   - name: Whistle
-    description: 'grants attack bonus'
+    description: 'grants physical damage up (50%, 15s) to self'
 job_specifics:
   GNB:
     difficulty: Easy

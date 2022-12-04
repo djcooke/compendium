@@ -5,6 +5,9 @@ image: gremlin.png
 start_floor: 51
 end_floor: 55
 agro: Sight
+hp: 4759
+attack_damage: 516
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -12,4 +15,10 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Bad Mouth
+    description: 'instant; inflicts vulnerability up (25%, 10s)'
+  - name: Fire II
+    potency: 300
+    description: 'telegraphed circle AoE'
 ---

@@ -5,6 +5,9 @@ image: ladybug.png
 start_floor: 106
 end_floor: 109
 agro: Sight
+hp: 13060
+attack_damage: 925
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,5 +17,5 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Spoil
-    description: 'inflicts poison'
+    description: 'inflicts poison (DoT potency 20, 15s)'
 ---

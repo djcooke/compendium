@@ -5,6 +5,10 @@ image: sprite.png
 start_floor: 101
 end_floor: 103
 agro: Sound
+hp: 12728
+attack_damage: 915
+attack_type: Magic
+attack_name: Stone
 vulnerabilities:
   bind: false
   heavy: false

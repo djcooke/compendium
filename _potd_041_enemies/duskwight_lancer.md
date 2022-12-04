@@ -5,6 +5,9 @@ image: duskwight_lancer.png
 start_floor: 41
 end_floor: 49
 agro: Proximity
+hp: 5755
+attack_damage: 616?
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

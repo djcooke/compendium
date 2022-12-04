@@ -6,6 +6,9 @@ image: grenade.png
 start_floor: 181
 end_floor: 184
 agro: Sight
+hp: 25567
+attack_damage: 2414
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true

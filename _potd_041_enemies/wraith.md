@@ -6,6 +6,9 @@ start_floor: 44
 end_floor: 46
 patrol: true
 agro: Proximity
+hp: 4316
+attack_damage: 486
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,5 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Scream
-    description: 'huge telegraphed pointblank AoE causing terror'
+    potency: 200
+    description: 'huge telegraphed pointblank AoE; inflicts terror (15s); can
+    be interrupted'
 ---

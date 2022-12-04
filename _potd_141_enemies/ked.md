@@ -6,6 +6,9 @@ family: Gnat
 start_floor: 141
 end_floor: 143
 agro: Sight
+hp: 17155
+attack_damage: 1120
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,6 +18,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Thunderstrike
+    potency: 300
     description: 'telegraphed line AoE'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

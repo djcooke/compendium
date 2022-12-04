@@ -5,6 +5,9 @@ image: centaur.png
 start_floor: 126
 end_floor: 129
 agro: Proximity
+hp: 14499
+attack_damage: 1010
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Berserk
-    description: 'grants attack bonus'
+    description: 'grants damage up (50%, 20s) to self'
   - name: Rear
+    potency: 300
     description: 'telegraphed pointblank AoE'
 ---

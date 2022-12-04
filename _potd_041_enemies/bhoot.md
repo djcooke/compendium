@@ -5,6 +5,9 @@ image: bhoot.png
 start_floor: 43
 end_floor: 46
 agro: Sound
+hp: 3873
+attack_damage: 444
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Paralyze III'
-    description: 'huge pointblank AoE causing paralyze; can be interrupted'
+    description: 'huge untelegraphed pointblank AoE inflicting paralysis (15s);
+    can be interrupted'
 ---

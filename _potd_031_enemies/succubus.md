@@ -6,6 +6,9 @@ start_floor: 31
 end_floor: 35
 patrol: true
 agro: Sight
+hp: 3890
+attack_damage: 351
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,7 +17,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Dark Mist
-    description: 'telegraphed pointblank AoE cuasing terror'
-  - name: 'Void Fire II'
-    description: 'telegraphed circle AoE; casted immediately after Dark Mist'
+    potency: 300
+    description: 'large telegraphed pointblank AoE; inflicts terror (10s)'
+  - name: Void Fire II
+    potency: 300
+    description: 'telegraphed circle AoE; used immediately after Dark Mist'
 ---

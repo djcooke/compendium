@@ -5,6 +5,9 @@ image: freebooter.png
 start_floor: 21
 end_floor: 29
 agro: Proximity
+hp: 3423
+attack_damage: 309?
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

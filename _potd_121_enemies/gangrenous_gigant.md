@@ -5,6 +5,9 @@ image: gangrenous_gigant.png
 start_floor: 121
 end_floor: 129
 agro: Proximity
+hp: 19479
+attack_damage: 1345
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

@@ -5,6 +5,9 @@ image: croc.png
 start_floor: 161
 end_floor: 165
 agro: Sight
+hp: 21914
+attack_damage: 1687
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Crushing Fangs
-    description: 'tankbuster (cleave?)'
+    potency: 130
+    description: 'instant'
 notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'

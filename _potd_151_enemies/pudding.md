@@ -6,6 +6,10 @@ family: Flan
 start_floor: 151
 end_floor: 154
 agro: Proximity
+hp: 19258
+attack_damage: 1243
+attack_type: Magic
+attack_name: Water
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,7 +19,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Amorphic Flail
-    description: 'tankbuster (melee)'
+    potency: 130
+    description: 'instant pointblank AoE'
 notes:
   - 'Caster, but also does melee attacks if you''re close. Keeping distance
     will mitigate some damage'

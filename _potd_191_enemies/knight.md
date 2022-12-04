@@ -5,6 +5,9 @@ image: knight.png
 start_floor: 195
 end_floor: 199
 agro: Proximity
+hp: 31211
+attack_damage: 3144
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,14 +16,15 @@ vulnerabilities:
   stun: false
   resolution: true
 abilities:
+  - name: Skullsplinter
+    potency: 130
+    description: 'instant'
   - name: Death Spiral
     description: scary-looking telegraphed donut AoE
-  - name: Skullsplinter
-    description: tank buster
-  - name: '?'
-    description: grants 7s attack bonus
   - name: Ossify
-    description: does damage and grants 15s defense bonus
+    description: 'grants physical damage up (100%, 8s) to self'
+  - name: '?'
+    description: 'grants physical vulnerability down (20s) to self'
 notes:
   - 'Do not fight one of these with a Wraith nearby, as the Wraith can cast
     Accursed Pox outside of combat and fill in the safe spot normally left

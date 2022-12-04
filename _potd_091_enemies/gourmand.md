@@ -5,6 +5,9 @@ image: gourmand.png
 start_floor: 96
 end_floor: 99
 agro: Proximity
+hp: 11068
+attack_damage: 884
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -13,8 +16,11 @@ vulnerabilities:
   stun: true
   resolution: true
 abilities:
-  - name: 'Beatdown'
-    description: tank buster
+  - name: Beatdown
+    potency: 150
+    description: 'instant'
   - name: 'Dirty Sneeze'
-    description: 'random target damage and stun; not used vs. solo adventurers'
+    potency: 130?
+    description: 'instant; only used against lower-emnity party members (not
+    used against solo adventurers)'
 ---

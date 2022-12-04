@@ -7,6 +7,10 @@ start_floor: 194
 end_floor: 197
 patrol: true
 agro: Sight
+hp: 31211
+attack_damage: 2859
+attack_type: Magic
+attack_name: Stone
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,8 +19,6 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: Stone
-    description: Used instead of auto-attacks
   - name: Level 5 Death
     description: 'untelegraphed conal gaze AoE causing instant death - look
     away, get behind, or get away'

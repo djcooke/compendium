@@ -6,6 +6,9 @@ start_floor: 57
 end_floor: 59
 patrol: true
 agro: Proximity
+hp: 5312
+attack_damage: 546
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,4 +16,11 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Abyssal Transfixion
+    potency: 130
+    description: 'instant'
+  - name: Abyssal Swing
+    potency: 300
+    description: 'telegraphed conal AoE'
 ---

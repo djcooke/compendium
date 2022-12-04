@@ -6,6 +6,9 @@ start_floor: 106
 end_floor: 109
 patrol: true
 agro: Proximity
+hp: 13060
+attack_damage: 931
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,4 +16,10 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Rhino Attack
+    potency: 250
+    description: 'gap closer (can be LoSed)'
+  - name: Rhino Guard
+    description: 'grants evasion up (8s) to self'
 ---

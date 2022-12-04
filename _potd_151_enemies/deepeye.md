@@ -5,6 +5,9 @@ image: deepeye.png
 start_floor: 151
 end_floor: 155
 agro: Sight
+hp: 19811
+attack_damage: 1293
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Optical Intrusion
-    description: fairly weak attack (cleave?)
+    potency: 130
+    description: 'instant'
   - name: Hypnotize
-    description: 'roomwide gaze sleep - look away'
+    description: 'roomwide gaze attack inflicting paralysis (30s) - look away'
 job_specifics:
   GNB:
     difficulty: Easy

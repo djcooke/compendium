@@ -5,6 +5,9 @@ image: corse.png
 start_floor: 94
 end_floor: 98
 agro: Proximity
+hp: 10735
+attack_damage: 873
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -12,4 +15,8 @@ vulnerabilities:
   slow: true
   stun: false
   resolution: true
+abilities:
+  - name: Glass Punch
+    potency: 150
+    description: 'instant'
 ---

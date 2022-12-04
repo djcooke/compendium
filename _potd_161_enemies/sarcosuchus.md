@@ -5,6 +5,9 @@ image: sarcosuchus.png
 start_floor: 161
 end_floor: 165
 agro: Sight
+hp: 22357
+attack_damage: 1735
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Critical Bite
+    potency: 300
     description: 'telegraphed conal AoE'
 job_specifics:
   GNB:

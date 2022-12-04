@@ -6,6 +6,9 @@ start_floor: 147
 end_floor: 149
 patrol: true
 agro: Sound
+hp: 18926
+attack_damage: 1201
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,8 +16,10 @@ vulnerabilities:
   slow: true
   stun: false
   resolution: true
-notes:
-  - 'Hits pretty hard'
+abilities:
+  - name: Nail in the Coffin
+    potency: 150
+    description: 'instant'
 job_specifics:
   MCH:
     difficulty: Medium

@@ -5,6 +5,9 @@ image: bandersnatch.png
 start_floor: 171
 end_floor: 173
 agro: Sight
+hp: 23464
+attack_damage: 2030
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Catching Claws
-    description: instant cleave attack
+    potency: 130
+    description: 'instant'
 notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'

@@ -6,6 +6,9 @@ start_floor: 164
 end_floor: 166
 patrol: true
 agro: Sight
+hp: 23242
+attack_damage: 1828
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,11 +18,13 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Third Leg Forward
-    description: telegraphed conal AoE
+    potency: 300?
+    description: 'telegraphed conal AoE'
   - name: Third Leg Back
-    description: 'telegraphed conal AoE behind. Used right after Third Leg
-    Forward if there is someone behind, and will use it over and over as long
-    as someone is behind it.'
+    potency: 300?
+    description: 'telegraphed backward conal AoE; inflicts knockback. Used
+    after Third Leg Forward if someone is behind, and will use it over and
+    over as long as someone is behind it.'
 notes:
   - 'Bait Third Leg Back repeatedly to avoid taking any damage - just keep
     running in and out of its area'

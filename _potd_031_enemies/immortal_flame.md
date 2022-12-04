@@ -5,6 +5,9 @@ family: Fallen NPC
 start_floor: 31
 end_floor: 39
 agro: Proximity
+hp: 5160?
+attack_damage: 520?
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

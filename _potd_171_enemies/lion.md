@@ -5,6 +5,9 @@ image: lion.png
 start_floor: 174
 end_floor: 178
 agro: Sight
+hp: 25345
+attack_damage: 2221
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Mark of the Beast
-    description: 'instant cleave attack'
+    potency: 130
+    description: 'instant'
   - name: Cry
-    description: 'telegraphed pointblank AoE'
+    potency: 300?
+    description: 'large telegraphed pointblank AoE'
 job_specifics:
   GNB:
     difficulty: Easy

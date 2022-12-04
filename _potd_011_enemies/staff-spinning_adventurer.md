@@ -5,6 +5,9 @@ image: staff_adventurer.png
 start_floor: 11
 end_floor: 19
 agro: Proximity
+hp: 1455
+attack_damage: 125
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

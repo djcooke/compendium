@@ -5,6 +5,9 @@ image: hippogryph.png
 start_floor: 191
 end_floor: 195
 agro: Sight
+hp: 28776?
+attack_damage: 2898
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Beak Snap
-    description: tank buster
+    potency: 130
+    description: 'instant'
   - name: Shriek
-    description: telegraphed pointblank AoE
+    potency: 200
+    description: 'telegraphed pointblank AoE; probably inflicts stun (6s)'
 job_specifics:
   GNB:
     difficulty: Easy

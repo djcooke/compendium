@@ -5,6 +5,9 @@ image: swarm.png
 start_floor: 91
 end_floor: 94
 agro: Sound
+hp: 9961
+attack_damage: 874
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -12,4 +15,6 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+notes:
+  - 'Autoattack absorbs 30% of damage dealt'
 ---

@@ -5,6 +5,10 @@ image: troubador.png
 start_floor: 136
 end_floor: 139
 agro: Proximity
+hp: 16824
+attack_damage: 1099
+attack_type: Magic
+attack_name: Dark
 vulnerabilities:
   bind: false
   heavy: false

@@ -5,6 +5,10 @@ image: troubadour.png
 start_floor: 36
 end_floor: 39
 agro: Proximity
+hp: 3992
+attack_damage: 398
+attack_type: Magic
+attack_name: Dark
 vulnerabilities:
   bind: false
   heavy: false

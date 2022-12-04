@@ -5,6 +5,9 @@ image: wivre.png
 start_floor: 163
 end_floor: 166
 agro: Proximity
+hp: 22800
+attack_damage: 1784
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Brow Horn
-    description: tankbuster
+    potency: 130
+    description: 'instant'
 notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'

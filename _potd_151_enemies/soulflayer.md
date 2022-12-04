@@ -5,6 +5,9 @@ image: soulflayer.png
 start_floor: 156
 end_floor: 159
 agro: Sight
+hp: 22578
+attack_damage: 1584
+attack_type: Magic
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Mind Blast
-    description: 'telegraphed pointblank AoE'
+    potency: 300
+    description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
   - name: Drain Touch
-    description: 'drains HP'
+    potency: 130
+    description: 'instant; absorbs 100% of damage dealt'
 notes:
   - Caster - kiting doesn't help to mitigate damage
   - 'Can be slowed if transfigured via Pomander of Witching'

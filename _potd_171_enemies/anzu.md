@@ -5,6 +5,9 @@ image: anzu.png
 start_floor: 176
 end_floor: 179
 agro: Sight
+hp: 26784
+attack_damage: 2364
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,10 +16,12 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: '?'
-    description: applies windburn (DoT)
+  - name: 'Sonic Boom (?)'
+    description: 'instant; inflicts windburn (DoT potency 15, 20s)'
   - name: Flying Frenzy
-    description: 'instant big damage gap-closer circle AoE that applies stun'
+    potency: 180
+    description: 'instant circle AoE gap closer; inflicts stun (2s) and
+    vulnerability up (50%, 10s)'
 notes:
   - If in a party, spread out to minimize damage from Flying Frenzy
 job_specifics:

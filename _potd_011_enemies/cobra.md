@@ -5,6 +5,9 @@ image: cobra.png
 start_floor: 14
 end_floor: 17
 agro: Sight
+hp: 1027
+attack_damage: 81
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -12,8 +15,9 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Stone Gaze'
-    description: '360 degree gaze; applies petrify - look away'
+  - name: Stone Gaze
+    description: '360 degree gaze inflicting petrify (15s) - look away'
   - name: Devour
+    potency: 100% of max HP
     description: 'instant death; only used if you are a toad'
 ---

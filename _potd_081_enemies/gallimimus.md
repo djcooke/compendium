@@ -6,6 +6,9 @@ family: Raptor
 start_floor: 83
 end_floor: 86
 agro: Sight
+hp: 7526
+attack_damage: 721
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -15,5 +18,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Flash Evaporation
-    description: 'telegraphed circle AoE; applies Burns (DoT)'
+    potency: 300
+    description: 'telegraphed circle AoE; inflicts burns (DoT potency 100, 9s)'
 ---

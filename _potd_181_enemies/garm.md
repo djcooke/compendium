@@ -7,6 +7,9 @@ start_floor: 181
 end_floor: 189
 patrol: true
 agro: Proximity
+hp: 40066
+attack_damage: 3297
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -16,12 +19,19 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'The Dragon''s Voice'
-    description: 'untelegraphed donut AoE - get IN. Can be interrupted'
+    potency: 600?
+    description: 'untelegraphed donut AoE - get IN. Inflicts frostbite and
+    deep freeze. Can be interrupted'
   - name: 'The Ram''s Voice'
-    description: 'untelegraphed pointblank AoE - get OUT. Can be interrupted'
+    potency: 600?
+    description: 'untelegraphed pointblank AoE - get OUT. Inflicts
+    electrocution (DoT potency 50, 30s) and paralysis (30s). Can be
+    interrupted'
   - name: 'The Lion''s Breath'
+    potency: 300?
     description: 'telegraphed conal AoE'
   - name: 'The Ram''s Breath'
+    potency: 300?
     description: 'telegraphed conal AoE'
 notes:
   - 'These mostly just spam abilities, doing very little autoattack damage'

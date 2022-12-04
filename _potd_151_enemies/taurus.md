@@ -5,6 +5,9 @@ image: taurus.png
 start_floor: 156
 end_floor: 159
 agro: Sight
+hp: 22136
+attack_damage: 1540
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,9 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Frightful Roar
-    description: 'telegraphed pointblank AoE'
+    potency: 300
+    description: 'telegraphed pointblank AoE; inflicts vulnerability up (20%,
+    30s)'
 job_specifics:
   GNB:
     difficulty: Easy

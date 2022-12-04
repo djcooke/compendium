@@ -6,6 +6,10 @@ image: devilet.png
 start_floor: 155
 end_floor: 159
 agro: Sight
+hp: 21693
+attack_damage: 1491
+attack_type: Magic
+attack_name: Blizzard
 vulnerabilities:
   bind: true
   heavy: true
@@ -15,12 +19,13 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Ice Spikes
-    description: 'Causes you to take significant damage whenever you hit the
-    enemy; can be interrupted. Recommended to interrupt or disengage
-    immediately. The damage can kill you very quickly'
+    description: 'Grants counterattack (potency 200, 5s) to self; can be
+    interrupted. Recommended to interrupt or disengage immediately. The damage
+    can kill you very quickly'
   - name: Void Blizzard
-    description: 'Does damage and applies slow; can be interrupted. It only has
-    medium range, so you can also run away to avoid it'
+    potency: 130
+    description: 'Inflicts slow (20s); can be interrupted. It only has medium
+    range, so you can also run away to avoid it'
 notes:
   - 'Disengaging during Ice Spikes and running away to avoid Void Blizzard is
     probably the safest option as you avoid all damage'

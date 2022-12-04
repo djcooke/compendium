@@ -5,6 +5,9 @@ image: triceratops.png
 start_floor: 166
 end_floor: 169
 agro: Proximity
+hp: 24681
+attack_damage: 1975
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Batterhorn
-    description: tankbuster
+    potency: 130
+    description: 'instant'
 notes:
   - Hits pretty hard
 job_specifics:

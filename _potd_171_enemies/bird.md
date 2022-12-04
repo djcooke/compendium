@@ -6,6 +6,9 @@ start_floor: 176
 end_floor: 179
 patrol: true
 agro: Proximity
+hp: 26784
+attack_damage: 2364
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,13 +18,15 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Filoplumes
-    description: tankbuster
+    potency: 130
+    description: 'instant'
   - name: Revelation
-    description: 'telegraphed circle AoE'
+    potency: 300
+    description: 'telegraphed circle AoE; inflicts confused (10s)'
   - name: Tropical Wind
-    description: 'grants an attack boost and haste, and causes it to spam
-    Revelation. Can be interrupted, but not recommended as its casting will
-    give you lots of breathing room'
+    description: 'grants physical damage up (80%, 30s) and haste (30s) to self,
+    and causes it to spam Revelation. Can be interrupted, but not recommended
+    as its casting will give you lots of breathing room'
 job_specifics:
   GNB:
     difficulty: Easy

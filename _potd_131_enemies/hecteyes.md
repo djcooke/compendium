@@ -5,6 +5,9 @@ image: hecteyes.png
 start_floor: 131
 end_floor: 135
 agro: Sound
+hp: 15605
+attack_damage: 1046
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,8 +16,9 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: '?'
-    description: 'telegraphed pointblank AoE; applies paralyze'
+  - name: Hex Eye
+    potency: 200
+    description: 'telegraphed pointblank AoE'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

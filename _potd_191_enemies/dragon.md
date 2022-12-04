@@ -5,6 +5,9 @@ image: dragon.png
 start_floor: 193
 end_floor: 196
 agro: Proximity
+hp: 29772?
+attack_damage: 2996
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -16,7 +19,8 @@ abilities:
   - name: Evil Eye
     description: conal gaze AoE - look away, get behind, or get away
   - name: Miasma Breath
-    description: telegraphed conal AoE
+    potency: 300
+    description: telegraphed conal AoE; causes disease
 job_specifics:
   GNB:
     difficulty: Easy

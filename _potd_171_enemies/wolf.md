@@ -5,6 +5,9 @@ image: wolf.png
 start_floor: 173
 end_floor: 176
 agro: Sight
+hp: 24903
+attack_damage: 2169
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,8 +17,9 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Sanguine Bite
-    description: 'instant attack that drains HP and applies a strong frostbite
-    (DoT)'
+    potency: 130
+    description: 'instant; absorbs 100% of damage dealt; inflicts frostbite
+    (DoT potency 50, 12s)'
 notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'

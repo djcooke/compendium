@@ -5,6 +5,9 @@ image: hornet.png
 start_floor: 6
 end_floor: 9
 agro: Proximity
+hp: 557
+attack_damage: 40
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,6 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Final Sting
-    description: 'Deals 70% max HP damage; used if not killed fast enough;
-    possible to outrange'
+    potency: 70% of max HP
+    description: 'sacrifial enrage; possible to outrange'
 ---

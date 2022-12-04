@@ -5,6 +5,9 @@ image: raptor.png
 start_floor: 61
 end_floor: 63
 agro: Sight
+hp: 5312
+attack_damage: 546
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,5 +17,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Foul Breath
-    description: 'telegraphed conal AoE; applies Burns (DoT)'
+    potency: 300
+    description: 'telegraphed conal AoE; inflicts burns (DoT potency 30, 12s)'
 ---
