@@ -21,7 +21,7 @@ abilities:
     description: 'telegraphed circle AoE; also used out of combat'
   - name: 'Resonate (?)'
     description: 'grants physical damage up (80%, 30s) to self; used 47 seconds
-    after aggro'
+    after pull/aggro'
 job_specifics:
   GNB:
     difficulty: Easy
