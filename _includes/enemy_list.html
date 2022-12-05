@@ -19,8 +19,12 @@
   <tbody>
   {% assign index = 0 %}
   {% assign ninth_floor = include.start_floor | plus: 8 %}
-  {% assign max_hp = include.enemies | map: 'hp' | compact | sort | reverse | first | default: 1 %}
-  {% assign max_attack_damage = include.enemies | map: 'attack_damage' | compact | sort | reverse | first | default: 1 %}
+  {% assign base_percent = 25 %}
+  {% assign gap_percent = 100 | minus: base_percent %}
+  {% assign min_hp = include.enemies | map: 'hp' | compact | sort | first | default: 0 %}
+  {% assign hp_gap = include.enemies | map: 'hp' | compact | sort | reverse | first | default: base_percent | minus: base_percent | minus: min_hp %}
+  {% assign min_attack_damage = include.enemies | map: 'attack_damage' | compact | sort | first | default: 0 %}
+  {% assign attack_damage_gap = include.enemies | map: 'attack_damage' | compact | sort | reverse | first | default: base_percent | minus: min_attack_damage %}
   {% for enemy in include.enemies %}
     <tr>
       {% for floor in (include.start_floor..ninth_floor) %}
@@ -51,16 +55,29 @@
       <td class="textCell">
         <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}</a>
       </td>
-      <td class="hpCell" style="--percent:{{ enemy.hp | default: 0 | times: 100 | divided_by: max_hp }}%">
+
+      {% if enemy.hp %}
+        {% assign hp_percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}
+      {% else %}
+        {% assign hp_percent = 0 %}
+      {% endif %}
+      <td class="hpCell" style="--percent:{{ hp_percent }}%" {% if enemy.hp >= 10000 %}title="{{ enemy.hp }}"{% endif %}>
         {% if enemy.hp >= 10000 %}
           {{ enemy.hp | divided_by: 1000 }}K
         {% else %}
           {{ enemy.hp | default: '?' }}
         {% endif %}
       </td>
-      <td class="attackCell" style="--percent:{{ enemy.attack_damage | default: 0 | times: 100 | divided_by: max_attack_damage }}%">
+
+      {% if enemy.attack_damage %}
+        {% assign attack_percent = enemy.attack_damage | minus: min_attack_damage | times: gap_percent | divided_by: attack_damage_gap | plus: base_percent %}
+      {% else %}
+        {% assign attack_percent = 0 %}
+      {% endif %}
+      <td class="attackCell" style="--percent:{{ attack_percent }}%">
         {{ enemy.attack_damage | default: '?' }}
       </td>
+
       {% for status in site.data.statuses %}
         {% if status == 'resolution' and include.resolution_possible != true %}
           {% continue %}

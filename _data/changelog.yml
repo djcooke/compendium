@@ -2,6 +2,8 @@
   updates:
     - 'Added PotD enemy stats and ability data, courtesy of vaxherd'
     - 'Fixed Deep Palace Black Coeurl enemy name'
+    - 'Adjusted HP and auto-attack bars in the enemy lists to better emphasize
+    the difference between enemies'
 - date: 2022-12-04
   updates:
     - 'Show enemy ability potencies - currently all unknown, but will be
