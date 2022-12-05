@@ -19,7 +19,8 @@ vulnerabilities:
 abilities:
   - name: 'Rapture'
     potency: 100% of max HP
-    description: 'instant AoE sacrificial enrage'
+    description: 'instant AoE sacrificial enrage; used 37 seconds after
+    pull/aggro'
 notes:
   - 'Acid Spray inflicts stacking physical vulnerability up (+10% per stack,
     max 8 stacks, 5s); this ability does magic damage, so its own damage is
