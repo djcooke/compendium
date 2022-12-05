@@ -5,7 +5,7 @@ image: ../mimic.png
 start_floor: 171
 end_floor: 179
 agro: Proximity
-hp: 34864?
+hp: 34864
 attack_damage: 3064
 attack_type: Physical
 vulnerabilities:

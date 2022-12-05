@@ -5,8 +5,8 @@ image: necrose_knight.png
 start_floor: 81
 end_floor: 89
 agro: Proximity
-hp: 9961?
-attack_damage: 970?
+hp: 9961
+attack_damage: 970
 attack_type: Physical
 vulnerabilities:
   bind: false

@@ -7,7 +7,7 @@ end_floor: 199
 patrol: true
 agro: Sound
 hp: 32097
-attack_damage: 3140?
+attack_damage: 3140
 attack_type: Physical
 vulnerabilities:
   bind: true

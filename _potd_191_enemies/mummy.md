@@ -5,7 +5,7 @@ image: mummy.png
 start_floor: 191
 end_floor: 193
 agro: Proximity
-hp: 28776?
+hp: 28776
 attack_damage: 2898
 attack_type: Physical
 vulnerabilities:

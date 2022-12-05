@@ -6,7 +6,7 @@ image: trap.png
 start_floor: 191
 end_floor: 194
 agro: Sound
-hp: 28776?
+hp: 28776
 attack_damage: 2716
 attack_type: Physical
 vulnerabilities:

@@ -5,7 +5,7 @@ image: dragon.png
 start_floor: 193
 end_floor: 196
 agro: Proximity
-hp: 29772?
+hp: 29772
 attack_damage: 2996
 attack_type: Physical
 vulnerabilities:

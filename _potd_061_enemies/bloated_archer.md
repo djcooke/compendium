@@ -5,7 +5,7 @@ image: bloated_archer.png
 start_floor: 61
 end_floor: 69
 agro: Proximity
-hp: 6972?
+hp: 6972
 attack_damage: 746
 attack_type: Physical
 vulnerabilities:
