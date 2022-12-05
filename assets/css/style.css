@@ -330,6 +330,14 @@ img.surfaceImage {
   background-color: var(--background);
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
 .conditionHigh {
   color: hsl(128, 100%, 40%);
 }

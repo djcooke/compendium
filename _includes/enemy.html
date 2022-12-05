@@ -45,14 +45,8 @@
   </div>
 </div>
 
-{% if include.enemy.abilities %}
-  <h4>Abilities</h4>
-  <ul>
-    {% for ability in include.enemy.abilities %}
-      <li><strong>{{ ability.name }}</strong>: {{ ability.description }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
+{% include abilities.html abilities=include.enemy.abilities %}
+
 {% if include.enemy.notes %}
   <h4>Notes</h4>
   {% include notes.html notes=include.enemy.notes %}

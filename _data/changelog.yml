@@ -1,3 +1,7 @@
+- date: 2022-12-04
+  updates:
+    - 'Show enemy ability potencies - currently all unknown, but will be 
+    added soon'
 - date: 2022-12-03
   updates:
     - 'Redesigned enemy list on the floorset pages. Thanks to vaxherd for the

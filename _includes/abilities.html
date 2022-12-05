@@ -1,0 +1,16 @@
+{% if include.abilities %}
+  <table>
+    <thead>
+      <tr>
+        <th class="align-left">Ability</th><th>Potency</th><th class="align-left">Effect</th>
+      </tr>
+    </thead>
+    {% for ability in include.abilities %}
+      <tr>
+        <td><strong>{{ ability.name }}</strong></td>
+        <td class="align-center">{{ ability.potency | default: '?' }}</td>
+        <td>{{ ability.description }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endif %}

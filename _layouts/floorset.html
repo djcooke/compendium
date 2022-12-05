@@ -102,6 +102,9 @@ layout: default
     </div>
   {% endif %}
   <div class="surfacePane">
+
+    {% include abilities.html abilities=page.boss_abilities %}
+
     <h4>Notes:</h4>
 
     {% include notes.html notes=page.boss_notes %}
