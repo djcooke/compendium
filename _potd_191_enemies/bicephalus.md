@@ -19,9 +19,9 @@ vulnerabilities:
 abilities:
   - name: Glass Punch
     potency: 150
-    description: tank buster
+    description: 'instant'
   - name: Catapult
-    description: telegraphed circle AoE
+    description: 'telegraphed circle AoE'
 job_specifics:
   GNB:
     difficulty: Easy

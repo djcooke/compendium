@@ -18,7 +18,7 @@ vulnerabilities:
 abilities:
   - name: Dark Dome
     potency: 90
-    description: 'tankbuster'
+    description: 'instant'
   - name: Charybdis
     potency: 90% of current HP
     description: 'enrage; can be interrupted'

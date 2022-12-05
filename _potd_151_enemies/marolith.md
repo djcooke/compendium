@@ -19,7 +19,7 @@ vulnerabilities:
 abilities:
   - name: Carpomission
     potency: 130
-    description: tankbuster
+    description: 'instant'
   - name: Isle Drop
     potency: 300
     description: 'telegraphed circle AoE; inflicts stun (5s)'

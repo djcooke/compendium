@@ -18,7 +18,7 @@ vulnerabilities:
 abilities:
   - name: Underbite
     potency: 130
-    description: 'tankbuster'
+    description: 'instant'
   - name: Primordial Bark
     description: 'telegraphed pointblank AoE'
 notes:

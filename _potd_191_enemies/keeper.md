@@ -22,7 +22,7 @@ abilities:
     description: 'instant'
   - name: Vengeance Soul
     potency: 130?
-    description: 'instant circle AoE; only used against lower-emnity party
+    description: 'instant circle AoE; only used against lower-enmity party
     members (not used against solo adventurers)'
 notes:
   - 'Highest DPS enemy in PotD'

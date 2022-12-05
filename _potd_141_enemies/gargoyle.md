@@ -21,7 +21,7 @@ abilities:
     description: 'instant; inflicts poison (DoT potency 55, 20s)'
   - name: Grim Fate
     potency: 130
-    description: 'tankbuster'
+    description: 'instant'
 notes:
   - 'Hits pretty hard - watch out for poison damage'
 job_specifics:

@@ -21,7 +21,7 @@ abilities:
     description: 'instant'
   - name: 'Dirty Sneeze'
     potency: 130?
-    description: 'instant; only used against lower-emnity party members (not
+    description: 'instant; only used against lower-enmity party members (not
     used against solo adventurers)'
 job_specifics:
   GNB:

@@ -26,7 +26,7 @@ abilities:
     debuff (60%, 30s)'
   - name: Ripper Claw
     potency: 300
-    description: 'untelegraphed conal AoE - don't stand in front!'
+    description: 'untelegraphed conal AoE - don''t stand in front!'
   - name: Fireball
     potency: 300
     description: 'telegraphed circle AoE'

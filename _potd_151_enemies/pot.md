@@ -21,7 +21,7 @@ abilities:
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
   - name: Double Ray
     potency: 120
-    description: 'tankbuster'
+    description: 'instant'
 job_specifics:
   GNB:
     difficulty: Easy
