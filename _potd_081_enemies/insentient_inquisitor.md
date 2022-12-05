@@ -5,6 +5,9 @@ image: insentient_inquisitor.png
 start_floor: 81
 end_floor: 89
 agro: Proximity
+hp: 9407
+attack_damage: 922
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

@@ -5,6 +5,9 @@ image: jaundiced_tribunus.png
 start_floor: 181
 end_floor: 189
 agro: Proximity
+hp: 41726
+attack_damage: 4202
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

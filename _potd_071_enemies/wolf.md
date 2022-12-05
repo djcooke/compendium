@@ -5,6 +5,9 @@ image: wolf.png
 start_floor: 71
 end_floor: 74
 agro: Sight
+hp: 5976
+attack_damage: 584
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -12,4 +15,8 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Sanguine Bite
+    potency: 130
+    description: 'instant; absorbs 100% of damage dealt'
 ---

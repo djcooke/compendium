@@ -5,6 +5,9 @@ image: skatene.png
 start_floor: 26
 end_floor: 29
 agro: Sound
+hp: 3358
+attack_damage: 286
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,5 +16,5 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Chirp
-    description: 'untelegraphed large pointblank AoE sleep'
+    description: 'untelegraphed large pointblank AoE; inflicts sleep (15s)'
 ---

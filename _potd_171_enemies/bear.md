@@ -5,6 +5,9 @@ image: bear.png
 start_floor: 171
 end_floor: 175
 agro: Sight
+hp: 24460
+attack_damage: 2120
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Savage Swipe
-    description: 'telegraphed conal attack'
+    potency: 300
+    description: 'telegraphed conal AoE'
 job_specifics:
   GNB:
     difficulty: Easy

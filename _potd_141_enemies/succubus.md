@@ -5,6 +5,9 @@ image: succubus.png
 start_floor: 146
 end_floor: 149
 agro: Sight
+hp: 18594
+attack_damage: 1189
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -12,6 +15,14 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Dark Mist
+    potency: 300
+    description: 'large telegraphed pointblank AoE; inflicts terror (10s)'
+  - name: Void Fire IV
+    potency: 350
+    description: 'large telegraphed circle AoE; used immediately after Dark
+    Mist; also used out of battle'
 job_specifics:
   MCH:
     difficulty: Easy

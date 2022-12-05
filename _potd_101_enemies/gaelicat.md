@@ -5,6 +5,9 @@ image: gaelicat.png
 start_floor: 107
 end_floor: 109
 agro: Sound
+hp: 13060
+attack_damage: 931
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -12,4 +15,11 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
+abilities:
+  - name: Scratch Fever
+    potency: 130
+    description: 'instant'
+  - name: Yowl
+    description: 'telegraphed conal AoE; inflicts physical damage down (90%,
+    15s)'
 ---

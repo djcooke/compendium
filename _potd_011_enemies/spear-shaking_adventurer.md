@@ -5,6 +5,9 @@ image: spear_adventurer.png
 start_floor: 11
 end_floor: 19
 agro: Proximity
+hp: 1330
+attack_damage: 104
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

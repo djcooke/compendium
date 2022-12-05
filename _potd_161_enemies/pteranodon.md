@@ -6,6 +6,9 @@ start_floor: 166
 end_floor: 169
 patrol: true
 agro: Proximity
+hp: 24681
+attack_damage: 1975
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -15,6 +18,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Lightning Bolt
+    potency: 300
     description: 'telegraphed circle AoE'
 job_specifics:
   GNB:

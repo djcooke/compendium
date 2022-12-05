@@ -5,6 +5,9 @@ image: mylodon.png
 start_floor: 164
 end_floor: 168
 agro: Sight
+hp: 23242
+attack_damage: 1828
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Slowball
+    potency: 130
     description: 'instant circle AoE'
   - name: Snow Flurry
     description: 'telegraphed conal AoE'

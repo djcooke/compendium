@@ -6,6 +6,9 @@ start_floor: 141
 end_floor: 143
 patrol: true
 agro: Sight
+hp: 17266
+attack_damage: 1219
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -15,11 +18,17 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Wild Charge
-    description: 'charge attack used . Gains an attack bonus immediately
-    afterwards'
+    potency: 130
+    description: 'instant gap closer'
+  - name: 'Enrage (?)'
+    description: 'grants damage up (50%, 30s) to self; used immediately after
+    Wild Charge. When the buff expires, it changes to a physical damage down
+    debuff (60%, 30s)'
   - name: Ripper Claw
-    description: 'untelegraphed cone AoE - don''t stand in front!'
-  - name: 'Fireball'
+    potency: 300
+    description: 'untelegraphed conal AoE - don''t stand in front!'
+  - name: Fireball
+    potency: 300
     description: 'telegraphed circle AoE'
 notes:
   - 'Hits pretty hard with the attack bonus'

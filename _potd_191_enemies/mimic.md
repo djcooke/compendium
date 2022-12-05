@@ -5,6 +5,9 @@ image: ../mimic.png
 start_floor: 191
 end_floor: 199
 agro: Proximity
+hp: 41726
+attack_damage: 4202
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,8 +18,9 @@ vulnerabilities:
 gallery_only: true
 abilities:
   - name: Infatuation
-    description: 'inflicts pox; can be interrupted'
+    description: 'inflicts pox (DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
+    potency: 300
     description: 'telegraphed pointblank AoE'
 notes:
   - 'Sometimes found in gold chests'

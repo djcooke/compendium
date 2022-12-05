@@ -5,6 +5,9 @@ image: ochu.png
 start_floor: 116
 end_floor: 119
 agro: Proximity
+hp: 13613
+attack_damage: 953
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,5 +17,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Gold Dust
-    description: 'telegraphed large circle AoE'
+    description: 'telegraphed large circle AoE; inflicts poison (DoT potency
+    60, 15s)'
 ---

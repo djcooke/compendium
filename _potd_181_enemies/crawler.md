@@ -5,6 +5,8 @@ image: crawler.png
 start_floor: 183
 end_floor: 186
 agro: Sound
+hp: 27005
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true

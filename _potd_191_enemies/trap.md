@@ -6,6 +6,9 @@ image: trap.png
 start_floor: 191
 end_floor: 194
 agro: Sound
+hp: 28776
+attack_damage: 2716
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -14,8 +17,9 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Swift Sough'
-    description: telegraphed conal AoE
+  - name: Sleetvolley
+    potency: 100
+    description: 'instant ranged attack'
 notes:
   - 'Will not come into melee range if you stay away from it, doing very little
     damage'

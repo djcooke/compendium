@@ -5,6 +5,9 @@ image: dragon.png
 start_floor: 186
 end_floor: 189
 agro: Sight
+hp: 28887
+attack_damage: 2790
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Sheet of Ice'
-    description: 'instant circle AoE that applies a VERY strong DoT'
+    potency: 120
+    description: 'instant circle AoE; inflicts frostbite (DoT potency 100, 21s)'
   - name: 'Granite Rain'
     description: telegraphed pointblank AoE
 job_specifics:

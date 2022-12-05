@@ -5,6 +5,9 @@ image: flyblown_praefectus.png
 start_floor: 161
 end_floor: 169
 agro: Proximity
+hp: 32207
+attack_damage: 2572
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

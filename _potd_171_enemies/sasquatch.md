@@ -5,6 +5,9 @@ image: sasquatch.png
 start_floor: 175
 end_floor: 179
 agro: Proximity
+hp: 25899
+attack_damage: 2264
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -13,15 +16,16 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: Ripe Banana
-    description: 'used out of combat only. Grants a strong attack boost. After
-    using this, it will use Chest Thump every few seconds until the buff
-    expires'
-  - name: Chest Thump
-    description: 'huge 1.5 room instant AoE that applies stacking vulnerability
-    up. Only used out of combat during Ripe Banana'
   - name: Browbeat
-    description: 'tankbuster'
+    potency: 200
+    description: 'instant'
+  - name: Ripe Banana
+    description: 'grants physical damage up (100%, 15s) to self and heals 20%
+    of max HP; only used out of combat'
+  - name: Chest Thump
+    description: 'huge 1.5 room instant AoE that inflicts stacking physical
+    vulnerability up (10% per stack, max 5 stacks, 8s). Only used out of combat
+    during Ripe Banana'
 notes:
   - Hits VERY hard
   - DO NOT pull while it has the attack bonus

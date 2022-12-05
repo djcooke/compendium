@@ -7,6 +7,9 @@ start_floor: 151
 end_floor: 153
 patrol: true
 agro: Sight
+hp: 20254
+attack_damage: 1208
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -16,6 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Death''s Door'
+    potency: 400
     description: 'quick, long, narrow line AoE. It will spam this every few
     seconds'
 job_specifics:

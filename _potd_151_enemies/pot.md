@@ -5,6 +5,9 @@ image: pot.png
 start_floor: 153
 end_floor: 156
 agro: Proximity
+hp: 20697
+attack_damage: 1393
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Mysterious Light
-    description: 'roomwide gaze attack that blinds'
+    potency: 400
+    description: 'roomwide gaze attack inflicting blind (15s) - look away'
   - name: Double Ray
-    description: 'tankbuster'
+    potency: 120
+    description: 'instant'
 job_specifics:
   GNB:
     difficulty: Easy

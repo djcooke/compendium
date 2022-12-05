@@ -5,6 +5,9 @@ image: taurus.png
 start_floor: 137
 end_floor: 139
 agro: Sight
+hp: 17044
+attack_damage: 1107
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,6 +16,9 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
+  - name: Triclip
+    potency: 120
+    description: 'instant'
   - name: Voidblood
     description: 'telegraphed circle AoE that inflicts Voidblood (increases
     damage taken); not used vs. solo adventurers'

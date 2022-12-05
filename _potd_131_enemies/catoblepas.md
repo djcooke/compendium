@@ -6,6 +6,9 @@ start_floor: 135
 end_floor: 137
 patrol: true
 agro: Sight
+hp: 16491
+attack_damage: 1081
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,9 +17,10 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: '?'
-    description: 'telegraphed conal gaze AoE - look away, get behind, or get
-    away'
+  - name: Eye of the Stunted
+    description: 'telegraphed conal gaze AoE inflicting minimum (30s) - look
+    away, get behind, or get away'
   - name: 'Jettatura'
+    potency: 300
     description: 'telegraphed circle AoE'
 ---

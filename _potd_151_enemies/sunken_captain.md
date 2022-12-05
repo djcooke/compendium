@@ -5,6 +5,9 @@ image: captain.png
 start_floor: 151
 end_floor: 159
 agro: Proximity
+hp: 29440
+attack_damage: 2070
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

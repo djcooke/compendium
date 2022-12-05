@@ -5,6 +5,9 @@ image: wraith.png
 start_floor: 191
 end_floor: 199
 agro: Proximity
+hp: 32097
+attack_damage: 3206
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,11 +17,13 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Scream
-    description: 'huge telegraphed pointblank AoE that inflicts terror. Can be
-    interrupted'
+    potency: 200?
+    description: 'huge telegraphed pointblank AoE; inflicts terror (10s); can
+    be interrupted'
   - name: Accursed Pox
-    description: 'telegraphed circle AoE. Can be interrupted. Will also cast
-    this outside of combat'
+    potency: 400?
+    description: 'telegraphed circle AoE; inflicts disease; can be interrupted.
+    Also used outside of combat'
 notes:
   - 'Do not fight a Knight with one of these nearby, as Accursed Pox can fill
     in the safe spot of the Knight''s donut AoE'

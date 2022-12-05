@@ -5,6 +5,10 @@ image: sprite.png
 start_floor: 181
 end_floor: 185
 agro: Sight
+hp: 26563
+attack_damage: 2490
+attack_type: Magic
+attack_name: Blizzard
 vulnerabilities:
   bind: true
   heavy: true
@@ -12,9 +16,6 @@ vulnerabilities:
   slow: false
   stun: true
   resolution: false
-abilities:
-  - name: Blizzard
-    description: 'Used instead of auto-attacks'
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Can be slowed if transfigured via Pomander of Witching'

@@ -5,6 +5,9 @@ image: putrid_plutocrat.png
 start_floor: 71
 end_floor: 79
 agro: Proximity
+hp: 8522
+attack_damage: 761
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

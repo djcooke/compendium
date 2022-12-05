@@ -7,6 +7,9 @@ start_floor: 171
 end_floor: 173
 patrol: true
 agro: Sight
+hp: 23906
+attack_damage: 2077
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -16,9 +19,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Glower
+    potency: 300
     description: 'untelegraphed wide line AoE - DO NOT stand in front'
   - name: 100-tonze Swing
-    description: 'untelegraphed pointblank AoE - get away'
+    potency: 600?
+    description: 'untelegraphed pointblank AoE inflicting knockback - get away'
 job_specifics:
   GNB:
     difficulty: Easy

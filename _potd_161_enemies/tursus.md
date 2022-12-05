@@ -6,6 +6,9 @@ start_floor: 161
 end_floor: 163
 patrol: true
 agro: Sight
+hp: 21914
+attack_damage: 1687
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,9 +18,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Chilling Cyclone
-    description: 'telegraphed conal AoE'
+    description: 'telegraphed conal AoE; inflicts deep freeze (DoT potency 50,
+    9s)'
   - name: Ice Dispenser
-    description: 'instant circle AoE that applies slow'
+    potency: 130
+    description: 'instant circle AoE; inflicts slow (15s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on slow'

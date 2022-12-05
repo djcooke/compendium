@@ -5,6 +5,9 @@ image: bloated_conjurer.png
 start_floor: 61
 end_floor: 69
 agro: Proximity
+hp: 7192
+attack_damage: 292
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

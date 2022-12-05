@@ -6,6 +6,9 @@ start_floor: 124
 end_floor: 126
 patrol: true
 agro: Sight
+hp: 14499
+attack_damage: 1010
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,6 +17,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 111-Tonze Swing
-    description: 'untelegraphed pointblank AoE with knockback'
+  - name: '111-tonze Swing'
+    potency: 600
+    description: 'untelegraphed pointblank AoE; inflicts knockback'
 ---

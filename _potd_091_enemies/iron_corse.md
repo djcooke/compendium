@@ -6,6 +6,9 @@ start_floor: 94
 end_floor: 97
 patrol: true
 agro: Proximity
+hp: 10735
+attack_damage: 873
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,4 +16,8 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: true
+abilities:
+  - name: Butterfly Float
+    potency: 150
+    description: 'instant gap closer'
 ---

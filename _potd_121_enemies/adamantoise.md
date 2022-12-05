@@ -5,6 +5,9 @@ image: adamantoise.png
 start_floor: 122
 end_floor: 125
 agro: Sight
+hp: 14388
+attack_damage: 986
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,5 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Tortoise Stomp
-    description: 'telegraphed pointblank AoE'
+    potency: 500
+    description: 'large telegraphed pointblank AoE'
+  - name: 'Strengthen Shell (?)'
+    description: 'grants physical vulnerability down (90%, 20s) to self'
 ---

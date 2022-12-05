@@ -5,6 +5,9 @@ image: pteroc.png
 start_floor: 121
 end_floor: 123
 agro: Sight
+hp: 13945
+attack_damage: 964
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,5 +17,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Tail Chase
+    potency: 300
     description: 'telegraphed pointblank AoE'
 ---

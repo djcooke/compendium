@@ -5,6 +5,9 @@ image: archaeosaur.png
 start_floor: 184
 end_floor: 188
 agro: Sight
+hp: 27448
+attack_damage: 2603
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Underbite
-    description: 'tankbuster'
+    potency: 130
+    description: 'instant'
   - name: Primordial Bark
     description: 'telegraphed pointblank AoE'
 job_specifics:

@@ -5,6 +5,9 @@ image: dragon.png
 start_floor: 147
 end_floor: 149
 agro: Sight
+hp: 18926
+attack_damage: 1201
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,9 +17,12 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Evil Eye
-    description: conal gaze AoE - look away, get behind, or get away
+    potency: 300
+    description: 'conal gaze AoE inflicting terror (5s) - look away, get
+    behind, or get away'
   - name: Miasma Breath
-    description: telegraphed conal AoE causing damage and disease
+    potency: 300
+    description: 'telegraphed conal AoE; inflicts disease (15s)'
 job_specifics:
   MCH:
     difficulty: Easy

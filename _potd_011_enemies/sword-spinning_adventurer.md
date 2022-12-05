@@ -5,6 +5,9 @@ image: sword_adventurer.png
 start_floor: 11
 end_floor: 19
 agro: Proximity
+hp: 1543
+attack_damage: 118
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

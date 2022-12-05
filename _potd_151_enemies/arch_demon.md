@@ -6,6 +6,9 @@ start_floor: 157
 end_floor: 159
 patrol: true
 agro: Proximity
+hp: 22578
+attack_damage: 1584
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,10 +18,12 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Abyssal Swing
+    potency: 300
     description: 'telegraphed conal AoE. Try to stay very near or far when
     paralyzed, so you don''t get caught in the middle of this'
   - name: Abyssal Transfixion
-    description: applies paralyze
+    potency: 130
+    description: 'instant; inflicts paralysis (30s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on paralyze'

@@ -6,6 +6,9 @@ start_floor: 111
 end_floor: 113
 patrol: true
 agro: Sight
+hp: 13392
+attack_damage: 941
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -15,9 +18,12 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Sticky Tongue
-    description: 'draw-in that also stuns if you are looking AWAY; be sure to
-    face towards the toad so you can escape Labored Leap'
+    potency: 50
+    description: 'instant; draws the target in, and inflicts stun (6s) if
+    looking AWAY from the toad - be sure to face toward the toad so you can
+    escape Labored Leap'
   - name: Labored Leap
+    potency: 500
     description: 'telegraphed pointblank AoE; used immediately after Sticky
     Tongue'
 ---

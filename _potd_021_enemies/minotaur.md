@@ -5,6 +5,9 @@ image: minotaur.png
 start_floor: 24
 end_floor: 26
 agro: Sight
+hp: 2465
+attack_damage: 212
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -12,6 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: '111-Tonze Swing'
-    description: 'Untelegraphed pointblank AoE causing damage and knockback'
+  - name: '111-tonze Swing'
+    potency: 600
+    description: 'untelegraphed pointblank AoE; inflicts knockback'
 ---

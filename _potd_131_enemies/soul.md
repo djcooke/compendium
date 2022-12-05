@@ -6,6 +6,9 @@ image: soul.png
 start_floor: 131
 end_floor: 133
 agro: Sound
+hp: 15495
+attack_damage: 1041
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,6 +17,7 @@ vulnerabilities:
   stun: true
   resolution: true
 abilities:
-  - name: '?'
-    description: 'telegraphed pointblank AoE'
+  - name: Curse
+    potency: 200
+    description: 'telegraphed pointblank AoE; also deals 500 MP damage'
 ---

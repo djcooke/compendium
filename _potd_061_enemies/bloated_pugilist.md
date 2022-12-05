@@ -5,6 +5,9 @@ image: bloated_pugilist.png
 start_floor: 61
 end_floor: 69
 agro: Proximity
+hp: 7526
+attack_damage: 297
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

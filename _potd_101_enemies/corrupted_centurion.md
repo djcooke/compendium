@@ -5,6 +5,9 @@ image: centurion.png
 start_floor: 101
 end_floor: 109
 agro: Proximity
+hp: 16823
+attack_damage: 1197
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
