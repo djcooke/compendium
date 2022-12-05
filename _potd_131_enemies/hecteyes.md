@@ -18,7 +18,7 @@ vulnerabilities:
 abilities:
   - name: Hex Eye
     potency: 200
-    description: 'telegraphed pointblank AoE'
+    description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---
