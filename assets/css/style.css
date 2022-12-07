@@ -306,6 +306,10 @@ img.surfaceImage {
   border-right: 1px solid var(--background);
 }
 
+.enemyList .floorCell img {
+  pointer-events: none;
+}
+
 .enemyList td.enemyFloorIn {
   background-color: var(--on-surface-dim);
   text-align: center;

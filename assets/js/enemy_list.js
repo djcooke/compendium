@@ -35,6 +35,7 @@
       activatedFloor = floor;
       select.value = floor;
     }
+    selectFloor(activatedFloor);
   };
 
   function getRows() {
