@@ -7,6 +7,10 @@
   --on-surface: rgba(255,255,255,0.87);
   --on-surface-bright: #FFFFFF;
   --on-surface-dim: rgba(255,255,255,0.6);
+  --background-highlight: #3B340E;
+  --surface-highlight: #47401A;
+  --on-surface-highlight: #F5DA43;
+  --on-surface-dim-highlight: #E4C832;
 }
 
 body {
@@ -236,6 +240,12 @@ img.surfaceImage {
   padding: 12px;
 }
 
+.flexSplit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .enemyList {
   width: 100%;
   border-collapse: collapse;
@@ -260,6 +270,30 @@ img.surfaceImage {
 
 .enemyList tbody tr:nth-child(even) {
   background-color: var(--surface);
+}
+
+.enemyList tbody tr:nth-child(odd).highlight {
+  background-color: var(--background-highlight);
+}
+
+.enemyList tbody tr:nth-child(even).highlight {
+  background-color: var(--surface-highlight);
+}
+
+.enemyList tbody tr:nth-child(odd) td.highlight {
+  background-color: var(--background-highlight);
+}
+
+.enemyList tbody tr:nth-child(even) td.highlight {
+  background-color: var(--surface-highlight);
+}
+
+.enemyList th.highlight {
+  background-color: var(--on-surface-highlight);
+}
+
+.enemyList tbody tr td.highlight.enemyFloorIn {
+  background-color: var(--on-surface-dim-highlight);
 }
 
 .enemyList td img {
