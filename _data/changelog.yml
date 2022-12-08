@@ -1,3 +1,6 @@
+- date: 2022-12-08
+  updates:
+    - 'Fixed an issue with enemy details not cycling correctly'
 - date: 2022-12-07
   updates:
     - 'Added floor selection/highlighting in the enemy lists'

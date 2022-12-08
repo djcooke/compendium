@@ -6,7 +6,7 @@ window.onload = function() {
   if (urlParams.has('enemy')) {
     const input = parseInt(urlParams.get('enemy'));
     if (Number.isInteger(input) && input >= 0) {
-      selectedEnemy = urlParams.get('enemy')
+      selectedEnemy = input;
     }
   }
 
@@ -66,13 +66,13 @@ function selectEnemy(index) {
     index = images.length - 1;
   }
   for (var i = 0; i < images.length; i++) {
-    images[i].className = images[i].className.replace(' active', '');
-    texts[i].className = texts[i].className.replace(' active', '');
-    notes[i].className = notes[i].className.replace(' active', '');
+    images[i].classList.remove('active');
+    texts[i].classList.remove('active');
+    notes[i].classList.remove('active');
   }
-  images[index].className += ' active';
-  texts[index].className += ' active';
-  notes[index].className += ' active';
+  images[index].classList.add('active');
+  texts[index].classList.add('active');
+  notes[index].classList.add('active');
   selectedEnemy = index;
 }
 
