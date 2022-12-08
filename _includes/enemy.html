@@ -10,6 +10,17 @@
       <span>{{ include.enemy.agro }}</span>
     </label>
   </div>
+  <div>
+    <label>HP:
+      <span>{{ include.enemy.hp | default: '?' }}</span>
+    </label>
+  </div>
+  <div>
+    <label>Auto-attack:
+      {% include damage.html name=include.enemy.attack_name 
+        damage=include.enemy.attack_damage type=include.enemy.attack_type %}
+    </label>
+  </div>
 </div>
 
 <div style="margin: 1.33em 0;">

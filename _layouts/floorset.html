@@ -103,6 +103,20 @@ layout: default
   {% endif %}
   <div class="surfacePane">
 
+    <div class="attributeList">
+      <div>
+        <label>HP:
+          <span>{{ page.boss_hp | default: '?' }}</span>
+        </label>
+      </div>
+      <div>
+        <label>Auto-attack:
+          {% include damage.html name=page.boss_attack_name 
+            damage=page.boss_attack_damage type=page.boss_attack_type %}
+        </label>
+      </div>
+    </div>
+
     {% include abilities.html abilities=page.boss_abilities %}
 
     <h4>Notes:</h4>

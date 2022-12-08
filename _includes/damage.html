@@ -1,0 +1,5 @@
+<span>
+  {% if include.name %}{{ include.name }} - {% endif %}
+  {{ include.damage | default: '?' }}
+  {% if include.type %}{{ include.type }}{% endif %}
+</span>

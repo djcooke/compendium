@@ -211,6 +211,8 @@ li li:first-child {
   display: grid;
   column-gap: 48px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .attributeList span {
