@@ -6,6 +6,9 @@ image: kamakiri.png
 start_floor: 51
 end_floor: 53
 agro: Sound
+hp: 19928
+attack_damage: 2139
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Standing Chine'
-    description: 'attack that inflicts flesh wound (DoT)'
+    potency: 30
+    description: 'instant; inflicts flesh wound (DoT potency 20, 30s)'
 job_specifics:
   MCH:
     difficulty: Easy

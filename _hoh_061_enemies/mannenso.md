@@ -5,6 +5,9 @@ image: mannenso.png
 start_floor: 61
 end_floor: 63
 agro: Sight
+hp: 35000
+attack_damage: 2868
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,9 +16,11 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Adventitious Lash'
-    description: 'tankbuster'
-notes:
-  - 'auto-attacks inflict a 10s stacking vulnerability up'
+    potency: 120
+    description: 'instant'
+  - name: 'Ballistic Ball (?)'
+    description: 'instant; inflicts stacking vulnerability up (5%? per stack,
+    10s)'
 job_specifics:
   DRK:
     difficulty: Easy

@@ -5,6 +5,9 @@ image: iwamushi.png
 start_floor: 62
 end_floor: 65
 agro: Sight
+hp: 34035
+attack_damage: 3204
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shatter'
+    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   DRK:

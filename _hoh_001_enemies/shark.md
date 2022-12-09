@@ -6,6 +6,9 @@ start_floor: 1
 end_floor: 3
 patrol: true
 agro: Sight
+hp: 3036
+attack_damage: 697
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -13,6 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Jaws'
-    description: 'tank buster; very high damage; possible to outrange'
+  - name: Jaws
+    potency: 300
+    description: 'tankbuster; very high damage; possible to outrange'
 ---

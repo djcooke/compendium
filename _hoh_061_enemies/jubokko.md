@@ -7,6 +7,9 @@ start_floor: 61
 end_floor: 64
 patrol: true
 agro: Sight
+hp: 36000
+attack_damage: 3560
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,6 +18,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'The Wood Remembers'
+    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Stoneskin'
     description: 'grants stoneskin; only used on other nearby enemies'

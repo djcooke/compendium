@@ -6,6 +6,9 @@ image: ../mimic_silver.png
 start_floor: 51
 end_floor: 59
 agro: Proximity
+hp: 38738
+attack_damage: 3624
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,8 +18,9 @@ vulnerabilities:
 gallery_only: true
 abilities:
   - name: Malice
-    description: 'inflicts pox; can be interrupted'
+    description: 'inflicts pox (DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
+    potency: 300
     description: 'telegraphed pointblank AoE'
 notes:
   - 'Sometimes found in silver chests'

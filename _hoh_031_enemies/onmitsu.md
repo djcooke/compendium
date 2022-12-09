@@ -6,6 +6,9 @@ image: onmitsu.png
 start_floor: 34
 end_floor: 37
 agro: Sight
+hp: 9180
+attack_damage: 973
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,7 +17,11 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Juji Shuriken'
-    description: 'telegraphed line AoE'
+    potency: 550
+    description: 'telegraphed line AoE; inflicts flesh wound (DoT potency 50,
+    30s)'
   - name: 'Harakiri'
-    description: 'Huge, big damage AoE (enrage); long cast; used at low HP'
+    potency: 1500
+    description: 'huge untelegraphed AoE enrage; long cast; can be LoSed. Used
+    at 10% HP'
 ---

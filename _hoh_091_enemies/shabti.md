@@ -5,6 +5,9 @@ image: shabti.png
 start_floor: 97
 end_floor: 99
 agro: Sight
+hp: 70086
+attack_damage: 6360
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -13,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Death''s Door'
+    potency: 1500
     description: 'telegraphed line AoE; spams this a lot'
 job_specifics:
   DRK:

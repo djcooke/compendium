@@ -20,6 +20,7 @@ abilities:
     potency: 130
     description: 'instant circle AoE'
   - name: Snow Flurry
+    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   GNB:

@@ -5,6 +5,9 @@ image: mifune.png
 start_floor: 91
 end_floor: 99
 agro: Proximity
+hp: 73669
+attack_damage: 6813
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -13,7 +16,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Valfodr'
-    description: 'telegraphed charge AoE; can be LoS''d'
+    potency: 300
+    description: 'telegraphed charge AoE; can be LoSed'
 job_specifics:
   DRK:
     difficulty: 'Medium'

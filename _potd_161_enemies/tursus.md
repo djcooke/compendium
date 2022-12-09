@@ -18,6 +18,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Chilling Cyclone
+    potency: 300
     description: 'telegraphed conal AoE; inflicts deep freeze (DoT potency 50,
     9s)'
   - name: Ice Dispenser

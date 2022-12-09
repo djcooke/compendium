@@ -6,10 +6,20 @@ start_floor: 11
 end_floor: 14
 patrol: true
 agro: Sight
+hp: 5390
+attack_damage: 676
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
   sleep: true
   slow: true
   stun: true
+abilities:
+  - name: Triple Trident
+    potency: 45 (x3)
+    description: 'instant 3-hit attack'
+  - name: Tingle
+    potency: 360
+    description: 'telegraphed pointblank AoE; inflicts paralysis (30s)'
 ---

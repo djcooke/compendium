@@ -6,10 +6,18 @@ image: gyuki.png
 start_floor: 5
 end_floor: 7
 agro: Sight
+hp: 3336
+attack_damage: 665
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
   sleep: true
   slow: true
   stun: false
+abilities:
+  - name: Aqua Blast
+    potency: 300
+    description: 'large telegraphed conal AoE; inflicts dropsy (DoT potency 50,
+    15s)'
 ---

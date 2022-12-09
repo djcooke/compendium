@@ -7,6 +7,9 @@ start_floor: 31
 end_floor: 34
 patrol: true
 agro: Sight
+hp: 9180
+attack_damage: 967
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,8 +17,15 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
+  - name: 'Issen'
+    potency: 120
+    description: 'instant'
   - name: 'Juji Shuriken'
-    description: 'telegraphed line AoE'
+    potency: 550
+    description: 'telegraphed line AoE; inflicts flesh wound (DoT potency 50,
+    30s)'
   - name: 'Harakiri'
-    description: 'Huge, big damage AoE (enrage); long cast; used at low HP'
+    potency: 1500
+    description: 'huge untelegraphed AoE enrage; long cast; can be LoSed. Used
+    at 10% HP'
 ---

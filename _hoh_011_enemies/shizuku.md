@@ -6,6 +6,10 @@ image: shizuku.png
 start_floor: 11
 end_floor: 13
 agro: Proximity
+hp: 5347
+attack_damage: 788
+attack_type: Magic
+attack_name: Water
 vulnerabilities:
   bind: false
   heavy: true

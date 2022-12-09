@@ -5,6 +5,9 @@ image: matanga.png
 start_floor: 81
 end_floor: 85
 agro: Sight
+hp: 60682
+attack_damage: 5560
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,10 +16,13 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Buffet'
-    description: 'gap-closer/tankbuster; used immediately on pull'
+    potency: 150
+    description: 'instant gap closer; used immediately on pull'
   - name: 'Spin'
+    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Hurl'
+    potency: ?
     description: 'telegraphed circle AoE'
 notes:
   - 'You can duck behind a corner as it uses Buffet to steer it into the wall.

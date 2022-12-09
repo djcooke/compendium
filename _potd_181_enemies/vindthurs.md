@@ -19,8 +19,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Freezeover
+    potency: ?
     description: 'telegraphed circle AoE'
   - name: Plain Pound
+    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   GNB:

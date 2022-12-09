@@ -6,6 +6,9 @@ image: penghou.png
 start_floor: 67
 end_floor: 69
 agro: Sight
+hp: 35000
+attack_damage: 3295
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,6 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Gold Dust'
+    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

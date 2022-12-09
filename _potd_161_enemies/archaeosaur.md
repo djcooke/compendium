@@ -20,6 +20,7 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Primordial Bark
+    potency: ?
     description: 'telegraphed pointblank AoE'
 notes:
   - Hits pretty hard

@@ -5,6 +5,9 @@ image: mammoth.png
 start_floor: 74
 end_floor: 77
 agro: Sight
+hp: 51000
+attack_damage: 4256
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,10 +18,12 @@ abilities:
   - name: 'Wooly Inspiration'
     description: 'telegraphed narrow but long conal AoE draw-in'
   - name: '?'
-    description: 'non-telegraphed conal AoE; used instantly after draw-in, but
-    is a wider cone than the draw-in - get behind!'
+    potency: ?
+    description: 'untelegraphed conal AoE; used instantly after draw-in, but is
+    a wider cone than the draw-in - get behind!'
   - name: 'Prehistoric Trumpet'
-    description: 'huge non-telegraphed pointblank AoE; used out of combat only'
+    potency: ?
+    description: 'huge untelegraphed pointblank AoE; only used out of combat'
 notes:
   - 'Be careful near mammoths when you''ve used a Pomander of Concealment, as
   Prehistoric Trumpet will break the effect'

@@ -5,6 +5,9 @@ image: kamanari.png
 start_floor: 51
 end_floor: 53
 agro: Sound
+hp: 19481
+attack_damage: 2089
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -12,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'auto-attacks inflict a 6s stacking vulnerability up'
+  - 'auto-attacks inflict stacking vulnerability up (5% per stack, 6s)'
 job_specifics:
   MCH:
     difficulty: Easy

@@ -6,6 +6,9 @@ image: yuki_tokage.png
 start_floor: 73
 end_floor: 77
 agro: Sight
+hp: 49000
+attack_damage: 4452
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,8 +17,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Chilling Cyclone'
-    description: 'telegraphed conal AoE'
+    potency: ?
+    description: 'telegraphed conal AoE; possibly inflicts deep freeze'
   - name: 'Ice Dispenser'
+    potency: ?
     description: 'telegraphed circle AoE; also used out of combat'
 job_specifics:
   DRK:

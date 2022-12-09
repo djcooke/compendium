@@ -21,6 +21,7 @@ abilities:
     potency: 150
     description: 'instant'
   - name: Catapult
+    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   GNB:

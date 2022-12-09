@@ -1,3 +1,13 @@
+- date: 2022-12-09
+  updates:
+    - 'Added HoH enemy stats and ability data, courtesy of vaxherd'
+    - 'Split Heavenly Saikoro into two enemies to account for the two varieties
+      (Tornado and Aero)'
+    - 'Corrected Heavenly Kyozo floor range (can spawn on floor 98)'
+    - 'Noted that diminishing returns do not apply to PotD Anzu''s stun'
+    - 'Added potency (300) for Deep Palace Tursus''s Chilling Cyclone'
+    - 'Added attack stats for Deep Palace Crawler'
+    - 'Added missing Dragon's Breath to Deep Palace Garm'
 - date: 2022-12-08
   updates:
     - 'Fixed an issue with enemy details not cycling correctly'

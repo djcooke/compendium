@@ -6,6 +6,10 @@ image: nuppeppo_whm.png
 start_floor: 91
 end_floor: 94
 agro: Sight
+hp: 69191
+attack_damage: 5992
+attack_type: Magic
+attack_name: Stone
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,8 +17,6 @@ vulnerabilities:
   slow: unknown
   stun: true
 abilities:
-  - name: 'Stone'
-    description: 'used instead of auto-attacks; can be LoS''d'
   - name: 'Stoneskin'
     description: 'grants stoneskin; only used on other nearby enemies'
 notes:

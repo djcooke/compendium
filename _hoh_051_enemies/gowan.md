@@ -5,6 +5,9 @@ image: gowan.png
 start_floor: 57
 end_floor: 59
 agro: Sight
+hp: 23063
+attack_damage: 2167
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,10 +16,12 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Electromagnetism'
+    potency: 50
     description: 'short-range draw-in; can be interrupted'
   - name: 'Headspin'
+    potency: 120
     description: 'instant pointblank AoE; used immediately after
-    Electormagnetism'
+    Electromagnetism'
 job_specifics:
   MCH:
     difficulty: Easy

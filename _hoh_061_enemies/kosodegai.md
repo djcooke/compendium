@@ -6,6 +6,9 @@ image: kosodegai.png
 start_floor: 65
 end_floor: 68
 agro: Sight
+hp: 36000
+attack_damage: 3340
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,6 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Palsynyxis'
+    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   DRK:

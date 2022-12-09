@@ -6,6 +6,9 @@ image: uwabami.png
 start_floor: 6
 end_floor: 7
 agro: Sight
+hp: 3336
+attack_damage: 665
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,6 +16,6 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Stone Gaze'
-    description: '360 degree gaze causing petrify - look away!'
+  - name: Stone Gaze
+    description: '360 degree gaze inflicting petrify (15s) - look away!'
 ---

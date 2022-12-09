@@ -7,6 +7,8 @@ start_floor: 94
 end_floor: 96
 patrol: true
 agro: Sight
+hp: 72326
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -14,13 +16,15 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: 'Drainstrikes'
-    description: 'grants drainstrikes - attacks drain HP from target, healing
-    self'
   - name: 'Iron Justice'
+    potency: ?
     description: 'Cleave'
+  - name: 'Drainstrikes'
+    description: 'grants drainstrikes (30s) - attacks drain HP from target,
+    healing self'
   - name: 'Cloudcover'
-    description: 'Telegraphed circle AoE; can be interrupted'
+    potency: ?
+    description: 'telegraphed circle AoE; can be interrupted'
 notes:
   - 'Each time it grows, it gains a stacking damage up buff'
   - note: 'Pattern:'

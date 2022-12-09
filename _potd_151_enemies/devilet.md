@@ -31,7 +31,7 @@ notes:
     probably the safest option as you avoid all damage'
   - 'Some people prefer to disengage during Ice Spikes and stun/interrupt Void
     Blizzard. Make sure to disengage again quickly, but you will probably still
-    get one autoattack in and take Ice Spikes damage.'
+    get one auto-attack in and take Ice Spikes damage.'
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
   GNB:

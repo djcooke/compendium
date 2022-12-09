@@ -21,5 +21,5 @@ abilities:
     potency: 300
     description: 'telegraphed conal AoE'
   - name: 'Suffering Blade (?)'
-    description: 'causes autoattacks to absorb 100% of damage dealt for 30s'
+    description: 'causes auto-attacks to absorb 100% of damage dealt for 30s'
 ---

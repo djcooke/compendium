@@ -6,6 +6,9 @@ image: ichijama.png
 start_floor: 71
 end_floor: 73
 agro: Proximity
+hp: 50000
+attack_damage: 4421
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,8 +17,11 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Scream
-    description: 'telegraphed large pointblank AoE causing terror'
+    potency: ?
+    description: 'huge telegraphed pointblank AoE; inflicts terror; can be
+    interrupted'
   - name: Accursed Pox
+    potency: ?
     description: 'telegraphed circle AoE; used immediately after Scream; also
     used out of combat'
 job_specifics:

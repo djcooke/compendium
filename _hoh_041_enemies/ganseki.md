@@ -6,6 +6,10 @@ image: ganseki.png
 start_floor: 41
 end_floor: 43
 agro: Proximity
+hp: 10524
+attack_damage: 1013
+attack_type: Magic
+attack_name: Stone
 vulnerabilities:
   bind: false
   heavy: true

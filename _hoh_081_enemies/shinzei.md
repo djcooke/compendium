@@ -7,6 +7,9 @@ start_floor: 84
 end_floor: 86
 patrol: true
 agro: Sight
+hp: 62921
+attack_damage: 5782
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -15,12 +18,16 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Body Blow
-    description: 'tankbuster; applies Concussion (DoT)'
-  - name: Atomic Breath
+    potency: 100
+    description: 'instant; inflicts concussion (DoT potency 50?, 15s)'
+  - name: Anoxic Breath
+    potency: ?
     description: 'telegraphed conal AoE'
   - name: Thunder II
+    potency: 80 + 30x3
     description: 'circle AoE on marked target hitting 3 times after the initial
-    cast; causes Electrocution (DoT); can be interrupted'
+    cast; inflicts electrocution (DoT potency 10, 30s) on each hit; can be
+    interrupted'
 job_specifics:
   DRK:
     difficulty: Medium

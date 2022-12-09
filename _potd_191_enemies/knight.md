@@ -20,6 +20,7 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Death Spiral
+    potency: ?
     description: scary-looking telegraphed donut AoE
   - name: Ossify
     description: 'grants physical damage up (100%, 8s) to self'

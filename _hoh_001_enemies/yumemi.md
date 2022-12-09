@@ -7,10 +7,19 @@ start_floor: 7
 end_floor: 9
 patrol: true
 agro: Sight
+hp: 4218
+attack_damage: 730
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
   sleep: true
   slow: true
   stun: true
+abilities:
+  - name: Static Charge
+    description: grants counterattack (potency 100, 6s) to self
+  - name: Blanket Thunder
+    potency: 250
+    description: telegraphed pointblank AoE
 ---

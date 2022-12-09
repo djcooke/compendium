@@ -6,6 +6,9 @@ image: kuro_kishi.png
 start_floor: 96
 end_floor: 99
 agro: Proximity
+hp: 70086
+attack_damage: 6658
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -13,10 +16,12 @@ vulnerabilities:
   slow: unknown
   stun: true
 abilities:
-  - name: 'Void Trap'
-    description: 'telegraphed circle AoE'
   - name: 'Void Slash'
-    description: 'tankbuster'
+    potency: 100
+    description: 'instant'
+  - name: 'Void Trap'
+    potency: ?
+    description: 'telegraphed circle AoE'
 job_specifics:
   DRK:
     difficulty: 'Easy'

@@ -6,6 +6,9 @@ image: tenma.png
 start_floor: 96
 end_floor: 99
 agro: Sight
+hp: 73669
+attack_damage: 5997
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -14,10 +17,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Rear Hoof'
-    description: 'tankbuster'
+    potency: 120
+    description: 'instant'
   - name: 'Burning Bright'
-    description: 'non-telegraphed line AoE - get to the side or behind'
+    potency: ?
+    description: 'untelegraphed long line AoE - get to the side or behind'
   - name: 'Nicker'
+    potency: ?
     description: 'telegraphed large pointblank AoE; can be interrupted'
 job_specifics:
   DRK:

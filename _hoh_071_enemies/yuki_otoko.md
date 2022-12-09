@@ -6,6 +6,9 @@ image: yuki_otoko.png
 start_floor: 77
 end_floor: 79
 agro: Sight
+hp: 54000
+attack_damage: 4728
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,10 +17,12 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Frozen Mist'
-    description: 'telegraphed conal AoE causing deep freeze'
+    potency: ?
+    description: 'telegraphed conal AoE; inflicts deep freeze'
   - name: 'Northerlies'
-    description: 'telegraphed huge pointblank AoE; used after second Frozen
-    Mist; can be interrupted or LoS''d'
+    potency: ?
+    description: 'telegraphed huge pointblank AoE; used 21 seconds after pull,
+    then at 50-second intervals; can be interrupted or LoSed'
 job_specifics:
   DRK:
     difficulty: Easy

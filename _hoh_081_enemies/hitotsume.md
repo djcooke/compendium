@@ -6,6 +6,9 @@ image: hitotsume.png
 start_floor: 85
 end_floor: 88
 agro: Sight
+hp: 60682
+attack_damage: 5560
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,9 +17,11 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Glower'
-    description: 'non-telegraphed wide line AoE - get to the side or behind'
+    potency: ?
+    description: 'untelegraphed wide line AoE - get to the side or behind'
   - name: '100-tonze Swing'
-    description: 'non-telegraphed pointblank AoE - get away'
+    potency: ?
+    description: 'untelegraphed pointblank AoE inflicting knockback - get away'
 job_specifics:
   DRK:
     difficulty: Easy
