@@ -20,5 +20,5 @@ abilities:
     description: 'inflicts burns (DoT potency 50, 30s)'
   - name: Embalming Earth
     potency: 200
-    description: 'inflicts knockback; can be interrutped'
+    description: 'inflicts knockback; can be interrupted'
 ---
