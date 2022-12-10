@@ -19,16 +19,16 @@ abilities:
   - name: Tenka Goken
     potency: 250
     description: 'untelegraphed conal AoE; inflicts knockback'
-  - name: 雪風
+  - name: '?'
     potency: 150
     description: 'instant'
-  - name: 月光
+  - name: '?'
     potency: 150
     description: 'instant'
-  - name: 花車
+  - name: '?'
     potency: 150
     description: 'instant'
-  - name: 乱れ雪月花
+  - name: '?'
     potency: 800
     description: 'enrage'
 notes:
