@@ -16,10 +16,10 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Poleaxe (?)'
+  - name: 'Butcher's Block'
     potency: 130
     description: 'instant'
-  - name: 'Mad Charge (?)'
+  - name: 'Infusion'
     potency: 50 (x3)
     description: 'gap closer; hits 3 times, inflicting knockback each time'
   - name: 'Raging Rush (?)'
