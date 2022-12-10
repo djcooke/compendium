@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Butcher's Block'
+  - name: 'Butcher''s Block'
     potency: 130
     description: 'instant'
   - name: 'Infusion'
