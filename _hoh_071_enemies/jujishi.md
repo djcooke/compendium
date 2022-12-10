@@ -6,6 +6,9 @@ image: jujishi.png
 start_floor: 76
 end_floor: 79
 agro: Proximity
+hp: 54000
+attack_damage: 4547
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -16,9 +19,9 @@ abilities:
   - name: 'Freefall'
     description: 'telegraphed circle AoE'
   - name: 'Golden Talons'
-    description: 'tankbuster'
+    description: 'instant'
   - name: 'Winds of Winter'
-    description: 'telegraphed huge pointblank AoE; can be LoS''d;'
+    description: 'telegraphed huge pointblank AoE; can be LoSed'
 notes:
   - note: 'Rotation:'
     subnotes:

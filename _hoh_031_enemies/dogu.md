@@ -5,6 +5,9 @@ image: dogu.png
 start_floor: 36
 end_floor: 39
 agro: Sight
+hp: 9404
+attack_damage: 1002
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: true
@@ -13,8 +16,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shifting Light'
-    description: '360 degree gaze that turns you into an otter - look away!
-    If you are already an otter, this will actually change you back'
+    potency: n/a
+    description: '360 degree gaze that turns you into an otter (30s) - look
+    away! If you are already an otter, this will actually change you back'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
   Witching since it doesn''t normally do melee auto-attacks'

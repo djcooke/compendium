@@ -20,6 +20,7 @@ abilities:
     potency: 300
     description: 'telegraphed circle AoE'
   - name: Ripe Banana
+    potency: n/a
     description: 'grants physical damage up (100%, 15s) to self and heals 80%
     of max HP; only used out of combat'
 ---

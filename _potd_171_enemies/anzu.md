@@ -17,11 +17,13 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Sonic Boom (?)'
+    potency: n/a
     description: 'instant; inflicts windburn (DoT potency 15, 20s)'
   - name: Flying Frenzy
     potency: 180
     description: 'instant circle AoE gap closer; inflicts stun (2s) and
-    vulnerability up (50%, 10s)'
+    vulnerability up (50%, 10s). Diminishing returns do NOT apply to this stun
+    (it is always 2s)'
 notes:
   - If in a party, spread out to minimize damage from Flying Frenzy
 job_specifics:

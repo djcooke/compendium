@@ -6,6 +6,9 @@ image: zenki.png
 start_floor: 97
 end_floor: 99
 agro: Sight
+hp: 70086
+attack_damage: 5773
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -16,7 +19,8 @@ abilities:
   - name: Abyssal Swing
     description: telegraphed conal AoE
   - name: Abyssal Transfixion
-    description: 'instant ranged tankbuster; does NOT paralyze like in PotD'
+    potency: 150
+    description: 'instant ranged attack; does NOT paralyze like in PotD'
 job_specifics:
   DRK:
     difficulty: 'Easy'

@@ -7,6 +7,9 @@ start_floor: 71
 end_floor: 74
 patrol: true
 agro: Sight
+hp: 54000
+attack_damage: 5067
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,9 +18,9 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Absolute Zero'
-    description: 'telegraphed huge conal AoE causing deep freeze'
+    description: 'telegraphed huge conal AoE; inflicts deep freeze'
   - name: 'Eyeshine'
-    description: '360 degree gaze causing deep freeze (I think?) - look away;'
+    description: '360 degree gaze inflicting deep freeze (I think?) - look away'
 job_specifics:
   DRK:
     difficulty: Medium

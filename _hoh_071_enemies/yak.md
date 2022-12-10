@@ -6,6 +6,9 @@ image: yak.png
 start_floor: 77
 end_floor: 79
 agro: Sight
+hp: 54000
+attack_damage: 5070
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,7 +17,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: '?'
-    description: 'draw-in that applies heavy; used exactly 30 second after
+    potency: n/a
+    description: 'draw-in that inflicts heavy; used exactly 30 seconds after
     pull; knockback immunity works'
   - name: 'Horrisonous Blast'
     description: 'large pointblank AoE; used immediately after draw-in; can

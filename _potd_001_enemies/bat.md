@@ -19,5 +19,6 @@ abilities:
     potency: 100
     description: 'pierces Steel; absorbs 50% of damage dealt'
   - name: Ultrasonics
+    potency: n/a
     description: 'telegraphed conal AoE; inflicts accuracy down (12s)'
 ---

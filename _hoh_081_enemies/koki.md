@@ -5,6 +5,9 @@ image: koki.png
 start_floor: 86
 end_floor: 89
 agro: Proximity
+hp: 58443
+attack_damage: 5257
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -12,13 +15,15 @@ vulnerabilities:
   slow: true
   stun: unknown
 abilities:
-  - name: 'Spiral Spin'
+  - name: Spiral Spin
     description: 'telegraphed donut AoE'
-  - name: 'Vile Utterance'
-    description: 'telegraphed conal AoE'
-  - name: '?'
-    description: 'non-telegraphed huge pointblank AoE that applies a stacking
-    vulnerability up; can be LoS''d'
+  - name: Vile Utterance
+    description: 'telegraphed narrow but long conal AoE'
+  - name: Blood Moon
+    potency: 50
+    description: 'untelegraphed huge pointblank AoE; inflicts stacking
+    vulnerability up (5%? per stack, 30s). Can be LoSed, and fully shielding
+    the damage also blocks the vulnerability up'
 notes:
   - 'If you let it do one auto-attack after Vile Utterance and then duck behind
   a corner, you should avoid the vulnerability up'

@@ -6,6 +6,10 @@ image: doguzeri.png
 start_floor: 64
 end_floor: 67
 agro: Sound
+hp: 35000
+attack_damage: 3259
+attack_type: Physical
+attack_name: Seedvolley
 vulnerabilities:
   bind: true
   heavy: true

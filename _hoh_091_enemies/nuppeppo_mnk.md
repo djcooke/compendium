@@ -6,6 +6,9 @@ image: nuppeppo_mnk.png
 start_floor: 91
 end_floor: 94
 agro: Sight
+hp: 69191
+attack_damage: 3023
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,13 +17,18 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Footwork'
-    description: 'grants haste'
+    potency: n/a
+    description: 'grants haste (25s) to self'
   - name: 'Featherfoot'
-    description: 'grants evasion up'
+    potency: n/a
+    description: 'grants evasion up (5s) to self; used immediately after
+    Footwork'
   - name: 'Gutripper'
-    description: 'applies concussion (DoT)'
+    potency: n/a
+    description: 'inflicts concussion (DoT potency 100, 15s)'
   - name: 'Triple Threat'
-    description: 'tankbuster; 3 hits, used 3 times in a row (9 hits total)'
+    potency: 40 (x3)
+    description: 'instant 3-hit attack; used 3 times in a row (9 hits total)'
 job_specifics:
   DRK:
     difficulty: Medium

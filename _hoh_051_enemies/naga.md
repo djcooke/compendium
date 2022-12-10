@@ -7,6 +7,9 @@ start_floor: 51
 end_floor: 54
 patrol: true
 agro: Sight
+hp: 20824
+attack_damage: 2290
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -15,11 +18,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Calcifying Mist'
-    description: 'conal gaze causing petrification - look away, get behind, or
-    get away'
+    potency: n/a
+    description: 'conal gaze; inflicts petrify - look away, get behind, or get
+    away'
   - name: 'Baleful Roar'
-    description: 'non-telegraphed huge pointblank AoE - big damage; can be
-    interrupted or LoS''d'
+    potency: 450
+    description: 'untelegraphed huge pointblank AoE; can be interrupted or
+    LoSed'
 job_specifics:
   MCH:
     difficulty: Easy

@@ -7,6 +7,9 @@ start_floor: 76
 end_floor: 79
 patrol: true
 agro: Sight
+hp: 51000
+attack_damage: 4356
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,9 +18,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Pounce
-    description: tankbuster
+    potency: 130
+    description: 'instant'
   - name: Cry
-    description: telegraphed pointblank AoE
+    description: 'large telegraphed pointblank AoE'
 job_specifics:
   DRK:
     difficulty: Easy

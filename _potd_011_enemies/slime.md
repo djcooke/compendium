@@ -20,6 +20,6 @@ abilities:
     description: 'absorbs 100% of damage dealt'
   - name: Rapture
     potency: 170% of max HP
-    description: 'instant AoE sacrificial enrage; used 20 seconds after
-    pull/aggro (immediately after the second Digest)'
+    description: 'instant AoE sacrificial enrage; used 20 seconds after pull
+    (immediately after the second Digest)'
 ---

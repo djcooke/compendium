@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Scamper
+    potency: n/a
     description: 'grants haste (30s) to self'
 notes:
   - 'Arm''s Length can be used to override the haste buff and prevent it from

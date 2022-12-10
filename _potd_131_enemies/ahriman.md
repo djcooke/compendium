@@ -19,6 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Level 5 Petrify
+    potency: n/a
     description: 'untelegraphed conal AoE inflicting petrify (15s) - get behind
     or get away'
 notes:

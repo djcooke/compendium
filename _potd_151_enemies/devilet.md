@@ -19,6 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Ice Spikes
+    potency: n/a
     description: 'Grants counterattack (potency 200, 5s) to self; can be
     interrupted. Recommended to interrupt or disengage immediately. The damage
     can kill you very quickly'
@@ -31,7 +32,7 @@ notes:
     probably the safest option as you avoid all damage'
   - 'Some people prefer to disengage during Ice Spikes and stun/interrupt Void
     Blizzard. Make sure to disengage again quickly, but you will probably still
-    get one autoattack in and take Ice Spikes damage.'
+    get one auto-attack in and take Ice Spikes damage.'
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
   GNB:

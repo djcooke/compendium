@@ -20,6 +20,7 @@ abilities:
     potency: 300
     description: 'telegraphed conal AoE'
   - name: Whistle
+    potency: n/a
     description: 'grants physical damage up (50%, 15s) to self'
 job_specifics:
   GNB:

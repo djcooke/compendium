@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Evil Eye
+    potency: n/a
     description: conal gaze AoE - look away, get behind, or get away
   - name: Miasma Breath
     potency: 300

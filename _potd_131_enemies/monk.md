@@ -19,6 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Sucker
+    potency: n/a
     description: 'large untelegraphed pointblank AoE; draws players in'
   - name: Flood
     potency: 350

@@ -27,6 +27,9 @@ abilities:
     description: 'untelegraphed pointblank AoE - get OUT. Inflicts
     electrocution (DoT potency 50, 30s) and paralysis (30s). Can be
     interrupted'
+  - name: 'The Dragon''s Breath'
+    potency: 300?
+    description: 'telegraphed conal AoE'
   - name: 'The Lion''s Breath'
     potency: 300?
     description: 'telegraphed conal AoE'
@@ -34,7 +37,7 @@ abilities:
     potency: 300?
     description: 'telegraphed conal AoE'
 notes:
-  - 'These mostly just spam abilities, doing very little autoattack damage'
+  - 'These mostly just spam abilities, doing very little auto-attack damage'
   - 'Try to stand behind it during Voice and Breath attacks to delay its next
   auto-attack'
 job_specifics:
@@ -46,7 +49,7 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Try to always stay at a medium range, so it''s easy to move in or out
-        when necessary. A bit of range will help to avoid some autoattacks too'
+        when necessary. A bit of range will help to avoid some auto-attacks too'
       - 'Can interrupt a Voice if you need to, but save for emergencies
         (avoiding another patrol, etc.)'
   PLD:

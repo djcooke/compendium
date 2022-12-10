@@ -6,6 +6,9 @@ image: tesso.png
 start_floor: 54
 end_floor: 57
 agro: Sight
+hp: 21496
+attack_damage: 1930
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -14,7 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shred'
-    description: 'inflicts Stab Wound (DoT)'
+    potency: 50
+    description: 'instant; inflicts stab wound (DoT potency 60, 30s)'
   - name: 'The Hand'
     description: 'telegraphed conal AoE'
 job_specifics:

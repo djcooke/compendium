@@ -18,13 +18,14 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Inspire (?)'
+    potency: n/a
     description: 'instant; draws the target in and inflicts prey. Knockback
     immunity does not work against the draw-in'
   - name: Impale
     potency: 130
     description: 'used against players with prey; clears prey status'
   - name: Tail Screw
-    description: 'attack that applies slow. Can be outrun'
+    description: 'inflicts slow; can be outranged'
 notes:
   - 'Does a draw-in that applies Prey status followed by Impale. Knockback
     immunity does not work, but draw-in will not work on floors with knockback

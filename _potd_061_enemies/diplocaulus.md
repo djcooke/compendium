@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Foregone Gleam
+    potency: n/a
     description: 'untelegraphed conal gaze AoE inflicting paralysis (20s) -
     look away, get behind, or get away'
 ---

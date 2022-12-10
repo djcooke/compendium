@@ -7,6 +7,9 @@ start_floor: 86
 end_floor: 89
 patrol: true
 agro: Sight
+hp: 62921
+attack_damage: 5879
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -14,15 +17,18 @@ vulnerabilities:
   slow: unknown
   stun: false
 abilities:
-  - name: 'Wild Charge'
-    description: 'gap closer/tankbuster; used immediately on pull, and again
-    if/when its damage down debuff (see next ability) wears off'
-  - name: '?'
-    description: 'grants damage up for 30s; when damage up wears off, it is
-    replaced with damage down'
-  - name: 'Ripper Claw'
-    description: 'non-telegraphed conal AoE - get away or behind'
-  - name: 'Fireball'
+  - name: Wild Charge
+    potency: 130?
+    description: 'instant gap closer; used immediately on pull, and again when
+    its damage down debuff (see next ability) wears off'
+  - name: 'Enrage (?)'
+    potency: n/a
+    description: 'grants damage up (25%, 30s) to self; used immediately after
+    Wild Charge. When the buff expires, it changes to a physical damage down
+    debuff (60%?, 30s)'
+  - name: Ripper Claw
+    description: 'untelegraphed conal AoE - get away or behind'
+  - name: Fireball
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

@@ -21,6 +21,7 @@ abilities:
     potency: 300
     description: 'telegraphed circle AoE; also used out of combat'
   - name: Haste
+    potency: n/a
     description: 'grants haste (30s) to self'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

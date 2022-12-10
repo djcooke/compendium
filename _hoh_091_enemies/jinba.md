@@ -6,6 +6,9 @@ image: jinba.png
 start_floor: 94
 end_floor: 96
 agro: Sight
+hp: 70086
+attack_damage: 6322
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -14,8 +17,10 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Hard Thrust'
-    description: 'tankbuster'
+    potency: 90
+    description: 'instant'
   - name: 'Allagan Fear'
+    potency: n/a
     description: '360 degree gaze - look away'
   - name: 'Allagan Meteor'
     description: 'huge circle AoE; can LoS (from centre of circle)'

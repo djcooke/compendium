@@ -7,6 +7,9 @@ start_floor: 81
 end_floor: 84
 patrol: true
 agro: Sight
+hp: 62921
+attack_damage: 5782
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,14 +18,15 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Rush'
-    description: 'gap-closer/tankbuster; used immediately on pull'
+    potency: 130
+    description: 'instant gap closer; used immediately on pull'
   - name: 'Heave'
     description: 'telegraphed conal AoE'
   - name: 'Disorienting Groan'
-    description: 'telegraphed large pointblank AoE; can be LoS''d'
+    description: 'telegraphed large pointblank AoE; can be LoSed'
   - name: 'Earthquake'
-    description: 'stands in place and does 6 stomps, each a non-telegraphed
-    huge pointblank AoE; can be LoS''d'
+    description: 'stands in place and does 6 stomps, each an untelegraphed
+    huge pointblank AoE; can be LoSed'
 notes:
   - 'You can duck behind a corner as it uses Rush to steer it into the wall.
   You''ll still take damage, but it can give you a chance to heal before it''s

@@ -20,6 +20,7 @@ abilities:
     description: 'telegraphed conal AoE. Doesn''t use this while you''re
     paralyzed'
   - name: 'Blaster (?)'
+    potency: n/a
     description: 'inflicts paralyze (30s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to

@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Berserk
+    potency: n/a
     description: 'grants damage up (50%, 20s) to self'
   - name: Rear
     potency: 200

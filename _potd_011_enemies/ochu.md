@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Acid Mist
+    potency: n/a
     description: 'inflicts slow (12s)'
 ---

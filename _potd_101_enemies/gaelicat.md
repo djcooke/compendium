@@ -20,6 +20,7 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Yowl
+    potency: n/a
     description: 'telegraphed conal AoE; inflicts physical damage down (90%,
     15s)'
 ---

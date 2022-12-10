@@ -7,6 +7,9 @@ start_floor: 91
 end_floor: 94
 patrol: true
 agro: Sight
+hp: 72326
+attack_damage: 6097
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -15,14 +18,16 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Zoom In'
-    description: 'gap closer/tankbuster; used immediately on pull'
+    potency: 150
+    description: 'instant gap closer; used immediately on pull'
   - name: '16-tonze Swipe'
-    description: 'instant cleave'
-  - name: '31-tonze Swipe'
-    description: 'non-telegraphed long conal AoE - get to side or behind; can
-    also be LoS''d'
+    potency: 100
+    description: 'instant'
+  - name: '32-tonze Swipe'
+    description: 'untelegraphed long conal AoE - get to side or behind; can
+    also be LoSed'
   - name: '128-tonze Swing'
-    description: 'non-telegraphed pointblank AoE - get away'
+    description: 'untelegraphed pointblank AoE - get away'
 job_specifics:
   DRK:
     difficulty: Medium

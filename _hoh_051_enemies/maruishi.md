@@ -6,6 +6,7 @@ image: maruishi.png
 start_floor: 54
 end_floor: 56
 agro: Proximity
+hp: 21496
 vulnerabilities:
   bind: false
   heavy: true

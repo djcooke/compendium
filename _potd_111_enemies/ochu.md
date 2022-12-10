@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Gold Dust
+    potency: n/a
     description: 'telegraphed large circle AoE; inflicts poison (DoT potency
     60, 15s)'
 ---

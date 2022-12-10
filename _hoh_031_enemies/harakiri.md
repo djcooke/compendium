@@ -5,6 +5,9 @@ image: harakiri.png
 start_floor: 32
 end_floor: 35
 agro: Sight
+hp: 9180
+attack_damage: 967
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -13,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Harakiri'
-    description: 'Huge, big damage AoE (enrage); long cast; used at low HP or a
-    while after pull (~25 seconds)'
+    potency: 1600
+    description: 'large untelegraphed AoE enrage (smaller than Onmitsu); long
+    cast; can be LoSed. Used at 20% HP or 26 seconds after pull'
 ---

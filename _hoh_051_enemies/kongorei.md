@@ -6,6 +6,10 @@ image: kongorei.png
 start_floor: 52
 end_floor: 55
 agro: Sight
+hp: 19928
+attack_damage: 2056
+attack_type: Magic
+attack_name: Cover Fire
 vulnerabilities:
   bind: true
   heavy: true
@@ -13,8 +17,6 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Cover Fire'
-    description: 'ranged attack used instead of auto-attacks'
   - name: 'Assault Cannon'
     description: 'telegraphed line AoE'
   - name: '?'

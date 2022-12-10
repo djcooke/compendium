@@ -6,6 +6,7 @@ start_floor: 183
 end_floor: 186
 agro: Sound
 hp: 27005
+attack_damage: 2552
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -16,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Sticky Thread'
-    description: 'instant conal AoE that applies slow'
-  - name: '?'
-    description: 'instant conal AoE that applies poison'
+    potency: 120
+    description: 'instant conal AoE; inflicts slow (30s)'
+  - name: 'Poison Breath (?)'
+    potency: n/a
+    description: 'instant conal AoE; inflicts poison (DoT potency 60, 20s)'
 job_specifics:
   GNB:
     difficulty: Medium

@@ -7,10 +7,17 @@ start_floor: 26
 end_floor: 29
 patrol: true
 agro: Sight
+hp: 7389
+attack_damage: 901
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
   sleep: false
   slow: true
   stun: true
+abilities:
+  - name: Midnight Mandate
+    potency: 350
+    description: 'telegraphed circle AoE; inflicts burns (DoT potency 50, 15s)'
 ---

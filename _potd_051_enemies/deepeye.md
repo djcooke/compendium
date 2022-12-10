@@ -20,5 +20,6 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Hypnotize
+    potency: n/a
     description: 'roomwide gaze attack inflicting paralysis (30s) - look away'
 ---

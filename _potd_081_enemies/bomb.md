@@ -18,6 +18,5 @@ vulnerabilities:
 abilities:
   - name: 'Self-destruct'
     potency: 70% of max HP
-    description: 'instant AoE sacrifical enrage; used 37 seconds after
-    pull/aggro'
+    description: 'instant AoE sacrifical enrage; used 37 seconds after pull'
 ---

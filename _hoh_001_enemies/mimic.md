@@ -6,6 +6,9 @@ image: ../mimic_bronze.png
 start_floor: 7
 end_floor: 9
 agro: Proximity
+hp: 5905
+attack_damage: 556
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -15,8 +18,10 @@ vulnerabilities:
 gallery_only: true
 abilities:
   - name: Malice
-    description: 'inflicts pox; can be interrupted'
+    potency: n/a
+    description: 'inflicts pox (DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
+    potency: 300
     description: 'telegraphed pointblank AoE'
 notes:
   - 'Sometimes found in bronze chests'

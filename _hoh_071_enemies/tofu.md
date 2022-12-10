@@ -6,6 +6,9 @@ image: tofu.png
 start_floor: 75
 end_floor: 78
 agro: Sight
+hp: 49000
+attack_damage: 4084
+attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
@@ -14,9 +17,11 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Blizzard
-    description: 'Used frequently in addition to melee auto-attacks'
+    potency: 100
+    description: 'used frequently in addition to melee auto-attacks'
   - name: Golden Tongue
-    description: 'Grants damage up'
+    potency: n/a
+    description: 'grants magic damage up (50%, 30s) to self'
 notes:
   - 'Does not make an effort to come into melee range unless Golden Tongue is
   interrupted'

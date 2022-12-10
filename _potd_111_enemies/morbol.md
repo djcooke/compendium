@@ -17,9 +17,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: 'Sweet Breath (?)'
+    potency: n/a
     description: 'large instant conal AoE; inflicts sleep (3s) and slow (10s);
     used immediately before Bad Breath'
   - name: Bad Breath
+    potency: n/a
     description: 'large telegraphed conal AoE; inflicts many debuffs'
 notes:
   - 'Stand close if solo or tanking, so you''ll be able to get out of the Bad

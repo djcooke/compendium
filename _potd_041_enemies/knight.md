@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Ossify
+    potency: n/a
     description: 'grants damage up (100%, 8s) to self'
 ---

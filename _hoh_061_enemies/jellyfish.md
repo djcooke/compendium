@@ -5,6 +5,9 @@ image: jellyfish.png
 start_floor: 63
 end_floor: 67
 agro: Sight
+hp: 35000
+attack_damage: 3302
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
@@ -15,7 +18,8 @@ abilities:
   - name: 'Irritating Tendrils'
     description: 'telegraphed short line AoE'
   - name: 'Numbing Tendrils'
-    description: 'telegraphed short line AoE, causes paralyze'
+    potency: 750?
+    description: 'telegraphed short line AoE; inflicts paralysis'
 notes:
   - 'Its line AoEs are quick, so be ready to move fast'
 job_specifics:

@@ -6,6 +6,9 @@ image: ryukotsu.png
 start_floor: 83
 end_floor: 87
 agro: Sight
+hp: 60682
+attack_damage: 5560
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false

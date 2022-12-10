@@ -1,11 +1,14 @@
 ---
 name: Heavenly Araragi
 nickname: Araragi
-family: Goobue
+family: Goobbue
 image: araragi.png
 start_floor: 86
 end_floor: 89
 agro: Sight
+hp: 59000
+attack_damage: 3819
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
@@ -13,30 +16,33 @@ vulnerabilities:
   slow: unknown
   stun: false
 abilities:
-  - name: 'Goobue''s Grief'
-    description: 'applies a stacking poison; used frequently'
+  - name: 'Goobbue''s Grief'
+    potency: 50
+    description: 'untelegraphed pointblank(?) AoE; inflicts stacking poison
+    (DoT potency 15 per stack, 30s); used frequently'
   - name: 'Moldy Phlegm'
     description: 'telegraphed circle AoE'
   - name: '?'
-    description: 'telegraphed conal AoE draw-in'
+    potency: n/a
+    description: 'instant conal AoE draw-in'
   - name: 'Moldy Sneeze'
     description: 'telegraphed conal AoE; used immediately after draw-in; actual
     AoE may be wider than the telegraph - get behind!'
 notes:
   - note: 'Rotation:'
     subnotes:
-      - 'Goobue''s Grief'
+      - 'Goobbue''s Grief'
       - 'Moldy Phlegm'
-      - 'Goobue''s Grief'
+      - 'Goobbue''s Grief'
       - 'draw-in + Moldy Sneeze'
-      - 'Goobue''s Grief'
-      - 'Time for roughly 3 auto-attacks before it restarts (another Goobue''s
+      - 'Goobbue''s Grief'
+      - 'Time for roughly 3 auto-attacks before it restarts (another Goobbue''s
       Grief)'
 job_specifics:
   MCH:
-    difficulty: 'Easy if you can LoS Goobue''s Grief well'
+    difficulty: 'Easy if you can LoS Goobbue''s Grief well'
     notes:
       - 'Steel and/or burst recommended if you can''t LoS well'
   PLD:
-    difficulty: 'Easy if you can LoS Goobue''s Grief well'
+    difficulty: 'Easy if you can LoS Goobbue''s Grief well'
 ---

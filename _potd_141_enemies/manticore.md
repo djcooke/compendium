@@ -19,8 +19,10 @@ vulnerabilities:
 abilities:
   - name: Wild Charge
     potency: 130
-    description: 'instant gap closer'
+    description: 'instant gap closer; used immediately on pull, and again when
+    its damage down debuff (see next ability) wears off'
   - name: 'Enrage (?)'
+    potency: n/a
     description: 'grants damage up (50%, 30s) to self; used immediately after
     Wild Charge. When the buff expires, it changes to a physical damage down
     debuff (60%, 30s)'

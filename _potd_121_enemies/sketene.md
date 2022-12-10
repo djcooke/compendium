@@ -18,5 +18,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Chirp
+    potency: n/a
     description: 'untelegraphed large pointblank AoE; inflicts sleep (15s)'
 ---

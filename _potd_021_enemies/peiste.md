@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Stone Gaze
+    potency: n/a
     description: 'telegraphed conal gaze AoE inflicting petrify (15s) - look
     away, get behind, or get away'
 ---

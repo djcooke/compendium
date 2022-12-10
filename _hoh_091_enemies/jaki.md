@@ -6,6 +6,9 @@ image: jaki.png
 start_floor: 93
 end_floor: 95
 agro: Sight
+hp: 72326
+attack_damage: 6040
+attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: true
@@ -13,11 +16,13 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Charybdis'
-    description: 'circle AoE on marked player; drops you to 1 HP; can be
-    interrupted or LoS''d'
   - name: 'Dark Dome'
-    description: 'tankbuster'
+    potency: 85
+    description: 'instant'
+  - name: 'Charybdis'
+    potency: n/a
+    description: 'circle AoE on marked player; drops you to 1 HP; can be
+    interrupted or LoSed'
 job_specifics:
   DRK:
     difficulty: 'Medium'

@@ -5,6 +5,9 @@ image: mukai_inu.png
 start_floor: 81
 end_floor: 84
 agro: Proximity
+hp: 64000
+attack_damage: 6052
+attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
@@ -16,12 +19,14 @@ abilities:
     description: 'untelegraphed donut AoE - get IN. Can be interrupted'
   - name: 'The Ram''s Voice'
     description: 'untelegraphed pointblank AoE - get OUT. Can be interrupted'
+  - name: 'The Dragon''s Breath'
+    description: 'telegraphed conal AoE'
   - name: 'The Lion''s Breath'
     description: 'telegraphed conal AoE'
   - name: 'The Ram''s Breath'
     description: 'telegraphed conal AoE'
 notes:
-  - 'These mostly just spam abilities, doing very little autoattack damage'
+  - 'These mostly just spam abilities, doing very little auto-attack damage'
   - 'Try to stand behind it during Dragon''s Voice and Breath attacks to delay
   its next auto-attack'
 job_specifics:
@@ -33,7 +38,7 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Try to always stay at a medium range, so it''s easy to move in or out
-        when necessary. A bit of range will help to avoid some autoattacks too'
+        when necessary. A bit of range will help to avoid some auto-attacks too'
       - 'Can interrupt a Voice if you need to, but save for emergencies
         (avoiding another patrol, etc.)'
   PLD:
