@@ -16,7 +16,8 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'auto-attacks inflict stacking poison (10% per stack, max 8 stacks, 30s)'
+  - 'auto-attacks inflict stacking poison (DoT potency 10 per stack, max 8
+    stacks, 30s)'
 job_specifics:
   DRK:
     difficulty: Medium

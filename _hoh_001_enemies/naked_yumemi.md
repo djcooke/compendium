@@ -16,5 +16,5 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'Autoattack inflicts heavy (4s)'
+  - 'Auto-attack inflicts heavy (4s)'
 ---

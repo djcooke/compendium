@@ -21,6 +21,6 @@ abilities:
     description: 'telegraphed pointblank AoE; inflicts bind (10s)'
   - name: 'Bloodcurdling Cry (?)'
     potency: n/a
-    description: 'telegraphed pointblank AoE. Seems to have no effect on
-    players (shows a debuff animation but no debuffs are applied)'
+    description: 'telegraphed pointblank AoE; reduces the remaining time on
+    all buffs (including food) by half'
 ---
