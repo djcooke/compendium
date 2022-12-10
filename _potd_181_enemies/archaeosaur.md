@@ -20,7 +20,6 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Primordial Bark
-    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   GNB:

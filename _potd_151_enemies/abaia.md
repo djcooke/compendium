@@ -18,8 +18,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Terror Eye
+    potency: n/a
     description: 'telegraphed circle AoE; also used out of combat'
   - name: 'Resonate (?)'
+    potency: n/a
     description: 'grants physical damage up (80%, 30s) to self; used 47 seconds
     after pull'
 job_specifics:

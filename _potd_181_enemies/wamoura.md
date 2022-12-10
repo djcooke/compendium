@@ -18,9 +18,9 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Poison Dust
-    potency: ?
     description: 'telegraphed conal AoE; inflicts poison'
   - name: Exuviation
+    potency: n/a
     description: 'heals another enemy. If you pull multiple mobs, kill the
     Wamoura first. If you pull 2 Wamouras, you''ll probably have to use
     Witching or Rage to avoid them healing each other forever'

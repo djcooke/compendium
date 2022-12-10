@@ -21,6 +21,7 @@ abilities:
     description: 'instant; inflicts sleep (10s); used when HP drops below 60%.
     Diminishing returns do NOT apply to this sleep (it is always 10s)'
   - name: Strut
+    potency: n/a
     description: 'grants haste (25s) to self; used immediately after Fowl
     Stench'
 notes:

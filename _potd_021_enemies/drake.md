@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Smoldering Scales
+    potency: n/a
     description: 'grants counterattack (potency 200, 5s) to self'
 ---

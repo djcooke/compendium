@@ -19,6 +19,7 @@ abilities:
     potency: 120
     description: 'instant'
   - name: 'Ballistic Ball (?)'
+    potency: n/a
     description: 'instant; inflicts stacking vulnerability up (5%? per stack,
     10s)'
 job_specifics:

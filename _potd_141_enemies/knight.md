@@ -20,6 +20,7 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Ossify
+    potency: n/a
     description: 'grants damage up (100%, 8s) to self'
 notes:
   - 'Hits pretty hard with the attack bonus'

@@ -20,6 +20,7 @@ abilities:
     potency: 120
     description: 'instant conal AoE; inflicts slow (30s)'
   - name: 'Poison Breath (?)'
+    potency: n/a
     description: 'instant conal AoE; inflicts poison (DoT potency 60, 20s)'
 job_specifics:
   GNB:

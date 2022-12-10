@@ -20,9 +20,9 @@ abilities:
     potency: 90
     description: 'instant'
   - name: 'Allagan Fear'
+    potency: n/a
     description: '360 degree gaze - look away'
   - name: 'Allagan Meteor'
-    potency: ?
     description: 'huge circle AoE; can LoS (from centre of circle)'
 job_specifics:
   MCH:

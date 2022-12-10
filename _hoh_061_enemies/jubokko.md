@@ -18,9 +18,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'The Wood Remembers'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Stoneskin'
+    potency: n/a
     description: 'grants stoneskin; only used on other nearby enemies'
 job_specifics:
   DRK:

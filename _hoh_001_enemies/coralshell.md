@@ -17,6 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Bubble Bath
+    potency: n/a
     description: 'instant conal AoE; inflicts sleep (9s)'
   - name: Bubble Shower
     potency: 300

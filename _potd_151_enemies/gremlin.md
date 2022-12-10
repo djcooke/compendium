@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Bad Mouth
+    potency: n/a
     description: 'instant; inflicts vulnerability up (25%, 10s)'
   - name: Fire II
     potency: 300

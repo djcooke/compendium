@@ -19,5 +19,6 @@ abilities:
     potency: 300
     description: 'telegraphed conal AoE'
   - name: Wile of the Tengu
+    potency: n/a
     description: '360 degree gaze inflicting hysteria (3s) - look away'
 ---

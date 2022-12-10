@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Mucin
+    potency: n/a
     description: 'grants stoneskin (1/3 of max HP, 8s) to self; can be
     interrupted'
 ---

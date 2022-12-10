@@ -18,10 +18,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Absolute Zero'
-    potency: ?
     description: 'telegraphed huge conal AoE; inflicts deep freeze'
   - name: 'Eyeshine'
-    potency: ?
     description: '360 degree gaze inflicting deep freeze (I think?) - look away'
 job_specifics:
   DRK:

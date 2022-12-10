@@ -17,11 +17,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Scream
-    potency: ?
     description: 'huge telegraphed pointblank AoE; inflicts terror; can be
     interrupted'
   - name: Accursed Pox
-    potency: ?
     description: 'telegraphed circle AoE; used immediately after Scream; also
     used out of combat'
 job_specifics:

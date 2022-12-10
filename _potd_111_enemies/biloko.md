@@ -21,6 +21,7 @@ abilities:
     potency: 300
     description: 'telegraphed conal AoE'
   - name: Stoneskin
+    potency: n/a
     description: 'grants stoneskin (10% of max HP, 60s) to a nearby enemy; not
     used on self'
 ---

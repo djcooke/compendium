@@ -21,14 +21,13 @@ abilities:
     potency: 130?
     description: 'instant gap closer'
   - name: 'Enrage (?)'
+    potency: n/a
     description: 'grants damage up (25%, 30s) to self; used immediately after
     Wild Charge. When the buff expires, it changes to a physical damage down
     debuff (60%?, 30s)'
   - name: Ripper Claw
-    potency: ?
     description: 'untelegraphed conal AoE - get away or behind'
   - name: Fireball
-    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

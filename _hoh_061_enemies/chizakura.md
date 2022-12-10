@@ -18,10 +18,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Creeping Ivy'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Entangle'
-    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

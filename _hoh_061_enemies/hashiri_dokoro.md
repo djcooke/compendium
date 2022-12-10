@@ -17,9 +17,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Atropine Spore'
-    potency: ?
     description: 'telegraphed huge donut AoE'
   - name: 'Frond Fatale'
+    potency: n/a
     description: '360 degree gaze'
   - name: 'Soul Vacuum'
     potency: 50?

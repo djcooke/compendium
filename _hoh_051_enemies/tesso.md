@@ -20,7 +20,6 @@ abilities:
     potency: 50
     description: 'instant; inflicts stab wound (DoT potency 60, 30s)'
   - name: 'The Hand'
-    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   MCH:

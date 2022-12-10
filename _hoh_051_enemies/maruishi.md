@@ -15,7 +15,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Auto-cannons'
-    potency: ?
     description: 'telegraphed line AoE'
 notes:
   - 'Doesn''t have auto-attacks'

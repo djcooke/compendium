@@ -18,6 +18,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Stoneskin'
+    potency: n/a
     description: 'grants stoneskin; only used on other nearby enemies'
 notes:
   - 'You can pull these to a corner and LoS Stone casts to avoid all damage.

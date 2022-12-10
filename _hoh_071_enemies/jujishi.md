@@ -17,13 +17,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Freefall'
-    potency: ?
     description: 'telegraphed circle AoE'
   - name: 'Golden Talons'
-    potency: ?
     description: 'instant'
   - name: 'Winds of Winter'
-    potency: ?
     description: 'telegraphed huge pointblank AoE; can be LoSed'
 notes:
   - note: 'Rotation:'

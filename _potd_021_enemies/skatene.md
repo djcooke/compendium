@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Chirp
+    potency: n/a
     description: 'untelegraphed large pointblank AoE; inflicts sleep (15s)'
 ---

@@ -20,7 +20,6 @@ abilities:
     potency: 100
     description: 'instant'
   - name: 'Void Trap'
-    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

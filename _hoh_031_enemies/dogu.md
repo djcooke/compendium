@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shifting Light'
+    potency: n/a
     description: '360 degree gaze that turns you into an otter (30s) - look
     away! If you are already an otter, this will actually change you back'
 notes:

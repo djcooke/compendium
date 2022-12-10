@@ -20,10 +20,8 @@ abilities:
     potency: 120
     description: 'instant'
   - name: 'Burning Bright'
-    potency: ?
     description: 'untelegraphed long line AoE - get to the side or behind'
   - name: 'Nicker'
-    potency: ?
     description: 'telegraphed large pointblank AoE; can be interrupted'
 job_specifics:
   DRK:

@@ -17,7 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Gold Dust'
-    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

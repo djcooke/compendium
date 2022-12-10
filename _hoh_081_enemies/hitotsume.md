@@ -17,10 +17,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Glower'
-    potency: ?
     description: 'untelegraphed wide line AoE - get to the side or behind'
   - name: '100-tonze Swing'
-    potency: ?
     description: 'untelegraphed pointblank AoE inflicting knockback - get away'
 job_specifics:
   DRK:

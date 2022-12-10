@@ -17,7 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Palsynyxis'
-    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   DRK:

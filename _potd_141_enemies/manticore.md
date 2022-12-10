@@ -21,6 +21,7 @@ abilities:
     potency: 130
     description: 'instant gap closer'
   - name: 'Enrage (?)'
+    potency: n/a
     description: 'grants damage up (50%, 30s) to self; used immediately after
     Wild Charge. When the buff expires, it changes to a physical damage down
     debuff (60%, 30s)'

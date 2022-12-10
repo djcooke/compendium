@@ -20,6 +20,7 @@ abilities:
     potency: 300
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
   - name: 'Canker (?)'
+    potency: n/a
     description: 'instant enrage; inflicts disease (15s) with strong heavy
     effect'
 notes:

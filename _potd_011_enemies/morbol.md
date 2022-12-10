@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Bad Breath
+    potency: n/a
     description: 'large telegraphed conal AoE; inflicts many debuffs'
 notes:
   - note: 'Bad Breath inflicts these debuffs:'

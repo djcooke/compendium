@@ -20,5 +20,6 @@ abilities:
     potency: 500
     description: 'large telegraphed pointblank AoE'
   - name: 'Strengthen Shell (?)'
+    potency: n/a
     description: 'grants physical vulnerability down (90%, 20s) to self'
 ---

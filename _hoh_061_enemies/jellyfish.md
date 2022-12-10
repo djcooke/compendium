@@ -16,7 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Irritating Tendrils'
-    potency: ?
     description: 'telegraphed short line AoE'
   - name: 'Numbing Tendrils'
     potency: 750?

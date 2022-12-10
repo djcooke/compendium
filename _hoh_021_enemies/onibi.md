@@ -18,6 +18,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Blinding Burst
+    potency: n/a
     description: '360 degree gaze inflicting accuracy down (20s) - look away'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

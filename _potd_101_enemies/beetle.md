@@ -21,5 +21,6 @@ abilities:
     potency: 250
     description: 'gap closer (can be LoSed)'
   - name: Rhino Guard
+    potency: n/a
     description: 'grants evasion up (8s) to self'
 ---

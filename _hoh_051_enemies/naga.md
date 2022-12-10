@@ -18,6 +18,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Calcifying Mist'
+    potency: n/a
     description: 'conal gaze; inflicts petrify - look away, get behind, or get
     away'
   - name: 'Baleful Roar'

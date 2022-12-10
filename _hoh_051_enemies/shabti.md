@@ -16,7 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Spellsword'
-    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   MCH:

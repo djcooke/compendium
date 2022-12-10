@@ -18,6 +18,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Eye of the Stunted
+    potency: n/a
     description: 'telegraphed conal gaze AoE inflicting minimum (30s) - look
     away, get behind, or get away'
   - name: 'Jettatura'

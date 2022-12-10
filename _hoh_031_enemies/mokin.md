@@ -17,8 +17,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Yolk Shower
+    potency: n/a
     description: 'telegraphed pointblank AoE; inflicts bind (10s)'
   - name: 'Bloodcurdling Cry (?)'
+    potency: n/a
     description: 'telegraphed pointblank AoE. Seems to have no effect on
     players (shows a debuff animation but no debuffs are applied)'
 ---

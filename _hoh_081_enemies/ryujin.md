@@ -19,10 +19,8 @@ abilities:
     potency: 130
     description: 'instant'
   - name: 'Firewater'
-    potency: ?
     description: 'telegraphed circle AoE'
   - name: Elbow Drop'
-    potency: ?
     description: 'untelegraphed backward conal AoE; used if someone is behind'
 notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by

@@ -17,13 +17,12 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Iron Justice'
-    potency: ?
     description: 'Cleave'
   - name: 'Drainstrikes'
+    potency: n/a
     description: 'grants drainstrikes (30s) - attacks drain HP from target,
     healing self'
   - name: 'Cloudcover'
-    potency: ?
     description: 'telegraphed circle AoE; can be interrupted'
 notes:
   - 'Each time it grows, it gains a stacking damage up buff'

@@ -21,7 +21,6 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Cry
-    potency: ?
     description: 'large telegraphed pointblank AoE'
 job_specifics:
   DRK:

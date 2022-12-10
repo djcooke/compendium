@@ -21,12 +21,11 @@ abilities:
     description: 'untelegraphed pointblank(?) AoE; inflicts stacking poison
     (DoT potency 15 per stack, 30s); used frequently'
   - name: 'Moldy Phlegm'
-    potency: ?
     description: 'telegraphed circle AoE'
   - name: '?'
+    potency: n/a
     description: 'instant conal AoE draw-in'
   - name: 'Moldy Sneeze'
-    potency: ?
     description: 'telegraphed conal AoE; used immediately after draw-in; actual
     AoE may be wider than the telegraph - get behind!'
 notes:

@@ -18,7 +18,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Swift Sough'
-    potency: ?
     description: 'telegraphed conal AoE'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

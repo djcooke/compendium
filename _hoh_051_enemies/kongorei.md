@@ -18,10 +18,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Assault Cannon'
-    potency: ?
     description: 'telegraphed line AoE'
   - name: '?'
-    potency: ?
     description: 'enrage wipe (after 30 seconds?)'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

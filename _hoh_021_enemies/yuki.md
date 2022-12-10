@@ -17,6 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Enter Night
+    potency: n/a
     description: 'draws players in'
   - name: Shadow Fang
     potency: 250

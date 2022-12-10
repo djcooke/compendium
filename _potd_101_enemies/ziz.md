@@ -18,5 +18,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Numbing Breath
+    potency: n/a
     description: 'telegraphed conal AoE; inflicts paralysis (15s)'
 ---

@@ -17,11 +17,14 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Footwork'
+    potency: n/a
     description: 'grants haste (25s) to self'
   - name: 'Featherfoot'
+    potency: n/a
     description: 'grants evasion up (5s) to self; used immediately after
     Footwork'
   - name: 'Gutripper'
+    potency: n/a
     description: 'inflicts concussion (DoT potency 100, 15s)'
   - name: 'Triple Threat'
     potency: 40 (x3)

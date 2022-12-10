@@ -19,9 +19,9 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Plain Pound
-    potency: ?
     description: 'telegraphed circle AoE'
   - name: Flex
+    potency: n/a
     description: 'enrage; grants physical damage up (200%, 1m) to self; used
     about 1 minute after pull'
 job_specifics:

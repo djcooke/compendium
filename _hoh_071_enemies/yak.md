@@ -17,10 +17,10 @@ vulnerabilities:
   stun: false
 abilities:
   - name: '?'
+    potency: n/a
     description: 'draw-in that inflicts heavy; used exactly 30 seconds after
     pull; knockback immunity works'
   - name: 'Horrisonous Blast'
-    potency: ?
     description: 'large pointblank AoE; used immediately after draw-in; can
     be interrupted'
 job_specifics:

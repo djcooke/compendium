@@ -17,7 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hoofkick
-    potency: ?
     description: 'instant knockback used on anyone standing behind it'
 job_specifics:
   DRK:

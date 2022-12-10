@@ -24,6 +24,7 @@ abilities:
     potency: 300
     description: 'telegraphed circle AoE; inflicts confused (10s)'
   - name: Tropical Wind
+    potency: n/a
     description: 'grants physical damage up (80%, 30s) and haste (30s) to self,
     and causes it to spam Revelation. Can be interrupted, but not recommended
     as its casting will give you lots of breathing room'

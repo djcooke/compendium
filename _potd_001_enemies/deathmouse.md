@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Scamper
+    potency: n/a
     description: 'grants haste (30s) to self'
 ---

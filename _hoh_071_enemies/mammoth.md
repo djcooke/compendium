@@ -16,13 +16,12 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Wooly Inspiration'
+    potency: n/a
     description: 'telegraphed narrow but long conal AoE draw-in'
   - name: '?'
-    potency: ?
     description: 'untelegraphed conal AoE; used instantly after draw-in, but is
     a wider cone than the draw-in - get behind!'
   - name: 'Prehistoric Trumpet'
-    potency: ?
     description: 'huge untelegraphed pointblank AoE; only used out of combat'
 notes:
   - 'Be careful near mammoths when you''ve used a Pomander of Concealment, as

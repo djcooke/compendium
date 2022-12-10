@@ -20,7 +20,6 @@ abilities:
     potency: 120
     description: 'instant circle AoE; inflicts frostbite (DoT potency 100, 21s)'
   - name: 'Granite Rain'
-    potency: ?
     description: telegraphed pointblank AoE
 job_specifics:
   GNB:

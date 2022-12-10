@@ -19,10 +19,8 @@ abilities:
     potency: 150
     description: 'instant gap closer; used immediately on pull'
   - name: 'Spin'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Hurl'
-    potency: ?
     description: 'telegraphed circle AoE'
 notes:
   - 'You can duck behind a corner as it uses Buffet to steer it into the wall.

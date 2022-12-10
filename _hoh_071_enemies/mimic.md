@@ -18,6 +18,7 @@ vulnerabilities:
 gallery_only: true
 abilities:
   - name: Malice
+    potency: n/a
     description: 'inflicts pox (DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
     potency: 300

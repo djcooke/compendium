@@ -17,7 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Abyssal Swing
-    potency: ?
     description: telegraphed conal AoE
   - name: Abyssal Transfixion
     potency: 150

@@ -17,5 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Sea Spray (?)'
+    potency: n/a
     description: 'instant; inflicts physical vulnerability up (50%, 9s)'
 ---

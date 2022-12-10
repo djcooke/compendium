@@ -18,10 +18,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Mucin
+    potency: n/a
     description: 'grants stoneskin (1/3 of max HP, 8s) to self; can be
     interrupted'
   - name: Foregone Gleam
-    potency: ?
     description: 'untelegraphed conal gaze AoE - look away, get behind, or get
     away'
 job_specifics:

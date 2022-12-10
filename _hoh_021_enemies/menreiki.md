@@ -18,6 +18,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Paralyze III
+    potency: n/a
     description: 'huge untelegraphed pointblank AoE inflicting paralysis (15s);
     can be interrupted'
 ---

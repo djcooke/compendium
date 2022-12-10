@@ -18,10 +18,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Grand Strike'
-    potency: ?
     description: 'telegraphed line AoE'
   - name: 'Magitek Ray'
-    potency: ?
     description: 'telegraphed circle AoE; used immediately after Grand Strike'
 job_specifics:
   MCH:

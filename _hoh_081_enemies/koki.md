@@ -16,10 +16,8 @@ vulnerabilities:
   stun: unknown
 abilities:
   - name: Spiral Spin
-    potency: ?
     description: 'telegraphed donut AoE'
   - name: Vile Utterance
-    potency: ?
     description: 'telegraphed narrow but long conal AoE'
   - name: Blood Moon
     potency: 50

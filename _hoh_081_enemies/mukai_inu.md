@@ -16,19 +16,14 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'The Dragon''s Voice'
-    potency: ?
     description: 'untelegraphed donut AoE - get IN. Can be interrupted'
   - name: 'The Ram''s Voice'
-    potency: ?
     description: 'untelegraphed pointblank AoE - get OUT. Can be interrupted'
   - name: 'The Dragon''s Breath'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'The Lion''s Breath'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'The Ram''s Breath'
-    potency: ?
     description: 'telegraphed conal AoE'
 notes:
   - 'These mostly just spam abilities, doing very little auto-attack damage'

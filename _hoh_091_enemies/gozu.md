@@ -24,11 +24,9 @@ abilities:
     potency: 100
     description: 'instant'
   - name: '32-tonze Swipe'
-    potency: ?
     description: 'untelegraphed long conal AoE - get to side or behind; can
     also be LoSed'
   - name: '128-tonze Swing'
-    potency: ?
     description: 'untelegraphed pointblank AoE - get away'
 job_specifics:
   DRK:

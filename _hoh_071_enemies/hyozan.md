@@ -18,7 +18,6 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Ice Guillotine'
-    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   DRK:

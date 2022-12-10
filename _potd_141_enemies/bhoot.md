@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: 'Paralyze III'
+    potency: n/a
     description: 'huge untelegraphed pointblank AoE inflicting paralysis (15s);
     can be interrupted'
 job_specifics:

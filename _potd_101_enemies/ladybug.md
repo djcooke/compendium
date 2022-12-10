@@ -17,5 +17,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Spoil
+    potency: n/a
     description: 'inflicts poison (DoT potency 20, 15s)'
 ---

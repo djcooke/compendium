@@ -17,9 +17,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Gust'
-    potency: ?
     description: 'telegraphed circle AoE; also used out of combat'
   - name: 'Filoplumage'
+    potency: n/a
     description: 'grants vulnerability down (50%, 15s) to self and other nearby
     enemies; can be interrupted'
 job_specifics:

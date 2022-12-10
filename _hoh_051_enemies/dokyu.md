@@ -17,10 +17,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Incinerate'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Wrecking Ball'
-    potency: ?
     description: 'telegraphed circle AoE; used immediately after Incinerate'
 job_specifics:
   MCH:

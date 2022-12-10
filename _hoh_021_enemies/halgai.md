@@ -16,5 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Cure
+    potency: n/a
     description: 'heals self for 30% max HP; only used when HP under 35%'
 ---

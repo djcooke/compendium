@@ -19,7 +19,6 @@ abilities:
     potency: 75?
     description: 'instant; inflicts concussion (DoT potency 50, 15s)'
   - name: 'Accursed Sigh'
-    potency: ?
     description: 'telegraphed conal AoE'
 job_specifics:
   DRK:

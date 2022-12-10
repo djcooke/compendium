@@ -17,7 +17,6 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Rock of Ages'
-    potency: ?
     description: 'telegraphed circle AoE; also used out of combat'
 job_specifics:
   DRK:

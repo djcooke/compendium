@@ -18,7 +18,6 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Hypothermal Combustion
-    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   GNB:

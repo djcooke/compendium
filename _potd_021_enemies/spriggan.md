@@ -17,6 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Haste
+    potency: n/a
     description: 'grants haste (30s) to self'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

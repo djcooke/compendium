@@ -18,11 +18,11 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Khoomii
+    potency: n/a
     description: 'draws players in and inflicts an extreme heavy debuff (10s);
     used 30 seconds after pull; can use knockback immunity. Draw-in will not
     work under the Knockback Penalty enchantment'
   - name: Horroisonous Blast
-    potency: ?
     description: 'telegraphed pointblank AoE that causes damage and paralyze;
     used immediately after Khoomii, making it difficult to escape'
 job_specifics:

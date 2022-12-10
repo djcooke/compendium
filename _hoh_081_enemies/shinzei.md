@@ -21,7 +21,6 @@ abilities:
     potency: 100
     description: 'instant; inflicts concussion (DoT potency 50?, 15s)'
   - name: Anoxic Breath
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: Thunder II
     potency: 80 + 30x3

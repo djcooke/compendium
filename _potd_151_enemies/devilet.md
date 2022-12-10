@@ -19,6 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Ice Spikes
+    potency: n/a
     description: 'Grants counterattack (potency 200, 5s) to self; can be
     interrupted. Recommended to interrupt or disengage immediately. The damage
     can kill you very quickly'

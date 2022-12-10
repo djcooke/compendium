@@ -16,7 +16,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shatter'
-    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   DRK:

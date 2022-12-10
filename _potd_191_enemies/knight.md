@@ -20,11 +20,12 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Death Spiral
-    potency: ?
     description: scary-looking telegraphed donut AoE
   - name: Ossify
+    potency: n/a
     description: 'grants physical damage up (100%, 8s) to self'
   - name: '?'
+    potency: n/a
     description: 'grants physical vulnerability down (20s) to self'
 notes:
   - 'Do not fight one of these with a Wraith nearby, as the Wraith can cast

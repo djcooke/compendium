@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Malediction of (?)'
+    potency: n/a
     description: 'grants damage up (30%, 30s) to self'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

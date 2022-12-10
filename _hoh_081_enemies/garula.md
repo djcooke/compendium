@@ -21,13 +21,10 @@ abilities:
     potency: 130
     description: 'instant gap closer; used immediately on pull'
   - name: 'Heave'
-    potency: ?
     description: 'telegraphed conal AoE'
   - name: 'Disorienting Groan'
-    potency: ?
     description: 'telegraphed large pointblank AoE; can be LoSed'
   - name: 'Earthquake'
-    potency: ?
     description: 'stands in place and does 6 stomps, each an untelegraphed
     huge pointblank AoE; can be LoSed'
 notes:

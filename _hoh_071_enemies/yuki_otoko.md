@@ -17,10 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Frozen Mist'
-    potency: ?
     description: 'telegraphed conal AoE; inflicts deep freeze'
   - name: 'Northerlies'
-    potency: ?
     description: 'telegraphed huge pointblank AoE; used 21 seconds after pull,
     then at 50-second intervals; can be interrupted or LoSed'
 job_specifics:

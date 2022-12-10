@@ -18,6 +18,7 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Magnetism (?)'
+    potency: n/a
     description: 'draws players in'
   - name: Plaincracker
     potency: 750

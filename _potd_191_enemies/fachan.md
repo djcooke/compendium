@@ -20,6 +20,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Level 5 Death
+    potency: n/a
     description: 'untelegraphed conal gaze AoE causing instant death - look
     away, get behind, or get away'
 notes:

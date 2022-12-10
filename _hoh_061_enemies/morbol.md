@@ -17,10 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Quaver'
-    potency: ?
     description: 'telegraphed pointblank AoE'
   - name: 'Offal Breath'
-    potency: ?
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

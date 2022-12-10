@@ -17,10 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Chilling Cyclone'
-    potency: ?
     description: 'telegraphed conal AoE; possibly inflicts deep freeze'
   - name: 'Ice Dispenser'
-    potency: ?
     description: 'telegraphed circle AoE; also used out of combat'
 job_specifics:
   DRK:

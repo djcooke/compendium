@@ -17,7 +17,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hypothermal Conbustion
-    potency: ?
     description: 'telegraphed pointblank AoE'
 job_specifics:
   DRK:

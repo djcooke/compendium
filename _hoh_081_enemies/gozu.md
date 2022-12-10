@@ -19,9 +19,11 @@ abilities:
     potency: 750
     description: 'untelegraphed conal AoE; can be LoSed'
   - name: 'Hex'
+    potency: n/a
     description: '360 degree gaze attack that turns you into a pig - look
     away!'
   - name: 'Devour'
+    potency: n/a
     description: 'instant death; only used if you''ve been turned into a pig'
 job_specifics:
   DRK:
