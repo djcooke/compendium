@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Buller's Drop
+  - name: 'Buller''s Drop'
     potency: 120
     description: 'instant'
   - name: Spiritus

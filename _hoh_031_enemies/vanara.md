@@ -23,5 +23,5 @@ abilities:
   - name: 'Ripper Claw (?)'
     potency: 400
     description: 'untelegraphed conal AoE immediately following Butcher Claw
-    (so don't move back in front right away)'
+    (so don''t move back in front right away)'
 ---
