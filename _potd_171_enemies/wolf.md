@@ -46,6 +46,12 @@ job_specifics:
       - 'Strength or Steel required'
       - 'Witching recommended'
       - 'Use Bloodbath to heal through the DoT'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Avoid if possible. Use steel or witching if you have to fight one'
+      - 'Can be fought without steel, but requires prompt Esuna on the DoT and
+        is very slow'
   WAR:
     difficulty: Medium
     notes:

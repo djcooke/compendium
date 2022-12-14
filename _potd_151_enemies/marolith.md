@@ -36,6 +36,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Steel recommended'
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Uses its instant fairly frequently, so be prepared for cast
+        interruptions'
   WAR:
     difficulty: Easy
 ---

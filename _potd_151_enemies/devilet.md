@@ -57,6 +57,13 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Stun Ice Spikes or disengage until it wears off'
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Not especially dangerous, but slow to fight because you''ll have to
+        sleep Void Blizzard or Esuna the slow debuff every time it comes up'
+      - 'Slow is affected by diminishing returns, so this enemy isn''t as bad
+        if you can fight several in a row'
   WAR:
     difficulty: Medium
     notes:

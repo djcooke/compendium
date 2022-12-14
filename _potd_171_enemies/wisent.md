@@ -23,8 +23,9 @@ abilities:
     used 30 seconds after pull; can use knockback immunity. Draw-in will not
     work under the Knockback Penalty enchantment'
   - name: Horroisonous Blast
-    description: 'telegraphed pointblank AoE that causes damage and paralyze;
-    used immediately after Khoomii, making it difficult to escape'
+    potency: 300
+    description: 'telegraphed pointblank AoE; inflicts paralysis (30s). Used
+    immediately after Khoomii, making it difficult to escape'
 job_specifics:
   GNB:
     difficulty: Easy
@@ -51,6 +52,11 @@ job_specifics:
     notes:
       - 'Steel recommended'
       - 'Use Hell''s Egress after the draw-in to avoid Horroisonous Blast'
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Pull with Eukrasian Dosis for an easy Khoomii timer'
+      - 'Use Sleep after the draw-in to cancel Horroisonous Blast'
   WAR:
     difficulty: Easy
     notes:

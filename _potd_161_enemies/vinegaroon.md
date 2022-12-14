@@ -39,6 +39,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Bloodbath required if not cheesing via Third Leg Back baits'
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

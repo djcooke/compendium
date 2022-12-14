@@ -35,6 +35,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Have Bloodbath and potion ready if no steel'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Can be dangerous without steel. Kite to reduce damage'
   WAR:
     difficulty: Easy
 ---

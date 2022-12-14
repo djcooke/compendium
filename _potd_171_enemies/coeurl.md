@@ -49,6 +49,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Strength or steel recommended'
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
     notes:

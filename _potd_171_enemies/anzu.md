@@ -56,6 +56,12 @@ job_specifics:
       - 'Strength and Steel required'
       - 'Recommended to use witching if you need to kill one. Can do a couple
         GCDs and then use before it dives on you'
+  SGE:
+    difficulty: Extreme
+    notes:
+      - 'Avoid if possible'
+      - 'Steel required, strength recommended'
+      - 'Make sure you have heals ready to recover after the stun'
   WAR:
     difficulty: Medium
     notes:

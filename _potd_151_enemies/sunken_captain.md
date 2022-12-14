@@ -28,6 +28,8 @@ job_specifics:
     difficulty: Easy
   PLD:
     difficulty: Easy
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---
