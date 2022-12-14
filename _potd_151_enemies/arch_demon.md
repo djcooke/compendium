@@ -26,7 +26,7 @@ abilities:
     description: 'instant; inflicts paralysis (30s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to
-    take advantage of diminishing returns on paralyze'
+    take advantage of diminishing returns on paralysis'
 job_specifics:
   GNB:
     difficulty: Easy
@@ -49,6 +49,8 @@ job_specifics:
       - 'It''s a quick cast, but try to stun Abyssal Transfixion'
       - 'Can either stay very close or save Hell''s Egress to avoid Abyssal
       Swing if paralyzed'
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
     notes:

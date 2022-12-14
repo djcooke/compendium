@@ -52,6 +52,12 @@ job_specifics:
     notes:
       - 'Steel, Bloodbath, and Potion required'
       - 'Browbeat + auto can almost kill from 100%, so keep your HP up'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
+      - 'Without steel, a Browbeat + auto-attack double crit will one-shot you.
+        Make sure to kite and have a shield ready for Browbeat'
   WAR:
     difficulty: Medium
 ---

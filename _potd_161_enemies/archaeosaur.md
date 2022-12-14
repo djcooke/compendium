@@ -38,6 +38,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Requires steel or Bloodbath and Potion'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Can be dangerous without steel, but not as bad as other enemies with
+        instants because it occasionally stops to use Primordial Bark'
   WAR:
     difficulty: Easy
     notes:

@@ -43,6 +43,11 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Annoying/slow to fight due to the slow'
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'The slow debuff can be cured with Esuna, but that still costs a GCD,
+        so prefer to fight other enemies first'
   WAR:
     difficulty: Easy
     notes:

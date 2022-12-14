@@ -45,6 +45,10 @@ job_specifics:
     notes:
       - 'Steel recommended'
       - 'Kite to manage Filoplumes damage'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Beware of auto-attack damage under Tropical Wind'
   WAR:
     difficulty: Easy
 ---

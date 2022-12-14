@@ -38,6 +38,8 @@ job_specifics:
       - 'Strength or steel recommended'
       - 'If using no pomanders, kite after the Pox and Deathtrap combo to
       manage incoming damage'
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

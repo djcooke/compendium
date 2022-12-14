@@ -45,6 +45,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Strength recommended'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Slow to fight due to the HP drain, especially with no steel. Avoid if
+        possible'
   WAR:
     difficulty: Easy
 ---

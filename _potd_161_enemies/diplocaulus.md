@@ -41,6 +41,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - Make sure to stun Mucus for a faster kill
+  SGE:
+    difficulty: Easy
+    notes:
+      - Make sure to sleep Mucus for a faster kill
   WAR:
     difficulty: Easy
     notes:

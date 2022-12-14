@@ -33,6 +33,10 @@ job_specifics:
     difficulty: Easy
   RPR:
     difficulty: Easy
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Be careful of the enrage when multi-pulling'
   WAR:
     difficulty: Easy
 ---

@@ -40,6 +40,11 @@ job_specifics:
     notes:
       - 'If you''re taking too much damage, move out of range and spam Harpe
       to avoid melee attacks and Amorphic Flail'
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Can be annoying to kite while exploring because you''ll frequently
+        move out of casting range'
   WAR:
     difficulty: Easy
 ---

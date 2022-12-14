@@ -26,6 +26,10 @@ job_specifics:
     difficulty: Easy
   PLD:
     difficulty: Easy
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Can be dangerous without steel. Kite to reduce damage'
   WAR:
     difficulty: Easy
 ---

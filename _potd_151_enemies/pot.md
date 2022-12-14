@@ -31,6 +31,8 @@ job_specifics:
     difficulty: Easy
   RPR:
     difficulty: Medium
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---
