@@ -18,7 +18,7 @@ abilities:
   - name: Epigraph
     potency: 600
     description: 'telegraphed long line AoE'
-  - name: 'Epigraph Quake (?)'
+  - name: 'Trembling Epigraph'
     potency: 1000
     description: 'huge AoE enrage; used 25 seconds after pull'
 ---

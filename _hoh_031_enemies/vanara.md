@@ -16,11 +16,11 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Butcher Claw (?)'
+  - name: 'Butcher'
     potency: 400
     description: 'untelegraphed conal AoE; it raises a hand to indicate it''s
     going to do this'
-  - name: 'Ripper Claw (?)'
+  - name: 'Rip'
     potency: 400
     description: 'untelegraphed conal AoE immediately following Butcher Claw
     (so don''t move back in front right away)'

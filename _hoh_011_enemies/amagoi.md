@@ -19,7 +19,7 @@ abilities:
   - name: Tortoise Stomp
     potency: 500
     description: 'large telegraphed pointblank AoE'
-  - name: 'Strengthen Shell (?)'
+  - name: 'Harden Shell'
     potency: n/a
     description: 'grants physical vulnerability down (90%, 20s) to self'
 ---

@@ -17,7 +17,7 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: 'Magnetism (?)'
+  - name: 'Magnetism'
     potency: n/a
     description: 'draws players in'
   - name: Plaincracker

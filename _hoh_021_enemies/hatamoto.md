@@ -19,16 +19,16 @@ abilities:
   - name: Tenka Goken
     potency: 250
     description: 'untelegraphed conal AoE; inflicts knockback'
-  - name: '?'
+  - name: Yukikaze
     potency: 150
     description: 'instant'
-  - name: '?'
+  - name: Gekko
     potency: 150
     description: 'instant'
-  - name: '?'
+  - name: Kasha
     potency: 150
     description: 'instant'
-  - name: '?'
+  - name: Midare Setsugekka
     potency: 800
     description: 'enrage'
 notes:

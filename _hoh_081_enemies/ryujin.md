@@ -20,7 +20,7 @@ abilities:
     description: 'instant'
   - name: 'Firewater'
     description: 'telegraphed circle AoE'
-  - name: Elbow Drop'
+  - name: 'Elbow Drop'
     description: 'untelegraphed backward conal AoE; used if someone is behind'
 notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by

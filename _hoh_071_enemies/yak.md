@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: '?'
+  - name: 'Khoomii'
     potency: n/a
     description: 'draw-in that inflicts heavy; used exactly 30 seconds after
     pull; knockback immunity works'

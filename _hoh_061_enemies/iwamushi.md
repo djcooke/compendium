@@ -1,6 +1,7 @@
 ---
 name: Heavenly Iwamushi
 nickname: Iwamushi
+family: Coblyn
 image: iwamushi.png
 start_floor: 62
 end_floor: 65

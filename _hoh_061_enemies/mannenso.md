@@ -18,7 +18,7 @@ abilities:
   - name: 'Adventitious Lash'
     potency: 120
     description: 'instant'
-  - name: 'Ballistic Ball (?)'
+  - name: 'Anemochory'
     potency: n/a
     description: 'instant; inflicts stacking vulnerability up (5%? per stack,
     10s)'

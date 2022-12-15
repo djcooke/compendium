@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Malediction of (?)'
+  - name: 'Malediction of Water'
     potency: n/a
     description: 'grants damage up (30%, 30s) to self'
 notes:

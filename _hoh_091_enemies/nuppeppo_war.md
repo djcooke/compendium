@@ -22,9 +22,9 @@ abilities:
   - name: 'Infusion'
     potency: 50 (x3)
     description: 'gap closer; hits 3 times, inflicting knockback each time'
-  - name: 'Raging Rush (?)'
+  - name: 'Raging Rush'
     potency: 300
-    description: 'telegraphed AoE?'
+    description: 'instant'
 notes:
   - 'Generally want to avoid these, as they deal a lot of damage'
 job_specifics:

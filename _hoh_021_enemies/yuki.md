@@ -22,7 +22,7 @@ abilities:
   - name: Shadow Fang
     potency: 250
     description: 'instant conal AoE; used immediately after Enter Night'
-  - name: 'Blood Burst (?)'
+  - name: 'Bloodburst'
     potency: 600
     description: 'huge untelegraphed AoE enrage; used 55 seconds after pull'
 ---

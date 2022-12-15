@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Sea Spray (?)'
+  - name: 'Seaspray'
     potency: n/a
     description: 'instant; inflicts physical vulnerability up (50%, 9s)'
 ---

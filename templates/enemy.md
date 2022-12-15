@@ -25,8 +25,10 @@ vulnerabilities: # For each, true=vulnerable, false=immune, otherwise unknown
   resolution: true # true=weak to, false=not weak to
 abilities: # any skills used by the enemy; optional
   - name: Fierce Attack
+    potency: 120 # optional; 'n/a' if ability does no damage, omit if unknown
     description: 'telegraphed conal AoE'
   - name: Knockout
+    potency: 300
     description: 'tankbuster'
 notes: # tips that apply to all jobs; optional
   - 'First note'

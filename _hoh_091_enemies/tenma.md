@@ -5,6 +5,7 @@ family: Pegasus
 image: tenma.png
 start_floor: 96
 end_floor: 99
+patrol: true
 agro: Sight
 hp: 73669
 attack_damage: 5997

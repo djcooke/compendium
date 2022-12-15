@@ -19,7 +19,7 @@ abilities:
   - name: Yolk Shower
     potency: n/a
     description: 'telegraphed pointblank AoE; inflicts bind (10s)'
-  - name: 'Bloodcurdling Cry (?)'
+  - name: 'Bloodcurdling Caw'
     potency: n/a
     description: 'telegraphed pointblank AoE; reduces the remaining time on
     all buffs (including food) by half'

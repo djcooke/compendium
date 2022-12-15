@@ -18,7 +18,7 @@ abilities:
   - name: 'Bloody Caress'
     potency: 120?
     description: 'instant'
-  - name: 'Acid Mist (?)'
+  - name: 'Acid Mist'
     potency: n/a
     description: 'untelegraphed instant conal AoE; inflicts poison'
 job_specifics:

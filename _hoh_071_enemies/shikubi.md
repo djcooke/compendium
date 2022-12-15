@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Hypothermal Conbustion
+  - name: Hypothermal Combustion
     description: 'telegraphed pointblank AoE'
 job_specifics:
   DRK:

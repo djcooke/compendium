@@ -19,10 +19,10 @@ abilities:
   - name: 'Goobbue''s Grief'
     potency: 50
     description: 'untelegraphed pointblank(?) AoE; inflicts stacking poison
-    (DoT potency 15 per stack, 30s); used frequently'
+    (DoT potency 15 per stack, 30s); used frequently; can be LoSed'
   - name: 'Moldy Phlegm'
     description: 'telegraphed circle AoE'
-  - name: '?'
+  - name: 'Inhale'
     potency: n/a
     description: 'instant conal AoE draw-in'
   - name: 'Moldy Sneeze'
@@ -44,5 +44,7 @@ job_specifics:
     notes:
       - 'Steel and/or burst recommended if you can''t LoS well'
   PLD:
+    difficulty: 'Easy if you can LoS Goobbue''s Grief well'
+  WAR:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
 ---

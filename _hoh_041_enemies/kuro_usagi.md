@@ -20,7 +20,7 @@ abilities:
   - name: Rockslide
     potency: 600
     description: 'telegraphed line AoE'
-  - name: 'Heart Gleam (?)'
+  - name: 'Earthen Heart'
     potency: 600
     description: 'telegraphed circle AoE; inflicts burns (DoT potency 100,
     15s)'

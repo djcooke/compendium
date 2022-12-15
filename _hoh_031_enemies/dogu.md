@@ -4,6 +4,7 @@ nickname: Dogu
 image: dogu.png
 start_floor: 36
 end_floor: 39
+patrol: true
 agro: Sight
 hp: 9404
 attack_damage: 1002

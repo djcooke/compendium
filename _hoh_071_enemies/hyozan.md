@@ -5,7 +5,7 @@ family: Ice Golem
 image: hyozan.png
 start_floor: 74
 end_floor: 76
-aptrol: true
+patrol: true
 agro: Sight
 hp: 52000
 attack_damage: 4830

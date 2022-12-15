@@ -18,7 +18,7 @@ abilities:
   - name: 'Wooly Inspiration'
     potency: n/a
     description: 'telegraphed narrow but long conal AoE draw-in'
-  - name: '?'
+  - name: 'Tusk Butt'
     description: 'untelegraphed conal AoE; used instantly after draw-in, but is
     a wider cone than the draw-in - get behind!'
   - name: 'Prehistoric Trumpet'
