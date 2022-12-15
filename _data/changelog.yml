@@ -4,6 +4,7 @@
     - 'Filled in complete rotation for Edda Blackbosom'
     - 'Noted that Tisiphone''s Blood Rain never crits'
     - 'Several corrections to HoH enemies'
+    - 'Show family/type in enemy list when not obvious from the name'
 - date: 2022-12-09
   updates:
     - 'Added HoH enemy stats and ability data, courtesy of vaxherd'

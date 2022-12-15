@@ -41,7 +41,7 @@
     <tr data-start-floor="{{ enemy.start_floor }}" data-end-floor="{{ enemy.end_floor }}">
       {% for floor in (include.start_floor..ninth_floor) %}
         {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
-          <td class="floorCell enemyFloorIn" data-floor="{{ floor }}">
+          <td class="floorCell enemyFloorIn" data-floor="{{ floor }}" {% if enemy.patrol %}title="Patrol"{% endif %}>
             {% if enemy.patrol %}
               <img src="{{ '/assets/images/agro/patrol.svg' | relative_url }}" alt="Patrol" title="Patrol" width="15" height="24">
             {% endif %}
@@ -65,7 +65,7 @@
         <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}" alt="{{ alt }}" title="{{ alt }}" width="24" height="24">
       </td>
       <td class="textCell">
-        <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}</a>
+        <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif %}</a>
       </td>
 
       {% if enemy.hp %}
