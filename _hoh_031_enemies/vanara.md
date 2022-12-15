@@ -22,6 +22,6 @@ abilities:
     going to do this'
   - name: 'Rip'
     potency: 400
-    description: 'untelegraphed conal AoE immediately following Butcher Claw
+    description: 'untelegraphed conal AoE immediately following Butcher
     (so don''t move back in front right away)'
 ---
