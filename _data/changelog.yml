@@ -1,3 +1,6 @@
+- date: 2022-12-22
+  updates:
+    - 'Fixed Deep Palace Worm''s Temblor potency (350, not 600)'
 - date: 2022-12-14
   updates:
     - 'Added more PotD enemy data and SGE notes, courtesy of vaxherd'

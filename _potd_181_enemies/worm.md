@@ -27,7 +27,7 @@ abilities:
     immunity does not work, but draw-in will not work on floors with knockback
     penalty'
   - name: Temblor
-    potency: 600
+    potency: 350
     description: 'instant pointblank AoE; used immediately after Bottomless
     Desert'
 notes:
