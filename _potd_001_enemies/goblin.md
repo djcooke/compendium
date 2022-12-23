@@ -4,6 +4,7 @@ nickname: Goblin
 image: goblin.png
 start_floor: 4
 end_floor: 6
+patrol: true
 agro: Sight
 hp: 291
 attack_damage: 17

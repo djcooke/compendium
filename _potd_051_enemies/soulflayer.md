@@ -19,10 +19,10 @@ abilities:
   - name: Mind Blast
     potency: 300
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
-  - name: 'Canker (?)'
+  - name: 'Canker'
     potency: n/a
-    description: 'instant enrage; inflicts disease (15s) with strong heavy
-    effect'
+    description: 'enrage; inflicts disease (15s) with strong heavy effect; can
+    be interrupted'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 ---

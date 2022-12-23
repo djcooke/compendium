@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Rotten Breath (?)'
+  - name: 'Rotten Breath'
     potency: 120
     description: 'inflicts disease (30s)'
   - name: 'Tail Drive (?)'

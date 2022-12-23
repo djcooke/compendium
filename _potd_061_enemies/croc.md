@@ -19,7 +19,7 @@ abilities:
   - name: Flatten
     potency: 300
     description: 'telegraphed conal AoE'
-  - name: 'Caudal Swipe (?)'
+  - name: 'Caudal Swipe'
     potency: 300
     description: 'telegraphed backward conal AoE inflicting stun (3s) and
     knockback; used if someone is behind'

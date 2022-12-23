@@ -1,6 +1,7 @@
 - date: 2022-12-23
   updates:
     - 'Updated several MCH kill times for PotD bosses'
+    - 'Several corrections to PotD enemies'
 - date: 2022-12-22
   updates:
     - 'Fixed Deep Palace Worm''s Temblor potency (350, not 600)'

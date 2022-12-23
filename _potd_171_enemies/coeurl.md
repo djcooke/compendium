@@ -19,7 +19,7 @@ abilities:
   - name: Megablaster
     description: 'telegraphed conal AoE. Doesn''t use this while you''re
     paralyzed'
-  - name: 'Blaster (?)'
+  - name: 'Blaster'
     potency: n/a
     description: 'inflicts paralyze (30s)'
 notes:

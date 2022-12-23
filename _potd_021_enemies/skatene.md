@@ -4,6 +4,7 @@ nickname: Skatene
 image: skatene.png
 start_floor: 26
 end_floor: 29
+patrol: true
 agro: Sound
 hp: 3358
 attack_damage: 286

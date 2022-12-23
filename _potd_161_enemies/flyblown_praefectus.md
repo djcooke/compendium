@@ -24,6 +24,8 @@ notes:
 job_specifics:
   GNB:
     difficulty: Easy
+  MCH:
+    difficulty: Easy
   PLD:
     difficulty: Easy
   SGE:

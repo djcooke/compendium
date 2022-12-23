@@ -4,6 +4,7 @@ nickname: Minotaur
 image: minotaur.png
 start_floor: 24
 end_floor: 26
+patrol: true
 agro: Sight
 hp: 2465
 attack_damage: 212

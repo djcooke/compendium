@@ -4,6 +4,7 @@ nickname: Cobra
 image: cobra.png
 start_floor: 14
 end_floor: 17
+patrol: true
 agro: Sight
 hp: 1027
 attack_damage: 81

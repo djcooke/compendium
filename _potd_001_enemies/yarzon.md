@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Corrosive Spit (?)'
+  - name: 'Corrosive Spit'
     potency: n/a
     description: 'instant; inflicts physical vulnerability up (50%, 20s)'
 ---

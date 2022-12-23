@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Gas Shell (?)'
+  - name: 'Gas Shell'
     potency: n/a
     description: 'inflicts poison (DoT potency 30, 12s)'
 ---

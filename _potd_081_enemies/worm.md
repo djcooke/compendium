@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Sand Cyclone (?)'
+  - name: 'Sand Cyclone'
     potency: 90
     description: 'instant; inflicts sludge (DoT potency 20, 12s)'
   - name: Sand Breath

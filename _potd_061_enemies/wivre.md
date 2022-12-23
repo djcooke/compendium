@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
   resolution: false
-abilites:
+abilities:
   - name: Horrid Horn
     potency: 130
     description: 'instant'

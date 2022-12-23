@@ -5,7 +5,6 @@ family: Ahriman
 image: eye.png
 start_floor: 34
 end_floor: 38
-patrol: true
 agro: Sight
 hp: 3921
 attack_damage: 367

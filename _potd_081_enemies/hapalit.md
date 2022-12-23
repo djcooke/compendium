@@ -20,7 +20,7 @@ abilities:
   - name: Straight Punch
     potency: 130
     description: 'instant'
-  - name: 'Elbow Drop (?)'
+  - name: 'Elbow Drop'
     potency: 300
     description: 'telegraphed backward conal AoE; used when someone is behind'
 ---

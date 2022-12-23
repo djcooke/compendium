@@ -17,7 +17,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Sonic Boom (?)'
+  - name: 'Sonic Boom'
     potency: n/a
     description: 'instant; inflicts windburn (DoT potency 30, 20s)'
   - name: Flying Frenzy

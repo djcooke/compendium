@@ -27,4 +27,7 @@ notes:
   - 'Sometimes found in gold chests'
   - 'Pomander of Alteration transforms all enemies in a random room on the next
   floor into either mimics or mandragoras'
+job_specifics:
+  MCH:
+    difficulty: Easy
 ---

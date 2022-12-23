@@ -18,5 +18,5 @@ vulnerabilities:
 abilities:
   - name: Terror Eye
     potency: 300
-    description: 'telegraphed circle AoE'
+    description: 'telegraphed circle AoE; can be interrupted'
 ---

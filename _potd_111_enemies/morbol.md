@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: 'Sweet Breath (?)'
+  - name: 'Sweet Breath'
     potency: n/a
     description: 'large instant conal AoE; inflicts sleep (3s) and slow (10s);
     used immediately before Bad Breath'
