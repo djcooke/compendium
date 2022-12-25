@@ -22,11 +22,14 @@
           {{ floor }}
         </th>
       {% endfor %}
-      <th title="Agro Type">!</th>
+      <th class="aggroCell" title="Aggro Type">!</th>
       <th class="textCell">Name</th>
-      <th>HP</th>
-      <th title="Auto-Attack Damage">AA</th>
-      <th colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">Vulnerabilities</th>
+      {% for job in site.data.jobs %}
+        <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
+      {% endfor %}
+      <th class="hpCell">HP</th>
+      <th class="attackCell" title="Auto-Attack Damage">AA</th>
+      <th class="vulnerabilityCell" colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">Vulnerabilities</th>
     </tr>
   </thead>
   <tbody>
@@ -67,6 +70,34 @@
       <td class="textCell">
         <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif %}</a>
       </td>
+
+      {% for job in site.data.jobs %}
+        <td class="difficultyCell jobSpecific job{{ job }}">
+          {% if enemy.job_specifics and enemy.job_specifics[job] and enemy.job_specifics[job].difficulty %}
+            {% assign word_count = enemy.job_specifics[job].difficulty | split: ' ' | size %}
+            {% assign difficulty = enemy.job_specifics[job].difficulty | split: ' ' | first %}
+            {% case difficulty %}
+              {% when 'Easy' %}
+                {% assign difficulty_class = 'easy' %}
+              {% when 'Medium' %}
+                {% assign difficulty_class = 'medium' %}
+              {% when 'Hard' %}
+                {% assign difficulty_class = 'hard' %}
+              {% when 'Extreme' %}
+                {% assign difficulty_class = 'extreme' %}
+              {% else %}
+                {% assign difficulty_class = nil %}
+            {% endcase %}
+            {% if difficulty_class %}
+              <span class="{{ difficulty_class }}">{{ difficulty }}</span>{% if word_count > 1 %}*{% endif %}
+            {% else %}
+              ?
+            {% endif %}
+          {% else %}
+            ?
+          {% endif %}
+        </td>
+      {% endfor %}
 
       {% if enemy.hp %}
         {% assign hp_percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}

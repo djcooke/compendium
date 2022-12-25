@@ -87,11 +87,11 @@ function selectJob(job) {
   }
   var allJobs = document.getElementsByClassName('jobSpecific');
   for (var i = 0; i < allJobs.length; i++) {
-    allJobs[i].className = allJobs[i].className.replace(' active', '');
+    allJobs[i].classList.remove('active');
   }
   var selectedJobElements = document.getElementsByClassName('job' + job);
   for (var i = 0; i < selectedJobElements.length; i++) {
-    selectedJobElements[i].className += ' active';
+    selectedJobElements[i].classList.add('active');
   }
   selectedJob = job;
   if (storageAvailable()) {

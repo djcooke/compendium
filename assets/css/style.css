@@ -199,12 +199,16 @@ li li:first-child {
   display: none;
 }
 
-.galleryImage, .galleryItem, .galleryJobNotes, .jobSpecific {
+.galleryImage, .galleryItem, .galleryJobNotes {
   display: none;
 }
 
-.galleryImage.active, .galleryItem.active, .galleryJobNotes.active, .jobSpecific.active {
+.galleryImage.active, .galleryItem.active, .galleryJobNotes.active {
   display: block;
+}
+
+.jobSpecific:not(.active) {
+  display: none;
 }
 
 .attributeList {
@@ -250,7 +254,10 @@ img.surfaceImage {
 
 .enemyList {
   width: 100%;
+  min-width: 800px;
   border-collapse: collapse;
+  table-layout: fixed;
+  color: var(--on-surface-bright);
 }
 
 .enemyList thead {
@@ -260,6 +267,26 @@ img.surfaceImage {
 
 .enemyList th {
   padding: 8px 2px;
+}
+
+.enemyList th.floorCell {
+  width: 15px;
+}
+
+.enemyList th.aggroCell {
+  width: 36px;
+}
+
+.enemyList th.difficultyCell {
+  width: 72px;
+}
+
+.enemyList th.hpCell, .enemyList th.attackCell {
+  width: 60px;
+}
+
+.enemyList th.vulnerabilityCell {
+  width: 170px;
 }
 
 .enemyList tr {
@@ -303,7 +330,6 @@ img.surfaceImage {
 }
 
 .enemyList .floorCell {
-  width: 15px;
   border-left: 1px solid var(--background);
   border-right: 1px solid var(--background);
 }
@@ -318,12 +344,10 @@ img.surfaceImage {
 }
 
 .enemyList td.agroCell {
-  width: 24px;
   padding: 1px 8px;
 }
 
 .enemyList td.iconCell {
-  width: 24px;
   text-align: center;
 }
 
@@ -337,9 +361,6 @@ img.surfaceImage {
 }
 
 .enemyList td.hpCell, .enemyList td.attackCell {
-  min-width: 60px;
-  width: 60px;
-  color: var(--on-surface-bright);
   text-align: center;
 }
 
@@ -349,6 +370,30 @@ img.surfaceImage {
 
 .enemyList td.attackCell {
   background-image: linear-gradient(to right, #CC0000 var(--percent), var(--percent), transparent);
+}
+
+.enemyList td.difficultyCell {
+  text-align: center;
+}
+
+.enemyList td.difficultyCell span.easy {
+  font-weight: bold;
+  color: #1E90FF;
+}
+
+.enemyList td.difficultyCell span.medium {
+  font-weight: bold;
+  color: #FFD700;
+}
+
+.enemyList td.difficultyCell span.hard {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.enemyList td.difficultyCell span.extreme {
+  font-weight: bold;
+  color: #FF1493;
 }
 
 .surfacePane table:not(.unstyled) {
