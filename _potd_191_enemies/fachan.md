@@ -21,8 +21,8 @@ vulnerabilities:
 abilities:
   - name: Level 5 Death
     potency: n/a
-    description: 'untelegraphed conal gaze AoE causing instant death - look
-    away, get behind, or get away'
+    description: 'untelegraphed conal AoE causing instant death - get behind,
+    or get away'
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Can be slowed if transfigured via Pomander of Witching'

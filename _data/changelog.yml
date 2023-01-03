@@ -1,3 +1,8 @@
+- date: 2023-01-03
+  updates:
+    - 'Fixed Deep Palace Fachan Level 5 Death description - not a gaze'
+    - 'Fixed Deep Palace Manticore Bloodboil description - seems to buff all
+    damage rather than physical only'
 - date: 2022-12-25
   updates:
     - 'Show job-specific difficulty ratings in enemy list'

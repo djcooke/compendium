@@ -23,9 +23,9 @@ abilities:
     its damage down debuff (see next ability) wears off'
   - name: 'Bloodboil'
     potency: n/a
-    description: 'grants physical damage up (50%, 30s) to self; used
-    immediately after Wild Charge. When the buff expires, it changes to a
-    physical damage down debuff (60%, 30s)'
+    description: 'grants damage up (50%, 30s) to self; used immediately after
+    Wild Charge. When the buff expires, it changes to a physical damage down
+    debuff (60%, 30s)'
   - name: Ripper Claw
     potency: 300
     description: 'untelegraphed conal AoE - don''t stand in front!'
