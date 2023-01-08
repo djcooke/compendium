@@ -38,6 +38,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Steel recommended if gloom'
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Requires good use of defensive cooldowns and potions'
+      - 'Steel recommended if gloom'
   MCH:
     difficulty: Hard
     notes:

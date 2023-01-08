@@ -37,7 +37,13 @@ notes:
 job_specifics:
   DRK:
     difficulty: Easy
-    note: 'Use TBN for the pull'
+    notes:
+      - 'Use TBN for the pull'
+      - 'Stand behind during Earthquake'
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Stand behind during Earthquake'
   MCH:
     difficulty: Medium
   PLD:

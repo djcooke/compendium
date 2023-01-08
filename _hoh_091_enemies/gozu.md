@@ -33,6 +33,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Use TBN for the pull'
+  GNB:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
   MCH:
     difficulty: 'Hard'
     notes:

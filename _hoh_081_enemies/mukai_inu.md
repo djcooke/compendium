@@ -34,6 +34,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Can interrupt a Ram''s Voice for uptime'
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Can interrupt a Ram''s Voice for uptime'
   MCH:
     difficulty: Easy
     notes:

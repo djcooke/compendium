@@ -31,6 +31,8 @@ job_specifics:
     notes: 'A good time to use TBN is right after his second ability use (he
     will usually do 11-tonze Swipe followed by Hex, but sometimes it''s
     reversed)'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

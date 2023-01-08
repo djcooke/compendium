@@ -27,6 +27,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Interrupt Scream for uptime'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

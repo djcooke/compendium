@@ -30,6 +30,8 @@ notes:
 job_specifics:
   DRK:
     difficulty: Medium
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Medium
   PLD:

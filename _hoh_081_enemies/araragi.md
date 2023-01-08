@@ -43,6 +43,8 @@ job_specifics:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
     notes:
       - 'Steel and/or burst recommended if you can''t LoS well'
+  GNB:
+    difficulty: 'Easy if you can LoS Goobbue''s Grief well'
   PLD:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
   WAR:

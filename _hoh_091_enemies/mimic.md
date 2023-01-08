@@ -32,6 +32,10 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel recommended'
+  GNB:
+    difficulty: Hard
+    notes:
+      - 'Steel required'
   MCH:
     difficulty: Hard
     notes:

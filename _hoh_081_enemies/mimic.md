@@ -32,6 +32,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Steel recommended if gloom'
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Hard
     notes:

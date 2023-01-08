@@ -23,6 +23,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'A good time to use TBN is right after a Rock of Ages cast'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

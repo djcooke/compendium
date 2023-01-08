@@ -30,6 +30,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Can stun Frond Fatale for uptime'
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Can stun Frond Fatale for uptime'
   MCH:
     difficulty: Easy
   PLD:

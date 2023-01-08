@@ -28,6 +28,8 @@ job_specifics:
     notes:
       - 'Consider cycling mitigations if the vulnerability stacks start getting
       too high'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

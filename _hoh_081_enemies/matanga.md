@@ -33,6 +33,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Use TBN for the pull'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

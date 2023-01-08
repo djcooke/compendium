@@ -27,6 +27,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Stun Cry for uptime'
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Hard
     notes:

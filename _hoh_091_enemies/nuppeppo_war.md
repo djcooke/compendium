@@ -28,6 +28,11 @@ abilities:
 notes:
   - 'Generally want to avoid these, as they deal a lot of damage'
 job_specifics:
+  GNB:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel required'
+      - 'Avoid if possible'
   MCH:
     difficulty: 'Hard'
     notes:

@@ -34,6 +34,11 @@ job_specifics:
       - 'Steel recommended'
       - 'Don''t interrupt Thunder II as it does less damage than its other
       attacks. Mitigate with Dark Mind instead'
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Don''t interrupt Thunder II as it does less damage than its other
+      attacks. Mitigate instead'
   MCH:
     difficulty: Extreme
   PLD:

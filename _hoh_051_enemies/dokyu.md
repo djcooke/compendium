@@ -5,6 +5,7 @@ family: Dreadnaught
 image: dokyu.png
 start_floor: 56
 end_floor: 59
+patrol: true
 agro: Sight
 hp: 26198
 attack_damage: 2720

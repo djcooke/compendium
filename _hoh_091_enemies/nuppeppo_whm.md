@@ -30,6 +30,8 @@ job_specifics:
       - 'Can use Dark Mind if you need to kite to avoid patrols'
       - 'Use Salted Earth while LoSing only if you''re sure it won''t
       accidentally pull a patrol'
+  GNB:
+    difficulty: 'Easy if you LoS well'
   MCH:
     difficulty: 'Easy if you LoS well'
   PLD:

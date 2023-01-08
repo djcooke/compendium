@@ -26,6 +26,8 @@ job_specifics:
     notes:
       - 'Make good use of TBN and other mitigations to negate its high damage
       output'
+  GNB:
+    difficulty: Medium
   MCH:
     difficulty: Medium
     notes:

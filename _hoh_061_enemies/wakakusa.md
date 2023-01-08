@@ -23,6 +23,8 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Poison can become a problem if the fight takes too long'
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:

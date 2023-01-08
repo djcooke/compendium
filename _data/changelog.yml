@@ -1,3 +1,8 @@
+- date: 2023-01-08
+  updates:
+    - 'Added GNB enemy ratings, enemy notes for most of HoH 61-99'
+    - 'Added several GNB boss notes and updated kill times'
+    - 'Corrected a couple HoH enemies that were not marked as patrols'
 - date: 2023-01-03
   updates:
     - 'Fixed Deep Palace Fachan Level 5 Death description - not a gaze'

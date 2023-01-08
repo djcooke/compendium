@@ -36,6 +36,13 @@ job_specifics:
       - 'Steel recommended if gloom'
       - 'Make sure to use your mitigations'
       - 'Use TBN for Triple Threats'
+      - 'Use Arm''s Length to overwrite its haste with slow'
+  GNB:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
+      - 'Try to stun Featherfoot for uptime'
+      - 'Use Arm''s Length to overwrite its haste with slow'
   MCH:
     difficulty: 'Hard'
     notes:
@@ -46,9 +53,11 @@ job_specifics:
     notes:
       - 'Steel recommended'
       - 'Try to stun Featherfoot for uptime'
+      - 'Use Arm''s Length to overwrite its haste with slow'
   WAR:
     difficulty: 'Medium'
     notes:
       - 'Steel recommended'
       - 'Try to stun Featherfoot for uptime'
+      - 'Use Arm''s Length to overwrite its haste with slow'
 ---

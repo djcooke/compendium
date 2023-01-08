@@ -23,6 +23,10 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
+  GNB:
+    difficulty: Easy
+    notes:
+      - 'Can be time-consuming to fight due to dodging AoE'
   MCH:
     difficulty: Easy
     notes:

@@ -34,6 +34,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'A good time to use TBN is after the first Freefall'
+  GNB:
+    difficulty: Medium
+    notes:
+      - 'Use a defensive cooldown after the first Freefall'
   MCH:
     difficulty: Hard
     notes:
@@ -42,6 +46,10 @@ job_specifics:
       - 'Steel or frailty recommended; have sprint and heals ready otherwise'
   PLD:
     difficulty: 'Medium'
+    notes:
+      - 'Use a defensive cooldown after the first Freefall'
   WAR:
     difficulty: Medium
+    notes:
+      - 'Use a defensive cooldown after the first Freefall'
 ---

@@ -30,6 +30,8 @@ notes:
 job_specifics:
   DRK:
     difficulty: Easy
+  GNB:
+    difficulty: Easy
   MCH:
     difficulty: Easy
   PLD:
