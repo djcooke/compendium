@@ -1,5 +1,6 @@
 ---
 name: Heavenly Dodo
+image: dodo.png
 start_floor: 99
 end_floor: 99
 agro: Sight
