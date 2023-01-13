@@ -19,7 +19,8 @@ abilities:
   - name: 'Glower'
     description: 'untelegraphed wide line AoE - get to the side or behind'
   - name: '100-tonze Swing'
-    description: 'untelegraphed pointblank AoE inflicting knockback - get away'
+    description: 'untelegraphed pointblank AoE inflicting knockback - get away;
+    can also be LoSed'
 job_specifics:
   DRK:
     difficulty: Easy

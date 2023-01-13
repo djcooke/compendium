@@ -1,6 +1,7 @@
 ---
 name: Heavenly Mukai-inu
 nickname: Mukai-inu
+family: Chimera
 image: mukai_inu.png
 start_floor: 81
 end_floor: 84

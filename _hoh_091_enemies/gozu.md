@@ -27,7 +27,7 @@ abilities:
     description: 'untelegraphed long conal AoE - get to side or behind; can
     also be LoSed'
   - name: '128-tonze Swing'
-    description: 'untelegraphed pointblank AoE - get away'
+    description: 'untelegraphed pointblank AoE - get away; can also be LoSed'
 job_specifics:
   DRK:
     difficulty: Medium
