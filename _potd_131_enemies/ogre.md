@@ -19,4 +19,7 @@ abilities:
   - name: Heartburn
     potency: 300
     description: 'large telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

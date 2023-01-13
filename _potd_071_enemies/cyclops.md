@@ -24,4 +24,7 @@ abilities:
   - name: 100-tonze Swing
     potency: 600
     description: 'untelegraphed pointblank AoE; inflicts knockback'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

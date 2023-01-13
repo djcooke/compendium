@@ -24,4 +24,9 @@ abilities:
     or get away'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Can interrupt casts without steel'
 ---

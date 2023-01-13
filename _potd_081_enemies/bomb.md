@@ -19,4 +19,9 @@ abilities:
   - name: 'Self-destruct'
     potency: 70% of max HP
     description: 'instant AoE sacrifical enrage; used 37 seconds after pull'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Beware of enrage when multipulling'
 ---

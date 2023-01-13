@@ -37,4 +37,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Requires steel or Bloodbath and Potion'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Can be dangerous without steel. Kite to reduce damage'
 ---

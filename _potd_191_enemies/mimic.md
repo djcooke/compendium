@@ -46,4 +46,8 @@ job_specifics:
       - 'Strength and Steel required'
       - 'Kite after the Pox and Deathtrap combo to manage incoming damage'
       - 'Use witching or avoid on gloom floors'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
 ---

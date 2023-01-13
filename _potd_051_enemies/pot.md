@@ -19,4 +19,7 @@ abilities:
   - name: Mysterious Light
     potency: 450
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

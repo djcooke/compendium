@@ -19,4 +19,7 @@ abilities:
     potency: n/a
     description: 'huge untelegraphed pointblank AoE inflicting paralysis (15s);
     can be interrupted'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

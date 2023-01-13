@@ -39,4 +39,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Requires steel or Bloodbath and Potion'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel or timely shields required'
 ---

@@ -29,4 +29,7 @@ abilities:
 notes:
   - 'Can appear on any floor from 81-89, but seems fairly rare in the earlier
     floors, and more common in the later floors'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

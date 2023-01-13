@@ -19,4 +19,9 @@ abilities:
   - name: Nail in the Coffin
     potency: 150
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Hurts in multipulls'
 ---

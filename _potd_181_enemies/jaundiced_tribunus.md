@@ -30,4 +30,9 @@ job_specifics:
     notes:
       - Steel required
       - Strength recommended
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
+      - 'Requires very good kiting to fight without steel'
 ---

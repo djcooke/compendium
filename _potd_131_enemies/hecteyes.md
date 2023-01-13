@@ -21,4 +21,7 @@ abilities:
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -38,4 +38,8 @@ job_specifics:
     notes:
       - 'Steel required'
       - 'Use Arcane Crest before pull'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel or timely shields required'
 ---

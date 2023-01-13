@@ -31,4 +31,6 @@ job_specifics:
     difficulty: Easy
   RPR:
     difficulty: Easy
+  SGE:
+    difficulty: Easy
 ---

@@ -20,4 +20,7 @@ abilities:
     potency: 120
     description: 'untelegraphed circle AoE; can be interrupted, but it''s a
     very quick cast'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -25,4 +25,7 @@ abilities:
     description: 'grants haste (30s) to self'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

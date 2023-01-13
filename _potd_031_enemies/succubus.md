@@ -22,4 +22,10 @@ abilities:
   - name: Void Fire II
     potency: 300
     description: 'telegraphed circle AoE; used immediately after Dark Mist'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Be careful in multipulls not to mistake Dark Mist AoE for an ogre''s
+      Heartburn'
 ---

@@ -22,4 +22,7 @@ abilities:
   - name: 'Harden Shell'
     potency: n/a
     description: 'grants physical vulnerability down (90%, 20s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

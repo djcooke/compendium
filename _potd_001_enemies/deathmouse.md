@@ -18,4 +18,7 @@ abilities:
   - name: Scamper
     potency: n/a
     description: 'grants haste (30s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

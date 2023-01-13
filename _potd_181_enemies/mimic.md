@@ -47,6 +47,10 @@ job_specifics:
       - 'Strength or steel required'
       - 'Witching recommended if no steel'
       - 'Kite after the Pox and Deathtrap combo to manage incoming damage'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Dangerous without steel. Kite to reduce damage'
   WAR:
     difficulty: Medium
 ---

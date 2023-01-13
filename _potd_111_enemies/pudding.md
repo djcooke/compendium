@@ -20,4 +20,9 @@ abilities:
   - name: Amorphic Flail
     potency: 130
     description: 'instant pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Hurts more than other enemies in this set; be careful in multipulls'
 ---

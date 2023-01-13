@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: We must...protect...the Waking Sands...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

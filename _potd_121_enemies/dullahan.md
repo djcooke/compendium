@@ -23,4 +23,7 @@ abilities:
   - name: 'Blade of Suffering'
     potency: n/a
     description: 'causes auto-attacks to absorb 100% of damage dealt for 30s'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

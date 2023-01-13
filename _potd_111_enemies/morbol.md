@@ -35,4 +35,7 @@ notes:
       - 'Heavy (20s)'
       - 'Silence (10s)'
       - 'Paralysis (30s)'
+job_specifics:
+  SGE:
+    difficulty: Medium
 ---

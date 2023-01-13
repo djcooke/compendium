@@ -20,4 +20,7 @@ abilities:
     potency: 200
     description: 'either a telegraphed circle AoE, or an untelegraphed
     pointblank AoE which also damages the goblin itself'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

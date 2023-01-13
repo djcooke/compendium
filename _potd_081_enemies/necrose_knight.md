@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Laniaitte... Francel... I wish you all...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

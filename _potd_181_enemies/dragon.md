@@ -47,4 +47,9 @@ job_specifics:
       - 'Strength and steel required'
       - 'Have Bloodbath and potion ready too if you need to fight one'
       - 'Witching recommended'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel required'
+      - 'Remove the DoT with Esuna as soon as it''s inflicted'
 ---

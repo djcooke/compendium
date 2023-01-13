@@ -23,4 +23,7 @@ abilities:
     potency: n/a
     description: 'telegraphed circle AoE that inflicts Voidblood (increases
     damage taken); not used vs. solo adventurers'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

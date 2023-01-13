@@ -23,4 +23,7 @@ abilities:
   - name: Abyssal Swing
     potency: 300
     description: 'telegraphed conal AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

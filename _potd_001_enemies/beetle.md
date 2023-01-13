@@ -18,4 +18,7 @@ abilities:
   - name: Spoil
     potency: n/a
     description: 'inflicts poison (DoT potency 20, 15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

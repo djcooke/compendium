@@ -30,4 +30,6 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'May require Bloodbath and/or potion'
+  SGE:
+    difficulty: Easy
 ---

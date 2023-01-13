@@ -41,4 +41,8 @@ job_specifics:
     notes:
       - 'Avoid if possible'
       - 'Strength and steel required'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel or timely shields required'
 ---

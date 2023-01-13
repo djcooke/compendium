@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: We said we''d...make a name for ourselves...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

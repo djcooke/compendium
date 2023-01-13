@@ -23,4 +23,7 @@ abilities:
     potency: 300
     description: 'telegraphed backward conal AoE; inflicts knockback; used
     after Third Leg Forward if someone is behind'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -19,4 +19,7 @@ abilities:
   - name: Rotting Bandages
     potency: 130
     description: 'telegraphed conal AoE; inflicts stun (6s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

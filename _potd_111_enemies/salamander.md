@@ -20,4 +20,9 @@ abilities:
     potency: n/a
     description: 'grants stoneskin (1/3 of max HP, 8s) to self; can be
     interrupted'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Use Repose to cancel Mucin for a faster kill'
 ---

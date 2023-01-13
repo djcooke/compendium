@@ -18,4 +18,7 @@ abilities:
   - name: Curse
     potency: 200
     description: 'telegraphed pointblank AoE; also deals 500 MP damage'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

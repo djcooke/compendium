@@ -20,4 +20,7 @@ abilities:
     description: 'telegraphed line AoE'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

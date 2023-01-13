@@ -23,4 +23,7 @@ abilities:
     potency: n/a
     description: 'grants physical damage up (100%, 15s) to self and heals 80%
     of max HP; only used out of combat'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

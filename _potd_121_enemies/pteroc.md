@@ -19,4 +19,7 @@ abilities:
   - name: Tail Chase
     potency: 300
     description: 'telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

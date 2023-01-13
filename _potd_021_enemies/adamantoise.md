@@ -18,4 +18,7 @@ abilities:
   - name: Tortoise Stomp
     potency: 500
     description: 'large telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -27,4 +27,6 @@ notes:
 job_specifics:
   MCH:
     difficulty: Medium
+  SGE:
+    difficulty: Medium
 ---

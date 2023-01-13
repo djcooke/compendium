@@ -20,4 +20,7 @@ abilities:
   - name: Poison Dust
     potency: 300
     description: 'telegraphed conal AoE; inflicts poison (DoT potency 60, 15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

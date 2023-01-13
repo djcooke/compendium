@@ -21,4 +21,7 @@ abilities:
   - name: Rear
     potency: 200
     description: 'telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -41,4 +41,6 @@ job_specifics:
     notes:
       - 'Stay mostly out of melee range and spam Harpe'
       - 'Use Arcane Crest when going in to melee'
+  SGE:
+    difficulty: Easy
 ---

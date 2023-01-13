@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Gyahahaha! &lt;wheeze&gt; The dark returns...to dark...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

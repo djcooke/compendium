@@ -26,4 +26,9 @@ abilities:
     description: 'telegraphed pointblank AoE; used immediately after Sucker'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Draw-in can be dangerous in multipulls'
 ---

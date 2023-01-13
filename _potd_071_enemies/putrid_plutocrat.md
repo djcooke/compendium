@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Damielliot, please... Open your eyes...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -19,4 +19,10 @@ abilities:
   - name: 'Corrosive Spit'
     potency: n/a
     description: 'instant; inflicts physical vulnerability up (50%, 20s)'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Vuln up can be cleared with Esuna. If pulling several at once, try to
+      sync their Corrosive Spit cycles'
 ---

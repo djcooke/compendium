@@ -19,4 +19,7 @@ abilities:
   - name: Suction
     potency: 130
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

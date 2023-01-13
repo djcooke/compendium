@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Wh-What is this place? Where are the others?'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

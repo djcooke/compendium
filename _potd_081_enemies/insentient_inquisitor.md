@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: The dragons will...rend you...asunder...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

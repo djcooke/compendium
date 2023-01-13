@@ -23,4 +23,7 @@ abilities:
     potency: 300
     description: 'telegraphed backward conal AoE inflicting concussion (DoT
     potency 30, 15s); used if someone is behind'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

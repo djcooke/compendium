@@ -17,4 +17,7 @@ vulnerabilities:
 notes:
   - 'Autoattack inflicts stacking poison (DoT potency 10 per stack, max 4
     stacks, 9s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

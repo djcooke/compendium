@@ -22,4 +22,7 @@ abilities:
   - name: Whistle
     potency: n/a
     description: 'grants physical damage up (50%, 15s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

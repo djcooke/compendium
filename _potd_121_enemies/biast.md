@@ -26,4 +26,7 @@ abilities:
 notes:
   - 'Can use Spine Drops to remove paralysis if you''re ok with not using
   Sustaining Potions for 1m30s'
+job_specifics:
+  SGE:
+    difficulty: Medium
 ---

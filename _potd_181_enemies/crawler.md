@@ -40,4 +40,9 @@ job_specifics:
     notes:
       - 'Avoid if possible'
       - 'Strength or steel required'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Avoid if possible'
+      - 'Steel recommended. Can be fought without steel, but very slow'
 ---

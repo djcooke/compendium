@@ -22,4 +22,7 @@ abilities:
     description: 'grants magic damage up (50%, 15s) to self'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

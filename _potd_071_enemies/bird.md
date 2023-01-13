@@ -23,4 +23,7 @@ abilities:
   - name: Revelation
     potency: 300
     description: 'telegraphed circle AoE; inflicts confused (10s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---
