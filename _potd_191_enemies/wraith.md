@@ -43,4 +43,6 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Stun Scream for uptime or use Hell''s Egress to get out of range'
+  SGE:
+    difficulty: Easy
 ---

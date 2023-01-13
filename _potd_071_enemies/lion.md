@@ -21,4 +21,7 @@ abilities:
   - name: Cry
     potency: 300
     description: 'large telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

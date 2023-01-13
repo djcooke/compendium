@@ -18,4 +18,9 @@ abilities:
   - name: Horrid Horn
     potency: 130
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Hurts in multipulls'
 ---

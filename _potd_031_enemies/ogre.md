@@ -18,4 +18,10 @@ abilities:
   - name: Heartburn
     potency: 300
     description: 'large telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'The AoE is usually safe to tank, but don''t mistake a succubus Dark
+      Mist for it in multipulls'
 ---

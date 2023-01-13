@@ -19,4 +19,7 @@ abilities:
   - name: Big Horn
     potency: 130
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Medium
 ---

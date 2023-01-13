@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: No...Stay back! Not again!'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -20,4 +20,7 @@ abilities:
     potency: 300
     description: 'telegraphed pointblank AoE; inflicts poison (DoT potency 50,
     15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -62,6 +62,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Can use Hell''s Egress to dodge Ram''s Voice'
+  SGE:
+    difficulty: Easy
   WAR:
     difficulty: Easy
     notes:

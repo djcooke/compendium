@@ -22,4 +22,7 @@ abilities:
     potency: 170% of max HP
     description: 'instant AoE sacrificial enrage; used 20 seconds after pull
     (immediately after the second Digest)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

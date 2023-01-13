@@ -26,4 +26,7 @@ notes:
   - 'Sometimes found in silver chests'
   - 'Pomander of Alteration transforms all enemies in a random room on the next
   floor into either mimics or mandragoras'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

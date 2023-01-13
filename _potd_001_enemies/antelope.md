@@ -14,4 +14,7 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: true
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

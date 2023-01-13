@@ -24,4 +24,9 @@ abilities:
   - name: Impale
     potency: 130
     description: 'used against players with prey; clears prey status'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Draw-in can be dangerous in multipulls'
 ---

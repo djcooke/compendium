@@ -18,4 +18,7 @@ abilities:
   - name: Triclip
     potency: 120
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

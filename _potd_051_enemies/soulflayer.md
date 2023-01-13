@@ -25,4 +25,9 @@ abilities:
     be interrupted'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Beware Canker in multipulls'
 ---

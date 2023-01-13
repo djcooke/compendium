@@ -22,4 +22,7 @@ abilities:
   - name: Void Trap
     potency: 300
     description: 'telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

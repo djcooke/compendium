@@ -20,4 +20,9 @@ abilities:
   - name: Butterfly Float
     potency: 150
     description: 'instant gap closer'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Hurts in multipulls'
 ---

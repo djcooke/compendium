@@ -34,6 +34,10 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel required'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Dangerous without steel. Kite to reduce damage'
   WAR:
     difficulty: Easy
 ---

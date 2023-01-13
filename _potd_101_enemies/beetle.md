@@ -23,4 +23,7 @@ abilities:
   - name: Rhino Guard
     potency: n/a
     description: 'grants evasion up (8s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

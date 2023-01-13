@@ -18,4 +18,7 @@ abilities:
   - name: Smoldering Scales
     potency: n/a
     description: 'grants counterattack (potency 200, 5s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

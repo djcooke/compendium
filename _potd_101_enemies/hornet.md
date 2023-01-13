@@ -20,4 +20,7 @@ abilities:
     potency: 99% of max HP
     description: 'sacrificial enrage; possible to outrange; used at 22-second
     intervals'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -18,4 +18,7 @@ abilities:
   - name: Dark Dome
     potency: 90
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

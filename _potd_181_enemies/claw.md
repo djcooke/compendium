@@ -63,4 +63,9 @@ job_specifics:
       - 'Stun Tail Screw'
       - 'Slower and more difficult to fight with amnesia enchantment due to the
       slow'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Dangerous without steel. Kite between draw-ins to avoid taking an
+      auto-attack with Tail Screw'
 ---

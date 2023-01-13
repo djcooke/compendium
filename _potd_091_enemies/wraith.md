@@ -21,4 +21,7 @@ abilities:
     potency: 200
     description: 'huge telegraphed pointblank AoE; inflicts terror (15s); can
     be interrupted'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

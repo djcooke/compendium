@@ -18,4 +18,9 @@ abilities:
   - name: Ossify
     potency: n/a
     description: 'grants damage up (100%, 8s) to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - 'Be careful of damage up in multipulls'
 ---

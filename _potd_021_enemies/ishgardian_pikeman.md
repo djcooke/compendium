@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: I must have that chocobo egg...It''s the only way...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

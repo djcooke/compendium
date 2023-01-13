@@ -20,4 +20,7 @@ abilities:
   - name: Shriek
     potency: 200
     description: 'telegraphed pointblank AoE; inflicts stun (6s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -18,4 +18,7 @@ abilities:
   - name: Hex Eye
     potency: 200
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

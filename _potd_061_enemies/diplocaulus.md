@@ -20,4 +20,7 @@ abilities:
     potency: n/a
     description: 'untelegraphed conal gaze AoE inflicting paralysis (20s) -
     look away, get behind, or get away'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -18,4 +18,7 @@ abilities:
   - name: Ravenous Bite
     potency: 110
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

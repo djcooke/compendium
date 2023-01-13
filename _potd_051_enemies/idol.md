@@ -23,4 +23,7 @@ abilities:
   - name: Neck Splinter
     potency: 300
     description: 'telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

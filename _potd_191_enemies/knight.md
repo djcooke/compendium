@@ -47,4 +47,9 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Requires steel or Bloodbath and Potion'
+  SGE:
+    difficulty: Hard
+    notes:
+      - 'Steel recommended'
+      - 'Have Sprint ready to get away during the damage up phase'
 ---

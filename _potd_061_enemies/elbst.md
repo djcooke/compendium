@@ -20,4 +20,9 @@ abilities:
   - name: Acid Shower
     potency: 130
     description: 'instant; inflicts vulnerability up (30%, 10s)'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Vulnerability up makes multipulls hurt'
 ---

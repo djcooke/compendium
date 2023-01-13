@@ -23,4 +23,7 @@ abilities:
     potency: n/a
     description: 'telegraphed conal AoE; inflicts physical damage down (90%,
     15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

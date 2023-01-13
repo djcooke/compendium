@@ -23,4 +23,7 @@ abilities:
   - name: Swift Sough
     potency: 300
     description: 'telegraphed conal AoE; inflicts knockback'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

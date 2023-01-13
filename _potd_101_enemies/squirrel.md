@@ -22,4 +22,7 @@ abilities:
 notes:
   - 'Arm''s Length can be used to override the haste buff and prevent it from
   re-applying'
+job_specifics:
+  SGE:
+    difficulty: Medium
 ---

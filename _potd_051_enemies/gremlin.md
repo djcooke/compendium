@@ -22,4 +22,9 @@ abilities:
   - name: Fire II
     potency: 300
     description: 'telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Vulnerability up makes multipulls hurt'
 ---

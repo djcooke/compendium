@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Oh, Dolorous. Even in death...I will always...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

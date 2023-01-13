@@ -19,4 +19,9 @@ abilities:
   - name: Brow Horn
     potency: 130
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Hurts more than other enemies in this set'
 ---

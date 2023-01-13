@@ -20,4 +20,7 @@ abilities:
   - name: Goblin Rush
     potency: 50 (x3)
     description: 'instant 3-hit attack'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

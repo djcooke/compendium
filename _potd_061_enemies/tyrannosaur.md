@@ -22,4 +22,7 @@ abilities:
   - name: Primordial Roar
     potency: 300
     description: 'telegraphed pointblank AoE; inflicts stun (4s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -19,4 +19,7 @@ abilities:
   - name: Slumber Breath
     potency: n/a
     description: 'telegraphed conal AoE; inflicts sleep (20s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

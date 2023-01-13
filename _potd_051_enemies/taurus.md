@@ -20,4 +20,7 @@ abilities:
     potency: 300
     description: 'telegraphed pointblank AoE; inflicts vulnerability up (20%,
     30s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

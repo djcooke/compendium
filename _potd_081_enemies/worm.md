@@ -22,4 +22,7 @@ abilities:
   - name: Sand Breath
     potency: 300
     description: 'telegraphed conal AoE; inflicts blind (10s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -19,4 +19,7 @@ abilities:
   - name: Sanguine Bite
     potency: 130
     description: 'instant; absorbs 100% of damage dealt'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

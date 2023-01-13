@@ -18,4 +18,7 @@ abilities:
   - name: 'Corrosive Spit'
     potency: n/a
     description: 'instant; inflicts physical vulnerability up (50%, 20s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

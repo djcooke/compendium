@@ -35,6 +35,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Steel required'
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Slow to fight because of cast interrupts'
   WAR:
     difficulty: Easy
 ---

@@ -40,4 +40,6 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Steel or Bloodbath required'
+  SGE:
+    difficulty: Medium
 ---

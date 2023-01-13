@@ -24,4 +24,7 @@ abilities:
     potency: n/a
     description: 'grants stoneskin (10% of max HP, 60s) to a nearby enemy; not
     used on self'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

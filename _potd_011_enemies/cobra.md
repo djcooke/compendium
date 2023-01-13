@@ -22,4 +22,7 @@ abilities:
   - name: Devour
     potency: 100% of max HP
     description: 'instant death; only used if you are a toad'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

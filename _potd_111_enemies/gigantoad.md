@@ -26,4 +26,7 @@ abilities:
     potency: 500
     description: 'telegraphed pointblank AoE; used immediately after Sticky
     Tongue'
+job_specifics:
+  SGE:
+    difficulty: Medium
 ---

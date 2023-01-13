@@ -30,4 +30,6 @@ notes:
 job_specifics:
   MCH:
     difficulty: Easy
+  SGE:
+    difficulty: Easy
 ---

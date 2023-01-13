@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: You hear that, lads? The sea''s callin'' me home...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

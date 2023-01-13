@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: No! I can''t die... Not like this...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

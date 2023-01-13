@@ -19,4 +19,7 @@ abilities:
   - name: Brackish Drop
     potency: 600
     description: 'telegraphed circle AoE; also used out of combat'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -18,4 +18,7 @@ abilities:
   - name: Dark Thorn
     potency: 90
     description: 'telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

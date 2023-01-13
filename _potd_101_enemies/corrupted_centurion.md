@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: I must find...the Black Eft...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

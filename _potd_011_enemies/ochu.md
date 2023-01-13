@@ -18,4 +18,7 @@ abilities:
   - name: Acid Mist
     potency: n/a
     description: 'inflicts slow (12s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

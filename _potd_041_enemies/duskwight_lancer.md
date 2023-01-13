@@ -20,4 +20,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: Impossible! M-My courage is...absolute...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

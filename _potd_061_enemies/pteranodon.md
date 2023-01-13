@@ -19,4 +19,7 @@ abilities:
   - name: Lightning Bolt
     potency: 300
     description: 'telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying words: I finally remember...who I am...'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

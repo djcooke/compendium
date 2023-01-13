@@ -17,4 +17,7 @@ vulnerabilities:
   resolution: false
 notes:
   - 'Autoattack absorbs 30% of damage dealt'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

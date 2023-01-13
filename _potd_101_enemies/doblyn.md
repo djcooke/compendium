@@ -19,4 +19,7 @@ abilities:
   - name: Shatter
     potency: 300
     description: 'telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

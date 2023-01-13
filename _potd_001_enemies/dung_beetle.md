@@ -19,4 +19,9 @@ abilities:
   - name: Rhino Attack
     potency: 250
     description: 'gap closer (can be LoSed)'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Rhino Attack hurts at lower levels'
 ---

@@ -25,4 +25,9 @@ notes:
     max 8 stacks, 5s); this ability does magic damage, so its own damage is
     not affected'
   - 'Can be slowed if transfigured via Pomander of Witching'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - 'Easy if fought alone, but very risky to multipull'
 ---

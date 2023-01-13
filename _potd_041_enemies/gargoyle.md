@@ -18,4 +18,7 @@ abilities:
   - name: Grim Reaper
     potency: 90
     description: 'instant'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

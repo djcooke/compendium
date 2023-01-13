@@ -23,4 +23,7 @@ abilities:
   - name: 'Elbow Drop'
     potency: 300
     description: 'telegraphed backward conal AoE; used when someone is behind'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

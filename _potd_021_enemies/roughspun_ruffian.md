@@ -21,4 +21,7 @@ notes:
   - 'Uses only auto-attacks'
   - 'Immune to transfiguration (Pomander of Witching)'
   - 'Dying word: I am undying...? Was it the elixir?'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---

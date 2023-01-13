@@ -18,4 +18,7 @@ abilities:
   - name: Final Sting
     potency: 70% of max HP
     description: 'sacrifial enrage; possible to outrange'
+job_specifics:
+  SGE:
+    difficulty: Easy
 ---
