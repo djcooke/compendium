@@ -20,13 +20,16 @@ abilities:
     potency: 130
     description: 'instant'
   - name: Death Spiral
+    potency: 300
     description: scary-looking telegraphed donut AoE
   - name: Ossify
     potency: n/a
-    description: 'grants physical damage up (100%, 8s) to self'
-  - name: '?'
+    description: 'grants physical damage up (100%, 8s) to self; used 41 seconds
+    after pull'
+  - name: 'Lifeless Wail (?)'
     potency: n/a
-    description: 'grants physical vulnerability down (20s) to self'
+    description: 'grants physical vulnerability down (20s) to self; used
+    immediately after Ossify'
 notes:
   - 'Do not fight one of these with a Wraith nearby, as the Wraith can cast
     Accursed Pox outside of combat and fill in the safe spot normally left

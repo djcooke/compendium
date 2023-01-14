@@ -20,7 +20,7 @@ abilities:
     description: 'untelegraphed conal AoE; can be LoSed'
   - name: 'Hex'
     potency: n/a
-    description: '360 degree gaze attack that turns you into a pig - look
+    description: '360 degree gaze attack that turns you into a pig (7s) - look
     away!'
   - name: 'Devour'
     potency: n/a

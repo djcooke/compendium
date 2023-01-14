@@ -17,13 +17,13 @@ vulnerabilities:
   resolution: true
 abilities:
   - name: Scream
-    potency: 200?
+    potency: 200
     description: 'huge telegraphed pointblank AoE; inflicts terror (10s); can
     be interrupted'
   - name: Accursed Pox
-    potency: 400?
-    description: 'telegraphed circle AoE; inflicts disease; can be interrupted.
-    Also used outside of combat'
+    potency: 400
+    description: 'telegraphed circle AoE; inflicts disease (30s); can be
+    interrupted. Also used outside of combat'
 notes:
   - 'Do not fight a Knight with one of these nearby, as Accursed Pox can fill
     in the safe spot of the Knight''s donut AoE'

@@ -17,7 +17,8 @@ vulnerabilities:
 abilities:
   - name: Ossify
     potency: n/a
-    description: 'grants damage up (100%, 8s) to self'
+    description: 'grants physical damage up (100%, 8s) to self; used 41 seconds
+    after pull'
 job_specifics:
   SGE:
     difficulty: Easy
