@@ -21,7 +21,8 @@ abilities:
     description: 'instant'
   - name: Ossify
     potency: n/a
-    description: 'grants damage up (100%, 8s) to self'
+    description: 'grants physical damage up (100%, 8s) to self; used 41 seconds
+    after pull'
 notes:
   - 'Hits pretty hard with the attack bonus'
 job_specifics:

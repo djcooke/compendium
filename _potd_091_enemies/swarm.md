@@ -17,6 +17,8 @@ vulnerabilities:
   resolution: false
 notes:
   - 'Autoattack absorbs 30% of damage dealt'
+  - 'Be careful when raging - if not at full health, autoattack drain can let
+  it survive rage hits'
 job_specifics:
   SGE:
     difficulty: Easy

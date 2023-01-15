@@ -24,6 +24,8 @@ abilities:
     description: '360 degree gaze - look away'
   - name: 'Allagan Meteor'
     description: 'huge circle AoE; can LoS (from centre of circle)'
+  - name: '?'
+    description: 'grants stacking damage up to self (5% per stack, permanent)'
 job_specifics:
   MCH:
     difficulty: 'Hard'

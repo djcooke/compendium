@@ -28,25 +28,25 @@ job_specifics:
   GNB:
     difficulty: Easy
     notes:
-      - Make sure to interrupt Mucus for a faster kill
+      - Make sure to interrupt Mucin for a faster kill
   MCH:
     difficulty: Easy
     notes:
-      - Make sure to interrupt Mucus for a faster kill
+      - Make sure to interrupt Mucin for a faster kill
   PLD:
     difficulty: Easy
     notes:
-      - Make sure to interrupt Mucus for a faster kill
+      - Make sure to interrupt Mucin for a faster kill
   RPR:
     difficulty: Easy
     notes:
-      - Make sure to stun Mucus for a faster kill
+      - Make sure to stun Mucin for a faster kill
   SGE:
     difficulty: Easy
     notes:
-      - Make sure to sleep Mucus for a faster kill
+      - Make sure to sleep Mucin for a faster kill
   WAR:
     difficulty: Easy
     notes:
-      - Make sure to interrupt Mucus for a faster kill
+      - Make sure to interrupt Mucin for a faster kill
 ---

@@ -22,7 +22,7 @@ abilities:
   - name: 'Canker'
     potency: n/a
     description: 'enrage; inflicts disease (15s) with strong heavy effect; can
-    be interrupted'
+    be interrupted. Used 37 seconds after pull'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:

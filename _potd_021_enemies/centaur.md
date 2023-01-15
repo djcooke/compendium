@@ -17,9 +17,9 @@ vulnerabilities:
 abilities:
   - name: Berserk
     potency: n/a
-    description: 'grants damage up (50%, 20s) to self'
+    description: 'grants physical damage up (50%, 20s) to self'
   - name: Rear
-    potency: 200
+    potency: 300
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

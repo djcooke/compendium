@@ -22,8 +22,10 @@ abilities:
     this, so ranged DPS can avoid by kiting with Sprint and/or Leg Graze'
   - name: Electrify
     potency: 300
-    description: 'telegraphed circle AoE'
+    description: 'telegraphed circle AoE; short cast'
 notes:
+  - 'Uses Levinfang immediately followed by Electrify shortly after pull. If
+  paralysis procs early, you won''t be able to escape the AoE'
   - 'Can use Spine Drops to remove paralysis if you''re ok with not using
   Sustaining Potions for 1m30s'
 job_specifics:

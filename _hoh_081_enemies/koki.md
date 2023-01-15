@@ -16,6 +16,7 @@ vulnerabilities:
   stun: unknown
 abilities:
   - name: Spiral Spin
+    potency: 1000
     description: 'telegraphed donut AoE'
   - name: Vile Utterance
     description: 'telegraphed narrow but long conal AoE'
