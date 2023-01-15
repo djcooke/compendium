@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Carpomission
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Neck Splinter
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

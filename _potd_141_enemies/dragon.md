@@ -18,10 +18,12 @@ vulnerabilities:
 abilities:
   - name: Evil Eye
     potency: 300
+    type: Magic
     description: 'conal gaze AoE inflicting terror (5s) - look away, get
     behind, or get away'
   - name: Miasma Breath
     potency: 300
+    type: Magic
     description: 'telegraphed conal AoE; inflicts disease (15s)'
 job_specifics:
   MCH:

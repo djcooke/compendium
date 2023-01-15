@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Mysterious Light
     potency: 450
+    type: Magic
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
 job_specifics:
   SGE:

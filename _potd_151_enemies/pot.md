@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Mysterious Light
     potency: 400
+    type: Magic
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
   - name: Double Ray
     potency: 120
+    type: Magic
     description: 'instant'
 job_specifics:
   GNB:

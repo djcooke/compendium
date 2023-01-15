@@ -18,7 +18,9 @@ vulnerabilities:
 abilities:
   - name: 'Sheet of Ice'
     potency: 120
-    description: 'instant circle AoE; inflicts frostbite (DoT potency 100, 21s)'
+    type: Magic
+    description: 'instant circle AoE; inflicts frostbite (magic DoT potency
+    100, 21s)'
   - name: 'Granite Rain'
     description: telegraphed pointblank AoE
 job_specifics:

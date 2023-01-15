@@ -19,9 +19,10 @@ gallery_only: true
 abilities:
   - name: Malice
     potency: n/a
-    description: 'inflicts pox (DoT potency 5, 10m); can be interrupted'
+    description: 'inflicts pox (magic DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE'
 notes:
   - 'Sometimes found in bronze chests'

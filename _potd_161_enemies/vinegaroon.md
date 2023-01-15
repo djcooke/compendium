@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Third Leg Forward
     potency: 300?
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: Third Leg Back
     potency: 300?
+    type: Physical
     description: 'telegraphed backward conal AoE; inflicts knockback. Used
     after Third Leg Forward if someone is behind, and will use it over and
     over as long as someone is behind it.'

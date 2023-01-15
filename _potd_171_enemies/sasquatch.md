@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Browbeat
     potency: 200
+    type: Physical
     description: 'instant'
   - name: Ripe Banana
     potency: n/a
@@ -26,6 +27,7 @@ abilities:
     Thump every few seconds until the buff expires'
   - name: Chest Thump
     potency: n/a
+    type: Magic
     description: 'huge 1.5 room instant AoE that inflicts stacking physical
     vulnerability up (10% per stack, max 5 stacks, 8s). Only used out of combat
     during Ripe Banana'

@@ -18,8 +18,9 @@ vulnerabilities:
 abilities:
   - name: Drowning Mist
     potency: 300
-    description: 'telegraphed pointblank AoE; inflicts poison (DoT potency 50,
-    15s)'
+    type: Magic
+    description: 'telegraphed pointblank AoE; inflicts dropsy (magic DoT
+    potency 50, 15s)'
 job_specifics:
   SGE:
     difficulty: Easy

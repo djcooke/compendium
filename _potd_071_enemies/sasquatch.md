@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Stool Pelt
     potency: 300
+    type: Physical
     description: 'telegraphed circle AoE'
   - name: Ripe Banana
     potency: n/a

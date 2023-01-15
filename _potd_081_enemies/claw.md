@@ -23,6 +23,7 @@ abilities:
     immunity does not work against the draw-in'
   - name: Impale
     potency: 130
+    type: Physical
     description: 'used against players with prey; clears prey status'
 job_specifics:
   SGE:

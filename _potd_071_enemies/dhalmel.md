@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Whiplash
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: Whistle
     potency: n/a

@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: 'Fast Boulder'
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
   - name: Haste
     potency: n/a

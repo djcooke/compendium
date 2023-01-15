@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Cannonball
     potency: 130
+    type: Magic
     description: 'instant ranged attack'
 job_specifics:
   SGE:

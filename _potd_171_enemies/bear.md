@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Savage Swipe
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
 job_specifics:
   GNB:

@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Amorphic Flail
     potency: 130
+    type: Physical
     description: 'instant pointblank AoE'
 job_specifics:
   SGE:

@@ -28,7 +28,7 @@ notes:
     Breath AoE after waking up from Sweet Breath'
   - note: 'Bad Breath inflicts these debuffs:'
     subnotes:
-      - 'Poison (DoT potency 50, 30s)'
+      - 'Poison (unique DoT potency 50, 30s)'
       - 'Nausea (20s)'
       - 'Slow (10s)'
       - 'Blind (30s)'

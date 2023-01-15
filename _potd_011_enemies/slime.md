@@ -17,9 +17,11 @@ vulnerabilities:
 abilities:
   - name: Digest
     potency: 100
+    type: Physical
     description: 'absorbs 100% of damage dealt'
   - name: Rapture
     potency: 170% of max HP
+    type: Unique
     description: 'instant AoE sacrificial enrage; used 20 seconds after pull
     (immediately after the second Digest)'
 job_specifics:

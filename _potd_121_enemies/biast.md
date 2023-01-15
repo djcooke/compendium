@@ -18,10 +18,12 @@ vulnerabilities:
 abilities:
   - name: Levinfang
     potency: 130
+    type: Physical
     description: 'instant; inflicts paralysis (30s); has to be close to use
     this, so ranged DPS can avoid by kiting with Sprint and/or Leg Graze'
   - name: Electrify
     potency: 300
+    type: Unique
     description: 'telegraphed circle AoE; short cast'
 notes:
   - 'Uses Levinfang immediately followed by Electrify shortly after pull. If

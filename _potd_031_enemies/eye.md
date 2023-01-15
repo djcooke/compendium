@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Eyes on Me
     potency: 150
+    type: Magic
     description: 'untelegraphed pointblank AoE'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

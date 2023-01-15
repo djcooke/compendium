@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Final Sting
     potency: 99% of max HP
+    type: Unique
     description: 'sacrificial enrage; possible to outrange; used at 22-second
     intervals'
 job_specifics:

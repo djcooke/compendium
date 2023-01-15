@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Curse
     potency: 200
+    type: Magic
     description: 'telegraphed pointblank AoE; also deals 500 MP damage'
 job_specifics:
   SGE:

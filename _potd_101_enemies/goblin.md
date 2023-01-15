@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Goblin Rush
     potency: 50 (x3)
+    type: Physical
     description: 'instant 3-hit attack'
 job_specifics:
   SGE:

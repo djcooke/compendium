@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Shatter
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

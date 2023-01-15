@@ -19,10 +19,12 @@ vulnerabilities:
 abilities:
   - name: Chilling Cyclone
     potency: 300
-    description: 'telegraphed conal AoE; inflicts deep freeze (DoT potency 50,
-    9s)'
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts deep freeze (magic DoT
+    potency 50, 9s)'
   - name: Ice Dispenser
     potency: 130
+    type: Magic
     description: 'instant circle AoE; inflicts slow (15s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to

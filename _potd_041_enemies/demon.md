@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Dark Dome
     potency: 90
+    type: Magic
     description: 'instant'
 job_specifics:
   SGE:

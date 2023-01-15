@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Frightful Roar
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts vulnerability up (20%,
     30s)'
 job_specifics:

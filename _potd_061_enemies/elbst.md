@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Acid Shower
     potency: 130
+    type: Magic
     description: 'instant; inflicts vulnerability up (30%, 10s)'
 job_specifics:
   SGE:

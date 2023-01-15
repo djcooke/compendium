@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Sleetvolley
     potency: 100
+    type: Physical
     description: 'instant ranged attack'
   - name: 'Swift Sough'
     description: 'telegraphed conal AoE'

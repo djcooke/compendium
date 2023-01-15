@@ -17,9 +17,11 @@ vulnerabilities:
 abilities:
   - name: Pounce
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Cry
     potency: 300
+    type: Magic
     description: 'large telegraphed pointblank AoE'
 job_specifics:
   SGE:

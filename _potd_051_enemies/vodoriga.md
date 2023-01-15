@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Terror Eye
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE; can be interrupted'
 job_specifics:
   SGE:

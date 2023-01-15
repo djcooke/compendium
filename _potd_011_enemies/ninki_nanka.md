@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Brackish Drop
     potency: 650
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Slowball
     potency: 130
+    type: Magic
     description: 'instant circle AoE'
   - name: Snow Flurry
     description: 'telegraphed conal AoE'

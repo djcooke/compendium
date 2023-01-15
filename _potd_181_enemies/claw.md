@@ -23,8 +23,10 @@ abilities:
     immunity does not work against the draw-in'
   - name: Impale
     potency: 130
+    type: Physical
     description: 'used against players with prey; clears prey status'
   - name: Tail Screw
+    type: Magic
     description: 'inflicts slow; can be outranged'
 notes:
   - 'Does a draw-in that applies Prey status followed by Impale. Knockback

@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Dark Mist
     potency: 300
+    type: Magic
     description: 'large telegraphed pointblank AoE; inflicts terror (10s)'
   - name: Void Fire IV
     potency: 350
+    type: Magic
     description: 'large telegraphed circle AoE; used immediately after Dark
     Mist; also used out of battle'
 job_specifics:

@@ -18,7 +18,7 @@ vulnerabilities:
 abilities:
   - name: Spoil
     potency: n/a
-    description: 'inflicts poison (DoT potency 20, 15s)'
+    description: 'inflicts poison (unique DoT potency 20, 15s)'
 job_specifics:
   SGE:
     difficulty: Easy

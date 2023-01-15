@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: The Wood Remembers
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: Stoneskin
     potency: n/a

@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Blood Drain
     potency: 100
+    type: Unique
     description: 'pierces Steel; absorbs 50% of damage dealt'
   - name: Ultrasonics
     potency: n/a

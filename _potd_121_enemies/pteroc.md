@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Tail Chase
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

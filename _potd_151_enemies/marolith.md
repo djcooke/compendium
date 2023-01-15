@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Carpomission
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Isle Drop
     potency: 300
+    type: Physical
     description: 'telegraphed circle AoE; inflicts stun (5s)'
 job_specifics:
   GNB:

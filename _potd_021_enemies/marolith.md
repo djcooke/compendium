@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Dark Blizzard III
     potency: 200
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

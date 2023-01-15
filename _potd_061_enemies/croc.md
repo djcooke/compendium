@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Flatten
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: 'Caudal Swipe'
     potency: 300
+    type: Physical
     description: 'telegraphed backward conal AoE inflicting stun (3s) and
     knockback; used if someone is behind'
 job_specifics:

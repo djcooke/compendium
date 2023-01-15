@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Rhino Attack
     potency: 250
+    type: Physical
     description: 'gap closer (can be LoSed)'
   - name: Rhino Guard
     potency: n/a

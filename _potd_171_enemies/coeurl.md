@@ -17,6 +17,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Megablaster
+    type: Magic
     description: 'telegraphed conal AoE. Doesn''t use this while you''re
     paralyzed'
   - name: 'Blaster'

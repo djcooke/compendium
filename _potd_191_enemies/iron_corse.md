@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Butterfly Float
     potency: 150
+    type: Physical
     description: 'instant gap closer; used on aggro and every 30 seconds
     afterward. Will destroy non-tanks if it crits'
 job_specifics:

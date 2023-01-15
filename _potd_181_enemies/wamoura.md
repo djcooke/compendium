@@ -18,6 +18,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Poison Dust
+    type: Magic
     description: 'telegraphed conal AoE; inflicts poison'
   - name: Exuviation
     potency: n/a

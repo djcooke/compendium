@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Seismic Rift
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

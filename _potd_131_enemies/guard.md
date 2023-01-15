@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Void Slash
     potency: 100
+    type: Physical
     description: 'instant'
   - name: Void Trap
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Nail in the Coffin
     potency: 150
+    type: Physical
     description: 'instant'
 job_specifics:
   MCH:

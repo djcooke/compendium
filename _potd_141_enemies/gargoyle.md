@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Corrupted Tail
     potency: 100
-    description: 'instant; inflicts poison (DoT potency 55, 20s)'
+    type: Physical
+    description: 'instant; inflicts poison (physical DoT potency 55, 20s)'
   - name: Grim Fate
     potency: 130
+    type: Physical
     description: 'instant'
 notes:
   - 'Hits pretty hard - watch out for poison damage'

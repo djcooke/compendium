@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Slowball
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

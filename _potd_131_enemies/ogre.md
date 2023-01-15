@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Heartburn
     potency: 300
+    type: Magic
     description: 'large telegraphed circle AoE'
 job_specifics:
   SGE:

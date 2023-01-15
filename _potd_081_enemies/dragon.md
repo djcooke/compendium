@@ -18,8 +18,9 @@ vulnerabilities:
 abilities:
   - name: Fireball
     potency: 300
-    description: 'telegraphed circle AoE; inflicts burns (DoT potency 50, 15s);
-    also used out of battle'
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns (magic DoT potency 50,
+    15s); also used out of battle'
 notes:
   - 'Can appear on any floor from 81-89, but seems fairly rare in the earlier
     floors, and much more common in the later floors'

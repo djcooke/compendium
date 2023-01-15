@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Skullsplinter
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Death Spiral
     potency: 300
+    type: Magic
     description: scary-looking telegraphed donut AoE
   - name: Ossify
     potency: n/a

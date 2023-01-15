@@ -19,7 +19,9 @@ vulnerabilities:
 abilities:
   - name: Flash Evaporation
     potency: 300
-    description: 'telegraphed circle AoE; inflicts burns (DoT potency 100, 9s)'
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns (magic DoT potency
+    100, 9s)'
 job_specifics:
   SGE:
     difficulty: Easy

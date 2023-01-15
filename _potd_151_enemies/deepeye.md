@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Optical Intrusion
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Hypnotize
     potency: n/a

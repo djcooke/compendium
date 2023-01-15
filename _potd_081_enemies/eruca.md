@@ -19,7 +19,9 @@ vulnerabilities:
 abilities:
   - name: Incinerate
     potency: 300
-    description: 'telegraphed conal AoE; inflicts burns (DoT potency 30, 24s)'
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts burns (magic DoT potency 30,
+    24s)'
 job_specifics:
   SGE:
     difficulty: Easy

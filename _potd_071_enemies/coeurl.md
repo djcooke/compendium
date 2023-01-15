@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Megablaster
     potency: 300
+    type: Magic
     description: 'telegraphed conal AoE; inflicts paralysis (15s)'
 job_specifics:
   SGE:

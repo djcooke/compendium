@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Seedvolley
     potency: 100
+    type: Physical
     description: 'instant'
   - name: Swift Sough
     potency: 300
+    type: Magic
     description: 'telegraphed conal AoE; inflicts knockback'
 job_specifics:
   SGE:
