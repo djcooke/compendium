@@ -8,6 +8,7 @@ agro: Sight
 hp: 5201
 attack_damage: 541
 attack_type: Magic
+attack_name: Water
 vulnerabilities:
   bind: true
   heavy: true

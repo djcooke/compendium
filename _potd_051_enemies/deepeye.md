@@ -22,7 +22,8 @@ abilities:
     description: 'instant'
   - name: Hypnotize
     potency: n/a
-    description: 'roomwide gaze attack inflicting paralysis (30s) - look away'
+    description: 'conal gaze attack inflicting paralysis (30s) - look away,
+    get behind, or get away'
 job_specifics:
   SGE:
     difficulty: Easy

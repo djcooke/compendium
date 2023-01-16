@@ -22,8 +22,9 @@ abilities:
     description: 'grants stoneskin (1/3 of max HP, 8s) to self; can be
     interrupted'
   - name: Foregone Gleam
-    description: 'untelegraphed conal gaze AoE - look away, get behind, or get
-    away'
+    potency: n/a
+    description: 'untelegraphed conal gaze AoE inflicting paralysis (20s) -
+    look away, get behind, or get away'
 job_specifics:
   GNB:
     difficulty: Easy

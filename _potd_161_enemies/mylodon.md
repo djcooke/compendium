@@ -21,7 +21,10 @@ abilities:
     type: Magic
     description: 'instant circle AoE'
   - name: Snow Flurry
-    description: 'telegraphed conal AoE'
+    potency: 300
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts deep freeze (magic DoT
+    potency 70, 15s)'
 job_specifics:
   GNB:
     difficulty: Easy

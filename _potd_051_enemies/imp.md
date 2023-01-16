@@ -19,8 +19,8 @@ vulnerabilities:
 abilities:
   - name: Ice Spikes
     potency: n/a
-    description: 'grants counterattack (magic potency 200, 5s) to self; can be
-    interrupted'
+    description: 'grants counterattack (magic potency 200 + chance to inflict
+    30s slow, 5s) to self; can be interrupted'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
