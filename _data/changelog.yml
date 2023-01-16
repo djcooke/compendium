@@ -1,3 +1,13 @@
+- date: 2023-01-21
+  updates:
+    - 'Added details for Deep Palace Diplocaulus and Mylodon AoE abilities'
+    - 'Fixed Palace / Deep Palace Deepeye gaze AoE type (conal, not roomwide)'
+    - 'Fixed missing damage for Deep Palace Sasquatch''s Chest Thump'
+    - 'Noted that Palace Imp counterattack has a chance to inflict slow'
+    - 'Noted that Deep Palace Seedling auto-attack does not always inflict
+    poison'
+    - 'Noted that PotD 80 boss''s Trounce ability inflicts vulnerability up'
+    - 'Added SGE notes for fighting PotD 140 boss without resolution'
 - date: 2023-01-19
   updates:
     - 'Added damage types for PotD enemy abilities, courtesy of vaxherd'

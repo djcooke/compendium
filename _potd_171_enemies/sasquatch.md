@@ -26,7 +26,7 @@ abilities:
     of max HP; only used out of combat. After using this, it will use Chest
     Thump every few seconds until the buff expires'
   - name: Chest Thump
-    potency: n/a
+    potency: 30
     type: Magic
     description: 'huge 1.5 room instant AoE that inflicts stacking physical
     vulnerability up (10% per stack, max 5 stacks, 8s). Only used out of combat
