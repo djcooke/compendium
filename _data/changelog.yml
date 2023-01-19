@@ -1,3 +1,7 @@
+- date: 2023-01-18
+  updates:
+    - 'Added icons for physical/magic/unique damage types - currently visible
+    for auto-attacks; to be filled in for abilities soon'
 - date: 2023-01-15
   updates:
     - 'Added SGE enemy ratings for PotD enemies, courtesy of vaxherd'

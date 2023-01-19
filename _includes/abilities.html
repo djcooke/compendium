@@ -8,7 +8,9 @@
     {% for ability in include.abilities %}
       <tr>
         <td><strong>{{ ability.name }}</strong></td>
-        <td class="align-center">{{ ability.potency | default: '?' }}</td>
+        <td class="align-center">
+          {% include damage.html damage=ability.potency type=ability.type %}
+        </td>
         <td>{{ ability.description }}</td>
       </tr>
     {% endfor %}

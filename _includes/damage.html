@@ -1,5 +1,16 @@
-<span>
-  {% if include.name %}{{ include.name }} - {% endif %}
-  {{ include.damage | default: '?' }}
-  {% if include.type %}{{ include.type }}{% endif %}
-</span>
+{% assign image = nil %}
+{% if include.type == 'Physical' %}
+  {% assign image = 'physical.png' %}
+{% elsif include.type == 'Magic' %}
+  {% assign image = 'magic.png' %}
+{% elsif include.type == 'Unique' %}
+  {% assign image = 'unique.png' %}
+{% endif %}
+{% if image %}
+  <img src="{{ '/assets/images/damage/' | append: image | relative_url }}"
+      class="verticalCenter" width="17" height="17"
+      alt="{{ include.type }} damage"
+      title="{{ include.type }} damage">
+{% endif %}
+{{ include.damage | default: '?' }}
+{% if include.name %}({{ include.name }}){% endif %}

@@ -32,6 +32,14 @@ a:hover {
   color: var(--on-surface-bright);
 }
 
+.inlineBlock {
+  display: inline-block;
+}
+
+.verticalCenter {
+  vertical-align: middle;
+}
+
 li:not(:last-child), li li:last-child {
   margin-bottom: 6px;
 }

@@ -17,8 +17,10 @@
   </div>
   <div>
     <label>Auto-attack:
-      {% include damage.html name=include.enemy.attack_name 
-        damage=include.enemy.attack_damage type=include.enemy.attack_type %}
+      <div class="inlineBlock">
+        {% include damage.html name=include.enemy.attack_name 
+          damage=include.enemy.attack_damage type=include.enemy.attack_type %}
+      </div>
     </label>
   </div>
 </div>
