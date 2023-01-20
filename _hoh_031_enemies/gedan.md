@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Sanguine Bite
     potency: 130
+    type: Physical
     description: 'instant; absorbs 95.5% of damage dealt'
 ---

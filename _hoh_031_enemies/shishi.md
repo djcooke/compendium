@@ -7,7 +7,7 @@ start_floor: 37
 end_floor: 39
 agro: Sight
 hp: 9404
-attack_damage: 1017
+attack_damage: 1001
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -18,8 +18,10 @@ vulnerabilities:
 abilities:
   - name: Pounce
     potency: 120
+    type: Physical
     description: 'instant'
   - name: Cry
     potency: 500
+    type: Magic
     description: 'large telegraphed pointblank AoE; can be LoSed'
 ---

@@ -7,7 +7,7 @@ end_floor: 39
 patrol: true
 agro: Sight
 hp: 9404
-attack_damage: 1002
+attack_damage: 994
 attack_type: Magic
 vulnerabilities:
   bind: false

@@ -7,7 +7,7 @@ start_floor: 71
 end_floor: 75
 agro: Sight
 hp: 48590
-attack_damage: 4328
+attack_damage: 4325
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,6 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hoofkick
+    potency: 150
+    type: Physical
     description: 'instant knockback used on anyone standing behind it'
 job_specifics:
   DRK:

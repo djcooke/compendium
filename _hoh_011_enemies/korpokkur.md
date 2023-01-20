@@ -17,8 +17,11 @@ vulnerabilities:
 abilities:
   - name: 'Buller''s Drop'
     potency: 120
+    type: Physical
     description: 'instant'
   - name: Spiritus
     potency: 300
-    description: 'telegraphed conal AoE; inflicts dropsy (potency 50, 30s)'
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts dropsy (magic DoT potency 50,
+    30s)'
 ---

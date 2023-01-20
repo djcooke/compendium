@@ -7,7 +7,7 @@ start_floor: 83
 end_floor: 87
 agro: Sight
 hp: 60682
-attack_damage: 5560
+attack_damage: 5564
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,7 +17,10 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Rock of Ages'
-    description: 'telegraphed circle AoE; also used out of combat'
+    potency: 250
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts stun (6s); also used out of
+    combat'
 job_specifics:
   DRK:
     difficulty: Easy

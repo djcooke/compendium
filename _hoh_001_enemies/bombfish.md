@@ -17,5 +17,6 @@ vulnerabilities:
 abilities:
   - name: 1000 Spines
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
 ---

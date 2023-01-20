@@ -6,7 +6,7 @@ start_floor: 26
 end_floor: 28
 agro: Sight
 hp: 7389
-attack_damage: 901
+attack_damage: 911
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,5 +17,6 @@ vulnerabilities:
 abilities:
   - name: Implosive Curse
     potency: 200
+    type: Magic
     description: 'telegraphed conal AoE; inflicts accuracy down (30s)'
 ---

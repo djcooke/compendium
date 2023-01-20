@@ -5,8 +5,8 @@ image: enko.png
 start_floor: 86
 end_floor: 89
 agro: Sight
-hp: 58000
-attack_damage: 5205
+hp: 57771
+attack_damage: 5047
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Straight Punch
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Plain Pound
     description: 'telegraphed circle AoE'

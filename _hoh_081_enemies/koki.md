@@ -17,11 +17,15 @@ vulnerabilities:
 abilities:
   - name: Spiral Spin
     potency: 1000
+    type: Magic
     description: 'telegraphed donut AoE'
   - name: Vile Utterance
+    potency: 1000
+    type: Magic
     description: 'telegraphed narrow but long conal AoE'
   - name: Blood Moon
     potency: 50
+    type: Magic
     description: 'untelegraphed huge pointblank AoE; inflicts stacking
     vulnerability up (5%? per stack, 30s). Can be LoSed, and fully shielding
     the damage also blocks the vulnerability up'

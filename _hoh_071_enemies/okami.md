@@ -6,8 +6,8 @@ image: okami.png
 start_floor: 72
 end_floor: 74
 agro: Sight
-hp: 49000
-attack_damage: 4007
+hp: 49038
+attack_damage: 3963
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -18,8 +18,9 @@ vulnerabilities:
 abilities:
   - name: Sanguine Bite
     potency: 100
-    description: 'instant; inflicts frostbite (DoT potency 50, 12s); absorbs
-    ~90% of damage dealt'
+    type: Physical
+    description: 'instant; inflicts frostbite (physical DoT potency 50, 12s);
+    absorbs 95.5% of damage dealt'
 job_specifics:
   DRK:
     difficulty: Easy

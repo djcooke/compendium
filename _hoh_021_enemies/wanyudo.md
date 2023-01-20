@@ -8,7 +8,7 @@ end_floor: 29
 patrol: true
 agro: Sight
 hp: 7389
-attack_damage: 901
+attack_damage: 911
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -19,5 +19,7 @@ vulnerabilities:
 abilities:
   - name: Midnight Mandate
     potency: 350
-    description: 'telegraphed circle AoE; inflicts burns (DoT potency 50, 15s)'
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns (magic DoT potency 50,
+    15s)'
 ---

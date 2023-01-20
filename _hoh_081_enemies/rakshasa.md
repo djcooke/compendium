@@ -8,7 +8,7 @@ end_floor: 89
 patrol: true
 agro: Sight
 hp: 62921
-attack_damage: 5879
+attack_damage: 5890
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,15 +18,18 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Wild Charge
-    potency: 130?
+    potency: 130
+    type: Physical
     description: 'instant gap closer; used immediately on pull, and again when
     its damage down debuff (see next ability) wears off'
-  - name: 'Enrage (?)'
+  - name: Bloodboil
     potency: n/a
-    description: 'grants damage up (25%, 30s) to self; used immediately after
+    description: 'grants damage up (20%, 30s) to self; used immediately after
     Wild Charge. When the buff expires, it changes to a physical damage down
-    debuff (60%?, 30s)'
+    debuff (60%, 30s)'
   - name: Ripper Claw
+    potency: 600
+    type: Physical
     description: 'untelegraphed conal AoE - get away or behind'
   - name: Fireball
     description: 'telegraphed circle AoE'

@@ -7,7 +7,7 @@ start_floor: 62
 end_floor: 65
 agro: Sight
 hp: 34035
-attack_damage: 3204
+attack_damage: 3194
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,6 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Shatter'
+    potency: 600
+    type: Magic
     description: 'telegraphed pointblank AoE'
 job_specifics:
   DRK:

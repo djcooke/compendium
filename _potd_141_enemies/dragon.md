@@ -25,6 +25,9 @@ abilities:
     potency: 300
     type: Magic
     description: 'telegraphed conal AoE; inflicts disease (15s)'
+  - name: 'Chaos Breath (?)'
+    description: 'large telegraphed conal AoE; not used against solo
+    adventurers'
 job_specifics:
   MCH:
     difficulty: Easy

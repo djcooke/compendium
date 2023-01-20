@@ -6,7 +6,7 @@ image: ../mimic_gold.png
 start_floor: 71
 end_floor: 79
 agro: Proximity
-hp: 54000
+hp: 53964
 attack_damage: 6554
 attack_type: Physical
 vulnerabilities:

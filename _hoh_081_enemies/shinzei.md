@@ -8,7 +8,7 @@ end_floor: 86
 patrol: true
 agro: Sight
 hp: 62921
-attack_damage: 5782
+attack_damage: 5841
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -19,14 +19,18 @@ vulnerabilities:
 abilities:
   - name: Body Blow
     potency: 100
-    description: 'instant; inflicts concussion (DoT potency 50?, 15s)'
+    type: Physical
+    description: 'instant; inflicts concussion (physical DoT potency 20, 15s)'
   - name: Anoxic Breath
-    description: 'telegraphed conal AoE'
+    potency: 800
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts knockback'
   - name: Thunder II
     potency: 80 + 30x3
+    type: Magic
     description: 'circle AoE on marked target hitting 3 times after the initial
-    cast; inflicts electrocution (DoT potency 10, 30s) on each hit; can be
-    interrupted'
+    cast; inflicts electrocution (magic DoT potency 10, 30s) on each hit; can
+    be interrupted'
 job_specifics:
   DRK:
     difficulty: Medium

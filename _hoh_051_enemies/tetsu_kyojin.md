@@ -8,7 +8,7 @@ end_floor: 56
 patrol: true
 agro: Sight
 hp: 25079
-attack_damage: 2665
+attack_damage: 2643
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,9 +18,14 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Grand Strike'
+    potency: 900
+    type: Magic
     description: 'telegraphed line AoE'
   - name: 'Magitek Ray'
-    description: 'telegraphed circle AoE; used immediately after Grand Strike'
+    potency: 650
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns (magic DoT potency
+    100, 15s). Used immediately after Grand Strike'
 job_specifics:
   MCH:
     difficulty: Easy

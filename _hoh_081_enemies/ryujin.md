@@ -6,7 +6,7 @@ start_floor: 84
 end_floor: 87
 agro: Sight
 hp: 60682
-attack_damage: 5560
+attack_damage: 5564
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -17,11 +17,17 @@ vulnerabilities:
 abilities:
   - name: 'Straight Punch'
     potency: 130
+    type: Physical
     description: 'instant'
   - name: 'Firewater'
-    description: 'telegraphed circle AoE'
+    potency: 800
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns'
   - name: 'Elbow Drop'
-    description: 'untelegraphed backward conal AoE; used if someone is behind'
+    potency: 400
+    type: Physical
+    description: 'untelegraphed backward conal AoE; inflicts stun (6s); used if
+    someone is behind'
 notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by
   it!'

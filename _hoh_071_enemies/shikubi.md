@@ -17,7 +17,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hypothermal Combustion
-    description: 'telegraphed pointblank AoE'
+    potency: 600
+    type: Magic
+    description: 'telegraphed pointblank AoE; inflicts frostbite (magic DoT
+    potency 100, 21s)'
 job_specifics:
   DRK:
     difficulty: Easy

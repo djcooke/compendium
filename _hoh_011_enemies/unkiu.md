@@ -18,8 +18,10 @@ vulnerabilities:
 abilities:
   - name: Scissor Run
     potency: 45 (x3)
+    type: Physical
     description: 'instant 3-hit attack'
   - name: Flush
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE'
 ---

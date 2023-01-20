@@ -18,10 +18,10 @@ vulnerabilities:
 abilities:
   - name: Nightmarish Light
     potency: n/a
-    description: '360 degree gaze inflicting seduced (6s), which will cause you
-    to walk into Garish Light'
+    description: 'huge 360 degree gaze inflicting seduced (6s), which will
+    cause you to walk into Garish Light'
   - name: Garish Light
     potency: n/a
-    description: 'telegraphed pointblank AoE inflicting minimum (6s); used
-    immediately after Nightmarish Light'
+    description: 'telegraphed pointblank AoE inflicting minimum (damage dealt
+    -90%, damage taken +50%, 6s); used immediately after Nightmarish Light'
 ---

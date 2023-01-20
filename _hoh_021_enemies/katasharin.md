@@ -18,7 +18,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Crimson Mandate
-    potency: n/a
+    potency: 350
+    type: Magic
     description: 'telegraphed cross line AoE; inflicts stacking suppuration
     (max HP -15% and damage taken +15% per stack, 30s)'
 ---

@@ -20,6 +20,7 @@ abilities:
     description: telegraphed conal AoE
   - name: Abyssal Transfixion
     potency: 150
+    type: Physical
     description: 'instant ranged attack; does NOT paralyze like in PotD'
 job_specifics:
   DRK:

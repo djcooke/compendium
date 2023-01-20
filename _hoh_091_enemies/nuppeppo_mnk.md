@@ -7,7 +7,7 @@ start_floor: 91
 end_floor: 94
 agro: Sight
 hp: 69191
-attack_damage: 3023
+attack_damage: 3026
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -25,7 +25,7 @@ abilities:
     Footwork'
   - name: 'Gutripper'
     potency: n/a
-    description: 'inflicts concussion (DoT potency 100, 15s)'
+    description: 'inflicts concussion (physical DoT potency 100, 15s)'
   - name: 'Triple Threat'
     potency: 40 (x3)
     description: 'instant 3-hit attack; used 3 times in a row (9 hits total)'

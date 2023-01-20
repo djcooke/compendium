@@ -7,7 +7,7 @@ start_floor: 51
 end_floor: 53
 agro: Sound
 hp: 19928
-attack_damage: 2139
+attack_damage: 2140
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -18,7 +18,8 @@ vulnerabilities:
 abilities:
   - name: 'Standing Chine'
     potency: 30
-    description: 'instant; inflicts flesh wound (DoT potency 20, 30s)'
+    type: Physical
+    description: 'instant; inflicts flesh wound (physical DoT potency 20, 30s)'
 job_specifics:
   MCH:
     difficulty: Easy

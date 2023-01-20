@@ -8,7 +8,7 @@ end_floor: 59
 patrol: true
 agro: Sight
 hp: 26198
-attack_damage: 2720
+attack_damage: 2705
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,8 +18,13 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Incinerate'
-    description: 'telegraphed conal AoE'
+    potency: 900
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts stacking suppuration
+    (max HP -15% and damage taken +15% per stack, 30s)'
   - name: 'Wrecking Ball'
+    potency: 900
+    type: Magic
     description: 'telegraphed circle AoE; used immediately after Incinerate'
 job_specifics:
   MCH:

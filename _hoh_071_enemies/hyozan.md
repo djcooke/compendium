@@ -7,8 +7,8 @@ start_floor: 74
 end_floor: 76
 patrol: true
 agro: Sight
-hp: 52000
-attack_damage: 4830
+hp: 52173
+attack_damage: 4829
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,7 +18,9 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Ice Guillotine'
-    description: 'telegraphed conal AoE'
+    potency: 700
+    type: Physical
+    description: 'telegraphed conal AoE; inflicts knockback'
 job_specifics:
   DRK:
     difficulty: Easy

@@ -6,8 +6,8 @@ image: ../mimic_gold.png
 start_floor: 61
 end_floor: 69
 agro: Proximity
-hp: 45000
-attack_damage: 5258
+hp: 45231
+attack_damage: 5228
 attack_type: Physical
 vulnerabilities:
   bind: false

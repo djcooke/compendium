@@ -17,7 +17,8 @@ vulnerabilities:
 abilities:
   - name: Bad Breath
     potency: n/a
-    description: 'large telegraphed conal AoE; inflicts many debuffs'
+    description: 'large telegraphed conal AoE on random player; inflicts many
+    debuffs'
 notes:
   - note: 'Bad Breath inflicts these debuffs:'
     subnotes:

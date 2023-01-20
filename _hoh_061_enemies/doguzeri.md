@@ -6,8 +6,8 @@ image: doguzeri.png
 start_floor: 64
 end_floor: 67
 agro: Sound
-hp: 35000
-attack_damage: 3259
+hp: 34707
+attack_damage: 3231
 attack_type: Physical
 attack_name: Seedvolley
 vulnerabilities:
@@ -18,6 +18,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Swift Sough'
+    potency: 800
+    type: Magic
     description: 'telegraphed conal AoE'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

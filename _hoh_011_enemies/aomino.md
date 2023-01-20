@@ -19,8 +19,10 @@ vulnerabilities:
 abilities:
   - name: Ceras
     potency: 100
-    description: 'instant; inflicts poison (DoT potency 50, 30s)'
+    type: Physical
+    description: 'instant; inflicts poison (physical DoT potency 50, 30s)'
   - name: 'Hydrocannon'
     potency: 500
+    type: Magic
     description: 'telegraphed line AoE; inflicts knockback'
 ---

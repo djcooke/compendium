@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Flounder
     potency: 300
+    type: Physical
     description: 'telegraphed line AoE; inflicts knockback'
 ---

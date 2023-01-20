@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Tornado
     potency: 130
+    type: Magic
     description: 'instant (possibly circle AoE?)'
 ---

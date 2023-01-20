@@ -7,7 +7,7 @@ start_floor: 91
 end_floor: 94
 agro: Sight
 hp: 69191
-attack_damage: 5690
+attack_damage: 5504
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,14 +17,14 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Butcher''s Block'
-    potency: 130
+    potency: 120
     description: 'instant'
   - name: 'Infusion'
     potency: 50 (x3)
     description: 'gap closer; hits 3 times, inflicting knockback each time'
   - name: 'Raging Rush'
     potency: 300
-    description: 'instant'
+    description: 'instant; used 30 seconds after pull'
 notes:
   - 'Generally want to avoid these, as they deal a lot of damage'
 job_specifics:

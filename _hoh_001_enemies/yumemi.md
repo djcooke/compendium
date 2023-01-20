@@ -19,8 +19,9 @@ vulnerabilities:
 abilities:
   - name: Static Charge
     potency: n/a
-    description: grants counterattack (potency 100, 6s) to self
+    description: grants counterattack (magic potency 100, 6s) to self
   - name: Blanket Thunder
     potency: 250
+    type: Magic
     description: telegraphed pointblank AoE
 ---

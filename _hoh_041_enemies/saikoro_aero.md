@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Ancient Aero
     potency: 120
+    type: Magic
     description: 'instant (possibly line AoE?)'
 ---

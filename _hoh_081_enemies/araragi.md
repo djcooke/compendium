@@ -6,8 +6,8 @@ image: araragi.png
 start_floor: 86
 end_floor: 89
 agro: Sight
-hp: 59000
-attack_damage: 3819
+hp: 59338
+attack_damage: 3872
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -18,10 +18,13 @@ vulnerabilities:
 abilities:
   - name: 'Goobbue''s Grief'
     potency: 50
-    description: 'untelegraphed pointblank(?) AoE; inflicts stacking poison
-    (DoT potency 15 per stack, 30s); used frequently; can be LoSed'
+    type: Magic
+    description: 'untelegraphed pointblank AoE; inflicts stacking poison
+    (magic DoT potency 15 per stack, 30s); used frequently; can be LoSed'
   - name: 'Moldy Phlegm'
-    description: 'telegraphed circle AoE'
+    potency: 1200
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts disease'
   - name: 'Inhale'
     potency: n/a
     description: 'instant conal AoE draw-in'
@@ -34,7 +37,7 @@ notes:
       - 'Goobbue''s Grief'
       - 'Moldy Phlegm'
       - 'Goobbue''s Grief'
-      - 'draw-in + Moldy Sneeze'
+      - 'Inhale + Moldy Sneeze'
       - 'Goobbue''s Grief'
       - 'Time for roughly 3 auto-attacks before it restarts (another Goobbue''s
       Grief)'

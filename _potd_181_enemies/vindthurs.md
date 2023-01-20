@@ -19,7 +19,7 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Freezeover
-    description: 'telegraphed circle AoE'
+    description: 'telegraphed circle AoE on random player'
   - name: Plain Pound
     description: 'telegraphed pointblank AoE'
 job_specifics:

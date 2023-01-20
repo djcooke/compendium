@@ -16,5 +16,6 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'Auto-attack inflicts heavy (4s)'
+  - 'Auto-attack inflicts heavy (4s). Diminishing returns do NOT apply to this
+    heavy (it is always 4s)'
 ---

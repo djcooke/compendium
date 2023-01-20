@@ -7,7 +7,7 @@ start_floor: 35
 end_floor: 37
 agro: Sight
 hp: 9404
-attack_damage: 993
+attack_damage: 994
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Catching Claws
     potency: 130
+    type: Physical
     description: 'instant'
 ---

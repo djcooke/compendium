@@ -26,10 +26,11 @@ abilities:
     type: Physical
     description: 'used against players with prey; clears prey status'
   - name: Tail Screw
+    potency: 150
     type: Magic
-    description: 'inflicts slow; can be outranged'
+    description: 'inflicts slow (20s); can be outranged'
 notes:
-  - 'Does a draw-in that applies Prey status followed by Impale. Knockback
+  - 'Does a draw-in that inflicts Prey status followed by Impale. Knockback
     immunity does not work, but draw-in will not work on floors with knockback
     penalty, making them easier to deal with'
 job_specifics:

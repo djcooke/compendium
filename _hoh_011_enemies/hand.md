@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Fluid Strike
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Wash Away
     potency: 1000
-    description: 'conal(?) AoE enrage used after 30s; inflicts knockback; can
-    be interrupted'
+    type: Magic
+    description: 'huge pointblank AoE enrage used after 25s; inflicts
+    knockback; can be interrupted'
 ---

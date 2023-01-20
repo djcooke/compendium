@@ -22,10 +22,11 @@ abilities:
     used immediately before Bad Breath'
   - name: Bad Breath
     potency: n/a
-    description: 'large telegraphed conal AoE; inflicts many debuffs'
+    description: 'large telegraphed conal AoE on random player; inflicts many
+    debuffs'
 notes:
-  - 'Stand close if solo or tanking, so you''ll be able to get out of the Bad
-    Breath AoE after waking up from Sweet Breath'
+  - 'Stand close so you''ll be able to get out of the Bad Breath AoE after
+    waking up from Sweet Breath'
   - note: 'Bad Breath inflicts these debuffs:'
     subnotes:
       - 'Poison (unique DoT potency 50, 30s)'

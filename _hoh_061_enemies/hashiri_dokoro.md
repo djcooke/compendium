@@ -6,8 +6,8 @@ image: hashiri_dokoro.png
 start_floor: 66
 end_floor: 69
 agro: Sight
-hp: 40000
-attack_damage: 3945
+hp: 39633
+attack_damage: 3942
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,12 +17,15 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Atropine Spore'
-    description: 'telegraphed huge donut AoE'
+    potency: 900
+    type: Physical
+    description: 'telegraphed huge donut AoE; inflicts reduced immunity'
   - name: 'Frond Fatale'
     potency: n/a
-    description: '360 degree gaze'
+    description: '360 degree gaze inflicting seduced (5s) - look away'
   - name: 'Soul Vacuum'
-    potency: 50?
+    potency: 50
+    type: Magic
     description: 'untelegraphed huge pointblank AoE; instant death if you got
     hit by Frond Fatale'
 job_specifics:

@@ -6,7 +6,7 @@ start_floor: 81
 end_floor: 85
 agro: Sight
 hp: 60682
-attack_damage: 5560
+attack_damage: 5564
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -16,7 +16,8 @@ vulnerabilities:
   stun: false
 abilities:
   - name: '11-tonze Swipe'
-    potency: 750
+    potency: 1000
+    type: Physical
     description: 'untelegraphed conal AoE; can be LoSed'
   - name: 'Hex'
     potency: n/a

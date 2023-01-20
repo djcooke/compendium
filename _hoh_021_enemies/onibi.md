@@ -7,7 +7,7 @@ start_floor: 21
 end_floor: 22
 agro: Proximity
 hp: 7165
-attack_damage: 908
+attack_damage: 920
 attack_type: Magic
 attack_name: Fire
 vulnerabilities:
