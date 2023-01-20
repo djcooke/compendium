@@ -7,8 +7,8 @@ start_floor: 76
 end_floor: 79
 patrol: true
 agro: Sight
-hp: 51000
-attack_damage: 4356
+hp: 52173
+attack_damage: 4353
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -19,8 +19,11 @@ vulnerabilities:
 abilities:
   - name: Pounce
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Cry
+    potency: 500
+    type: Magic
     description: 'large telegraphed pointblank AoE'
 job_specifics:
   DRK:

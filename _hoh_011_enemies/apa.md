@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Water III
     potency: 250
+    type: Magic
     description: 'telegraphed circle AoE (follows targeted player position)'
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

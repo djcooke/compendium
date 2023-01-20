@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Scale Ripple
     potency: 350
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts knockback'
 ---

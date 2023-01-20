@@ -6,8 +6,8 @@ image: mukai_inu.png
 start_floor: 81
 end_floor: 84
 agro: Proximity
-hp: 64000
-attack_damage: 6052
+hp: 64265
+attack_damage: 6070
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,15 +17,28 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'The Dragon''s Voice'
-    description: 'untelegraphed donut AoE - get IN. Can be interrupted'
+    potency: 800
+    type: Magic
+    description: 'untelegraphed donut AoE - get IN. Inflicts electrocution
+    (magic DoT potency 50, 30s) and paralysis (30s). Can be interrupted'
   - name: 'The Ram''s Voice'
-    description: 'untelegraphed pointblank AoE - get OUT. Can be interrupted'
+    potency: 800
+    type: Magic
+    description: 'untelegraphed pointblank AoE - get OUT. Inflicts frostbite
+    (magic DoT potency 50?) and deep freeze. Can be interrupted'
   - name: 'The Dragon''s Breath'
-    description: 'telegraphed conal AoE'
+    potency: 600
+    type: Unique
+    description: 'telegraphed conal AoE; inflicts paralysis (15s)'
   - name: 'The Lion''s Breath'
-    description: 'telegraphed conal AoE'
+    potency: 600
+    type: Unique
+    description: 'telegraphed conal AoE; inflicts burns (unique DoT potency 50,
+    21s)'
   - name: 'The Ram''s Breath'
-    description: 'telegraphed conal AoE'
+    potency: 600
+    type: Unique
+    description: 'telegraphed conal AoE; inflicts heavy (10s)'
 notes:
   - 'These mostly just spam abilities, doing very little auto-attack damage'
   - 'Try to stand behind it during Dragon''s Voice and Breath attacks to delay

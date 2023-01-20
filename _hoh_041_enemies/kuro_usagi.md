@@ -8,7 +8,7 @@ end_floor: 44
 patrol: true
 agro: Sight
 hp: 10524
-attack_damage: 972
+attack_damage: 1085
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Rockslide
     potency: 600
+    type: Magic
     description: 'telegraphed line AoE'
   - name: 'Earthen Heart'
     potency: 600
-    description: 'telegraphed circle AoE; inflicts burns (DoT potency 100,
-    15s)'
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts burns (magic DoT potency
+    100, 15s)'
 ---

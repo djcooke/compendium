@@ -15,7 +15,7 @@ hp: 12345 # Optional
 attack_name: Blizzard # Name of auto-attack, if applicable (mainly for
                       # casters); optional
 attack_damage: 3297 # Average auto-attack damage; optional
-attack_type: Physical # Physical, Magic, or Special; optional
+attack_type: Physical # Physical, Magic, or Unique; optional
 vulnerabilities: # For each, true=vulnerable, false=immune, otherwise unknown
   bind: true
   heavy: true

@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Aqua Blast
     potency: 300
-    description: 'large telegraphed conal AoE; inflicts dropsy (DoT potency 50,
-    15s)'
+    type: Magic
+    description: 'large telegraphed conal AoE; inflicts dropsy (magic DoT
+    potency 50, 15s)'
 ---

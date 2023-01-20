@@ -21,6 +21,7 @@ abilities:
     description: 'instant conal AoE; inflicts sleep (9s)'
   - name: Bubble Shower
     potency: 300
+    type: Magic
     description: 'telegraphed conal AoE; used immediately after Bubble Bath
     (order can change after the first time)'
 ---

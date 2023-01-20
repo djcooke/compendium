@@ -8,7 +8,7 @@ end_floor: 94
 patrol: true
 agro: Sight
 hp: 72326
-attack_damage: 6097
+attack_damage: 6030
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: 'Zoom In'
     potency: 150
+    type: Physical
     description: 'instant gap closer; used immediately on pull'
   - name: '16-tonze Swipe'
     potency: 100

@@ -5,8 +5,8 @@ image: mannenso.png
 start_floor: 61
 end_floor: 63
 agro: Sight
-hp: 35000
-attack_damage: 2868
+hp: 34707
+attack_damage: 2932
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: 'Adventitious Lash'
     potency: 120
+    type: Physical
     description: 'instant'
   - name: 'Anemochory'
     potency: n/a

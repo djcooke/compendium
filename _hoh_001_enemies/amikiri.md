@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Shuck
     potency: 300
-    description: 'tankbuster; inflicts concussion (DoT potency 50, 30s);
-    possible to outrange'
+    type: Physical
+    description: 'tankbuster; inflicts concussion (physical DoT potency 50,
+    30s); possible to outrange'
 ---

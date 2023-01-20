@@ -7,7 +7,7 @@ start_floor: 91
 end_floor: 94
 agro: Sight
 hp: 69191
-attack_damage: 5992
+attack_damage: 6285
 attack_type: Magic
 attack_name: Stone
 vulnerabilities:

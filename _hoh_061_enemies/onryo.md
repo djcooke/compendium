@@ -5,8 +5,8 @@ image: onryo.png
 start_floor: 61
 end_floor: 65
 agro: Proximity
-hp: 35000
-attack_damage: 3335
+hp: 35379
+attack_damage: 3350
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -16,10 +16,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Tentacle'
-    potency: 75?
-    description: 'instant; inflicts concussion (DoT potency 50, 15s)'
+    potency: 80
+    type: Physical
+    description: 'instant; inflicts concussion (physical DoT potency 50, 15s)'
   - name: 'Accursed Sigh'
-    description: 'telegraphed conal AoE'
+    potency: 800
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts reduced immunity (30s)'
 job_specifics:
   DRK:
     difficulty: Medium

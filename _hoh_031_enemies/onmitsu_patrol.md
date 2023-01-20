@@ -19,13 +19,16 @@ vulnerabilities:
 abilities:
   - name: 'Issen'
     potency: 120
+    type: Physical
     description: 'instant'
   - name: 'Juji Shuriken'
     potency: 550
-    description: 'telegraphed line AoE; inflicts flesh wound (DoT potency 50,
-    30s)'
+    type: Physical
+    description: 'telegraphed line AoE; inflicts flesh wound (physical DoT
+    potency 50, 30s)'
   - name: 'Harakiri'
     potency: 1500
+    type: Magic
     description: 'huge untelegraphed AoE enrage; long cast; can be LoSed. Used
     at 10% HP'
 ---

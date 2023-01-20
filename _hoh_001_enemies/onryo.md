@@ -6,7 +6,7 @@ start_floor: 3
 end_floor: 5
 agro: Proximity
 hp: 3036
-attack_damage: 304
+attack_damage: 305
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,5 +17,6 @@ vulnerabilities:
 abilities:
   - name: Tentacle
     potency: 80
-    description: 'instant; inflicts concussion (DoT potency 50, 15s)'
+    type: Physical
+    description: 'instant; inflicts concussion (physical DoT potency 50, 15s)'
 ---

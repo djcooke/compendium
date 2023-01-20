@@ -6,8 +6,8 @@ image: yak.png
 start_floor: 77
 end_floor: 79
 agro: Sight
-hp: 54000
-attack_damage: 5070
+hp: 53740
+attack_damage: 5057
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,11 +18,13 @@ vulnerabilities:
 abilities:
   - name: 'Khoomii'
     potency: n/a
-    description: 'draw-in that inflicts heavy; used exactly 30 seconds after
-    pull; knockback immunity works'
+    description: 'draws players in and inflicts an extreme heavy debuff (10s);
+    used 30 seconds after pull; can use knockback immunity'
   - name: 'Horrisonous Blast'
-    description: 'large pointblank AoE; used immediately after draw-in; can
-    be interrupted'
+    potency: 450
+    type: Magic
+    description: 'large telegraphed pointblank AoE; inflicts paralysis (30s);
+    can be interrupted. Used immediately after draw-in'
 job_specifics:
   DRK:
     difficulty: Easy

@@ -24,8 +24,10 @@ abilities:
     work under the Knockback Penalty enchantment'
   - name: Horrisonous Blast
     potency: 300
-    description: 'telegraphed pointblank AoE; inflicts paralysis (30s). Used
-    immediately after Khoomii, making it difficult to escape'
+    type: Magic
+    description: 'large telegraphed pointblank AoE; inflicts paralysis (30s);
+    can be interrupted. Used immediately after Khoomii, making it difficult to
+    escape'
 job_specifics:
   GNB:
     difficulty: Easy

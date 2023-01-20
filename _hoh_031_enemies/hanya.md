@@ -6,7 +6,7 @@ start_floor: 31
 end_floor: 35
 agro: Sight
 hp: 9180
-attack_damage: 955
+attack_damage: 967
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,8 +17,10 @@ vulnerabilities:
 abilities:
   - name: Morningstar
     potency: 130
-    description: 'instant; inflicts concussion (DoT potency 10, 15s)'
+    type: Physical
+    description: 'instant; inflicts concussion (physical DoT potency 10, 15s)'
   - name: Auto Crossbow
     potency: 600
+    type: Physical
     description: 'large telegraphed conal AoE'
 ---

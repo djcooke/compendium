@@ -7,7 +7,7 @@ start_floor: 81
 end_floor: 83
 agro: Sight
 hp: 60682
-attack_damage: 5560
+attack_damage: 5564
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,20 +17,22 @@ vulnerabilities:
   stun: unknown
 abilities:
   - name: Browbeat
-    potency: 120?
+    potency: 110
+    type: Physical
     description: 'instant'
   - name: Ripe Banana
     potency: n/a
-    description: 'grants physical damage up (100%?, 15s) to self; only used out
-    of combat. After using this, it will use Chest Thump every few seconds
-    until the buff expires'
+    description: 'grants physical damage up (100%, 15s) to self and heals ~15%
+    of max HP; only used out of combat. After using this, it will use Chest
+    Thump every few seconds until the buff expires'
   - name: Chest Thump
-    potency: n/a
+    potency: 30
+    type: Magic
     description: 'huge 1.5 room instant AoE that inflicts stacking physical
-    vulnerability up (10% per stack, max 5 stacks, 8s). Only used out of combat
+    vulnerability up (10% per stack, max 8 stacks, 8s). Only used out of combat
     during Ripe Banana'
 notes:
-  - Hits VERY hard
+  - 'Hits hard, and doesn''t stop to use abilities so the damage is constant'
   - DO NOT pull while it has the attack bonus
   - Be very careful fighting other enemies nearby
 job_specifics:

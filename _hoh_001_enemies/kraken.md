@@ -17,5 +17,6 @@ vulnerabilities:
 abilities:
   - name: Water III
     potency: 350
+    type: Magic
     description: 'telegraphed circle AoE'
 ---

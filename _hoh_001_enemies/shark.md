@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Jaws
     potency: 300
-    description: 'tankbuster; very high damage; possible to outrange'
+    type: Physical
+    description: 'tankbuster; possible to outrange'
 ---

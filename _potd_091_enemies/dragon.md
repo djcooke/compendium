@@ -21,6 +21,9 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; also used out of battle, with potency
     300'
+  - name: 'Chaos Breath (?)'
+    description: 'large telegraphed conal AoE; not used against solo
+    adventurers'
 notes:
   - 'Can appear on any floor from 91-99, but seems fairly rare in the earlier
     floors, and much more common in the later floors'

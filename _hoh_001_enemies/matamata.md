@@ -17,8 +17,10 @@ vulnerabilities:
 abilities:
   - name: Scalding Breath
     potency: 300
-    description: 'inflicts burns (DoT potency 50, 30s)'
+    type: Magic
+    description: 'inflicts burns (magic DoT potency 50, 30s)'
   - name: Embalming Earth
     potency: 200
+    type: Magic
     description: 'inflicts knockback; can be interrupted'
 ---

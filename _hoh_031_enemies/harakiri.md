@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: 'Harakiri'
     potency: 1600
+    type: Magic
     description: 'large untelegraphed AoE enrage (smaller than Onmitsu); long
     cast; can be LoSed. Used at 20% HP or 26 seconds after pull'
 ---

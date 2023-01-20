@@ -7,8 +7,8 @@ start_floor: 66
 end_floor: 69
 patrol: true
 agro: Sight
-hp: 38000
-attack_damage: 3738
+hp: 38290
+attack_damage: 3746
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,8 +18,12 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Creeping Ivy'
-    description: 'telegraphed conal AoE'
+    potency: 750
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts heavy (5s)'
   - name: 'Entangle'
+    potency: 750
+    type: Physical
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

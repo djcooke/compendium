@@ -6,7 +6,7 @@ start_floor: 27
 end_floor: 29
 agro: Proximity
 hp: 7613
-attack_damage: 642
+attack_damage: 646
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,9 +17,11 @@ vulnerabilities:
 abilities:
   - name: Lobe Runner
     potency: 130
+    type: Physical
     description: 'instant'
   - name: 1000 Barbs
     potency: 1000 damage
-    description: 'telegraphed line AoE; inflicts bleeding (DoT potency 150,
-    30s)'
+    type: Unique
+    description: 'telegraphed line AoE; inflicts bleeding (physical DoT potency
+    150, 30s)'
 ---

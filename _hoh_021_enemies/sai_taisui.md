@@ -6,7 +6,7 @@ start_floor: 22
 end_floor: 25
 agro: Sight
 hp: 7165
-attack_damage: 908
+attack_damage: 920
 attack_type: Magic
 vulnerabilities:
   bind: true

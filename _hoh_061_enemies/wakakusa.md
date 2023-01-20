@@ -6,8 +6,8 @@ image: wakakusa.png
 start_floor: 61
 end_floor: 63
 agro: Sound
-hp: 34000
-attack_damage: 2940
+hp: 34035
+attack_damage: 3003
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -16,8 +16,8 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'auto-attacks inflict stacking poison (DoT potency 10 per stack, max 8
-    stacks, 30s)'
+  - 'auto-attacks inflict stacking poison (physical DoT potency 10 per stack,
+    max 8 stacks, 30s)'
 job_specifics:
   DRK:
     difficulty: Medium

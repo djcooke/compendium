@@ -1,3 +1,11 @@
+- date: 2023-01-31
+  updates:
+    - 'Added damage types for HoH enemy abilities and filled in more HoH enemy
+    details, courtesy of vaxherd'
+    - 'Added PotD Onyx Dragon''s Chaos Breath party-only ability'
+    - 'Added notes for some PotD enemy abilities which target random players'
+    - 'Fixed kills/passage for HoH 31+ and 41+ (should be the same as PotD 41+
+    and 91+)'
 - date: 2023-01-21
   updates:
     - 'Added details for Deep Palace Diplocaulus and Mylodon AoE abilities'

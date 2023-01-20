@@ -18,8 +18,10 @@ vulnerabilities:
 abilities:
   - name: Salt Stomp
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Saltstorm
     potency: 350
+    type: Magic
     description: 'telegraphed conal AoE; inflicts accuracy down (30s)'
 ---

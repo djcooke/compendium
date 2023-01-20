@@ -18,5 +18,6 @@ vulnerabilities:
 abilities:
   - name: Hydrate
     potency: 300
+    type: Magic
     description: 'telegraphed conal AoE; inflicts knockback'
 ---

@@ -6,7 +6,7 @@ start_floor: 41
 end_floor: 45
 agro: Sight
 hp: 10524
-attack_damage: 972
+attack_damage: 973
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -17,8 +17,10 @@ vulnerabilities:
 abilities:
   - name: Straight Punch
     potency: 120
+    type: Physical
     description: 'instant'
   - name: Plain Pound
     potency: 400
+    type: Physical
     description: 'telegraphed pointblank AoE'
 ---

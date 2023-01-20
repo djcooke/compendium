@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: 'Shred'
     potency: 50
-    description: 'instant; inflicts stab wound (DoT potency 60, 30s)'
+    type: Physical
+    description: 'instant; inflicts stab wound (physical DoT potency 60, 30s)'
   - name: 'The Hand'
-    description: 'telegraphed conal AoE'
+    type: 900
+    description: 'telegraphed conal AoE; inflicts knockback'
 job_specifics:
   MCH:
     difficulty: Easy

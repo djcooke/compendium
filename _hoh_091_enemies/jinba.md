@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: 'Hard Thrust'
     potency: 90
+    type: Physical
     description: 'instant'
   - name: 'Allagan Fear'
     potency: n/a

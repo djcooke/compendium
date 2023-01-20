@@ -5,8 +5,8 @@ image: shitaibana.png
 start_floor: 66
 end_floor: 69
 agro: Sight
-hp: 36000
-attack_damage: 3115
+hp: 36275
+attack_damage: 3116
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -16,11 +16,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Bloody Caress'
-    potency: 120?
+    potency: 120
+    type: Physical
     description: 'instant'
   - name: 'Acid Mist'
     potency: n/a
-    description: 'untelegraphed instant conal AoE; inflicts poison'
+    description: 'instant pointblank AoE; inflicts stacking poison (unique DoT
+    potency 50 per stack, 30s)'
 job_specifics:
   DRK:
     difficulty: Easy

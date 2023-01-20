@@ -21,7 +21,10 @@ abilities:
     description: conal gaze AoE - look away, get behind, or get away
   - name: Miasma Breath
     potency: 300
-    description: telegraphed conal AoE; causes disease
+    description: telegraphed conal AoE; inflicts disease
+  - name: 'Chaos Breath (?)'
+    description: 'large telegraphed conal AoE; not used against solo
+    adventurers'
 job_specifics:
   GNB:
     difficulty: Easy
