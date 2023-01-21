@@ -17,9 +17,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Gold Dust
-    potency: n/a
-    description: 'telegraphed large circle AoE; inflicts poison (DoT potency
-    60, 15s)'
+    potency: 300
+    type: Magic
+    description: 'telegraphed large circle AoE; inflicts poison (magic DoT
+    potency 60, 15s)'
 job_specifics:
   SGE:
     difficulty: Easy

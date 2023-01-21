@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Catching Claws
     potency: 130
+    type: Physical
     description: 'instant'
 notes:
   - Hits pretty hard

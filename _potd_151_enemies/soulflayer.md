@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Mind Blast
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
   - name: Drain Touch
     potency: 130
+    type: Physical
     description: 'instant; absorbs 100% of damage dealt'
 notes:
   - Caster - kiting doesn't help to mitigate damage

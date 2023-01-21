@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Brow Horn
     potency: 130
+    type: Physical
     description: 'instant'
 notes:
   - Hits pretty hard

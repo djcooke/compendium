@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Rotting Bandages
     potency: 130?
+    type: Physical
     description: 'telegraphed conal AoE; probably inflicts stun (6s)'
 job_specifics:
   GNB:

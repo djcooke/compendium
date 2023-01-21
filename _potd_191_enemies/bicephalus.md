@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Glass Punch
     potency: 150
+    type: Physical
     description: 'instant'
   - name: Catapult
     description: 'telegraphed circle AoE'

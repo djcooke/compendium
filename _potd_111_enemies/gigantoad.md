@@ -19,11 +19,13 @@ vulnerabilities:
 abilities:
   - name: Sticky Tongue
     potency: 50
+    type: Physical
     description: 'instant; draws the target in, and inflicts stun (6s) if
     looking AWAY from the toad - be sure to face toward the toad so you can
     escape Labored Leap'
   - name: Labored Leap
     potency: 500
+    type: Physical
     description: 'telegraphed pointblank AoE; used immediately after Sticky
     Tongue'
 job_specifics:

@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Body Slam
     potency: 300
+    type: Physical
     description: 'telegraphed pointblank AoE'
   - name: Stone Gaze
     potency: n/a

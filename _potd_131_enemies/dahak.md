@@ -18,11 +18,13 @@ vulnerabilities:
 abilities:
   - name: 'Rotten Breath'
     potency: 120
+    type: Magic
     description: 'inflicts disease (30s)'
   - name: 'Tail Drive (?)'
     potency: 300
-    description: 'telegraphed backward conal AoE inflicting concussion (DoT
-    potency 30, 15s); used if someone is behind'
+    type: Physical
+    description: 'telegraphed backward conal AoE inflicting concussion
+    (physical DoT potency 30, 15s); used if someone is behind'
 job_specifics:
   SGE:
     difficulty: Easy

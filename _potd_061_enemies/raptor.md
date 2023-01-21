@@ -18,7 +18,9 @@ vulnerabilities:
 abilities:
   - name: Foul Breath
     potency: 300
-    description: 'telegraphed conal AoE; inflicts burns (DoT potency 30, 12s)'
+    type: Unique
+    description: 'telegraphed conal AoE; inflicts burns (unique DoT potency
+    30, 12s)'
 job_specifics:
   SGE:
     difficulty: Easy

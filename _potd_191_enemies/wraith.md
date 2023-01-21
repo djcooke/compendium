@@ -18,10 +18,12 @@ vulnerabilities:
 abilities:
   - name: Scream
     potency: 200
+    type: Magic
     description: 'huge telegraphed pointblank AoE; inflicts terror (10s); can
     be interrupted'
   - name: Accursed Pox
     potency: 400
+    type: Magic
     description: 'telegraphed circle AoE; inflicts disease (30s); can be
     interrupted. Also used outside of combat'
 notes:

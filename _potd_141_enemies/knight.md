@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Skullsplinter
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Ossify
     potency: n/a

@@ -17,9 +17,11 @@ vulnerabilities:
 abilities:
   - name: Sticky Tongue
     potency: 50
+    type: Physical
     description: 'instant; draws the target in'
   - name: Labored Leap
     potency: 500
+    type: Physical
     description: 'telegraphed pointblank AoE; used immediately after Sticky
     Tongue'
 job_specifics:

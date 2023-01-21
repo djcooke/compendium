@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Dark Thorn
     potency: 90
+    type: Magic
     description: 'telegraphed circle AoE; also used out of battle, with potency
     300'
 notes:

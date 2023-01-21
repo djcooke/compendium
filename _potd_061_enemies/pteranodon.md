@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Lightning Bolt
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

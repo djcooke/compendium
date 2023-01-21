@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Straight Punch
     potency: 130
+    type: Physical
     description: 'instant'
   - name: 'Elbow Drop'
     potency: 300
+    type: Physical
     description: 'telegraphed backward conal AoE; used when someone is behind'
 job_specifics:
   SGE:

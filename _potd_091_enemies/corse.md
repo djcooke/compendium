@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Glass Punch
     potency: 150
+    type: Physical
     description: 'instant'
 job_specifics:
   SGE:

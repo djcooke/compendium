@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Dark Dome
     potency: 90
+    type: Magic
     description: 'instant'
   - name: Charybdis
     potency: 90% of current HP
+    type: Unique
     description: 'enrage; can be interrupted'
 job_specifics:
   MCH:

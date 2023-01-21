@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Wild Charge
     potency: 130
+    type: Physical
     description: 'instant gap closer; used immediately on pull, and again when
     its damage down debuff (see next ability) wears off'
   - name: 'Bloodboil'
@@ -28,9 +29,11 @@ abilities:
     debuff (60%, 30s)'
   - name: Ripper Claw
     potency: 300
+    type: Physical
     description: 'untelegraphed conal AoE - don''t stand in front!'
   - name: Fireball
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 notes:
   - 'Hits pretty hard with the attack bonus'

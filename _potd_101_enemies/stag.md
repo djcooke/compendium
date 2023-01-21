@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Big Horn
     potency: 130
+    type: Physical
     description: 'instant'
 job_specifics:
   SGE:

@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Abyssal Transfixion
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Abyssal Swing
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
 job_specifics:
   SGE:

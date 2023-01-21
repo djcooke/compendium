@@ -20,6 +20,7 @@ vulnerabilities:
 abilities:
   - name: 'Death''s Door'
     potency: 400
+    type: Physical
     description: 'quick, long, narrow line AoE. It will spam this every few
     seconds'
 job_specifics:

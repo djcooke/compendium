@@ -21,6 +21,7 @@ abilities:
     description: 'grants physical damage up (50%, 20s) to self'
   - name: Rear
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE'
 job_specifics:
   SGE:

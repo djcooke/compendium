@@ -19,12 +19,16 @@ vulnerabilities:
 abilities:
   - name: 'The Dragon''s Breath'
     potency: 300
+    type: Unique
     description: 'telegraphed conal AoE; inflicts paralysis (15s)'
   - name: 'The Lion''s Breath'
     potency: 300
-    description: 'telegraphed conal AoE; inflicts burns (DoT potency 50, 21s)'
+    type: Unique
+    description: 'telegraphed conal AoE; inflicts burns (unique DoT potency
+    50, 21s)'
   - name: 'The Ram''s Breath'
     potency: 300
+    type: Unique
     description: 'telegraphed conal AoE; inflicts heavy (10s)'
 notes:
   - 'Can appear on any floor from 81-89, but seems fairly rare in the earlier

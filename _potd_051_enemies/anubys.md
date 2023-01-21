@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Spellsword
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
 job_specifics:
   SGE:

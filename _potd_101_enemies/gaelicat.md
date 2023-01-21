@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Scratch Fever
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Yowl
     potency: n/a

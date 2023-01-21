@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Sanguine Bite
     potency: 130
+    type: Physical
     description: 'instant; absorbs 100% of damage dealt'
 job_specifics:
   SGE:

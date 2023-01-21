@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Triclip
     potency: 120
+    type: Physical
     description: 'instant'
 job_specifics:
   SGE:

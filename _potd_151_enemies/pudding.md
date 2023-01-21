@@ -20,6 +20,7 @@ vulnerabilities:
 abilities:
   - name: Amorphic Flail
     potency: 130
+    type: Physical
     description: 'instant pointblank AoE'
 notes:
   - 'Caster, but also does melee attacks if you''re close. Keeping distance

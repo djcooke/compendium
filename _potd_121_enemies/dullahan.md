@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Iron Justice
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: 'Blade of Suffering'
     potency: n/a

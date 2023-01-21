@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Tornado
     potency: 120
+    type: Magic
     description: 'untelegraphed circle AoE; can be interrupted, but it''s a
     very quick cast'
 job_specifics:

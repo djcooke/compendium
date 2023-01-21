@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Beatdown
     potency: 130
+    type: Physical
     description: 'instant'
   - name: 'Dirty Sneeze'
     potency: 130?

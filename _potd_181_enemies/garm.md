@@ -29,12 +29,15 @@ abilities:
     interrupted'
   - name: 'The Dragon''s Breath'
     potency: 300?
+    type: Unique
     description: 'telegraphed conal AoE'
   - name: 'The Lion''s Breath'
     potency: 300?
+    type: Unique
     description: 'telegraphed conal AoE'
   - name: 'The Ram''s Breath'
     potency: 300?
+    type: Unique
     description: 'telegraphed conal AoE'
 notes:
   - 'These mostly just spam abilities, doing very little auto-attack damage'

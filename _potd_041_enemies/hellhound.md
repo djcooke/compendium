@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Ravenous Bite
     potency: 110
+    type: Physical
     description: 'instant'
 job_specifics:
   SGE:

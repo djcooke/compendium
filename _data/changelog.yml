@@ -1,3 +1,9 @@
+- date: 2023-01-19
+  updates:
+    - 'Added damage types for PotD enemy abilities, courtesy of vaxherd'
+    - 'Fixed missing damage for Deep Palace Ochu and Abaia AoE abilities'
+    - 'Fixed description of Kirtimukha''s Rotten Stench (not a guaranteed
+    one-shot)'
 - date: 2023-01-18
   updates:
     - 'Added icons for physical/magic/unique damage types - currently visible

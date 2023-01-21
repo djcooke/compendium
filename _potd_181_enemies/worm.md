@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Sand Pillar
     potency: 120
+    type: Magic
     description: 'instant circle AoE. Also used out of combat, with potency 75;
     be very careful if there are several worms nearby, as getting hit by a few
     of these at once could kill you'

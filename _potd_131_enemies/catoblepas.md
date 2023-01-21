@@ -23,6 +23,7 @@ abilities:
     away, get behind, or get away'
   - name: 'Jettatura'
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

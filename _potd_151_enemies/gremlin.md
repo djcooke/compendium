@@ -21,6 +21,7 @@ abilities:
     description: 'instant; inflicts vulnerability up (25%, 10s)'
   - name: Fire II
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   GNB:

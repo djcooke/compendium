@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Butterfly Float
     potency: 150
+    type: Physical
     description: 'instant gap closer'
 job_specifics:
   SGE:

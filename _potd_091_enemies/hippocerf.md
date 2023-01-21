@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Shriek
     potency: 200
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts stun (6s)'
 job_specifics:
   SGE:

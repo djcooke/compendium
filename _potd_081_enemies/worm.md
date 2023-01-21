@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: 'Sand Cyclone'
     potency: 90
-    description: 'instant; inflicts sludge (DoT potency 20, 12s)'
+    type: Magic
+    description: 'instant; inflicts sludge (magic DoT potency 20, 12s)'
   - name: Sand Breath
     potency: 300
+    type: Unique
     description: 'telegraphed conal AoE; inflicts blind (10s)'
 job_specifics:
   SGE:

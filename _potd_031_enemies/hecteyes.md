@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Hex Eye
     potency: 200
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts paralysis (15s)'
 job_specifics:
   SGE:

@@ -23,6 +23,7 @@ abilities:
     description: 'untelegraphed wide line AoE - DO NOT stand in front'
   - name: 100-tonze Swing
     potency: 600?
+    type: Physical
     description: 'untelegraphed pointblank AoE inflicting knockback - get away'
 job_specifics:
   GNB:

@@ -21,6 +21,7 @@ abilities:
     description: 'instant'
   - name: Shriek
     potency: 200
+    type: Magic
     description: 'telegraphed pointblank AoE; probably inflicts stun (6s)'
 job_specifics:
   GNB:

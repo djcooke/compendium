@@ -19,10 +19,12 @@ vulnerabilities:
 abilities:
   - name: Eye of the Beholder
     potency: 300
+    type: Magic
     description: 'huge untelegraphed 270 degree donut AoE inflicting
-    electrocution (DoT potency 30, 12s) - get in or get behind'
+    electrocution (magic DoT potency 30, 12s) - get in or get behind'
   - name: 100-tonze Swing
     potency: 600
+    type: Physical
     description: 'untelegraphed pointblank AoE; inflicts knockback'
 job_specifics:
   SGE:

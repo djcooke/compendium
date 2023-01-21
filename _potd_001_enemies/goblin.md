@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Bomb Toss
     potency: 200
+    type: Magic
     description: 'either a telegraphed circle AoE, or an untelegraphed
     pointblank AoE which also damages the goblin itself'
 job_specifics:

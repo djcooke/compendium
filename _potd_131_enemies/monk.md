@@ -23,6 +23,7 @@ abilities:
     description: 'large untelegraphed pointblank AoE; draws players in'
   - name: Flood
     potency: 350
+    type: Magic
     description: 'telegraphed pointblank AoE; used immediately after Sucker'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

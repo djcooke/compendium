@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Tortoise Stomp
     potency: 500
+    type: Physical
     description: 'large telegraphed pointblank AoE'
 job_specifics:
   SGE:

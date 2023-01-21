@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Dark Mist
     potency: 300
+    type: Magic
     description: 'large telegraphed pointblank AoE; inflicts terror (10s)'
   - name: Void Fire II
     potency: 300
+    type: Magic
     description: 'telegraphed circle AoE; used immediately after Dark Mist'
 job_specifics:
   SGE:

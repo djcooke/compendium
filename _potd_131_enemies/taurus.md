@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Triclip
     potency: 120
+    type: Physical
     description: 'instant'
   - name: Voidblood
     potency: n/a

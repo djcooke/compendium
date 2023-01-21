@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Thunderstrike
     potency: 300
+    type: Magic
     description: 'telegraphed line AoE'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'

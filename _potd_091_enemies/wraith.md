@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Scream
     potency: 200
+    type: Magic
     description: 'huge telegraphed pointblank AoE; inflicts terror (15s); can
     be interrupted'
 job_specifics:

@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Filoplumes
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Revelation
     potency: 300
+    type: Physical
     description: 'telegraphed circle AoE; inflicts confused (10s)'
   - name: Tropical Wind
     potency: n/a

@@ -20,11 +20,12 @@ vulnerabilities:
 abilities:
   - name: Ice Spikes
     potency: n/a
-    description: 'Grants counterattack (potency 200, 5s) to self; can be
+    description: 'Grants counterattack (magic potency 200, 5s) to self; can be
     interrupted. Recommended to interrupt or disengage immediately. The damage
     can kill you very quickly'
   - name: Void Blizzard
     potency: 130
+    type: Magic
     description: 'Inflicts slow (20s); can be interrupted. It only has medium
     range, so you can also run away to avoid it'
 notes:

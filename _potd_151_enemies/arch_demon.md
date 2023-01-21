@@ -19,10 +19,12 @@ vulnerabilities:
 abilities:
   - name: Abyssal Swing
     potency: 300
+    type: Physical
     description: 'telegraphed conal AoE. Try to stay very near or far when
     paralyzed, so you don''t get caught in the middle of this'
   - name: Abyssal Transfixion
     potency: 130
+    type: Physical
     description: 'instant; inflicts paralysis (30s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to

@@ -19,9 +19,11 @@ vulnerabilities:
 abilities:
   - name: Regorge
     potency: 130
-    description: 'instant; inflicts poison (DoT potency 60, 15s)'
+    type: Magic
+    description: 'instant; inflicts poison (magic DoT potency 60, 15s)'
   - name: Devour
     potency: 100% of max HP
+    type: Unique
     description: 'instant death; only used if you are a toad'
 job_specifics:
   SGE:

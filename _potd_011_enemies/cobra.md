@@ -21,6 +21,7 @@ abilities:
     description: '360 degree gaze inflicting petrify (15s) - look away'
   - name: Devour
     potency: 100% of max HP
+    type: Unique
     description: 'instant death; only used if you are a toad'
 job_specifics:
   SGE:

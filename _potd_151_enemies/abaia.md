@@ -18,7 +18,8 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Terror Eye
-    potency: n/a
+    potency: 300
+    type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
   - name: 'Triumphant Roar'
     potency: n/a

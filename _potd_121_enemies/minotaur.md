@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: '111-tonze Swing'
     potency: 600
+    type: Physical
     description: 'untelegraphed pointblank AoE; inflicts knockback'
 job_specifics:
   SGE:

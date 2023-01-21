@@ -19,6 +19,7 @@ vulnerabilities:
 abilities:
   - name: Beatdown
     potency: 130
+    type: Physical
     description: 'instant'
 job_specifics:
   SGE:

@@ -18,9 +18,11 @@ vulnerabilities:
 abilities:
   - name: Underbite
     potency: 130
+    type: Physical
     description: 'instant'
   - name: Primordial Roar
     potency: 300
+    type: Magic
     description: 'telegraphed pointblank AoE; inflicts stun (4s)'
 job_specifics:
   SGE:

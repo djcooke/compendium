@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Wild Horn
     potency: 200
+    type: Physical
     description: 'large telegraphed conal AoE; inflicts knockback'
 job_specifics:
   SGE:
