@@ -18,7 +18,8 @@ vulnerabilities:
 abilities:
   - name: Enter Night
     potency: n/a
-    description: 'draws players in'
+    description: 'draws players in; cannot be LoSed, but walls will block
+    movement as usual'
   - name: Shadow Fang
     potency: 250
     type: Physical
