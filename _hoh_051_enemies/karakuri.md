@@ -6,7 +6,7 @@ image: karakuri.png
 start_floor: 56
 end_floor: 58
 agro: Sight
-hp: 22392
+hp: 22839
 attack_damage: 2213
 attack_type: Physical
 vulnerabilities:

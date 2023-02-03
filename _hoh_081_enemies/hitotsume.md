@@ -17,7 +17,10 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Glower'
-    description: 'untelegraphed wide line AoE - get to the side or behind'
+    potency: 900
+    type: Magic
+    description: 'untelegraphed wide line AoE inflicting paralysis - get to the
+    side or behind'
   - name: '100-tonze Swing'
     description: 'untelegraphed pointblank AoE inflicting knockback - get away;
     can also be LoSed'

@@ -9,7 +9,6 @@ agro: Sound
 hp: 34707
 attack_damage: 3231
 attack_type: Physical
-attack_name: Seedvolley
 vulnerabilities:
   bind: true
   heavy: true
@@ -17,13 +16,17 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
+  - name: Seedvolley
+    potency: 100
+    type: Physical
+    description: 'instant ranged attack'
   - name: 'Swift Sough'
     potency: 800
     type: Magic
-    description: 'telegraphed conal AoE'
+    description: 'telegraphed conal AoE; inflicts knockback'
 notes:
-  - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
-  Witching since it doesn''t normally do melee auto-attacks'
+  - 'Will not come into melee range if you stay away from it, doing very little
+    damage'
 job_specifics:
   DRK:
     difficulty: Easy
