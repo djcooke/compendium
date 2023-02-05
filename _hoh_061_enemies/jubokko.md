@@ -23,7 +23,8 @@ abilities:
     description: 'telegraphed conal AoE'
   - name: 'Stoneskin'
     potency: n/a
-    description: 'grants stoneskin; only used on other nearby enemies'
+    description: 'grants stoneskin (5% of max HP, 30m); only used on other
+    nearby enemies'
 job_specifics:
   DRK:
     difficulty: Easy

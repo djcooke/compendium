@@ -17,7 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Ancient Aero
-    potency: 120
+    potency: 120 (x3)
     type: Magic
-    description: 'instant (possibly line AoE?)'
+    description: 'instant (possibly line AoE?); used 3 times in a row'
 ---
