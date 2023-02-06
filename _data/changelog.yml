@@ -7,6 +7,8 @@
     - 'Added notes for some PotD enemy abilities which target random players'
     - 'Fixed kills/passage for HoH 31+ and 41+ (should be the same as PotD 41+
     and 91+)'
+    - 'Fixed PotD 181+ Garm Voice ability descriptions (additional effects were
+    swapped)'
 - date: 2023-01-21
   updates:
     - 'Added details for Deep Palace Diplocaulus and Mylodon AoE abilities'
