@@ -19,9 +19,9 @@ abilities:
   - name: Sand Pillar
     potency: 120
     type: Magic
-    description: 'instant circle AoE. Also used out of combat, with potency 75;
-    be very careful if there are several worms nearby, as getting hit by a few
-    of these at once could kill you'
+    description: 'instant circle AoE on random player. Also used out of combat,
+    with potency 75; be very careful if there are several worms nearby, as
+    getting hit by a few of these at once could kill you'
   - name: Bottomless Desert
     potency: 20
     description: 'quick huge pointblank AoE; draws players in. Knockback

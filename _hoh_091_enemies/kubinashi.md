@@ -17,13 +17,20 @@ vulnerabilities:
   stun: false
 abilities:
   - name: 'Iron Justice'
-    description: 'Cleave'
+    potency: 120
+    type: Physical
+    description: 'cleave'
   - name: 'Drainstrikes'
     potency: n/a
-    description: 'grants drainstrikes (30s) - attacks drain HP from target,
-    healing self'
+    description: 'grants drainstrikes (3m), causing auto-attacks to heal self
+    for 28.6% of damage dealt'
   - name: 'Cloudcover'
     description: 'telegraphed circle AoE; can be interrupted'
+  - name: '?'
+    description: 'grants stacking damage up (+10% per stack)'
+  - name: 'Black Nebula'
+    description: 'untelegraphed enrage; used about 1 minute after pull; can be
+    interrupted'
 notes:
   - 'Each time it grows, it gains a stacking damage up buff'
   - note: 'Pattern:'

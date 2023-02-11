@@ -19,7 +19,7 @@ abilities:
   - name: Cannonball
     potency: 130
     type: Magic
-    description: 'instant ranged attack'
+    description: 'instant ranged attack on random player'
 job_specifics:
   GNB:
     difficulty: Easy

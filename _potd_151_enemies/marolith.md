@@ -24,7 +24,7 @@ abilities:
   - name: Isle Drop
     potency: 300
     type: Physical
-    description: 'telegraphed circle AoE; inflicts stun (5s)'
+    description: 'telegraphed circle AoE on random player; inflicts stun (5s)'
 job_specifics:
   GNB:
     difficulty: Easy

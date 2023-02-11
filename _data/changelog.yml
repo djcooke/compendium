@@ -1,3 +1,11 @@
+- date: 2023-02-11
+  updates:
+    - 'Added more enemy ability details, courtesy of vaxherd'
+    - 'Added Deep Palace Gourmand''s Inhale ability'
+    - 'Onyx Dragon does not seem to use Chaos Breath on floor 191+'
+    - 'Fixed Chest Thump effect (5% vulnerability up, not 10%)'
+    - 'Noted that Heavenly Mukai-inu''s Ram''s/Dragon''s Voice can be
+    interrupted by impeding traps'
 - date: 2023-02-05
   updates:
     - 'Added damage types for HoH enemy abilities and filled in more HoH enemy

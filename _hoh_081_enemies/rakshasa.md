@@ -32,6 +32,8 @@ abilities:
     type: Physical
     description: 'untelegraphed conal AoE - get away or behind'
   - name: Fireball
+    potency: 400
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   DRK:

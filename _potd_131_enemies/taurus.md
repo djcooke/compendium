@@ -22,8 +22,8 @@ abilities:
     description: 'instant'
   - name: Voidblood
     potency: n/a
-    description: 'telegraphed circle AoE that inflicts Voidblood (increases
-    damage taken); not used vs. solo adventurers'
+    description: 'telegraphed circle AoE that inflicts Voidblood (damage taken
+    +10%, 30s); not used against solo adventurers'
 job_specifics:
   SGE:
     difficulty: Easy

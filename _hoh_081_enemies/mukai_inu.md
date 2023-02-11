@@ -43,6 +43,8 @@ notes:
   - 'These mostly just spam abilities, doing very little auto-attack damage'
   - 'Try to stand behind it during Dragon''s Voice and Breath attacks to delay
   its next auto-attack'
+  - 'Voice and Breath abilities are all treated as spells, so an impeding trap
+  can interrupt one in an emergency'
 job_specifics:
   DRK:
     difficulty: Easy
