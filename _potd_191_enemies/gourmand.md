@@ -20,10 +20,15 @@ abilities:
     potency: 130
     type: Physical
     description: 'instant'
-  - name: 'Dirty Sneeze'
-    potency: 130?
-    description: 'instant; only used against lower-enmity party members (not
-    used against solo adventurers)'
+  - name: Inhale
+    potency: n/a
+    description: 'instant conal AoE draw-in; inflicts stun (2s). Only used
+    against lower-enmity party members (not used against solo adventurers)'
+  - name: Dirty Sneeze
+    potency: 70
+    type: Magic
+    description: 'instant conal AoE; used immediately after Inhale on the same
+    target'
 job_specifics:
   GNB:
     difficulty: Medium

@@ -29,7 +29,7 @@ abilities:
     potency: 30
     type: Magic
     description: 'huge 1.5 room instant AoE that inflicts stacking physical
-    vulnerability up (10% per stack, max 8 stacks, 8s). Only used out of combat
+    vulnerability up (5% per stack, max 8 stacks, 8s). Only used out of combat
     during Ripe Banana'
 notes:
   - 'Hits hard, and doesn''t stop to use abilities so the damage is constant'

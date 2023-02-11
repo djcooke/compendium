@@ -22,6 +22,8 @@ abilities:
     description: 'untelegraphed wide line AoE inflicting paralysis - get to the
     side or behind'
   - name: '100-tonze Swing'
+    potency: 1000
+    type: Physical
     description: 'untelegraphed pointblank AoE inflicting knockback - get away;
     can also be LoSed'
 job_specifics:

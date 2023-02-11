@@ -28,7 +28,7 @@ abilities:
   - name: Tail Screw
     potency: 150
     type: Magic
-    description: 'inflicts slow (20s); can be outranged'
+    description: 'untelegraphed pointblank AoE; inflicts slow (20s)'
 notes:
   - 'Does a draw-in that inflicts Prey status followed by Impale. Knockback
     immunity does not work, but draw-in will not work on floors with knockback

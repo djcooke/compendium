@@ -21,12 +21,13 @@ vulnerabilities:
 abilities:
   - name: Level 5 Death
     potency: n/a
-    description: 'untelegraphed conal AoE causing instant death - get behind,
-    or get away'
+    description: 'untelegraphed conal AoE on random player inflicting instant
+    death - get behind or get away'
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Can be slowed if transfigured via Pomander of Witching'
   - 'Interrupts spell casts very often'
+  - 'Stay close when in parties to avoid being caught out by random targeting'
 job_specifics:
   GNB:
     difficulty: Easy

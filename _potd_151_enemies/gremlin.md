@@ -18,7 +18,7 @@ vulnerabilities:
 abilities:
   - name: Bad Mouth
     potency: n/a
-    description: 'instant; inflicts vulnerability up (25%, 10s)'
+    description: 'inflicts vulnerability up (25%, 10s) on random player'
   - name: Fire II
     potency: 300
     type: Magic

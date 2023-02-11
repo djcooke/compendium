@@ -21,7 +21,8 @@ abilities:
     type: Physical
     description: 'instant'
   - name: 'Dirty Sneeze'
-    potency: 130?
+    potency: 100
+    type: Magic
     description: 'instant; only used against lower-enmity party members (not
     used against solo adventurers)'
 job_specifics:

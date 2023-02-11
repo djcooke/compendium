@@ -29,8 +29,10 @@ abilities:
     potency: n/a
     description: 'instant conal AoE draw-in'
   - name: 'Moldy Sneeze'
-    description: 'telegraphed conal AoE; used immediately after draw-in; actual
-    AoE may be wider than the telegraph - get behind!'
+    potency: 800
+    type: Magic
+    description: 'telegraphed conal AoE; inflicts disease. Used immediately
+    after Inhale; actual AoE may be wider than the telegraph - get behind!'
 notes:
   - note: 'Rotation:'
     subnotes:

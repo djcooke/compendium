@@ -20,7 +20,7 @@ abilities:
   - name: Glass Punch
     potency: 150
     type: Physical
-    description: 'instant'
+    description: 'instant conal AoE'
   - name: Catapult
     description: 'telegraphed circle AoE'
 job_specifics:

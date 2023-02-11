@@ -20,7 +20,7 @@ abilities:
   - name: Abyssal Transfixion
     potency: 130
     type: Physical
-    description: 'instant'
+    description: 'instant ranged attack'
   - name: Abyssal Swing
     potency: 300
     type: Physical

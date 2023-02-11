@@ -20,7 +20,8 @@ abilities:
   - name: Terror Eye
     potency: 300
     type: Magic
-    description: 'telegraphed circle AoE; also used out of combat'
+    description: 'telegraphed circle AoE; can be interrupted. Also used out of
+    combat'
   - name: 'Triumphant Roar'
     potency: n/a
     description: 'grants physical damage up (80%, 30s) to self; used 47 seconds

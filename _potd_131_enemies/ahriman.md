@@ -20,10 +20,11 @@ vulnerabilities:
 abilities:
   - name: Level 5 Petrify
     potency: n/a
-    description: 'untelegraphed conal AoE inflicting petrify (15s) - get behind
-    or get away'
+    description: 'untelegraphed conal AoE on random player inflicting petrify
+    (15s) - get behind or get away'
 notes:
   - 'Can be slowed if transfigured via Pomander of Witching'
+  - 'Stay close when in parties to avoid being caught out by random targeting'
 job_specifics:
   SGE:
     difficulty: Medium

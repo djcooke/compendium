@@ -20,6 +20,8 @@ abilities:
     type: Physical
     description: 'instant'
   - name: Plain Pound
+    potency: 1000
+    type: Physical
     description: 'telegraphed circle AoE'
   - name: Flex
     potency: n/a

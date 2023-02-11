@@ -19,8 +19,8 @@ abilities:
   - name: Sanguine Bite
     potency: 130
     type: Physical
-    description: 'instant; absorbs 100% of damage dealt; inflicts frostbite
-    (physical DoT potency 50, 12s)'
+    description: 'instant conal AoE; absorbs 100% of damage dealt; inflicts
+    frostbite (physical DoT potency 50, 12s)'
 notes:
   - Hits pretty hard
   - 'Doesn''t stop to use any abilities, so the damage is constant'
