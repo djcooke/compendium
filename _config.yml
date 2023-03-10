@@ -96,6 +96,15 @@ collections:
     output: false
   hoh_091_enemies:
     output: false
+  eo_floorsets:
+    output: true
+    max_floor: 100
+  eo_001_enemies:
+    output: false
+  eo_011_enemies:
+    output: false
+  eo_021_enemies:
+    output: false
 
 defaults:
   - scope:
@@ -106,6 +115,11 @@ defaults:
   - scope:
       path: ""
       type: "hoh_floorsets"
+    values:
+      layout: "floorset"
+  - scope:
+      path: ""
+      type: "eo_floorsets"
     values:
       layout: "floorset"
 

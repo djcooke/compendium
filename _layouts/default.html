@@ -31,10 +31,20 @@
           <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
           <ul>
             {% for floorset in site.hoh_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-            </li>
-          {% endfor %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div id="eoMenu" class="submenu">
+          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
+          <ul>
+            {% for floorset in site.eo_floorsets %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+              </li>
+            {% endfor %}
           </ul>
         </div>
         <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
