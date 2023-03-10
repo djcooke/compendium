@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: true
   sleep: '?'
   slow: '?'
-  stun: '?'
+  stun: true
 abilities:
   - name: '?'
     description: 'huge pointblank AoE with late telegraph; inflicts

@@ -2,6 +2,8 @@
 - date: 2023-03-10
   updates:
     - 'Added Eureka Orthos floors 31-40'
+    - 'Added sleep/stun vulnerability status for several EO mobs, courtesy of
+    Kess (Discord: Raz🦊#0274)'
 - date: 2023-03-09
   updates:
     - 'First batch of Eureka Orthos (EO) data added: floors 1-30'

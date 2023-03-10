@@ -12,7 +12,7 @@ vulnerabilities:
   heavy: false
   sleep: '?'
   slow: '?'
-  stun: '?'
+  stun: false
 abilities:
   - name: Swinge
     description: 'Conal AoE with late telegraph - get behind'

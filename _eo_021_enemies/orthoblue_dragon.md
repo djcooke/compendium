@@ -11,5 +11,5 @@ vulnerabilities:
   heavy: false
   sleep: '?'
   slow: '?'
-  stun: '?'
+  stun: false
 ---
