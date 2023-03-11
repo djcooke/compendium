@@ -26,7 +26,8 @@ job_specifics:
   MCH:
     difficulty: Hard
     notes:
-      - Steel required
+      - 'Steel recommended'
+      - 'Can bind and retreat out of casting range for some recovery time'
   PLD:
     difficulty: Easy
   RDM:
