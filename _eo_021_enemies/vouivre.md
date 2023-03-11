@@ -10,7 +10,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: '?'
-  slow: '?'
+  slow: true
   stun: true
 abilities:
   - name: '?'

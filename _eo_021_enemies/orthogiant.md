@@ -4,12 +4,12 @@ nickname: Orthogiant
 start_floor: 21
 end_floor: 23
 patrol: true
-agro: '?'
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: '?'
-  heavy: '?'
+  bind: true
+  heavy: true
   sleep: '?'
-  slow: '?'
+  slow: true
   stun: '?'
 ---

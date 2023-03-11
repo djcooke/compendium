@@ -10,6 +10,6 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: true
-  slow: '?'
+  slow: true
   stun: false
 ---

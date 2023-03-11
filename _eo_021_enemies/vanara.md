@@ -11,6 +11,6 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: '?'
-  slow: '?'
+  slow: true
   stun: false
 ---

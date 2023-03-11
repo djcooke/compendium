@@ -7,9 +7,9 @@ end_floor: 24
 agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: '?'
+  bind: false
   heavy: true
   sleep: '?'
-  slow: '?'
+  slow: true
   stun: '?'
 ---
