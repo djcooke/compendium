@@ -8,10 +8,10 @@ patrol: true
 agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
 abilities:
   - name: Forearming

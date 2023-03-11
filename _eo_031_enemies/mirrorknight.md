@@ -11,7 +11,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Double Hex eye

@@ -10,7 +10,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: "Dragon's Voice"

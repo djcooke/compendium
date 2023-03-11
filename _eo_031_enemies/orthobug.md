@@ -10,6 +10,9 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
+abilities:
+  - name: Leech
+    description: "instant; drains HP"
 ---

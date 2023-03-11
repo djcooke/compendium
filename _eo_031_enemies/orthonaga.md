@@ -5,13 +5,13 @@ image: naga.png
 start_floor: 34
 end_floor: 35
 patrol: true
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Cursed Gaze

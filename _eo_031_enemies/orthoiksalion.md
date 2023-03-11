@@ -7,10 +7,10 @@ end_floor: 33
 agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Wind Spout

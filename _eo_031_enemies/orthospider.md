@@ -7,10 +7,10 @@ end_floor: 35
 agro: Sound
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Particle Collision

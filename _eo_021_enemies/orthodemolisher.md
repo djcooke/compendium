@@ -1,6 +1,7 @@
 ---
 name: Orthodemolisher
 nickname: Orthodemolisher
+image: demolisher.png
 start_floor: 21
 end_floor: 22
 agro: Proximity

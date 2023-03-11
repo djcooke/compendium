@@ -11,6 +11,7 @@ vulnerabilities:
   sleep: unknown
   slow: unknown
   stun: unknown
+gallery_only: true
 notes:
   - Dread beast
 ---
