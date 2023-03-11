@@ -15,4 +15,8 @@ vulnerabilities:
 abilities:
   - name: Rear
     description: 'telegraphed pointblank AoE'
+  - name: Berserk
+    potency: n/a
+    description: 'grants physical damage up (200%, 12s) to self; only used out
+    of combat'
 ---

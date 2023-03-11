@@ -5,14 +5,17 @@ image: grenade.png
 start_floor: 3
 end_floor: 5
 agro: 'Sight'
+attack_damage: 1389
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
   sleep: '?'
   slow: '?'
-  stun: '?'
+  stun: true
 abilities:
   - name: 'Big Burst'
-    description: 'Pointblank AoE with late telegraph - get away'
+    potency: 5000
+    type: Magic
+    description: 'pointblank AoE with late telegraph - get away'
 ---

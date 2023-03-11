@@ -14,7 +14,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Double Hex eye
+  - name: Double Hex Eye
     description: '360 degree gaze - look away'
   - name: Knowing Gleam
     description: 'telegraphed circle AoE'

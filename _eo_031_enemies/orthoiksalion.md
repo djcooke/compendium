@@ -16,5 +16,5 @@ abilities:
   - name: Wind Spout
     description: telegraphed circle AoE
   - name: Tailwind
-    description: grants damage up to another enemy
+    description: 'grants damage up (100%, 1m) to another enemy'
 ---

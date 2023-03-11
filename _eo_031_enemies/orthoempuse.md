@@ -14,6 +14,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Kneeling Snath
+    potency: 200
+    type: Physical
     description: 'Inflicts knockback; if the target is close, runs behind the
     target to use this'
 ---

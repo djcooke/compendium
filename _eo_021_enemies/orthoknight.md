@@ -5,18 +5,22 @@ image: orthoknight.png
 start_floor: 23
 end_floor: 25
 agro: Sight
+hp: 131480
+attack_damage: 2973
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: '?'
+  sleep: false
   slow: true
-  stun: '?'
+  stun: true
 abilities:
   - name: Electromagnetism
-    description: 'Large pointblank AoE with late telegraph; draws players in -
+    description: 'large pointblank AoE with late telegraph; draws players in -
     get away'
-  - name: '?'
-    description: 'Untelegraphed pointblank AoE; used immediately after
+  - name: 'Headspin (?)'
+    potency: 1000
+    type: Physical
+    description: 'untelegraphed pointblank AoE; used immediately after
     Electromagnetism'
 ---

@@ -14,7 +14,12 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Particle Collision
-    description: 'pointblank AoE with late telegraph'
+    potency: 800
+    type: Magic
+    description: 'pointblank AoE with late telegraph; inflicts minimum (20s)'
   - name: Needle Spaser
-    description: '?'
+    potency: 150
+    type: Magic
+    description: 'instant death to players with minimum debuff; cannot be
+    outranged'
 ---

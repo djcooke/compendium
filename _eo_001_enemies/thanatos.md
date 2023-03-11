@@ -5,11 +5,18 @@ image: thanatos.png
 start_floor: 8
 end_floor: 9
 agro: 'Sound'
+hp: 78296
+attack_damage: 1454
 attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
   sleep: '?'
   slow: '?'
-  stun: '?'
+  stun: true
+abilities:
+  - name: Iron Justice
+    potency: 2000
+    type: Physical
+    description: 'telegraphed conal AoE'
 ---
