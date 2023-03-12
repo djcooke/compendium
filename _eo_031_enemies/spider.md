@@ -1,7 +1,7 @@
 ---
 name: Orthospider
 nickname: Spider
-image: orthospider.png
+image: spider.png
 start_floor: 32
 end_floor: 35
 agro: Sound

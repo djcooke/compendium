@@ -1,7 +1,7 @@
 ---
 name: Orthoshelled Dragon
 nickname: Shelled Dragon
-image: orthoshelled_dragon.png
+image: shelled_dragon.png
 start_floor: 28
 end_floor: 29
 agro: Sight

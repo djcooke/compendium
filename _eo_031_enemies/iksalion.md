@@ -1,7 +1,7 @@
 ---
 name: Orthoiksalion
 nickname: Iksalion
-image: orthoiksalion.png
+image: iksalion.png
 start_floor: 31
 end_floor: 33
 agro: Sight

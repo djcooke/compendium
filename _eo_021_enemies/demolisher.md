@@ -1,12 +1,12 @@
 ---
 name: Orthodemolisher
-nickname: Orthodemolisher
+nickname: Demolisher
 image: demolisher.png
 start_floor: 21
 end_floor: 22
 agro: Proximity
 hp: 131480
-attack_damage: 2939
+attack_damage: 2941
 attack_type: Magic
 vulnerabilities:
   bind: false

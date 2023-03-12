@@ -1,7 +1,7 @@
 ---
 name: 'Orthosystem β'
-nickname: Orthosystem
-image: orthosystem.png
+nickname: System
+image: system.png
 start_floor: 16
 end_floor: 17
 agro: Proximity

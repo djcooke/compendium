@@ -1,12 +1,12 @@
 ---
 name: Orthosoldier
-nickname: Orthosoldier
-image: orthosoldier.png
+nickname: Soldier
+image: soldier.png
 start_floor: 15
 end_floor: 17
 agro: Sight
 hp: 110257
-attack_damage: 2118
+attack_damage: 2117
 attack_type: Physical
 vulnerabilities:
   bind: false

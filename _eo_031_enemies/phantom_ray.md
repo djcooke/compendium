@@ -1,7 +1,7 @@
 ---
 name: Phantom Orthoray
-nickname: Orthoray
-image: orthoray.png
+nickname: Phantom Ray
+image: phantom_ray.png
 start_floor: 36
 end_floor: 39
 patrol: true

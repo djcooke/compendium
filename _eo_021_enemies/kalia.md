@@ -1,7 +1,7 @@
 ---
 name: Orthokalia
-nickname: Orthokalia
-image: orthokalia.png
+nickname: Kalia
+image: kalia.png
 start_floor: 28
 end_floor: 29
 agro: Sight

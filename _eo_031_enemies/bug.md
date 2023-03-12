@@ -1,7 +1,7 @@
 ---
 name: Orthobug
 nickname: Bug
-image: orthobug.png
+image: bug.png
 start_floor: 31
 end_floor: 32
 agro: Proximity
