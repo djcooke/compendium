@@ -4,7 +4,7 @@ nickname: Spriggan
 image: spriggan.png
 start_floor: 42
 end_floor: 45
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: true

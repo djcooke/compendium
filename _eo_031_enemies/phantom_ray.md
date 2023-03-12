@@ -15,7 +15,8 @@ vulnerabilities:
   stun: unknown
 abilities:
   - name: Forearming
-    description: 'huge, wide conal AoE with late telegraph - get behind'
+    description: 'huge, wide conal AoE with late telegraph - get behind; can
+    also be LoSed'
   - name: Atmospheric Displacement
     description: 'pointblank AoE with late telegraph - get away'
 ---
