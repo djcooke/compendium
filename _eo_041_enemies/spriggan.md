@@ -1,15 +1,16 @@
 ---
 name: Orthos Spriggan
 nickname: Spriggan
+image: spriggan.png
 start_floor: 42
 end_floor: 45
 agro: unknown
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Frenetic Flurry

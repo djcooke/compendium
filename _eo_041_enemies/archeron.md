@@ -1,16 +1,17 @@
 ---
 name: Orthos Archeron
 nickname: Archeron
+image: archeron.png
 start_floor: 41
 end_floor: 43
 patrol: true
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Dominion Slash

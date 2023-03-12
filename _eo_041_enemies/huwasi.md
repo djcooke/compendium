@@ -1,13 +1,14 @@
 ---
 name: Orthos Huwasi
 nickname: Huwasi
+image: huwasi.png
 start_floor: 41
-end_floor: 42
-agro: unknown
+end_floor: 43
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
   slow: unknown
   stun: false

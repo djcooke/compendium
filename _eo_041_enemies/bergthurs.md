@@ -1,15 +1,16 @@
 ---
 name: Orthos Bergthurs
 nickname: Bergthurs
+image: bergthurs.png
 start_floor: 41
 end_floor: 44
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Freezeover
