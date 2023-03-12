@@ -5,17 +5,23 @@ image: demolisher.png
 start_floor: 21
 end_floor: 22
 agro: Proximity
-attack_type: Physical
+hp: 131480
+attack_damage: 2939
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: '?'
+  sleep: false
   slow: '?'
-  stun: '?'
+  stun: false
 abilities:
-  - name: '?'
-    description: "telegraphed line AoE"
-  - name: "Self-Detonate"
-    description: "huge sacrificial pointblank AoE with late telegraph; used at
-    low HP; can be LoSed"
+  - name: Assault Cannon
+    potency: 1100
+    type: Magic
+    description: 'telegraphed line AoE'
+  - name: Self-detonate
+    potency: 2000
+    type: Magic
+    description: 'huge pointblank AoE sacrificial enrage; can be LoSed. Used at
+    30% HP'
 ---

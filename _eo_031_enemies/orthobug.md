@@ -11,8 +11,10 @@ vulnerabilities:
   heavy: true
   sleep: unknown
   slow: true
-  stun: unknown
+  stun: true
 abilities:
   - name: Leech
-    description: "instant; drains HP"
+    potency: 160
+    type: Magic
+    description: 'instant; absorbs 74.8% of damage dealt'
 ---

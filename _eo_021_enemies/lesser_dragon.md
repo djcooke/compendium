@@ -6,16 +6,20 @@ start_floor: 24
 end_floor: 26
 patrol: true
 agro: Sight
+hp: 131480
+attack_damage: 2963
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: '?'
+  sleep: false
   slow: true
   stun: false
 abilities:
   - name: Swinge
-    description: 'Conal AoE with late telegraph - get behind'
+    potency: 1200
+    type: Physical
+    description: 'huge conal AoE with late telegraph - get behind'
 notes:
   - 'Stay close so you can easily dodge Swinge'
 ---
