@@ -7,10 +7,10 @@ end_floor: 39
 agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Rear

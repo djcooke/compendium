@@ -3,14 +3,14 @@ name: Orthopredator
 nickname: Predator
 image: predator.png
 start_floor: 36
-end_floor: 37
+end_floor: 38
 agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Appendicular Disseverment
