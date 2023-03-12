@@ -8,9 +8,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Scissor Run
     description: "instant 3-hit attack"

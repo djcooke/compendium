@@ -9,9 +9,9 @@ attack_name: Blizzard
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: '?'
     description: "untelegraphed pointblank AoE used AFTER DEATH - get away

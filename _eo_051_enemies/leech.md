@@ -8,9 +8,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Acid Mist
     description: "instant; inflicts vulnerability up (20s)"

@@ -8,9 +8,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Sewer Water
     description: "huge 180 degree AoE in front - get behind"
