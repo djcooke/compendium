@@ -15,7 +15,7 @@ vulnerabilities:
   slow: '?'
   stun: true
 abilities:
-  - 'Skewer (?)'
+  - name: 'Skewer (?)'
     potency: 175
     type: Physical
     description: 'instant'

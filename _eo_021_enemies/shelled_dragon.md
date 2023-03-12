@@ -18,7 +18,7 @@ abilities:
   - name: Diamondback
     potency: n/a
     description: 'grants permanent vulnerability down (33%) to self; can be
-    interrupted. Used immediately after pull'
+    interrupted. Usually (but NOT always!) used immediately after pull'
   - name: Tortoise Stomp
     potency: 1500
     type: Physical

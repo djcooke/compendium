@@ -19,5 +19,5 @@ abilities:
     potency: 1000
     type: Magic
     description: 'telegraphed line AoE; inflicts frostbite (magic DoT potency
-    40, 20s)
+    40, 20s)'
 ---
