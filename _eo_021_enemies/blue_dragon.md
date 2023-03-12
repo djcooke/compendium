@@ -1,7 +1,7 @@
 ---
 name: Orthoblue Dragon
 nickname: Dragon
-image: orthoblue_dragon.png
+image: blue_dragon.png
 start_floor: 25
 end_floor: 27
 agro: 'Sight'

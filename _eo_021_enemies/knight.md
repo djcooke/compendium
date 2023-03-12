@@ -1,7 +1,7 @@
 ---
 name: Orthoknight
-nickname: Orthoknight
-image: orthoknight.png
+nickname: Knight
+image: knight.png
 start_floor: 23
 end_floor: 25
 agro: Sight

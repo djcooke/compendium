@@ -1,7 +1,7 @@
 ---
 name: Orthohunter
-nickname: Orthohunter
-image: orthohunter.png
+nickname: Hunter
+image: hunter.png
 start_floor: 18
 end_floor: 19
 agro: Sight

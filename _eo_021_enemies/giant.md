@@ -1,6 +1,6 @@
 ---
 name: Orthogiant
-nickname: Orthogiant
+nickname: Giant
 image: giant.png
 start_floor: 21
 end_floor: 23
