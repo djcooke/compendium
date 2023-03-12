@@ -1,8 +1,8 @@
 ---
-name: Orthos Oceanus
-nickname: Oceanus
-start_floor: 51
-end_floor: 53
+name: Orthos Basilisk
+nickname: Basilisk
+start_floor: 65
+end_floor: 67
 agro: unknown
 attack_type: Physical
 vulnerabilities:
@@ -12,8 +12,8 @@ vulnerabilities:
   slow: unknown
   stun: true
 abilities:
-  - name: Scale Ripple
+  - name: Stone Gaze
+    description: "conal gaze AoE - look away, get behind, or get away"
+  - name: Body Slam
     description: "telegraphed pointblank AoE"
-  - name: Douse
-    description: "telegraphed circle AoE"
 ---

@@ -1,4 +1,9 @@
 
+- date: 2023-03-12
+  updates:
+    - 'Added Eureka Orthos floors 61-70'
+    - 'Sleep/stun vulnerabilities for the above courtesy of Kess (Discord:
+    Raz🦊#0274)'
 - date: 2023-03-11
   updates:
     - 'Added EO enemy details, partly courtesy of vaxherd'
