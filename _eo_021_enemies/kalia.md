@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: false
   sleep: false
   slow: true
-  stun: '?'
+  stun: false
 abilities:
   - name: Nerve Gas
     potency: 1250

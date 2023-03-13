@@ -12,10 +12,12 @@ attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: '?'
+  sleep: true
   slow: '?'
   stun: false
 abilities:
   - name: Dread Gaze
-    description: 'conal gaze attack - look away, get behind, or get away'
+    potency: n/a
+    description: 'conal gaze inflicting paralysis (22s) - look away, get
+    behind, or get away'
 ---

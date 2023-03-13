@@ -16,7 +16,13 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Dragon Breath
-    description: 'telegraphed line AoE'
+    potency: 2000
+    type: Magic
+    description: 'telegraphed line AoE; inflicts stacking poison (magic DoT
+    potency 40 per stack, max 8 stacks, 18s)'
   - name: Toxic Vomit
-    description: 'telegraphed circle AoE'
+    potency: 2000
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts stacking poison (magic DoT
+    potency 40 per stack, max 8 stacks, 18s)'
 ---

@@ -5,11 +5,12 @@ image: reptoid.png
 start_floor: 37
 end_floor: 39
 agro: Sight
+attack_damage: 5300
 attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: true
   slow: true
   stun: true
 abilities:

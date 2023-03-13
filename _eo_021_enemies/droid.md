@@ -6,7 +6,7 @@ start_floor: 24
 end_floor: 25
 agro: 'Sight'
 hp: 132864
-attack_damage: 2941
+attack_damage: 2945
 attack_type: Magic
 attack_name: Aetherochemical Laser
 vulnerabilities:

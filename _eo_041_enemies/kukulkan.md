@@ -3,7 +3,9 @@ name: Orthos Kukulkan
 nickname: Kukulkan
 start_floor: 46
 end_floor: 49
-agro: unknown
+agro: Sight
+hp: 173692
+attack_damage: 4993
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,8 +15,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Bombination
-    description: "huge pointblank AoE with late telegraph; inflicts
-    vulnerability up; only used out of combat"
+    potency: 200
+    type: Magic
+    description: "huge pointblank AoE with late telegraph; inflicts stacking
+    vulnerability up (10% per stack, 30s); only used out of combat"
   - name: Aetherial Blast
     description: "telegraphed line AoE"
 ---

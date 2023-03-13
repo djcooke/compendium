@@ -20,5 +20,7 @@ abilities:
     type: Magic
     description: 'instant'
   - name: Condemnation
+    potency: 3000
+    type: Magic
     description: 'telegraphed conal AoE'
 ---

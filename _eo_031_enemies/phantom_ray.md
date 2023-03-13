@@ -6,17 +6,25 @@ start_floor: 36
 end_floor: 39
 patrol: true
 agro: Sight
+hp: 164004
+attack_damage: 4207
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: true
-  stun: unknown
+  stun: false
 abilities:
   - name: Forearming
-    description: 'huge, wide conal AoE with late telegraph - get behind; can
-    also be LoSed'
+    potency: 5000
+    type: Magic
+    description: 'huge frontal 180 degree AoE with late telegraph - get behind;
+    can also be LoSed'
   - name: Atmospheric Displacement
     description: 'pointblank AoE with late telegraph - get away'
+  - name: Rapid Sever
+    potency: 120
+    type: Physical
+    description: 'instant'
 ---

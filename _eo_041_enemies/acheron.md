@@ -1,11 +1,13 @@
 ---
-name: Orthos Archeron
-nickname: Archeron
+name: Orthos Acheron
+nickname: Acheron
 image: archeron.png
 start_floor: 41
 end_floor: 43
 patrol: true
 agro: Sight
+hp: 168848
+attack_damage: 5511
 attack_type: Physical
 vulnerabilities:
   bind: false

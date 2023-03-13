@@ -11,7 +11,7 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: '?'
+  sleep: false
   slow: '?'
   stun: false
 abilities:

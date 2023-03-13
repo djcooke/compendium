@@ -5,11 +5,12 @@ image: empuse.png
 start_floor: 38
 end_floor: 39
 agro: Sound
+attack_damage: 5300
 attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: true
   slow: true
   stun: true
 abilities:

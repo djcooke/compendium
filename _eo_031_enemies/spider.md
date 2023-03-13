@@ -5,11 +5,12 @@ image: spider.png
 start_floor: 32
 end_floor: 35
 agro: Sound
+attack_damage: 3727
 attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: false
   slow: true
   stun: true
 abilities:
