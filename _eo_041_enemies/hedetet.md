@@ -3,8 +3,8 @@ name: Orthos Hedetet
 nickname: Hedetet
 image: hedetet.png
 start_floor: 43
-end_floor: 45
-agro: Sound
+end_floor: 46
+agro: Sight
 hp: 173692
 attack_damage: 5635
 attack_type: Physical

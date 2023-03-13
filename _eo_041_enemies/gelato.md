@@ -17,5 +17,6 @@ abilities:
   - name: Amorphic Flail
     description: "telegraphed pointblank AoE"
   - name: Explosion
-    description: "huge untelegraphed sacrificial AoE enrage; can be LoSed"
+    description: "huge untelegraphed sacrificial AoE enrage; can be LoSed. Used
+    at 30% HP"
 ---
