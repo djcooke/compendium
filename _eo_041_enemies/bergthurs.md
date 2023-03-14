@@ -5,6 +5,8 @@ image: bergthurs.png
 start_floor: 41
 end_floor: 44
 agro: Proximity
+hp: 168848
+attack_damage: 5511
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -16,6 +18,8 @@ abilities:
   - name: Freezeover
     description: "telegraphed circle AoE"
   - name: Elbow Drop
-    description: "untelegraphed AoE behind enemy; only used when someone is
-    behind"
+    potency: 3000
+    type: Physical
+    description: "untelegraphed backward conal AoE with quick cast; only used
+    when someone is behind"
 ---

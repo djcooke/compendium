@@ -5,11 +5,13 @@ image: bug.png
 start_floor: 31
 end_floor: 32
 agro: Proximity
+hp: 160544
+attack_damage: 3722
 attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: false
   slow: true
   stun: true
 abilities:

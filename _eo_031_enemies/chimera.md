@@ -5,11 +5,12 @@ image: chimera.png
 start_floor: 36
 end_floor: 39
 agro: Proximity
+attack_damage: 5263
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: true
   stun: false
 abilities:

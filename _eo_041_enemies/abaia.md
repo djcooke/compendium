@@ -5,14 +5,18 @@ image: abaia.png
 start_floor: 41
 end_floor: 42
 agro: Sight
+hp: 168848
+attack_damage: 5511
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Oculus
+    potency: 3000
+    type: Magic
     description: "telegraphed circle AoE"
 ---

@@ -5,12 +5,13 @@ image: grenade.png
 start_floor: 3
 end_floor: 5
 agro: 'Sight'
+hp: 71542
 attack_damage: 1389
 attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
-  sleep: '?'
+  sleep: true
   slow: '?'
   stun: true
 abilities:

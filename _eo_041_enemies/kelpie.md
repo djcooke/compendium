@@ -4,7 +4,9 @@ nickname: Kelpie
 start_floor: 44
 end_floor: 45
 patrol: true
-agro: unknown
+agro: Sight
+hp: 169540
+attack_damage: 4237
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -14,8 +16,14 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Gallop
+    potency: 120
+    type: Physical
     description: "charge attack on marked player; can be LoSed"
-  - name: '?'
-    description: "Instant death(?); Used after Gallop if Gallop was not
-    stunned/slept/LoSed"
+  - name: Bloody Puddle
+    description: "untelegraphed large pointblank AoE; used after Gallop if
+    Gallop was not stunned/slept/LoSed"
+  - name: Torpedo
+    potency: 150
+    type: Physical
+    description: "instant"
 ---

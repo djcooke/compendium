@@ -12,7 +12,7 @@ attack_name: Water
 vulnerabilities:
   bind: false
   heavy: true
-  sleep: '?'
+  sleep: true
   slow: '?'
   stun: true
 ---

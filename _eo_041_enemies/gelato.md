@@ -3,7 +3,9 @@ name: Orthos Gelato
 nickname: Gelato
 start_floor: 47
 end_floor: 49
-agro: unknown
+agro: Sight
+hp: 173692
+attack_damage: 5643
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -15,5 +17,6 @@ abilities:
   - name: Amorphic Flail
     description: "telegraphed pointblank AoE"
   - name: Explosion
-    description: "huge untelegraphed sacrificial AoE enrage; can be LoSed"
+    description: "huge untelegraphed sacrificial AoE enrage; can be LoSed. Used
+    at 30% HP"
 ---

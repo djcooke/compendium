@@ -6,6 +6,7 @@ start_floor: 4
 end_floor: 6
 patrol: true
 agro: 'Sight'
+hp: 71542
 attack_damage: 991
 attack_type: Physical
 vulnerabilities:
@@ -20,5 +21,7 @@ abilities:
     type: Physical
     description: 'instant'
   - name: Grim Halo
-    description: 'telegraphed pointblank AoE'
+    potency: 3000
+    type: Physical
+    description: 'telegraphed pointblank AoE; inflicts knockback'
 ---

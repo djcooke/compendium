@@ -1,9 +1,11 @@
 ---
-name: Orthos Goobue
-nickname: Goobue
+name: Orthos Goobbue
+nickname: Goobbue
 start_floor: 45
 end_floor: 47
-agro: unknown
+agro: Sight
+hp: 171616
+attack_damage: 5603
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -12,7 +14,8 @@ vulnerabilities:
   slow: unknown
   stun: false
 abilities:
-  - name: '?'
+  - name: Inhale
+    potency: n/a
     description: "untelegraphed conal AoE draw-in"
   - name: Sickly Sneeze
     description: "untelegraphed conal AoE; used immediately after draw-in - get

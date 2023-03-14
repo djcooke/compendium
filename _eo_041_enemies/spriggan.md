@@ -5,6 +5,8 @@ image: spriggan.png
 start_floor: 42
 end_floor: 45
 agro: Sight
+hp: 169540
+attack_damage: 4126
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -14,7 +16,12 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Frenetic Flurry
+    potency: 300
+    type: Physical
     description: "instant; spams this under haste"
+  - name: Haste
+    potency: n/a
+    description: "grants haste (1m30s) to self; used 20 seconds after pull"
 job_specifics:
   MCH:
     notes:
