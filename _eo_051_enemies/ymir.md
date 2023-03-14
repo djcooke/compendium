@@ -4,6 +4,8 @@ nickname: Ymir
 start_floor: 51
 end_floor: 54
 agro: Sight
+hp: 227668
+attack_damage: 7146
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -13,6 +15,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Gelid Charge
-    description: "grants counterattack - disengage IMMEDIATELY or the
-    counterattacks WILL kill you"
+    potency: n/a
+    description: "grants counterattack (magic potency 4000, 6s) - disengage
+    IMMEDIATELY or the counterattacks WILL kill you"
+notes:
+  - "Gelid Charge only counters physical attacks, so casters can keep casting
+    as usual - just be careful not to auto-attack"
 ---

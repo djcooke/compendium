@@ -5,6 +5,7 @@ image: spider.png
 start_floor: 32
 end_floor: 35
 agro: Sound
+hp: 161236
 attack_damage: 3727
 attack_type: Physical
 vulnerabilities:

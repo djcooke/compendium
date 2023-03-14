@@ -5,6 +5,7 @@ image: reptoid.png
 start_floor: 37
 end_floor: 39
 agro: Sight
+hp: 165388
 attack_damage: 5300
 attack_type: Physical
 vulnerabilities:

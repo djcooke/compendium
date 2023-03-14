@@ -2,8 +2,9 @@
 name: Orthos Bombfish
 nickname: Bombfish
 start_floor: 56
-end_floor: 56
-agro: unknown
+end_floor: 58
+agro: Sight
+attack_damage: 6714
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -11,4 +12,7 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: unknown
+abilities:
+  - name: 1000 Spines
+    description: "telegraphed pointblank AoE"
 ---

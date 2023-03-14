@@ -5,6 +5,8 @@ start_floor: 51
 end_floor: 54
 patrol: true
 agro: Sight
+hp: 222132
+attack_damage: 6874
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -13,7 +15,13 @@ vulnerabilities:
   slow: unknown
   stun: false
 abilities:
+  - name: Jaws
+    potency: 130
+    type: Physical
+    description: "instant"
   - name: Aqua Spear
+    potency: 4000
+    type: Physical
     description: "telegraphed charge attack; can be LoSed (and will otherwise
     kill you)"
 ---

@@ -2,7 +2,7 @@
 name: Orthos Mudman
 nickname: Mudman
 start_floor: 46
-end_floor: 48
+end_floor: 49
 agro: Proximity
 hp: 169540
 attack_damage: 4344

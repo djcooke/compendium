@@ -5,6 +5,7 @@ start_floor: 63
 end_floor: 65
 patrol: true
 agro: unknown
+attack_damage: 11401
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -15,8 +16,8 @@ vulnerabilities:
 abilities:
   - name: '?'
     description: "untelegraphed conal AoE with no cast bar - get behind when he
-    we brings his arm back"
+    brings his arm back"
   - name: '?'
-    description: "untelegraphed conal AoE behind with no cast bar - get in
+    description: "untelegraphed backward conal AoE with no cast bar - get in
     front when he raises his tail"
 ---

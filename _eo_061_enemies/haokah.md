@@ -1,9 +1,10 @@
 ---
-name: Hoakah Perfected
-nickname: Hoakah
+name: Haokah Perfected
+nickname: Haokah
 start_floor: 66
 end_floor: 69
-agro: unknown
+agro: Sight
+attack_damage: 4893
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,5 +14,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Spinning Kick
-    description: "instant; inflicts knockback"
+    potency: 150
+    type: Physical
+    description: "instant pointblank AoE; inflicts knockback"
 ---

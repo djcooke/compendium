@@ -4,6 +4,7 @@ nickname: Oceanus
 start_floor: 51
 end_floor: 53
 agro: Sight
+attack_damage: 6388
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -12,6 +13,10 @@ vulnerabilities:
   slow: unknown
   stun: true
 abilities:
+  - name: "Fang's End"
+    potency: 160
+    type: Physical
+    description: "instant"
   - name: Scale Ripple
     description: "telegraphed pointblank AoE"
   - name: Douse
