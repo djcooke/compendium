@@ -3,7 +3,7 @@ name: Orthos Leech
 nickname: Leech
 start_floor: 53
 end_floor: 56
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown

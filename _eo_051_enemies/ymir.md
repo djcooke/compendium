@@ -3,13 +3,13 @@ name: Orthos Ymir
 nickname: Ymir
 start_floor: 51
 end_floor: 54
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Gelid Charge

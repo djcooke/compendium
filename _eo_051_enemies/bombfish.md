@@ -6,9 +6,9 @@ end_floor: 56
 agro: unknown
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: unknown
 ---

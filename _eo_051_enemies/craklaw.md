@@ -3,7 +3,7 @@ name: Orthos Craklaw
 nickname: Craklaw
 start_floor: 57
 end_floor: 57
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown

@@ -3,11 +3,11 @@ name: Orthos Big Claw
 nickname: Big Claw
 start_floor: 55
 end_floor: 58
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

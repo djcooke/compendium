@@ -4,11 +4,11 @@ nickname: Rockfin
 start_floor: 51
 end_floor: 54
 patrol: true
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false

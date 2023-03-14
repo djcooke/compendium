@@ -3,13 +3,13 @@ name: Orthos Banshee
 nickname: Banshee
 start_floor: 52
 end_floor: 55
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Whisper of Our Discontent
