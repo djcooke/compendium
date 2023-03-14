@@ -13,5 +13,6 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Sewer Water
-    description: "huge 180 degree AoE in front - get behind"
+    description: "huge 180 degree AoE in front, followed by 180 degree AoE
+    behind - get behind, then quickly in front"
 ---
