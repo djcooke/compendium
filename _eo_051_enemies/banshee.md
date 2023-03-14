@@ -4,6 +4,7 @@ nickname: Banshee
 start_floor: 52
 end_floor: 55
 agro: Proximity
+attack_damage: 6188
 attack_type: Physical
 vulnerabilities:
   bind: false

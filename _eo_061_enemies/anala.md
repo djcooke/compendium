@@ -4,6 +4,7 @@ nickname: Anala
 start_floor: 65
 end_floor: 68
 agro: Sight
+attack_damage: 8435
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -11,4 +12,11 @@ vulnerabilities:
   sleep: true
   slow: unknown
   stun: true
+abilities:
+  - name: Abacinate
+    potency: 30 (x4)
+    type: Physical
+    description: "instant 4-hit attack"
+  - name: Ring of Fire
+    description: "telegraphed circle AoE"
 ---

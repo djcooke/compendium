@@ -13,6 +13,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: The Killing Paw
-    description: "telegraphed conal AoE that hits a second time after a short
-    delay - make sure to stay behind/away until the second swipe"
+    description: "telegraphed conal AoE"
+  - name: Savage Swipe
+    potency: 4000
+    type: Physical
+    description: "untelegraphed instant conal AoE used immediately after The
+    Killing Paw - make sure to stay behind/away until the second swipe"
 ---

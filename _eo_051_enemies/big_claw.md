@@ -4,6 +4,8 @@ nickname: Big Claw
 start_floor: 55
 end_floor: 58
 agro: Sight
+hp: 211752
+attack_damage: 6408
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -13,8 +15,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Bubble Shower
-    description: "telegraphed conal AoE"
+    description: "telegraphed large conal AoE"
   - name: Crab Dribble
-    description: "conal AoE behind with late telegraph - get in front; used
-    after Bubble Shower if someone is behind"
+    description: "small backward conal AoE with late telegraph - get in front;
+    used after Bubble Shower if someone is behind"
 ---

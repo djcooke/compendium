@@ -1,10 +1,11 @@
 ---
 name: Orthos Hoarhound
 nickname: Hoarhound
-start_floor: 47
+start_floor: 46
 end_floor: 49
 patrol: true
 agro: Sight
+hp: 175076
 attack_damage: 5641
 attack_type: Physical
 vulnerabilities:

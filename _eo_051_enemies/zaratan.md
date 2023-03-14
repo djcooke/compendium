@@ -3,7 +3,8 @@ name: Orthos Zaratan
 nickname: Zaratan
 start_floor: 57
 end_floor: 59
-agro: unknown
+agro: Sound
+attack_damage: 7636
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,6 +14,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Sewer Water
-    description: "huge 180 degree AoE in front, followed by 180 degree AoE
-    behind - get behind, then quickly in front"
+    description: "telegraphed large frontal 180 degree AoE, immediately
+    followed by an untelegraphed large backward 180 degree AoE - get behind,
+    then quickly in front"
 ---

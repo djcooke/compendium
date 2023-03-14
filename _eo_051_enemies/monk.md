@@ -4,7 +4,8 @@ nickname: Monk
 start_floor: 56
 end_floor: 58
 patrol: true
-agro: unknown
+agro: Proximity
+attack_damage: 8225
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -14,6 +15,7 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Sucker
+    potency: n/a
     description: "huge untelegraphed pointblank draw-in"
   - name: Water III
     description: "telegraphed pointblank AoE; used immediately after Sucker"

@@ -3,7 +3,8 @@ name: Orthos Piranu
 nickname: Piranu
 start_floor: 57
 end_floor: 59
-agro: unknown
+agro: Sight
+attack_damage: 4889
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,6 +14,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Flounder
+    potency: 160
     type: Physical
     description: "instant"
 ---

@@ -3,7 +3,8 @@ name: Orthos Basilisk
 nickname: Basilisk
 start_floor: 65
 end_floor: 67
-agro: unknown
+agro: Sight
+attack_damage: 11417
 attack_type: Physical
 vulnerabilities:
   bind: unknown

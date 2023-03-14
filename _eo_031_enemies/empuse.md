@@ -5,6 +5,7 @@ image: empuse.png
 start_floor: 38
 end_floor: 39
 agro: Sound
+hp: 165388
 attack_damage: 5300
 attack_type: Physical
 vulnerabilities:
