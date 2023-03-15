@@ -3,7 +3,7 @@ name: Orthonaga
 nickname: Naga
 image: naga.png
 start_floor: 34
-end_floor: 35
+end_floor: 36
 patrol: true
 agro: Sight
 hp: 162620
