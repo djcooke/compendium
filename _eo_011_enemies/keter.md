@@ -20,4 +20,9 @@ abilities:
     potency: 1500
     type: Physical
     description: 'telegraphed conal AoE; inflicts knockback'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

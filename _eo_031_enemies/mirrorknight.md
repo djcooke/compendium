@@ -20,4 +20,9 @@ abilities:
     description: '360 degree gaze - look away'
   - name: Knowing Gleam
     description: 'telegraphed circle AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

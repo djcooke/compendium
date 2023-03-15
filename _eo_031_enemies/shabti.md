@@ -19,4 +19,11 @@ abilities:
     description: 'telegraphed line AoE'
   - name: Spellsword
     description: 'telegraphed conal AoE'
+notes:
+  - "Death's Door has a normal cast time, not a quick cast like in PotD/HoH"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

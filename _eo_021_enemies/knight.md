@@ -23,4 +23,13 @@ abilities:
     type: Physical
     description: 'untelegraphed pointblank AoE; used immediately after
     Electromagnetism'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Dangerous for multipulls unless you use Lethargy"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Dangerous for multipulls unless you use Lethargy"
 ---

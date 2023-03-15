@@ -18,4 +18,9 @@ vulnerabilities:
 abilities:
   - name: Water III
     description: "telegraphed pointblank AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

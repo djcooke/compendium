@@ -20,4 +20,12 @@ abilities:
     type: Physical
     description: "instant; inflicts heavy (8s) which cannot be removed with
     Esuna"
+notes:
+  - "Be careful when other enemies are around because you may not be able to
+    dodge AoEs while heavied"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

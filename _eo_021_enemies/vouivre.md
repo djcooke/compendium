@@ -24,4 +24,9 @@ abilities:
     type: Magic
     description: 'huge pointblank AoE with late telegraph; inflicts stacking
     vulnerability up (15% per stack, 30s); only used out of combat'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

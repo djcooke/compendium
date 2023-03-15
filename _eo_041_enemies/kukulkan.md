@@ -22,4 +22,9 @@ abilities:
     vulnerability up (10% per stack, 30s); only used out of combat"
   - name: Aetherial Blast
     description: "telegraphed line AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

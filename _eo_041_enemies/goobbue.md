@@ -17,8 +17,14 @@ vulnerabilities:
 abilities:
   - name: Inhale
     potency: n/a
-    description: "untelegraphed conal AoE draw-in"
+    description: "untelegraphed conal AoE draw-in; knockback immunity does not
+    work"
   - name: Sickly Sneeze
     description: "untelegraphed conal AoE; used immediately after draw-in - get
     behind"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

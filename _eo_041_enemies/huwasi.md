@@ -19,4 +19,9 @@ abilities:
     description: "telegraphed circle AoE"
   - name: Landslip
     description: "telegraphed conal AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

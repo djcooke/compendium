@@ -19,4 +19,9 @@ abilities:
     potency: 160
     type: Magic
     description: 'instant; absorbs 74.8% of damage dealt'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

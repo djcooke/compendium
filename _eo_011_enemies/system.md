@@ -20,4 +20,9 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; inflicts heavy (15s). Diminishing
     returns do NOT apply to this heavy (it is always 15s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

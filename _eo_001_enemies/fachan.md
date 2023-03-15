@@ -20,4 +20,9 @@ abilities:
     potency: n/a
     description: 'conal gaze inflicting paralysis (22s) - look away, get
     behind, or get away'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

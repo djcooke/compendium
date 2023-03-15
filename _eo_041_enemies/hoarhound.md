@@ -29,4 +29,9 @@ notes:
   - "You'll be safe from Ecliptic Bite if the stun from Abyssal Cry wears off
     before the Hoarhound reaches you. This generally will only happen in pit
     rooms where it has to run around the pit"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

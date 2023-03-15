@@ -16,7 +16,19 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Appendicular Disseverment
-    description: instant
+    potency: 160
+    type: Physical
+    description: 'instant; spams this under haste'
   - name: Haste
+    potency: n/a
     description: 'grants haste to self'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - "Dangerous to multipull because of the haste buff"
+  WHM:
+    difficulty: Easy
+    notes:
+      - "Dangerous to multipull because of the haste buff"
 ---

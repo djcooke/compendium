@@ -26,4 +26,12 @@ abilities:
     potency: 150
     type: Physical
     description: "instant"
+notes:
+  - "LoSing the charge is not mandatory if you have room to dodge the followup
+    AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---
