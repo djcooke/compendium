@@ -1,6 +1,7 @@
 ---
 name: Orthos Yabby
 nickname: Yabby
+image: yabby.png
 start_floor: 54
 end_floor: 55
 patrol: true

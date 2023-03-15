@@ -1,6 +1,7 @@
 ---
 name: Orthos Zaratan
 nickname: Zaratan
+image: zaratan.png
 start_floor: 57
 end_floor: 59
 agro: Sound

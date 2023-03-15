@@ -1,6 +1,7 @@
 ---
 name: Orthos Goobbue
 nickname: Goobbue
+image: goobbue.png
 start_floor: 45
 end_floor: 47
 agro: Sight

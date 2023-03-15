@@ -1,6 +1,7 @@
 ---
 name: Orthos Craklaw
 nickname: Craklaw
+image: craklaw.png
 start_floor: 55
 end_floor: 57
 agro: Sight

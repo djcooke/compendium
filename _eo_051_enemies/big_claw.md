@@ -1,6 +1,7 @@
 ---
 name: Orthos Big Claw
 nickname: Big Claw
+image: big_claw.png
 start_floor: 55
 end_floor: 58
 agro: Sight

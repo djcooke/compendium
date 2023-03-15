@@ -1,6 +1,7 @@
 ---
 name: Orthos Banshee
 nickname: Banshee
+image: banshee.png
 start_floor: 52
 end_floor: 55
 agro: Proximity

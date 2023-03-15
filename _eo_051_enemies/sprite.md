@@ -1,6 +1,7 @@
 ---
 name: Orthos Ice Sprite
 nickname: Sprite
+image: sprite.png
 start_floor: 51
 end_floor: 59
 agro: Sight

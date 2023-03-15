@@ -1,6 +1,7 @@
 ---
 name: Orthos Kukulkan
 nickname: Kukulkan
+image: kukulkan.png
 start_floor: 46
 end_floor: 49
 agro: Sight

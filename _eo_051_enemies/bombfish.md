@@ -1,6 +1,7 @@
 ---
 name: Orthos Bombfish
 nickname: Bombfish
+image: bombfish.png
 start_floor: 56
 end_floor: 58
 agro: Sight

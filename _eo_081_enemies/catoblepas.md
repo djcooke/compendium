@@ -12,6 +12,9 @@ vulnerabilities:
   slow: unknown
   stun: unknown
 abilities:
-  - name: 
-    description: ""
+  - name: Demon Eye
+    description: "huge 360 degree gaze AoE - look away; also used out of
+    combat"
+  - name: Infusion
+    description: "instant gap closer; used immediately on pull"
 ---

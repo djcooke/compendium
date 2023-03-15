@@ -1,6 +1,7 @@
 ---
 name: Orthos Apa
 nickname: Apa
+image: apa.png
 start_floor: 47
 end_floor: 49
 agro: Proximity

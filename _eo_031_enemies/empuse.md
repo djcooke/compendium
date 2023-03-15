@@ -2,7 +2,7 @@
 name: Orthoempuse
 nickname: Empuse
 image: empuse.png
-start_floor: 38
+start_floor: 37
 end_floor: 39
 agro: Sound
 hp: 165388

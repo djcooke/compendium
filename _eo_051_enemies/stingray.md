@@ -1,6 +1,7 @@
 ---
 name: Orthos Stingray
 nickname: Stingray
+image: stingray.png
 start_floor: 57
 end_floor: 59
 agro: Sight

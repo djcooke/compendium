@@ -1,6 +1,7 @@
 ---
 name: Orthos Ymir
 nickname: Ymir
+image: ymir.png
 start_floor: 51
 end_floor: 54
 agro: Sight

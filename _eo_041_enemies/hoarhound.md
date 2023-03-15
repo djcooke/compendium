@@ -1,6 +1,7 @@
 ---
 name: Orthos Hoarhound
 nickname: Hoarhound
+image: hoarhound.png
 start_floor: 46
 end_floor: 49
 patrol: true

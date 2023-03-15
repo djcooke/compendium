@@ -1,6 +1,7 @@
 ---
 name: Orthos Oceanus
 nickname: Oceanus
+image: oceanus.png
 start_floor: 51
 end_floor: 53
 agro: Sight

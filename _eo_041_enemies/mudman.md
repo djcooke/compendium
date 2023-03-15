@@ -1,6 +1,7 @@
 ---
 name: Orthos Mudman
 nickname: Mudman
+image: mudman.png
 start_floor: 46
 end_floor: 49
 agro: Proximity

@@ -1,6 +1,7 @@
 ---
 name: Orthos Leech
 nickname: Leech
+image: leech.png
 start_floor: 53
 end_floor: 56
 agro: Sight
