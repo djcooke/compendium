@@ -5,7 +5,8 @@ image: leech.png
 start_floor: 53
 end_floor: 56
 agro: Sight
-attack_damage: 4939
+hp: 218672
+attack_damage: 4922
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -17,6 +18,13 @@ abilities:
   - name: Acid Mist
     potency: 140
     type: Magic
-    description: "instant; inflicts stacking vulnerability up (10% per stack,
-    20s)"
+    description: "instant pointblank AoE; inflicts stacking vulnerability up
+    (10% per stack, 20s); 12 second cooldown"
+notes:
+  - "Acid Mist is fairly easy to avoid by kiting"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

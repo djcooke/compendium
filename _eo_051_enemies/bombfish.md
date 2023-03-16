@@ -5,7 +5,8 @@ image: bombfish.png
 start_floor: 56
 end_floor: 58
 agro: Sight
-attack_damage: 6714
+hp: 216596
+attack_damage: 6706
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -16,4 +17,9 @@ vulnerabilities:
 abilities:
   - name: 1000 Spines
     description: "telegraphed pointblank AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

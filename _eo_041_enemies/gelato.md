@@ -18,6 +18,8 @@ abilities:
   - name: Amorphic Flail
     description: "telegraphed pointblank AoE"
   - name: Explosion
+    potency: 5000
+    type: Magic
     description: "huge untelegraphed sacrificial AoE enrage; can be LoSed. Used
     at 30% HP"
 job_specifics:

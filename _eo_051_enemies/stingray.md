@@ -5,7 +5,8 @@ image: stingray.png
 start_floor: 57
 end_floor: 59
 agro: Sight
-attack_damage: 7556
+hp: 232512
+attack_damage: 7567
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -22,4 +23,9 @@ abilities:
     description: "telegraphed pointblank AoE"
   - name: Electric Whorl
     description: "telegraphed donut AoE"
+job_specifics:
+  SGE:
+    difficulty: Medium
+  WHM:
+    difficulty: Medium
 ---

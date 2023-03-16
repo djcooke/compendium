@@ -19,4 +19,9 @@ abilities:
     description: "huge untelegraphed pointblank draw-in"
   - name: Water III
     description: "telegraphed pointblank AoE; used immediately after Sucker"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

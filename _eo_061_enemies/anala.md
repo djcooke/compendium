@@ -4,7 +4,8 @@ nickname: Anala
 start_floor: 65
 end_floor: 68
 agro: Sight
-attack_damage: 8435
+hp: 309324
+attack_damage: 8440
 attack_type: Physical
 vulnerabilities:
   bind: unknown

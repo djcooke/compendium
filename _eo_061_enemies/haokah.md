@@ -4,7 +4,8 @@ nickname: Haokah
 start_floor: 66
 end_floor: 69
 agro: Sight
-attack_damage: 4893
+hp: 293408
+attack_damage: 4882
 attack_type: Physical
 vulnerabilities:
   bind: unknown

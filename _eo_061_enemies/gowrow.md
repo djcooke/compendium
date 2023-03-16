@@ -5,7 +5,8 @@ start_floor: 63
 end_floor: 65
 patrol: true
 agro: unknown
-attack_damage: 11401
+hp: 324548
+attack_damage: 11408
 attack_type: Physical
 vulnerabilities:
   bind: unknown

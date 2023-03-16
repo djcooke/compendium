@@ -6,7 +6,7 @@ start_floor: 51
 end_floor: 59
 agro: Sight
 hp: 206908
-attack_damage: 5822
+attack_damage: 5821
 attack_type: Magic
 attack_name: Blizzard
 vulnerabilities:
@@ -21,4 +21,9 @@ abilities:
     type: Magic
     description: "untelegraphed pointblank AoE used AFTER DEATH - get away
     after it dies"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

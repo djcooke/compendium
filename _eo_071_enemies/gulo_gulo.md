@@ -4,6 +4,8 @@ nickname: Gulo Gulo
 start_floor: 72
 end_floor: 75
 agro: Sight
+hp: 317628
+attack_damage: 11366
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -19,4 +21,8 @@ abilities:
     type: Physical
     description: "untelegraphed instant conal AoE used immediately after The
     Killing Paw - make sure to stay behind/away until the second swipe"
+notes:
+  - "As of patch 6.35, a bug can cause Gulo Gulo to store Savage Swipe and use
+    it after moving within melee range, making it a guaranteed wipe. May be
+    best to avoid this enemy for now"
 ---
