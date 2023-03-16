@@ -117,6 +117,8 @@ collections:
     output: false
   eo_081_enemies:
     output: false
+  eo_091_enemies:
+    output: false
 
 defaults:
   - scope:
