@@ -1,6 +1,7 @@
 ---
 name: Orthos Kelpie
 nickname: Kelpie
+image: kelpie.png
 start_floor: 44
 end_floor: 45
 patrol: true
@@ -9,10 +10,10 @@ hp: 169540
 attack_damage: 4252
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Gallop

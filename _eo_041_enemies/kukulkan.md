@@ -9,17 +9,18 @@ hp: 173692
 attack_damage: 4992
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Bombination
     potency: 200
     type: Magic
     description: "huge pointblank AoE with late telegraph; inflicts stacking
-    vulnerability up (10% per stack, 30s); only used out of combat"
+    vulnerability up (10% per stack, 30s); only used out of combat; can be
+    LoSed"
   - name: Aetherial Blast
     description: "telegraphed line AoE"
 job_specifics:
