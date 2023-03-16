@@ -26,4 +26,12 @@ job_specifics:
   MCH:
     notes:
       - "Save Leg Graze for when it's hasted"
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Cast Repose 18 seconds after pull to interrupt Haste"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Cast Repose 18 seconds after pull to interrupt Haste"
 ---

@@ -19,4 +19,13 @@ abilities:
     potency: 5000
     type: Magic
     description: 'pointblank AoE with late telegraph - get away'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Be careful of explosions in large pulls"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Be careful of explosions in large pulls"
 ---

@@ -34,4 +34,9 @@ notes:
       - 'Paralysis (30s)'
   - 'Unlike the PotD/HoH variants, this Bad Breath does not inflict poison (it
     deals direct damage instead)'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

@@ -20,4 +20,9 @@ abilities:
     type: Magic
     description: 'telegraphed wide conal AoE; inflicts heavy (20s).
     Diminishing returns do NOT apply to this heavy (it is always 20s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

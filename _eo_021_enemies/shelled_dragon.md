@@ -23,4 +23,9 @@ abilities:
     potency: 1500
     type: Physical
     description: 'telegraphed pointblank AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

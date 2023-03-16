@@ -30,4 +30,13 @@ abilities:
     potency: 500
     type: Physical
     description: 'instant; used immediately after Barrelling Smash'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Be careful of Scythe Tail in multipulls"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Be careful of Scythe Tail in multipulls"
 ---

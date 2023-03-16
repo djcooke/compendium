@@ -20,4 +20,9 @@ abilities:
     potency: 1100
     type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

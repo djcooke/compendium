@@ -23,4 +23,9 @@ abilities:
     potency: 3000
     type: Physical
     description: 'conal AoE with late telegraph - get behind or get away'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

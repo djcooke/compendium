@@ -15,4 +15,9 @@ vulnerabilities:
   sleep: true
   slow: '?'
   stun: true
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

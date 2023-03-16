@@ -24,4 +24,9 @@ abilities:
     type: Magic
     description: 'huge pointblank AoE enrage with long cast time; can be LoSed.
     Used at 40% HP'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

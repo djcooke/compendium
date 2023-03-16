@@ -20,4 +20,13 @@ abilities:
   - name: Tailwind
     potency: n/a
     description: 'grants damage up (100%, 1m) to another enemy'
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - "Dangerous in multipulls because of Tailwind"
+  WHM:
+    difficulty: Easy
+    notes:
+      - "Dangerous in multipulls because of Tailwind"
 ---

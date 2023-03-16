@@ -19,4 +19,9 @@ abilities:
     potency: 2100
     type: Magic
     description: 'telegraphed wide conal AoE'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

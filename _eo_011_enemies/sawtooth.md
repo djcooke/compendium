@@ -23,4 +23,13 @@ abilities:
     type: Physical
     description: 'backward conal AoE with late telegraph; used after Dissever
     if anyone is behind'
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Watch out for backward conal in large pulls"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Watch out for backward conal in large pulls"
 ---

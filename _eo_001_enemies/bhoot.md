@@ -19,4 +19,9 @@ abilities:
     potency: 140
     type: Magic
     description: 'inflicts disease (20s)'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

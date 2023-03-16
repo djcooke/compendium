@@ -22,4 +22,13 @@ abilities:
     type: Physical
     description: "untelegraphed backward conal AoE with quick cast; only used
     when someone is behind"
+job_specifics:
+  SGE:
+    difficulty: Easy
+    notes:
+      - "Beware Elbow Drop when multipulling"
+  WHM:
+    difficulty: Easy
+    notes:
+      - "Beware Elbow Drop when multipulling"
 ---

@@ -21,4 +21,9 @@ abilities:
     description: 'untelegraphed pointblank AoE - get out'
 notes:
   - 'Voice abilities CANNOT be interrupted, unlike in previous deep dungeons'
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

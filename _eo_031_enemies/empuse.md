@@ -20,4 +20,16 @@ abilities:
     type: Physical
     description: 'Inflicts knockback; if the target is close, runs behind the
     target to use this'
+notes:
+  - "The knockback can't be outranged, so be careful about knockback direction.
+    You'll have a moment to adjust during the cast"
+job_specifics:
+  SGE:
+    difficulty: Medium
+    notes:
+      - "Kneeling Snath hurts without steel"
+  WHM:
+    difficulty: Medium
+    notes:
+      - "Kneeling Snath hurts without steel"
 ---

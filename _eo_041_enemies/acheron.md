@@ -20,4 +20,9 @@ abilities:
     description: "telegraphed conal AoE"
   - name: Quake
     description: "huge pointblank AoE; can be interrupted or LoSed"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---
