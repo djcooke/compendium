@@ -19,6 +19,8 @@ abilities:
   - name: Double Hex Eye
     description: '360 degree gaze - look away'
   - name: Knowing Gleam
+    potency: 2500
+    type: Magic
     description: 'telegraphed circle AoE'
 job_specifics:
   SGE:

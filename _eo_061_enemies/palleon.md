@@ -4,7 +4,8 @@ nickname: Palleon
 start_floor: 67
 end_floor: 69
 agro: Sight
-attack_damage: 7789
+hp: 324548
+attack_damage: 7779
 attack_type: Physical
 vulnerabilities:
   bind: unknown

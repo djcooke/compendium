@@ -3,7 +3,8 @@ name: Bird of Orthos
 nickname: Bird
 start_floor: 75
 end_floor: 78
-agro: unknown
+agro: Sight
+attack_damage: 11414
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,5 +14,5 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Eye of the Fierce
-    description: "180 degree(?) gaze AoE"
+    description: "360 degree gaze AoE"
 ---

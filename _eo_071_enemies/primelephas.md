@@ -4,6 +4,8 @@ nickname: Primelephas
 start_floor: 71
 end_floor: 73
 agro: Sight
+hp: 334236
+attack_damage: 7760
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,6 +15,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Rout
+    potency: 130
+    type: Physical
     description: "instant gap closer"
   - name: Rear
     description: "quick pointblank AoE with late telegraph; used immediately

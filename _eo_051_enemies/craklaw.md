@@ -6,7 +6,7 @@ start_floor: 55
 end_floor: 57
 agro: Sight
 hp: 247044
-attack_damage: 6370
+attack_damage: 6387
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -21,4 +21,9 @@ abilities:
     description: "instant 3-hit attack"
   - name: Flush
     description: "telegraphed pointblank AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

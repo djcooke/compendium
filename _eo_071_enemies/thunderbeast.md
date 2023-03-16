@@ -1,9 +1,10 @@
 ---
 name: Orthos Thunderbeast
 nickname: Thunderbeast
-start_floor: 75
+start_floor: 73
 end_floor: 75
-agro: unknown
+agro: Sight
+attack_damage: 10837
 attack_type: Physical
 vulnerabilities:
   bind: unknown

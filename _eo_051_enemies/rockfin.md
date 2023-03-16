@@ -7,7 +7,7 @@ end_floor: 54
 patrol: true
 agro: Sight
 hp: 222132
-attack_damage: 6874
+attack_damage: 6872
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -25,4 +25,9 @@ abilities:
     type: Physical
     description: "telegraphed charge attack; can be LoSed (and will otherwise
     kill you)"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

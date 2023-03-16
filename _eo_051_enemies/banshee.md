@@ -5,7 +5,8 @@ image: banshee.png
 start_floor: 52
 end_floor: 55
 agro: Proximity
-attack_damage: 6188
+hp: 213136
+attack_damage: 6192
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -16,4 +17,9 @@ vulnerabilities:
 abilities:
   - name: Whisper of Our Discontent
     description: "telegraphed conal AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

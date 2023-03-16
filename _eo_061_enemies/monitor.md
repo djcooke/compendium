@@ -4,7 +4,8 @@ nickname: Monitor
 start_floor: 62
 end_floor: 65
 agro: Sight
-attack_damage: 8312
+hp: 309324
+attack_damage: 8315
 attack_type: Physical
 vulnerabilities:
   bind: unknown

@@ -4,7 +4,8 @@ nickname: Pteroc
 start_floor: 61
 end_floor: 63
 agro: Sight
-attack_damage: 4937
+hp: 293408
+attack_damage: 4866
 attack_type: Physical
 vulnerabilities:
   bind: unknown

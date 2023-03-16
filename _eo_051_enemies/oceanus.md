@@ -23,4 +23,9 @@ abilities:
     description: "telegraphed pointblank AoE"
   - name: Douse
     description: "telegraphed circle AoE"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

@@ -6,6 +6,7 @@ start_floor: 54
 end_floor: 55
 patrol: true
 agro: Sight
+hp: 249120
 attack_damage: 8030
 attack_type: Physical
 vulnerabilities:
@@ -25,4 +26,9 @@ abilities:
     type: Unique
     description: "telegraphed circle AoE; reduces players' HP to 1% of max.
     Used immediately after Scuttling Skewer"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---

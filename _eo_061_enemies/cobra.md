@@ -4,8 +4,9 @@ nickname: Cobra
 start_floor: 61
 end_floor: 64
 patrol: true
-agro: unknown
-attack_damage: 10836
+agro: Sight
+hp: 309324
+attack_damage: 10843
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -17,6 +18,10 @@ abilities:
   - name: Regorge
     description: "telegraphed circle AoE"
   - name: Whip Back
-    description: "untelegraphed conal AoE behind; used after Regorge if someone
-    is behind"
+    description: "untelegraphed backward conal AoE; used after Regorge if
+    someone is behind"
+  - name: "Disseminate (?)"
+    potency: n/a
+    description: "instant used on death; inflicts vulnerability up (50% per
+    stack, 20s)"
 ---

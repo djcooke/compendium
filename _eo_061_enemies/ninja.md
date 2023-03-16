@@ -1,11 +1,12 @@
 ---
 name: Orthoninja
 nickname: Ninja
-start_floor: 63
+start_floor: 61
 end_floor: 69
 patrol: true
-agro: unknown
-attack_damage: 9745
+agro: Proximity
+hp: 293408
+attack_damage: 9797
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -14,6 +15,9 @@ vulnerabilities:
   slow: unknown
   stun: false
 abilities:
+  - name: Shukuchi
+    potency: n/a
+    description: "instant gap closer"
   - name: Death Blossom
     potency: 2250
     type: Physical

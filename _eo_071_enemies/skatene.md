@@ -3,7 +3,9 @@ name: Orthos Skatene
 nickname: Skatene
 start_floor: 77
 end_floor: 79
-agro: unknown
+agro: Sound
+hp: 334236
+attack_damage: 11686
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,5 +15,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Chirp
-    description: "untelegraphed pointblank AoE; can be LoSed"
+    potency: n/a
+    description: "untelegraphed pointblank AoE; inflicts sleep (15s); can be
+    LoSed"
+  - name: Tornado
+    description: "telegraphed circle AoE; used shortly after Chirp"
 ---

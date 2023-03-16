@@ -6,7 +6,7 @@ start_floor: 51
 end_floor: 54
 agro: Sight
 hp: 227668
-attack_damage: 7146
+attack_damage: 7130
 attack_type: Physical
 vulnerabilities:
   bind: true
@@ -22,4 +22,9 @@ abilities:
 notes:
   - "Gelid Charge only counters physical attacks, so casters can keep casting
     as usual - just be careful not to auto-attack"
+job_specifics:
+  SGE:
+    difficulty: Easy
+  WHM:
+    difficulty: Easy
 ---
