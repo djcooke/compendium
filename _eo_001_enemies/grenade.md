@@ -23,9 +23,9 @@ job_specifics:
   SGE:
     difficulty: Medium
     notes:
-      - "Be careful of explosions in large pulls""
+      - "Be careful of explosions in large pulls"
   WHM:
     difficulty: Medium
     notes:
-      - "Be careful of explosions in large pulls""
+      - "Be careful of explosions in large pulls"
 ---
