@@ -4,7 +4,8 @@ nickname: Wolf
 start_floor: 74
 end_floor: 76
 agro: Sight
-attack_damage: 5869
+hp: 302404
+attack_damage: 5837
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -17,6 +18,7 @@ abilities:
     potency: 120
     type: Physical
     description: "instant; inflicts flesh wound (physical DoT potency 30, 30s)"
-  - name: '?'
-    description: "grants physical damage up (50%, 1m) to self"
+  - name: "Howl (?)"
+    potency: n/a
+    description: "grants physical damage up (40%, 1m) to self"
 ---

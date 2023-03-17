@@ -4,7 +4,7 @@ nickname: Kargas
 start_floor: 75
 end_floor: 77
 agro: Sight
-attack_damage: 9034
+attack_damage: 9078
 attack_type: Physical
 vulnerabilities:
   bind: unknown

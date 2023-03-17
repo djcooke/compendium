@@ -5,7 +5,7 @@ start_floor: 77
 end_floor: 79
 agro: unknown
 hp: 334236
-attack_damage: 11484
+attack_damage: 11451
 attack_type: Physical
 vulnerabilities:
   bind: unknown

@@ -5,7 +5,7 @@ start_floor: 71
 end_floor: 74
 patrol: true
 agro: Sight
-attack_damage: 10480
+attack_damage: 10310
 attack_type: Physical
 vulnerabilities:
   bind: unknown
