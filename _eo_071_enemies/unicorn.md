@@ -1,6 +1,7 @@
 ---
 name: Orthos Unicorn
 nickname: Unicorn
+image: unicorn.png
 start_floor: 71
 end_floor: 74
 agro: Sight
@@ -8,8 +9,8 @@ hp: 317628
 attack_damage: 4865
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

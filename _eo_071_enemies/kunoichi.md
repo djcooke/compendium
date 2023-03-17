@@ -1,6 +1,7 @@
 ---
 name: Orthokunoichi
 nickname: Kunoichi
+image: kunoichi.png
 start_floor: 71
 end_floor: 79
 patrol: true

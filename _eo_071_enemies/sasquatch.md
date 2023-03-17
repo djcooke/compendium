@@ -7,10 +7,10 @@ agro: Sight
 attack_damage: 8524
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Ripe Banana

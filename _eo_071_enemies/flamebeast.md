@@ -1,15 +1,16 @@
 ---
 name: Orthos Flamebeast
 nickname: Flamebeast
+image: flamebeast.png
 start_floor: 77
 end_floor: 79
-agro: unknown
+agro: Sight
 hp: 334236
 attack_damage: 11451
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false

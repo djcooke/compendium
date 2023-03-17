@@ -1,6 +1,7 @@
 ---
 name: Orthos Skatene
 nickname: Skatene
+image: skatene.png
 start_floor: 77
 end_floor: 79
 agro: Sound
@@ -9,7 +10,7 @@ attack_damage: 11470
 attack_type: Physical
 vulnerabilities:
   bind: unknown
-  heavy: unknown
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

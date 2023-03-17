@@ -1,6 +1,7 @@
 ---
 name: Orthos Wolf
 nickname: Wolf
+image: wolf.png
 start_floor: 74
 end_floor: 76
 agro: Sight

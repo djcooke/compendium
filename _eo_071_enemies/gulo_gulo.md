@@ -1,6 +1,7 @@
 ---
 name: Orthos Gulo Gulo
 nickname: Gulo Gulo
+image: gulo_gulo.png
 start_floor: 72
 end_floor: 75
 agro: Sight
@@ -8,8 +9,8 @@ hp: 317628
 attack_damage: 11431
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

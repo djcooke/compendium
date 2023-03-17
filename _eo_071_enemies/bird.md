@@ -1,6 +1,7 @@
 ---
 name: Bird of Orthos
 nickname: Bird
+image: bird.png
 start_floor: 75
 end_floor: 78
 agro: Sight
