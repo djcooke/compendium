@@ -4,7 +4,7 @@ nickname: Gowrow
 start_floor: 63
 end_floor: 65
 patrol: true
-agro: unknown
+agro: Sight
 hp: 324548
 attack_damage: 11408
 attack_type: Physical
