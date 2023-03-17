@@ -1,6 +1,7 @@
 ---
 name: Orthos Piranu
 nickname: Piranu
+image: piranu.png
 start_floor: 57
 end_floor: 59
 agro: Sight

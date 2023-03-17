@@ -9,10 +9,10 @@ hp: 218672
 attack_damage: 4922
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Acid Mist

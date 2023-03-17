@@ -1,8 +1,9 @@
 ---
 name: Orthos Monk
 nickname: Monk
+image: monk.png
 start_floor: 56
-end_floor: 58
+end_floor: 59
 patrol: true
 agro: Proximity
 attack_damage: 8225

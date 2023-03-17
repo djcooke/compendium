@@ -18,7 +18,8 @@ abilities:
   - name: Bubble Shower
     description: "telegraphed large conal AoE"
   - name: Crab Dribble
-    description: "small backward conal AoE with late telegraph - get in front      or away; used after Bubble Shower if someone is close behind"
+    description: "small backward conal AoE with late telegraph - get in front
+    or away; used after Bubble Shower if someone is close behind"
 job_specifics:
   SGE:
     difficulty: Easy

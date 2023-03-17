@@ -9,10 +9,10 @@ hp: 247044
 attack_damage: 6387
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Scissor Run
