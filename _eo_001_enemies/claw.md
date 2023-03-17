@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: false
-  slow: '?'
+  slow: true
   stun: true
 abilities:
   - name: The Hand
