@@ -18,7 +18,7 @@ abilities:
   - name: Piercing Laser
     potency: 1750
     type: Magic
-    description: 'telegraphed line AoE'
+    description: 'telegraphed line AoE; cannot be LoSed'
 job_specifics:
   SGE:
     difficulty: Easy

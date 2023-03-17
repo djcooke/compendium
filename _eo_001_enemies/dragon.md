@@ -19,7 +19,7 @@ abilities:
     potency: 2000
     type: Magic
     description: 'telegraphed line AoE; inflicts stacking poison (magic DoT
-    potency 40 per stack, max 8 stacks, 18s)'
+    potency 40 per stack, max 8 stacks, 18s); cannot be LoSed'
   - name: Toxic Vomit
     potency: 2000
     type: Magic
