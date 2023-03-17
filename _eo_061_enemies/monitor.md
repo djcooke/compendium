@@ -1,6 +1,7 @@
 ---
 name: Orthos Monitor
 nickname: Monitor
+image: monitor.png
 start_floor: 62
 end_floor: 65
 agro: Sight
@@ -9,7 +10,7 @@ attack_damage: 8315
 attack_type: Physical
 vulnerabilities:
   bind: unknown
-  heavy: unknown
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

@@ -1,6 +1,7 @@
 ---
 name: Orthos Pteroc
 nickname: Pteroc
+image: pteroc.png
 start_floor: 61
 end_floor: 63
 agro: Sight
@@ -8,8 +9,8 @@ hp: 293408
 attack_damage: 4866
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

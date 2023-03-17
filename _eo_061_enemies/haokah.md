@@ -1,6 +1,7 @@
 ---
 name: Haokah Perfected
 nickname: Haokah
+image: haokah.png
 start_floor: 66
 end_floor: 69
 agro: Sight
@@ -8,8 +9,8 @@ hp: 293408
 attack_damage: 4882
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

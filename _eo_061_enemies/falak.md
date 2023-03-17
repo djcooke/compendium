@@ -1,6 +1,7 @@
 ---
 name: Orthos Falak
 nickname: Falak
+image: falak.png
 start_floor: 67
 end_floor: 69
 agro: Sight

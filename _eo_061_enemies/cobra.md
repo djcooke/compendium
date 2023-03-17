@@ -1,6 +1,7 @@
 ---
 name: Orthos Cobra
 nickname: Cobra
+image: cobra.png
 start_floor: 61
 end_floor: 64
 patrol: true
@@ -9,8 +10,8 @@ hp: 309324
 attack_damage: 10843
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

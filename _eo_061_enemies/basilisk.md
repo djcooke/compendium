@@ -1,6 +1,7 @@
 ---
 name: Orthos Basilisk
 nickname: Basilisk
+image: basilisk.png
 start_floor: 65
 end_floor: 67
 agro: Sight
@@ -9,9 +10,9 @@ attack_damage: 11451
 attack_type: Physical
 vulnerabilities:
   bind: unknown
-  heavy: unknown
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Stone Gaze

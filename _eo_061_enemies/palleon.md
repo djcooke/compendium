@@ -1,6 +1,7 @@
 ---
 name: Orthos Palleon
 nickname: Palleon
+image: palleon.png
 start_floor: 67
 end_floor: 69
 agro: Sight

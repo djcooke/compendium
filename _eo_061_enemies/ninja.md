@@ -1,6 +1,7 @@
 ---
 name: Orthoninja
 nickname: Ninja
+image: ninja.png
 start_floor: 61
 end_floor: 69
 patrol: true
@@ -9,8 +10,8 @@ hp: 293408
 attack_damage: 9797
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false

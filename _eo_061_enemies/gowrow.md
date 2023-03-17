@@ -1,6 +1,7 @@
 ---
 name: Orthos Gowrow
 nickname: Gowrow
+image: gowrow.png
 start_floor: 63
 end_floor: 65
 patrol: true
@@ -9,10 +10,10 @@ hp: 324548
 attack_damage: 11408
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: '?'

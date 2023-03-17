@@ -1,6 +1,7 @@
 ---
 name: Orthos Diplocaulus
 nickname: Diplocaulus
+image: diplocaulus.png
 start_floor: 61
 end_floor: 64
 agro: Proximity
@@ -8,8 +9,8 @@ hp: 324548
 attack_damage: 11394
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false
