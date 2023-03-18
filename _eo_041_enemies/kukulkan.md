@@ -15,14 +15,19 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
+  - name: Aetherial Blast
+    description: "telegraphed line AoE"
   - name: Bombination
     potency: 200
     type: Magic
     description: "huge pointblank AoE with late telegraph; inflicts stacking
     vulnerability up (10% per stack, 30s); only used out of combat; can be
     LoSed"
-  - name: Aetherial Blast
-    description: "telegraphed line AoE"
+notes:
+  - "Once a Kukulkan decides to use Bombination on a player, it will slowly
+    move close enough for the AoE to hit the player before starting the cast.
+    It will keep following until it gets within range, even into other rooms!
+    Be aware of these when fighting other mobs"
 job_specifics:
   SGE:
     difficulty: Easy

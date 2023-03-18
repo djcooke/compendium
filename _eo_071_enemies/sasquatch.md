@@ -4,6 +4,7 @@ nickname: Sasquatch
 start_floor: 76
 end_floor: 79
 agro: Sight
+hp: 334236
 attack_damage: 8524
 attack_type: Physical
 vulnerabilities:

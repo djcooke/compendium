@@ -18,8 +18,7 @@ abilities:
     description: "untelegraphed pointblank AoE; pauses in place for a moment
     before using this - get away!"
   - name: "Spark (?)"
-    description: "untelegraphed huge pointblank AoE enrage; used ~75s after
-    pull"
+    description: "untelegraphed huge donut(?) AoE; only used if someone is far"
 notes:
   - "It can help to keep rotating around the enemy, so you can more easily tell
   when he's using abilities"

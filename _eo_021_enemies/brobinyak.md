@@ -16,6 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Cold Gaze
+    potency: n/a
     description: 'conal gaze attack; inflicts paralysis (20s) - look away, get
     behind, or get away. Diminishing returns do NOT apply to this paralysis (it
     is always 20s)'

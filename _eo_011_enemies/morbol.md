@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Skewer (?)'
+  - name: Vine Probe
     potency: 175
     type: Physical
     description: 'instant'
