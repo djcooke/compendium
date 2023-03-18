@@ -13,7 +13,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: '?'
+  slow: true
   stun: false
 abilities:
   - name: Glass Punch

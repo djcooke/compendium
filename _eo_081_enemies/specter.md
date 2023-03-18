@@ -10,9 +10,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Left Sweep
     description: "200(?) degree AoE to the left with late telegraph"

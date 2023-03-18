@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: unknown
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Rotoswipe
     description: "conal AoE with late telegraph - get behind or away"

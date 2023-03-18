@@ -8,9 +8,9 @@ attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Dark Arrivisme
     description: "telegraphed circle AoE"

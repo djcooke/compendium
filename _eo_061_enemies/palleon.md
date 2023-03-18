@@ -9,10 +9,10 @@ hp: 324548
 attack_damage: 7779
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: false
   stun: true
 abilities:
   - name: Sticky Tongue

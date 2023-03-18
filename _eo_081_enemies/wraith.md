@@ -9,7 +9,7 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: unknown
   stun: false
 abilities:

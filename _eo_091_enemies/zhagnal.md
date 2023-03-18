@@ -8,9 +8,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Beastly Roar
     description: "huge pointblank AoE with late telegraph; only used out of

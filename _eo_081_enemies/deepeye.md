@@ -9,9 +9,9 @@ attack_type: Physical
 vulnerabilities:
   bind: true
   heavy: true
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Hypnotize
     description: "360 degree gaze AoE"

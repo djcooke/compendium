@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: true
   sleep: true
   slow: true
-  stun: unknown
+  stun: true
 abilities:
   - name: 1000 Spines
     description: "telegraphed pointblank AoE"

@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: false
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: "Aetherochemical Laser α"
     description: " huge conal AoE with late telegraph - get behind"

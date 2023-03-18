@@ -9,9 +9,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Hex Eye
     description: "360 degree gaze AoE"

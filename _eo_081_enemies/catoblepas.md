@@ -9,9 +9,9 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
-  sleep: unknown
+  sleep: false
   slow: true
-  stun: unknown
+  stun: true
 abilities:
   - name: Demon Eye
     description: "huge 360 degree gaze AoE - look away; also used out of

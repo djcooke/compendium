@@ -9,10 +9,10 @@ hp: 309324
 attack_damage: 8818
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Electric Cachexia

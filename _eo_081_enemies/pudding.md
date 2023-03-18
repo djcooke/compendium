@@ -9,9 +9,9 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Dark II
     type: Magic

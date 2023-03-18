@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: false
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Auto-cannons
     description: "telegraphed huge line AoE"

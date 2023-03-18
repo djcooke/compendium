@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: true
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Run Amok
     description: "instant; inflicts knockback; used 4 times in a row"

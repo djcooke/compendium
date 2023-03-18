@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: unknown
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Laserblade
     description: "huge 270 degree frontal AoE with late telegraph - get behind"

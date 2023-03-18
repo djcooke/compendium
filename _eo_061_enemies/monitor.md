@@ -12,7 +12,7 @@ vulnerabilities:
   bind: unknown
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Fire Breath

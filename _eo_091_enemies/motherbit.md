@@ -9,9 +9,9 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: true
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Allagan Gravity
     description: "telegraphed circle AoE"

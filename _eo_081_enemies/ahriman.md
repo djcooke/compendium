@@ -9,9 +9,9 @@ attack_name: Stone
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: true
   slow: unknown
-  stun: unknown
+  stun: true
 abilities:
   - name: Blistering Blink
     description: "telegraphed huge, wide line AoE"

@@ -10,9 +10,9 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: High Voltage
     description: "huge pointblank AoE with late telegraph - get out; can be

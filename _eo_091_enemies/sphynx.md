@@ -11,7 +11,7 @@ vulnerabilities:
   heavy: unknown
   sleep: unknown
   slow: unknown
-  stun: unknown
+  stun: false
 abilities:
   - name: Naked Soul
     description: "conal gaze AoE"

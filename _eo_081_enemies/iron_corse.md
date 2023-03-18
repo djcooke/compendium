@@ -10,9 +10,9 @@ attack_type: Physical
 vulnerabilities:
   bind: false
   heavy: false
-  sleep: unknown
+  sleep: false
   slow: true
-  stun: unknown
+  stun: false
 abilities:
   - name: Butterfly Float
     description: "instant"
