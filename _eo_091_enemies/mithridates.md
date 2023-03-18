@@ -1,8 +1,9 @@
 ---
 name: Orthos Mithridates
 nickname: Mithridates
+image: mithridates.png
 start_floor: 95
-end_floor: 96
+end_floor: 97
 agro: unknown
 attack_type: Physical
 vulnerabilities:

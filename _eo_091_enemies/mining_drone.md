@@ -1,13 +1,14 @@
 ---
 name: Orthos Mining Drone
 nickname: Mining Drone
+image: mining_drone.png
 start_floor: 91
 end_floor: 93
 agro: Sound
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: unknown
   slow: unknown
   stun: unknown

@@ -1,13 +1,14 @@
 ---
 name: Orthosystem α
 nickname: System α
+image: system_alpha.png
 start_floor: 91
 end_floor: 93
 agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
   slow: unknown
   stun: unknown

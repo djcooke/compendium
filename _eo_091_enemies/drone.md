@@ -1,13 +1,14 @@
 ---
 name: Orthodrone
 nickname: Drone
+image: drone.png
 start_floor: 91
-end_floor: 95
+end_floor: 97
 agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
   slow: unknown
   stun: unknown

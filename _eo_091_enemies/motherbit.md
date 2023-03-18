@@ -1,13 +1,14 @@
 ---
 name: Orthos Motherbit
 nickname: Motherbit
+image: motherbit.png
 start_floor: 93
 end_floor: 95
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: unknown
   slow: unknown
   stun: unknown

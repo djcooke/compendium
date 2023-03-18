@@ -1,14 +1,15 @@
 ---
 name: Orthosystem γ
 nickname: System γ
+image: system_gamma.png
 start_floor: 91
 end_floor: 94
 patrol: true
 agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
   slow: unknown
   stun: unknown

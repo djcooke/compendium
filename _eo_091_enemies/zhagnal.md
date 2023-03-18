@@ -1,7 +1,7 @@
 ---
 name: Orthos Zhagnal
 nickname: Zhagnal
-start_floor: 94
+start_floor: 93
 end_floor: 95
 agro: unknown
 attack_type: Physical

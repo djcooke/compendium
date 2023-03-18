@@ -1,6 +1,7 @@
 ---
 name: Orthos Durga
 nickname: Durga
+image: durga.png
 start_floor: 96
 end_floor: 98
 agro: Proximity

@@ -1,9 +1,10 @@
 ---
 name: Orthos Fitter
 nickname: Fitter
+image: fitter.png
 start_floor: 96
 end_floor: 98
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown
