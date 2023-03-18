@@ -1,6 +1,7 @@
 ---
 name: Orthos Pegasus
 nickname: Pegasus
+image: pegasus.png
 start_floor: 86
 end_floor: 89
 agro: unknown

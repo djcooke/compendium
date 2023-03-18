@@ -2,12 +2,12 @@
 name: Orthos Abyss
 nickname: Abyss
 start_floor: 84
-end_floor: 85
-agro: unknown
+end_floor: 87
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: true
+  heavy: true
   sleep: unknown
   slow: unknown
   stun: unknown

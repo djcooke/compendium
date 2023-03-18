@@ -1,15 +1,16 @@
 ---
 name: Orthos Catoblepas
 nickname: Catoblepas
+image: catoblepas.png
 start_floor: 81
 end_floor: 84
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
 abilities:
   - name: Demon Eye

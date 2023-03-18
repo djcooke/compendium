@@ -1,9 +1,9 @@
 ---
 name: Orthos Ahriman
 nickname: Ahriman
-start_floor: 88
+start_floor: 87
 end_floor: 89
-agro: unknown
+agro: Sight
 attack_type: Magic
 attack_name: Stone
 vulnerabilities:

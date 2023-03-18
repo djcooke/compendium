@@ -18,4 +18,6 @@ abilities:
   - name: Moldy Sneeze
     description: "very quick conal AoE with late telegraph; used immediately
     after Inhale - get behind"
+  - name: Moldy Phlegm
+    description: "telegraphed circle AoE"
 ---

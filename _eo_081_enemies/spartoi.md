@@ -1,9 +1,10 @@
 ---
 name: Orthos Spartoi
 nickname: Spartoi
-start_floor: 86
+image: spartoi.png
+start_floor: 85
 end_floor: 88
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -15,5 +16,6 @@ abilities:
   - name: Umbra Smash
     description: "telegraphed large circle AoE gap-closer"
   - name: Triple Trial
-    description: "conal AoE with late telegraph - get behind or far"
+    description: "conal AoE with late telegraph - get behind or far; used
+    immediately after Umbra Smash"
 ---

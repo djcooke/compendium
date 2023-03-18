@@ -1,10 +1,11 @@
 ---
 name: Orthos Specter
 nickname: Specter
+image: specter.png
 start_floor: 86
 end_floor: 89
 patrol: true
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
   bind: unknown

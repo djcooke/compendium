@@ -1,9 +1,10 @@
 ---
 name: Orthos Hecteyes
 nickname: Hecteyes
+image: hecteyes.png
 start_floor: 81
 end_floor: 83
-agro: unknown
+agro: Sound
 attack_type: Physical
 vulnerabilities:
   bind: unknown

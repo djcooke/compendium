@@ -1,13 +1,14 @@
 ---
 name: Orthos Wraith
 nickname: Wraith
+image: wraith.png
 start_floor: 86
 end_floor: 89
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
   slow: unknown
   stun: false

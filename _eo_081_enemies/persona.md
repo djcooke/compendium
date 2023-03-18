@@ -1,9 +1,10 @@
 ---
 name: Orthos Persona
 nickname: Persona
+image: persona.png
 start_floor: 81
 end_floor: 83
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown

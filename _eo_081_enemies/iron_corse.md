@@ -1,16 +1,17 @@
 ---
 name: Orthoiron Corse
 nickname: Corse
+image: iron_corse.png
 start_floor: 81
 end_floor: 84
 patrol: true
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
 abilities:
   - name: Butterfly Float
