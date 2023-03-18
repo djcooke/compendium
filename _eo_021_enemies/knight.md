@@ -16,9 +16,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Electromagnetism
+    potency: n/a
     description: 'large pointblank AoE with late telegraph; draws players in -
     get away'
-  - name: 'Headspin (?)'
+  - name: Headspin
     potency: 1000
     type: Physical
     description: 'untelegraphed pointblank AoE; used immediately after

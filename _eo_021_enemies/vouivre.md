@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Whipcrack (?)'
+  - name: Whipcrack
     potency: 140
     type: Physical
     description: 'instant'

@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Blood Sword (?)'
+  - name: Blood Sword
     potency: 140
     type: Physical
     description: 'instant; absorbs 73.7% of damage dealt'

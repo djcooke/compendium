@@ -6,7 +6,7 @@ start_floor: 71
 end_floor: 74
 agro: Sight
 hp: 317628
-attack_damage: 4865
+attack_damage: 4863
 attack_type: Physical
 vulnerabilities:
   bind: true

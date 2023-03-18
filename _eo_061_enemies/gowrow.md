@@ -16,10 +16,10 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: '?'
+  - name: "Ripper Claw (?)"
     description: "untelegraphed conal AoE with no cast bar - get behind when he
     brings his arm back"
-  - name: '?'
+  - name: "Tail Smash (?)"
     description: "untelegraphed backward conal AoE with no cast bar - get in
     front when he raises his tail"
 ---

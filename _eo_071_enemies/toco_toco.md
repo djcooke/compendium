@@ -20,5 +20,7 @@ abilities:
     type: Physical
     description: "instant"
   - name: Slowcall
-    description: "conal AoE with late telegraph"
+    potency: n/a
+    description: "conal AoE with late telegraph; inflicts slow (100%, 1m) which
+    cannot be cured with Esuna"
 ---

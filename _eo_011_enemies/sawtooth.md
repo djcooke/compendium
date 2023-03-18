@@ -18,7 +18,7 @@ abilities:
   - name: Dissever
     potency: 1600
     description: 'telegraphed conal AoE'
-  - name: '?'
+  - name: Mean Thrash
     potency: 1600
     type: Physical
     description: 'backward conal AoE with late telegraph; used after Dissever

@@ -6,6 +6,7 @@ start_floor: 56
 end_floor: 59
 patrol: true
 agro: Proximity
+hp: 247044
 attack_damage: 8225
 attack_type: Physical
 vulnerabilities:
