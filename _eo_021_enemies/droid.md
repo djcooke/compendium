@@ -13,13 +13,16 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: '?'
+  slow: true
   stun: true
 abilities:
   - name: Passive Infrared Guidance System
     potency: 1100
     type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy
