@@ -25,7 +25,10 @@ abilities:
     potency: 99% of HP
     type: Unique
     description: "telegraphed circle AoE; reduces players' HP to 1% of max.
-    Used immediately after Scuttling Skewer"
+    Used immediately after Scuttling Skewer if any players are heavied"
+notes:
+  - "If you shield all the damage from Scuttling Skewer, the heavy will also
+    be blocked and Tail Screw will be skipped"
 job_specifics:
   SGE:
     difficulty: Easy
