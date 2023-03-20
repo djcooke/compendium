@@ -2,7 +2,7 @@
 name: Orthos Thunderbeast
 nickname: Thunderbeast
 start_floor: 73
-end_floor: 75
+end_floor: 76
 agro: Sight
 hp: 334236
 attack_damage: 10837
