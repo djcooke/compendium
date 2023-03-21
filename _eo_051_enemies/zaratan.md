@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Sewer Water

@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: '?'
+  slow: true
   stun: false
 abilities:
   - name: Assault Cannon
@@ -24,6 +24,9 @@ abilities:
     type: Magic
     description: 'huge pointblank AoE sacrificial enrage; can be LoSed. Used at
     30% HP'
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

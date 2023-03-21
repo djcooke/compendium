@@ -1,6 +1,7 @@
 ---
 name: Orthos Matamata
 nickname: Matamata
+image: matamata.png
 start_floor: 61
 end_floor: 63
 agro: Sight
