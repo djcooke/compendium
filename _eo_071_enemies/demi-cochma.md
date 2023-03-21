@@ -2,8 +2,8 @@
 name: Demi-Cochma
 nickname: Demi-Cochma
 image: ../demi-cochma.png
-start_floor: 21
-end_floor: 29
+start_floor: 71
+end_floor: 79
 agro: Sight
 attack_type: Physical
 vulnerabilities:

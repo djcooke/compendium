@@ -372,6 +372,16 @@ img.surfaceImage {
   text-align: center;
 }
 
+.enemyList td.hpCell.extremeCell, .enemyList td.attackCell.extremeCell {
+  background-color: #FF1493;
+}
+
+.enemyList td.hpCell, .enemyList td.attackCell {
+  border-left: 1px solid var(--background);
+  border-right: 1px solid var(--background);
+  background-repeat: no-repeat;
+}
+
 .enemyList td.hpCell {
   background-image: linear-gradient(to right, #00CC00 var(--percent), var(--percent), transparent);
 }

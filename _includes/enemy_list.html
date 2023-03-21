@@ -99,26 +99,44 @@
         </td>
       {% endfor %}
 
-      {% if enemy.hp %}
-        {% assign hp_percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}
-      {% else %}
-        {% assign hp_percent = 0 %}
+      {% assign class = "hpCell" %}
+      {% assign percent = nil %}
+      {% assign hp = nil %}
+      {% if enemy.extreme_hp %}
+        {% assign class = class | append: " extremeCell" %}
+        {% assign hp = enemy.extreme_hp %}
+      {% elsif enemy.hp %}
+        {% assign hp = enemy.hp %}
+        {% assign percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}
       {% endif %}
-      <td class="hpCell" style="--percent:{{ hp_percent }}%" {% if enemy.hp >= 10000 %}title="{{ enemy.hp }}"{% endif %}>
-        {% if enemy.hp >= 10000 %}
-          {{ enemy.hp | divided_by: 1000 }}K
-        {% else %}
-          {{ enemy.hp | default: '?' }}
-        {% endif %}
+      <td class="{{ class }}"
+          {% if percent %}style="--percent:{{ percent }}%"{% endif %}
+          {% if hp >= 10000 %}title="{{ hp }}"{% endif %}>
+      {% if hp >= 10000 %}
+        {{ hp | divided_by: 1000 }}K
+      {% else %}
+        {{ hp | default: '?' }}
+      {% endif %}
       </td>
 
-      {% if enemy.attack_damage %}
-        {% assign attack_percent = enemy.attack_damage | minus: min_attack_damage | times: gap_percent | divided_by: attack_damage_gap | plus: base_percent %}
-      {% else %}
-        {% assign attack_percent = 0 %}
+      {% assign class = "attackCell" %}
+      {% assign percent = nil %}
+      {% assign damage = nil %}
+      {% if enemy.extreme_attack_damage %}
+        {% assign class = class | append: " extremeCell" %}
+        {% assign damage = enemy.extreme_attack_damage %}
+      {% elsif enemy.attack_damage %}
+        {% assign damage = enemy.attack_damage %}
+        {% assign percent = damage | minus: min_attack_damage | times: gap_percent | divided_by: attack_damage_gap | plus: base_percent %}
       {% endif %}
-      <td class="attackCell" style="--percent:{{ attack_percent }}%">
-        {{ enemy.attack_damage | default: '?' }}
+      <td class="{{ class }}"
+          {% if percent %}style="--percent:{{ percent }}%"{% endif %}
+          {% if damage >= 10000 %}title="{{ damage }}"{% endif %}>
+      {% if damage >= 10000 %}
+        {{ damage | divided_by: 1000 }}K
+      {% else %}
+        {{ damage | default: '?' }}
+      {% endif %}
       </td>
 
       {% for status in site.data.statuses %}

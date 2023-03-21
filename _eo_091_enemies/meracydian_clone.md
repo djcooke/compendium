@@ -2,11 +2,9 @@
 name: Meracydian Clone
 nickname: Meracydian Clone
 image: ../meracydian_clone.png
-start_floor: 1
-end_floor: 9
+start_floor: 91
+end_floor: 98
 agro: 'Sight'
-extreme_hp: 415716
-extreme_attack_damage: 26000
 attack_type: Physical
 vulnerabilities:
   bind: '?'
