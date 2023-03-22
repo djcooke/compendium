@@ -15,7 +15,6 @@ vulnerabilities:
   slow: unknown
   stun: unknown
 gallery_only: true
-extreme_attack_damage: 33000
 attack_type: Physical
 notes:
   - Dread beast
