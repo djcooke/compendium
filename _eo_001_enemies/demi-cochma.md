@@ -5,6 +5,8 @@ image: ../demi-cochma.png
 start_floor: 1
 end_floor: 9
 agro: Sight
+extreme_hp: 415716
+extreme_attack_damage: 34000
 attack_type: Physical
 vulnerabilities:
   bind: unknown
@@ -13,6 +15,8 @@ vulnerabilities:
   slow: unknown
   stun: unknown
 gallery_only: true
+extreme_attack_damage: 33000
+attack_type: Physical
 notes:
   - Dread beast
 ---
