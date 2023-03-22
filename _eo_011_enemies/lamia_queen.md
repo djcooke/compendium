@@ -8,15 +8,19 @@ attack_type: Physical
 vulnerabilities:
   bind: unknown
   heavy: unknown
-  sleep: unknown
+  sleep: false
   slow: unknown
   stun: unknown
 gallery_only: true
+extreme_hp: 631104
+extreme_attack_damage: 32000
+attack_type: Physical
 abilities:
   - name: "Circle of Flame (?)"
     potency: 80
     type: Magic
-    description: "instant circle AoE"
+    description: "instant circle AoE; also grants permanent stacking HP
+    regeneration to self"
   - name: Circle Blade
     description: "telegraphed pointblank AoE"
   - name: "Petrifaction"
@@ -25,4 +29,5 @@ abilities:
     enemies. Used at critical health (such as after Storms)"
 notes:
   - Dread beast
+  - Regenerates a small amount of HP every tick while in combat
 ---

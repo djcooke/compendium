@@ -5,6 +5,7 @@ image: ../demi-cochma.png
 start_floor: 41
 end_floor: 49
 agro: Sight
+extreme_hp: 900984
 attack_type: Physical
 vulnerabilities:
   bind: unknown
