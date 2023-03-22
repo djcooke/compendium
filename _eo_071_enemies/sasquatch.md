@@ -1,6 +1,7 @@
 ---
 name: Orthos Sasquatch
 nickname: Sasquatch
+image: sasquatch.png
 start_floor: 76
 end_floor: 79
 agro: Sight

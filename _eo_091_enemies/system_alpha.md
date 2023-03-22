@@ -8,7 +8,7 @@ agro: Proximity
 attack_type: Physical
 vulnerabilities:
   bind: false
-  heavy: false
+  heavy: true
   sleep: false
   slow: unknown
   stun: true

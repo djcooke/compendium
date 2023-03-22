@@ -4,11 +4,11 @@ nickname: Pegasus
 image: pegasus.png
 start_floor: 86
 end_floor: 89
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
   slow: unknown
   stun: true

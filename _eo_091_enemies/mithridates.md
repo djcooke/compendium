@@ -4,7 +4,7 @@ nickname: Mithridates
 image: mithridates.png
 start_floor: 95
 end_floor: 97
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: unknown

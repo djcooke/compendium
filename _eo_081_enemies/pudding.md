@@ -7,10 +7,10 @@ end_floor: 86
 agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
+  bind: false
   heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Dark II

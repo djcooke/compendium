@@ -1,6 +1,7 @@
 ---
 name: Lamia Queen
 nickname: Lamia Queen
+image: ../lamia_queen.png
 start_floor: 31
 end_floor: 39
 agro: Sight

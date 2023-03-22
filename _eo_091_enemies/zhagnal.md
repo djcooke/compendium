@@ -1,15 +1,16 @@
 ---
 name: Orthos Zhagnal
 nickname: Zhagnal
+image: zhagnal.png
 start_floor: 93
 end_floor: 95
 agro: unknown
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Beastly Roar

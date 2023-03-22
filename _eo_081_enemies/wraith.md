@@ -10,7 +10,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Scream

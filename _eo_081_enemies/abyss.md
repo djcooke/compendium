@@ -1,6 +1,7 @@
 ---
 name: Orthos Abyss
 nickname: Abyss
+image: abyss.png
 start_floor: 84
 end_floor: 87
 agro: Sight

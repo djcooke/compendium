@@ -1,14 +1,15 @@
 ---
 name: Orthos Gourmand
 nickname: Gourmand
+image: gourmand.png
 start_floor: 84
 end_floor: 85
 patrol: true
-agro: unknown
+agro: Proximity
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false

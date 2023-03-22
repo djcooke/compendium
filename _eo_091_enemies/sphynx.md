@@ -4,11 +4,11 @@ nickname: Sphynx
 image: sphynx.png
 start_floor: 94
 end_floor: 96
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: unknown
   stun: false
