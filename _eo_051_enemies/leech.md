@@ -18,8 +18,8 @@ abilities:
   - name: Acid Mist
     potency: 140
     type: Magic
-    description: "instant pointblank AoE; inflicts stacking vulnerability up
-    (10% per stack, 20s); 12 second cooldown"
+    description: "instant pointblank AoE; inflicts vulnerability up (10% per
+    stack, 20s); 12 second cooldown"
 notes:
   - "Acid Mist is fairly easy to avoid by kiting"
 job_specifics:

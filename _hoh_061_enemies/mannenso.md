@@ -21,8 +21,7 @@ abilities:
     description: 'instant'
   - name: 'Anemochory'
     potency: n/a
-    description: 'instant; inflicts stacking vulnerability up (5%? per stack,
-    10s)'
+    description: 'instant; inflicts vulnerability up (5%? per stack, 10s)'
 job_specifics:
   DRK:
     difficulty: Easy

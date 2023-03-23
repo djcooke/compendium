@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 notes:
-  - 'auto-attacks inflict stacking vulnerability up (5% per stack, 6s)'
+  - 'auto-attacks inflict vulnerability up (5% per stack, 6s)'
 job_specifics:
   MCH:
     difficulty: Easy

@@ -22,9 +22,9 @@ abilities:
     type: Unique
     description: 'instant AoE sacrificial enrage; used 37 seconds after pull'
 notes:
-  - 'Acid Spray inflicts stacking physical vulnerability up (+10% per stack,
-    max 8 stacks, 5s); this ability does magic damage, so its own damage is
-    not affected'
+  - 'Acid Spray inflicts physical vulnerability up (+10% per stack, max 8
+    stacks, 5s); this ability does magic damage, so its own damage is not
+    affected'
   - 'Can be slowed if transfigured via Pomander of Witching'
 job_specifics:
   SGE:
