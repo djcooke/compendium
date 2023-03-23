@@ -5,6 +5,8 @@ image: persona.png
 start_floor: 81
 end_floor: 83
 agro: Sight
+hp: 328008
+attack_damage: 10862
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -14,7 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Dark II
-    description: "telegraphed conal AoE"
+    description: "telegraphed large conal AoE"
   - name: Inner Demons
     description: "telegraphed pointblank AoE"
 notes:

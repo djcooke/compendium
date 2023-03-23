@@ -3,9 +3,11 @@ name: Orthos Gourmand
 nickname: Gourmand
 image: gourmand.png
 start_floor: 84
-end_floor: 85
+end_floor: 86
 patrol: true
 agro: Proximity
+hp: 344616
+attack_damage: 11379
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -15,6 +17,7 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Inhale
+    potency: n/a
     description: "untelegraphed conal draw-in"
   - name: Moldy Sneeze
     description: "very quick conal AoE with late telegraph; used immediately

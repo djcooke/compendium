@@ -5,6 +5,7 @@ image: hecteyes.png
 start_floor: 81
 end_floor: 83
 agro: Sound
+attack_damage: 7190
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -15,6 +16,10 @@ vulnerabilities:
 abilities:
   - name: Hex Eye
     description: "360 degree gaze AoE"
+  - name: Death Ray
+    potency: 120
+    type: Magic
+    description: "instant; probably instant death to players hit by Hex Eye"
   - name: Catharsis
     description: "huge pointblank AoE; there's enough time to run from melee to
     out of range before it goes off"
