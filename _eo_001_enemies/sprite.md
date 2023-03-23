@@ -13,8 +13,11 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: '?'
+  slow: true
   stun: true
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

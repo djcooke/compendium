@@ -4,7 +4,7 @@ nickname: Zhagnal
 image: zhagnal.png
 start_floor: 93
 end_floor: 95
-agro: unknown
+agro: Sight
 attack_type: Physical
 vulnerabilities:
   bind: false
