@@ -5,6 +5,7 @@ image: pegasus.png
 start_floor: 86
 end_floor: 89
 agro: Sight
+attack_damage: 5919
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -18,5 +19,5 @@ abilities:
   - name: Nicker
     description: "pointblank AoE with late telegraph - get away"
   - name: Rear Hoof
-    description: "instant; inflicts knock-back"
+    description: "instant; inflicts knockback"
 ---
