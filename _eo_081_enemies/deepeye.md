@@ -19,6 +19,6 @@ abilities:
   - name: Heirloom Scream
     potency: 110
     type: Magic
-    description: "instant untelegraphed pointblank AoE; inflicts stacking
-    vulnerability up (5% per stack, 25s)"
+    description: "instant untelegraphed pointblank AoE; inflicts vulnerability
+    up (5% per stack, 25s)"
 ---

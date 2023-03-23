@@ -20,7 +20,7 @@ abilities:
   - name: Bombination
     potency: 200
     type: Magic
-    description: "huge pointblank AoE with late telegraph; inflicts stacking
+    description: "huge pointblank AoE with late telegraph; inflicts
     vulnerability up (10% per stack, 30s); only used out of combat; can be
     LoSed"
 notes:

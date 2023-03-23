@@ -26,9 +26,9 @@ abilities:
   - name: Blood Moon
     potency: 50
     type: Magic
-    description: 'untelegraphed huge pointblank AoE; inflicts stacking
-    vulnerability up (5%? per stack, 30s). Can be LoSed, and fully shielding
-    the damage also blocks the vulnerability up'
+    description: 'untelegraphed huge pointblank AoE; inflicts vulnerability up
+    (5%? per stack, 30s). Can be LoSed, and fully shielding the damage also
+    blocks the vulnerability up'
 notes:
   - 'If you let it do one auto-attack after Vile Utterance and then duck behind
   a corner, you should avoid the vulnerability up'

@@ -22,7 +22,7 @@ abilities:
   - name: Bombination
     potency: 350
     type: Magic
-    description: 'huge pointblank AoE with late telegraph; inflicts stacking
+    description: 'huge pointblank AoE with late telegraph; inflicts
     vulnerability up (15% per stack, 30s); only used out of combat'
 job_specifics:
   SGE:
