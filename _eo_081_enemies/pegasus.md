@@ -5,7 +5,8 @@ image: pegasus.png
 start_floor: 86
 end_floor: 89
 agro: Sight
-attack_damage: 5919
+hp: 344616
+attack_damage: 5857
 attack_type: Physical
 vulnerabilities:
   bind: false

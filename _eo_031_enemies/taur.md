@@ -16,7 +16,7 @@ vulnerabilities:
   stun: false
 abilities:
   - name: '111-tonze Swing'
-    potency: 3000?
+    potency: 3000
     type: Physical
     description: 'pointblank AoE with late telegraph - get away'
   - name: '11-tonze Swipe'

@@ -5,7 +5,8 @@ image: abyss.png
 start_floor: 84
 end_floor: 87
 agro: Sight
-attack_damage: 6786
+hp: 344616
+attack_damage: 6782
 attack_type: Magic
 vulnerabilities:
   bind: true

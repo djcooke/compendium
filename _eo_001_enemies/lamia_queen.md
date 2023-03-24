@@ -25,8 +25,9 @@ abilities:
     description: "telegraphed pointblank AoE"
   - name: "Petrifaction"
     potency: n/a
-    description: "huge 360 degree gaze inflicting stone curse; also affects
-    enemies. Used at critical health (such as after Storms or landmine)"
+    description: "huge 360 degree gaze inflicting stone curse (1m); also
+    affects enemies. Used at critical health (such as after Storms or
+    landmine)"
 notes:
   - Dread beast
   - Regenerates a small amount of HP every tick while in combat
