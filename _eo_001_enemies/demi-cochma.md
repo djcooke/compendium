@@ -18,4 +18,5 @@ gallery_only: true
 attack_type: Physical
 notes:
   - Dread beast
+  - "Grants 30m vulnerability down buff upon defeat"
 ---

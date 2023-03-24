@@ -31,4 +31,5 @@ abilities:
 notes:
   - Dread beast
   - Regenerates a small amount of HP every tick while in combat
+  - "Grants 30m regen buff upon defeat"
 ---

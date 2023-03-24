@@ -16,4 +16,5 @@ vulnerabilities:
 gallery_only: true
 notes:
   - Dread beast
+  - "Grants 30m vulnerability down buff upon defeat"
 ---

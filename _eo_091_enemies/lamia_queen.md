@@ -28,4 +28,5 @@ abilities:
     enemies. Used at critical health (such as after Storms or landmine)"
 notes:
   - Dread beast
+  - "Grants 30m regen buff upon defeat"
 ---

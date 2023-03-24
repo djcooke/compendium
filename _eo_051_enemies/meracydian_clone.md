@@ -25,4 +25,5 @@ abilities:
     description: "huge (20y) pointblank AoE enrage; used below 40% HP"
 notes:
   - Dread beast
+  - "Grants 30m damage up buff upon defeat"
 ---
