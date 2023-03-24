@@ -5,6 +5,7 @@ image: pudding.png
 start_floor: 84
 end_floor: 86
 agro: Sight
+hp: 310708
 attack_damage: 10275
 attack_type: Physical
 vulnerabilities:

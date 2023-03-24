@@ -19,5 +19,7 @@ abilities:
     description: "huge 360 degree gaze AoE - look away; also used out of
     combat"
   - name: Infusion
+    potency: 110
+    type: Physical
     description: "instant gap closer; used immediately on pull"
 ---
