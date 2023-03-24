@@ -15,10 +15,11 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
+  - name: Loom
+    potency: n/a
+    description: "instant gap closer"
   - name: Dark II
     description: "telegraphed large conal AoE"
   - name: Inner Demons
     description: "telegraphed pointblank AoE"
-notes:
-  - "has some sort of teleport/gap-closer that does no damage"
 ---

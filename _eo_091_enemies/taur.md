@@ -17,7 +17,7 @@ abilities:
   - name: 32-tonze Swipe
     description: "large conal AoE with late telegraph - get to side or behind"
   - name: Zoom In
-    description: "instant gap-closer"
+    description: "instant gap closer"
   - name: 128-tonze Swing
     description: "pointblank AoE with late telegraph - get out"
 ---

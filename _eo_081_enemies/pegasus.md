@@ -15,9 +15,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Gallop
-    description: "instant gap-closer"
+    potency: 75
+    type: Magic
+    description: "instant gap closer"
   - name: Nicker
     description: "pointblank AoE with late telegraph - get away"
   - name: Rear Hoof
+    potency: 110
+    type: Physical
     description: "instant; inflicts knockback"
 ---

@@ -5,6 +5,7 @@ image: hecteyes.png
 start_floor: 81
 end_floor: 83
 agro: Sound
+hp: 310708
 attack_damage: 7190
 attack_type: Physical
 vulnerabilities:

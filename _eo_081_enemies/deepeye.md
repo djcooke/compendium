@@ -17,7 +17,7 @@ abilities:
   - name: Hypnotize
     description: "360 degree gaze AoE"
   - name: Heirloom Scream
-    potency: 110
+    potency: 55
     type: Magic
     description: "instant untelegraphed pointblank AoE; inflicts vulnerability
     up (5% per stack, 25s)"

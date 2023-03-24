@@ -14,7 +14,7 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Feral Lunge
-    description: "instant gap-closer"
+    description: "instant gap closer"
   - name: "The Ram's Voice"
     description: "untelegraphed pointblank AoE - get out"
   - name: "The Dragon's Voice"

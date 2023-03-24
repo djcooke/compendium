@@ -16,4 +16,8 @@ vulnerabilities:
 abilities:
   - name: Dark Arrivisme
     description: "telegraphed circle AoE"
+  - name: Face First
+    potency: 110
+    type: Magic
+    description: "instant"
 ---
