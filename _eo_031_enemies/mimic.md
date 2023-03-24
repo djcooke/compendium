@@ -4,6 +4,8 @@ nickname: Mimic
 start_floor: 31
 end_floor: 39
 agro: Proximity
+hp: 248428
+attack_damage: 6222
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,7 +19,7 @@ abilities:
     potency: n/a
     description: 'inflicts pox (magic DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
-    potency: 300
+    potency: 4000
     type: Physical
     description: 'telegraphed pointblank AoE'
 notes:

@@ -5,6 +5,8 @@ start_floor: 51
 end_floor: 59
 agro: Proximity
 attack_type: Physical
+hp: 312784
+attack_damage: 7456
 vulnerabilities:
   bind: false
   heavy: false
@@ -17,7 +19,7 @@ abilities:
     potency: n/a
     description: 'inflicts pox (magic DoT potency 5, 10m); can be interrupted'
   - name: Deathtrap
-    potency: 300
+    potency: 4000
     type: Physical
     description: 'telegraphed pointblank AoE'
 notes:
