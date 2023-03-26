@@ -5,7 +5,7 @@ image: system_alpha.png
 start_floor: 91
 end_floor: 93
 agro: Proximity
-attack_type: Physical
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: true

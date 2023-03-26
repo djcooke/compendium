@@ -5,7 +5,7 @@ image: motherbit.png
 start_floor: 93
 end_floor: 95
 agro: Proximity
-attack_type: Physical
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: true

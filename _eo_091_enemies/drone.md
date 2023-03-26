@@ -5,7 +5,7 @@ image: drone.png
 start_floor: 91
 end_floor: 97
 agro: Proximity
-attack_type: Physical
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false

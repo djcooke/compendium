@@ -1,6 +1,7 @@
 ---
 name: Mimic
 nickname: Mimic
+image: ../mimic_silver.png
 start_floor: 41
 end_floor: 49
 agro: Proximity

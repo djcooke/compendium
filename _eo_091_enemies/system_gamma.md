@@ -6,7 +6,7 @@ start_floor: 91
 end_floor: 94
 patrol: true
 agro: Proximity
-attack_type: Physical
+attack_type: Magic
 vulnerabilities:
   bind: false
   heavy: false

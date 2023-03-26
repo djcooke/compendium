@@ -3,7 +3,7 @@ name: Orthos Drake
 nickname: Drake
 image: drake.png
 start_floor: 64
-end_floor: 65
+end_floor: 66
 agro: Sight
 hp: 309324
 attack_damage: 10898

@@ -13,11 +13,14 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Water III
     description: "telegraphed pointblank AoE"
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

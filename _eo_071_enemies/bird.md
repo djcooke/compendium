@@ -9,10 +9,10 @@ hp: 317628
 attack_damage: 11418
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Eye of the Fierce

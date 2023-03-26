@@ -10,10 +10,10 @@ hp: 328008
 attack_damage: 10862
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Left Sweep

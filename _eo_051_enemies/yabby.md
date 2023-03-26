@@ -3,7 +3,7 @@ name: Orthos Yabby
 nickname: Yabby
 image: yabby.png
 start_floor: 54
-end_floor: 55
+end_floor: 56
 patrol: true
 agro: Sight
 hp: 249120
