@@ -7,7 +7,7 @@ end_floor: 69
 patrol: true
 agro: Proximity
 hp: 293408
-attack_damage: 9797
+attack_damage: 9795
 attack_type: Physical
 vulnerabilities:
   bind: false

@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Dissever
     potency: 1600
+    type: Physical
     description: 'telegraphed conal AoE'
   - name: Mean Thrash
     potency: 1600

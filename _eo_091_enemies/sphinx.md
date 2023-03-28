@@ -1,10 +1,12 @@
 ---
-name: Orthos Sphynx
-nickname: Sphynx
-image: sphynx.png
+name: Orthos Sphinx
+nickname: Sphinx
+image: sphinx.png
 start_floor: 94
 end_floor: 96
 agro: Sight
+hp: 354304
+attack_damage: 11415
 attack_type: Physical
 vulnerabilities:
   bind: false

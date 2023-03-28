@@ -13,7 +13,6 @@ vulnerabilities:
   slow: unknown
   stun: unknown
 gallery_only: true
-attack_type: Physical
 abilities:
   - name: "Circle of Flame (?)"
     potency: 80
@@ -29,7 +28,7 @@ abilities:
     landmine)"
 notes:
   - Dread beast
-  - "Immune to knockback, which means it will not die to the Rotoswipe ability
-  from Protomander of Dread."
+  - "Immune to knockback, which means it will not die to the Rotosmash ability
+  from the Protomander of Dread"
   - "Grants 30m regen buff upon defeat"
 ---

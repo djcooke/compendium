@@ -6,7 +6,7 @@ start_floor: 57
 end_floor: 59
 agro: Sound
 hp: 231820
-attack_damage: 7530
+attack_damage: 7467
 attack_type: Physical
 vulnerabilities:
   bind: false

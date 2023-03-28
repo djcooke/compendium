@@ -5,7 +5,9 @@ image: durga.png
 start_floor: 96
 end_floor: 98
 agro: Proximity
-attack_type: Physical
+hp: 354304
+attack_damage: 8566
+attack_type: Magic
 vulnerabilities:
   bind: unknown
   heavy: unknown

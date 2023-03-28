@@ -5,6 +5,7 @@ image: deepeye.png
 start_floor: 83
 end_floor: 85
 agro: Sight
+hp: 310708
 attack_damage: 6643
 attack_type: Physical
 vulnerabilities:

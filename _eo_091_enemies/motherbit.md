@@ -5,6 +5,8 @@ image: motherbit.png
 start_floor: 93
 end_floor: 95
 agro: Proximity
+hp: 336312
+attack_damage: 10259
 attack_type: Magic
 vulnerabilities:
   bind: false

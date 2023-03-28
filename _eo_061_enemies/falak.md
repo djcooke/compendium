@@ -18,5 +18,5 @@ abilities:
   - name: Electric Cachexia
     potency: 2000
     type: Magic
-    description: "donut AoE; only used if someone is far"
+    description: "untelegraphed donut AoE; only used if someone is far"
 ---

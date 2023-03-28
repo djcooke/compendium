@@ -5,6 +5,8 @@ image: drone.png
 start_floor: 91
 end_floor: 97
 agro: Proximity
+hp: 319704
+attack_damage: 7787
 attack_type: Magic
 vulnerabilities:
   bind: false
