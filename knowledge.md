@@ -27,6 +27,11 @@ traps:
     only_in: HoH
     description: 'Turns you into an otter, preventing all actions and reducing
     max HP for 30 seconds'
+  - name: Owlet
+    image: owlet.png
+    only_in: EO
+    description: 'Turns you into an owlet, preventing all actions and reducing
+    max HP for 30 seconds'
 ---
 
 Basic information about how deep dungeons work can be found in the official
@@ -75,7 +80,7 @@ treasure room, etc.
 ## Cairns of Passage and Return
 
 <div class="surfacePane" markdown="1">
-Note: these are called "Beacons" rather than "Cairns" in HoH.
+Note: these are called "Cairns" in PotD, "Beacons"  in HoH, and "Pylons" in EO.
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
@@ -121,6 +126,23 @@ The Palace is haunted by NPCs who have died in the FFXIV storyline. For each
 floorset there is one or more of these NPCs who may appear as an enemy. These
 enemies are included and detailed more in the floorset pages.
 
+### EO Dread Beasts
+
+"A dread beast stalks this floor..."
+
+This message will occasionally appear in your log at the start of a floor. It
+means that one of the three dread beasts have spawned. These hit extremely
+hard and can easily one-shot DPS and healers with their normal attacks. You
+should usually avoid them, but if you do defeat one, it grants a 30-minute
+buff, a piece of the accursed hoard, and a chest.
+
+* Lamia Queen: Grants regen
+* Meracydian Clone: Grants damage up
+* Demi-Cochma: Grants vulnerability down
+
+More detailed information is included in the enemy descriptions on the floorset
+pages.
+
 ### Agro
 
 There are three different agro types an enemy may have:
@@ -150,6 +172,7 @@ chests:
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
   * HoH only: chest may contain magicite
+  * EO only: chest may contain a demiclone tomestone
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
   are detailed in the [Pomanders section](pomanders.html)
 
@@ -204,22 +227,25 @@ will be applied. These are mostly detrimental, but a few are actually helpful.
 * Damage Down - Damage dealt is reduced
 * Amnesia - Unable to use abilities
 * Item Penalty - Unable to use items or pomanders
-* Auto-heal Penalty - HP regeneration has stopped
+* Auto-heal Penalty - HP regeneration has stopped. In EO, this also affects
+  enemies, which is hugely beneficial when combined with a Protomander of
+  Storms
 * Blind - Encroaching darkness is lowering accuracy
 * Gloom - Enemies have increased attack, defense, and movement speed
 * **PotD Only**: Sprint Penalty - Unable to sprint
-* **PotD Only**: Knockback Penalty - Unable to use knockback and draw-in
+* **PotD and EO Only**: Knockback Penalty - Unable to use knockback and draw-in
   effects. This mostly means that Pomander of Rage will not be useful; however,
   it also prevents enemies' draw-in abilities, which can be beneficial in some
   cases
 * **HoH Only**: Unmagicked - Unable to use magicite
+* **EO Only**: Demiclone Penalty - Unable to summon demi-clones
 
 ### Beneficial Effects
 
 * HP & MP Boost - Maximum HP and MP are increased
 * Haste - Weaponskill cast time and recast time, spell cast time and recast
   time, and auto-attack delay are reduced
-* **HoH Only**: Sprint - Movement speed is increased
+* **HoH and EO Only**: Sprint - Movement speed is increased
 
 [Back to top](#top)
 </div>

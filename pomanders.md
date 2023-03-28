@@ -175,6 +175,47 @@ pomanders:
     tips:
       - 'Use to clear a floor quickly, especially when there are a lot of
       things you don''t want to fight'
+  - name: Lethargy
+    image: lethargy.png
+    only_in: EO
+    description: "Inflicts all enemies on the floor with a very potent slow.
+    Auto-attack delay as well as weaponskill and spell cast and recast time are
+    increased. Duration: 10 minutes"
+    tips:
+      - "Good panic button like witching"
+      - "Use for enemies you're unfamiliar/unconfident with. EO enemies have a
+      lot of abilities with late telegraphs, so this will give you more time to
+      react"
+      - "Can use on floors with enemies that have dangerous out-of combat AoEs
+      (e.g. sasquatches) to reduce risk"
+  - name: Storms
+    image: storms.png
+    only_in: EO
+    description: "Reduces the HP of all enemies on the current floor to a
+    single digit"
+    tips:
+      - "Gather up a few enemies before using, then finish them all with a
+      single AoE. If the enemies are dangerous, you can use a witching for
+      safety"
+      - "Enemies are also affected by the Auto-heal Penalty enchantment which
+      makes this an easy floor wipe. Consider combining with fortune"
+  - name: Dread
+    image: dread.png
+    only_in: EO
+    description: "Transforms user into a dreadnaught. Grants ability Rotosmash
+    that kills most enemies in one hit, and Wrecking Ball that inflicts
+    vulnerability up"
+    tips:
+      - 'Rotosmash does not kill in one hit on floors that have knockback
+      disabled'
+      - 'Be aware that dread beasts are immune to knockback, so Rotosmash will
+      not kill them either'
+      - "Using Rotosmash to get a lot of quick kills is generally far more
+      valuable than putting vulnerability down on a boss. You could use one to
+      clear the floor before a boss, hop in the passage, and get stacks on the
+      boss before it wears off though."
+      - "See Pomander of Rage from PotD for more tips, as this is much the
+      same"
 ---
 
 <div class="surfacePane" markdown="1">
@@ -182,6 +223,8 @@ pomanders:
 Pomanders are found in gold chests, and have many helpful effects. Using them
 efficiently is key to getting a solo clear. Below is a description of each
 pomander, and some tips for using them effectively.
+
+These are called protomanders instead of pomanders in Eureka Orthos.
 
 <table>
   <thead>

@@ -15,5 +15,7 @@ vulnerabilities:
 gallery_only: true
 notes:
   - Dread beast
+  - "Immune to knockback, which means it will not die to the Rotoswipe ability
+  from Protomander of Dread."
   - "Grants 30m vulnerability down buff (10%) upon defeat"
 ---
