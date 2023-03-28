@@ -3,8 +3,10 @@ name: Mimic
 nickname: Mimic
 image: ../mimic_silver.png
 start_floor: 91
-end_floor: 99
+end_floor: 98
 agro: Proximity
+hp: 466408
+attack_damage: 15459
 attack_type: Physical
 vulnerabilities:
   bind: false

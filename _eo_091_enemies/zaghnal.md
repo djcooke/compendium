@@ -1,10 +1,12 @@
 ---
-name: Orthos Zhagnal
-nickname: Zhagnal
-image: zhagnal.png
+name: Orthos Zaghnal
+nickname: Zaghnal
+image: zaghnal.png
 start_floor: 93
 end_floor: 95
 agro: Sight
+hp: 354304
+attack_damage: 7193
 attack_type: Physical
 vulnerabilities:
   bind: false
@@ -17,5 +19,7 @@ abilities:
     description: "huge pointblank AoE with late telegraph; only used out of
     combat"
   - name: Pounce Errant
-    description: "circle AoE on marked player"
+    potency: 100
+    type: Physical
+    description: "circle AoE gap closer on marked player"
 ---

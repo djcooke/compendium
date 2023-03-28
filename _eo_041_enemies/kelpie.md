@@ -7,7 +7,7 @@ end_floor: 45
 patrol: true
 agro: Sight
 hp: 169540
-attack_damage: 4252
+attack_damage: 4268
 attack_type: Physical
 vulnerabilities:
   bind: true

@@ -6,6 +6,8 @@ start_floor: 91
 end_floor: 94
 patrol: true
 agro: Proximity
+hp: 336312
+attack_damage: 8200
 attack_type: Magic
 vulnerabilities:
   bind: false
@@ -20,5 +22,7 @@ abilities:
   - name: Repelling Cannons
     description: "pointblank AoE with late telegraph - get out"
   - name: Ring Cannon
+    potency: 4500
+    type: Magic
     description: "donut AoE with late telegraph - get in"
 ---

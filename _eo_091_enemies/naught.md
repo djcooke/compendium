@@ -5,6 +5,7 @@ image: naught.png
 start_floor: 96
 end_floor: 98
 agro: Sight
+hp: 354304
 attack_type: Physical
 vulnerabilities:
   bind: true
