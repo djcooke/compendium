@@ -1,3 +1,8 @@
+- date: 2023-03-30
+  updates:
+    - 'Added more EO enemy details and boss times, courtesy of vaxherd'
+    - 'Fixed Orthos Persona aggro type (proximity, not sight)'
+    - 'Fixed Orthodrone floor range (they can also appear on 98)'
 - date: 2023-03-29
   updates:
     - 'Added more EO enemy details, courtesy of vaxherd'

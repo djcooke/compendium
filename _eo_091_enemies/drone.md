@@ -3,7 +3,7 @@ name: Orthodrone
 nickname: Drone
 image: drone.png
 start_floor: 91
-end_floor: 97
+end_floor: 98
 agro: Proximity
 hp: 319704
 attack_damage: 7787

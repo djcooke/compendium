@@ -4,7 +4,7 @@ nickname: Persona
 image: persona.png
 start_floor: 81
 end_floor: 83
-agro: Sight
+agro: Proximity
 hp: 328008
 attack_damage: 10860
 attack_type: Physical
