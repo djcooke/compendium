@@ -27,6 +27,10 @@ abilities:
   - name: Surrounding Burst
     description: "large pointblank AoE with late telegraph - get out"
 notes:
+  - note: "Rotation:"
+    subnotes:
+      - "Left Sweep or Right Sweep"
+      - "Ringing Burst or Surrounding Burst"
   - "Left/Right Sweep are 180-degree AoEs with an extra 30 degrees to the
     opposite side in front (for example, Left Sweep hits from directly in
     back, around the left side, to directly in front and 30 degrees beyond)"
