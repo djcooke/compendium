@@ -238,7 +238,7 @@ will be applied. These are mostly detrimental, but a few are actually helpful.
   it also prevents enemies' draw-in abilities, which can be beneficial in some
   cases
 * **HoH Only**: Unmagicked - Unable to use magicite
-* **EO Only**: Demiclone Penalty - Unable to summon demi-clones
+* **EO Only**: Demiclone Penalty - Unable to use demiclone generators
 
 ### Beneficial Effects
 

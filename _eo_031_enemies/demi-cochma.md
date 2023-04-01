@@ -8,10 +8,10 @@ agro: Sight
 extreme_hp: 829016
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
 gallery_only: true
 abilities:

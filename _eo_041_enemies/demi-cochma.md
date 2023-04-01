@@ -9,10 +9,10 @@ extreme_hp: 900984
 extreme_attack_damage: 65000
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: unknown
-  slow: unknown
+  slow: true
   stun: unknown
 gallery_only: true
 abilities:
