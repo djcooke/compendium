@@ -19,7 +19,7 @@ abilities:
     potency: 120
     type: Physical
     description: "instant; inflicts flesh wound (physical DoT potency 30, 30s)"
-  - name: "Howl (?)"
+  - name: Howl
     potency: n/a
     description: "grants physical damage up (40%, 1m) to self"
 ---

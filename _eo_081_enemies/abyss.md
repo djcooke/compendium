@@ -12,7 +12,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Dark Arrivisme
@@ -21,4 +21,7 @@ abilities:
     potency: 110
     type: Magic
     description: "instant"
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---
