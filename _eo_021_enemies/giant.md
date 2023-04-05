@@ -24,9 +24,4 @@ abilities:
     potency: 3000
     type: Magic
     description: 'telegraphed line AoE'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

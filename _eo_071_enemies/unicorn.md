@@ -25,7 +25,7 @@ abilities:
     description: "instant; inflicts knockback"
     warning: movement
   - name: Innocence
-    description: "telegraphed circle AoE"
+    description: "telegraphed circle AoE on random player"
 notes:
   - "Uses Gallop > Alicorn 3 times in a row"
 ---

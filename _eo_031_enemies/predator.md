@@ -24,11 +24,9 @@ abilities:
     description: 'grants haste to self'
 job_specifics:
   SGE:
-    difficulty: Easy
     notes:
       - "Dangerous to multipull because of the haste buff"
   WHM:
-    difficulty: Easy
     notes:
       - "Dangerous to multipull because of the haste buff"
 ---

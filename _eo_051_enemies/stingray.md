@@ -25,9 +25,4 @@ abilities:
   - name: Electric Whorl
     description: "telegraphed donut AoE"
     warning: donut
-job_specifics:
-  SGE:
-    difficulty: Medium
-  WHM:
-    difficulty: Medium
 ---

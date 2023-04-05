@@ -16,9 +16,11 @@ vulnerabilities:
   stun: unknown
 abilities:
   - name: Umbra Smash
-    description: "telegraphed large circle AoE gap closer"
+    description: "telegraphed large circle AoE gap closer on random player"
   - name: Triple Trial
-    description: "conal AoE with late telegraph - get behind or far; used
-    immediately after Umbra Smash"
+    damage: 4000
+    type: Physical
+    description: "conal AoE on random player with late telegraph - get behind
+    or far; used immediately after Umbra Smash"
     warning: directional
 ---

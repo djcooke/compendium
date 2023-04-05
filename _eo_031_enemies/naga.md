@@ -21,9 +21,4 @@ abilities:
     description: 'telegraphed conal gaze; inflicts slow (100%, 1m) - look away,
     get behind, or get away. This slow cannot be removed with Esuna'
     warning: gaze
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

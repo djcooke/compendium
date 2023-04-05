@@ -26,9 +26,4 @@ abilities:
     type: Physical
     description: 'telegraphed pointblank AoE; inflicts knockback. Used
     immediately after Cold Gaze'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

@@ -19,9 +19,4 @@ abilities:
     potency: 180
     type: Physical
     description: 'instant'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

@@ -18,18 +18,16 @@ abilities:
   - name: Freezeover
     description: "telegraphed circle AoE"
   - name: Elbow Drop
-    potency: 3000
+    potency: 5000
     type: Physical
     description: "untelegraphed backward conal AoE with quick cast; only used
     when someone is behind"
     warning: directional
 job_specifics:
   SGE:
-    difficulty: Easy
     notes:
       - "Beware Elbow Drop when multipulling"
   WHM:
-    difficulty: Easy
     notes:
       - "Beware Elbow Drop when multipulling"
 ---

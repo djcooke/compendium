@@ -25,9 +25,4 @@ abilities:
     description: 'huge pointblank AoE with late telegraph; inflicts
     vulnerability up (15% per stack, 30s); only used out of combat'
     warning: idle
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

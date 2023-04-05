@@ -25,11 +25,9 @@ notes:
   - 'Stay close so you can easily dodge Swinge'
 job_specifics:
   SGE:
-    difficulty: Medium
     notes:
       - "Dangerous for multipulls unless you use Lethargy"
   WHM:
-    difficulty: Medium
     notes:
       - "Dangerous for multipulls unless you use Lethargy"
 ---

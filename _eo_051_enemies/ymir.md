@@ -23,9 +23,4 @@ abilities:
 notes:
   - "Gelid Charge only counters physical attacks, so casters can keep casting
     as usual - just be careful not to auto-attack"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

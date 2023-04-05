@@ -20,9 +20,4 @@ abilities:
     potency: 140
     type: Physical
     description: 'instant; absorbs 73.7% of damage dealt'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

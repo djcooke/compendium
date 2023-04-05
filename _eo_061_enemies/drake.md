@@ -16,7 +16,10 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Smoldering Scales
-    description: "grants counterattack - disengage IMMEDIATELY or the
-    counterattacks WILL kill you"
+    description: "grants counterattack (magic potency 2500, 6s) - disengage
+    IMMEDIATELY or the counterattacks WILL kill you"
     warning: other
+notes:
+  - "Smoldering Scales only counters physical attacks, so casters can keep
+    casting as usual - just be careful not to auto-attack"
 ---

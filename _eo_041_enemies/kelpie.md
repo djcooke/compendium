@@ -22,6 +22,8 @@ abilities:
     description: "charge attack on marked player; can be LoSed"
     warning: other
   - name: Bloody Puddle
+    potency: 5000
+    type: Magic
     description: "untelegraphed large pointblank AoE; used after Gallop if
     Gallop was not stunned/slept/LoSed"
     warning: pointblank
@@ -32,9 +34,4 @@ abilities:
 notes:
   - "LoSing the charge is not mandatory if you have room to dodge the followup
     AoE"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

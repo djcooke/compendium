@@ -27,11 +27,9 @@ abilities:
     warning: directional
 job_specifics:
   SGE:
-    difficulty: Medium
     notes:
       - "Watch out for backward conal in large pulls"
   WHM:
-    difficulty: Medium
     notes:
       - "Watch out for backward conal in large pulls"
 ---

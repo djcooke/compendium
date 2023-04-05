@@ -23,4 +23,7 @@ abilities:
     warning: directional
   - name: Catapult
     description: "telegraphed circle AoE"
+notes:
+  - "All abilities target random players, so be wary of sudden direction
+    changes when in a party"
 ---

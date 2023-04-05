@@ -24,9 +24,4 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; inflicts stacking poison (magic DoT
     potency 40 per stack, max 8 stacks, 24s)'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

@@ -29,8 +29,4 @@ job_specifics:
     notes:
       - "You can avoid Stump by keeping distance with Sprint/Leg Graze/Foot
       Graze"
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

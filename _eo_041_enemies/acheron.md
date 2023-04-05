@@ -21,9 +21,4 @@ abilities:
   - name: Quake
     description: "huge pointblank AoE; can be interrupted or LoSed"
     warning: other
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

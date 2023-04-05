@@ -21,9 +21,4 @@ abilities:
     description: "instant 3-hit attack"
   - name: Flush
     description: "telegraphed pointblank AoE"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

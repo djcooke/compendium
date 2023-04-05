@@ -24,9 +24,4 @@ abilities:
     description: "untelegraphed conal AoE; used immediately after draw-in - get
     behind"
     warning: directional
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

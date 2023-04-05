@@ -23,11 +23,9 @@ abilities:
     warning: other
 job_specifics:
   SGE:
-    difficulty: Easy
     notes:
       - "Dangerous in multipulls because of Tailwind"
   WHM:
-    difficulty: Easy
     notes:
       - "Dangerous in multipulls because of Tailwind"
 ---

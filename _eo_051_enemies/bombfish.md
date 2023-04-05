@@ -17,9 +17,4 @@ vulnerabilities:
 abilities:
   - name: 1000 Spines
     description: "telegraphed pointblank AoE"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

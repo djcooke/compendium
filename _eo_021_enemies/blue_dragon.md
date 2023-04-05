@@ -20,9 +20,4 @@ abilities:
     type: Magic
     description: 'telegraphed line AoE; inflicts frostbite (magic DoT potency
     40, 20s)'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

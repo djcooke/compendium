@@ -18,16 +18,12 @@ abilities:
   - name: '111-tonze Swing'
     potency: 3000
     type: Physical
-    description: 'pointblank AoE with late telegraph - get away'
+    description: 'pointblank AoE with late telegraph inflicting knockback - get
+    away'
     warning: pointblank
   - name: '11-tonze Swipe'
     potency: 3000
     type: Physical
     description: 'conal AoE with late telegraph - get behind or get away'
     warning: directional
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

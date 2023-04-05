@@ -18,6 +18,8 @@ abilities:
   - name: Auto-cannons
     description: "telegraphed huge line AoE"
   - name: Self-detonate
+    potency: 5000
+    type: Magic
     description: "untelegraphed pointblank AoE used AFTER DEATH - get away"
     warning: explosion
 ---

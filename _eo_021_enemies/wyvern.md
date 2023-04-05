@@ -20,9 +20,4 @@ abilities:
     type: Physical
     description: 'inflicts stacking poison (physical DoT potency 100 per stack,
     max 8 stacks, 30s)'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

@@ -29,9 +29,4 @@ notes:
     move close enough for the AoE to hit the player before starting the cast.
     It will keep following until it gets within range, even into other rooms!
     Be aware of these when fighting other mobs"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---
