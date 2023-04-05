@@ -4,6 +4,7 @@ nickname: Chimera
 image: chimera.png
 start_floor: 95
 end_floor: 98
+patrol: true
 agro: Sight
 hp: 354304
 attack_damage: 11415

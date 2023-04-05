@@ -18,9 +18,4 @@ vulnerabilities:
 notes:
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
   Witching since it doesn't normally do melee auto-attacks"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

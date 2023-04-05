@@ -25,5 +25,5 @@ abilities:
     after Inhale - get behind"
     warning: directional
   - name: Moldy Phlegm
-    description: "telegraphed circle AoE"
+    description: "telegraphed circle AoE on random player"
 ---

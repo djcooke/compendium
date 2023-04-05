@@ -25,9 +25,4 @@ abilities:
     type: Magic
     description: 'instant death to players with minimum debuff; cannot be
     outranged'
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

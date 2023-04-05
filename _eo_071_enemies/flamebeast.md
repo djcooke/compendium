@@ -16,7 +16,9 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Blistering Roar
-    description: "huge, wide line AoE with late telegraph - get behind; cannot
-    be LoSed"
+    potency: 4000
+    type: Magic
+    description: "huge, wide line AoE on random player with late telegraph -
+    get behind; cannot be LoSed"
     warning: directional
 ---

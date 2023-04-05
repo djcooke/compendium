@@ -21,10 +21,7 @@ abilities:
     description: "huge untelegraphed pointblank draw-in"
     warning: movement
   - name: Water III
+    potency: 4000
+    type: Magic
     description: "telegraphed pointblank AoE; used immediately after Sucker"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

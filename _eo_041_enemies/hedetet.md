@@ -21,9 +21,4 @@ abilities:
     max 16 stacks, 30s)"
   - name: Hailfire
     description: "telegraphed line AoE"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

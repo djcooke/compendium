@@ -30,9 +30,4 @@ abilities:
 notes:
   - "If you shield all the damage from Scuttling Skewer, the heavy will also
     be blocked and Tail Screw will be skipped"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

@@ -20,9 +20,4 @@ abilities:
     type: Magic
     description: 'inflicts disease (20s)'
     warning: movement
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

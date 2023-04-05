@@ -16,7 +16,9 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Freefall
-    description: "telegraphed circle AoE"
+    potency: 5000
+    type: Physical
+    description: "telegraphed circle AoE; inflicts stun"
   - name: Golden Talons
     potency: 140
     type: Physical

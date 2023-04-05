@@ -20,6 +20,8 @@ abilities:
     type: Physical
     description: "instant gap closer"
   - name: Rear
+    potency: 4000
+    type: Physical
     description: "quick pointblank AoE with late telegraph; used immediately
     after Rout, so make sure to get away quickly"
     warning: pointblank

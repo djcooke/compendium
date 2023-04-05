@@ -22,9 +22,4 @@ abilities:
     stack, 20s); 12 second cooldown"
 notes:
   - "Acid Mist is fairly easy to avoid by kiting"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---

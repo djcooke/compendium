@@ -28,11 +28,9 @@ abilities:
     warning: pointblank
 job_specifics:
   SGE:
-    difficulty: Medium
     notes:
       - "Dangerous for multipulls unless you use Lethargy"
   WHM:
-    difficulty: Medium
     notes:
       - "Dangerous for multipulls unless you use Lethargy"
 ---

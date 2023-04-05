@@ -26,11 +26,9 @@ notes:
     You'll have a moment to adjust during the cast"
 job_specifics:
   SGE:
-    difficulty: Medium
     notes:
       - "Kneeling Snath hurts without steel"
   WHM:
-    difficulty: Medium
     notes:
       - "Kneeling Snath hurts without steel"
 ---

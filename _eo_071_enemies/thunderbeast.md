@@ -16,10 +16,14 @@ vulnerabilities:
   stun: false
 abilities:
   - name: Scythe Tail
-    description: "untelegraphed pointblank AoE; pauses in place for a moment
-    before using this - get away!"
+    potency: 4000
+    type: Physical
+    description: "untelegraphed pointblank AoE with no cast bar; pauses in
+    place for a moment before using this - get away!"
     warning: pointblank
   - name: "Spark (?)"
+    potency: 4500
+    type: Magic
     description: "untelegraphed huge donut AoE; only used if someone is far"
     warning: donut
 notes:

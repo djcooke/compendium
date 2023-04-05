@@ -1,3 +1,10 @@
+- date: 2023-04-12
+  updates:
+    - 'Added more EO enemy details, courtesy of vaxherd'
+    - 'Fixed EO 50 boss''s Songs of Thunder and Ice description (in/out were
+    reversed)'
+    - 'Fixed EO 95+ chimera not being marked as a patrol'
+    - 'Fixed missing note about dread pomanders not dropping until EO floor 7'
 - date: 2023-04-10
   updates:
     - 'Added warning icons for HoH enemy abilities'

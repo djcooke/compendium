@@ -19,6 +19,8 @@ abilities:
   - name: Regorge
     description: "telegraphed circle AoE"
   - name: Whip Back
+    potency: 2500
+    type: Physical
     description: "untelegraphed backward conal AoE; used after Regorge if
     someone is behind"
     warning: directional

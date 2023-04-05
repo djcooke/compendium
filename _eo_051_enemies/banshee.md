@@ -17,9 +17,4 @@ vulnerabilities:
 abilities:
   - name: Whisper of Our Discontent
     description: "telegraphed conal AoE"
-job_specifics:
-  SGE:
-    difficulty: Easy
-  WHM:
-    difficulty: Easy
 ---
