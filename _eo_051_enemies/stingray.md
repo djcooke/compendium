@@ -19,10 +19,12 @@ abilities:
     potency: 200
     type: Physical
     description: "instant pointblank AoE; inflicts knockback"
+    warning: movement
   - name: Expulsion
     description: "telegraphed pointblank AoE"
   - name: Electric Whorl
     description: "telegraphed donut AoE"
+    warning: donut
 job_specifics:
   SGE:
     difficulty: Medium

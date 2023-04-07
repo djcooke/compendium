@@ -21,6 +21,7 @@ abilities:
     type: Magic
     description: "huge untelegraphed pointblank AoE; inflicts stun (5s); can be
     LoSed. Fully shielding damage will NOT block the stun"
+    warning: other
   - name: Ecliptic Bite
     potency: 5000
     type: Physical

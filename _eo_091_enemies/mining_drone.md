@@ -19,6 +19,8 @@ abilities:
     potency: 100
     type: Physical
     description: "instant; inflicts knockback; used 4 times in a row"
+    warning: movement
   - name: Aetherochemical Cannon
     description: "huge 180 degree AoE with late telegraph - get behind"
+    warning: directional
 ---

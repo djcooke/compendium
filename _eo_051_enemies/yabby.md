@@ -21,6 +21,7 @@ abilities:
     type: Physical
     description: "instant; inflicts heavy (4s) which cannot be removed with
     Esuna"
+    warning: movement
   - name: Tail Screw
     potency: 99% of HP
     type: Unique

@@ -18,4 +18,5 @@ abilities:
   - name: Smoldering Scales
     description: "grants counterattack - disengage IMMEDIATELY or the
     counterattacks WILL kill you"
+    warning: other
 ---

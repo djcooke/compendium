@@ -19,11 +19,13 @@ abilities:
     potency: 170
     type: Physical
     description: 'inflicts knockback'
+    warning: movement
   - name: Ecliptic Meteor
     potency: 5000
     type: Magic
     description: 'huge pointblank AoE enrage with long cast time; can be LoSed.
     Used at 40% HP'
+    warning: explosion
 job_specifics:
   SGE:
     difficulty: Easy

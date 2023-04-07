@@ -18,6 +18,7 @@ vulnerabilities:
 abilities:
   - name: Double Hex Eye
     description: '360 degree gaze - look away'
+    warning: gaze
   - name: Knowing Gleam
     potency: 2500
     type: Magic

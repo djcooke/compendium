@@ -19,11 +19,13 @@ abilities:
     potency: n/a
     description: 'large pointblank AoE with late telegraph; draws players in -
     get away'
+    warning: movement
   - name: Headspin
     potency: 1000
     type: Physical
     description: 'untelegraphed pointblank AoE; used immediately after
     Electromagnetism'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Medium

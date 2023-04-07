@@ -18,4 +18,5 @@ vulnerabilities:
 abilities:
   - name: Blistering Blink
     description: "telegraphed huge, wide line AoE"
+    warning: directional
 ---

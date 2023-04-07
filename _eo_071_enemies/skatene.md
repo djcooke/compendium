@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: "untelegraphed pointblank AoE; inflicts sleep (15s); can be
     LoSed"
+    warning: pointblank
   - name: Tornado
     description: "telegraphed circle AoE; used shortly after Chirp"
 ---

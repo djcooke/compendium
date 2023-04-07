@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: "grants counterattack (magic potency 4000, 6s) - disengage
     IMMEDIATELY or the counterattacks WILL kill you"
+    warning: other
 notes:
   - "Gelid Charge only counters physical attacks, so casters can keep casting
     as usual - just be careful not to auto-attack"

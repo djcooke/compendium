@@ -23,6 +23,7 @@ abilities:
     description: "huge pointblank AoE with late telegraph; inflicts
     vulnerability up (10% per stack, 30s); only used out of combat; can be
     LoSed"
+    warning: idle
 notes:
   - "Once a Kukulkan decides to use Bombination on a player, it will slowly
     move close enough for the AoE to hit the player before starting the cast.

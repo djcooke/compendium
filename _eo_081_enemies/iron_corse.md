@@ -20,6 +20,7 @@ abilities:
     description: "instant"
   - name: Glass Punch
     description: "conal AoE with late telegraph - get behind or away"
+    warning: directional
   - name: Catapult
     description: "telegraphed circle AoE"
 ---

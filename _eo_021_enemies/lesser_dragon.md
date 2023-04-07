@@ -20,6 +20,7 @@ abilities:
     potency: 1200
     type: Physical
     description: 'huge conal AoE with late telegraph - get behind'
+    warning: directional
 notes:
   - 'Stay close so you can easily dodge Swinge'
 job_specifics:

@@ -1,3 +1,10 @@
+- date: 2023-04-07
+  updates:
+    - 'Added warning icons for dangerous abilities to ability list and enemy
+    list for Eureka Orthos. Click the icons to see the legend. Warnings will be
+    added for other deep dungeons soon'
+    - 'Removed job-specific enemy ratings from Eureka Orthos since the
+    difficulty range is much lower than in other deep dungeons'
 - date: 2023-04-03
   updates:
     - 'Added more EO enemy details'

@@ -19,10 +19,12 @@ abilities:
     potency: 3000
     type: Physical
     description: 'pointblank AoE with late telegraph - get away'
+    warning: pointblank
   - name: '11-tonze Swipe'
     potency: 3000
     type: Physical
     description: 'conal AoE with late telegraph - get behind or get away'
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Easy

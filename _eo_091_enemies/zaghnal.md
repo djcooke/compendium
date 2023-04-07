@@ -18,6 +18,7 @@ abilities:
   - name: Beastly Roar
     description: "huge pointblank AoE with late telegraph; only used out of
     combat"
+    warning: idle
   - name: Pounce Errant
     potency: 100
     type: Physical

@@ -21,6 +21,7 @@ abilities:
     type: Physical
     description: 'pointblank AoE with late telegraph; inflicts stun (4s) and
     knockback - get away'
+    warning: pointblank
   - name: 'Barrelling Smash (?)'
     potency: 150
     type: Physical

@@ -21,8 +21,10 @@ abilities:
     type: Magic
     description: 'huge frontal 180 degree AoE with late telegraph - get behind;
     can also be LoSed'
+    warning: directional
   - name: Atmospheric Displacement
     description: 'pointblank AoE with late telegraph - get away'
+    warning: pointblank
   - name: Rapid Sever
     potency: 120
     type: Physical

@@ -21,6 +21,7 @@ abilities:
   - name: Whip Back
     description: "untelegraphed backward conal AoE; used after Regorge if
     someone is behind"
+    warning: directional
   - name: "Disseminate"
     potency: n/a
     description: "instant used on death; inflicts vulnerability up (50% per

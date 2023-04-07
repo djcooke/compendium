@@ -1,0 +1,26 @@
+<dialog id="legendDialog" class="surfacePane">
+  <div class="dialogTop flexSplit">
+    <h2>Warning Icons</h2>
+    <button class="textButton" id="legendClose" type="button">✖</button>
+  </div>
+  <table>
+      <thead>
+        <tr>
+          <th>Icon</th>
+          <th class="textCell">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in site.data.warnings %}
+          {% assign key = item[0] %}
+          {% assign warning = item[1] %}
+          <tr>
+            <td class="iconCell"><img src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
+              alt="{{ warning.description }}" title="{{ warning.description }}"
+              width="16" height="16"></td>
+            <td>{{ warning.description }}</td>
+          </tr>
+        {% endfor %}
+    </tbody>
+  </table>  
+</dialog>

@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: "large pointblank AoE with late telegraph inflicting terror
     (16s) - get far"
+    warning: pointblank
   - name: Ancient Eruption
     potency: 3000
     type: Magic

@@ -24,9 +24,14 @@
       {% endfor %}
       <th class="aggroCell" title="Aggro Type">!</th>
       <th class="textCell">Name</th>
-      {% for job in site.data.jobs %}
-        <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
-      {% endfor %}
+      {% if page.dungeon == "eo" %}
+        <th class="warningCell">Warnings</th>
+      {% endif %}
+      {% if page.dungeon != "eo" %}
+        {% for job in site.data.jobs %}
+          <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
+        {% endfor %}
+      {% endif %}
       <th class="hpCell">HP</th>
       <th class="attackCell" title="Auto-Attack Damage">AA</th>
       <th class="vulnerabilityCell" colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">Vulnerabilities</th>
@@ -65,39 +70,57 @@
           {% assign agro_image = 'question.svg' %}
         {% endcase %}
         {% assign alt = enemy.agro | default: 'Unknown' | append: ' agro' %}
-        <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}" alt="{{ alt }}" title="{{ alt }}" width="24" height="24">
+        <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}"
+            alt="{{ alt }}" title="{{ alt }}" width="24" height="24">
       </td>
       <td class="textCell">
         <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif %}</a>
       </td>
 
-      {% for job in site.data.jobs %}
-        <td class="difficultyCell jobSpecific job{{ job }}">
-          {% if enemy.job_specifics and enemy.job_specifics[job] and enemy.job_specifics[job].difficulty %}
-            {% assign word_count = enemy.job_specifics[job].difficulty | split: ' ' | size %}
-            {% assign difficulty = enemy.job_specifics[job].difficulty | split: ' ' | first %}
-            {% case difficulty %}
-              {% when 'Easy' %}
-                {% assign difficulty_class = 'easy' %}
-              {% when 'Medium' %}
-                {% assign difficulty_class = 'medium' %}
-              {% when 'Hard' %}
-                {% assign difficulty_class = 'hard' %}
-              {% when 'Extreme' %}
-                {% assign difficulty_class = 'extreme' %}
+      {% if page.dungeon == "eo" %}
+        <td class="iconCell">
+          {% assign warnings = enemy.abilities | map: "warning" | uniq | sort_natural %}
+          {% for label in warnings %}
+            {% assign warning = site.data.warnings[label] %}
+            {% if warning %}
+              <img class="warningIcon"
+                  src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
+                  alt="{{ warning.description }}" title="{{ warning.description }}"
+                  width="16" height="16">
+            {% endif %}
+          {% endfor %}
+        </td>
+      {% endif %}
+
+      {% if page.dungeon != "eo" %}
+        {% for job in site.data.jobs %}
+          <td class="difficultyCell jobSpecific job{{ job }}">
+            {% if enemy.job_specifics and enemy.job_specifics[job] and enemy.job_specifics[job].difficulty %}
+              {% assign word_count = enemy.job_specifics[job].difficulty | split: ' ' | size %}
+              {% assign difficulty = enemy.job_specifics[job].difficulty | split: ' ' | first %}
+              {% case difficulty %}
+                {% when 'Easy' %}
+                  {% assign difficulty_class = 'easy' %}
+                {% when 'Medium' %}
+                  {% assign difficulty_class = 'medium' %}
+                {% when 'Hard' %}
+                  {% assign difficulty_class = 'hard' %}
+                {% when 'Extreme' %}
+                  {% assign difficulty_class = 'extreme' %}
+                {% else %}
+                  {% assign difficulty_class = nil %}
+              {% endcase %}
+              {% if difficulty_class %}
+                <span class="{{ difficulty_class }}">{{ difficulty }}</span>{% if word_count > 1 %}*{% endif %}
               {% else %}
-                {% assign difficulty_class = nil %}
-            {% endcase %}
-            {% if difficulty_class %}
-              <span class="{{ difficulty_class }}">{{ difficulty }}</span>{% if word_count > 1 %}*{% endif %}
+                ?
+              {% endif %}
             {% else %}
               ?
             {% endif %}
-          {% else %}
-            ?
-          {% endif %}
-        </td>
-      {% endfor %}
+          </td>
+        {% endfor %}
+      {% endif %}
 
       {% assign class = "hpCell" %}
       {% assign percent = nil %}
@@ -174,4 +197,3 @@
   </tbody>
 </table>
 </div>
-<script src="{{ '/assets/js/enemy_list.js' | relative_url }}"></script>

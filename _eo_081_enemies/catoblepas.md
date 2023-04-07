@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: "huge 360 degree gaze AoE inflicting petrify (20s) - look
     away; also used out of combat"
+    warning: idle-gaze
   - name: Infusion
     potency: 110
     type: Physical

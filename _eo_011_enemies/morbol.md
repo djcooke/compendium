@@ -23,6 +23,7 @@ abilities:
     potency: 400
     type: Magic
     description: 'telegraphed conal AoE; inflicts various debuffs'
+    warning: directional
 notes:
   - note: 'Bad Breath inflicts these debuffs:'
     subnotes:

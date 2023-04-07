@@ -22,6 +22,7 @@ abilities:
     type: Physical
     description: "untelegraphed instant conal AoE used immediately after The
     Killing Paw - make sure to stay behind/away until the second swipe"
+    warning: directional
 notes:
   - "As of patch 6.35, a bug can cause Gulo Gulo to store Savage Swipe and use
     it after moving within melee range, making it a guaranteed wipe. May be

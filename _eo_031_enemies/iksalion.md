@@ -20,6 +20,7 @@ abilities:
   - name: Tailwind
     potency: n/a
     description: 'grants damage up (100%, 1m) to another enemy'
+    warning: other
 job_specifics:
   SGE:
     difficulty: Easy

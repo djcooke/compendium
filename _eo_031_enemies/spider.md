@@ -19,6 +19,7 @@ abilities:
     potency: 800
     type: Magic
     description: 'pointblank AoE with late telegraph; inflicts minimum (20s)'
+    warning: pointblank
   - name: Needle Spaser
     potency: 150
     type: Magic

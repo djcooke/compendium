@@ -18,14 +18,18 @@ vulnerabilities:
 abilities:
   - name: Left Sweep
     description: "huge 210-degree AoE to the left with late telegraph"
+    warning: directional
   - name: Right Sweep
     description: "huge 210-degree AoE to the right with late telegraph"
+    warning: directional
   - name: Ringing Burst
     potency: 3000
     type: Magic
     description: "donut AoE with late telegraph - get in"
+    warning: donut
   - name: Surrounding Burst
     description: "large pointblank AoE with late telegraph - get out"
+    warning: pointblank
 notes:
   - note: "Rotation:"
     subnotes:

@@ -20,6 +20,7 @@ abilities:
     description: 'conal gaze attack; inflicts paralysis (20s) - look away, get
     behind, or get away. Diminishing returns do NOT apply to this paralysis (it
     is always 20s)'
+    warning: gaze
   - name: Body Slam
     potency: 1200
     type: Physical

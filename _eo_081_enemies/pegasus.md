@@ -21,8 +21,10 @@ abilities:
     description: "instant gap closer"
   - name: Nicker
     description: "pointblank AoE with late telegraph - get away"
+    warning: pointblank
   - name: Rear Hoof
     potency: 110
     type: Physical
     description: "instant; inflicts knockback"
+    warning: movement
 ---

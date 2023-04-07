@@ -1,0 +1,27 @@
+pointblank:
+  image: pointblank.svg
+  description: Large or untelegraphed pointblank AoE
+donut:
+  image: donut.svg
+  description: Large or untelegraphed donut AoE
+directional:
+  image: directional.svg
+  description: Large or untelegraphed directional AoE
+explosion:
+  image: explosion.svg
+  description: "AoE enrage or self-destruct"
+gaze:
+  image: gaze.svg
+  description: Gaze ability
+idle:
+  image: idle.svg
+  description: "Out of combat ability"
+idle-gaze:
+  image: idle_gaze.svg
+  description: "Gaze ability used out of combat"
+movement:
+  image: movement.svg
+  description: "Draw-in, knockback, heavy, or other movement-affecting status"
+other:
+  image: warning.svg
+  description: "Unclassified dangerous ability"

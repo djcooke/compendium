@@ -19,7 +19,9 @@ abilities:
   - name: "Ripper Claw"
     description: "untelegraphed conal AoE with no cast bar - get behind when he
     brings his arm back"
+    warning: directional
   - name: "Tail Smash"
     description: "untelegraphed backward conal AoE with no cast bar - get in
     front when he raises his tail"
+    warning: directional
 ---

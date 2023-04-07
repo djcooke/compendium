@@ -19,9 +19,11 @@ abilities:
   - name: Inhale
     potency: n/a
     description: "untelegraphed conal draw-in"
+    warning: movement
   - name: Moldy Sneeze
     description: "very quick conal AoE with late telegraph; used immediately
     after Inhale - get behind"
+    warning: directional
   - name: Moldy Phlegm
     description: "telegraphed circle AoE"
 ---

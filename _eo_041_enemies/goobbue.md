@@ -19,9 +19,11 @@ abilities:
     potency: n/a
     description: "untelegraphed conal AoE draw-in; knockback immunity does not
     work"
+    warning: movement
   - name: Sickly Sneeze
     description: "untelegraphed conal AoE; used immediately after draw-in - get
     behind"
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Easy

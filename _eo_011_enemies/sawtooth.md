@@ -24,6 +24,7 @@ abilities:
     type: Physical
     description: 'backward conal AoE with late telegraph; used after Dissever
     if anyone is behind'
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Medium

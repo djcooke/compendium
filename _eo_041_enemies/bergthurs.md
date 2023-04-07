@@ -22,6 +22,7 @@ abilities:
     type: Physical
     description: "untelegraphed backward conal AoE with quick cast; only used
     when someone is behind"
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Easy

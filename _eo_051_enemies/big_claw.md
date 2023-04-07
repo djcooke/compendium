@@ -20,6 +20,7 @@ abilities:
   - name: Crab Dribble
     description: "small backward conal AoE with late telegraph - get in front
     or away; used after Bubble Shower if someone is close behind"
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Easy

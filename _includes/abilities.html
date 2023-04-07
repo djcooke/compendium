@@ -7,7 +7,16 @@
     </thead>
     {% for ability in include.abilities %}
       <tr>
-        <td><strong>{{ ability.name }}</strong></td>
+        <td class="abilityCell">
+          <strong>{{ ability.name }}</strong>
+          {% if ability.warning %}
+            {% assign warning = site.data.warnings[ability.warning] %}
+            <img class="warningIcon"
+                src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
+                alt="{{ warning.description }}" title="{{ warning.description }}"
+                width="16" height="16">
+          {% endif %}
+        </td>
         <td class="align-center">
           {% include damage.html damage=ability.potency type=ability.type %}
         </td>

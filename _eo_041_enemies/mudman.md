@@ -20,6 +20,7 @@ abilities:
     type: Physical
     description: "instant pointblank AoE; inflicts heavy (8s) which cannot be
     removed with Esuna"
+    warning: movement
 notes:
   - "Be careful when other enemies are around because you may not be able to
     dodge AoEs while heavied"

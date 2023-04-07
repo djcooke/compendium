@@ -27,4 +27,5 @@ abilities:
     potency: 150% of max HP
     type: Unique
     description: "used on players with less than 20% of max HP"
+    warning: other
 ---

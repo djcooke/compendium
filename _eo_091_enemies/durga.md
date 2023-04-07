@@ -19,7 +19,9 @@ abilities:
     description: "telegraphed huge conal AoE"
   - name: Brainjack
     description: "inflicts confused (3s)"
+    warning: movement
   - name: Thermobaric Charge
     description: "telegraphed circle AoE; used immediately after Brainjack, but
     there's plenty of time to escape after confused wears off"
+    warning: directional
 ---

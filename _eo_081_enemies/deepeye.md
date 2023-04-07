@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Hypnotize
     description: "360 degree gaze AoE"
+    warning: gaze
   - name: Heirloom Scream
     potency: 55
     type: Magic

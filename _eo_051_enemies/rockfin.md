@@ -25,6 +25,7 @@ abilities:
     type: Physical
     description: "telegraphed charge attack; can be LoSed (and will otherwise
     kill you)"
+    warning: other
 job_specifics:
   SGE:
     difficulty: Easy

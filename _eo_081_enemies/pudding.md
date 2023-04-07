@@ -18,6 +18,7 @@ abilities:
   - name: Dark II
     type: Magic
     description: "telegraphed huge conal AoE"
+    warning: directional
   - name: Dark
     type: Magic
     description: "telegraphed circle AoE"

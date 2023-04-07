@@ -20,7 +20,9 @@ abilities:
     potency: 4000
     type: Magic
     description: "telegraphed huge conal AoE"
+    warning: directional
   - name: Tail Swing
     description: "long backward conal AoE with late telegraph; used immediately
     after Wide Blaster if someone is behind"
+    warning: directional
 ---

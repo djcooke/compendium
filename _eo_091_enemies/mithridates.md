@@ -21,4 +21,5 @@ abilities:
     potency: 120
     type: Magic
     description: "instant"
+    warning: directional
 ---

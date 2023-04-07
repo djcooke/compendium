@@ -19,4 +19,5 @@ abilities:
     description: "telegraphed huge line AoE"
   - name: Self-detonate
     description: "untelegraphed pointblank AoE used AFTER DEATH - get away"
+    warning: explosion
 ---

@@ -19,6 +19,7 @@ abilities:
     description: "telegraphed large frontal 180 degree AoE, immediately
     followed by an untelegraphed large backward 180 degree AoE - get behind,
     then quickly in front"
+    warning: directional
 job_specifics:
   SGE:
     difficulty: Easy

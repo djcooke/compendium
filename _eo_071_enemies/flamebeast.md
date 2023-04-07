@@ -18,4 +18,5 @@ abilities:
   - name: Blistering Roar
     description: "huge, wide line AoE with late telegraph - get behind; cannot
     be LoSed"
+    warning: directional
 ---

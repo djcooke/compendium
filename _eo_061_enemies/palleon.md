@@ -19,7 +19,9 @@ abilities:
     potency: 120
     type: Physical
     description: "instant draw-in"
+    warning: movement
   - name: Body Press
     description: "untelegraphed pointblank AoE used immediately after Sticky
     Tongue; will keep trying to use this if you stun it"
+    warning: pointblank
 ---

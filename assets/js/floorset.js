@@ -1,39 +1,46 @@
 (() => {
 
   let activatedFloor = null;
-  const select = document.getElementById("floorSelect");
+  const floorSelect = document.getElementById("floorSelect");
+  const legend = document.getElementById("legendDialog");
+  const legendClose = document.getElementById("legendClose");
   addEventListeners();
 
   function addEventListeners() {
     const cells = document.querySelectorAll(".enemyList .floorCell");
     for (const cell of cells) {
-      cell.addEventListener("mouseleave", onLeave);
-      cell.addEventListener("mouseenter", onHover);
-      cell.addEventListener("click", onClick);
+      cell.addEventListener("mouseleave", onLeaveFloorCell);
+      cell.addEventListener("mouseenter", onHoverFloorCell);
+      cell.addEventListener("click", onClickFloorCell);
     }
-    select.addEventListener("change", (event) => {
+    floorSelect.addEventListener("change", (event) => {
       activatedFloor = event.target.value || null;
       selectFloor(activatedFloor);
     });
+    const warningIcons = document.querySelectorAll(".warningIcon");
+    for (const icon of warningIcons) {
+      icon.addEventListener("click", () => legend.showModal());
+    }
+    legendClose.addEventListener("click", () => legend.close());
   }
 
-  function onLeave(event) {
+  function onLeaveFloorCell(event) {
     selectFloor(null);
   }
 
-  function onHover(event) {
+  function onHoverFloorCell(event) {
     const floor = getEventFloor(event);
     selectFloor(floor);
   };
 
-  function onClick(event) {
+  function onClickFloorCell(event) {
     const floor = getEventFloor(event);
     if (floor === activatedFloor) {
       activatedFloor = null;
-      select.value = "";
+      floorSelect.value = "";
     } else {
       activatedFloor = floor;
-      select.value = floor;
+      floorSelect.value = floor;
     }
     selectFloor(activatedFloor);
   };

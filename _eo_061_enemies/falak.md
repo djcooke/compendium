@@ -19,4 +19,5 @@ abilities:
     potency: 2000
     type: Magic
     description: "untelegraphed donut AoE; only used if someone is far"
+    warning: donut
 ---

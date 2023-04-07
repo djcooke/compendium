@@ -18,6 +18,7 @@ abilities:
   - name: Eye of the Fierce
     potency: n/a
     description: "360 degree gaze AoE; inflicts confusion (30s)"
+    warning: gaze
   - name: Revelation
     potency: 4000
     type: Magic

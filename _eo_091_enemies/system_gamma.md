@@ -19,10 +19,13 @@ abilities:
   - name: High Voltage
     description: "huge pointblank AoE with late telegraph - get out; can be
     interrupted"
+    warning: pointblank
   - name: Repelling Cannons
     description: "pointblank AoE with late telegraph - get out"
+    warning: pointblank
   - name: Ring Cannon
     potency: 4500
     type: Magic
     description: "donut AoE with late telegraph - get in"
+    warning: donut
 ---

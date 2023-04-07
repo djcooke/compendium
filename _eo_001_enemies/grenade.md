@@ -19,6 +19,7 @@ abilities:
     potency: 5000
     type: Magic
     description: 'pointblank AoE with late telegraph - get away'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Medium

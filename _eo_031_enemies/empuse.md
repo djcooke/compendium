@@ -20,6 +20,7 @@ abilities:
     type: Physical
     description: 'Inflicts knockback; if the target is close, runs behind the
     target to use this'
+    warning: movement
 notes:
   - "The knockback can't be outranged, so be careful about knockback direction.
     You'll have a moment to adjust during the cast"

@@ -22,4 +22,5 @@ abilities:
   - name: Rear
     description: "quick pointblank AoE with late telegraph; used immediately
     after Rout, so make sure to get away quickly"
+    warning: pointblank
 ---

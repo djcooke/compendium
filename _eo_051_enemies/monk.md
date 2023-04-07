@@ -19,6 +19,7 @@ abilities:
   - name: Sucker
     potency: n/a
     description: "huge untelegraphed pointblank draw-in"
+    warning: movement
   - name: Water III
     description: "telegraphed pointblank AoE; used immediately after Sucker"
 job_specifics:

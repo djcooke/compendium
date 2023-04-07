@@ -285,6 +285,10 @@ img.surfaceImage {
   width: 36px;
 }
 
+.enemyList th.warningCell {
+  width: 72px;
+}
+
 .enemyList th.difficultyCell {
   width: 72px;
 }
@@ -355,11 +359,11 @@ img.surfaceImage {
   padding: 1px 8px;
 }
 
-.enemyList td.iconCell {
+td.iconCell {
   text-align: center;
 }
 
-.enemyList th.textCell {
+th.textCell {
   text-align: left;
 }
 
@@ -412,6 +416,33 @@ img.surfaceImage {
 .enemyList td.difficultyCell span.extreme {
   font-weight: bold;
   color: #FF1493;
+}
+
+.abilityCell .warningIcon {
+  vertical-align: text-top;
+}
+
+.dialog {
+  border-color: var(--on-surface-dim);
+}
+
+.dialogTop {
+  align-items: flex-start;
+}
+
+.dialogTop h2 {
+  margin-top: 0;
+}
+
+button.textButton {
+  background-color: transparent;
+  border: none;
+  outline:none;
+  color: var(--on-surface);
+}
+
+button.textButton:hover {
+  color: var(--on-surface-bright);
 }
 
 .surfacePane table:not(.unstyled) {

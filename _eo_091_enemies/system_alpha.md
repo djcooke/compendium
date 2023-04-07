@@ -17,4 +17,5 @@ vulnerabilities:
 abilities:
   - name: "Aetherochemical Laser α"
     description: "huge conal AoE with late telegraph - get behind"
+    warning: directional
 ---

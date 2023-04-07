@@ -17,7 +17,9 @@ vulnerabilities:
 abilities:
   - name: Naked Soul
     description: "conal gaze AoE"
+    warning: gaze
   - name: Swinge
     description: "huge conal AoE with late telegraph - get to side or behind;
     used immediately after Naked Soul"
+    warning: directional
 ---

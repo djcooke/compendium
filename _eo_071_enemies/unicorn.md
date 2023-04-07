@@ -23,6 +23,7 @@ abilities:
     potency: 80
     type: Physical
     description: "instant; inflicts knockback"
+    warning: movement
   - name: Innocence
     description: "telegraphed circle AoE"
 notes:

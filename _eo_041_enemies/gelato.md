@@ -22,6 +22,7 @@ abilities:
     type: Magic
     description: "huge untelegraphed sacrificial AoE enrage; can be LoSed. Used
     at 30% HP"
+    warning: explosion
 job_specifics:
   SGE:
     difficulty: Easy

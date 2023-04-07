@@ -18,8 +18,10 @@ abilities:
   - name: Scythe Tail
     description: "untelegraphed pointblank AoE; pauses in place for a moment
     before using this - get away!"
+    warning: pointblank
   - name: "Spark (?)"
     description: "untelegraphed huge donut AoE; only used if someone is far"
+    warning: donut
 notes:
   - "It can help to keep rotating around the enemy, so you can more easily tell
   when he's using abilities"

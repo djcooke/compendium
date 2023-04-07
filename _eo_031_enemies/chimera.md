@@ -19,10 +19,12 @@ abilities:
     potency: 3000?
     type: Magic
     description: 'untelegraphed donut AoE - get in'
+    warning: donut
   - name: "Ram's Voice"
     potency: 3000
     type: Magic
     description: 'untelegraphed pointblank AoE - get out'
+    warning: pointblank
 notes:
   - 'Voice abilities CANNOT be interrupted, unlike in previous deep dungeons'
 job_specifics:

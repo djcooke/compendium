@@ -19,4 +19,5 @@ abilities:
     description: "telegraphed circle AoE"
   - name: Citadel Buster
     description: "line AoE with late telegraph - get to side or behind"
+    warning: directional
 ---

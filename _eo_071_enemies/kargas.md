@@ -23,4 +23,5 @@ abilities:
     description: "instant"
   - name: Winds of Winter
     description: "untelegraphed huge pointblank AoE; can be LoSed"
+    warning: other
 ---

@@ -20,9 +20,11 @@ abilities:
     potency: 120
     type: Physical
     description: "charge attack on marked player; can be LoSed"
+    warning: other
   - name: Bloody Puddle
     description: "untelegraphed large pointblank AoE; used after Gallop if
     Gallop was not stunned/slept/LoSed"
+    warning: pointblank
   - name: Torpedo
     potency: 150
     type: Physical

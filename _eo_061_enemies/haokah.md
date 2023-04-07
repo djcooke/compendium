@@ -19,4 +19,5 @@ abilities:
     potency: 150
     type: Physical
     description: "instant pointblank AoE; inflicts knockback"
+    warning: movement
 ---

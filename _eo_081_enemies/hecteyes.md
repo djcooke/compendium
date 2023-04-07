@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Hex Eye
     description: "360 degree gaze AoE"
+    warning: gaze
   - name: Death Ray
     potency: 120
     type: Magic
@@ -24,4 +25,5 @@ abilities:
   - name: Catharsis
     description: "huge pointblank AoE; there's enough time to run from melee to
     out of range before it goes off"
+    warning: pointblank
 ---

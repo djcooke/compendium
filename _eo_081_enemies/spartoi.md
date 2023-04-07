@@ -20,4 +20,5 @@ abilities:
   - name: Triple Trial
     description: "conal AoE with late telegraph - get behind or far; used
     immediately after Umbra Smash"
+    warning: directional
 ---

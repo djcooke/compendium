@@ -17,6 +17,7 @@ vulnerabilities:
 abilities:
   - name: Stone Gaze
     description: "conal gaze AoE - look away, get behind, or get away"
+    warning: gaze
   - name: Body Slam
     description: "telegraphed pointblank AoE"
 ---

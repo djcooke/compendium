@@ -21,6 +21,7 @@ abilities:
     potency: n/a
     description: 'conal gaze inflicting paralysis (22s) - look away, get
     behind, or get away'
+    warning: gaze
 notes:
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
   Witching since it doesn't normally do melee auto-attacks"

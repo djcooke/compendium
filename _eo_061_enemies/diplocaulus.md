@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: "telegraphed pointblank AoE; inflicts vulnerability up (200%,
     3m) on players, and grants evasion up (3m) to any other enemies it hits"
+    warning: other
 notes:
   - "The vulnerability up from Peculiar Light is a non-stacking debuff separate
     from other vuln-up effects. It also nullifies the vulnerability down buff

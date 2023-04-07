@@ -26,6 +26,7 @@ abilities:
     description: "huge pointblank AoE with late telegraph; only used after Ripe
     Banana; can be LoSed. Be VERY careful around Sasquatches as this WILL kill
     you"
+    warning: idle
   - name: Streak
     potency: 110
     type: Physical
