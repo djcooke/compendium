@@ -24,15 +24,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      width="100mm"
-     inkscape:zoom="0.71268238"
-     inkscape:cx="396.38976"
-     inkscape:cy="224.50394"
+     inkscape:zoom="2.0157702"
+     inkscape:cx="267.14355"
+     inkscape:cy="216.2945"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="text4243" />
   <defs
      id="defs1585">
     <rect
@@ -51,21 +51,13 @@
        style="fill:#ffcc00;stroke-width:5.11551;stroke-linecap:round;stroke-miterlimit:4.3;paint-order:markers fill stroke"
        d="M 50,6 98,94 H 2 Z"
        sodipodi:nodetypes="cccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264581"
-       x="39.740002"
-       y="85.016235"
-       id="text4243"><tspan
-         sodipodi:role="line"
-         id="tspan4241"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264581"
-         x="39.740002"
-         y="85.016235">!</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text9047"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9049);fill:#000000;fill-opacity:1;stroke:none" />
+    <g
+       aria-label="!"
+       id="text4243"
+       style="font-weight:bold;font-size:72px;line-height:1.25;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264581">
+      <path
+         d="m 54.356002,67.952235 h -8.568 l -1.8,-34.344 h 12.168 z m -10.512,12.024 q 0,-3.312 1.8,-4.608 1.8,-1.368 4.392,-1.368 2.52,0 4.32,1.368 1.8,1.296 1.8,4.608 0,3.168 -1.8,4.608 -1.8,1.368 -4.32,1.368 -2.592,0 -4.392,-1.368 -1.8,-1.44 -1.8,-4.608 z"
+         id="path826" />
+    </g>
   </g>
 </svg>
