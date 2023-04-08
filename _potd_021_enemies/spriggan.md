@@ -13,14 +13,15 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: false
+  slow: true
   stun: true
 abilities:
   - name: Haste
     potency: n/a
     description: 'grants haste (30s) to self'
 notes:
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

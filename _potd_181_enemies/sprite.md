@@ -13,13 +13,14 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: false
+  slow: true
   stun: true
   resolution: false
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
-  - 'Can be slowed if transfigured via Pomander of Witching'
   - 'Interrupts spell casts very often'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   GNB:
     difficulty: Easy

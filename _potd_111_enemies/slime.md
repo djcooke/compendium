@@ -13,7 +13,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -25,7 +25,8 @@ notes:
   - 'Acid Spray inflicts physical vulnerability up (+10% per stack, max 8
     stacks, 5s); this ability does magic damage, so its own damage is not
     affected'
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Medium

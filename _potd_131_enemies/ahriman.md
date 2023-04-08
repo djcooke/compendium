@@ -14,7 +14,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -23,7 +23,8 @@ abilities:
     description: 'untelegraphed conal AoE on random player inflicting petrify
     (15s) - get behind or get away'
 notes:
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
   - 'Stay close when in parties to avoid being caught out by random targeting'
 job_specifics:
   SGE:

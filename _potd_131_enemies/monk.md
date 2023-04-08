@@ -14,7 +14,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: false
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -26,7 +26,8 @@ abilities:
     type: Magic
     description: 'telegraphed pointblank AoE; used immediately after Sucker'
 notes:
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

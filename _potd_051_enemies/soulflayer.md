@@ -13,7 +13,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -26,7 +26,8 @@ abilities:
     description: 'enrage; inflicts disease (15s) with strong heavy effect; can
     be interrupted. Used 37 seconds after pull'
 notes:
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   SGE:
     difficulty: Easy

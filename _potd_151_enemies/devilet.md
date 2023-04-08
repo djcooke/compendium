@@ -14,7 +14,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -34,7 +34,8 @@ notes:
   - 'Some people prefer to disengage during Ice Spikes and stun/interrupt Void
     Blizzard. Make sure to disengage again quickly, but you will probably still
     get one auto-attack in and take Ice Spikes damage.'
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   GNB:
     difficulty: Medium

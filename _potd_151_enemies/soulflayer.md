@@ -12,7 +12,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: false
+  slow: true
   stun: true
   resolution: false
 abilities:
@@ -26,7 +26,8 @@ abilities:
     description: 'instant; absorbs 100% of damage dealt'
 notes:
   - Caster - kiting doesn't help to mitigate damage
-  - 'Can be slowed if transfigured via Pomander of Witching'
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   GNB:
     difficulty: Medium
