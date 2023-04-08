@@ -13,7 +13,7 @@ vulnerabilities:
   sleep: unknown
   slow: true
   stun: unknown
-gallery_only: true
+sort_order: 20
 abilities:
   - name: "Empty Hand (?)"
     potency: 100

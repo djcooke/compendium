@@ -15,7 +15,7 @@ vulnerabilities:
   slow: false
   stun: false
   resolution: false
-gallery_only: true
+sort_order: 10
 abilities:
   - name: Infatuation
     potency: n/a

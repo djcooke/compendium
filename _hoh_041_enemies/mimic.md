@@ -15,7 +15,7 @@ vulnerabilities:
   sleep: false
   slow: false
   stun: true
-gallery_only: true
+sort_order: 10
 abilities:
   - name: Malice
     potency: n/a

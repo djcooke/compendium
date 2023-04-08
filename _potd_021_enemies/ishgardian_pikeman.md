@@ -15,7 +15,7 @@ vulnerabilities:
   slow: false
   stun: false
   resolution: true
-gallery_only: true
+sort_order: 20
 notes:
   - 'Rare spawn'
   - 'Uses only auto-attacks'

@@ -13,7 +13,7 @@ vulnerabilities:
   sleep: false
   slow: unknown
   stun: unknown
-gallery_only: true
+sort_order: 20
 abilities: 
   - name: "Hard Thrust (?)"
     potency: 90

@@ -1,15 +1,14 @@
 ---
 name: Deep Palace Badguy # full name in game; required
-nickname: Badguy # short name; required unless gallery_only == true
+nickname: Badguy # short name
 image: badguy.png # within /assets/images/<dungeon>/<floorset>/); optional
 family: Bomb # type of enemy; optional. Omit if it's already in the name
 start_floor: 3 # first floor it appears on; required
 end_floor: 8 # last floor it appears on; required
 patrol: true # Optional (default: false)
-gallery_only: true # Optional (default: false); if true, enemy will only be
-                   # shown in the floorset "Enemies" gallery, and hidden
-                   # everywhere else. Intended for Mimics and PotD special
-                   # enemies
+sort_order: true # Optional (default: 0); used to group special enemies at the
+                 # end of the enemy list. Regular enemies should default to 0,
+                 # so they sort at the top of the list by floor numbers
 agro: Sight # Sight, Sound, or Proximity; required
 hp: 12345 # Optional
 attack_name: Blizzard # Name of auto-attack, if applicable (mainly for
