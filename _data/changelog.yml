@@ -2,6 +2,7 @@
   updates:
     - 'Added more SMN EO boss kill times from Kess (Discord: Raz🦊#0274)'
     - 'Adjusted sorting order of special enemies'
+    - 'Fixed wide enemy images causing horizontal scrollbar on small screens'
 - date: 2023-04-07
   updates:
     - 'Added warning icons for dangerous abilities to ability list and enemy

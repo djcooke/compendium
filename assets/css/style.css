@@ -169,6 +169,7 @@ li li:first-child {
   height: 200px;
   border-bottom: 1px solid black;
   background-color: var(--surface);
+  overflow-x: hidden;
 }
 
 #galleryLeft, #galleryRight {
@@ -205,6 +206,9 @@ li li:first-child {
   line-height: 200px;
   text-align: center;
   display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .galleryImage, .galleryItem, .galleryJobNotes {
@@ -239,6 +243,9 @@ img.surfaceImage {
   display: block;
   height: 200px;
   margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .banded {
