@@ -22,12 +22,14 @@ abilities:
     description: 'draws players in and inflicts an extreme heavy debuff (10s);
     used 30 seconds after pull; can use knockback immunity. Draw-in will not
     work under the Knockback Penalty enchantment'
+    warning: movement
   - name: Horrisonous Blast
     potency: 300
     type: Magic
     description: 'large telegraphed pointblank AoE; inflicts paralysis (30s);
     can be interrupted. Used immediately after Khoomii, making it difficult to
     escape'
+    warning: explosion
 job_specifics:
   GNB:
     difficulty: Easy

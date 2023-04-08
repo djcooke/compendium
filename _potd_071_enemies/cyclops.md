@@ -22,10 +22,12 @@ abilities:
     type: Magic
     description: 'huge untelegraphed 270 degree donut AoE inflicting
     electrocution (magic DoT potency 30, 12s) - get in or get behind'
+    warning: donut
   - name: 100-tonze Swing
     potency: 600
     type: Physical
     description: 'untelegraphed pointblank AoE; inflicts knockback'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Easy

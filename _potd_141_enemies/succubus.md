@@ -25,6 +25,7 @@ abilities:
     type: Magic
     description: 'large telegraphed circle AoE; used immediately after Dark
     Mist; also used out of battle'
+    warning: idle
 job_specifics:
   MCH:
     difficulty: Easy

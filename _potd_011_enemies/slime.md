@@ -19,11 +19,12 @@ abilities:
     potency: 100
     type: Physical
     description: 'absorbs 100% of damage dealt'
-  - name: Rapture
+  - name: Rupture
     potency: 170% of max HP
     type: Unique
     description: 'instant AoE sacrificial enrage; used 20 seconds after pull
     (immediately after the second Digest)'
+    warning: explosion
 job_specifics:
   SGE:
     difficulty: Easy

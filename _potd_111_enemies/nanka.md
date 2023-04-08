@@ -20,6 +20,7 @@ abilities:
     potency: 600
     type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
+    warning: idle
 job_specifics:
   SGE:
     difficulty: Easy

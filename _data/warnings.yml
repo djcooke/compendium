@@ -9,7 +9,7 @@ directional:
   description: Large or untelegraphed directional AoE
 explosion:
   image: explosion.svg
-  description: "AoE enrage or self-destruct"
+  description: "High damage enrage or self-destruct"
 gaze:
   image: gaze.svg
   description: Gaze ability

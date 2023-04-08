@@ -24,9 +24,7 @@
       {% endfor %}
       <th class="aggroCell" title="Aggro Type">!</th>
       <th class="textCell">Name</th>
-      {% if page.dungeon == "eo" %}
-        <th class="warningCell">Warnings</th>
-      {% endif %}
+      <th class="warningCell">Warnings</th>
       {% if page.dungeon != "eo" %}
         {% for job in site.data.jobs %}
           <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
@@ -77,20 +75,18 @@
         <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif %}</a>
       </td>
 
-      {% if page.dungeon == "eo" %}
-        <td class="iconCell">
-          {% assign warnings = enemy.abilities | map: "warning" | uniq | sort_natural %}
-          {% for label in warnings %}
-            {% assign warning = site.data.warnings[label] %}
-            {% if warning %}
-              <img class="warningIcon"
-                  src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
-                  alt="{{ warning.description }}" title="{{ warning.description }}"
-                  width="16" height="16">
-            {% endif %}
-          {% endfor %}
-        </td>
-      {% endif %}
+      <td class="iconCell">
+        {% assign warnings = enemy.abilities | map: "warning" | uniq | sort_natural %}
+        {% for label in warnings %}
+          {% assign warning = site.data.warnings[label] %}
+          {% if warning %}
+            <img class="warningIcon"
+                src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
+                alt="{{ warning.description }}" title="{{ warning.description }}"
+                width="16" height="16">
+          {% endif %}
+        {% endfor %}
+      </td>
 
       {% if page.dungeon != "eo" %}
         {% for job in site.data.jobs %}

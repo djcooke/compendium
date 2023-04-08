@@ -26,6 +26,7 @@ abilities:
     description: 'instant circle AoE gap closer; inflicts stun (2s) and
     vulnerability up (50%, 10s); used when HP is below 30%. Diminishing returns
     do NOT apply to this stun (it is always 2s)'
+    warning: other
 job_specifics:
   SGE:
     difficulty: Medium

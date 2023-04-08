@@ -24,6 +24,7 @@ abilities:
     potency: n/a
     description: 'conal gaze attack inflicting paralysis (30s) - look away,
     get behind, or get away'
+    warning: gaze
 job_specifics:
   GNB:
     difficulty: Easy

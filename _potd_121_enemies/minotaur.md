@@ -21,6 +21,7 @@ abilities:
     potency: 600
     type: Physical
     description: 'untelegraphed pointblank AoE; inflicts knockback'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Easy

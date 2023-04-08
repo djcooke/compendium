@@ -23,6 +23,7 @@ abilities:
     potency: n/a
     description: 'untelegraphed conal AoE on random player inflicting instant
     death - get behind or get away'
+    warning: directional
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Interrupts spell casts very often'

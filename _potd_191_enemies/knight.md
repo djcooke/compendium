@@ -24,6 +24,7 @@ abilities:
     potency: 300
     type: Magic
     description: scary-looking telegraphed donut AoE
+    warning: donut
   - name: Ossify
     potency: n/a
     description: 'grants physical damage up (100%, 8s) to self; used 41 seconds

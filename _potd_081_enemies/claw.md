@@ -21,6 +21,7 @@ abilities:
     potency: n/a
     description: 'instant; draws the target in and inflicts prey. Knockback
     immunity does not work against the draw-in'
+    warning: movement
   - name: Impale
     potency: 130
     type: Physical

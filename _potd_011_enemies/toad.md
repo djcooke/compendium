@@ -19,6 +19,7 @@ abilities:
     potency: 50
     type: Physical
     description: 'instant; draws the target in'
+    warning: movement
   - name: Labored Leap
     potency: 500
     type: Physical

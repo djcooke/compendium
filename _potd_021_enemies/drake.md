@@ -18,6 +18,7 @@ abilities:
   - name: Smoldering Scales
     potency: n/a
     description: 'grants counterattack (magic potency 200, 5s) to self'
+    warning: other
 job_specifics:
   SGE:
     difficulty: Easy

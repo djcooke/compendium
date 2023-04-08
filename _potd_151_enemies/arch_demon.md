@@ -22,10 +22,12 @@ abilities:
     type: Physical
     description: 'telegraphed conal AoE. Try to stay very near or far when
     paralyzed, so you don''t get caught in the middle of this'
+    warning: directional
   - name: Abyssal Transfixion
     potency: 130
     type: Physical
     description: 'ranged attack on random player; inflicts paralysis (30s)'
+    warning: movement
 notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on paralysis'

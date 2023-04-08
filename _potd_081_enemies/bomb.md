@@ -20,6 +20,7 @@ abilities:
     potency: 70% of max HP
     type: Unique
     description: 'instant AoE sacrifical enrage; used 37 seconds after pull'
+    warning: explosion
 job_specifics:
   SGE:
     difficulty: Easy

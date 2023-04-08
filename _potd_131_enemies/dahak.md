@@ -20,6 +20,7 @@ abilities:
     potency: 120
     type: Magic
     description: 'inflicts disease (30s)'
+    warning: movement
   - name: 'Tail Drive (?)'
     potency: 300
     type: Physical

@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: 'large telegraphed conal AoE on random player; inflicts many
     debuffs'
+    warning: directional
 notes:
   - note: 'Bad Breath inflicts these debuffs:'
     subnotes:

@@ -20,6 +20,7 @@ abilities:
     potency: 450
     type: Magic
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
+    warning: gaze
 job_specifics:
   SGE:
     difficulty: Easy

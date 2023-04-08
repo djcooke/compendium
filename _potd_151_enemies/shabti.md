@@ -23,6 +23,7 @@ abilities:
     type: Physical
     description: 'quick, long, narrow line AoE. It will spam this every few
     seconds'
+    warning: directional
 job_specifics:
   GNB:
     difficulty: Easy

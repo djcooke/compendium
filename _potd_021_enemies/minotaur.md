@@ -21,6 +21,7 @@ abilities:
     type: Physical
     description: 'untelegraphed pointblank AoE; inflicts knockback. Fully
     shielding the damage does NOT block the knockback'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Easy

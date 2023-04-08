@@ -21,6 +21,7 @@ abilities:
     type: Unique
     description: 'sacrificial enrage; possible to outrange; used at 22-second
     intervals'
+    warning: explosion
 job_specifics:
   SGE:
     difficulty: Easy

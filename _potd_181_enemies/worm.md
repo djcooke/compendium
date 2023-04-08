@@ -22,15 +22,18 @@ abilities:
     description: 'instant circle AoE on random player. Also used out of combat,
     with potency 75; be very careful if there are several worms nearby, as
     getting hit by a few of these at once could kill you'
+    warning: idle
   - name: Bottomless Desert
     potency: 20
     description: 'quick huge pointblank AoE; draws players in. Knockback
     immunity does not work, but draw-in will not work on floors with knockback
     penalty'
+    warning: movement
   - name: Temblor
     potency: 350
     description: 'instant pointblank AoE; used immediately after Bottomless
     Desert'
+    warning: explosion
 notes:
   - 'Enrages after 30 seconds, using Bottomless Desert followed by Temblor.
     Knockback penalty blocks the draw-in, making them easier to deal with'

@@ -22,6 +22,7 @@ abilities:
     type: Magic
     description: 'huge telegraphed pointblank AoE; inflicts terror (15s); can
     be interrupted'
+    warning: pointblank
 job_specifics:
   SGE:
     difficulty: Easy

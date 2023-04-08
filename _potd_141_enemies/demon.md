@@ -24,6 +24,7 @@ abilities:
     potency: 90% of current HP
     type: Unique
     description: 'enrage; can be interrupted'
+    warning: explosion
 job_specifics:
   MCH:
     difficulty: Medium

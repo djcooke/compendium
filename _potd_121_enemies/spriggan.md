@@ -21,6 +21,7 @@ abilities:
     potency: 300
     type: Magic
     description: 'telegraphed circle AoE; also used out of combat'
+    warning: idle
   - name: Haste
     potency: n/a
     description: 'grants haste (30s) to self'

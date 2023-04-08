@@ -23,6 +23,7 @@ abilities:
     description: 'Grants counterattack (magic potency 200, 5s) to self; can be
     interrupted. Recommended to interrupt or disengage immediately. The damage
     can kill you very quickly'
+    warning: other
   - name: Void Blizzard
     potency: 130
     type: Magic

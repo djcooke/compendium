@@ -20,6 +20,7 @@ abilities:
   - name: Sucker
     potency: n/a
     description: 'large untelegraphed pointblank AoE; draws players in'
+    warning: movement
   - name: Flood
     potency: 250
     type: Magic

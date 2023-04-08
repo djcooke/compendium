@@ -22,6 +22,7 @@ abilities:
     potency: n/a
     description: 'untelegraphed conal AoE on random player inflicting petrify
     (15s) - get behind or get away'
+    warning: directional
 notes:
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
   Witching since it doesn't normally do melee auto-attacks"

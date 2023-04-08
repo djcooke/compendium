@@ -20,6 +20,7 @@ abilities:
     potency: 400
     type: Magic
     description: 'roomwide gaze attack inflicting blind (15s) - look away'
+    warning: gaze
   - name: Double Ray
     potency: 120
     type: Magic

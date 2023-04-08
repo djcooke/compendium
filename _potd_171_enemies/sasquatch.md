@@ -25,12 +25,14 @@ abilities:
     description: 'grants physical damage up (100%, 15s) to self and heals 20%
     of max HP; only used out of combat. After using this, it will use Chest
     Thump every few seconds until the buff expires'
+    warning: other
   - name: Chest Thump
     potency: 30
     type: Magic
     description: 'huge 1.5 room instant AoE that inflicts physical
     vulnerability up (5% per stack, max 8 stacks, 8s). Only used out of combat
     during Ripe Banana'
+    warning: idle
 notes:
   - Hits VERY hard
   - DO NOT pull while it has the attack bonus

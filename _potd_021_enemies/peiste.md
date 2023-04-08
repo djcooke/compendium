@@ -19,6 +19,7 @@ abilities:
     potency: n/a
     description: 'telegraphed conal gaze AoE inflicting petrify (15s) - look
     away, get behind, or get away'
+    warning: gaze
 job_specifics:
   SGE:
     difficulty: Easy

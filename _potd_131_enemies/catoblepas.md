@@ -21,6 +21,7 @@ abilities:
     potency: n/a
     description: 'telegraphed conal gaze AoE inflicting minimum (30s) - look
     away, get behind, or get away'
+    warning: gaze
   - name: 'Jettatura'
     potency: 300
     type: Magic

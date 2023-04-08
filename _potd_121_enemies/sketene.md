@@ -20,6 +20,7 @@ abilities:
   - name: Chirp
     potency: n/a
     description: 'untelegraphed large pointblank AoE; inflicts sleep (15s)'
+    warning: movement
 job_specifics:
   SGE:
     difficulty: Easy

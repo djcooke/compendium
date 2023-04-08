@@ -23,6 +23,7 @@ abilities:
   - name: 'Blaster'
     potency: n/a
     description: 'inflicts paralyze (30s)'
+    warning: movement
 notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on paralyze'

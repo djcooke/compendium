@@ -22,10 +22,12 @@ abilities:
     potency: 600?
     description: 'untelegraphed donut AoE - get IN. Inflicts electrocution (DoT
     potency 50, 30s) and paralysis (30s). Can be interrupted'
+    warning: donut
   - name: 'The Ram''s Voice'
     potency: 600?
     description: 'untelegraphed pointblank AoE - get OUT. Inflicts frostbite
     and deep freeze. Can be interrupted'
+    warning: pointblank
   - name: 'The Dragon''s Breath'
     potency: 300?
     type: Unique

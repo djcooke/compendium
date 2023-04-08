@@ -19,6 +19,7 @@ abilities:
   - name: Evil Eye
     potency: n/a
     description: conal gaze AoE - look away, get behind, or get away
+    warning: gaze
   - name: Miasma Breath
     potency: 300
     description: telegraphed conal AoE; inflicts disease (15s)

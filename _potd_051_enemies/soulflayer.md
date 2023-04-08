@@ -25,6 +25,7 @@ abilities:
     potency: n/a
     description: 'enrage; inflicts disease (15s) with strong heavy effect; can
     be interrupted. Used 37 seconds after pull'
+    warning: movement
 notes:
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
   Witching since it doesn't normally do melee auto-attacks"

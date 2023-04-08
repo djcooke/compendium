@@ -20,10 +20,12 @@ abilities:
     potency: n/a
     description: 'large instant conal AoE; inflicts sleep (3s) and slow (10s);
     used immediately before Bad Breath'
+    warning: movement
   - name: Bad Breath
     potency: n/a
     description: 'large telegraphed conal AoE on random player; inflicts many
     debuffs'
+    warning: directional
 notes:
   - 'Stand close so you''ll be able to get out of the Bad Breath AoE after
     waking up from Sweet Breath'

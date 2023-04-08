@@ -31,6 +31,7 @@ abilities:
     potency: 300
     type: Physical
     description: 'untelegraphed conal AoE - don''t stand in front!'
+    warning: directional
   - name: Fireball
     potency: 300
     type: Magic

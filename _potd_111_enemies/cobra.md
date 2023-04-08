@@ -25,6 +25,7 @@ abilities:
     potency: 100% of max HP
     type: Unique
     description: 'instant death; only used if you are a toad'
+    warning: other
 job_specifics:
   SGE:
     difficulty: Easy

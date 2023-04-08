@@ -21,6 +21,7 @@ abilities:
     type: Magic
     description: 'conal gaze AoE inflicting terror (5s) - look away, get
     behind, or get away'
+    warning: gaze
   - name: Miasma Breath
     potency: 300
     type: Magic

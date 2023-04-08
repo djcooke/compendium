@@ -25,6 +25,7 @@ abilities:
     description: 'heals another enemy. If you pull multiple mobs, kill the
     Wamoura first. If you pull 2 Wamouras, you''ll probably have to use
     Witching or Rage to avoid them healing each other forever'
+    warning: other
 job_specifics:
   GNB:
     difficulty: Easy

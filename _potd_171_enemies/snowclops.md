@@ -21,10 +21,12 @@ abilities:
   - name: Glower
     potency: 300
     description: 'untelegraphed wide line AoE - DO NOT stand in front'
+    warning: directional
   - name: 100-tonze Swing
     potency: 600?
     type: Physical
     description: 'untelegraphed pointblank AoE inflicting knockback - get away'
+    warning: pointblank
 job_specifics:
   GNB:
     difficulty: Easy

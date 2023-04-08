@@ -24,6 +24,7 @@ abilities:
     potency: 300?
     type: Magic
     description: 'large telegraphed pointblank AoE'
+    warning: pointblank
 job_specifics:
   GNB:
     difficulty: Easy

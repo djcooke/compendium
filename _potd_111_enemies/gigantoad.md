@@ -23,6 +23,7 @@ abilities:
     description: 'instant; draws the target in, and inflicts stun (6s) if
     looking AWAY from the toad - be sure to face toward the toad so you can
     escape Labored Leap'
+    warning: movement
   - name: Labored Leap
     potency: 500
     type: Physical
