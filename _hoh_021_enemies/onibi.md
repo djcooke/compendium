@@ -20,6 +20,7 @@ abilities:
   - name: Blinding Burst
     potency: n/a
     description: '360 degree gaze inflicting accuracy down (20s) - look away'
+    warning: gaze
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
   Witching since it doesn''t normally do melee auto-attacks'

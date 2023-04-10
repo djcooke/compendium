@@ -22,11 +22,13 @@ abilities:
     type: Magic
     description: 'telegraphed huge conal AoE; inflicts deep freeze (magic DoT
     potency 10, 9s)'
+    warning: directional
   - name: 'Eyeshine'
     potency: 100
     type: Magic
     description: '360 degree gaze inflicting deep freeze (magic DoT potency 50,
     15s) - look away'
+    warning: gaze
   - name: 'Jaws (?)'
     potency: n/a
     description: 'instant death; used on players with deep freeze'

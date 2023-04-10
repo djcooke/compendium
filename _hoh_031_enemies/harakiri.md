@@ -20,4 +20,5 @@ abilities:
     type: Magic
     description: 'large untelegraphed AoE enrage (smaller than Onmitsu); long
     cast; can be LoSed. Used at 20% HP or 26 seconds after pull'
+    warning: explosion
 ---

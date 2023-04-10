@@ -19,6 +19,7 @@ abilities:
   - name: Bubble Bath
     potency: n/a
     description: 'instant conal AoE; inflicts sleep (9s)'
+    warning: directional
   - name: Bubble Shower
     potency: 300
     type: Magic

@@ -25,4 +25,5 @@ abilities:
     type: Magic
     description: 'huge pointblank AoE enrage used after 25s; inflicts
     knockback; can be interrupted'
+    warning: explosion
 ---

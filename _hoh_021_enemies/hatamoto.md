@@ -36,6 +36,7 @@ abilities:
     potency: 800
     type: Physical
     description: 'enrage'
+    warning: explosion
 notes:
   - 'Uses each ability in sequence - at low aetherpool levels or when mass
     pulling the floor, be careful of the final enrage'

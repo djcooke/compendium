@@ -28,11 +28,13 @@ abilities:
   - name: 'Inhale'
     potency: n/a
     description: 'instant conal AoE draw-in'
+    warning: movement
   - name: 'Moldy Sneeze'
     potency: 800
     type: Magic
     description: 'telegraphed conal AoE; inflicts disease. Used immediately
     after Inhale; actual AoE may be wider than the telegraph - get behind!'
+    warning: directional
 notes:
   - note: 'Rotation:'
     subnotes:

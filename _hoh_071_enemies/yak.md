@@ -20,11 +20,13 @@ abilities:
     potency: n/a
     description: 'draws players in and inflicts an extreme heavy debuff (10s);
     used 30 seconds after pull; can use knockback immunity'
+    warning: movement
   - name: 'Horrisonous Blast'
     potency: 450
     type: Magic
     description: 'large telegraphed pointblank AoE; inflicts paralysis (30s);
-    can be interrupted. Used immediately after draw-in'
+    can be interrupted. Used immediately after Khoomii'
+    warning: pointblank
 job_specifics:
   DRK:
     difficulty: Easy

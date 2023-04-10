@@ -24,4 +24,5 @@ abilities:
     potency: 500
     type: Magic
     description: 'large telegraphed pointblank AoE; can be LoSed'
+    warning: pointblank
 ---

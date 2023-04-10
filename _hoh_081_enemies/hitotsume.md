@@ -21,11 +21,13 @@ abilities:
     type: Magic
     description: 'untelegraphed wide line AoE inflicting paralysis - get to the
     side or behind'
+    warning: directional
   - name: '100-tonze Swing'
     potency: 1000
     type: Physical
     description: 'untelegraphed pointblank AoE inflicting knockback - get away;
     can also be LoSed'
+    warning: pointblank
 job_specifics:
   DRK:
     difficulty: Easy

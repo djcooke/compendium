@@ -25,6 +25,7 @@ abilities:
     potency: 500
     type: Magic
     description: 'large telegraphed pointblank AoE'
+    warning: pointblank
 job_specifics:
   DRK:
     difficulty: Easy

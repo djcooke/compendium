@@ -19,6 +19,7 @@ abilities:
     potency: 50
     type: Physical
     description: 'short-range draw-in; can be interrupted'
+    warning: movement
   - name: 'Headspin'
     potency: 120
     type: Physical

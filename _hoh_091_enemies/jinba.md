@@ -23,8 +23,10 @@ abilities:
   - name: 'Allagan Fear'
     potency: n/a
     description: '360 degree gaze - look away'
+    warning: gaze
   - name: 'Allagan Meteor'
     description: 'huge circle AoE; can LoS (from centre of circle)'
+    warning: other
   - name: '?'
     description: 'grants stacking damage up to self (5% per stack, permanent)'
 job_specifics:

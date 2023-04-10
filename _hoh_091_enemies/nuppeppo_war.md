@@ -22,6 +22,7 @@ abilities:
   - name: 'Infusion'
     potency: 50 (x3)
     description: 'gap closer; hits 3 times, inflicting knockback each time'
+    warning: movement
   - name: 'Raging Rush'
     potency: 300
     description: 'instant; used 30 seconds after pull'

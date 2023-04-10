@@ -22,4 +22,5 @@ abilities:
   - name: Wile of the Tengu
     potency: n/a
     description: '360 degree gaze inflicting hysteria (3s) - look away'
+    warning: gaze
 ---

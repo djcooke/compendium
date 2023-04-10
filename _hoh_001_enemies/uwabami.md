@@ -19,4 +19,5 @@ abilities:
   - name: Stone Gaze
     potency: n/a
     description: '360 degree gaze inflicting petrify (15s) - look away!'
+    warning: gaze
 ---

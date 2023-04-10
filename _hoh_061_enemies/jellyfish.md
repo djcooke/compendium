@@ -19,10 +19,12 @@ abilities:
     potency: 750
     type: Physical
     description: 'telegraphed short line AoE; inflicts stun (3s)'
+    warning: directional
   - name: 'Numbing Tendrils'
     potency: 750
     type: Physical
     description: 'telegraphed short line AoE; inflicts paralysis (30s)'
+    warning: directional
 notes:
   - 'Its line AoEs are quick, so be ready to move fast'
 job_specifics:

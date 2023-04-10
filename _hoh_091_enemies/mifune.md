@@ -18,6 +18,7 @@ abilities:
   - name: 'Valfodr'
     potency: 300
     description: 'telegraphed charge AoE; can be LoSed'
+    warning: other
 job_specifics:
   DRK:
     difficulty: 'Medium'

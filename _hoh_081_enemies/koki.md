@@ -19,6 +19,7 @@ abilities:
     potency: 1000
     type: Magic
     description: 'telegraphed donut AoE'
+    warning: donut
   - name: Vile Utterance
     potency: 1000
     type: Magic

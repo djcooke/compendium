@@ -19,15 +19,18 @@ abilities:
     potency: n/a
     description: 'telegraphed narrow but long conal AoE draw-in; inflicts stun
     (2s)'
+    warning: movement
   - name: 'Tusk Butt'
     potency: 800
     type: Physical
     description: 'untelegraphed conal AoE; used instantly after draw-in, but is
     a wider cone than the draw-in - get behind!'
+    warning: directional
   - name: 'Prehistoric Trumpet'
     potency: 75
     type: Magic
     description: 'huge untelegraphed pointblank AoE; only used out of combat'
+    warning: idle
 notes:
   - 'Be careful near mammoths when you''ve used a Pomander of Concealment, as
   Prehistoric Trumpet will break the effect'

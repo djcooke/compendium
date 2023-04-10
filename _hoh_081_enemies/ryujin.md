@@ -28,6 +28,7 @@ abilities:
     type: Physical
     description: 'untelegraphed backward conal AoE; inflicts stun (6s); used if
     someone is behind'
+    warning: directional
 notes:
   - 'Elbow Drop can be baited to delay its auto-attacks; just don''t get hit by
   it!'

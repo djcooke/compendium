@@ -21,9 +21,11 @@ abilities:
     type: Physical
     description: 'untelegraphed conal AoE; it raises a hand to indicate it''s
     going to do this'
+    warning: directional
   - name: 'Rip'
     potency: 400
     type: Physical
     description: 'untelegraphed conal AoE immediately following Butcher
     (so don''t move back in front right away)'
+    warning: directional
 ---

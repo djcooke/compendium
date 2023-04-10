@@ -19,10 +19,12 @@ abilities:
     potency: 1000
     type: Physical
     description: 'untelegraphed conal AoE; can be LoSed'
+    warning: directional
   - name: 'Hex'
     potency: n/a
     description: '360 degree gaze attack that turns you into a pig (7s) - look
     away!'
+    warning: gaze
   - name: 'Devour'
     potency: n/a
     description: 'instant death; only used if you''ve been turned into a pig'

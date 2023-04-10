@@ -22,11 +22,13 @@ abilities:
     description: 'untelegraphed conal AoE gaze; inflicts stone curse (15s) -
     look away, get behind, or get away. This is the same debuff as the
     petrification pomander, so any direct damage is instant death'
+    warning: gaze
   - name: 'Baleful Roar'
     potency: 450
     type: Magic
     description: 'untelegraphed huge pointblank AoE; can be interrupted or
     LoSed'
+    warning: explosion
 job_specifics:
   MCH:
     difficulty: Easy

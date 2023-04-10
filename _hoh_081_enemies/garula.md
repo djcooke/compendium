@@ -30,11 +30,13 @@ abilities:
     type: Magic
     description: 'telegraphed large pointblank AoE; inflicts vulnerability up
     (25%, 30s); can be LoSed'
+    warning: pointblank
   - name: 'Earthquake'
     potency: 50 (x6)
     type: Magic
     description: 'stands in place and does 6 stomps, each an untelegraphed
     huge pointblank AoE; can be LoSed'
+    warning: pointblank
 notes:
   - 'You can duck behind a corner as it uses Rush to steer it into the wall.
   You''ll still take damage, but it can give you a chance to heal before it''s

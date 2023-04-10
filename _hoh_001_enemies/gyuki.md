@@ -21,4 +21,5 @@ abilities:
     type: Magic
     description: 'large telegraphed conal AoE; inflicts dropsy (magic DoT
     potency 50, 15s)'
+    warning: directional
 ---

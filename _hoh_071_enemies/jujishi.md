@@ -31,6 +31,7 @@ abilities:
     description: 'telegraphed huge pointblank AoE; inflicts windburn (magic DoT
     potency 20, 30s); can be LoSed. If this attack hits, it grants haste (25s)
     to the Jujishi, making Freefall an almost instant cast'
+    warning: explosion
 notes:
   - note: 'Rotation:'
     subnotes:

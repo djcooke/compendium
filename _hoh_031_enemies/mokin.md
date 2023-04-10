@@ -23,4 +23,5 @@ abilities:
     potency: n/a
     description: 'telegraphed pointblank AoE; reduces the remaining time on
     all buffs (including food) by half'
+    warning: other
 ---

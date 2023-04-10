@@ -18,6 +18,7 @@ abilities:
   - name: 'Death''s Door'
     potency: 1500
     description: 'telegraphed line AoE; spams this a lot'
+    warning: directional
 job_specifics:
   DRK:
     difficulty: 'Easy'

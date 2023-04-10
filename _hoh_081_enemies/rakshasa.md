@@ -31,6 +31,7 @@ abilities:
     potency: 600
     type: Physical
     description: 'untelegraphed conal AoE - get away or behind'
+    warning: directional
   - name: Fireball
     potency: 400
     type: Magic

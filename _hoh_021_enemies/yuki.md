@@ -20,6 +20,7 @@ abilities:
     potency: n/a
     description: 'draws players in; cannot be LoSed, but walls will block
     movement as usual'
+    warning: movement
   - name: Shadow Fang
     potency: 250
     type: Physical
@@ -28,4 +29,5 @@ abilities:
     potency: 600
     type: Magic
     description: 'huge untelegraphed AoE enrage; used 55 seconds after pull'
+    warning: explosion
 ---

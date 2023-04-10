@@ -28,9 +28,11 @@ abilities:
     stun (5s). Used 30 seconds after pull and then at 60-second intervals.
     Knockback immunity does not work, but fully shielding the damage will also
     block the draw-in'
+    warning: movement
   - name: Temblor
     potency: 1000
     type: Magic
     description: 'instant pointblank AoE (enrage); used immediately after
     Bottomless Desert'
+    warning: explosion
 ---

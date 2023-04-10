@@ -21,11 +21,13 @@ abilities:
     type: Magic
     description: 'huge telegraphed pointblank AoE; inflicts terror (10s); can
     be interrupted'
+    warning: pointblank
   - name: Accursed Pox
     potency: 450
     type: Magic
     description: 'telegraphed circle AoE; inflicts disease (30s). Used
     immediately after Scream, and also used out of combat'
+    warning: idle
 job_specifics:
   DRK:
     difficulty: Easy

@@ -26,6 +26,7 @@ abilities:
     type: Magic
     description: 'instant sacrificial enrage; pointblank AoE after gap-closing
     to current target. Used after 55 seconds'
+    warning: explosion
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
   Witching since it doesn''t normally do melee auto-attacks'

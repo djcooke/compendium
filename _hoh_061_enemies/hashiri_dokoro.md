@@ -20,9 +20,11 @@ abilities:
     potency: 900
     type: Physical
     description: 'telegraphed huge donut AoE; inflicts reduced immunity'
+    warning: donut
   - name: 'Frond Fatale'
     potency: n/a
     description: '360 degree gaze inflicting seduced (5s) - look away'
+    warning: gaze
   - name: 'Soul Vacuum'
     potency: 50
     type: Magic

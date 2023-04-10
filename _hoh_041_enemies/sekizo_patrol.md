@@ -20,6 +20,7 @@ abilities:
   - name: 'Magnetism'
     potency: n/a
     description: 'draws players in; knockback immunity does not work'
+    warning: movement
   - name: Plaincracker
     potency: 750
     type: Magic

@@ -25,4 +25,5 @@ abilities:
     potency: 500
     type: Magic
     description: 'telegraphed line AoE; inflicts knockback'
+    warning: directional
 ---

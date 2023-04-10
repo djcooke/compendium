@@ -31,6 +31,7 @@ abilities:
   - name: 'Black Nebula'
     description: 'untelegraphed enrage; used about 1 minute after pull; can be
     interrupted'
+    warning: explosion
 notes:
   - 'Each time it grows, it gains a stacking damage up buff'
   - note: 'Pattern:'

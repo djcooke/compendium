@@ -20,6 +20,7 @@ abilities:
     potency: n/a
     description: '360 degree gaze that turns you into an otter (30s) - look
     away! If you are already an otter, this will actually change you back'
+    warning: gaze
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of
   Witching since it doesn''t normally do melee auto-attacks'

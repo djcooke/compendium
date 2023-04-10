@@ -26,6 +26,7 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; inflicts slow (15s); also used out of
     combat'
+    warning: idle
 job_specifics:
   DRK:
     difficulty: Easy

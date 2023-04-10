@@ -20,6 +20,7 @@ abilities:
     potency: n/a
     description: 'huge 360 degree gaze inflicting seduced (6s), which will
     cause you to walk into Garish Light'
+    warning: gaze
   - name: Garish Light
     potency: n/a
     description: 'telegraphed pointblank AoE inflicting minimum (damage dealt

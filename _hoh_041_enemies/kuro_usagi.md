@@ -21,6 +21,7 @@ abilities:
     potency: 600
     type: Magic
     description: 'telegraphed line AoE'
+    warning: directional
   - name: 'Earthen Heart'
     potency: 600
     type: Magic

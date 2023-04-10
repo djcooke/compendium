@@ -21,12 +21,14 @@ abilities:
     type: Magic
     description: 'telegraphed huge conal AoE; inflicts deep freeze (magic DoT
     potency 10, 10s). Deals double damage to frozen players'
+    warning: directional
   - name: 'Northerlies'
     potency: 400
     type: Magic
     description: 'telegraphed huge pointblank AoE; inflicts deep freeze (magic
     DoT potency 10, 10s); can be interrupted or LoSed. Used 21 seconds after
     pull, then at 50-second intervals'
+    warning: explosion
 job_specifics:
   DRK:
     difficulty: Easy

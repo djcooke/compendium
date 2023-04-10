@@ -23,6 +23,7 @@ abilities:
     potency: n/a
     description: 'circle AoE on marked player; drops you to 1 HP; can be
     interrupted or LoSed'
+    warning: other
 job_specifics:
   DRK:
     difficulty: 'Medium'

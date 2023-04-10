@@ -27,8 +27,10 @@ abilities:
   - name: '32-tonze Swipe'
     description: 'untelegraphed long conal AoE - get to side or behind; can
     also be LoSed'
+    warning: directional
   - name: '128-tonze Swing'
     description: 'untelegraphed pointblank AoE - get away; can also be LoSed'
+    warning: pointblank
 job_specifics:
   DRK:
     difficulty: Medium

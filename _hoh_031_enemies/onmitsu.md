@@ -26,4 +26,5 @@ abilities:
     type: Magic
     description: 'huge untelegraphed AoE enrage; long cast; can be LoSed. Used
     at 10% HP'
+    warning: explosion
 ---

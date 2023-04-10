@@ -22,6 +22,7 @@ abilities:
     description: 'instant'
   - name: 'Burning Bright'
     description: 'untelegraphed long line AoE - get to the side or behind'
+    warning: directional
   - name: 'Nicker'
     description: 'telegraphed large pointblank AoE; can be interrupted'
 job_specifics:

@@ -21,11 +21,13 @@ abilities:
     type: Magic
     description: 'untelegraphed donut AoE - get IN. Inflicts electrocution
     (magic DoT potency 50, 30s) and paralysis (30s). Can be interrupted'
+    warning: donut
   - name: 'The Ram''s Voice'
     potency: 800
     type: Magic
     description: 'untelegraphed pointblank AoE - get OUT. Inflicts frostbite
     (magic DoT potency 50?) and deep freeze. Can be interrupted'
+    warning: pointblank
   - name: 'The Dragon''s Breath'
     potency: 600
     type: Unique
