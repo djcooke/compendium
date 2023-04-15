@@ -9,10 +9,10 @@ hp: 354304
 attack_damage: 8566
 attack_type: Magic
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Diffusion Ray

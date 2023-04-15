@@ -10,10 +10,10 @@ hp: 354304
 attack_damage: 11415
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: unknown
 abilities:
   - name: 32-tonze Swipe

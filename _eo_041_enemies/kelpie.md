@@ -3,7 +3,7 @@ name: Orthos Kelpie
 nickname: Kelpie
 image: kelpie.png
 start_floor: 44
-end_floor: 45
+end_floor: 46
 patrol: true
 agro: Sight
 hp: 169540

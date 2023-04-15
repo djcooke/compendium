@@ -9,10 +9,10 @@ hp: 336312
 attack_damage: 7181
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Laserblade

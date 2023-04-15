@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: unknown
 abilities:
   - name: Umbra Smash
