@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Auto-cannons
@@ -22,4 +22,7 @@ abilities:
     type: Magic
     description: "untelegraphed pointblank AoE used AFTER DEATH - get away"
     warning: explosion
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---

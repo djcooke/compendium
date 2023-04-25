@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Allagan Gravity
@@ -20,4 +20,7 @@ abilities:
   - name: Citadel Buster
     description: "line AoE with late telegraph - get to side or behind"
     warning: directional
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---

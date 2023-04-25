@@ -13,10 +13,13 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: Blistering Blink
     description: "telegraphed huge, wide line AoE"
     warning: directional
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---

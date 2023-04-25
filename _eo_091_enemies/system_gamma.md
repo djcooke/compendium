@@ -13,7 +13,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: High Voltage
@@ -28,4 +28,7 @@ abilities:
     type: Magic
     description: "donut AoE with late telegraph - get in"
     warning: donut
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---
