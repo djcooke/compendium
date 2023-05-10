@@ -1,3 +1,8 @@
+- date: 2023-05-10
+  updates:
+    - "Added approximate HP for Eureka Orthos 70-99 bosses"
+    - "Added approximate HP for floor 61-100 dread beasts"
+    - "Above updates courtesy of AlexGamingPleb#5497 (Discord)"
 - date: 2023-04-25
   updates:
     - "Noted a few more EO enemies that are vulnerable to slow but require

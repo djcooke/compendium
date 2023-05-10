@@ -5,6 +5,7 @@ image: ../meracydian_clone.png
 start_floor: 61
 end_floor: 69
 agro: Sight
+extreme_hp: 1280000
 attack_type: Physical
 vulnerabilities:
   bind: unknown

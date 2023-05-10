@@ -5,6 +5,7 @@ image: ../lamia_queen.png
 start_floor: 71
 end_floor: 79
 agro: Sight
+extreme_hp: 1380000
 attack_type: Physical
 vulnerabilities:
   bind: unknown
