@@ -14,7 +14,7 @@ vulnerabilities:
   heavy: false
   sleep: true
   slow: true
-  stun: unknown
+  stun: false
 abilities:
   - name: Browbeat
     potency: 110

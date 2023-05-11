@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: false
   sleep: true
   slow: true
-  stun: unknown
+  stun: false
 abilities:
   - name: Spiral Spin
     potency: 1000

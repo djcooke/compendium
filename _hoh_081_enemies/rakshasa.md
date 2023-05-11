@@ -14,7 +14,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: true
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: Wild Charge
