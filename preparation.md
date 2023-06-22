@@ -80,7 +80,8 @@ floors. You will get tons of Super Potions from HoH.
 | Mega-Potion | 35% | 840 | 2,800 |
 | X-Potion | 30% | 1300 | 4,333 |
 | Max-Potion | 30% | 2400 | 9,600 |
-| Super-Potion | 25% | 3600 | n/a |
+| Super-Potion | 25% | 3600 | 14,400 |
+| Hyper-potion | 25% | 11,000 | n/a |
 
 ### Food
 
