@@ -1,10 +1,12 @@
 - date: 2023-06-22
   updates:
     - "Added Hyper-potion info to Preparation page"
-    - "Updated several HoH boss kill times for MCH"
     - "Marked Heavenly Dodo as a patrol"
     - "Heavenly Sekiban's Trembling Epigraph can be interrupted"
     - "Status vulnerabilities for HoH 91+ Araragi and Ryujin"
+    - "Updated several HoH boss kill times for MCH"
+    - "Added another PotD floor 50 kill time for PLD, courtesy of
+    RedCrushedEyes (Discord)"
 - date: 2023-05-11
   updates:
     - "Added a few status vulnerabilities for HoH 81-100 enemies, courtesy of
