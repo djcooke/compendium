@@ -18,11 +18,12 @@ abilities:
   - name: Epigraph
     potency: 600
     type: Magic
-    description: 'telegraphed long line AoE'
+    description: 'telegraphed long line AoE; can be interrupted'
     warning: directional
   - name: 'Trembling Epigraph'
     potency: 1000
     type: Magic
-    description: 'huge AoE enrage; used 25 seconds after pull'
+    description: 'huge AoE enrage; can be interrupted; used 25 seconds after
+    pull'
     warning: explosion
 ---

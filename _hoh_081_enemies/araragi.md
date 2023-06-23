@@ -10,10 +10,10 @@ hp: 59338
 attack_damage: 3872
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: true
-  slow: unknown
+  slow: true
   stun: false
 abilities:
   - name: 'Goobbue''s Grief'

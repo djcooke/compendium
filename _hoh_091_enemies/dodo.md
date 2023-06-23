@@ -3,6 +3,7 @@ name: Heavenly Dodo
 image: dodo.png
 start_floor: 99
 end_floor: 99
+patrol: true
 agro: Sight
 hp: 73669
 attack_damage: 6684

@@ -9,10 +9,10 @@ hp: 60682
 attack_damage: 5564
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: true
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Straight Punch'
