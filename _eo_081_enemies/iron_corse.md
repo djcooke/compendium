@@ -22,6 +22,8 @@ abilities:
     description: "conal AoE with late telegraph - get behind or away"
     warning: directional
   - name: Catapult
+    potency: 3000
+    type: Magic
     description: "telegraphed circle AoE"
 notes:
   - "All abilities target random players, so be wary of sudden direction
