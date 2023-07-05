@@ -1,3 +1,11 @@
+- date: 2023-07-05
+  updates:
+    - "Added EO info and corrected required food/tincture levels on
+    Preparation page"
+    - "Added note to Preparation page that Echo Drops share a cooldown timer
+    with regen potions"
+    - "Added potency for Orthoiron Corse's Catapult"
+    - "Above changes courtesy of vaxherd"
 - date: 2023-06-22
   updates:
     - "Added Hyper-potion info to Preparation page"
