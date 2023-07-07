@@ -36,6 +36,20 @@ job_specific_notes:
     cooldowns to prevent the need for Clemency as much as possible'
     - 'Make sure Interject is almost ready before opening possible mimics. 8
     seconds left on cooldown is close enough'
+  SGE:
+    - "Time is your biggest enemy, so keep moving as much as possible. Try to
+    plan your fights so you can cover a lot of distance when Sprint comes up"
+    - "DoT an enemy with Eukrasian Dosis and bring it along as you explore -
+    but beware of enemies with enrages (like PotD Slimes) or huge AoEs (like
+    many EO enemies)"
+    - note: "Take advantage of landmines and exploding chests to kill multiple
+    enemies at once, saving lots of time"
+      subnotes:
+        - "Use a Pomander of Witching first to reduce incoming damage so you
+        don't die before you can heal back up"
+        - "Use Eukrasian Diagnosis to shield the explosion damage"
+    - "Remember Kardia! Especially when doing multiple floorsets in a row, it's
+    easy to forget that it falls off after each set"
   WAR:
     - 'Time is your biggest enemy, so keep moving as much as possible. Try to
     alternate between fighting and exploring efficiently - fight when
@@ -47,6 +61,25 @@ job_specific_notes:
     enemies at once, saving lots of time'
     - 'Make sure Interject is almost ready before opening possible mimics. 8
     seconds left on cooldown is close enough'
+  WHM:
+    - "Time is your biggest enemy, so keep moving as much as possible. Try to
+    plan your fights so you can cover a lot of distance when Sprint comes up"
+    - "DoT an enemy with Aero and bring it along as you explore - but beware of
+    enemies with enrages (like PotD Slimes) or huge AoEs (like many EO
+    enemies). Remember that Aero also deals direct damage, so keep using it on
+    cooldown as you move"
+    - note: "Take advantage of landmines and exploding chests to kill multiple
+    enemies at once, saving lots of time"
+      subnotes:
+        - "Use a Pomander of Witching first to reduce incoming damage so you
+        don't die before you can heal back up"
+        - "Use Divine Benison to shield the explosion damage (except in PotD,
+        where you don't have it)"
+        - "If you can stun the enemies with Holy before the explosion, even
+        better"
+    - "Most of WHM's heals are GCD actions, and especially in PotD/HoH where
+    you don't have Afflatus Misery, you don't want to be spending GCDs on
+    healing. Stock up on regen potions like you would for a tank/DPS"
 ---
 
 ## On this Page:
@@ -106,14 +139,15 @@ walls. There are exceptions, however... See [Wall Traps](wall_traps.html).
 
 ### Survive Them
 
-* Toading/Otter Traps: Hopefully you aren't fighting anything. If you are, try
-  to kite, dodge around corners, etc... Stay away from snakes if you're toaded!
+* Transformation Traps (toad/otter/owlet): Hopefully you aren't fighting
+  anything. If you are, try to kite, dodge around corners, etc... Stay away
+  from snakes if you're toaded!
 * Luring: Not good in the deeper floors!
   * Only the person who hit the trap has agro, so the safest option is to let
     them die if you're in a party.
   * If solo and you're likely to die, make sure you have a Pomander of Raising
     active and die in a safe spot - not in the middle of the room!
-  * If trying to fight through
+  * If trying to fight through:
     * Consider popping Pomander of Witching/Steel/Strength/Frailty
     * Try not to use Rage/Petrification/Magicite unless you were already
       planning to
@@ -130,6 +164,9 @@ walls. There are exceptions, however... See [Wall Traps](wall_traps.html).
   luring trap can give you three extra/quick kills
 * If you're going for score, the penalty for hitting a luring trap is less than
   the bonus for killing the three extra enemies
+* Transformation traps work both ways - if you're toaded and step on a toading
+  trap, for example, it'll change you back immediately. A last-ditch dive into
+  a room might save you from otherwise certain death
 
 [Back to top](#top)
 </div>
@@ -167,15 +204,14 @@ Consider using a Pomander of Fortune if you're going to clear the room.
 <div class="surfacePane" markdown="1">
 
 There is a much higher danger from traps in these big rooms, both because there
-are no inner walls that you can hug, and because of possible fake exits.
-Hugging the outer wall is safe from traps, but you'll likely need to venture
-in to collect chests and get to the exit. The best thing to do is remove all
+are no safe places to walk (no inner walls, and the outer walls can have
+traps), and because of possible fake exits. The best thing to do is remove all
 traps, including fake exits, with a Pomander of Safety.
 
 Alternately, Pomander of Sight will reveal any floor traps, but won't help with
 fake exits. Pomander of Concealing will allow you to test the exits - if you
-run into an exit don't see the normal transference effect, it is a trap. If you
-are concealed, the trap will not be sprung.
+run into an exit and don't see the normal transference effect, it is a trap. If
+you are concealed, the trap will not be sprung.
 
 [Back to top](#top)
 </div>

@@ -1,3 +1,11 @@
+- date: 2023-07-07
+  updates:
+    - "Correction: Halls of Fallacies *can* have traps on the walls"
+    - "Correction: Cairn of Raising requires more kills on average than Cairn
+    of Passage"
+    - "Added tip on using transformation traps to undo earlier transformations"
+    - "Added general tips for SGE and WHM"
+    - "Above changes courtesy of vaxherd"
 - date: 2023-07-05
   updates:
     - "Added EO info and corrected required food/tincture levels on
