@@ -46,7 +46,7 @@ pomanders:
     tips:
       - 'Ideal to combine with affluence to make it easier to collect all of
       the chests'
-      - 'Not ideal to combine with alteration, as it will half the number of
+      - 'Not ideal to combine with alteration, as it will halve the number of
       enemies that are affected'
   - name: Alteration
     image: alteration.png
@@ -60,7 +60,7 @@ pomanders:
       avoid them'
       - 'Both mimics and mandragoras have a high chance of dropping chests, so
       this can also help with pomander recovery'
-      - 'Not ideal to combine with flight, as that will half the number of
+      - 'Not ideal to combine with flight, as that will halve the number of
       enemies that are affected'
   - name: Purity
     image: purity.png

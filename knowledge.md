@@ -84,8 +84,9 @@ Note: these are called "Cairns" in PotD, "Beacons"  in HoH, and "Pylons" in EO.
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
-is listed on each floorset page. The range for the Cairn of Return is likely
-the same, but that is unverified.
+is listed on each floorset page. The Cairn of Return generally has a lower
+limit of 2-3 kills more than the Cairn of Passage. Both Cairns likely have the
+same upper limit for a given floorset, but this is unverified.
 
 Each Cairn appears in a random room on each floor with the exception that the
 Cairn of Passage cannot appear in the starting room.
@@ -166,8 +167,8 @@ chests:
 
 * **Bronze**: contain items such as potions, phoenix downs, and most
   importantly, potsherds. Potsherds can be exchanged for several items,
-  including Sustaining/Empyrial Potions, which grant a potent regen effect and
-  are essential for soloing
+  including Sustaining/Empyrean/Orthos Potions, which grant a potent regen
+  effect and are essential for soloing
 * **Silver**: Can have one of several effects
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
@@ -227,16 +228,15 @@ will be applied. These are mostly detrimental, but a few are actually helpful.
 * Damage Down - Damage dealt is reduced
 * Amnesia - Unable to use abilities
 * Item Penalty - Unable to use items or pomanders
-* Auto-heal Penalty - HP regeneration has stopped. In EO, this also affects
-  enemies, which is hugely beneficial when combined with a Protomander of
-  Storms
+* Auto-heal Penalty - HP regeneration has stopped. This also affects enemies,
+  which is hugely beneficial in EO when combined with a Protomander of Storms
 * Blind - Encroaching darkness is lowering accuracy
 * Gloom - Enemies have increased attack, defense, and movement speed
 * **PotD Only**: Sprint Penalty - Unable to sprint
 * **PotD and EO Only**: Knockback Penalty - Unable to use knockback and draw-in
-  effects. This mostly means that Pomander of Rage will not be useful; however,
-  it also prevents enemies' draw-in abilities, which can be beneficial in some
-  cases
+  effects. This mostly means that Pomander of Rage/Dread will not be useful;
+  however, it also prevents enemies' knockback and draw-in abilities, which can
+  be beneficial in some cases
 * **HoH Only**: Unmagicked - Unable to use magicite
 * **EO Only**: Demiclone Penalty - Unable to use demiclone generators
 
