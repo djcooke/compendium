@@ -199,3 +199,13 @@ you're not careful:
 
 [Back to top](#top)
 </div>
+
+## HoH Hall of Fallacies
+
+<div class="surfacePane" markdown="1">
+
+* Any outer wall can have a trap:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_fallacies.png' | relative_url }}">
+
+[Back to top](#top)
+</div>
