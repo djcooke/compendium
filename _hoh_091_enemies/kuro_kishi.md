@@ -10,10 +10,10 @@ hp: 70086
 attack_damage: 6658
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: 'Void Slash'

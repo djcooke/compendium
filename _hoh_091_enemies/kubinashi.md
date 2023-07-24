@@ -10,8 +10,8 @@ agro: Sight
 hp: 72326
 attack_type: Physical
 vulnerabilities:
-  bind: unknown
-  heavy: unknown
+  bind: false
+  heavy: false
   sleep: false
   slow: true
   stun: false
@@ -46,7 +46,8 @@ job_specifics:
   MCH:
     difficulty: 'Extreme'
     notes:
-      - 'Avoid'
+      - 'Steel required'
+      - 'Consider Strength and/or Frailty'
   PLD:
     difficulty: 'Extreme'
     notes:
