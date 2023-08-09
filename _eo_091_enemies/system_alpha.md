@@ -12,10 +12,13 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: false
-  slow: unknown
+  slow: true
   stun: true
 abilities:
   - name: "Aetherochemical Laser α"
     description: "huge conal AoE with late telegraph - get behind"
     warning: directional
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+  Witching since it doesn't normally do melee auto-attacks"
 ---
