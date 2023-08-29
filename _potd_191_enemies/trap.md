@@ -27,7 +27,7 @@ notes:
   - 'Will not come into melee range if you stay away from it, doing very little
     damage'
   - 'For ranged jobs, these are great to pull and fight in a corner while
-    patrols are passing'
+    patrols are passing, or to kite around while exploring'
 job_specifics:
   GNB:
     difficulty: Easy
@@ -44,4 +44,8 @@ job_specifics:
       - 'Use Arcane Crest when going in to melee'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
+    notes:
+      - Easiest thing to fight here. Just keep your distance
 ---

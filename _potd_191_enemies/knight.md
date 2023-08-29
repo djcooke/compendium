@@ -58,4 +58,11 @@ job_specifics:
     notes:
       - 'Steel recommended'
       - 'Have Sprint ready to get away during the damage up phase'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel required"
+      - "Strength recommended"
+      - "Doable with full burst"
+      - "Not recommended to pull under Gloom or HP Penalty enchantments"
 ---

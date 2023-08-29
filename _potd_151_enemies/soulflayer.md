@@ -53,6 +53,11 @@ job_specifics:
     notes:
       - 'Slow to fight due to the HP drain, especially with no steel. Avoid if
         possible'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel recommended"
+      - "Annoying to fight; avoid if possible"
   WAR:
     difficulty: Easy
 ---

@@ -39,6 +39,8 @@ job_specifics:
     difficulty: Easy
     notes:
       - 'Be careful of the enrage when multi-pulling'
+  SMN:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

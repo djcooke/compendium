@@ -42,6 +42,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Can be dangerous without steel. Kite to reduce damage'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended"
+      - "Can be painful. Pre-pull Sprint and shield recommended"
   WAR:
     difficulty: Easy
 ---

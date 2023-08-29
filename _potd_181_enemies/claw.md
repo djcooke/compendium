@@ -72,4 +72,11 @@ job_specifics:
     notes:
       - 'Dangerous without steel. Kite between draw-ins to avoid taking an
       auto-attack with Tail Screw'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Avoid if possible"
+      - "Steel required"
+      - "Strength recommended"
+      - "Possible with full burst, Sprint, shield, steel, and potion, but still risky"
 ---

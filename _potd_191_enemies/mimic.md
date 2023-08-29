@@ -51,4 +51,14 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel recommended'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel required"
+      - "Strength recommended"
+      - "Doable without steel if you're desperate on poms but very spooky and
+      not recommended"
+      - "Make sure you have room to kite"
+      - "Take advantage of pox cast to gain distance and Sustaining Potion
+      ticks before the next autoattack"
 ---

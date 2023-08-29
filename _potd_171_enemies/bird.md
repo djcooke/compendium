@@ -51,6 +51,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Beware of auto-attack damage under Tropical Wind'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended"
   WAR:
     difficulty: Easy
 ---

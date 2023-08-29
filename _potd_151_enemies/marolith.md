@@ -43,6 +43,10 @@ job_specifics:
     notes:
       - 'Uses its instant fairly frequently, so be prepared for cast
         interruptions'
+  SMN:
+    difficulty: Easy
+    notes:
+      - "Carpomission can hurt"
   WAR:
     difficulty: Easy
 ---

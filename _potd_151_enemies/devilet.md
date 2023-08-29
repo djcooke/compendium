@@ -67,6 +67,11 @@ job_specifics:
         sleep Void Blizzard or Esuna the slow debuff every time it comes up'
       - 'Slow is affected by diminishing returns, so this enemy isn''t as bad
         if you can fight several in a row'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Magic damage doesn't trigger Ice Spikes, so keep attacking"
+      - "Ideally use Garuda when slowed, as its recast isn't affected"
   WAR:
     difficulty: Medium
     notes:

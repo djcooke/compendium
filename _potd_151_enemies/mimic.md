@@ -43,6 +43,8 @@ job_specifics:
       manage incoming damage'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Medium
   WAR:
     difficulty: Easy
 ---

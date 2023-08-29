@@ -47,6 +47,10 @@ job_specifics:
     difficulty: Easy
     notes:
       - Make sure to sleep Mucin for a faster kill
+  SMN:
+    difficulty: Easy
+    notes:
+      - Make sure to sleep Mucin for a faster kill
   WAR:
     difficulty: Easy
     notes:

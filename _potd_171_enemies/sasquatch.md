@@ -62,6 +62,17 @@ job_specifics:
       - 'Steel recommended'
       - 'Without steel, a Browbeat + auto-attack double crit will one-shot you.
         Make sure to kite and have a shield ready for Browbeat'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel recommended any time, but required in Gloom, HP Penalty, and/or
+      Item Penalty enchantments"
+      - "Strength recommended"
+      - note: "Doable without steel IF"
+        subnotes:
+          - "There is no Gloom, HP Penalty, or Item Penalty enchantment"
+          - "Dreadwyrm or Titan and Garuda are up"
+          - "You have room to kite and sprint/shield before the pull"
   WAR:
     difficulty: Medium
 ---

@@ -36,6 +36,10 @@ job_specifics:
     difficulty: Medium
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
+    notes:
+      - "hits somewhat hard, but dies fast"
   WAR:
     difficulty: Easy
 ---

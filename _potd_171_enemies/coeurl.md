@@ -53,6 +53,11 @@ job_specifics:
       - 'Strength or steel recommended'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Use Ifrit first if it's up, as it's the most annoying to use during
+      paralyze"
   WAR:
     difficulty: Easy
     notes:

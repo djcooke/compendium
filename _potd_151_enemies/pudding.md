@@ -46,6 +46,8 @@ job_specifics:
     notes:
       - 'Can be annoying to kite while exploring because you''ll frequently
         move out of casting range'
+  SMN:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

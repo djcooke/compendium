@@ -41,6 +41,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Slow to fight because of cast interrupts'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel recommended"
+      - "Use Addle to reduce damage"
   WAR:
     difficulty: Easy
 ---

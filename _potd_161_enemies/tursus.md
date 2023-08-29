@@ -50,6 +50,10 @@ job_specifics:
     notes:
       - 'The slow debuff can be cured with Esuna, but that still costs a GCD,
         so prefer to fight other enemies first'
+  SMN:
+    difficulty: Easy
+    notes:
+      - "Ideally use Garuda when slowed, as its recast isn't affected"
   WAR:
     difficulty: Easy
     notes:

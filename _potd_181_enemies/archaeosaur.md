@@ -45,6 +45,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Dangerous without steel. Kite to reduce damage'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended any time, but required in Gloom or HP Penalty
+      enchantments"
   WAR:
     difficulty: Easy
 ---

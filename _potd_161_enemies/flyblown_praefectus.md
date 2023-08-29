@@ -32,6 +32,10 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Can be dangerous without steel. Kite to reduce damage'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel recommended"
   WAR:
     difficulty: Easy
 ---

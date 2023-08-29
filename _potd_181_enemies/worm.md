@@ -72,4 +72,9 @@ job_specifics:
       - 'Avoid if possible'
       - 'Steel required'
       - 'Shield needed to survive Temblor crit + followup auto'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Try to avoid, but can burst down if necessary"
+      - "Steel required in Gloom or HP Penalty enchantments"
 ---

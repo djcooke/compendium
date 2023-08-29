@@ -64,6 +64,11 @@ job_specifics:
       - 'Avoid if possible'
       - 'Steel required, strength recommended'
       - 'Make sure you have heals ready to recover after the stun'
+  SMN:
+    difficulty: Extreme
+    notes:
+      - "Avoid if possible"
+      - "Witching required"
   WAR:
     difficulty: Medium
     notes:

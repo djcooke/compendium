@@ -38,6 +38,8 @@ job_specifics:
       - 'Use a potion or Bloodbath after Optical Intrusion to manage HP'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
   WAR:
     difficulty: Easy
 ---

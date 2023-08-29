@@ -45,4 +45,13 @@ job_specifics:
       - 'Steel or Bloodbath required'
   SGE:
     difficulty: Medium
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended any time, but required under Gloom or HP Penalty
+      enchantments"
+      - "Stand in melee range to bait Level 5 Death for a break in damage"
+      - "Make sure shield and potions are off cooldown as Stone crits are scary
+      without steel"
+
 ---

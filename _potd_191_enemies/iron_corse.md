@@ -43,4 +43,12 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel or timely shields required'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel required"
+      - "Strength recommended"
+      - "Shield before pulling to negate Butterfly Float damage"
+      - "Doable without steel if you have strength, full burst, and Sprint, but
+      still dangerous and not recommended"
 ---

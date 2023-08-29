@@ -49,4 +49,9 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel or timely shields required'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel required"
+      - "Not too bad if kited with shield and full burst"
 ---

@@ -61,6 +61,10 @@ job_specifics:
     notes:
       - 'Pull with Eukrasian Dosis for an easy Khoomii timer'
       - 'Use Sleep after the draw-in to cancel Horroisonous Blast'
+  SMN:
+    difficulty: Easy
+    notes:
+      - 'Use Sleep after the draw-in to cancel Horroisonous Blast'
   WAR:
     difficulty: Easy
     notes:

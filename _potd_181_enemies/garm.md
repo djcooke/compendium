@@ -68,6 +68,10 @@ job_specifics:
       - 'Can use Hell''s Egress to dodge Ram''s Voice'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
+    notes:
+      - "Steel recommended in Gloom or HP Penalty enchantments"
   WAR:
     difficulty: Easy
     notes:

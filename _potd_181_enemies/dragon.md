@@ -54,4 +54,9 @@ job_specifics:
     notes:
       - 'Steel required'
       - 'Remove the DoT with Esuna as soon as it''s inflicted'
+  SMN:
+    difficulty: Extreme
+    notes:
+      - "Avoid"
+      - "Witching required"
 ---

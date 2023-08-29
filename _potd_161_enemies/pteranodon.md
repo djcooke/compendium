@@ -32,6 +32,10 @@ job_specifics:
     difficulty: Easy
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended"
   WAR:
     difficulty: Easy
 ---

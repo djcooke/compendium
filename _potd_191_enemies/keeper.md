@@ -46,4 +46,11 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel or timely shields required'
+  SMN:
+    difficulty: Extreme
+    notes:
+      - "Avoid if possible"
+      - "Steel required"
+      - "Strength recommended"
+      - "Make sure you have rrom to kite if pulled"
 ---

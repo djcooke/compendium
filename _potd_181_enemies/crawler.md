@@ -47,4 +47,9 @@ job_specifics:
     notes:
       - 'Avoid if possible'
       - 'Steel recommended. Can be fought without steel, but very slow'
+  SMN:
+    difficulty: Extreme
+    notes:
+      - "Avoid if possible"
+      - "Witching required"
 ---

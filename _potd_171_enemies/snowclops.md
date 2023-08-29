@@ -42,6 +42,8 @@ job_specifics:
     difficulty: Easy
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
   WAR:
     difficulty: Easy
     notes:

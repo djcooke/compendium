@@ -48,6 +48,11 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Can be dangerous without steel. Kite to reduce damage'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended"
+      - "Use Ifrit while it's using Cry; kite with Titan/Garuda/Dreadwyrm otherwise"
   WAR:
     difficulty: Easy
     notes:

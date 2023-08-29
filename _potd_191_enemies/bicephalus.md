@@ -41,4 +41,10 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel or timely shields required'
+  SMN:
+    difficulty: Hard
+    notes:
+      - "Steel required"
+      - "Make sure shield, full burst, and potions are ready if pulling, as
+      Glass Punch crits are spooky"
 ---

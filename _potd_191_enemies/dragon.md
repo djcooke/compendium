@@ -34,4 +34,8 @@ job_specifics:
     difficulty: Easy
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
+    notes:
+      - "Steel required under Gloom or HP Penalty enchantments"
 ---

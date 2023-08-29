@@ -49,4 +49,8 @@ job_specifics:
       - 'Stun Scream for uptime or use Hell''s Egress to get out of range'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Easy
+    notes:
+      - "Steel required under Gloom or HP Penalty enchantments"
 ---

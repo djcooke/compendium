@@ -44,6 +44,11 @@ job_specifics:
     notes:
       - 'Can be dangerous without steel, but not as bad as other enemies with
         instants because it occasionally stops to use Primordial Bark'
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Steel recommended"
+      - "Can be painful. Pre-pull Sprint and shield recommended"
   WAR:
     difficulty: Easy
     notes:

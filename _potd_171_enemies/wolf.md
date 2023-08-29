@@ -53,6 +53,13 @@ job_specifics:
       - 'Avoid if possible. Use steel or witching if you have to fight one'
       - 'Can be fought without steel, but requires prompt Esuna on the DoT and
         is very slow'
+  SMN:
+    difficulty: Hard
+    notes:
+      - Avoid if possible
+      - Shield and Sprint if pulled accidentally
+      - Steel required
+      - Strength recommended
   WAR:
     difficulty: Medium
     notes:

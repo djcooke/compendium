@@ -55,6 +55,11 @@ job_specifics:
       Swing if paralyzed'
   SGE:
     difficulty: Easy
+  SMN:
+    difficulty: Medium
+    notes:
+      - "Use Ifrit first if it's up, as it's the most annoying to use when
+      paralyzed"
   WAR:
     difficulty: Easy
     notes:
