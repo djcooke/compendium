@@ -23,6 +23,13 @@ title: Wall Traps
 
 * South-east corner of this room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_1.png' | relative_url }}">
+* South-east corner of this donut room - note that a trap can also spawn
+  slightly outward from this point, so hug the railing when passing this
+  corner:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_2.png' | relative_url }}">
+* Next to the east exit of the same donut room - note that the wall might be
+  closed off instead, and it might be possible to squeeze by in that case:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_3.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
@@ -31,8 +38,32 @@ title: Wall Traps
 
 <div class="surfacePane" markdown="1">
 
-* East wall of this donut room:
+* East wall of this donut room - can be avoided if the wall is open:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_1.png' | relative_url }}">
+* West wall of the same donut room (2 locations) - can be avoided if the wall
+  is open:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_2-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_2-2.png' | relative_url }}">
+* East wall of this donut room - can be avoided if the wall is open:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_3.png' | relative_url }}">
+* South wall of the same donut room - can be avoided if the wall is open:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_4.png' | relative_url }}">
+* South wall of yet another donut room (2 locations) - can be avoided if the
+  wall is open:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_5-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_5-2.png' | relative_url }}">
+* South-west corner of the last donut room (with mushrooms in the pit):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_6.png' | relative_url }}">
+* South-east corner of this room (right of the entrance) - not technically a
+  wall trap, but you have to jump onto the rocks to avoid it:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_7.png' | relative_url }}">
+* South-west corner of this room (right of the entrance) - there's another
+  spawn point just past this which you have to jump onto the rocks to avoid:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_8-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_8-2.png' | relative_url }}">
+* South-east corner of this room (left of the entrance) - not technically a
+  wall trap, but you have to hug the crystal tightly to avoid it:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_9.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
@@ -56,6 +87,11 @@ title: Wall Traps
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_1.png' | relative_url }}">
 * West side of this gazebo room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_2.png' | relative_url }}">
+* Under the broken fence on the south wall of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_3.png' | relative_url }}">
+* South-east corner of this empty room - not quite a wall trap, but will catch
+  you if you don't hug the wall tightly:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_4.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
