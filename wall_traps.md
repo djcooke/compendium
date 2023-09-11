@@ -72,9 +72,25 @@ title: Wall Traps
 
 <div class="surfacePane" markdown="1">
 
-* South-east corner of this donut room:
+* South-east corner of this pillar room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_1-2.png' | relative_url }}">
+* South wall of the same pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_2.png' | relative_url }}">
+* East wall of the same pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_3.png' | relative_url }}">
+* East wall of another pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_4.png' | relative_url }}">
+* South wall of the same pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_5.png' | relative_url }}">
+* West wall of the same pillar room, when the wall is closed (also dangerous
+  when the wall is open - hug the corner tightly to avoid):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_6-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_6-2.png' | relative_url }}">
+* East wall of yet another pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_7.png' | relative_url }}">
+* East wall of the last pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_8.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
