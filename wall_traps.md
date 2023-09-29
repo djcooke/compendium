@@ -99,15 +99,58 @@ title: Wall Traps
 
 <div class="surfacePane" markdown="1">
 
-* Donut room between the pillar and curved root in the south-west corner:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_1.png' | relative_url }}">
-* West side of this gazebo room:
+* Donut room between the pillar and curved root in the south-west corner (can
+  spawn in 3 different positions around the pillar):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_1-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_1-2.png' | relative_url }}">
+* South wall of another donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_2.png' | relative_url }}">
-* Under the broken fence on the south wall of this room:
+* East wall of the same donut room, when the wall is closed:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_3.png' | relative_url }}">
-* South-east corner of this empty room - not quite a wall trap, but will catch
-  you if you don't hug the wall tightly:
+* South wall of yet another donut room, when the wall is closed - technically
+  not a wall trap, but will catch you if you don't hug the wall perfectly:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_4.png' | relative_url }}">
+* West side of this gazebo room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_5.png' | relative_url }}">
+* South side of the same gazebo room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_6.png' | relative_url }}">
+* East side of the same gazebo room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_7.png' | relative_url }}">
+* South-west wall of another gazebo room (both corners):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_8.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_9.png' | relative_url }}">
+* Left side of the entrance to this dead-end room (south entrance):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_10.png' | relative_url }}">
+* Left-hand pillar of this dead-end room (east entrance):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_11.png' | relative_url }}">
+* Left side of the entrance to this dead-end room (east entrance) - technically
+  not a wall trap, but you have to jump onto the rocks to avoid it:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_12.png' | relative_url }}">
+* Left side of the entrance to this dead-end room (east entrance):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_13.png' | relative_url }}">
+* Under the broken fence on the south wall of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_14.png' | relative_url }}">
+* South-east corner of this room, when the wall is closed - also easy to
+  accidentally hit when the wall is open because of the curvature:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_15.png' | relative_url }}">
+* North wall of this room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_16.png' | relative_url }}">
+* East wall of this room, when the wall is closed (2 locations):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_17.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_18.png' | relative_url }}">
+* South wall of the same room, when the wall is closed (shown here with the
+  wall open):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_19.png' | relative_url }}">
+* East wall of this room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_20.png' | relative_url }}">
+* East wall of this room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_21.png' | relative_url }}">
+* South wall of this large room, when the wall is closed - also easy to
+  accidentally hit while turning to the left when entering:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_22-1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_22-2.png' | relative_url }}">
+* East wall of the same room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_23.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
