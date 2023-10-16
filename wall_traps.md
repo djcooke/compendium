@@ -160,20 +160,20 @@ title: Wall Traps
 <div class="surfacePane" markdown="1">
 
 * By south corner/exit of this room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_1.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_11.png' | relative_url }}">
 * South corner/exit of this donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
-* South corner/exit of another donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_6.png' | relative_url }}">
-* East corner/exit of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
+* South corner/exit of another donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_4.png' | relative_url }}">
+* East corner/exit of this donut room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
 * On debris pile by east corner/exit of this room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_3.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_16.png' | relative_url }}">
 * East corner/exit of another room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_7.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_17.png' | relative_url }}">
 * On the debris pile at the left corner entering the dead-end donut room at the
 bottom of the stairs:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_4.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_14.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
