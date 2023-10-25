@@ -159,21 +159,44 @@ title: Wall Traps
 
 <div class="surfacePane" markdown="1">
 
-* By south corner/exit of this room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_11.png' | relative_url }}">
-* South corner/exit of this donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
-* South corner/exit of another donut room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_4.png' | relative_url }}">
-* East corner/exit of this donut room:
+* East corner of most donut rooms, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_1.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_2.png' | relative_url }}">
-* On debris pile by east corner/exit of this room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_16.png' | relative_url }}">
-* East corner/exit of another room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_17.png' | relative_url }}">
-* On the debris pile at the left corner entering the dead-end donut room at the
-bottom of the stairs:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_3.png' | relative_url }}">
+* South corner of most donut rooms, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_4.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_5.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_6.png' | relative_url }}">
+  <br>Two locations in this south corner:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_7.png' | relative_url }}">
+* West corner of this donut room, when the wall is closed (two locations):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_8.png' | relative_url }}">
+* East corner/exit of this pillar room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_9.png' | relative_url }}">
+* West corner of another pillar room, when the wall is closed:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_10.png' | relative_url }}">
+* South-east side (right side of entrance) of some south-entrance dead-end
+  rooms (other such rooms also have a trap in this general position, but not on
+  the wall):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_11.png' | relative_url }}">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_12.png' | relative_url }}">
+* South-east side (left side of entrance) of some east-entrance dead-end
+  rooms (other such rooms also have a trap in this general position, but not on
+  the wall):
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_13.png' | relative_url }}">
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_14.png' | relative_url }}">
+  <br>This one can be avoided by walking behind the candle:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_15.png' | relative_url }}">
+  <br>This one can be avoided by walking over the debris:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_16.png' | relative_url }}">
+* East corner/exit of this plain room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_17.png' | relative_url }}">
+* West corner/exit of this grate room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_18.png' | relative_url }}">
+* East corner/exit of this room with a circular dais:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_19.png' | relative_url }}">
+* West side of this long room:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_20.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
@@ -191,7 +214,6 @@ bottom of the stairs:
 ## PotD 111-129
 
 <div class="surfacePane" markdown="1">
-
 
 * By the south entrance of this donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_1.png' | relative_url }}">
