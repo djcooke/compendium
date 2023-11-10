@@ -3,7 +3,7 @@ name: Orthos Gowrow
 nickname: Gowrow
 image: gowrow.png
 start_floor: 63
-end_floor: 65
+end_floor: 66
 patrol: true
 agro: Sight
 hp: 324548

@@ -17,6 +17,9 @@ vulnerabilities:
 abilities:
   - name: Aetherial Blast
     description: "telegraphed line AoE"
+  - name: Whipcrack
+    type: Physical
+    description: instant
   - name: Bombination
     potency: 200
     type: Magic

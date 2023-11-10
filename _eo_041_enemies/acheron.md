@@ -3,7 +3,7 @@ name: Orthos Acheron
 nickname: Acheron
 image: archeron.png
 start_floor: 41
-end_floor: 43
+end_floor: 44
 patrol: true
 agro: Sight
 hp: 168848
