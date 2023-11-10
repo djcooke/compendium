@@ -23,4 +23,9 @@ abilities:
     potency: 50 (x3)
     type: Physical
     description: "instant 3-hit attack"
+  - name: Assassinate
+    potency: 150% of max HP
+    type: Unique
+    description: "used on players with less than 20% of max HP"
+    warning: other    
 ---
