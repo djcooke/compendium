@@ -172,8 +172,28 @@ chests:
 * **Silver**: Can have one of several effects
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
-  * HoH only: chest may contain magicite
-  * EO only: chest may contain a demiclone tomestone
+  * HoH only: chest may contain magicite. There are four types of magicite:
+    * Inferno, Crag, and Vortex: Summons Ifrit, Titan, or Garuda respectively,
+      instantly killing all enemies on the floor (except bosses, to which they
+      deal a large amount of damage). Also grants a 10-second invulnerability
+      buff to all party members; this invulnerability takes effect immediately,
+      so magicites can be used as a panic button if you can't get out of an
+      AoE.
+    * Elder: Summons Odin, which has the same effect as the other magicites but
+      *also* one-shots bosses. Much rarer than the other types, and does not
+      appear at all before floor 31. **Note that elder magicite has been
+      reported not to work if you don't engage the boss in battle first!**
+  * EO only: chest may contain a demiclone tomestone. Demiclones are NPCs which
+    fight alongside you until you die or leave the floor. Each player can only
+    summon one demiclone at a time. There are three types of demiclone:
+    * Unei (red): Healer-type demiclone. Deals moderate but still respectable
+      damage; also casts Cure as needed, and periodically casts Stoneskin for a
+      20% max HP shield.
+    * Doga (green): DPS-type demiclone. Can easily outdamage players; also
+      periodically casts Break (10-second AoE petrify with diminishing
+      returns).
+    * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
+      also use Cure. Much rarer than the other types.
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
   are detailed in the [Pomanders section](pomanders.html)
 
