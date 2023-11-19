@@ -4,6 +4,7 @@ nickname: Thunderbeast
 image: thunderbeast.png
 start_floor: 73
 end_floor: 76
+patrol: true
 agro: Sight
 hp: 334236
 attack_damage: 10848
