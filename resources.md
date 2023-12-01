@@ -18,14 +18,14 @@ title: Resources
 
 <div class="surfacePane" markdown="1">
 
-### Maygi's POTD/HOH Handbooks (Solo/Party)
+### Maygi's POTD/HOH/EO Handbooks (Solo/Party)
 
 Mainly written from a RDM perspective, but very useful to any deep dungeon
 explorer. Highly recommended read.
 
 [Palace of the Dead](https://docs.google.com/document/d/e/2PACX-1vQpzFuhmSwTXuZSmtnKLNgQ0nRhumCFaB8NvCXFXSjrBHPRT5lXY8jMR4RaCK1aNfcl_G5ph5DNNwfl/pub)
 • [Heaven on High](https://docs.google.com/document/d/1YVBSTOgJO-xOAB6YyKZEZRikjXFPle6Ihf_E7VdmQnI/edit?usp=sharing)
-
+• [Eureka Orthos](https://docs.google.com/document/d/1wc0LHgUZmmqMUnRflZsDxc3JtHS0dxO9D4WH--UQk_E/edit)
 Author: Maygi (Discord: Maygi#4987)
 
 </div>
