@@ -11,7 +11,9 @@ title: Resources
   • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon/)
 * Heaven on High: [Play Guide](https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/deepdungeon2/)
   • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon2/)
-
+* Eureka Orthos: [Play Guide](https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/deepdungeon3/)
+  • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon3/)
+  
 </div>
 
 ## Community-Produced
