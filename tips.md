@@ -3,7 +3,8 @@ layout: default
 title: Tips/Strategy
 job_specific_notes:
   NIN:
-    - 'Hide will let you sneak past sight and sound based aggro monsters easily. It won't help against proximity aggro monsters.`
+    - 'Hide will let you sneak past sight and sound based aggro monsters
+    easily. It won''t help against proximity aggro monsters.'
   MCH:
     - note: 'Always be kiting!'
       subnotes:
