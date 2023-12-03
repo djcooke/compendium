@@ -45,7 +45,7 @@ scripts:
       This is based mostly on data I [Daleven] collected from my own runs and
       supplemented with a few runs from Angelus Demonus VODs. The data for
       floors 181+ and 191+ is likely to be a bit off as at this time, it's only
-      based on about 370 chests from 181-189 and about 250 from 191-199. Data
+      based on about 530 chests from 181-189 and about 420 from 191-199. Data
       for floors 1-179 is based on 1000-2000 chests per set, so should be more
       accurate.
     </li>
@@ -107,10 +107,9 @@ scripts:
   <ul>
     <li>
       This is based on data I [Daleven] collected from my own runs only. The
-      data for floors 81+ and especially 91+ is likely to be a bit off as at
-      this time, it's only based on about 950 chests from 81-89 and about 280
-      from 91-99. Data for floors 1-79 is based on 1000-2000 chests per set, so
-      should be more accurate.
+      data for floors 91+ is likely to be a bit off as at this time, it's only
+      based on about 750 chests. Data for floors 1-89 is based on 1400-3000
+      chests per set, so should be more accurate.
     </li>
     <li>
       Distribution of chest types (gold/silver/bronze) is based on non-drops on
