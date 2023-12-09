@@ -5,6 +5,8 @@ supress_title: true
 
 # Deep Dungeon Compendium
 
+<img class="noteImage" src="{{ '/assets/images/happy_holidays.png' | relative_url }}">
+
 <div class="surfacePane" markdown="1">
 This site is an attempt to collect as much knowledge of FFXIV deep dungeons in
 one place as possible. It should serve as a good guide for groups looking to
