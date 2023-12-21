@@ -241,31 +241,122 @@ by using a Pomander of Safety.
 <div class="surfacePane" markdown="1">
 When you arrive on a new floor, there is a chance that one or more enchantments
 will be applied. These are mostly detrimental, but a few are actually helpful.
+These enchantments are divided into three groups, described below. It is
+possible to receive zero or one enchantment from each group. It is NOT possible
+to receive multiple enchantments from the same group, so enchantments within
+the same group will never be stacked.
 
-### Detrimental Effects
+#### Group 1:
 
-* HP Penalty - Maximum HP is decreased
-* Damage Down - Damage dealt is reduced
-* Amnesia - Unable to use abilities
-* Item Penalty - Unable to use items or pomanders
-* Auto-heal Penalty - HP regeneration has stopped. This also affects enemies,
-  which is hugely beneficial in EO when combined with a Protomander of Storms
-* Blind - Encroaching darkness is lowering accuracy
-* Gloom - Enemies have increased attack, defense, and movement speed
-* **PotD Only**: Sprint Penalty - Unable to sprint
-* **PotD and EO Only**: Knockback Penalty - Unable to use knockback and draw-in
-  effects. This mostly means that Pomander of Rage/Dread will not be useful;
-  however, it also prevents enemies' knockback and draw-in abilities, which can
-  be beneficial in some cases
-* **HoH Only**: Unmagicked - Unable to use magicite
-* **EO Only**: Demiclone Penalty - Unable to use demiclone generators
+<table>
+  <thead>
+    <th class="textCell">Enchantment</th>
+    <th class="textCell">Description</th>
+    <th>Dungeons</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amnesia</td>
+      <td>Unable to use abilities</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Blind</td>
+      <td>Encroaching darkness is lowering accuracy</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Damage Down</td>
+      <td>Damage dealt is reduced</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Haste</td>
+      <td>Weaponskill cast time and recast time, spell cast time and recast
+      time, and auto-attack delay are reduced</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>HP Penalty</td>
+      <td>Maximum HP is decreased</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>HP & MP Boost</td>
+      <td>Maximum HP and MP are increased</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Sprint</td>
+      <td>Movement speed is increased</td>
+      <td class="align-center">HoH + EO</td>
+    </tr>
+  </tbody>
+</table>
 
-### Beneficial Effects
+#### Group 2:
 
-* HP & MP Boost - Maximum HP and MP are increased
-* Haste - Weaponskill cast time and recast time, spell cast time and recast
-  time, and auto-attack delay are reduced
-* **HoH and EO Only**: Sprint - Movement speed is increased
+<table>
+  <thead>
+    <th class="textCell">Enchantment</th>
+    <th class="textCell">Description</th>
+    <th>Dungeons</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Auto-heal Penalty</td>
+      <td>HP regeneration has stopped. This also affects enemies, which is
+      hugely beneficial in EO when combined with a Protomander of Storms</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Demiclone Penalty</td>
+      <td>Unable to use demiclone generators</td>
+      <td class="align-center">EO</td>
+    </tr>
+    <tr>
+      <td>Item Penalty</td>
+      <td>Unable to use items or pomanders. Exception: you can still use a
+      Pomander of Serenity to remove all enchantments</td>
+      <td class="align-center">All</td>
+    </tr>
+    <tr>
+      <td>Unmagicked</td>
+      <td>Unable to use magicite</td>
+      <td class="align-center">HoH</td>
+    </tr>
+    <tr>
+      <td>Knockback Penalty</td>
+      <td>Unable to use knockback and draw-in effects. This mostly means that
+      Pomander of Rage/Dread will not be useful; however, it also prevents
+      enemies' knockback and draw-in abilities, which can be beneficial in some
+      cases</td>
+      <td class="align-center">PotD + EO</td>
+    </tr>
+    <tr>
+      <td>Sprint Penalty</td>
+      <td>Unable to sprint</td>
+      <td class="align-center">All</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Group 3:
+
+<table>
+  <thead>
+    <th class="textCell">Enchantment</th>
+    <th class="textCell">Description</th>
+    <th>Dungeons</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gloom</td>
+      <td>Enemies have increased attack, defense, and movement speed</td>
+      <td class="align-center">All</td>
+    </tr>
+  </tbody>
+</table>
 
 [Back to top](#top)
 </div>

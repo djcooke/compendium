@@ -23,6 +23,6 @@ abilities:
   - name: Expulsion
     description: "telegraphed pointblank AoE"
   - name: Electric Whorl
-    description: "telegraphed donut AoE"
+    description: "telegraphed donut AoE; CANNOT be LoSed"
     warning: donut
 ---
