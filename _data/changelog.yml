@@ -2,6 +2,7 @@
   updates:
     - "Added AST kill times for all EO bosses, courtesy of MochiFaa (GitHub)"
     - "Updated MCH kill times for EO bosses"
+    - "Corrected kill range for EO floors 41-49"
 - date: 2023-12-21
   updates:
     - "Updated Enchantments section of Knowledge page to detail grouping and
