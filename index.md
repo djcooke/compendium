@@ -5,8 +5,6 @@ supress_title: true
 
 # Deep Dungeon Compendium
 
-<img class="noteImage" src="{{ '/assets/images/happy_holidays.png' | relative_url }}">
-
 <div class="surfacePane" markdown="1">
 This site is an attempt to collect as much knowledge of FFXIV deep dungeons in
 one place as possible. It should serve as a good guide for groups looking to
@@ -19,7 +17,7 @@ have additional knowledge or any suggestions at all to share, please see the
 would be extremely helpful, as I will not likely be soloing on every job!
 
 I would like to give a **special thanks** to Angelus Demonus and Maygi for their
-amazing guides that helped me immensely through my own deep dungeon journey.
+amazing guides that helped me immensely through my own first deep dungeon clears.
 See the [Resources page](resources.html) for links to these and other great
 resources.
 
