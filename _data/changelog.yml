@@ -1,3 +1,10 @@
+- date: 2024-02-01
+  updates:
+    - "Corrected kill range for PotD floors 41-49/91-99 and HoH/EO floors
+    31-49"
+    - "Corrected PotD floor 130 boss HP"
+    - "Added more enemy details"
+    - "Above changes courtesy of vaxherd"
 - date: 2024-01-20
   updates:
     - "Added AST kill times for all EO bosses, courtesy of MochiFaa (GitHub)"
