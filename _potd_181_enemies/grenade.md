@@ -18,7 +18,10 @@ vulnerabilities:
   resolution: false
 abilities:
   - name: Hypothermal Combustion
-    description: 'telegraphed pointblank AoE'
+    potency: 300
+    type: Magic
+    description: 'telegraphed pointblank AoE; inflicts frostbite (magic DoT
+    potency 100, 21s)'
 job_specifics:
   GNB:
     difficulty: Easy

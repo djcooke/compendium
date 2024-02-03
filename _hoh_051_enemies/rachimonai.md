@@ -19,7 +19,9 @@ abilities:
   - name: 'Passive Infrared Guidance System'
     potency: 130
     type: Magic
-    description: 'instant circle AoE; also used out of combat'
+    description: 'instant circle AoE. Also used out of combat, and the
+    Rachimonai will follow the targeted player (even into other rooms) until
+    it is in range and LoS before using'
     warning: idle
 notes:
   - 'Can only be slowed with Arm''s Length if transfigured via Pomander of

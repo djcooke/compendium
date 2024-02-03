@@ -17,7 +17,11 @@ vulnerabilities:
   stun: true
 abilities:
   - name: 'Gust'
-    description: 'telegraphed circle AoE; also used out of combat'
+    potency: 800
+    type: Magic
+    description: 'telegraphed circle AoE; inflicts windburn. Also used out of
+    combat, and the Kyozo will follow the targeted player (even into other
+    rooms) until it is in range and LoS before casting'
   - name: 'Filoplumage'
     potency: n/a
     description: 'grants vulnerability down (50%, 15s) to self and other nearby
