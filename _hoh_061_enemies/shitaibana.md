@@ -26,6 +26,8 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
+    notes:
+      - 'Use TBN duing the start of AA chain to break on the cleave'
   GNB:
     difficulty: Easy
   MCH:

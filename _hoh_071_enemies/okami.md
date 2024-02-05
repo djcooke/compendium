@@ -24,6 +24,8 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
+    notes:
+      - 'Never casts so open with TBN when in AA range'
   MCH:
     difficulty: Hard
     notes:

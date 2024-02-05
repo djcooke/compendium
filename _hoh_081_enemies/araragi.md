@@ -46,6 +46,10 @@ notes:
       - 'Time for roughly 3 auto-attacks before it restarts (another Goobbue''s
       Grief)'
 job_specifics:
+  DRK:
+    difficulty: 'Easy if you can LoS Goobbue''s Grief well'
+    notes:
+      - 'Use TBN at the end of Goobbue rotation'
   MCH:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
     notes:

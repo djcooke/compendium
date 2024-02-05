@@ -24,6 +24,8 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
+    notes:
+      - 'Stun hypothermal combustion for uptime'
   GNB:
     difficulty: Easy
   MCH:
