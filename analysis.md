@@ -7,10 +7,10 @@ scripts:
 
 ## On this Page:
 
-* [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
-* [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
-* [Drop Rates](#drop-rates)
-* [Alteration Effects](#alteration-effects)
+- [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
+- [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
+- [Drop Rates](#drop-rates)
+- [Alteration Effects](#alteration-effects)
 
 ## PotD Chest Contents by Floor
 
@@ -27,7 +27,7 @@ scripts:
     </tr>
     <tr>
       <td><span class="rotated">Floors</span></td>
-      <td id="potdChestContentsChart" style="padding: 0"></td>
+      <td id="potdChestContentsChart"></td>
     </tr>
     <tr>
       <td></td>
@@ -87,11 +87,11 @@ scripts:
   <table class="unstyled">
     <tr>
       <td></td>
-      <td style="width: 100%; text-align: center;">Contents</td>
+      <td style="width: 50vh; text-align: center;">Contents</td>
     </tr>
     <tr>
       <td><span class="rotated">Floors</span></td>
-      <td id="hohChestContentsChart" style="padding: 0"></td>
+      <td id="hohChestContentsChart"></td>
     </tr>
     <tr>
       <td></td>
