@@ -30,6 +30,7 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Medium
+      - 'Remembering to stun on cooldown helps with reducing damage.'
   MCH:
     difficulty: Extreme
   PLD:
