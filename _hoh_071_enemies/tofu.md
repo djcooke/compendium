@@ -27,6 +27,8 @@ notes:
   - 'Does not make an effort to come into melee range unless Golden Tongue is
   interrupted'
 job_specifics:
+  DRK:
+    difficulty: 'Easy if you can LoS Blizzard well'
   MCH:
     difficulty: Easy (IF you LoS well)
     notes:
