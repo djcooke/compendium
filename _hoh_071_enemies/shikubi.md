@@ -25,7 +25,7 @@ job_specifics:
   DRK:
     difficulty: Easy
     notes:
-      - 'Stun hypothermal combustion for uptime'
+      - 'Stun Hypothermal Combustion for uptime'
   GNB:
     difficulty: Easy
   MCH:

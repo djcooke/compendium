@@ -49,7 +49,7 @@ job_specifics:
   DRK:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
     notes:
-      - 'Use TBN at the end of Goobbue rotation'
+      - 'Use TBN during Goobue's Grief'
   MCH:
     difficulty: 'Easy if you can LoS Goobbue''s Grief well'
     notes:

@@ -33,7 +33,7 @@ job_specifics:
   DRK:
     difficulty: Easy
     notes:
-      - 'Save interrupt for northerlies'
+      - 'Save interrupt for Northerlies'
   GNB:
     difficulty: Easy
   MCH:

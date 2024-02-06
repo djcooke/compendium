@@ -27,7 +27,7 @@ job_specifics:
   DRK:
     difficulty: Easy
     notes:
-      - 'Use TBN duing the start of AA chain to break on the cleave'
+      - 'Use TBN when in melee range for the cleave and stun after ~3 Global Cooldowns giving you time to pull back and avoid Acid Mist.'
   GNB:
     difficulty: Easy
   MCH:
