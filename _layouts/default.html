@@ -1,66 +1,71 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
-    <nav>
-      <div id="topnav">
-        <div id="navButton" onclick="toggleOpen('nav')">
-          ≡
-        </div>
+<body>
+  <nav>
+    <div id="topnav">
+      <div id="navButton" onclick="toggleOpen('nav')">
+        ≡
       </div>
-      <div id="nav" class="">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/knowledge.html' | relative_url }}">Knowledge</a>
-        <a href="{{ '/preparation.html' | relative_url }}">Preparation</a>
-        <a href="{{ '/pomanders.html' | relative_url }}">Pomanders</a>
-        <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
-        <a href="{{ '/wall_traps.html' | relative_url }}">Wall Traps</a>
-        <div id="potdMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
-          <ul>
+    </div>
+    <div id="nav" class="">
+      <div class="logo">
+        <image src="/assets/images/dd_logo.png" alt="DD Logo" title="Deep Dungeon Compendium" />
+      </div>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/knowledge.html' | relative_url }}">Knowledge</a>
+      <a href="{{ '/preparation.html' | relative_url }}">Preparation</a>
+      <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
+      <a href="{{ '/wall_traps.html' | relative_url }}">Wall Traps</a>
+      <div id="potdMenu" class="submenu">
+        <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
+        <ul>
           {% for floorset in site.potd_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-            </li>
+          <li>
+            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+              }}</a>
+          </li>
           {% endfor %}
-          </ul>
-        </div>
-        <div id="hohMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
-          <ul>
-            {% for floorset in site.hoh_floorsets %}
-              <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div id="eoMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
-          <ul>
-            {% for floorset in site.eo_floorsets %}
-              <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
-        <a href="{{ '/resources.html' | relative_url }}">Resources</a>
-        <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
+        </ul>
       </div>
-    </nav>
-    <main class="page-content" aria-label="Content">
-      <div id="main">
-        {% unless page.supress_title %}
-          <h1 id="top">{{ page.title }}</h1>
-        {% endunless %}
-        {{ content }}
+      <div id="hohMenu" class="submenu">
+        <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
+        <ul>
+          {% for floorset in site.hoh_floorsets %}
+          <li>
+            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+              }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
-    </main>
+      <div id="eoMenu" class="submenu">
+        <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
+        <ul>
+          {% for floorset in site.eo_floorsets %}
+          <li>
+            <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+              }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
+      <a href="{{ '/resources.html' | relative_url }}">Resources</a>
+      <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
+    </div>
+  </nav>
+  <main class="page-content" aria-label="Content">
+    <div id="main">
+      {% unless page.supress_title %}
+      <h1 id="top">{{ page.title }}</h1>
+      {% endunless %}
+      {{ content }}
+    </div>
+  </main>
 
-  </body>
+</body>
 
 </html>

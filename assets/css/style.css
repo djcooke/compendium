@@ -111,6 +111,10 @@ li li:first-child {
   color: #f1f1f1;
 }
 
+.logo {
+  padding: 6px 16px 6px 16px;
+}
+
 .submenu .navHeading:before {
   content: "▶ ";
 }

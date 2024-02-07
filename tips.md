@@ -87,11 +87,15 @@ job_specific_notes:
 
 ## On this Page:
 
-* [General Tips](#general-tips)
-* [Traps](#traps)
-* [Treasure Rooms](#treasure-rooms)
-* [Hall of Fallacies](#hall-of-fallacies)
-* [Job-Specific Tips](#job-specific)
+- [On this Page:](#on-this-page)
+- [General Tips](#general-tips)
+- [Time Management](#time-management)
+- [Traps](#traps)
+  - [Avoid Them](#avoid-them)
+  - [Survive Them](#survive-them)
+  - [Use Them](#use-them)
+- [Treasure Rooms](#treasure-rooms)
+- [Hall of Fallacies](#hall-of-fallacies)
 
 ## General Tips
 
@@ -105,25 +109,33 @@ job_specific_notes:
   help to open the exit
 * If you're planning to use a Pomander of Rage or Petrification, or Magicite,
   try to check chests first in-case of Mimics
+* First priority in hard levels is clearing a path to the exit. Skip chests if
+  they're going to cost too much time or are too risky
+* Patrols and proximity agro enemies are usually best to take out first as they
+  can cause a lot of trouble and really get in your way
 * Know when NOT to open chests - usually this boils down to whether you can
   handle a Mimic, and have time to do so
   * e.g. you've used magicite to clear a floor that has Item Penalty and
     Amnesia enchantments. If you get a Mimic, you will probably need to use a
     Serenity and/or other pomanders to survive
-* Be as efficient with your time as possible
-  * Always be fighting when possible
+
+Make sure to check out the [Knowledge sectiond](knowledge.html#pomanders) for additional
+tips related to pomander usage.
+
+[Back to top](#top)
+</div>
+
+## Time Management
+
+<div class="surfacePane" markdown="1">
+
+Be as efficient with your time as possible, especially when playing tank jobs.
+  * (ABF) Always be fighting - when possible
   * Kill something weaker while you wait for cooldowns to kill something
     stronger
   * Explore or make your way toward the exit while fighting if possible
   * Watch for nearby enemy movement while fighting, so you know when it's safe
     to run through a room
-* First priority in hard levels is clearing a path to the exit. Skip chests if
-  they're going to cost too much time or are too risky
-* Patrols and proximity agro enemies are usually best to take out first as they
-  can cause a lot of trouble and really get in your way
-
-Make sure to check out the [Pomanders section](pomanders.html) for additional
-tips related to pomander usage.
 
 [Back to top](#top)
 </div>
