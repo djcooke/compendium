@@ -1,26 +1,34 @@
 :root {
   --background: #121212;
   --surface: #202020;
-  --on-background: rgba(255,255,255,0.6);
-  --on-background-bright: rgba(255,255,255,0.87);
-  --on-background-dim: rgba(255,255,255,0.38);
-  --on-surface: rgba(255,255,255,0.87);
+  --on-background: rgba(255, 255, 255, 0.6);
+  --on-background-bright: rgba(255, 255, 255, 0.87);
+  --on-background-dim: rgba(255, 255, 255, 0.38);
+  --on-surface: rgba(255, 255, 255, 0.87);
   --on-surface-bright: #FFFFFF;
-  --on-surface-dim: rgba(255,255,255,0.6);
+  --on-surface-dim: rgba(255, 255, 255, 0.6);
   --background-highlight: #3B340E;
   --surface-highlight: #47401A;
   --on-surface-highlight: #F5DA43;
   --on-surface-dim-highlight: #E4C832;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+  display: flex;
   background-color: var(--background);
   color: var(--on-background);
   margin: 0;
   font-family: Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--on-background-bright);
 }
 
@@ -40,7 +48,8 @@ a:hover {
   vertical-align: middle;
 }
 
-li:not(:last-child), li li:last-child {
+li:not(:last-child),
+li li:last-child {
   margin-bottom: 6px;
 }
 
@@ -48,40 +57,37 @@ li li:first-child {
   margin-top: 6px;
 }
 
-#nav {
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
+.navigation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background-color: var(--surface);
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
-#nav a {
+.navigation a {
   display: block;
   padding: 6px 16px 6px 16px;
   font-size: 20px;
   text-decoration: none;
 }
 
-#nav a {
+.navigation a {
   color: var(--on-surface);
 }
 
-#nav a:hover {
+.navigation a:hover {
   color: var(--on-surface-bright);
 }
 
-#nav ul {
+.navigation ul {
   margin: 0;
   padding-left: 12px;
   list-style: none;
 }
 
-#nav a, #navButton {
+.navigation a,
+#navButton {
   cursor: pointer;
 }
 
@@ -111,8 +117,37 @@ li li:first-child {
   color: #f1f1f1;
 }
 
+.floorset {
+  display: flex;
+  flex-direction: column;
+}
+
+.floorset .submenu {
+  margin-left: 6px;
+}
+
 .logo {
+  margin-top: 20px;
   padding: 6px 16px 6px 16px;
+}
+
+.deepLogoContainer {
+  width: 182px;
+  height: 42px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.deepLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.submenu .navHeading {
+  margin-left: 6px;
 }
 
 .submenu .navHeading:before {
@@ -123,6 +158,10 @@ li li:first-child {
   display: none;
 }
 
+.submenu li {
+  margin: 0;
+}
+
 .submenu.open .navHeading:before {
   content: "▼ ";
 }
@@ -131,8 +170,12 @@ li li:first-child {
   display: block;
 }
 
-#main {
-  margin-left: 200px;
+.navFooter {
+  margin-top: auto;
+}
+
+main {
+  overflow-y: auto;
   padding: 12px;
 }
 
@@ -152,11 +195,11 @@ li li:first-child {
   padding: 12px;
 }
 
-.surfacePane > *:first-child {
+.surfacePane>*:first-child {
   margin-top: 0;
 }
 
-.surfacePane > *:last-child {
+.surfacePane>*:last-child {
   margin-bottom: 0;
 }
 
@@ -176,14 +219,15 @@ li li:first-child {
   overflow-x: hidden;
 }
 
-#galleryLeft, #galleryRight {
+#galleryLeft,
+#galleryRight {
   position: absolute;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
   width: auto;
   padding: 16px;
   text-align: center;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   cursor: pointer;
   -webkit-user-select: none;
@@ -192,8 +236,9 @@ li li:first-child {
   user-select: none;
 }
 
-#galleryLeft:hover, #galleryRight:hover {
-  background: rgba(0,0,0,0.75);
+#galleryLeft:hover,
+#galleryRight:hover {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 #galleryLeft {
@@ -215,11 +260,15 @@ li li:first-child {
   transform: translate(-50%, 0);
 }
 
-.galleryImage, .galleryItem, .galleryJobNotes {
+.galleryImage,
+.galleryItem,
+.galleryJobNotes {
   display: none;
 }
 
-.galleryImage.active, .galleryItem.active, .galleryJobNotes.active {
+.galleryImage.active,
+.galleryItem.active,
+.galleryJobNotes.active {
   display: block;
 }
 
@@ -304,7 +353,8 @@ img.surfaceImage {
   width: 72px;
 }
 
-.enemyList th.hpCell, .enemyList th.attackCell {
+.enemyList th.hpCell,
+.enemyList th.attackCell {
   width: 60px;
 }
 
@@ -383,15 +433,18 @@ th.textCell {
   padding-left: 1px;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   text-align: center;
 }
 
-.enemyList td.hpCell.extremeCell, .enemyList td.attackCell.extremeCell {
+.enemyList td.hpCell.extremeCell,
+.enemyList td.attackCell.extremeCell {
   background-color: #FF1493;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   border-left: 1px solid var(--background);
   border-right: 1px solid var(--background);
   background-repeat: no-repeat;
@@ -448,7 +501,7 @@ th.textCell {
 button.textButton {
   background-color: transparent;
   border: none;
-  outline:none;
+  outline: none;
   color: var(--on-surface);
 }
 
@@ -462,7 +515,8 @@ button.textButton:hover {
   width: 100%;
 }
 
-.surfacePane th, .surfacePane td {
+.surfacePane th,
+.surfacePane td {
   padding: 8px;
 }
 
@@ -550,7 +604,7 @@ span.rotated {
 
 @media screen and (max-width: 600px) {
 
-  #nav {
+  .navigation {
     top: 40px;
     width: 100%;
     height: auto;
@@ -558,22 +612,23 @@ span.rotated {
     padding-top: 0px;
     border: 1px solid black;
   }
-  
+
   #topnav {
     display: block;
   }
-  
-  #main {
+
+  main {
     margin-left: 0px;
     margin-top: 30px;
   }
 
-  #nav.open {
+  .navigation.open {
     display: block;
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */
-  h1:before, h2:before {
+  h1:before,
+  h2:before {
     display: block;
     height: 40px;
     margin-top: -40px;
