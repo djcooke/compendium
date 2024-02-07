@@ -172,9 +172,11 @@ li li:first-child {
 
 .navFooter {
   margin-top: auto;
+  margin-bottom: 6px;
 }
 
 main {
+  width: 100%;
   overflow-y: auto;
   padding: 12px;
 }
