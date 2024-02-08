@@ -32,8 +32,37 @@ function handleSearchInput(e) {
 
         if (filteredData.length) {
           filteredData.forEach(item => resultsContainer.appendChild(createResultLink(item)));
-          showSearchResults();
+        } else { // TODO: this can be improved a lot
+          // Remove any pre-existing no results div
+          const noResultsDivPre = document.querySelector('.no-results');
+          noResultsDivPre && noResultsDivPre.remove();
+
+          // Display "No results found" with an image
+          const noResultsDiv = document.createElement('div');
+          noResultsDiv.className = 'no-results';
+          noResultsDiv.style.display = 'flex';
+          noResultsDiv.style.alignItems = 'center';
+
+          const noResultsImage = document.createElement('img');
+          noResultsImage.src = '/assets/images/search_no_results_kupo.png';
+          noResultsImage.style.width = '12%';
+          noResultsImage.style.padding = '5px';
+
+          const noResultsText = document.createElement('span');
+          noResultsText.textContent = 'No results found, consider ';
+
+          const contributingLink = document.createElement('a');
+          contributingLink.href = '/contributing.html';
+          contributingLink.textContent = 'contributing!';
+          contributingLink.style.padding = '0 5px';
+          contributingLink.style.fontSize = 'unset';
+
+          noResultsDiv.appendChild(noResultsImage);
+          noResultsDiv.appendChild(noResultsText);
+          noResultsDiv.appendChild(contributingLink);
+          resultsContainer.appendChild(noResultsDiv);
         }
+        showSearchResults();
       })
       .catch(error => {
         console.error('Fetch error:', error);
