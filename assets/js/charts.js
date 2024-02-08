@@ -87,8 +87,10 @@ var charts = (function () {
     });
 
     let chart = document.createElementNS(SVG_NS, 'svg');
+
     chart.classList.add('percentAreaChart');
-    chart.setAttribute('height', '70vh');
+    chart.setAttribute('width', '50vw');
+    chart.setAttribute('preserveAspectRatio', 'xMidYMid meet');
     // SVG coordinate system: width=10000 (percent*100), height=100*(floorsetCount-1)
     chart.setAttribute('viewBox', `0 0 ${viewboxWidth} ${viewboxHeight}`)
 

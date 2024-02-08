@@ -21,13 +21,13 @@ scripts:
   statistics for that floorset.</p>
 
   <table class="unstyled">
-    <tr>
+    <tr class="x-axis">
       <td></td>
-      <td style="width: 100%; text-align: center;">Contents</td>
+      <td class="label">Contents</td>
     </tr>
-    <tr>
-      <td><span class="rotated">Floors</span></td>
-      <td id="potdChestContentsChart"></td>
+    <tr class="y-axis">
+      <td class="label"><span class="rotated">Floors</span></td>
+      <td class="chart" id="potdChestContentsChart"></td>
     </tr>
     <tr>
       <td></td>
@@ -85,15 +85,15 @@ scripts:
   statistics for that floorset.</p>
 
   <table class="unstyled">
-    <tr>
+    <tr class="x-axis">
       <td></td>
-      <td style="width: 50vh; text-align: center;">Contents</td>
+      <td class="label">Contents</td>
     </tr>
-    <tr>
-      <td><span class="rotated">Floors</span></td>
-      <td id="hohChestContentsChart"></td>
+    <tr class="y-axis">
+      <td class="label"><span class="rotated">Floors</span></td>
+      <td class="chart" id="hohChestContentsChart"></td>
     </tr>
-    <tr>
+    <tr class="legend">
       <td></td>
       <td id="hohChestContentsLegend"></td>
     </tr>
