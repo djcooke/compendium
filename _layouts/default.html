@@ -14,6 +14,13 @@
       <div class="logo">
         <image src="/assets/images/dd_logo.png" alt="DD Logo" title="Deep Dungeon Compendium" />
       </div>
+      <div class="search">
+        <input type="text" id="searchTerm" placeholder="Search DD..">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <div id="searchResults"></div>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/knowledge.html' | relative_url }}">Knowledge</a>
       <a href="{{ '/preparation.html' | relative_url }}">Preparation</a>
@@ -73,5 +80,7 @@
   </main>
 
 </body>
+
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 
 </html>

@@ -131,6 +131,50 @@ li li:first-child {
   padding: 6px 16px 6px 16px;
 }
 
+.search {
+  display: flex;
+  margin: 4px 15px;
+}
+
+#searchTerm {
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  border: 3px solid black;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+#searchTerm:focus {
+  color: goldenrod;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#searchResults {
+  position: absolute;
+  top: 0;
+  left: 182px;
+  width: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: var(--surface);
+  border: 1px solid #ccc;
+  z-index: 10;
+}
+
 .deepLogoContainer {
   width: 182px;
   height: 42px;
@@ -636,5 +680,14 @@ span.rotated {
     margin-top: -40px;
     content: "";
     visibility: hidden;
+  }
+
+  /* No search for mobile */
+  .search {
+    display: none;
+  }
+
+  .searchResults {
+    display: none;
   }
 }

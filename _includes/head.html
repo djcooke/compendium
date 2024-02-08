@@ -3,16 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.title != site.title %}{{ page.title | append: ' - '}}{% endif %} {{ site.title }}</title>
+  <title>{% if page.title and page.title != site.title %}{{ page.title | append: ' - '}}{% endif %} {{ site.title }}
+  </title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?{{ timestamp }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}?{{ timestamp }}"></script>
 
   {% if page.scripts %}
-    {% for script in page.scripts %}
-      <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
-    {% endfor %}
+  {% for script in page.scripts %}
+  <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
+  {% endfor %}
   {% endif %}
-  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/icon/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/icon/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/icon/favicon-16x16.png' | relative_url }}">
@@ -22,7 +24,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_measurement_id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', '{{ site.ga_measurement_id }}');
