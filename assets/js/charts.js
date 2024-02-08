@@ -174,7 +174,7 @@ var charts = (function () {
       hoverLine.setAttribute('y2', y);
       hoverLine.setAttribute('stroke', 'transparent');
       hoverLine.setAttribute('stroke-width', hoverLineWidth);
-      hoverLine.setAttribute('z-index', '2'); // below original line
+      hoverLine.setAttribute('z-index', '2'); // above the visible line to act as 'hit box'
       hoverLine.addEventListener('mouseover', () => visibleLine.setAttribute('stroke', 'white'), hoverLine.style.cursor = 'pointer', visibleLine.style.cursor = 'pointer');
       hoverLine.addEventListener('mouseout', () => visibleLine.setAttribute('stroke', 'black'));
       hoverLine.addEventListener('click', () => selectLine(y));
