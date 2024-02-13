@@ -545,6 +545,7 @@ span.rotated {
 
 .percentAreaChart line {
   stroke-dasharray: 5;
+  opacity: 0.5;
   vector-effect: non-scaling-stroke;
 }
 
@@ -563,6 +564,7 @@ span.rotated {
   stroke: white;
   stroke-width: 1;
   stroke-dasharray: 5;
+  opacity: 0.5;
   vector-effect: non-scaling-stroke;
 }
 
@@ -585,7 +587,6 @@ span.rotated {
 }
 
 @media screen and (max-width: 600px) {
-
   #nav {
     top: 40px;
     width: 100%;
@@ -600,12 +601,18 @@ span.rotated {
   }
 
   #main {
+    min-width: 300px;
     margin-left: 0px;
     margin-top: 30px;
   }
 
   #nav.open {
     display: block;
+  }
+
+  .percentAreaChart {
+    width: 100%;
+    height: 100%;
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */
