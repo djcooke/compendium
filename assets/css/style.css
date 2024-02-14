@@ -57,35 +57,35 @@ li li:first-child {
   margin-top: 6px;
 }
 
-.navigation {
+#sidenav {
   display: flex;
   flex-direction: column;
   height: 100%;
   background-color: var(--surface);
 }
 
-.navigation a {
+#sidenav a {
   display: block;
   padding: 6px 16px 6px 16px;
   font-size: 20px;
   text-decoration: none;
 }
 
-.navigation a {
+#sidenav a {
   color: var(--on-surface);
 }
 
-.navigation a:hover {
+#sidenav a:hover {
   color: var(--on-surface-bright);
 }
 
-.navigation ul {
+#sidenav ul {
   margin: 0;
   padding-left: 12px;
   list-style: none;
 }
 
-.navigation a,
+#sidenav a,
 #navButton {
   cursor: pointer;
 }
@@ -660,13 +660,19 @@ a.disabled {
 
 @media screen and (max-width: 600px) {
 
-  .navigation {
-    top: 40px;
-    width: 100%;
-    height: auto;
+  #sidenav {
+    position: absolute;
     display: none;
+    width: 100%;
     padding-top: 0px;
-    border: 1px solid black;
+  }
+
+  #sidenav.open {
+    display: flex;
+  }
+
+  #sidenav.open .logo {
+    margin-top: 40px;
   }
 
   #topnav {
@@ -676,10 +682,6 @@ a.disabled {
   main {
     margin-left: 0px;
     margin-top: 30px;
-  }
-
-  .navigation.open {
-    display: block;
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */

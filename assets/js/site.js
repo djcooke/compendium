@@ -1,7 +1,7 @@
 var selectedEnemy = 0;
 var selectedJob = storageAvailable() ? window.localStorage.getItem('selectedJob') : 'MCH';
 
-window.onload = function() {
+window.onload = function () {
   urlParams = new URLSearchParams(window.location.search);
   if (urlParams.has('enemy')) {
     const input = parseInt(urlParams.get('enemy'));
@@ -14,7 +14,7 @@ window.onload = function() {
     const input = urlParams.get('job').toUpperCase();
     const jobSelects = document.getElementsByClassName('jobSelect');
     if (jobSelects && jobSelects.length
-        && Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === input)) {
+      && Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === input)) {
       selectedJob = input;
     }
   }
@@ -27,16 +27,16 @@ function storageAvailable() {
   // Simpler version of recommendation here:
   // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#feature-detecting_localstorage
   try {
-      const storage = window.localStorage;
-      if (!storage) {
-        return false;
-      }
-      const x = '__storage_test__';
-      storage.setItem(x, x);
-      storage.removeItem(x);
-      return true;
-  } catch(e) {
+    const storage = window.localStorage;
+    if (!storage) {
       return false;
+    }
+    const x = '__storage_test__';
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return false;
   }
 }
 
@@ -79,7 +79,7 @@ function selectEnemy(index) {
 function selectJob(job) {
   var jobSelects = document.getElementsByClassName('jobSelect');
   if (!jobSelects || !jobSelects.length
-      || !Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === job)) {
+    || !Array.from(jobSelects[0].getElementsByTagName('option')).some(x => x.value === job)) {
     return;
   }
   for (var i = 0; i < jobSelects.length; i++) {
