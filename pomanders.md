@@ -86,7 +86,8 @@ pomanders:
     tips:
       - 'This is a good panic button when you agro a second mob or hit a luring
       trap'
-      - 'Be aware that imps still do significant damage'
+      - note: 'Be aware that imps still do significant damage'
+        subnotes:
         - 'Imp: 60% base autoattack damage'
         - 'Chicken: 30% base autoattack damage'
         - 'Frog: negligible (<1%) damage'
