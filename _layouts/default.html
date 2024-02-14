@@ -26,14 +26,13 @@
       <a href="{{ '/preparation.html' | relative_url }}">Preparation</a>
       <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
       <a href="{{ '/wall_traps.html' | relative_url }}">Wall Traps</a>
-      <a href="{{ '/randomness.html' | relative_url }}">Randomness</a>
+      <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
       <div class="floorset">
-        <div class="deepLogoContainer">
-          <image class="deepLogo" src="/assets/images/deep_dungeon_logo.png" alt="Deep Dungeon Logo"
-            title="Deep Dungeon" />
-        </div>
+        <a class="disabled" href="{{ relative_url }}">Floor Guides</a>
         <div id="potdMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD</a>
+          <a class="navHeading tooltip" onclick="toggleOpen('potdMenu')">PotD
+            <span class="tooltiptext">Palace of the Dead</span>
+          </a>
           <ul>
             {% for floorset in site.potd_floorsets %}
             <li>
@@ -44,7 +43,9 @@
           </ul>
         </div>
         <div id="hohMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH</a>
+          <a class="navHeading tooltip" onclick="toggleOpen('hohMenu')">HoH
+            <span class="tooltiptext">Heaven on High</span>
+          </a>
           <ul>
             {% for floorset in site.hoh_floorsets %}
             <li>
@@ -55,7 +56,9 @@
           </ul>
         </div>
         <div id="eoMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO</a>
+          <a class="navHeading tooltip" onclick="toggleOpen('eoMenu')">EO
+            <span class="tooltiptext">Eureak Orthos</span>
+          </a>
           <ul>
             {% for floorset in site.eo_floorsets %}
             <li>

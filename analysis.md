@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Randomness
+title: Analysis
 scripts:
   - charts.js
 ---
 
 ## On this Page:
 
-Analysis on the randomness of the different aspects of Deep Dungeons,
+Analysis on chest contents, drop rates, and various other different aspects of Deep Dungeons,
 
-- [On this Page:](#on-this-page)
 - [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
 - [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
 - [Drop Rates](#drop-rates)

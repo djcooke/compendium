@@ -1,5 +1,29 @@
 [
   {
+    "title": " (Local Development)",
+    "link": "/README.html#local-development"
+  },
+  {
+    "title": "Analysis (On this Page:)",
+    "link": "/analysis.html#on-this-page"
+  },
+  {
+    "title": "Analysis (PotD Chest Contents by Floor)",
+    "link": "/analysis.html#potd-chest-contents-by-floor"
+  },
+  {
+    "title": "Analysis (HoH Chest Contents by Floor)",
+    "link": "/analysis.html#hoh-chest-contents-by-floor"
+  },
+  {
+    "title": "Analysis (Drop Rates)",
+    "link": "/analysis.html#drop-rates"
+  },
+  {
+    "title": "Analysis (Alteration Effects)",
+    "link": "/analysis.html#alteration-effects"
+  },
+  {
     "title": "Contributing (Make a Pull Request)",
     "link": "/contributing.html#make-a-pull-request"
   },
@@ -130,26 +154,6 @@
   {
     "title": "Preparation (Misc)",
     "link": "/preparation.html#misc"
-  },
-  {
-    "title": "Randomness (On this Page:)",
-    "link": "/randomness.html#on-this-page"
-  },
-  {
-    "title": "Randomness (PotD Chest Contents by Floor)",
-    "link": "/randomness.html#potd-chest-contents-by-floor"
-  },
-  {
-    "title": "Randomness (HoH Chest Contents by Floor)",
-    "link": "/randomness.html#hoh-chest-contents-by-floor"
-  },
-  {
-    "title": "Randomness (Drop Rates)",
-    "link": "/randomness.html#drop-rates"
-  },
-  {
-    "title": "Randomness (Alteration Effects)",
-    "link": "/randomness.html#alteration-effects"
   },
   {
     "title": "Resources (Official Site)",
