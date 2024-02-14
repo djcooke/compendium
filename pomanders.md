@@ -242,11 +242,9 @@ These are called protomanders instead of pomanders in Eureka Orthos.
         </td>
         <td>{{ pom.description }}</td>
       </tr><tr></tr><tr>
-        <td colspan="3"><ul>
-          {% for tip in pom.tips %}
-            <li>{{ tip }}</li>
-          {% endfor %}
-        </ul></td>
+        <td colspan="3">
+          {% include notes.html notes=pom.tips %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>
