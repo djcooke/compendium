@@ -1,5 +1,6 @@
 # Jekyll build output
 _site/
+vendor
 
 # Jekyll data/cache files
 .jekyll-cache/
