@@ -21,7 +21,7 @@ abilities:
     type: Magic
     description: 'instant'
   - name: Charybdis
-    potency: 90% of current HP
+    potency: 90% of max HP
     type: Unique
     description: 'enrage; can be interrupted'
     warning: explosion
