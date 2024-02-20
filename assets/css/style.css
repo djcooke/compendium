@@ -1,12 +1,12 @@
 :root {
   --background: #121212;
   --surface: #202020;
-  --on-background: rgba(255,255,255,0.6);
-  --on-background-bright: rgba(255,255,255,0.87);
-  --on-background-dim: rgba(255,255,255,0.38);
-  --on-surface: rgba(255,255,255,0.87);
+  --on-background: rgba(255, 255, 255, 0.6);
+  --on-background-bright: rgba(255, 255, 255, 0.87);
+  --on-background-dim: rgba(255, 255, 255, 0.38);
+  --on-surface: rgba(255, 255, 255, 0.87);
   --on-surface-bright: #FFFFFF;
-  --on-surface-dim: rgba(255,255,255,0.6);
+  --on-surface-dim: rgba(255, 255, 255, 0.6);
   --background-highlight: #3B340E;
   --surface-highlight: #47401A;
   --on-surface-highlight: #F5DA43;
@@ -20,7 +20,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--on-background-bright);
 }
 
@@ -40,7 +42,8 @@ a:hover {
   vertical-align: middle;
 }
 
-li:not(:last-child), li li:last-child {
+li:not(:last-child),
+li li:last-child {
   margin-bottom: 6px;
 }
 
@@ -81,7 +84,8 @@ li li:first-child {
   list-style: none;
 }
 
-#nav a, #navButton {
+#nav a,
+#navButton {
   cursor: pointer;
 }
 
@@ -109,6 +113,59 @@ li li:first-child {
 
 #navButton:hover {
   color: #f1f1f1;
+}
+
+.search {
+  display: flex;
+  margin: 4px 15px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchResult {
+  padding: 6px 16px 6px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--on-surface);
+}
+
+#searchResults {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 182px;
+  width: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: var(--surface);
+  border: 1px solid #ccc;
+  z-index: 10;
+}
+
+#searchTerm {
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  border: 3px solid black;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+#searchTerm:focus {
+  color: goldenrod;
 }
 
 .submenu .navHeading:before {
@@ -148,11 +205,11 @@ li li:first-child {
   padding: 12px;
 }
 
-.surfacePane > *:first-child {
+.surfacePane>*:first-child {
   margin-top: 0;
 }
 
-.surfacePane > *:last-child {
+.surfacePane>*:last-child {
   margin-bottom: 0;
 }
 
@@ -172,14 +229,15 @@ li li:first-child {
   overflow-x: hidden;
 }
 
-#galleryLeft, #galleryRight {
+#galleryLeft,
+#galleryRight {
   position: absolute;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
   width: auto;
   padding: 16px;
   text-align: center;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   cursor: pointer;
   -webkit-user-select: none;
@@ -188,8 +246,9 @@ li li:first-child {
   user-select: none;
 }
 
-#galleryLeft:hover, #galleryRight:hover {
-  background: rgba(0,0,0,0.75);
+#galleryLeft:hover,
+#galleryRight:hover {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 #galleryLeft {
@@ -211,11 +270,15 @@ li li:first-child {
   transform: translate(-50%, 0);
 }
 
-.galleryImage, .galleryItem, .galleryJobNotes {
+.galleryImage,
+.galleryItem,
+.galleryJobNotes {
   display: none;
 }
 
-.galleryImage.active, .galleryItem.active, .galleryJobNotes.active {
+.galleryImage.active,
+.galleryItem.active,
+.galleryJobNotes.active {
   display: block;
 }
 
@@ -300,7 +363,8 @@ img.surfaceImage {
   width: 72px;
 }
 
-.enemyList th.hpCell, .enemyList th.attackCell {
+.enemyList th.hpCell,
+.enemyList th.attackCell {
   width: 60px;
 }
 
@@ -379,15 +443,18 @@ th.textCell {
   padding-left: 1px;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   text-align: center;
 }
 
-.enemyList td.hpCell.extremeCell, .enemyList td.attackCell.extremeCell {
+.enemyList td.hpCell.extremeCell,
+.enemyList td.attackCell.extremeCell {
   background-color: #FF1493;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   border-left: 1px solid var(--background);
   border-right: 1px solid var(--background);
   background-repeat: no-repeat;
@@ -444,7 +511,7 @@ th.textCell {
 button.textButton {
   background-color: transparent;
   border: none;
-  outline:none;
+  outline: none;
   color: var(--on-surface);
 }
 
@@ -458,7 +525,8 @@ button.textButton:hover {
   width: 100%;
 }
 
-.surfacePane th, .surfacePane td {
+.surfacePane th,
+.surfacePane td {
   padding: 8px;
 }
 
@@ -554,11 +622,11 @@ span.rotated {
     padding-top: 0px;
     border: 1px solid black;
   }
-  
+
   #topnav {
     display: block;
   }
-  
+
   #main {
     margin-left: 0px;
     margin-top: 30px;
@@ -569,11 +637,21 @@ span.rotated {
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */
-  h1:before, h2:before {
+  h1:before,
+  h2:before {
     display: block;
     height: 40px;
     margin-top: -40px;
     content: "";
     visibility: hidden;
+  }
+
+  /* No search for mobile */
+  .search {
+    display: none;
+  }
+
+  .searchResults {
+    display: none;
   }
 }
