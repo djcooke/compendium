@@ -15,8 +15,3 @@ To run:
   bundle exec jekyll serve
 ```
 
-To build search index:
-
-```sh
-  ./scripts/build-search-data.bash
-```
