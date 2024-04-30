@@ -1,3 +1,7 @@
+- date: 2024-04-30
+  updates:
+    - "Corrected floor range for Deep Palace Bandersnatch (171-174), courtesy
+    of Chaika Prime @ Faerie"
 - date: 2024-02-20
   updates:
     - "Corrected Deep Palace Demon's Charybdis (90% of *max* HP, not current)"
