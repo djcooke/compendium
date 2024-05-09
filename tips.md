@@ -83,6 +83,19 @@ job_specific_notes:
     - "Most of WHM's heals are GCD actions, and especially in PotD/HoH where
     you don't have Afflatus Misery, you don't want to be spending GCDs on
     healing. Stock up on regen potions like you would for a tank/DPS"
+  DRK:
+    - "The Blackest Night is the most important ability you'll ever cast as a DRK. Make sure you understand when you should be casting it on the later floors"
+    - "Landmines are extremely safe and fun because of your mitigation and The Blackest Night shield. Use them to your advantage at any floor"
+    - "Beware of using Salted Earth in the wrong spot. You may accidentally pull mobs"
+  RPR:
+   - note: "RPR''s low-cooldown teleport is one of the job's main strengths. Make sure to use it as much as possible to move around and cut time"
+    - subnote:
+      - "It can be used to trigger landmines without taking damage. Place yourself right at the edge of the landmine hitbox and cast it (takes practice)"
+      - "Casting this gives you a free Harpe, can be useful to damage enemies out of melee range"
+   - "Cast Harpe as much as you can when pulling mobs into safe spaces, it has a very generous slide cast window"
+   - "Whorl of Death and Grim Swathe have huge hitboxes, use these to maximise the use of pomanders such as petrification (HoH)"
+   - "Save bloodbath for tough enemies. You'll need it."
+
 ---
 
 ## On this Page:
