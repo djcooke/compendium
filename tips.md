@@ -88,13 +88,13 @@ job_specific_notes:
     - "The Blackest Night is the most important ability you'll cast. Make sure you understand when you should be casting during enemy rotations especially on the later floors"
     - "Landmines are extremely safe and fun because of The Blackest Night''s shield. Use them to your advantage at any floor"
     - "Beware of using Salted Earth in the wrong spot. You may accidentally pull mobs"
-    - "Living Dead invulnerability grants you one of the longest safe-periods because of it''s long cooldown. This can be a double-edged sword, so be careful with over or under timing it"
+    - "Living Dead invulnerability grants you one of the longest safe-periods because of it''s long grace period. This can be a double-edged sword, so be careful with over or under timing it"
   RPR:
-    - note: "RPR''s low-cooldown teleport is one of the job's main strengths. Make sure to use it as much as possible to move around and cut time"
+    - note: "RPR''s low cooldown teleport is one of the job''s main strengths. Make sure to use it as much as possible to move around and cut on time"
       subnotes:
-        - "It can be used to trigger landmines without taking damage. Place yourself right at the edge of the landmine hitbox and cast it (takes practice)"
+        - "It can be used to trigger landmines without taking damage. Place yourself right at the edge of the landmine''s hitbox and cast it perpendicular to the landmine''s center (takes practice)"
         - "Casting this gives you a free Harpe, can be useful to damage enemies out of melee range"
-    - "Cast Harpe as much as you can when pulling mobs into safe spaces, it has a very generous slide cast window"
+    - "Cast Harpe as much as you can when pulling mobs into safe spaces, it has a very generous slide-cast window"
     - "Whorl of Death and Grim Swathe have huge hitboxes, use these to maximise the use of pomanders such as petrification (HoH)"
     - "Save bloodbath for tough enemies. You'll need it."
 
