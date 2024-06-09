@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: true
   sleep: false
   slow: true
-  stun: unknown
+  stun: true
 abilities:
   - name: Umbra Smash
     description: "telegraphed large circle AoE gap closer on random player"
