@@ -23,7 +23,7 @@ abilities:
     description: "untelegraphed huge pointblank AoE; only used out of combat"
     warning: idle
   - name: Allagan Meteor
-    description: "Large telegraphed pointblank AOE"
+    description: "large telegraphed pointblank(?) AOE; possibly triggered by low HP"
     warning: pointblank
 notes:
   - "As of patch 6.35, a bug in the game sometimes causes the Unholy cast bar
