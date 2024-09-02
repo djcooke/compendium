@@ -25,7 +25,7 @@ abilities:
     description: '360 degree gaze - look away'
     warning: gaze
   - name: 'Allagan Meteor'
-    description: 'huge circle AoE; can LoS (from centre of circle)'
+    description: 'huge circle AoE; Impact location is snapshotted on player position near start of cast. Can LoS.'
     warning: other
   - name: '?'
     description: 'grants stacking damage up to self (5% per stack, permanent)'
