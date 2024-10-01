@@ -292,6 +292,8 @@ you're not careful:
     <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_4.png' | relative_url }}">
     <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_5.png' | relative_url }}">
   * One is at the bottom of some stairs, and has no known wall traps
+* The Hall of Fallacies has a wall trap near the west end of the south wall:
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_7.png' | relative_url }}">
 
 [Back to top](#top)
 </div>
