@@ -4,7 +4,7 @@ nickname: Rowan
 family: Gorilla
 image: rowan.png
 start_floor: 81
-end_floor: 83
+end_floor: 84
 agro: Sight
 hp: 60682
 attack_damage: 5564
