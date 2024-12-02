@@ -26,6 +26,8 @@ job_specific_notes:
     which means it has less time to murder you!'
     - 'Make sure Head Graze is almost ready before opening possible mimics. 8
     seconds left on cooldown is close enough'
+  PCT:
+  - "Plan and build burst out of combat, saving burst for tougher enemies if necessary and for optimising pomander usage"
   PLD:
     - 'Time is your biggest enemy, so keep moving as much as possible. Try to
     alternate between fighting and exploring efficiently - fight when Fight or
@@ -97,6 +99,9 @@ job_specific_notes:
     - "Cast Harpe as much as you can when pulling mobs into safe spaces, it has a very generous slide-cast window"
     - "Whorl of Death and Grim Swathe have huge hitboxes, use these to maximise the use of pomanders such as petrification (HoH)"
     - "Save bloodbath for tough enemies. You'll need it."
+  VPR:
+    - "VPR has the worst defenses of any melee job, but a very high and consitent DPS. Learning how to spin mobs is a huge asset in PotD/HoH"
+    - "Take advantage of your 200 potency ranged attacks to move in and out of melee range when required whilst keeping a generous amount of damage on mobs"
 
 ---
 
