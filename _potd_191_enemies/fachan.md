@@ -21,8 +21,9 @@ vulnerabilities:
 abilities:
   - name: Level 5 Death
     potency: n/a
-    description: 'untelegraphed conal AoE on random player inflicting instant
-    death - get behind or get away'
+    description: "untelegraphed conal AoE on random player inflicting instant
+    death - get behind or get away. This instant death is a debuff, not
+    damage, so it can't be blocked by tank invulnerability"
     warning: directional
 notes:
   - 'Caster - kiting doesn''t help to mitigate damage'

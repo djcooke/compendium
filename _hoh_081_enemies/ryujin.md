@@ -37,6 +37,7 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Can be scary without steel'
+      - 'Force enemy downtime by moving behind after firewater to bait elbow drop. Move behind again and save TBN for the auto-attack chain after'
   MCH:
     difficulty: Hard
     notes:

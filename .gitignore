@@ -1,6 +1,32 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Jekyll build output
+_site/
 vendor
 
+# Jekyll data/cache files
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass cache
+.sass-cache/
+
+# Bundler config & local gem installation directory
+.bundle/
+vendor/bundle/
+
+# Ignore commonly generated files during gem building
+*.gem
+*.rbc
+.coverage
+pkg/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore files related to popular text editors/IDEs
+.idea/
+*.sublime*
+.vscode/
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*

@@ -32,6 +32,8 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
+    notes:
+      - 'Save interrupt for Northerlies'
   GNB:
     difficulty: Easy
   MCH:

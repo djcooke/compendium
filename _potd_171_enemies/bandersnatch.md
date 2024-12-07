@@ -3,7 +3,7 @@ name: Deep Palace Bandersnatch
 nickname: Bandersnatch
 image: bandersnatch.png
 start_floor: 171
-end_floor: 173
+end_floor: 174
 agro: Sight
 hp: 23464
 attack_damage: 2030

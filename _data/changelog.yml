@@ -1,3 +1,60 @@
+- date: 2024-12-02
+  updates:
+    - "Added HoH 1-19 pool room wall trap, courtesy of vaxherd"
+- date: 2024-10-08
+  updates:
+    - "Corrected HoH Heavenly Rowan floor range (91-94), courtesy of Altia1234"
+- date: 2024-10-01
+  updates:
+    - "Added HoH 1-19 Hall of Fallacies wall trap, courtesy of vaxherd"
+- date: 2024-09-05
+  updates:
+    - "Clarified HoH Heavenly Jinba's Allagan Meteor snapshotting, courtesy of
+    Kronkleberry"
+- date: 2024-06-25
+  updates:
+    - "EO Servomechanical Orthotaur cannot be stunned"
+    - "EO Fitter casts Allagan Meteor"
+    - "Above updates courtesy of Aggressive Bread @ Zalera"
+- date: 2024-06-16
+  updates:
+    - "WAR's Inner Strength can nullify effects of orbs' Subduction AoE in Onra
+    fight, courtesy of Yayame Akagane"
+- date: 2024-06-12
+  updates:
+    - "EO Spartoi can be stunned, courtesy of Aggressive Bread @ Zalera"
+- date: 2024-05-10
+  updates:
+    - "Added DRK and RPR job specific tips, courtesy of Artin"
+- date: 2024-04-30
+  updates:
+    - "Corrected floor range for Deep Palace Bandersnatch (171-174), courtesy
+    of Chaika Prime @ Faerie"
+- date: 2024-02-20
+  updates:
+    - "Corrected Deep Palace Demon's Charybdis (90% of *max* HP, not current)"
+- date: 2024-02-15
+  updates:
+    - "Added a few more pomander tips, courtesy of Artin"
+- date: 2024-02-12
+  updates:
+    - "Added boss notes and timings for several PotD bosses, courtesy of Flae"
+- date: 2024-02-06
+  updates:
+    - "Added more DRK notes for HoH floors 60-90, Artin"
+- date: 2024-02-03
+  updates:
+    - "Corrected kill range for PotD floors 41-49/91-99 and HoH/EO floors
+    31-49"
+    - "Corrected PotD floor 130 boss HP"
+    - "Added more enemy details"
+    - "Above changes courtesy of vaxherd"
+    - "Added BRD kill times for HoH bosses on 60, 70, 80, and 90, courtesy of Lava"
+- date: 2024-01-20
+  updates:
+    - "Added AST kill times for all EO bosses, courtesy of MochiFaa (GitHub)"
+    - "Updated MCH kill times for EO bosses"
+    - "Corrected kill range for EO floors 41-49"
 - date: 2023-12-21
   updates:
     - "Updated Enchantments section of Knowledge page to detail grouping and

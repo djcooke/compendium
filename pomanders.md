@@ -86,7 +86,12 @@ pomanders:
     tips:
       - 'This is a good panic button when you agro a second mob or hit a luring
       trap'
-      - 'Be aware that imps still do significant damage'
+      - note: 'Be aware that imps still do significant damage'
+        subnotes:
+        - 'Imp: 60% base autoattack damage'
+        - 'Chicken: 30% base autoattack damage'
+        - 'Frog: negligible (<1%) damage'
+      - 'Necessary for landmining tactics on later floors. Remember to use only when mobs are grouped'
   - name: Serenity
     image: serenity.png
     description: 'Removes all enchantments from the current floor.'
@@ -158,6 +163,7 @@ pomanders:
     tips:
       - 'Use alone for a weaker strength+steel effect'
       - 'Use in combination with strength or steel for even greater effect'
+      - 'Can be used on bosses as well'
   - name: Concealment
     image: concealment.png
     only_in: HoH
@@ -165,6 +171,7 @@ pomanders:
     tips:
       - 'Great for getting past treasure rooms or proximity mobs that are
       blocking your way to the exit'
+      - 'Can be used in HoH Hall of Fallacies to test for traps in fake beacons as they will not pulse'
       - 'The effect will be cancelled if you use an ability or pomander, open
       a silver chest that explodes, or get hit by an enemy''s out-of-combat
       abilities. It is safe to use Sprint though'
@@ -175,6 +182,7 @@ pomanders:
     tips:
       - 'Use to clear a floor quickly, especially when there are a lot of
       things you don''t want to fight'
+      - 'Wait for sprint and plan a clear route before using for maximum effect'
   - name: Lethargy
     image: lethargy.png
     only_in: EO
@@ -242,11 +250,9 @@ These are called protomanders instead of pomanders in Eureka Orthos.
         </td>
         <td>{{ pom.description }}</td>
       </tr><tr></tr><tr>
-        <td colspan="3"><ul>
-          {% for tip in pom.tips %}
-            <li>{{ tip }}</li>
-          {% endfor %}
-        </ul></td>
+        <td colspan="3">
+          {% include notes.html notes=pom.tips %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>

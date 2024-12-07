@@ -14,7 +14,7 @@ vulnerabilities:
   heavy: false
   sleep: false
   slow: true
-  stun: unknown
+  stun: false
 abilities:
   - name: 32-tonze Swipe
     description: "large conal AoE with late telegraph - get to side or behind"

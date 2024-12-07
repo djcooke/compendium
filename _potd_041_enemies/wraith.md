@@ -20,7 +20,7 @@ abilities:
     potency: 200
     type: Magic
     description: 'huge telegraphed pointblank AoE; inflicts terror (15s); can
-    be interrupted'
+    be interrupted; cannot be LoSed'
     warning: pointblank
 job_specifics:
   SGE:
