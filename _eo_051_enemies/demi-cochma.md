@@ -14,12 +14,12 @@ vulnerabilities:
   stun: unknown
 sort_order: 20
 abilities:
-  - name: "Empty Hand (?)"
+  - name: "Empty Hand"
     potency: 100
     type: Physical
     description: "instant; also grants permanent stacking vulnerability down
     (10% per stack) to self"
-  - name: "Genesis (?)"
+  - name: "Genesis"
     description: "huge pointblank AoE sacrificial enrage; used at critical HP"
 notes:
   - Dread beast

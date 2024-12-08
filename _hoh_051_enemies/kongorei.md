@@ -21,7 +21,7 @@ abilities:
     potency: 800
     type: Magic
     description: 'telegraphed line AoE'
-  - name: 'Explosive Dispersal (?)'
+  - name: 'Self-detonate'
     potency: 1600
     type: Magic
     description: 'instant sacrificial enrage; pointblank AoE after gap-closing

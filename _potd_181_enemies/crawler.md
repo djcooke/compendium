@@ -20,7 +20,7 @@ abilities:
     potency: 120
     type: Magic
     description: 'instant conal AoE; inflicts slow (30s)'
-  - name: 'Poison Breath (?)'
+  - name: 'Poison Breath'
     potency: n/a
     description: 'instant conal AoE; inflicts poison (magic DoT potency 60,
     20s)'

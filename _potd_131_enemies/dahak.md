@@ -21,7 +21,7 @@ abilities:
     type: Magic
     description: 'inflicts disease (30s)'
     warning: movement
-  - name: 'Tail Drive (?)'
+  - name: 'Tail Drive'
     potency: 300
     type: Physical
     description: 'telegraphed backward conal AoE inflicting concussion

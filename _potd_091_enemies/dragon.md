@@ -21,7 +21,7 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; also used out of battle, with potency
     300'
-  - name: 'Chaos Breath (?)'
+  - name: 'Chaos Breath'
     description: 'large telegraphed conal AoE; not used against solo
     adventurers'
 notes:

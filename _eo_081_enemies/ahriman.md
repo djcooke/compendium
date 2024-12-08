@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Blistering Blink
+  - name: Blustering Blink
     description: "telegraphed huge, wide line AoE"
     warning: directional
 notes:

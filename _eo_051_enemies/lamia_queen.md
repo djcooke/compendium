@@ -14,7 +14,7 @@ vulnerabilities:
   stun: unknown
 sort_order: 20
 abilities:
-  - name: "Circle of Flame (?)"
+  - name: "Circle of Flames"
     potency: 80
     type: Magic
     description: "instant circle AoE; also grants permanent stacking HP
