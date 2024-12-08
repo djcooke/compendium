@@ -29,7 +29,7 @@ abilities:
     potency: n/a
     description: 'grants physical damage up (100%, 8s) to self; used 41 seconds
     after pull'
-  - name: 'Lifeless Wail (?)'
+  - name: 'Lifeless Wail'
     potency: n/a
     description: 'grants physical vulnerability down (20s) to self; used
     immediately after Ossify'

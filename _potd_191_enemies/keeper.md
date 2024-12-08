@@ -21,7 +21,7 @@ abilities:
     potency: 150
     type: Physical
     description: 'instant'
-  - name: Vengeance Soul
+  - name: Vengeful Soul
     potency: 130?
     description: 'instant circle AoE; only used against lower-enmity party
     members (not used against solo adventurers)'

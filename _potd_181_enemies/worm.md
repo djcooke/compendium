@@ -29,13 +29,13 @@ abilities:
     immunity does not work, but draw-in will not work on floors with knockback
     penalty'
     warning: movement
-  - name: Temblor
+  - name: Tremblor
     potency: 350
     description: 'instant pointblank AoE; used immediately after Bottomless
     Desert'
     warning: explosion
 notes:
-  - 'Enrages after 30 seconds, using Bottomless Desert followed by Temblor.
+  - 'Enrages after 30 seconds, using Bottomless Desert followed by Tremblor.
     Knockback penalty blocks the draw-in, making them easier to deal with'
   - 'Can appear on any floor from 181-189, but seems fairly rare in the earlier
     floors, and more common in the later floors'
@@ -71,7 +71,7 @@ job_specifics:
     notes:
       - 'Avoid if possible'
       - 'Steel required'
-      - 'Shield needed to survive Temblor crit + followup auto'
+      - 'Shield needed to survive Tremblor crit + followup auto'
   SMN:
     difficulty: Hard
     notes:

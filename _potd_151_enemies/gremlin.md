@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
   resolution: false
 abilities:
-  - name: Bad Mouth
+  - name: Bad-mouth
     potency: n/a
     description: 'inflicts vulnerability up (25%, 10s) on random player'
   - name: Fire II

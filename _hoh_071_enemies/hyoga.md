@@ -29,7 +29,7 @@ abilities:
     description: '360 degree gaze inflicting deep freeze (magic DoT potency 50,
     15s) - look away'
     warning: gaze
-  - name: 'Jaws (?)'
+  - name: 'Frumious Jaws'
     potency: n/a
     description: 'instant death; used on players with deep freeze'
 job_specifics:

@@ -22,7 +22,7 @@ abilities:
     description: "untelegraphed pointblank AoE with no cast bar; pauses in
     place for a moment before using this - get away!"
     warning: pointblank
-  - name: "Spark (?)"
+  - name: "Spark"
     potency: 4500
     type: Magic
     description: "untelegraphed huge donut AoE; only used if someone is far"
