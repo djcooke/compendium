@@ -68,7 +68,11 @@ job_specifics:
       - "Steel recommended any time, but required in Gloom, HP Penalty, and/or
       Item Penalty enchantments"
       - "Strength recommended"
-      - "Doable without steel IF. There is no Gloom, HP Penalty, or Item Penalty enchantment. Dreadwyrm or Titan and Garuda are up. You have room to kite and sprint/shield before the pull"
+      - note: "Doable without steel IF"
+        subnotes:
+          - "There is no Gloom, HP Penalty, or Item Penalty enchantment"
+          - "Dreadwyrm or Titan and Garuda are up"
+          - "You have room to kite and sprint/shield before the pull"
   WAR:
     difficulty: Medium
 ---
