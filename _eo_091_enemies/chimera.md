@@ -20,15 +20,15 @@ abilities:
     potency: 80
     type: Physical
     description: "instant gap closer"
-  - name: "The Ram's Voice"
+  - name: "the Ram's Voice"
     description: "untelegraphed pointblank AoE - get out"
     warning: pointblank
-  - name: "The Dragon's Voice"
+  - name: "the Dragon's Voice"
     potency: 3500
     type: Magic
     description: "untelegraphed donut AoE - get in"
     warning: donut
-  - name: "The Dragon's Breath"
+  - name: "the Dragon's Breath"
     description: "conal AoE to the front and left with late telegraph - get
     behind"
     warning: directional
@@ -36,7 +36,7 @@ abilities:
     description: "conal AoE to the front and right with late telegraph - get
     behind"
     warning: directional
-  - name: "The Scorpion's Sting"
+  - name: "the Scorpion's Sting"
     description: "backward conal AoE with quick cast - get in front; used when
     someone is close behind"
     warning: directional

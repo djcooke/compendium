@@ -15,12 +15,12 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: "The Dragon's Voice"
+  - name: "the Dragon's Voice"
     potency: 3000?
     type: Magic
     description: 'untelegraphed donut AoE - get in'
     warning: donut
-  - name: "The Ram's Voice"
+  - name: "the Ram's Voice"
     potency: 3000
     type: Magic
     description: 'untelegraphed pointblank AoE - get out'
