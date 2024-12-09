@@ -25,7 +25,7 @@ job_specifics:
   DRK:
     difficulty: 'Easy'
     notes:
-      'Will frequently break TBN, but still one of the easier enemies to fight'
+      - 'Will frequently break TBN, but still one of the easier enemies to fight'
   MCH:
     difficulty: 'Medium'
     notes:

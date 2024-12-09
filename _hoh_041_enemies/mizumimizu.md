@@ -29,7 +29,7 @@ abilities:
     Knockback immunity does not work, but fully shielding the damage will also
     block the draw-in'
     warning: movement
-  - name: Temblor
+  - name: Tremblor
     potency: 1000
     type: Magic
     description: 'instant pointblank AoE (enrage); used immediately after

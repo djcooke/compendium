@@ -31,9 +31,10 @@ abilities:
 job_specifics:
   DRK:
     difficulty: Easy
-    notes: 'A good time to use TBN is right after his second ability use (he
-    will usually do 11-tonze Swipe followed by Hex, but sometimes it''s
-    reversed)'
+    notes:
+     - 'A good time to use TBN is right after his second ability use (he
+      will usually do 11-tonze Swipe followed by Hex, but sometimes it''s
+      reversed)'
   GNB:
     difficulty: Easy
   MCH:

@@ -43,7 +43,8 @@ job_specifics:
       - 'Use TBN for the pull'
   MCH:
     difficulty: Medium
-    notes: 'Have heals ready - these hit HARD while the damage bonus is up'
+    notes:
+      - 'Have heals ready - these hit HARD while the damage bonus is up'
   PLD:
     difficulty: 'Medium'
   WAR:

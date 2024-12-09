@@ -36,7 +36,7 @@ abilities:
     description: "conal AoE to the front and right with late telegraph - get
     behind"
     warning: directional
-  - name: Scorpion Sting
+  - name: "The Scorpion's Sting"
     description: "backward conal AoE with quick cast - get in front; used when
     someone is close behind"
     warning: directional

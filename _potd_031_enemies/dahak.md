@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: 'Tail Drive (?)'
+  - name: 'Tail Drive'
     potency: 300
     type: Physical
     description: 'telegraphed backward conal AoE inflicting concussion

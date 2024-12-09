@@ -14,7 +14,7 @@ vulnerabilities:
   stun: unknown
 sort_order: 20
 abilities: 
-  - name: "Hard Thrust (?)"
+  - name: "Hard Thrust"
     potency: 90
     type: Physical
     description: "instant"
