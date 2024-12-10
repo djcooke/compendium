@@ -28,4 +28,5 @@ abilities:
     Stench'
 notes:
   - 'Rare spawn'
+  - 'You can, in fact, spin the dodo'
 ---
