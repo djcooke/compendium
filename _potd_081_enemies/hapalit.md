@@ -5,7 +5,7 @@ image: hapalit.png
 start_floor: 84
 end_floor: 86
 patrol: true
-agro: Sound
+agro: Proximity
 hp: 7858
 attack_damage: 753
 attack_type: Physical

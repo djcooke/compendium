@@ -5,7 +5,7 @@ image: dung_beetle.png
 start_floor: 6
 end_floor: 9
 patrol: true
-agro: Sight
+agro: Proximity
 hp: 513
 attack_damage: 32
 attack_type: Physical

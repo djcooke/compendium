@@ -4,7 +4,7 @@ nickname: Sprite
 image: sprite.png
 start_floor: 1
 end_floor: 3
-agro: Proximity
+agro: Sound
 hp: 80
 attack_damage: 7
 attack_type: Magic

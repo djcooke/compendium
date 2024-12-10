@@ -5,7 +5,7 @@ family: Hippogryph
 image: hippocerf.png
 start_floor: 5
 end_floor: 8
-agro: Sight
+agro: Proximity
 hp: 358
 attack_damage: 26
 attack_type: Physical
