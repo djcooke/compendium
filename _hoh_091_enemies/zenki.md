@@ -3,7 +3,7 @@ name: Heavenly Zenki
 nickname: Zenki
 family: Arch Demon
 image: zenki.png
-start_floor: 97
+start_floor: 96
 end_floor: 99
 agro: Sight
 hp: 70086
@@ -31,4 +31,8 @@ job_specifics:
       - 'Steel recommended'
   PLD:
     difficulty: 'Easy'
+  SGE:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel recommended'
 ---
