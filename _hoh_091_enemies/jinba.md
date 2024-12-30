@@ -4,7 +4,7 @@ nickname: Jinba
 family: Centaur
 image: jinba.png
 start_floor: 94
-end_floor: 96
+end_floor: 97
 agro: Sight
 hp: 70086
 attack_damage: 6322
