@@ -7,10 +7,10 @@ scripts:
 
 ## On this Page:
 
-* [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
-* [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
-* [Drop Rates](#drop-rates)
-* [Alteration Effects](#alteration-effects)
+- [PotD Chest Contents by Floor](#potd-chest-contents-by-floor)
+- [HoH Chest Contents by Floor](#hoh-chest-contents-by-floor)
+- [Drop Rates](#drop-rates)
+- [Alteration Effects](#alteration-effects)
 
 ## PotD Chest Contents by Floor
 
@@ -21,13 +21,13 @@ scripts:
   statistics for that floorset.</p>
 
   <table class="unstyled">
-    <tr>
+    <tr class="x-axis">
       <td></td>
-      <td style="width: 100%; text-align: center;">Contents</td>
+      <td class="label">Contents</td>
     </tr>
-    <tr>
-      <td><span class="rotated">Floors</span></td>
-      <td id="potdChestContentsChart" style="padding: 0"></td>
+    <tr class="y-axis">
+      <td class="label"><span class="rotated">Floors</span></td>
+      <td class="chart" id="potdChestContentsChart"></td>
     </tr>
     <tr>
       <td></td>
@@ -85,15 +85,15 @@ scripts:
   statistics for that floorset.</p>
 
   <table class="unstyled">
-    <tr>
+    <tr class="x-axis">
       <td></td>
-      <td style="width: 100%; text-align: center;">Contents</td>
+      <td class="label">Contents</td>
     </tr>
-    <tr>
-      <td><span class="rotated">Floors</span></td>
-      <td id="hohChestContentsChart" style="padding: 0"></td>
+    <tr class="y-axis">
+      <td class="label"><span class="rotated">Floors</span></td>
+      <td class="chart" id="hohChestContentsChart"></td>
     </tr>
-    <tr>
+    <tr class="legend">
       <td></td>
       <td id="hohChestContentsLegend"></td>
     </tr>
