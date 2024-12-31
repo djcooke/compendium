@@ -39,4 +39,8 @@ job_specifics:
     difficulty: Medium
   WAR:
     difficulty: Medium
+  VPR:
+    difficulty: Easy
+    notes:
+      - 'Spinning mimics perfectly will make this fight easy as VPR has very high melee damage'
 ---
