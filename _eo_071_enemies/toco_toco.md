@@ -3,7 +3,7 @@ name: Orthos Toco Toco
 nickname: Toco Toco
 image: toco_toco.png
 start_floor: 71
-end_floor: 72
+end_floor: 73
 agro: Sight
 hp: 302404
 attack_damage: 8525
