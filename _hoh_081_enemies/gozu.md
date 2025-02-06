@@ -26,8 +26,9 @@ abilities:
     away!'
     warning: gaze
   - name: 'Devour'
-    potency: n/a
-    description: 'instant death; only used if you''ve been turned into a pig'
+    potency: 100% of max HP
+    description: "instant death; only used if you've been turned into a pig.
+    Also grants a stacking damage up buff (1m)"
 job_specifics:
   DRK:
     difficulty: Easy

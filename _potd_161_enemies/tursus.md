@@ -25,7 +25,7 @@ abilities:
   - name: Ice Dispenser
     potency: 130
     type: Magic
-    description: 'instant circle AoE on random player; inflicts slow (15s)'
+    description: 'instant circle AoE on random player; inflicts 50% slow (15s)'
 notes:
   - 'If there are several, you may want to pull them in quick succession to
     take advantage of diminishing returns on slow'

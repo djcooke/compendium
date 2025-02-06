@@ -12,7 +12,7 @@ vulnerabilities:
   heavy: unknown
   sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 sort_order: 20
 abilities: 
   - name: "Hard Thrust"
@@ -21,9 +21,12 @@ abilities:
     description: "instant"
   - name: Berserk
     potency: n/a
-    description: "probably grants damage up to self; can be interrupted"
+    description: "grants permanent stacking damage up to self (10% per stack);
+    can be interrupted"
   - name: Allagan Meteor
-    description: "huge (20y) pointblank AoE enrage; used below 40% HP"
+    potency: 5000
+    type: Magic
+    description: "huge (20y) pointblank AoE enrage; used below 50% HP"
 notes:
   - Dread beast
   - "Immune to knockback, which means it will not die to the Rotosmash ability

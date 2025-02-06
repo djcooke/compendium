@@ -4,7 +4,7 @@ title: Knowledge
 traps:
   - name: Enfeebling
     image: enfeebling.png
-    description: 'Increases damage taken and reduces damage dealt, both 30%'
+    description: 'Increases damage taken by 30% and reduces damage dealt by 20%'
   - name: Impeding
     image: impeding.png
     description: 'Applies silence and pacification to everyone nearby (enemies

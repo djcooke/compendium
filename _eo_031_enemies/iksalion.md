@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: true
   sleep: true
   slow: true
-  stun: false
+  stun: true
 abilities:
   - name: Wind Spout
     description: telegraphed circle AoE

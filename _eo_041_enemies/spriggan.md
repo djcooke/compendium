@@ -31,5 +31,9 @@ job_specifics:
       - "Cast Repose 18 seconds after pull to interrupt Haste"
   WHM:
     notes:
-      - "Cast Repose 18 seconds after pull to interrupt Haste"
+      - note: "Cast Repose 18 seconds after pull to interrupt Haste"
+        subnotes:
+          - "Can also interrupt with Holy. On a non-hasted floor, casting Holy
+            as the 8th GCD when pulled with Dia or the 9th GCD when pulled with
+            Glare will usually succeed (as of patch 7.16)"
 ---

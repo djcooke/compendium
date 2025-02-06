@@ -14,6 +14,11 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: true
+abilities:
+  - name: Hoofkick
+    potency: 150
+    type: Physical
+    description: "instant rearward AoE knockback; used if someone is behind"
 job_specifics:
   SGE:
     difficulty: Easy
