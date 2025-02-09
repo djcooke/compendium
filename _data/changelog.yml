@@ -1,3 +1,22 @@
+- date: 2025-02-06
+  updates:
+    - "Added notes about floors on which potsherds do not drop"
+    - "Corrected Enfeebling trap description (damage down is 20%, not 30%)"
+    - "Added more enemy ability details"
+    - "Added Palace Antelope's Hoofkick ability"
+    - "Clarified that Hoofkick is a rearward AoE"
+    - "Added note that it's safe to sit in the PotD 60 puddles with sustaining
+      potions"
+    - "Corrected enemies per room for PotD 96-99"
+    - "Removed Behemoth HP% macro since the game now provides a decimal place
+      natively"
+    - "Added note on early Onra meteors"
+    - "Orthoiksalion can be stunned"
+    - "Added note on WHM Holy timing for EO 41+ Spriggan interrupt"
+    - "Corrected EO floor 30 and 40 boss names"
+    - "Added EO boss timers for demiclones with no player assistance"
+    - "Added/updated WHM boss timers for patch 7.16"
+    - "Above changes courtesy of vaxherd"
 - date: 2025-01-18
   updates:
     - "Corrected Orthos Toco Toco floor range (71-73), courtesy of DevInsanity"

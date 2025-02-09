@@ -19,7 +19,7 @@ abilities:
   - name: Hoofkick
     potency: 150
     type: Physical
-    description: 'instant knockback used on anyone standing behind it'
+    description: "instant rearward AoE knockback; used if someone is behind"
 job_specifics:
   DRK:
     difficulty: Easy

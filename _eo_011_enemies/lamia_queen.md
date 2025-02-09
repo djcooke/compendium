@@ -13,25 +13,25 @@ vulnerabilities:
   heavy: unknown
   sleep: false
   slow: unknown
-  stun: unknown
+  stun: false
 sort_order: 20
 abilities:
   - name: "Circle of Flames"
     potency: 80
     type: Magic
     description: "instant circle AoE; also grants permanent stacking HP
-    regeneration to self"
+    regeneration to self (about 0.2%/3s per stack)"
   - name: Circle Blade
+    potency: 2500
+    type: Physical
     description: "telegraphed pointblank AoE"
   - name: "Petrifaction"
     potency: n/a
     description: "huge 360 degree gaze inflicting stone curse (1m); also
-    affects enemies. Used at critical health (such as after Storms or
-    landmine)"
+    affects enemies. Used every 30 seconds when under 90% health"
 notes:
   - Dread beast
   - "Immune to knockback, which means it will not die to the Rotosmash ability
   from the Protomander of Dread"
-  - Regenerates a small amount of HP every tick while in combat
   - "Grants 30m regen buff upon defeat"
 ---
