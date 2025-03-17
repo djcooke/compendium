@@ -21,6 +21,7 @@ abilities:
     type: Magic
     description: 'telegraphed circle AoE; inflicts stun (6s); also used out of
     combat'
+    warning: idle
 job_specifics:
   DRK:
     difficulty: Easy
