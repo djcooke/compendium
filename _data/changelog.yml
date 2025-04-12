@@ -1,3 +1,7 @@
+- date: 2025-04-10
+  updates:
+    - "Corrected Servomechanical Minotaur 16's Octuple Swipes order, courtesy
+    of k-97"
 - date: 2025-03-17
   updates:
     - "Added missing warning icon for Ryukotsu's out of combat ability"
