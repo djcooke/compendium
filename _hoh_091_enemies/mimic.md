@@ -49,4 +49,8 @@ job_specifics:
     difficulty: Hard
     notes:
       - 'Steel required'
+  NIN:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel required'
 ---
