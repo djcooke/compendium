@@ -52,4 +52,8 @@ job_specifics:
     difficulty: 'Medium'
     notes:
       - 'Steel recommended'
+  NIN:
+    difficulty: 'Hard'
+    notes:
+      - 'Steel recommended'
 ---

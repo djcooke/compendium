@@ -38,4 +38,8 @@ job_specifics:
     difficulty: 'Easy'
   WAR:
     difficulty: 'Medium'
+  NIN:
+    difficulty: 'Medium'
+    notes:
+      - 'Steel recommended'
 ---
