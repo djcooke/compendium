@@ -42,6 +42,7 @@ job_specifics:
     notes:
       - 'Stay mostly out of melee range and spam Harpe'
       - 'Use Arcane Crest when going in to melee'
+      - 'Standing roughly 5 yalms away can bait the cone aoe, allowing you to safely apply death''s design during the cast'
   SGE:
     difficulty: Easy
   SMN:
