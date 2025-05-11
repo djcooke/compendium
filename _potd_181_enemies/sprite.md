@@ -36,7 +36,7 @@ job_specifics:
   RPR:
     difficulty: Medium
     notes:
-      - 'Steel required'
+      - 'Doable without steel, with bloodbath/stun/potion'
   SGE:
     difficulty: Medium
     notes:
