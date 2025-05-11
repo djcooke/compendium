@@ -32,6 +32,8 @@ job_specifics:
     difficulty: Easy
   RPR:
     difficulty: Easy
+    notes:
+      - "Delay Arcane Crest until after the initial gaze and cone aoe, or else it will go to waste"
   SGE:
     difficulty: Easy
   SMN:
