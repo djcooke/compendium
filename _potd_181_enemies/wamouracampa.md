@@ -32,9 +32,9 @@ job_specifics:
   RDM:
     difficulty: Hard
   RPR:
-    difficulty: Hard
+    difficulty: Medium
     notes:
-      - 'Steel required'
+      - 'Doable without steel, use bloodbath and stun when at low HP'
   SGE:
     difficulty: Medium
     notes:
