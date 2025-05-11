@@ -51,6 +51,7 @@ job_specifics:
     difficulty: Medium
     notes:
       - 'Strength or steel recommended'
+      - 'Doable without steel - keep your HP up with bloodbath or second wind/potion'
   SGE:
     difficulty: Easy
   SMN:
