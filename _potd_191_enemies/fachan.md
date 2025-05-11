@@ -43,7 +43,7 @@ job_specifics:
   RPR:
     difficulty: Medium
     notes:
-      - 'Steel or Bloodbath required'
+      - 'Doable without steel, just keep a heal or bloodbath for when you get low or get crit'
   SGE:
     difficulty: Medium
   SMN:
