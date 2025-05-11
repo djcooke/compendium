@@ -28,7 +28,7 @@ job_specifics:
   RDM:
     difficulty: Easy
   RPR:
-    difficulty: Hard
+    difficulty: Easy
     notes:
       - 'May require Bloodbath and/or potion'
   SGE:
