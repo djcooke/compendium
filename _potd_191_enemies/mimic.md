@@ -42,9 +42,9 @@ job_specifics:
     notes:
       - Steel required
   RPR:
-    difficulty: Extreme
+    difficulty: Hard
     notes:
-      - 'Strength and Steel required'
+      - 'Steel required'
       - 'Kite after the Pox and Deathtrap combo to manage incoming damage'
       - 'Use witching or avoid on gloom floors'
   SGE:

@@ -35,7 +35,7 @@ job_specifics:
     notes:
       - Steel required
   RPR:
-    difficulty: Hard
+    difficulty: Medium
     notes:
       - 'Requires steel or Bloodbath and Potion'
   SGE:

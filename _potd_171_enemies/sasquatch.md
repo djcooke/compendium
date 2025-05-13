@@ -54,7 +54,7 @@ job_specifics:
   RPR:
     difficulty: Hard
     notes:
-      - 'Steel, Bloodbath, and Potion required'
+      - 'Doable without steel: open with Arcane Crest, use bloodbath and your burst after the first Browbeat, feint/stun before the 2nd Browbeat, keep HP up with Second Wind and Potion'
       - 'Browbeat + auto can almost kill from 100%, so keep your HP up'
   SGE:
     difficulty: Hard
