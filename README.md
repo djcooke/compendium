@@ -1,17 +1,22 @@
+
 # Deep Dungeon Compendium
 
-Contributors please read [contributing guidelines.](./contributing.md)
+Contributors: please read the [contributing guidelines](./contributing.md).
 
 ## Local Development
 
-Pre-requisites:
-
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-- [Jekyll & Dependencies](https://jekyllrb.com/docs/installation/)
-
-To run:
+**Requirements:**
+- Ruby (see `.ruby-version` for the required version)
+- Bundler (`gem install bundler` if needed)
 
 ```sh
-  bundle exec jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
+
+Site will be available at http://localhost:4000
+
+#### Deployment
+
+Github pages deploys are handled via workflow (see `.github/workflows/deploy-ghpages.yml`).
 
