@@ -18,5 +18,4 @@ Site will be available at http://localhost:4000
 
 #### Deployment
 
-Github pages deploys are handled via workflow (see `.github/workflows/deploy-ghpages.yml`).
-
+Github pages deploys are handled via workflow (see `.github/workflows/deploy-github-pages.yml`).
