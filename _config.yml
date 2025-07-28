@@ -15,7 +15,7 @@
 # Site settings
 title: Deep Dungeon Compendium
 email: your-email@example.com
-description: >-
+description: >- # this means to ignore newlines until "baseurl:"
   A compilation of information regarding the Palace of the Dead and Heaven on
   High deep dungeons in Final Fantasy XIV. Intended for use as a guide to both
   groups and solo players looking to clear on any job.

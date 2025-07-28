@@ -9,6 +9,8 @@ Contributors: please read the [contributing guidelines](./contributing.md).
 - Ruby (see `.ruby-version` for the required version)
 - Bundler (`gem install bundler` if needed)
 
+To run:
+
 ```sh
 bundle install
 bundle exec jekyll serve
