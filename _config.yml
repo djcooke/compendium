@@ -142,7 +142,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      permalink: "/:basename/"
 
 include:
   - pages
