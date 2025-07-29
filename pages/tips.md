@@ -137,7 +137,7 @@ job_specific_notes:
 * Patrols and proximity agro enemies are usually best to take out first as they
   can cause a lot of trouble and really get in your way
 
-Make sure to check out the [Pomanders section](pomanders.html) for additional
+Make sure to check out the [Pomanders section](pages/pomanders.html) for additional
 tips related to pomander usage.
 
 [Back to top](#top)
@@ -147,13 +147,13 @@ tips related to pomander usage.
 
 <div class="surfacePane" markdown="1">
 
-See [Traps in the Knowledge section](knowledge.html#traps) for information on
+See [Traps in the Knowledge section](pages/knowledge.html#traps) for information on
 the trap types and icons. As for dealing with them:
 
 ### Avoid Them
 
 This usually means hugging the walls, as traps are **usually** not against the
-walls. There are exceptions, however... See [Wall Traps](wall_traps.html).
+walls. There are exceptions, however... See [Wall Traps](pages/wall_traps.html).
 
 ### Survive Them
 

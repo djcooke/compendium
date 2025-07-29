@@ -137,11 +137,6 @@ defaults:
       type: "eo_floorsets"
     values:
       layout: "floorset"
-  - scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: "default"
 
 include:
   - pages
