@@ -139,9 +139,9 @@ defaults:
       layout: "floorset"
   - scope:
       path: "pages"
-      type: "pages"
     values:
       layout: "default"
+      permalink: "/:basename.html"
 
 include:
   - pages
