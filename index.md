@@ -13,12 +13,12 @@ them.
 
 This is all about sharing knowledge, so collaboration is most welcome! If you
 have additional knowledge or any suggestions at all to share, please see the
-[Contributing page](pages/contributing.html). In particular, job-specific information
+[Contributing page](contributing.html). In particular, job-specific information
 would be extremely helpful, as I will not likely be soloing on every job!
 
 I would like to give a **special thanks** to Angelus Demonus and Maygi for their
 amazing guides that helped me immensely through my own first deep dungeon clears.
-See the [Resources page](pages/resources.html) for links to these and other great
+See the [Resources page](resources.html) for links to these and other great
 resources.
 
 -Daleven Vindhler

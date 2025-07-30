@@ -195,7 +195,7 @@ chests:
     * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
       also use Cure. Much rarer than the other types.
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
-  are detailed in the [Pomanders section](pages/pomanders.html)
+  are detailed in the [Pomanders section](pomanders.html)
 
 Chests may also be mimics, which will attack you when you try to open them, and
 can be very dangerous, especially in the deeper floors. The type of chest that
