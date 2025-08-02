@@ -17,6 +17,13 @@ gem "jekyll", "~> 4.3"
 #  gem "jekyll-feed", "~> 0.12"
 #end
 
+group :development do
+  gem 'lefthook' # Used for running git hooks
+  gem 'rake' # Used for setup and maintenance tasks
+  gem 'logger' # Silence Ruby 3.5+ warnings
+  gem 'benchmark' # Silence Ruby 3.5+ warnings
+end
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -26,4 +33,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
