@@ -151,5 +151,5 @@ exclude:
 
 # Build settings
 theme: null
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-sitemap
