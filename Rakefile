@@ -9,7 +9,7 @@ task :setup do
   system("bundle install") || abort("Bundle install failed")
   
   # Install git hooks if lefthook config exists
-  if File.exist?("lefthook.yml")
+  if File.exist?(".lefthook.yml")
     system("bundle exec lefthook install") || abort("Failed to install git hooks")
     puts "Git hooks installed"
   end

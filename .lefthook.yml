@@ -1,0 +1,4 @@
+pre-push:
+  commands:
+    lint:
+      run: ./scripts/checks.sh
