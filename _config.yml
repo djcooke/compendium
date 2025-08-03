@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   High deep dungeons in Final Fantasy XIV. Intended for use as a guide to both
   groups and solo players looking to clear on any job.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""     # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.ddcompendium.com" # this is necessary as well as the CNAME file, but keep them in sync
 github_username: djcooke
 ga_measurement_id: G-9Y46PNPE95
 
