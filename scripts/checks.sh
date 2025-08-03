@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "Linting YAML..."
-yamllint -c .yamllint.yml _config.yml _data/
+yamllint _config.yml _data/*.yml
 
 echo "Linting Markdown..."
 markdownlint -c .markdownlint.json '**/*.md'

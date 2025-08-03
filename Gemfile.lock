@@ -81,10 +81,10 @@ PLATFORMS
 DEPENDENCIES
   benchmark
   jekyll (~> 4.3)
+  jekyll-sitemap
   lefthook
   logger
   rake
-  jekyll-sitemap
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

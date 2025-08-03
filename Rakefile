@@ -6,7 +6,13 @@ desc "Set up the development environment"
 task :setup do
   puts "Setting up development environment..."
   
+  # Install Ruby dependencies
   system("bundle install") || abort("Bundle install failed")
+  
+  puts "Installing development tools..."
+  
+  # Install both linting tools via npm
+  system("npm install -g markdownlint-cli yaml-lint") || abort("Failed to install linting tools")
   
   # Install git hooks if lefthook config exists
   if File.exist?(".lefthook.yml")
