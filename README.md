@@ -8,6 +8,7 @@ Contributors: please read the [contributing guidelines](./pages/contributing.md)
 **Requirements:**
 - Ruby (see `.ruby-version` for the required version)
 - Bundler (`gem install bundler` if needed)
+- NPM (for linting tools, see [LINTING.md](./LINTING.md))
 
 Setup:
 
