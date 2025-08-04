@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: false
+  slow: true
   stun: false
 sort_order: 10
 abilities:
