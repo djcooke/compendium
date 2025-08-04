@@ -64,6 +64,14 @@ li li:first-child {
   background-color: var(--surface);
   overflow-x: hidden;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav>div:first-child {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 12px;
 }
 
 #nav a {
@@ -125,6 +133,36 @@ li li:first-child {
 
 #navButton:hover {
   color: #f1f1f1;
+}
+
+#bottomNav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 16px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+#bottomNav a {
+  color: var(--on-surface-bright);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+#bottomNav a:hover {
+  color: var(--nav-current-hover);
+  background-color: var(--nav-current-bg);
+}
+
+#bottomNav svg {
+  width: 20px;
+  height: 20px;
 }
 
 .submenu .navHeading:before {
@@ -587,6 +625,20 @@ span.rotated {
     display: none;
     padding-top: 0px;
     border: 1px solid black;
+    position: static;
+    flex-direction: column;
+  }
+
+  #nav>div:first-child {
+    flex: none;
+    overflow-y: visible;
+    padding-bottom: 0;
+  }
+
+  #bottomNav {
+    position: static;
+    border-top: 1px solid var(--background);
+    margin-top: 12px;
   }
 
   #topnav {
