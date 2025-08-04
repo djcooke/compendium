@@ -1,0 +1,9 @@
+{
+  "schema": "CORE_SCHEMA",
+  "ignore": [
+    "node_modules/**/*.yml",
+    "node_modules/**/*.yaml",
+    "_site/**/*.yml",
+    "_site/**/*.yaml"
+  ]
+}
