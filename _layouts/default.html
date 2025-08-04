@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
 
   <body>
     <nav>
+      <!-- Mobile navigation burger -->
       <div id="topnav">
-        <div id="navButton" onclick="toggleOpen('nav')">
-          ≡
-        </div>
+        <div id="navButton" onclick="toggleOpen('nav')">≡</div>
       </div>
+      <!-- Navigation -->
       <div id="nav" class="">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/knowledge.html' | relative_url }}">Knowledge</a>
@@ -20,20 +19,26 @@
         <div id="potdMenu" class="submenu">
           <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
           <ul>
-          {% for floorset in site.potd_floorsets %}
+            {% for floorset in site.potd_floorsets %}
             <li>
-              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+              <a href="{{ floorset.url | relative_url }}"
+                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                }}</a
+              >
             </li>
-          {% endfor %}
+            {% endfor %}
           </ul>
         </div>
         <div id="hohMenu" class="submenu">
           <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
           <ul>
             {% for floorset in site.hoh_floorsets %}
-              <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-              </li>
+            <li>
+              <a href="{{ floorset.url | relative_url }}"
+                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                }}</a
+              >
+            </li>
             {% endfor %}
           </ul>
         </div>
@@ -41,9 +46,12 @@
           <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
           <ul>
             {% for floorset in site.eo_floorsets %}
-              <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-              </li>
+            <li>
+              <a href="{{ floorset.url | relative_url }}"
+                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                }}</a
+              >
+            </li>
             {% endfor %}
           </ul>
         </div>
@@ -52,15 +60,14 @@
         <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
       </div>
     </nav>
+
+    <!-- Main page content -->
     <main class="page-content" aria-label="Content">
       <div id="main">
         {% unless page.supress_title %}
-          <h1 id="top">{{ page.title }}</h1>
-        {% endunless %}
-        {{ content }}
+        <h1 id="top">{{ page.title }}</h1>
+        {% endunless %} {{ content }}
       </div>
     </main>
-
   </body>
-
 </html>
