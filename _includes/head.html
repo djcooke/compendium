@@ -1,4 +1,5 @@
 <head>
+  <!-- Meta tags -->
   {% assign timestamp = 'now' | date: '%Y%m%dT%H%M' %}
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -6,21 +7,20 @@
   {% if jekyll.environment != "production" %}
   <meta name="robots" content="noindex" />
   {% endif %}
+
   <title>
-    {% if page.title and page.title != site.title %}{{ page.title | append: ' -
-    '}}{% endif %} {{ site.title }}
+    {% if page.title and page.title != site.title %}
+      {{ page.title | append: ' - ' }}
+    {% endif %} 
+  
+    {{ site.title }}
   </title>
+
+  <!-- Stylesheets -->
   <link
     rel="stylesheet"
     href="{{ '/assets/css/style.css' | relative_url }}?{{ timestamp }}"
-  />
-  <script src="{{ '/assets/js/utils.js' | relative_url }}?{{ timestamp }}"></script>
-  <script src="{{ '/assets/js/site.js' | relative_url }}?{{ timestamp }}"></script>
-
-  {% if page.scripts %} {% for script in page.scripts %}
-  <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
-  {% endfor %} {% endif %}
-
+  /> 
   <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -43,6 +43,14 @@
     href="{{ '/assets/images/icon/site.webmanifest' | relative_url }}"
   />
 
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/utils.js' | relative_url }}?{{ timestamp }}"></script>
+  <script src="{{ '/assets/js/site.js' | relative_url }}?{{ timestamp }}"></script>
+  {% if page.scripts %} 
+    {% for script in page.scripts %}
+    <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
+    {% endfor %}
+  {% endif %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
