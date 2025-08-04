@@ -621,24 +621,25 @@ span.rotated {
   #nav {
     top: 40px;
     width: 100%;
-    height: auto;
+    height: calc(100vh - 40px);
     display: none;
     padding-top: 0px;
     border: 1px solid black;
-    position: static;
+    position: fixed;
     flex-direction: column;
   }
 
   #nav>div:first-child {
-    flex: none;
-    overflow-y: visible;
+    flex: 1;
+    overflow-y: auto;
     padding-bottom: 0;
+    min-height: 0;
   }
 
   #bottomNav {
     position: static;
-    border-top: 1px solid var(--background);
-    margin-top: 12px;
+    margin-top: auto;
+    flex-shrink: 0;
   }
 
   #topnav {
@@ -651,7 +652,7 @@ span.rotated {
   }
 
   #nav.open {
-    display: block;
+    display: flex;
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */
