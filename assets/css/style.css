@@ -71,7 +71,7 @@ li li:first-child {
 #nav>div:first-child {
   flex: 1;
   overflow-y: auto;
-  padding-bottom: 12px;
+  padding-bottom: 80px;
 }
 
 #nav a {
@@ -136,14 +136,13 @@ li li:first-child {
 }
 
 #bottomNav {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  margin-top: auto;
+  flex-shrink: 0;
   padding: 12px 16px;
   display: flex;
   gap: 16px;
   justify-content: center;
+  background-color: var(--surface);
 }
 
 #bottomNav a {
