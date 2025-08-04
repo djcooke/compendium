@@ -11,6 +11,9 @@
   --surface-highlight: #47401A;
   --on-surface-highlight: #F5DA43;
   --on-surface-dim-highlight: #E4C832;
+  --nav-current: #87CEFA;
+  --nav-current-bg: rgba(135, 206, 250, 0.2);
+  --nav-current-hover: #B0E0E6;
 }
 
 body {
@@ -76,6 +79,15 @@ li li:first-child {
 
 #nav a:hover {
   color: var(--on-surface-bright);
+}
+
+#nav a.current {
+  background-color: var(--nav-current-bg);
+  color: var(--nav-current);
+}
+
+#nav a.current:hover {
+  color: var(--nav-current-hover);
 }
 
 #nav ul {
