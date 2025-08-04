@@ -16,44 +16,47 @@
         <a href="{{ '/pomanders.html' | relative_url }}">Pomanders</a>
         <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
         <a href="{{ '/wall_traps.html' | relative_url }}">Wall Traps</a>
-        <div id="potdMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
-          <ul>
-            {% for floorset in site.potd_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}"
-                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
-                }}</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div id="hohMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
-          <ul>
-            {% for floorset in site.hoh_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}"
-                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
-                }}</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div id="eoMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
-          <ul>
-            {% for floorset in site.eo_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}"
-                >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
-                }}</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
+        <div id="floorsMenu">
+          <a href="{{ '/potd_floorsets/001.html' | relative_url }}">Floors</a>
+          <div id="potdMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD</a>
+            <ul>
+              {% for floorset in site.potd_floorsets %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}"
+                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
+                  9 }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div id="hohMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH</a>
+            <ul>
+              {% for floorset in site.hoh_floorsets %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}"
+                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
+                  9 }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div id="eoMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('eoMenu')">EO</a>
+            <ul>
+              {% for floorset in site.eo_floorsets %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}"
+                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
+                  9 }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
         <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
         <a href="{{ '/resources.html' | relative_url }}">Resources</a>
