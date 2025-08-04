@@ -23,10 +23,10 @@
             <ul>
               {% for floorset in site.potd_floorsets %}
               <li>
-                <a href="{{ floorset.url | relative_url }}"
-                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
-                  9 }}</a
-                >
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                  }}
+                </a>
               </li>
               {% endfor %}
             </ul>
@@ -36,10 +36,10 @@
             <ul>
               {% for floorset in site.hoh_floorsets %}
               <li>
-                <a href="{{ floorset.url | relative_url }}"
-                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
-                  9 }}</a
-                >
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                  }}
+                </a>
               </li>
               {% endfor %}
             </ul>
@@ -49,10 +49,10 @@
             <ul>
               {% for floorset in site.eo_floorsets %}
               <li>
-                <a href="{{ floorset.url | relative_url }}"
-                  >{{ floorset.floorset | floor }}-{{ floorset.floorset | plus:
-                  9 }}</a
-                >
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus:9
+                  }}
+                </a>
               </li>
               {% endfor %}
             </ul>
@@ -63,6 +63,7 @@
         <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
         <!-- Bottom navigation -->
         <div id="bottomNav">
+          <!-- Discord -->
           <a
             href="https://discord.gg/eNB4fwrpAN"
             target="_blank"
@@ -81,6 +82,7 @@
               />
             </svg>
           </a>
+          <!-- Github -->
           <a
             href="https://github.com/djcooke/compendium"
             target="_blank"
@@ -99,6 +101,7 @@
               />
             </svg>
           </a>
+          <!-- Changelog -->
           <a
             href="{{ '/changelog.html' | relative_url }}"
             title="View changelog"
