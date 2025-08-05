@@ -1,3 +1,11 @@
+---
+name: General Issue
+about: Create a general issue for suggestions, bug reports, or discussions
+title: ''
+labels: ''
+assignees: ''
+---
+
 # Issue Description
 
 Describe your suggestion.

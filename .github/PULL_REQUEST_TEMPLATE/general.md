@@ -6,4 +6,4 @@ Please include references for pictures, issues, or other resources that are rele
 
 ## Checklist
 
-- [ ] I have tested my changes and read [contributing guidelines.](../../../pages/contributing.md)
+- [ ] I have tested my changes and read the [contributing guidelines](https://www.ddcompendium.com/contributing.html)

@@ -1,4 +1,4 @@
-## Enemy Notes Submission
+# Enemy Notes Submission
 
 > [!NOTE]
 > If you are not familiar with pull requests consider using [enemy notes submission table](https://docs.google.com/spreadsheets/d/1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3/edit#gid=0) instead.
