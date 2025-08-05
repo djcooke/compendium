@@ -15,24 +15,45 @@ function toggleOpen(id) {
   }
 }
 
-function highlightCurrentNavItem() {
-  const currentPath = normalizePath(window.location.pathname);
-  const navLinks = document.getElementsByTagName('a');
+function initializeNavigation() {
+  const currentPath = window.location.pathname;
+  const normalizedCurrentPath = normalizePath(currentPath);
+  const nav = document.getElementById('nav');
 
+  if (!nav) return;
+
+  // Highlight current nav item
+  const navLinks = nav.getElementsByTagName('a');
   for (let i = 0; i < navLinks.length; i++) {
     const link = navLinks[i];
     const linkPath = link.getAttribute('href');
 
-    if (!linkPath || !link.closest('#nav')) {
-      continue;
-    }
+    if (!linkPath) continue;
 
     const normalizedLinkPath = normalizePath(linkPath);
 
     // Match home page or exact path match
-    if ((isHomePage(currentPath) && isHomePage(normalizedLinkPath)) ||
-      (currentPath === normalizedLinkPath && normalizedLinkPath !== '')) {
+    if ((isHomePage(normalizedCurrentPath) && isHomePage(normalizedLinkPath)) ||
+      (normalizedCurrentPath === normalizedLinkPath && normalizedLinkPath !== '')) {
       link.classList.add('current');
+      break; // Found the current page, no need to continue
+    }
+  }
+
+  // Auto-open submenu if on a floorset page
+  const floorsetType = getFloorsetType(currentPath);
+  if (floorsetType) {
+    const floorsMenu = document.getElementById('floorsMenu');
+    if (floorsMenu) {
+      const submenu = document.getElementById(floorsetType + 'Menu');
+      if (submenu) {
+        submenu.classList.add('open');
+      }
+
+      const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
+      if (floorsMainLink) {
+        floorsMainLink.classList.add('current');
+      }
     }
   }
 }
@@ -61,7 +82,6 @@ function autoOpenSubmenu() {
   }
 }
 
-// Gallery/Enemy selection functions
 function selectNext() {
   selectEnemy(selectedEnemy + 1);
 }
@@ -129,8 +149,7 @@ function selectJob(job) {
  * This runs after the DOM is fully loaded, but before all resources like images are loaded.
  */
 document.addEventListener('DOMContentLoaded', function () {
-  highlightCurrentNavItem();
-  autoOpenSubmenu();
+  initializeNavigation();
 });
 
 /**
