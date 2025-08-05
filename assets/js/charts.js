@@ -1,17 +1,16 @@
-var charts = (function() {
-
+var charts = (function () {
   const SVG_NS = 'http://www.w3.org/2000/svg';
 
   return {
-    drawPotdChestDistribution: function(data) {
+    drawPotdChestDistribution: function (data) {
       drawChestDistribution('potd', data, makePotdChestDistributionColumns());
     },
-    
-    drawHohChestDistribution: function(data) {
+
+    drawHohChestDistribution: function (data) {
       drawChestDistribution('hoh', data, makeHohChestDistributionColumns());
     },
 
-    writeDropRatesTable: function(data, tableId) {
+    writeDropRatesTable: function (data, tableId) {
       const table = document.getElementById(tableId);
       const rows = data.map(datarow => {
         return [
@@ -27,7 +26,7 @@ var charts = (function() {
       table.append(makeTbody(rows));
     },
 
-    writeAlterationTable: function(data, tableId) {
+    writeAlterationTable: function (data, tableId) {
       const table = document.getElementById(tableId);
       let totalMimics = 0;
       let totalKorrigans = 0;
@@ -91,7 +90,7 @@ var charts = (function() {
     chart.setAttribute('width', '100%');
     // SVG coordinate system: width=10000 (percent*100), height=100*(floorsetCount-1)
     chart.setAttribute('viewBox', `0 0 ${viewboxWidth} ${viewboxHeight}`)
-    
+
     const floorSelectorId = `${dungeon}ChestContents_floorSelect`;
 
     function deselectAll() {
@@ -159,7 +158,7 @@ var charts = (function() {
       line.setAttribute('y2', y);
       chart.appendChild(line);
     }
-    
+
     let target = document.getElementById(`${dungeon}ChestContentsChart`);
     target.appendChild(chart);
 
@@ -205,7 +204,7 @@ var charts = (function() {
     option.textContent = label;
     return option;
   }
-  
+
   function makePotdChestDistributionColumns() {
     return makeChestDistributionColumns([{
       name: 'Lust',
@@ -224,7 +223,7 @@ var charts = (function() {
       fillColour: '#FFEB35'
     }], false)
   }
-  
+
   function makeHohChestDistributionColumns() {
     return makeChestDistributionColumns([{
       name: 'Frailty',
@@ -311,7 +310,7 @@ var charts = (function() {
       chestType: 'gold',
       fillColour: '#E75D00'
     }];
-    
+
     columns.push.apply(columns, uniquePomanders);
 
     columns.push({
@@ -330,7 +329,7 @@ var charts = (function() {
       chestType: 'silver',
       fillColour: '#011176'
     });
-    
+
     if (includeMagicite) {
       columns.push({
         name: 'Magicite',
@@ -366,7 +365,7 @@ var charts = (function() {
       chestType: 'bronze',
       fillColour: '#D2007F'
     });
-    
+
     return columns.map(column => {
       column.points = [];
       return column;
@@ -390,7 +389,7 @@ var charts = (function() {
 
     let table = document.getElementById(tableId);
     clearTable(table);
-    
+
     const chestTypeLabel = capitalize(column.chestType);
     const contentsLabel = column.name.endsWith('Mimic') ? 'Mimic' : column.name;
     const headings = [
@@ -400,12 +399,12 @@ var charts = (function() {
       `% Within All`
     ];
     table.appendChild(makeThead(headings));
-    
+
     rows = []
     for (let floorset of data) {
       const percentChestType = parseFloat(floorset['percent_' + column.chestType]);
       const percentInChestType = floorset['total_' + column.chestType] == 0 ? 0
-          : floorset[column.key] / floorset['total_' + column.chestType] * 100;
+        : floorset[column.key] / floorset['total_' + column.chestType] * 100;
       const percentInAll = percentInChestType * percentChestType / 100;
       rows.push([
         `${floorset.startFloor}-${floorset.endFloor}`,
@@ -415,7 +414,7 @@ var charts = (function() {
       ]);
     }
     table.appendChild(makeTbody(rows));
-    title.scrollIntoView({block: 'center'});
+    title.scrollIntoView({ block: 'center' });
   }
 
   function makeFloorsetDropsTable(titleId, tableId, columns, floorset) {
@@ -438,7 +437,7 @@ var charts = (function() {
     for (let column of columns) {
       const percentChestType = parseFloat(floorset['percent_' + column.chestType]);
       const percentInChestType = floorset['total_' + column.chestType] == 0 ? 0
-          : floorset[column.key] / floorset['total_' + column.chestType] * 100;
+        : floorset[column.key] / floorset['total_' + column.chestType] * 100;
       const percentInAll = percentInChestType * percentChestType / 100;
       rows.push([
         column.name,
@@ -450,7 +449,7 @@ var charts = (function() {
     }
 
     table.appendChild(makeTbody(rows));
-    title.scrollIntoView({block: 'center'});
+    title.scrollIntoView({ block: 'center' });
   }
 
   function clearTable(table) {
@@ -475,11 +474,11 @@ var charts = (function() {
     let tbody = document.createElement('tbody');
     for (let row of rowData) {
       let tr = document.createElement('tr');
-        for (let value of row) {
-          let td = document.createElement('td');
-          td.textContent = value;
-          tr.appendChild(td);
-        }
+      for (let value of row) {
+        let td = document.createElement('td');
+        td.textContent = value;
+        tr.appendChild(td);
+      }
       tbody.appendChild(tr);
     }
     return tbody
@@ -492,5 +491,4 @@ var charts = (function() {
   function get_percent(numerator, denominator) {
     return (numerator / denominator * 100).toFixed(2);
   }
-
 })();
