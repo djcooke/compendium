@@ -16,7 +16,7 @@ me! If it's a large change or you're not sure it'll be accepted for some
 reason, it would be best to open an issue or contact me on Discord to discuss
 before you spend the time on it.
 
-[GitHub repo](https://github.com/djcooke/compendium)
+[New Pull Requests](https://github.com/djcooke/compendium/compare)
 
 </div>
 
