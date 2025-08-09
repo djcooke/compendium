@@ -31,7 +31,6 @@ function initializeNavigation() {
     if ((isHomePage(normalizedCurrentPath) && isHomePage(normalizedLinkPath)) ||
       (normalizedCurrentPath === normalizedLinkPath && normalizedLinkPath !== '')) {
       link.classList.add('current');
-      break; // Found the current page, no need to continue
     }
   }
 
