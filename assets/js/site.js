@@ -4,9 +4,6 @@ let urlParams;
 
 function toggleOpen(id) {
   const element = document.getElementById(id);
-  if (!element) {
-    return;
-  }
   element.classList.toggle('open');
 
   // Auto-open submenus when opening navigation on mobile
@@ -19,8 +16,6 @@ function initializeNavigation() {
   const currentPath = window.location.pathname;
   const normalizedCurrentPath = normalizePath(currentPath);
   const nav = document.getElementById('nav');
-
-  if (!nav) return;
 
   // Highlight current nav item
   const navLinks = nav.getElementsByTagName('a');
@@ -44,17 +39,13 @@ function initializeNavigation() {
   const floorsetType = getFloorsetType(currentPath);
   if (floorsetType) {
     const floorsMenu = document.getElementById('floorsMenu');
-    if (floorsMenu) {
-      const submenu = document.getElementById(floorsetType + 'Menu');
-      if (submenu) {
-        submenu.classList.add('open');
-      }
-
-      const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
-      if (floorsMainLink) {
-        floorsMainLink.classList.add('current');
-      }
+    const submenu = document.getElementById(floorsetType + 'Menu');
+    if (submenu) {
+      submenu.classList.add('open');
     }
+
+    const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
+    floorsMainLink.classList.add('current');
   }
 }
 
@@ -67,9 +58,6 @@ function autoOpenSubmenu() {
   }
 
   const floorsMenu = document.getElementById('floorsMenu');
-  if (!floorsMenu) {
-    return;
-  }
 
   const submenu = document.getElementById(floorsetType + 'Menu');
   if (submenu) {
@@ -77,9 +65,7 @@ function autoOpenSubmenu() {
   }
 
   const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
-  if (floorsMainLink) {
-    floorsMainLink.classList.add('current');
-  }
+  floorsMainLink.classList.add('current');
 }
 
 function selectNext() {
