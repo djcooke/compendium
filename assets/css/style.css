@@ -12,7 +12,6 @@
   --on-surface-highlight: #F5DA43;
   --on-surface-dim-highlight: #E4C832;
   --nav-current: #87CEFA;
-  --nav-current-bg: rgba(135, 206, 250, 0.2);
   --nav-current-hover: #B0E0E6;
 }
 
@@ -84,12 +83,12 @@ li li:first-child {
 }
 
 #nav a.current {
-  background-color: var(--nav-current-bg);
-  color: var(--nav-current);
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
 }
 
 #nav a.current:hover {
-  color: var(--nav-current-hover);
+  color: var(--on-surface-dim-highlight);
 }
 
 #nav ul {
@@ -149,8 +148,8 @@ li li:first-child {
 }
 
 #bottomNav a:hover {
-  color: var(--nav-current-hover);
-  background-color: var(--nav-current-bg);
+  color: var(--on-surface-highlight);
+  background-color: var(--surface-highlight);
 }
 
 #bottomNav svg {
