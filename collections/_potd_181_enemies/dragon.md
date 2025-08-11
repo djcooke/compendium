@@ -19,8 +19,8 @@ abilities:
   - name: 'Sheet of Ice'
     potency: 120
     type: Magic
-    description: 'instant circle AoE; inflicts frostbite (magic DoT potency
-    100, 21s)'
+    description: 'instant circle AoE on random player; inflicts frostbite
+    (magic DoT potency 100, 21s)'
   - name: 'Granite Rain'
     description: telegraphed pointblank AoE
 job_specifics:
