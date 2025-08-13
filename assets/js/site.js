@@ -39,9 +39,7 @@ function initializeNavigation() {
   if (floorsetType) {
     const floorsMenu = document.getElementById('floorsMenu');
     const submenu = document.getElementById(floorsetType + 'Menu');
-    if (submenu) {
-      submenu.classList.add('open');
-    }
+    submenu.classList.add('open');
 
     const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
     floorsMainLink.classList.add('current');
@@ -59,9 +57,7 @@ function autoOpenSubmenu() {
   const floorsMenu = document.getElementById('floorsMenu');
 
   const submenu = document.getElementById(floorsetType + 'Menu');
-  if (submenu) {
-    submenu.classList.add('open');
-  }
+  submenu.classList.add('open');
 
   const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
   floorsMainLink.classList.add('current');
