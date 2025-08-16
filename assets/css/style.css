@@ -1,12 +1,12 @@
 :root {
   --background: #121212;
   --surface: #202020;
-  --on-background: rgba(255,255,255,0.6);
-  --on-background-bright: rgba(255,255,255,0.87);
-  --on-background-dim: rgba(255,255,255,0.38);
-  --on-surface: rgba(255,255,255,0.87);
+  --on-background: rgba(255, 255, 255, 0.6);
+  --on-background-bright: rgba(255, 255, 255, 0.87);
+  --on-background-dim: rgba(255, 255, 255, 0.38);
+  --on-surface: rgba(255, 255, 255, 0.87);
   --on-surface-bright: #FFFFFF;
-  --on-surface-dim: rgba(255,255,255,0.6);
+  --on-surface-dim: rgba(255, 255, 255, 0.6);
   --background-highlight: #3B340E;
   --surface-highlight: #47401A;
   --on-surface-highlight: #F5DA43;
@@ -20,7 +20,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--on-background-bright);
 }
 
@@ -40,7 +42,8 @@ a:hover {
   vertical-align: middle;
 }
 
-li:not(:last-child), li li:last-child {
+li:not(:last-child),
+li li:last-child {
   margin-bottom: 6px;
 }
 
@@ -58,6 +61,8 @@ li li:first-child {
   background-color: var(--surface);
   overflow-x: hidden;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 #nav a {
@@ -75,13 +80,23 @@ li li:first-child {
   color: var(--on-surface-bright);
 }
 
+#nav a.current {
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
+}
+
+#nav a.current:hover {
+  color: var(--on-surface-dim-highlight);
+}
+
 #nav ul {
   margin: 0;
   padding-left: 12px;
   list-style: none;
 }
 
-#nav a, #navButton {
+#nav a,
+#navButton {
   cursor: pointer;
 }
 
@@ -111,8 +126,39 @@ li li:first-child {
   color: #f1f1f1;
 }
 
+#bottomNav {
+  margin-top: auto;
+  flex-shrink: 0;
+  padding: 12px 16px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  background-color: var(--surface);
+}
+
+#bottomNav a {
+  color: var(--on-surface-bright);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+#bottomNav a:hover {
+  color: var(--on-surface-highlight);
+  background-color: var(--surface-highlight);
+}
+
+#bottomNav svg {
+  width: 20px;
+  height: 20px;
+}
+
 .submenu .navHeading:before {
   content: "▶ ";
+  font-size: medium;
+  margin-left: 16px;
 }
 
 .submenu ul {
@@ -125,6 +171,11 @@ li li:first-child {
 
 .submenu.open ul {
   display: block;
+}
+
+.submenu ul li {
+  margin-left: 16px;
+  margin-bottom: 0px;
 }
 
 #main {
@@ -148,11 +199,11 @@ li li:first-child {
   padding: 12px;
 }
 
-.surfacePane > *:first-child {
+.surfacePane>*:first-child {
   margin-top: 0;
 }
 
-.surfacePane > *:last-child {
+.surfacePane>*:last-child {
   margin-bottom: 0;
 }
 
@@ -172,14 +223,15 @@ li li:first-child {
   overflow-x: hidden;
 }
 
-#galleryLeft, #galleryRight {
+#galleryLeft,
+#galleryRight {
   position: absolute;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
   width: auto;
   padding: 16px;
   text-align: center;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   cursor: pointer;
   -webkit-user-select: none;
@@ -188,8 +240,9 @@ li li:first-child {
   user-select: none;
 }
 
-#galleryLeft:hover, #galleryRight:hover {
-  background: rgba(0,0,0,0.75);
+#galleryLeft:hover,
+#galleryRight:hover {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 #galleryLeft {
@@ -211,11 +264,15 @@ li li:first-child {
   transform: translate(-50%, 0);
 }
 
-.galleryImage, .galleryItem, .galleryJobNotes {
+.galleryImage,
+.galleryItem,
+.galleryJobNotes {
   display: none;
 }
 
-.galleryImage.active, .galleryItem.active, .galleryJobNotes.active {
+.galleryImage.active,
+.galleryItem.active,
+.galleryJobNotes.active {
   display: block;
 }
 
@@ -300,7 +357,8 @@ img.surfaceImage {
   width: 72px;
 }
 
-.enemyList th.hpCell, .enemyList th.attackCell {
+.enemyList th.hpCell,
+.enemyList th.attackCell {
   width: 60px;
 }
 
@@ -379,15 +437,18 @@ th.textCell {
   padding-left: 1px;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   text-align: center;
 }
 
-.enemyList td.hpCell.extremeCell, .enemyList td.attackCell.extremeCell {
+.enemyList td.hpCell.extremeCell,
+.enemyList td.attackCell.extremeCell {
   background-color: #FF1493;
 }
 
-.enemyList td.hpCell, .enemyList td.attackCell {
+.enemyList td.hpCell,
+.enemyList td.attackCell {
   border-left: 1px solid var(--background);
   border-right: 1px solid var(--background);
   background-repeat: no-repeat;
@@ -444,7 +505,7 @@ th.textCell {
 button.textButton {
   background-color: transparent;
   border: none;
-  outline:none;
+  outline: none;
   color: var(--on-surface);
 }
 
@@ -458,7 +519,8 @@ button.textButton:hover {
   width: 100%;
 }
 
-.surfacePane th, .surfacePane td {
+.surfacePane th,
+.surfacePane td {
   padding: 8px;
 }
 
@@ -549,27 +611,36 @@ span.rotated {
   #nav {
     top: 40px;
     width: 100%;
-    height: auto;
+    height: calc(100vh - 40px);
     display: none;
     padding-top: 0px;
     border: 1px solid black;
+    position: fixed;
+    flex-direction: column;
   }
-  
+
+  #bottomNav {
+    position: static;
+    margin-top: auto;
+    flex-shrink: 0;
+  }
+
   #topnav {
     display: block;
   }
-  
+
   #main {
     margin-left: 0px;
     margin-top: 30px;
   }
 
   #nav.open {
-    display: block;
+    display: flex;
   }
 
   /* Offset linked position on page so headings aren't hidden behind fixed topnav */
-  h1:before, h2:before {
+  h1:before,
+  h2:before {
     display: block;
     height: 40px;
     margin-top: -40px;

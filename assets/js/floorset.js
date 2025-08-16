@@ -1,5 +1,4 @@
 (() => {
-
   let activatedFloor = null;
   const floorSelect = document.getElementById("floorSelect");
   const legend = document.getElementById("legendDialog");

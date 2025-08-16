@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
 
   <body>
     <nav>
+      <!-- Mobile navigation burger -->
       <div id="topnav">
-        <div id="navButton" onclick="toggleOpen('nav')">
-          ≡
-        </div>
+        <div id="navButton" onclick="toggleOpen('nav')">≡</div>
       </div>
+      <!-- Navigation -->
       <div id="nav" class="">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/knowledge.html' | relative_url }}">Knowledge</a>
@@ -17,50 +16,100 @@
         <a href="{{ '/pomanders.html' | relative_url }}">Pomanders</a>
         <a href="{{ '/tips.html' | relative_url }}">Tips/Strategy</a>
         <a href="{{ '/wall_traps.html' | relative_url }}">Wall Traps</a>
-        <div id="potdMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD Floors</a>
-          <ul>
-          {% for floorset in site.potd_floorsets %}
-            <li>
-              <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
-            </li>
-          {% endfor %}
-          </ul>
-        </div>
-        <div id="hohMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH Floors</a>
-          <ul>
-            {% for floorset in site.hoh_floorsets %}
+        <div id="floorsMenu">
+          <a>Floors</a>
+          <div id="potdMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD</a>
+            <ul>
+              {% for floorset in site.potd_floorsets %}
               <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                  }}
+                </a>
               </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div id="eoMenu" class="submenu">
-          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO Floors</a>
-          <ul>
-            {% for floorset in site.eo_floorsets %}
+              {% endfor %}
+            </ul>
+          </div>
+          <div id="hohMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH</a>
+            <ul>
+              {% for floorset in site.hoh_floorsets %}
               <li>
-                <a href="{{ floorset.url | relative_url }}">{{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9 }}</a>
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus: 9
+                  }}
+                </a>
               </li>
-            {% endfor %}
-          </ul>
+              {% endfor %}
+            </ul>
+          </div>
+          <div id="eoMenu" class="submenu">
+            <a class="navHeading" onclick="toggleOpen('eoMenu')">EO</a>
+            <ul>
+              {% for floorset in site.eo_floorsets %}
+              <li>
+                <a href="{{ floorset.url | relative_url }}">
+                  {{ floorset.floorset | floor }}-{{ floorset.floorset | plus:9
+                  }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
         <a href="{{ '/analysis.html' | relative_url }}">Analysis</a>
         <a href="{{ '/resources.html' | relative_url }}">Resources</a>
         <a href="{{ '/contributing.html' | relative_url }}">Contributing</a>
+        <!-- Bottom navigation -->
+        <div id="bottomNav">
+          <!-- Github -->
+          <a
+            href="https://github.com/djcooke/compendium"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="View source on GitHub"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              aria-label="GitHub"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+          </a>
+          <!-- Changelog -->
+          <a
+            href="{{ '/changelog.html' | relative_url }}"
+            title="View changelog"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              aria-label="Changelog"
+            >
+              <path
+                d="M7.5 1.75C7.5.784 8.284 0 9.25 0s1.75.784 1.75 1.75-.784 1.75-1.75 1.75S7.5 2.716 7.5 1.75zm-2.25 4.5C5.25 5.784 6.034 5 7 5s1.75.784 1.75 1.75S7.966 8.5 7 8.5 5.25 7.716 5.25 6.25zm-1.5 5.5C3.25 11.284 4.034 10.5 5 10.5s1.75.784 1.75 1.75S5.966 14 5 14s-1.75-.784-1.75-1.75zm8.25-8.25V15H1V3h11.5zM2 4v10h9V4H2z"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </nav>
+
+    <!-- Main page content -->
     <main class="page-content" aria-label="Content">
       <div id="main">
         {% unless page.supress_title %}
-          <h1 id="top">{{ page.title }}</h1>
-        {% endunless %}
-        {{ content }}
+        <h1 id="top">{{ page.title }}</h1>
+        {% endunless %} {{ content }}
       </div>
     </main>
-
   </body>
-
 </html>
