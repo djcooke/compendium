@@ -89,6 +89,10 @@ limit of 2-3 kills more than the Cairn of Passage. Both Cairns likely have the
 same upper limit for a given floorset, but this is unverified. The Pomander of
 Flight causes each kill to count double toward activation.
 
+The random kill counts seem to follow a roughly normal distribution, such that
+numbers in the middle of the range are more common than the low or high ends.
+PotD/HoH are very slightly biased toward lower kill counts.
+
 Killing all enemies on a floor will instantly unlock both Cairns, regardless
 of the number of kills originally required. If you kill all enemies and the
 Cairns don't unlock, then either a new enemy spawned before you got the last
