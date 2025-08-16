@@ -182,9 +182,9 @@ The range is listed on each of the floorset pages. There are three types of
 chests:
 
 * **Bronze**: contain items such as potions, phoenix downs, and most
-  importantly, potsherds. Potsherds can be exchanged for several items,
-  including Sustaining/Empyrean/Orthos Potions, which grant a potent regen
-  effect and are essential for soloing
+  importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can
+  be exchanged for several items, including Sustaining/Empyrean/Orthos Potions,
+  which grant a potent regen effect and are essential for soloing
 * **Silver**: Can have one of several effects
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
