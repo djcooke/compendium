@@ -1,6 +1,7 @@
 - date: 9999-99-99
   updates:
     - "Added more information on mob kill count and key unlock"
+    - "Corrected kill count ranges for PotD 191+ and HoH/EO 61+, 71+, 91+"
     - "Noted additional PotD enemy abilities which target random players"
     - "Confirmed PotD 191+ Keeper's Vengeful Soul potency"
     - "Above changes courtesy of vaxherd"
