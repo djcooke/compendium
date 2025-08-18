@@ -1,9 +1,12 @@
-- date: 9999-99-99
+- date: 2025-08-18
   updates:
     - "Added more information on mob kill count and key unlock"
     - "Corrected kill count ranges for PotD 191+ and HoH/EO 61+, 71+, 91+"
     - "Noted additional PotD enemy abilities which target random players"
     - "Confirmed PotD 191+ Keeper's Vengeful Soul potency"
+    - "Added/clarified EO boss ability and rotation details"
+    - "Updated EO boss kill times for 7.3 SGE"
+    - "Updated EO floor 100 running time to account for Jog buff"
     - "Above changes courtesy of vaxherd"
 - date: 2025-07-04
   updates:
