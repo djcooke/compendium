@@ -18,8 +18,8 @@ vulnerabilities:
 abilities:
   - name: Evil Eye
     potency: n/a
-    description: conal gaze AoE on random player - look away, get behind, or
-    get away
+    description: "conal gaze AoE on random player - look away, get behind, or
+    get away"
     warning: gaze
   - name: Miasma Breath
     potency: 300
