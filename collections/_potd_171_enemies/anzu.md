@@ -22,9 +22,9 @@ abilities:
   - name: Flying Frenzy
     potency: 180
     type: Physical
-    description: 'instant circle AoE gap closer; inflicts stun (2s) and
-    vulnerability up (50%, 10s). Diminishing returns do NOT apply to this stun
-    (it is always 2s)'
+    description: 'instant circle AoE gap closer on random player; inflicts
+    stun (2s) and vulnerability up (50%, 10s). Diminishing returns do NOT
+    apply to this stun (it is always 2s)'
     warning: other
 notes:
   - If in a party, spread out to minimize damage from Flying Frenzy

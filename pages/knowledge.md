@@ -80,13 +80,29 @@ treasure room, etc.
 ## Cairns of Passage and Return
 
 <div class="surfacePane" markdown="1">
-Note: these are called "Cairns" in PotD, "Beacons"  in HoH, and "Pylons" in EO.
+Note: these are called "Cairns" in PotD, "Beacons" in HoH, and "Pylons" in EO.
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
 is listed on each floorset page. The Cairn of Return generally has a lower
 limit of 2-3 kills more than the Cairn of Passage. Both Cairns likely have the
-same upper limit for a given floorset, but this is unverified.
+same upper limit for a given floorset, but this is unverified. The Pomander of
+Flight causes each kill to count double toward activation.
+
+The random kill counts seem to follow a roughly normal distribution, such that
+numbers in the middle of the range are more common than the low or high ends.
+PotD/HoH are very slightly biased toward lower kill counts.
+
+Killing all enemies on a floor will instantly unlock both Cairns, regardless
+of the number of kills originally required. If you kill all enemies and the
+Cairns don't unlock, then either a new enemy spawned before you got the last
+kill, or an enemy is stuck inside a wall somewhere.
+
+The color of the Cairn icons above the map only indicates how many kills you
+have already made, and does not reveal how many kills are still needed for
+activation - though changing from blue to orange indicates that you have
+reached the low end of the random activation range for that Cairn on the
+current floorset.
 
 Each Cairn appears in a random room on each floor with the exception that the
 Cairn of Passage cannot appear in the starting room.
@@ -166,9 +182,9 @@ The range is listed on each of the floorset pages. There are three types of
 chests:
 
 * **Bronze**: contain items such as potions, phoenix downs, and most
-  importantly, potsherds. Potsherds can be exchanged for several items,
-  including Sustaining/Empyrean/Orthos Potions, which grant a potent regen
-  effect and are essential for soloing
+  importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can
+  be exchanged for several items, including Sustaining/Empyrean/Orthos Potions,
+  which grant a potent regen effect and are essential for soloing
 * **Silver**: Can have one of several effects
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
