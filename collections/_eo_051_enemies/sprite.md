@@ -25,4 +25,5 @@ abilities:
 notes:
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
   Witching since it doesn't normally do melee auto-attacks"
+  - "If petrified via Doga Demiclone when it dies, no explosion happens"
 ---
