@@ -1,9 +1,10 @@
 - date: 2025-10-05
   updates:
-    - "Orthos Ice Sprite doesn't exploe if petrified"
+    - "Orthos Ice Sprite doesn't explode if petrified"
     - "Added another PotD 190 boss kill time for WAR"
     - "Above updates courtesy of Kronkleberry"
     - "Added WHM tip for HoH 10 boss, courtesy of Maccy"
+    - "Deep Palace Knight can be stunned, courtesy of Aqua Kot"
 - date: 2025-08-18
   updates:
     - "Added more information on mob kill count and key unlock"

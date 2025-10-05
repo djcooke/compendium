@@ -13,7 +13,7 @@ vulnerabilities:
   heavy: true
   sleep: false
   slow: true
-  stun: unknown
+  stun: true
   resolution: true
 abilities:
   - name: Skullsplinter
