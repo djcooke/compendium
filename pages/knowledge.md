@@ -77,10 +77,15 @@ treasure room, etc.
 [Back to top](#top)
 </div>
 
-## Cairns of Passage and Return
+## Entities
 
 <div class="surfacePane" markdown="1">
-Note: these are called "Cairns" in PotD, "Beacons" in HoH, and "Pylons" in EO.
+
+There are interactive entities in some rooms.
+
+### Cairns of Passage and Return
+
+Note: these are called "Cairns" in PotD, "Beacons" in HoH, "Pylons" in EO, and "Altars" in PT
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
@@ -106,6 +111,12 @@ current floorset.
 
 Each Cairn appears in a random room on each floor with the exception that the
 Cairn of Passage cannot appear in the starting room.
+
+### Votive Candelabras (PT only)
+
+Occasionally in PT, Votive Candelabras will spawn in a room.
+
+Lighting them will affect the area marked by the next traverse stone. While some effects are beneficial to party members, such as healing over time or weakened enemies, others may provide additional challenges, such as an increase in the number of hidden traps. 
 
 [Back to top](#top)
 </div>
@@ -210,6 +221,11 @@ chests:
       returns).
     * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
       also use Cure. Much rarer than the other types.
+  * PT only: chest may contain juniper incense. Up to three pieces can be held in an inventory shared by all party members. 
+    By burning incense, players can call the faerie king to assist them in a variety of ways
+    * Mazeroot Incense: Unlocks the passage to the next floor.
+    * Barkbalm Incense: Healing buff.
+    * Poisonfruit Incense: Kills all enemies on the floor.
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
   are detailed in the [Pomanders section](pomanders.html)
 
