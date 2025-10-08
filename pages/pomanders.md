@@ -224,6 +224,24 @@ pomanders:
       boss before it wears off though."
       - "See Pomander of Rage from PotD for more tips, as this is much the
       same"
+  - name: Haste
+    image: haste.png
+    only_in: PT
+    description: 'Renders party able to swiftly execute weaponskills, spells, and auto-attacks'
+    tips:
+      - ''
+  - name: Purification
+    image: purification.png
+    only_in: PT
+    description: 'Removes all curable status ailments from the party, and erects a barrier against the next status ailment suffered'
+    tips:
+      - ''
+  - name: Devotion
+    image: devotion.png
+    only_in: PT
+    description: 'Guarantees a votive candelabra in the next area'
+    tips:
+      - ''
 ---
 
 <div class="surfacePane" markdown="1">
