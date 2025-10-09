@@ -12,6 +12,8 @@ scripts:
 * [Drop Rates](#drop-rates)
 * [Alteration Effects](#alteration-effects)
 
+{% include note.html title="Incomplete Page" content="This page is incomplete, help us by finding out how to [contribute](contributing.html)!" %}
+
 ## PotD Chest Contents by Floor
 
 <div class="surfacePane">

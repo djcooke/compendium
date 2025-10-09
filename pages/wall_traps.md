@@ -17,6 +17,8 @@ title: Wall Traps
 * [HoH 41-79](#hoh-41-79)
 * [HoH 81-99](#hoh-81-99)
 
+{% include note.html title="Incomplete Page" content="This page is incomplete, help us by finding out how to [contribute](contributing.html)!" %}
+
 ## PotD 1-9
 
 <div class="surfacePane" markdown="1">
