@@ -32,6 +32,33 @@ traps:
     only_in: EO
     description: 'Turns you into an owlet, preventing all actions and reducing
     max HP for 30 seconds'
+chests:
+  - name: Bronze
+    image: bronze.png
+    description: 'Contain items such as potions, phoenix downs, and most importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can be exchanged for several items, including Sustaining/Empyrean/Orthos Potions, which grant a potent regen effect and are essential for soloing'
+  - name: Silver
+    image: silver.png
+    description: 'Can have one of several effects'
+    effects:
+      - effect: 'Upgrade your Aetherpool arm or armor'
+      - effect: 'Chest explodes, dealing 70% max HP damage to any players and enemies nearby'
+      - effect: 'HoH only: chest may contain magicite. There are four types of magicite:'
+        subnotes:
+          - 'Inferno, Crag, and Vortex: Summons Ifrit, Titan, or Garuda respectively, instantly killing all enemies on the floor (except bosses, to which they deal a large amount of damage). Also grants a 10-second invulnerability buff to all party members; this invulnerability takes effect immediately, so magicites can be used as a panic button if you can''t get out of an AoE.'
+          - 'Elder: Summons Odin, which has the same effect as the other magicites but *also* one-shots bosses. Much rarer than the other types, and does not appear at all before floor 31. **Note that elder magicite has been reported not to work if you don''t engage the boss in battle first!**'
+      - effect: 'EO only: chest may contain a demiclone tomestone. Demiclones are NPCs which fight alongside you until you die or leave the floor. Each player can only summon one demiclone at a time. There are three types of demiclone:'
+        subnotes:
+          - 'Unei (red): Healer-type demiclone. Deals moderate but still respectable damage; also casts Cure as needed, and periodically casts Stoneskin for a 20% max HP shield.'
+          - 'Doga (green): DPS-type demiclone. Can easily outdamage players; also periodically casts Break (10-second AoE petrify with diminishing returns).'
+          - 'Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can also use Cure. Much rarer than the other types.'
+      - effect: 'PT only: chest may contain juniper incense. Up to three pieces can be held in an inventory shared by all party members. By burning incense, players can call the faerie king to assist them in a variety of ways'
+        subnotes:
+          - 'Mazeroot Incense: Unlocks the passage to the next floor.'
+          - 'Barkbalm Incense: Healing buff.'
+          - 'Poisonfruit Incense: Kills all enemies on the floor.'
+  - name: Gold
+    image: gold.png
+    description: 'Contain pomanders - items that help you in the deep dungeon. These are detailed in the [Pomanders section](pomanders.html)'
 ---
 
 Basic information about how deep dungeons work can be found in the official
@@ -42,7 +69,7 @@ information. Knowledge is power!
 ## On this Page:
 
 * [Rooms](#rooms)
-* [Cairns of Passage and Return](#cairns-of-passage-and-return)
+* [Room Entities](#room-entities)
 * [Enemies](#enemies)
 * [Chests](#chests)
 * [Traps](#traps)
@@ -77,7 +104,7 @@ treasure room, etc.
 [Back to top](#top)
 </div>
 
-## Entities
+## Room Entities
 
 <div class="surfacePane" markdown="1">
 
@@ -192,42 +219,38 @@ Most floors will have 4-6 chests, but some floorsets have a different range.
 The range is listed on each of the floorset pages. There are three types of
 chests:
 
-* **Bronze**: contain items such as potions, phoenix downs, and most
-  importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can
-  be exchanged for several items, including Sustaining/Empyrean/Orthos Potions,
-  which grant a potent regen effect and are essential for soloing
-* **Silver**: Can have one of several effects
-  * Upgrade your Aetherpool arm or armor
-  * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
-  * HoH only: chest may contain magicite. There are four types of magicite:
-    * Inferno, Crag, and Vortex: Summons Ifrit, Titan, or Garuda respectively,
-      instantly killing all enemies on the floor (except bosses, to which they
-      deal a large amount of damage). Also grants a 10-second invulnerability
-      buff to all party members; this invulnerability takes effect immediately,
-      so magicites can be used as a panic button if you can't get out of an
-      AoE.
-    * Elder: Summons Odin, which has the same effect as the other magicites but
-      *also* one-shots bosses. Much rarer than the other types, and does not
-      appear at all before floor 31. **Note that elder magicite has been
-      reported not to work if you don't engage the boss in battle first!**
-  * EO only: chest may contain a demiclone tomestone. Demiclones are NPCs which
-    fight alongside you until you die or leave the floor. Each player can only
-    summon one demiclone at a time. There are three types of demiclone:
-    * Unei (red): Healer-type demiclone. Deals moderate but still respectable
-      damage; also casts Cure as needed, and periodically casts Stoneskin for a
-      20% max HP shield.
-    * Doga (green): DPS-type demiclone. Can easily outdamage players; also
-      periodically casts Break (10-second AoE petrify with diminishing
-      returns).
-    * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
-      also use Cure. Much rarer than the other types.
-  * PT only: chest may contain juniper incense. Up to three pieces can be held in an inventory shared by all party members. 
-    By burning incense, players can call the faerie king to assist them in a variety of ways
-    * Mazeroot Incense: Unlocks the passage to the next floor.
-    * Barkbalm Incense: Healing buff.
-    * Poisonfruit Incense: Kills all enemies on the floor.
-* **Gold**: Contain pomanders - items that help you in the deep dungeon. These
-  are detailed in the [Pomanders section](pomanders.html)
+<table>
+  <thead>
+    <th colspan="2">Type</th><th>Description</th>
+  </thead>
+  <tbody>
+    {% for chest in page.chests %}
+      <tr>
+        <td><img src="{{ '/assets/images/chests/' | append: chest.image | relative_url}}" alt="{{ chest.name }} Chest" width="48" height="48"></td>
+        <td>{{ chest.name }}</td>
+        <td>
+          {{ chest.description }}
+          {% if chest.effects %}
+            <ul>
+              {% for item in chest.effects %}
+                <li>
+                  {{ item.effect }}
+                  {% if item.subnotes %}
+                    <ul>
+                      {% for subnote in item.subnotes %}
+                        <li>{{ subnote }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 Chests may also be mimics, which will attack you when you try to open them, and
 can be very dangerous, especially in the deeper floors. The type of chest that
