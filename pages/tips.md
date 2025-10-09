@@ -236,7 +236,7 @@ you are concealed, the trap will not be sprung.
 
 <h2 id="job-specific">Job-Specific Tips: {% include job_select.html %}</h2>
 
-{% include note.html content="Want to add your own job-specific tips? Find [out how to contribute](contributing.html)!" %}
+{% include note.html content="Want to add your own job-specific tips? Find out [how to contribute](contributing.html)!" %}
 
 <div class="surfacePane" markdown="1">
 
