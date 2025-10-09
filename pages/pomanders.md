@@ -229,19 +229,19 @@ pomanders:
     only_in: PT
     description: 'Renders party able to swiftly execute weaponskills, spells, and auto-attacks'
     tips:
-      - ''
+      - 'Pair with strength to maximize damage output'
   - name: Purification
     image: purification.png
     only_in: PT
     description: 'Removes all curable status ailments from the party, and erects a barrier against the next status ailment suffered'
     tips:
-      - ''
+      - 'Use freely, not an important resource'
   - name: Devotion
     image: devotion.png
     only_in: PT
     description: 'Guarantees a votive candelabra in the next area'
     tips:
-      - ''
+      - 'Cannot be used on floor 8, as votives cannot spawn on floor 9'
 ---
 
 <div class="surfacePane" markdown="1">
