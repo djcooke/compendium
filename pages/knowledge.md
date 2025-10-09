@@ -74,6 +74,7 @@ information. Knowledge is power!
 * [Chests](#chests)
 * [Traps](#traps)
 * [Enchantments](#enchantments)
+* [Checkpoints](#checkpoints)
 
 
 ## Rooms
@@ -412,6 +413,37 @@ the same group will never be stacked.
     </tr>
   </tbody>
 </table>
+
+[Back to top](#top)
+</div>
+
+## Checkpoints
+
+<div class="surfacePane" markdown="1">
+Party wipes end the duty immediately with no progress saved - no experience, aetherpool, pomanders, incense or accursed hoard are retained.
+
+To access the Challenge Floors (31-100), your save file must have zero party KOs. Any wipe at any point in the file's history prevents progress beyond floor 30. This means a single death on floor 5 or floor 99 sends you back to the nearest checkpoint (or floor 1 for solo achievements).
+
+### Additional Checkpoints (PT only)
+
+Unlike other deep dungeons, Pilgrim's Traverse has additional checkpoints to mitigate this harsh penalty:
+
+```
+1-10    🔄
+11-20   ❌
+21-30   🔄
+31-40   🔄
+41-50   ❌
+51-60   🔄
+61-70   ❌
+71-80   🔄
+81-90   ❌
+91-100  ❌
+```
+
+**Restart Points**: Floors 1, 21, 31, 51, 71
+
+Wipes send you back to the most recent restart point.
 
 [Back to top](#top)
 </div>
