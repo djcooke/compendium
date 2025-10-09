@@ -13,6 +13,8 @@ title: Resources
   • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon2/)
 * Eureka Orthos: [Play Guide](https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/deepdungeon3/)
   • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon3/)
+* Pilgrim's Traverse: [Play Guide](https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/deepdungeon4/)
+  • [Leaderboards](https://na.finalfantasyxiv.com/lodestone/ranking/deepdungeon4/)
   
 </div>
 
@@ -28,6 +30,7 @@ explorer. Highly recommended read.
 [Palace of the Dead](https://docs.google.com/document/d/e/2PACX-1vQpzFuhmSwTXuZSmtnKLNgQ0nRhumCFaB8NvCXFXSjrBHPRT5lXY8jMR4RaCK1aNfcl_G5ph5DNNwfl/pub)
 • [Heaven on High](https://docs.google.com/document/d/1YVBSTOgJO-xOAB6YyKZEZRikjXFPle6Ihf_E7VdmQnI/edit?usp=sharing)
 • [Eureka Orthos](https://docs.google.com/document/d/1wc0LHgUZmmqMUnRflZsDxc3JtHS0dxO9D4WH--UQk_E/edit)
+• [Pilgrim's Traverse](https://docs.google.com/document/d/1BKbCuXC4ehEhQNrD5BzWE_i3EioEPDOafmLWvQHip3Y/preview?tab=t.0)
 
 Author: Maygi (Discord: Maygi#4987)
 
@@ -68,6 +71,16 @@ Analysis of score calculations to help you climb the leaderboards!
 [Google Doc](https://docs.google.com/document/d/1MnR2Xtj2lol1LESgscI6yi_1xcAeP3FBwJecbD-EiwE/edit?usp=sharing)
 
 Author: Alpha Shoot
+
+</div>
+
+<div class="surfacePane spaceTop" markdown="1">
+
+### Global Rankings
+
+A site that tracks and displays the global leaderboards for all deep dungeons.
+
+[XIV Climbers](https://xivclimbers.com/)
 
 </div>
 
