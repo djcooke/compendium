@@ -104,7 +104,7 @@ Streamer: Angelus Demonus (Discord: Angelus Demonus#4738)
 
 Lots of great deep dungeon scoring runs and guides from his stream and youtube channel.
 
-[YouTube](https://www.youtube.com/@FinhBezahll)
+[YouTube](https://www.youtube.com/@FinhBezahl)
 
 Streamer: Finh Bezahl (Discord: finhbezah)
 
