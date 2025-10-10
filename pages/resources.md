@@ -76,6 +76,18 @@ Author: Alpha Shoot
 
 <div class="surfacePane spaceTop" markdown="1">
 
+### Scoring Guide
+
+A detailed guide on how to maximize your score in deep dungeons.
+
+[Google Doc](https://docs.google.com/document/d/1_GZtA0XymQ9Mj5CUs6O5yTogVSPdmw6V3rzhFK7G_kY)
+
+Author: Finh Bezahl (Discord: finhbezah)
+
+</div>
+
+<div class="surfacePane spaceTop" markdown="1">
+
 ### Global Rankings
 
 A site that tracks and displays the global leaderboards for all deep dungeons.
