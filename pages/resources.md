@@ -38,19 +38,6 @@ Author: Maygi (Discord: Maygi#4987)
 
 <div class="surfacePane spaceTop" markdown="1">
 
-### Angelus Demonus
-
-Lots of great "How To Solo" deep dungeon videos for many jobs from his stream.
-Highly recommended.
-
-[YouTube](https://www.youtube.com/c/Angelusdemonus)
-
-Streamer: Angelus Demonus (Discord: Angelus Demonus#4738)
-
-</div>
-
-<div class="surfacePane spaceTop" markdown="1">
-
 ### Status Vulnerabilities
 
 Quick reference for enemy status vulnerabilities (Google Doc).
@@ -93,6 +80,33 @@ Author: Finh Bezahl (Discord: finhbezah)
 A site that tracks and displays the global leaderboards for all deep dungeons.
 
 [XIV Climbers](https://xivclimbers.com/)
+
+</div>
+
+## Streamers
+
+<div class="surfacePane" markdown="1">
+
+### Angelus Demonus
+
+Lots of great "How To Solo" deep dungeon videos for many jobs from his stream.
+Highly recommended.
+
+[YouTube](https://www.youtube.com/c/Angelusdemonus)
+
+Streamer: Angelus Demonus (Discord: Angelus Demonus#4738)
+
+</div>
+
+<div class="surfacePane spaceTop" markdown="1">
+
+### Finh Bezahl
+
+Lots of great deep dungeon scoring runs and guides from his stream and youtube channel.
+
+[YouTube](https://www.youtube.com/@FinhBezahll)
+
+Streamer: Finh Bezahl (Discord: finhbezah)
 
 </div>
 
