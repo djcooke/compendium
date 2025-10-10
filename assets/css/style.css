@@ -648,3 +648,107 @@ span.rotated {
     visibility: hidden;
   }
 }
+
+/* Edit Mode Styles */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-header h1 {
+  margin: 0;
+  flex: 1;
+}
+
+.edit-controls-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.edit-controls {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: var(--surface);
+  border-radius: 5px;
+  border-left: 4px solid var(--on-surface-highlight);
+}
+
+.edit-controls button,
+.edit-controls-inline button {
+  background-color: var(--background-highlight);
+  color: var(--on-surface-highlight);
+  border: 1px solid var(--surface-highlight);
+  padding: 6px 12px;
+  margin: 0 8px 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.edit-controls button:hover,
+.edit-controls-inline button:hover {
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
+  border-color: var(--on-surface-highlight);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.edit-controls button:active,
+.edit-controls-inline button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.edit-actions {
+  margin-top: 10px;
+}
+
+#content-editor {
+  width: 100%;
+  min-height: 400px;
+  padding: 15px;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  border: 1px solid var(--on-background-dim);
+  border-radius: 5px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#content-editor:focus {
+  outline: none;
+  border-color: var(--on-surface-highlight);
+}
+
+
+
+/* Responsive design for edit controls */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .edit-controls-inline {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .edit-actions {
+    flex-wrap: wrap;
+  }
+}
