@@ -28,7 +28,7 @@ levels you can as a group. Another option is to go up to floor 100 with matched
 groups. Soloing as far as you can also works, and while it will be more
 difficult with low aetherpool levels, it will still be good experience.
 
-**HoH/EO**: Beating floor 30 always gives +1 to both arm and armor, so it's
+**HoH/EO/PT**: Beating floor 30 always gives +1 to both arm and armor, so it's
 easiest to just spam floor 21-30 in a party or matched groups. Bonus: you'll
 also be farming potsherds this way.
 
@@ -41,7 +41,7 @@ silver chests, and also make sure not to slow down the group too much.
 ## Regen Potions
 
 <div class="surfacePane" markdown="1">
-Sustaining Potions (PotD), Empyrean Potions (HoH), and Orthos Potions (EO)
+Sustaining Potions (PotD), Empyrean Potions (HoH), Orthos Potions (EO), and Pilgrim's Potions (PT)
 grant a potent regen effect. These are extremely helpful to soloing especially,
 and you will want to have a lot of them going into a difficult floorset. Get
 them by trading potsherds to an NPC outside the dungeon.
@@ -54,7 +54,7 @@ drops, you'll want to start on floor 51 and solo as far as you can without
 using many sustaining potions. Preferably use a job that doesn't require many
 sustaining potions, such as a tank, physical ranged, or red mage.
 
-**HoH/EO**: Beating floor 30 always gives you a potsherd, so it's easiest to
+**HoH/EO/PT**: Beating floor 30 always gives you a potsherd, so it's easiest to
 just spam floor 21-30 in a party or matched groups.
 
 [Back to top](#top)
@@ -100,8 +100,7 @@ highest level food available (i640 as of patch 6.4).
 Tinctures can be useful for a temporary damage boost, which is especially
 useful to tanks. Just note that they share a cooldown with HP potions. Any
 grade Infusion or Tincture will give the maximum effect in PotD; use grade
-3+ Tinctures in HoH and the best available (grade 8 Tinctures as of patch 6.4)
-in EO for maximum effect.
+3+ Tinctures in HoH, and grade 8+ Tinctures in EO and PT.
 
 ### Misc
 
