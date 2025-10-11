@@ -32,6 +32,33 @@ traps:
     only_in: EO
     description: 'Turns you into an owlet, preventing all actions and reducing
     max HP for 30 seconds'
+chests:
+  - name: Bronze
+    image: bronze.png
+    description: 'Contain items such as potions, phoenix downs, and most importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can be exchanged for several items, including Sustaining/Empyrean/Orthos Potions, which grant a potent regen effect and are essential for soloing'
+  - name: Silver
+    image: silver.png
+    description: 'Can have one of several effects'
+    effects:
+      - effect: 'Upgrade your Aetherpool arm or armor'
+      - effect: 'Chest explodes, dealing 70% max HP damage to any players and enemies nearby'
+      - effect: 'HoH only: chest may contain magicite. There are four types of magicite:'
+        subnotes:
+          - 'Inferno, Crag, and Vortex: Summons Ifrit, Titan, or Garuda respectively, instantly killing all enemies on the floor (except bosses, to which they deal a large amount of damage). Also grants a 10-second invulnerability buff to all party members; this invulnerability takes effect immediately, so magicites can be used as a panic button if you can''t get out of an AoE.'
+          - 'Elder: Summons Odin, which has the same effect as the other magicites but *also* one-shots bosses. Much rarer than the other types, and does not appear at all before floor 31. **Note that elder magicite has been reported not to work if you don''t engage the boss in battle first!**'
+      - effect: 'EO only: chest may contain a demiclone tomestone. Demiclones are NPCs which fight alongside you until you die or leave the floor. Each player can only summon one demiclone at a time. There are three types of demiclone:'
+        subnotes:
+          - 'Unei (red): Healer-type demiclone. Deals moderate but still respectable damage; also casts Cure as needed, and periodically casts Stoneskin for a 20% max HP shield.'
+          - 'Doga (green): DPS-type demiclone. Can easily outdamage players; also periodically casts Break (10-second AoE petrify with diminishing returns).'
+          - 'Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can also use Cure. Much rarer than the other types.'
+      - effect: 'PT only: chest may contain juniper incense. Up to three pieces can be held in an inventory shared by all party members. By burning incense, players can call the faerie king to assist them in a variety of ways'
+        subnotes:
+          - 'Mazeroot Incense: Unlocks the passage to the next floor.'
+          - 'Barkbalm Incense: Healing buff.'
+          - 'Poisonfruit Incense: Kills all enemies on the floor.'
+  - name: Gold
+    image: gold.png
+    description: 'Contain pomanders - items that help you in the deep dungeon. These are detailed in the <a href="pomanders.html">Pomanders section</a>'
 ---
 
 Basic information about how deep dungeons work can be found in the official
@@ -42,11 +69,12 @@ information. Knowledge is power!
 ## On this Page:
 
 * [Rooms](#rooms)
-* [Cairns of Passage and Return](#cairns-of-passage-and-return)
+* [Room Entities](#room-entities)
 * [Enemies](#enemies)
 * [Chests](#chests)
 * [Traps](#traps)
 * [Enchantments](#enchantments)
+* [Checkpoints](#checkpoints)
 
 
 ## Rooms
@@ -77,10 +105,15 @@ treasure room, etc.
 [Back to top](#top)
 </div>
 
-## Cairns of Passage and Return
+## Room Entities
 
 <div class="surfacePane" markdown="1">
-Note: these are called "Cairns" in PotD, "Beacons" in HoH, and "Pylons" in EO.
+
+There are interactive entities in some rooms.
+
+### Cairns of Passage and Return
+
+Note: these are called "Cairns" in PotD, "Beacons" in HoH, "Pylons" in EO, and "Altars" in PT
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
@@ -106,6 +139,12 @@ current floorset.
 
 Each Cairn appears in a random room on each floor with the exception that the
 Cairn of Passage cannot appear in the starting room.
+
+### Votive Candelabras (PT only)
+
+Occasionally in PT, Votive Candelabras will spawn in a room.
+
+Lighting them will affect the area marked by the next traverse stone. While some effects are beneficial to party members, such as healing over time or weakened enemies, others may provide additional challenges, such as an increase in the number of hidden traps. 
 
 [Back to top](#top)
 </div>
@@ -181,37 +220,38 @@ Most floors will have 4-6 chests, but some floorsets have a different range.
 The range is listed on each of the floorset pages. There are three types of
 chests:
 
-* **Bronze**: contain items such as potions, phoenix downs, and most
-  importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can
-  be exchanged for several items, including Sustaining/Empyrean/Orthos Potions,
-  which grant a potent regen effect and are essential for soloing
-* **Silver**: Can have one of several effects
-  * Upgrade your Aetherpool arm or armor
-  * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
-  * HoH only: chest may contain magicite. There are four types of magicite:
-    * Inferno, Crag, and Vortex: Summons Ifrit, Titan, or Garuda respectively,
-      instantly killing all enemies on the floor (except bosses, to which they
-      deal a large amount of damage). Also grants a 10-second invulnerability
-      buff to all party members; this invulnerability takes effect immediately,
-      so magicites can be used as a panic button if you can't get out of an
-      AoE.
-    * Elder: Summons Odin, which has the same effect as the other magicites but
-      *also* one-shots bosses. Much rarer than the other types, and does not
-      appear at all before floor 31. **Note that elder magicite has been
-      reported not to work if you don't engage the boss in battle first!**
-  * EO only: chest may contain a demiclone tomestone. Demiclones are NPCs which
-    fight alongside you until you die or leave the floor. Each player can only
-    summon one demiclone at a time. There are three types of demiclone:
-    * Unei (red): Healer-type demiclone. Deals moderate but still respectable
-      damage; also casts Cure as needed, and periodically casts Stoneskin for a
-      20% max HP shield.
-    * Doga (green): DPS-type demiclone. Can easily outdamage players; also
-      periodically casts Break (10-second AoE petrify with diminishing
-      returns).
-    * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
-      also use Cure. Much rarer than the other types.
-* **Gold**: Contain pomanders - items that help you in the deep dungeon. These
-  are detailed in the [Pomanders section](pomanders.html)
+<table>
+  <thead>
+    <th colspan="2">Type</th><th>Description</th>
+  </thead>
+  <tbody>
+    {% for chest in page.chests %}
+      <tr>
+        <td><img src="{{ '/assets/images/chests/' | append: chest.image | relative_url}}" alt="{{ chest.name }} Chest" width="48" height="48"></td>
+        <td>{{ chest.name }}</td>
+        <td>
+          {{ chest.description }}
+          {% if chest.effects %}
+            <ul>
+              {% for item in chest.effects %}
+                <li>
+                  {{ item.effect }}
+                  {% if item.subnotes %}
+                    <ul>
+                      {% for subnote in item.subnotes %}
+                        <li>{{ subnote }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 Chests may also be mimics, which will attack you when you try to open them, and
 can be very dangerous, especially in the deeper floors. The type of chest that
@@ -307,6 +347,36 @@ the same group will never be stacked.
       <td>Movement speed is increased</td>
       <td class="align-center">HoH + EO</td>
     </tr>
+    <tr>
+      <td>Primordial Flesh</td>
+      <td>"Muddy minds make mud of men." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Immolation</td>
+      <td>"Fear not the fire within." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Anointment</td>
+      <td>"Time heals all wounds." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Mortification</td>
+      <td>"Heed vulnerability to gain power and rejuvenation." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Rapid Recitation</td>
+      <td>"Repeat with a swiftness your greatest abilities." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Swift Passage</td>
+      <td>"Tarry not. Stride forth." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
   </tbody>
 </table>
 
@@ -354,6 +424,11 @@ the same group will never be stacked.
       <td>Unable to sprint</td>
       <td class="align-center">All</td>
     </tr>
+    <tr>
+      <td>Incense Penalty</td>
+      <td>Use of incense is prohibited for all party members</td>
+      <td class="align-center">PT</td>
+    </tr>
   </tbody>
 </table>
 
@@ -371,8 +446,95 @@ the same group will never be stacked.
       <td>Enemies have increased attack, defense, and movement speed</td>
       <td class="align-center">All</td>
     </tr>
+    <tr>
+      <td>Foes' Frailty</td>
+      <td>"Weak are the wicked." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Gathering Gloom</td>
+      <td>"Be afeared. The plague is nigh." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Treacherous Ground</td>
+      <td>"Tread carefully for the road is perilous." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
+      <td>Blind Faith</td>
+      <td>"Piety is the true map of the righteous." - Effect unknown</td>
+      <td class="align-center">PT</td>
+    </tr>
   </tbody>
 </table>
+
+[Back to top](#top)
+</div>
+
+## Checkpoints
+
+<div class="surfacePane" markdown="1">
+Party wipes end the duty immediately with no progress saved - no experience, aetherpool, pomanders, incense or accursed hoard are retained.
+
+To access the Challenge Floors (31-100), your save file must have zero party KOs. Any wipe at any point in the file's history prevents progress beyond floor 30. This means a single death on floor 5 or floor 99 sends you back to the nearest checkpoint (or floor 1 for solo achievements).
+
+### Additional Checkpoints (PT only)
+
+Unlike other deep dungeons, Pilgrim's Traverse has additional checkpoints to mitigate this harsh penalty:
+
+<table>
+  <thead>
+    <th>Floors</th>
+    <th>Checkpoint Available</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-10</td>
+      <td class="align-center" style="color: green;">Yes</td>
+    </tr>
+    <tr>
+      <td>11-20</td>
+      <td class="align-center" style="color: red;">No</td>
+    </tr>
+    <tr>
+      <td>21-30</td>
+      <td class="align-center" style="color: green;">Yes</td>
+    </tr>
+    <tr>
+      <td>31-40</td>
+      <td class="align-center" style="color: green;">Yes</td>
+    </tr>
+    <tr>
+      <td>41-50</td>
+      <td class="align-center" style="color: red;">No</td>
+    </tr>
+    <tr>
+      <td>51-60</td>
+      <td class="align-center" style="color: green;">Yes</td>
+    </tr>
+    <tr>
+      <td>61-70</td>
+      <td class="align-center" style="color: red;">No</td>
+    </tr>
+    <tr>
+      <td>71-80</td>
+      <td class="align-center" style="color: green;">Yes</td>
+    </tr>
+    <tr>
+      <td>81-90</td>
+      <td class="align-center" style="color: red;">No</td>
+    </tr>
+    <tr>
+      <td>91-100</td>
+      <td class="align-center" style="color: red;">No</td>
+    </tr>
+  </tbody>
+</table>
+
+**Restart Points**: Floors 1, 21, 31, 51, 71
+
+Wipes send you back to the most recent restart point.
 
 [Back to top](#top)
 </div>
