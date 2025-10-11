@@ -648,3 +648,31 @@ span.rotated {
     visibility: hidden;
   }
 }
+
+/* Note Component */
+.note {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: var(--surface-highlight);
+  border-left: 4px solid var(--on-surface-highlight);
+  border-radius: 4px;
+}
+
+.note .note-title {
+  color: var(--on-surface-highlight);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.note .note-content {
+  color: var(--on-surface);
+  margin: 0;
+}
+
+.note .note-content p:first-child {
+  margin-top: 0;
+}
+
+.note .note-content p:last-child {
+  margin-bottom: 0;
+}

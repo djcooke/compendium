@@ -1,7 +1,7 @@
 
 # Deep Dungeon Compendium
 
-Contributors: please read the [contributing guidelines](./contributing.md).
+Contributors: please read the [contributing guidelines](./pages/contributing.md).
 
 ## Local Development
 
