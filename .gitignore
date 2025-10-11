@@ -9,6 +9,7 @@ vendor
 # Sass cache
 .sass-cache/
 
+
 # Bundler config & local gem installation directory
 .bundle/
 vendor/bundle/

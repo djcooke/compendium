@@ -1,0 +1,23 @@
+---
+name: Traverse Morpho
+nickname: 
+image: 
+start_floor: 
+end_floor: 
+agro:
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
+abilities:
+  - name: 
+    potency: 
+    type: 
+    description: 
+    warning: 
+---
