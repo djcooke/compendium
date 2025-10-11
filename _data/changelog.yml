@@ -1,7 +1,9 @@
 - date: 2025-10-10
   updates:
     - "Added PT information to the Preparation, Pomanders, and Resources
-      sections, courtesy of Artin"
+      sections"
+    - "Added Finh Bezalh's stream and scoring guide to the Resources page"
+    - "Above changes courtesy of Artin"
 - date: 2025-10-05
   updates:
     - "Orthos Ice Sprite doesn't explode if petrified"
