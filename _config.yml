@@ -37,6 +37,9 @@ collections:
   eo_floorsets:
     output: true
     max_floor: 100
+  pt_floorsets:
+    output: true
+    max_floor: 100
 
   potd_001_enemies:
     output: false
@@ -121,6 +124,27 @@ collections:
   eo_091_enemies:
     output: false
 
+  pt_001_enemies:
+    output: false
+  pt_011_enemies:
+    output: false
+  pt_021_enemies:
+    output: false
+  pt_031_enemies:
+    output: false
+  pt_041_enemies:
+    output: false
+  pt_051_enemies:
+    output: false
+  pt_061_enemies:
+    output: false
+  pt_071_enemies:
+    output: false
+  pt_081_enemies:
+    output: false
+  pt_091_enemies:
+    output: false
+
 defaults:
   - scope:
       path: ""
@@ -135,6 +159,11 @@ defaults:
   - scope:
       path: ""
       type: "eo_floorsets"
+    values:
+      layout: "floorset"
+  - scope:
+      path: ""
+      type: "pt_floorsets"
     values:
       layout: "floorset"
   - scope:

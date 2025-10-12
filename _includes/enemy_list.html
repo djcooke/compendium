@@ -6,190 +6,196 @@
     <select id="floorSelect">
       <option value="">None</option>
       {% for floor in (include.start_floor..ninth_floor) %}
-        <option value="{{ floor }}">{{ floor }}</option>
+      <option value="{{ floor }}">{{ floor }}</option>
       {% endfor %}
     </select>
   </div>
 </div>
 
 <div class="hscroll">
-<table class="enemyList">
-  <thead>
-    <tr>
-      {% for floor in (1..9) %}
+  <table class="enemyList">
+    <thead>
+      <tr>
+        {% for floor in (1..9) %}
         {% assign fullFloor = include.start_floor | minus: 1 | plus: floor %}
         <th class="floorCell" title="Floor {{ fullFloor }}" data-floor="{{ fullFloor }}">
           {{ floor }}
         </th>
-      {% endfor %}
-      <th class="aggroCell" title="Aggro Type">!</th>
-      <th class="textCell">Name</th>
-      <th class="warningCell">Warnings</th>
-      {% if page.dungeon != "eo" %}
-        {% for job in site.data.jobs %}
-          <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
         {% endfor %}
-      {% endif %}
-      <th class="hpCell">HP</th>
-      <th class="attackCell" title="Auto-Attack Damage">AA</th>
-      <th class="vulnerabilityCell" colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">Vulnerabilities</th>
-    </tr>
-  </thead>
-  <tbody>
-  {% assign index = 0 %}
-  {% assign base_percent = 25 %}
-  {% assign gap_percent = 100 | minus: base_percent %}
-  {% assign min_hp = include.enemies | map: 'hp' | compact | sort | first | default: 0 %}
-  {% assign hp_gap = include.enemies | map: 'hp' | compact | sort | reverse | first | default: base_percent | minus: base_percent | minus: min_hp %}
-  {% assign min_attack_damage = include.enemies | map: 'attack_damage' | compact | sort | first | default: 0 %}
-  {% assign attack_damage_gap = include.enemies | map: 'attack_damage' | compact | sort | reverse | first | default: base_percent | minus: min_attack_damage %}
-  {% for enemy in include.enemies %}
-    <tr data-start-floor="{{ enemy.start_floor }}" data-end-floor="{{ enemy.end_floor }}">
-      {% for floor in (include.start_floor..ninth_floor) %}
-        {% if enemy.start_floor <= floor and enemy.end_floor >= floor %}
-          <td class="floorCell enemyFloorIn" data-floor="{{ floor }}" {% if enemy.patrol %}title="Patrol"{% endif %}>
+        <th class="aggroCell" title="Aggro Type">!</th>
+        <th class="textCell">Name</th>
+        <th class="warningCell">Warnings</th>
+        {% if page.dungeon != "eo" %}
+        {% for job in site.data.jobs %}
+        <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
+        {% endfor %}
+        {% endif %}
+        <th class="hpCell">HP</th>
+        <th class="attackCell" title="Auto-Attack Damage">AA</th>
+        <th class="vulnerabilityCell" colspan="{% if include.resolution_possible %}6{% else %}5{% endif %}">
+          Vulnerabilities</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign index = 0 %}
+      {% assign base_percent = 25 %}
+      {% assign gap_percent = 100 | minus: base_percent %}
+      {% assign min_hp = include.enemies | map: 'hp' | compact | sort | first | default: 0 %}
+      {% assign hp_gap = include.enemies | map: 'hp' | compact | sort | reverse | first | default: base_percent | minus:
+      base_percent | minus: min_hp %}
+      {% assign min_attack_damage = include.enemies | map: 'attack_damage' | compact | sort | first | default: 0 %}
+      {% assign attack_damage_gap = include.enemies | map: 'attack_damage' | compact | sort | reverse | first | default:
+      base_percent | minus: min_attack_damage %}
+      {% for enemy in include.enemies %}
+      <tr data-start-floor="{{ enemy.start_floor }}" data-end-floor="{{ enemy.end_floor }}">
+        {% for floor in (include.start_floor..ninth_floor) %}
+        {% if enemy.start_floor <= floor and enemy.end_floor>= floor %}
+          <td class="floorCell enemyFloorIn" data-floor="{{ floor }}" {% if enemy.patrol %}title="Patrol" {% endif %}>
             {% if enemy.patrol %}
-              <img src="{{ '/assets/images/agro/patrol.svg' | relative_url }}" alt="Patrol" title="Patrol" width="15" height="24">
+            <img src="{{ '/assets/images/agro/patrol.svg' | relative_url }}" alt="Patrol" title="Patrol" width="15"
+              height="24">
             {% endif %}
           </td>
-        {% else %}
+          {% else %}
           <td class="floorCell" data-floor="{{ floor }}"></td>
-        {% endif %}
-      {% endfor %}
-      <td class="agroCell">
-        {% case enemy.agro %}
-        {% when "Sight" %}
-          {% assign agro_image = 'eye.svg' %}
-        {% when "Sound" %}
-          {% assign agro_image = 'ear.svg' %}
-        {% when "Proximity" %}
-          {% assign agro_image = 'radar.svg' %} 
-        {% else %}
-          {% assign agro_image = 'question.svg' %}
-        {% endcase %}
-        {% assign alt = enemy.agro | default: 'Unknown' | append: ' agro' %}
-        <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}"
-            alt="{{ alt }}" title="{{ alt }}" width="24" height="24">
-      </td>
-      <td class="textCell">
-        <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif %}</a>
-      </td>
-
-      <td class="iconCell">
-        {% assign warnings = enemy.abilities | map: "warning" | uniq | sort_natural %}
-        {% for label in warnings %}
-          {% assign warning = site.data.warnings[label] %}
-          {% if warning %}
-            <img class="warningIcon"
-                src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
-                alt="{{ warning.description }}" title="{{ warning.description }}"
-                width="16" height="16">
           {% endif %}
-        {% endfor %}
-      </td>
+          {% endfor %}
+          <td class="agroCell">
+            {% case enemy.agro %}
+            {% when "Sight" %}
+            {% assign agro_image = 'eye.svg' %}
+            {% when "Sound" %}
+            {% assign agro_image = 'ear.svg' %}
+            {% when "Proximity" %}
+            {% assign agro_image = 'radar.svg' %}
+            {% else %}
+            {% assign agro_image = 'question.svg' %}
+            {% endcase %}
+            {% assign alt = enemy.agro | default: 'Unknown' | append: ' agro' %}
+            <img src="{{ '/assets/images/agro/' | append: agro_image | relative_url }}" alt="{{ alt }}"
+              title="{{ alt }}" width="24" height="24">
+          </td>
+          <td class="textCell">
+            <a href="?enemy={{ index }}#enemies" }}>{{ enemy.name }}{% if enemy.family %} ({{ enemy.family }}){% endif
+              %}</a>
+          </td>
 
-      {% if page.dungeon != "eo" %}
-        {% for job in site.data.jobs %}
+          <td class="iconCell">
+            {% assign warnings = enemy.abilities | map: "warning" | uniq | sort_natural %}
+            {% for label in warnings %}
+            {% assign warning = site.data.warnings[label] %}
+            {% if warning %}
+            <img class="warningIcon" src="{{ '/assets/images/warnings/' | append: warning.image | relative_url }}"
+              alt="{{ warning.description }}" title="{{ warning.description }}" width="16" height="16">
+            {% endif %}
+            {% endfor %}
+          </td>
+
+          {% if page.dungeon != "eo" %}
+          {% for job in site.data.jobs %}
           <td class="difficultyCell jobSpecific job{{ job }}">
             {% if enemy.job_specifics and enemy.job_specifics[job] and enemy.job_specifics[job].difficulty %}
-              {% assign word_count = enemy.job_specifics[job].difficulty | split: ' ' | size %}
-              {% assign difficulty = enemy.job_specifics[job].difficulty | split: ' ' | first %}
-              {% case difficulty %}
-                {% when 'Easy' %}
-                  {% assign difficulty_class = 'easy' %}
-                {% when 'Medium' %}
-                  {% assign difficulty_class = 'medium' %}
-                {% when 'Hard' %}
-                  {% assign difficulty_class = 'hard' %}
-                {% when 'Extreme' %}
-                  {% assign difficulty_class = 'extreme' %}
-                {% else %}
-                  {% assign difficulty_class = nil %}
-              {% endcase %}
-              {% if difficulty_class %}
-                <span class="{{ difficulty_class }}">{{ difficulty }}</span>{% if word_count > 1 %}*{% endif %}
-              {% else %}
-                ?
-              {% endif %}
+            {% assign word_count = enemy.job_specifics[job].difficulty | split: ' ' | size %}
+            {% assign difficulty = enemy.job_specifics[job].difficulty | split: ' ' | first %}
+            {% case difficulty %}
+            {% when 'Easy' %}
+            {% assign difficulty_class = 'easy' %}
+            {% when 'Medium' %}
+            {% assign difficulty_class = 'medium' %}
+            {% when 'Hard' %}
+            {% assign difficulty_class = 'hard' %}
+            {% when 'Extreme' %}
+            {% assign difficulty_class = 'extreme' %}
             {% else %}
-              ?
+            {% assign difficulty_class = nil %}
+            {% endcase %}
+            {% if difficulty_class %}
+            <span class="{{ difficulty_class }}">{{ difficulty }}</span>{% if word_count > 1 %}*{% endif %}
+            {% else %}
+            ?
+            {% endif %}
+            {% else %}
+            ?
             {% endif %}
           </td>
-        {% endfor %}
-      {% endif %}
+          {% endfor %}
+          {% endif %}
 
-      {% assign class = "hpCell" %}
-      {% assign percent = nil %}
-      {% assign hp = nil %}
-      {% if enemy.extreme_hp %}
-        {% assign class = class | append: " extremeCell" %}
-        {% assign hp = enemy.extreme_hp %}
-      {% elsif enemy.hp %}
-        {% assign hp = enemy.hp %}
-        {% assign percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}
-      {% endif %}
-      <td class="{{ class }}"
-          {% if percent %}style="--percent:{{ percent }}%"{% endif %}
-          {% if hp >= 10000 %}title="{{ hp }}"{% endif %}>
-      {% if hp >= 10000 %}
-        {{ hp | divided_by: 1000 }}K
-      {% else %}
-        {{ hp | default: '?' }}
-      {% endif %}
-      </td>
-
-      {% assign class = "attackCell" %}
-      {% assign percent = nil %}
-      {% assign damage = nil %}
-      {% if enemy.extreme_attack_damage %}
-        {% assign class = class | append: " extremeCell" %}
-        {% assign damage = enemy.extreme_attack_damage %}
-      {% elsif enemy.attack_damage %}
-        {% assign damage = enemy.attack_damage %}
-        {% assign percent = damage | minus: min_attack_damage | times: gap_percent | divided_by: attack_damage_gap | plus: base_percent %}
-      {% endif %}
-      <td class="{{ class }}"
-          {% if percent %}style="--percent:{{ percent }}%"{% endif %}
-          {% if damage >= 10000 %}title="{{ damage }}"{% endif %}>
-      {% if damage >= 10000 %}
-        {{ damage | divided_by: 1000 }}K
-      {% else %}
-        {{ damage | default: '?' }}
-      {% endif %}
-      </td>
-
-      {% for status in site.data.statuses %}
-        {% if status == 'resolution' and include.resolution_possible != true %}
-          {% continue %}
-        {% endif %}
-        <td class="iconCell">
-          {% assign image = '/assets/images/status/' | append: status %}
-          {% if enemy.vulnerabilities[status] == true %}
-            {% if status == 'resolution' %}
-              {% assign alt = 'Weak to ' %}
+          {% assign class = "hpCell" %}
+          {% assign percent = nil %}
+          {% assign hp = nil %}
+          {% if enemy.extreme_hp %}
+          {% assign class = class | append: " extremeCell" %}
+          {% assign hp = enemy.extreme_hp %}
+          {% elsif enemy.hp %}
+          {% assign hp = enemy.hp %}
+          {% if hp_gap > 0 %}
+          {% assign percent = enemy.hp | minus: min_hp | times: gap_percent | divided_by: hp_gap | plus: base_percent %}
+          {% endif %}
+          {% endif %}
+          <td class="{{ class }}" {% if percent %}style="--percent:{{ percent }}%" {% endif %} {% if hp>= 10000
+            %}title="{{ hp }}"{% endif %}>
+            {% if hp >= 10000 %}
+            {{ hp | divided_by: 1000 }}K
             {% else %}
-              {% assign alt = 'Vulnerable to ' %}
+            {{ hp | default: '?' }}
+            {% endif %}
+          </td>
+
+          {% assign class = "attackCell" %}
+          {% assign percent = nil %}
+          {% assign damage = nil %}
+          {% if enemy.extreme_attack_damage %}
+          {% assign class = class | append: " extremeCell" %}
+          {% assign damage = enemy.extreme_attack_damage %}
+          {% elsif enemy.attack_damage %}
+          {% assign damage = enemy.attack_damage %}
+          {% if attack_damage_gap > 0 %}
+          {% assign percent = damage | minus: min_attack_damage | times: gap_percent | divided_by: attack_damage_gap |
+          plus: base_percent %}
+          {% endif %}
+          {% endif %}
+          <td class="{{ class }}" {% if percent %}style="--percent:{{ percent }}%" {% endif %} {% if damage>= 10000
+            %}title="{{ damage }}"{% endif %}>
+            {% if damage >= 10000 %}
+            {{ damage | divided_by: 1000 }}K
+            {% else %}
+            {{ damage | default: '?' }}
+            {% endif %}
+          </td>
+
+          {% for status in site.data.statuses %}
+          {% if status == 'resolution' and include.resolution_possible != true %}
+          {% continue %}
+          {% endif %}
+          <td class="iconCell">
+            {% assign image = '/assets/images/status/' | append: status %}
+            {% if enemy.vulnerabilities[status] == true %}
+            {% if status == 'resolution' %}
+            {% assign alt = 'Weak to ' %}
+            {% else %}
+            {% assign alt = 'Vulnerable to ' %}
             {% endif %}
             {% assign alt = alt | append: status %}
-          {% elsif enemy.vulnerabilities[status] == false %}
+            {% elsif enemy.vulnerabilities[status] == false %}
             {% assign image = image | append: '_immune' %}
             {% if status == 'resolution' %}
-              {% assign alt = 'Not weak to ' %}
+            {% assign alt = 'Not weak to ' %}
             {% else %}
-              {% assign alt = 'Immune to ' %}
+            {% assign alt = 'Immune to ' %}
             {% endif %}
             {% assign alt = alt | append: status %}
-          {% else %}
+            {% else %}
             {% assign image = image | append: '_unknown' %}
             {% assign alt = status | capitalize | append: ' status unknown' %}
-          {% endif %}
-          {% assign image = image | append: '.png' | relative_url %}
-          <img src="{{ image }}" alt="{{ alt }}" title="{{ alt }}" width="27" height="32">
-        </td>
+            {% endif %}
+            {% assign image = image | append: '.png' | relative_url %}
+            <img src="{{ image }}" alt="{{ alt }}" title="{{ alt }}" width="27" height="32">
+          </td>
+          {% endfor %}
+      </tr>
+      {% assign index = index | plus: 1 %}
       {% endfor %}
-    </tr>
-    {% assign index = index | plus: 1 %}
-  {% endfor %}
-  </tbody>
-</table>
+    </tbody>
+  </table>
 </div>
