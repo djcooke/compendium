@@ -535,9 +535,9 @@ Unlike other deep dungeons, Pilgrim's Traverse has additional checkpoints to mit
   </tbody>
 </table>
 
-**Restart Points**: Floors 1, 21, 31, 51, 71
+**Checkpoints**: Floors 1, 21, 31, 51, 71
 
-Wipes send you back to the most recent restart point.
+Wipes send you back to the most recent checkpoint.
 
 [Back to top](#top)
 </div>
