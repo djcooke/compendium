@@ -1,0 +1,10 @@
+---
+name: "Traverse Death"
+species: "Death"
+level: 119
+start_floor: 55
+end_floor: 57
+patrol: false
+mimic: false
+abilities: ['Death Touch']
+---
