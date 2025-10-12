@@ -144,7 +144,60 @@ Cairn of Passage cannot appear in the starting room.
 
 Occasionally in PT, Votive Candelabras will spawn in a room.
 
-Lighting them will affect the area marked by the next traverse stone. While some effects are beneficial to party members, such as healing over time or weakened enemies, others may provide additional challenges, such as an increase in the number of hidden traps. 
+Lighting them will affect the area marked by the next traverse stone. While some effects are beneficial to party members, such as healing over time or weakened enemies, others may provide additional challenges, such as an increase in the number of hidden traps.
+
+#### Votive Effects
+
+Votive candelabras can apply various effects that are separate from the standard floor enchantments. Unlike enchantments, you can have multiple votive effects active along with regular enchantments:
+
+<table>
+  <thead>
+    <th class="textCell">Votive Effect</th>
+    <th class="textCell">Description</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primordial Flesh</td>
+      <td>"Muddy minds make mud of men." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Immolation</td>
+      <td>"Fear not the fire within." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Anointment</td>
+      <td>"Time heals all wounds." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Mortification</td>
+      <td>"Heed vulnerability to gain power and rejuvenation." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Rapid Recitation</td>
+      <td>"Repeat with a swiftness your greatest abilities." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Swift Passage</td>
+      <td>"Tarry not. Stride forth." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Foes' Frailty</td>
+      <td>"Weak are the wicked." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Gathering Gloom</td>
+      <td>"Be afeared. The plague is nigh." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Treacherous Ground</td>
+      <td>"Tread carefully for the road is perilous." - Effect unknown</td>
+    </tr>
+    <tr>
+      <td>Blind Faith</td>
+      <td>"Piety is the true map of the righteous." - Effect unknown</td>
+    </tr>
+  </tbody>
+</table> 
 
 [Back to top](#top)
 </div>
@@ -347,36 +400,6 @@ the same group will never be stacked.
       <td>Movement speed is increased</td>
       <td class="align-center">HoH + EO</td>
     </tr>
-    <tr>
-      <td>Primordial Flesh</td>
-      <td>"Muddy minds make mud of men." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Immolation</td>
-      <td>"Fear not the fire within." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Anointment</td>
-      <td>"Time heals all wounds." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Mortification</td>
-      <td>"Heed vulnerability to gain power and rejuvenation." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Rapid Recitation</td>
-      <td>"Repeat with a swiftness your greatest abilities." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Swift Passage</td>
-      <td>"Tarry not. Stride forth." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
   </tbody>
 </table>
 
@@ -446,26 +469,6 @@ the same group will never be stacked.
       <td>Enemies have increased attack, defense, and movement speed</td>
       <td class="align-center">All</td>
     </tr>
-    <tr>
-      <td>Foes' Frailty</td>
-      <td>"Weak are the wicked." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Gathering Gloom</td>
-      <td>"Be afeared. The plague is nigh." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Treacherous Ground</td>
-      <td>"Tread carefully for the road is perilous." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
-    <tr>
-      <td>Blind Faith</td>
-      <td>"Piety is the true map of the righteous." - Effect unknown</td>
-      <td class="align-center">PT</td>
-    </tr>
   </tbody>
 </table>
 
@@ -477,7 +480,7 @@ the same group will never be stacked.
 <div class="surfacePane" markdown="1">
 Party wipes end the duty immediately with no progress saved - no experience, aetherpool, pomanders, incense or accursed hoard are retained.
 
-To access the Challenge Floors (31-100), your save file must have zero party KOs. Any wipe at any point in the file's history prevents progress beyond floor 30. This means a single death on floor 5 or floor 99 sends you back to the nearest checkpoint (or floor 1 for solo achievements).
+To access the Challenge Floors (31-100 or 51-200 for PotD), your save file must have zero party KOs. Any wipe at any point in the file's history prevents progress beyond floor 30. This means a single death on floor 5 or floor 99 sends you back to the nearest checkpoint (or floor 1 for solo achievements).
 
 ### Additional Checkpoints (PT only)
 
