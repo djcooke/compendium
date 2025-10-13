@@ -47,59 +47,72 @@ layout: default
 <h2 id=enemies>Enemy Details</h2>
 
 {% assign enemy_collection = page.dungeon | append: '_' | append: page.floorset | append: '_enemies' %}
-{% assign enemies_sorted = site[enemy_collection] | sort: 'end_floor' | sort: 'start_floor' | sort: 'sort_order' %}
+{% assign enemies_raw = site[enemy_collection] %}
+{% if enemies_raw %}
+{% assign enemies_sorted = enemies_raw | sort: 'end_floor' | sort: 'start_floor' | sort: 'sort_order' %}
+{% else %}
+{% assign enemies_sorted = null %}
+{% endif %}
 {% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
-    | append: page.floorset | append: '/' | relative_url %}
+| append: page.floorset | append: '/' | relative_url %}
 <div id="galleryContainer">
   <div class="imagePane">
+    {% if enemies_sorted %}
     {% for enemy in enemies_sorted %}
-      {% if enemy.image %}
-        <img class="galleryImage" src="{{ image_dir | append: enemy.image }}">
-      {% else %}
-        <span class="galleryImage">Picture Needed</span>
-      {% endif %}
+    {% if enemy.image %}
+    <img class="galleryImage" src="{{ image_dir | append: enemy.image }}">
+    {% else %}
+    <span class="galleryImage">Picture Needed</span>
+    {% endif %}
     {% endfor %}
+    {% endif %}
     <div id="galleryLeft" onClick="selectPrevious()">&#10094;</div>
     <div id="galleryRight" onClick="selectNext()">&#10095;</div>
   </div>
   <div id="galleryBottom" class="surfacePane">
+    {% if enemies_sorted %}
     {% for enemy in enemies_sorted %}
-      <div class="galleryItem">
-        {% include enemy.html enemy=enemy resolution_possible=page.resolution_possible %}
-      </div>
+    <div class="galleryItem">
+      {% include enemy.html enemy=enemy resolution_possible=page.resolution_possible %}
+    </div>
     {% endfor %}
+    {% endif %}
     <h4>
       Job-Specific Notes:
       {% include job_select.html %}
     </h4>
+    {% if enemies_sorted %}
     {% for enemy in enemies_sorted %}
-      <div class="galleryJobNotes">
-        {% for job in site.data.jobs %}
-          <div class="jobSpecific job{{ job }}">
-            {% if enemy.job_specifics and enemy.job_specifics[job] %}
-              <p>Difficulty: {{ enemy.job_specifics[job].difficulty | default: 'Unrated' }}</p>
-              {% assign notes = enemy.job_specifics[job].notes %}
-              {% include notes.html notes=notes hide_empty=true %}
-            {% else %}
-              <p>Difficulty: Unrated</p>
-            {% endif %}
-          </div>
-        {% endfor %}
+    <div class="galleryJobNotes">
+      {% for job in site.data.jobs %}
+      <div class="jobSpecific job{{ job }}">
+        {% if enemy.job_specifics and enemy.job_specifics[job] %}
+        <p>Difficulty: {{ enemy.job_specifics[job].difficulty | default: 'Unrated' }}</p>
+        {% assign notes = enemy.job_specifics[job].notes %}
+        {% include notes.html notes=notes hide_empty=true %}
+        {% else %}
+        <p>Difficulty: Unrated</p>
+        {% endif %}
       </div>
+      {% endfor %}
+    </div>
     {% endfor %}
+    {% endif %}
   </div>
 </div>
 
+{% if enemies_sorted %}
 {% include enemy_list.html enemies=enemies_sorted
-  start_floor=page.floorset resolution_possible=page.resolution_possible %}
+start_floor=page.floorset resolution_possible=page.resolution_possible %}
+{% endif %}
 
 <h2>Boss: {{ page.boss }}</h2>
 
 <div id="bossPane">
   {% if page.boss_image %}
-    <div class="imagePane">
-      <img class="surfaceImage" src="{{ image_dir | append: page.boss_image }}">
-    </div>
+  <div class="imagePane">
+    <img class="surfaceImage" src="{{ image_dir | append: page.boss_image }}">
+  </div>
   {% endif %}
   <div class="surfacePane">
 
@@ -111,8 +124,8 @@ layout: default
       </div>
       <div>
         <label>Auto-attack:
-          {% include damage.html name=page.boss_attack_name 
-            damage=page.boss_attack_damage type=page.boss_attack_type %}
+          {% include damage.html name=page.boss_attack_name
+          damage=page.boss_attack_damage type=page.boss_attack_type %}
         </label>
       </div>
     </div>
@@ -129,23 +142,23 @@ layout: default
     </h4>
 
     {% for job in site.data.jobs %}
-      <div class="jobSpecific job{{ job }}">
-          {% assign notes = nil %}
-          {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].notes %}
-            {% assign notes = page.boss_job_specifics[job].notes %}
-          {% endif %}
-          {% include notes.html notes=notes default='No notes written' %}
-          <h4>Job-Specific Kill Times</h4>
-          <ul>
-            {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].timing %}
-              {% for note in page.boss_job_specifics[job].timing %}
-                <li>{{ note }}</li>
-              {% endfor %}
-            {% else %}
-              <li>No times recorded</li>
-            {% endif %}
-          </ul>
-      </div>
+    <div class="jobSpecific job{{ job }}">
+      {% assign notes = nil %}
+      {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].notes %}
+      {% assign notes = page.boss_job_specifics[job].notes %}
+      {% endif %}
+      {% include notes.html notes=notes default='No notes written' %}
+      <h4>Job-Specific Kill Times</h4>
+      <ul>
+        {% if page.boss_job_specifics and page.boss_job_specifics[job] and page.boss_job_specifics[job].timing %}
+        {% for note in page.boss_job_specifics[job].timing %}
+        <li>{{ note }}</li>
+        {% endfor %}
+        {% else %}
+        <li>No times recorded</li>
+        {% endif %}
+      </ul>
+    </div>
     {% endfor %}
   </div>
 </div>
