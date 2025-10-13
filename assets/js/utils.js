@@ -48,5 +48,8 @@ function getFloorsetType(currentPath) {
   if (currentPath.indexOf('/eo_floorsets/') !== -1) {
     return 'eo';
   }
+  if (currentPath.indexOf('/pt_floorsets/') !== -1) {
+    return 'pt';
+  }
   return null;
 }

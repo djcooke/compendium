@@ -1,5 +1,5 @@
 ---
-name: "Traverse Peaseblossom"
+name: "Traverse Peaseblossor"
 species: "Biloko"
 level: 98
 start_floor: 13
