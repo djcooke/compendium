@@ -1,10 +1,10 @@
 ---
 name: Traverse Morpho
-nickname: 
+nickname: Morpho
 image: 
 start_floor: 
 end_floor: 
-agro:
+agro: Sight
 hp: 
 attack_damage: 
 attack_type: 
@@ -13,11 +13,11 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
+  - name: Incubus
     potency: 
     type: 
-    description: 
+    description: 'Telegraphed pointblank AoE'
     warning: 
 ---

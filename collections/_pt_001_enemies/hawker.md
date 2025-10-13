@@ -1,6 +1,6 @@
 ---
-name: 
-nickname: 
+name: Traverse Hawker
+nickname: Hawker
 image: 
 start_floor: 
 end_floor: 
@@ -13,11 +13,11 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
+  - name: Venom
     potency: 
     type: 
-    description: 
+    description: 'Telegraphed conal AoE'
     warning: 
 ---

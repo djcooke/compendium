@@ -1,9 +1,10 @@
 ---
-name: 
-nickname: 
+name: Traverse Rosebear
+nickname: Rosebear
 image: 
 start_floor: 
 end_floor: 
+patrol: true
 agro:
 hp: 
 attack_damage: 
@@ -13,11 +14,6 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
-    potency: 
-    type: 
-    description: 
-    warning: 
 ---

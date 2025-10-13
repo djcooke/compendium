@@ -1,6 +1,6 @@
 ---
-name: 
-nickname: 
+name: Traverse Rowan
+nickname: Rowan
 image: 
 start_floor: 
 end_floor: 
@@ -13,11 +13,10 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
+  - name: Canopy
     potency: 
     type: 
-    description: 
-    warning: 
+    description: 'Telegraphed conal AoE'
 ---

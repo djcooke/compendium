@@ -1,10 +1,10 @@
 ---
-name: 
-nickname: 
+name: Traverse Killer Bee
+nickname: Killer Bee
 image: 
-start_floor: 
-end_floor: 
-agro:
+start_floor: 6
+end_floor: 9
+agro: Sight
 hp: 
 attack_damage: 
 attack_type: 
@@ -13,11 +13,11 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
+  - name: Unfinal sting
     potency: 
     type: 
-    description: 
+    description: 'Telegraphed line AoE, inflicts 15s stacking poison debuff'
     warning: 
 ---

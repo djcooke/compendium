@@ -1,6 +1,6 @@
 ---
-name: 
-nickname: 
+name: Traverse Moss Fungus
+nickname: Moss Fungus
 image: 
 start_floor: 
 end_floor: 
@@ -13,11 +13,6 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
-  - name: 
-    potency: 
-    type: 
-    description: 
-    warning: 
 ---
