@@ -227,11 +227,13 @@ chests:
       Return, and summons Feo Ul to assist in battle.
     For both barkbalm and mazeroot incense, Feo will attack alongside the
     incense user and heal party members whose HP falls below 70%. She also has
-    one unique 20-second cooldown action for each type:
-    * Barkbalm - an AoE lightning spell which deals direct damage and applies a
-      30-second DoT. This damage does *not* generate aggro.
-    * Mazeroot - a wide-angle 20y conal AoE applying a 30-second Witching-like
-      transformation to all enemies in the cone.
+    one unique action for each type:
+    * Barkbalm - an AoE lightning spell with a 15-second cooldown which deals
+      direct damage and applies a 30-second DoT. This damage does *not* 
+      generate aggro.
+    * Mazeroot - a wide-angle 20y conal AoE debuff with a 20-second cooldown.
+      Applies a 30-second Witching-like transformation to all enemies in the
+      cone.
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
   are detailed in the [Pomanders section](pomanders.html)
 
