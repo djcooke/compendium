@@ -20,18 +20,22 @@ traps:
     image: toading.png
     only_in: PotD
     description: 'Turns you into a toad, preventing all actions and reducing max
-    HP for 20 seconds. Beware snakes while you are toaded, as they will use
-    Devour to instantly kill a toad'
+    HP by 30% for 20 seconds. Beware snakes while you are toaded, as they will
+    use Devour to instantly kill a toad'
   - name: Otter
     image: otter.png
     only_in: HoH
     description: 'Turns you into an otter, preventing all actions and reducing
-    max HP for 30 seconds'
+    max HP by 50% for 30 seconds'
   - name: Owlet
     image: owlet.png
     only_in: EO
     description: 'Turns you into an owlet, preventing all actions and reducing
-    max HP for 30 seconds'
+    max HP by 50% for 30 seconds'
+  - name: Faerie
+    only_in: PT
+    description: 'Turns you into a faerie, preventing all actions and reducing
+    max HP by 50% for 30 seconds'
 ---
 
 Basic information about how deep dungeons work can be found in the official
@@ -81,6 +85,7 @@ treasure room, etc.
 
 <div class="surfacePane" markdown="1">
 Note: these are called "Cairns" in PotD, "Beacons" in HoH, and "Pylons" in EO.
+PT uses "Pylon of Passage" and "Altar of Return".
 
 The number of enemies you must kill to activate the Cairns is random, with a
 range that varies depending on the floorset. The range for the Cairn of Passage
@@ -210,6 +215,25 @@ chests:
       returns).
     * Onion Knight (orange): All-rounder demiclone. Stronger than Doga and can
       also use Cure. Much rarer than the other types.
+  * PT only: chest may contain an incense. Using incense will summon Feo Ul to
+    help you in various ways depending on the incense type:
+    * Poisonfruit: Grants all party members 10 seconds of invulnerability,
+      kills all normal enemies on the floor, and deals damage to bosses (like
+      HoH magicite).
+    * Barkbalm: Grants all party members double max HP, and summons Feo Ul to
+      assist in battle.
+    * Mazeroot: Reveals the map (like the Sight pomander), clears all floor
+      enchantments (like Serenity), opens the Pylon of Passage and Altar of
+      Return, and summons Feo Ul to assist in battle.
+    For both barkbalm and mazeroot incense, Feo will attack alongside the
+    incense user and heal party members whose HP falls below 70%. She also has
+    one unique action for each type:
+    * Barkbalm - an AoE lightning spell with a 15-second cooldown which deals
+      direct damage and applies a 30-second DoT. This damage does *not* 
+      generate aggro.
+    * Mazeroot - a wide-angle 20y conal AoE debuff with a 20-second cooldown.
+      Applies a 30-second Witching-like transformation to all enemies in the
+      cone.
 * **Gold**: Contain pomanders - items that help you in the deep dungeon. These
   are detailed in the [Pomanders section](pomanders.html)
 
@@ -274,12 +298,12 @@ the same group will never be stacked.
     <tr>
       <td>Amnesia</td>
       <td>Unable to use abilities</td>
-      <td class="align-center">All</td>
+      <td class="align-center">PotD + HoH + EO</td>
     </tr>
     <tr>
       <td>Blind</td>
       <td>Encroaching darkness is lowering accuracy</td>
-      <td class="align-center">All</td>
+      <td class="align-center">PotD + HoH + EO</td>
     </tr>
     <tr>
       <td>Damage Down</td>
@@ -290,7 +314,7 @@ the same group will never be stacked.
       <td>Haste</td>
       <td>Weaponskill cast time and recast time, spell cast time and recast
       time, and auto-attack delay are reduced</td>
-      <td class="align-center">All</td>
+      <td class="align-center">PotD + HoH + EO</td>
     </tr>
     <tr>
       <td>HP Penalty</td>
@@ -305,7 +329,7 @@ the same group will never be stacked.
     <tr>
       <td>Sprint</td>
       <td>Movement speed is increased</td>
-      <td class="align-center">HoH + EO</td>
+      <td class="align-center">HoH + EO + PT</td>
     </tr>
   </tbody>
 </table>
@@ -331,6 +355,11 @@ the same group will never be stacked.
       <td class="align-center">EO</td>
     </tr>
     <tr>
+      <td>Incense Penalty</td>
+      <td>Unable to use incense</td>
+      <td class="align-center">PT</td>
+    </tr>
+    <tr>
       <td>Item Penalty</td>
       <td>Unable to use items or pomanders. Exception: you can still use a
       Pomander of Serenity to remove all enchantments</td>
@@ -347,12 +376,12 @@ the same group will never be stacked.
       Pomander of Rage/Dread will not be useful; however, it also prevents
       enemies' knockback and draw-in abilities, which can be beneficial in some
       cases</td>
-      <td class="align-center">PotD + EO</td>
+      <td class="align-center">PotD + EO + PT</td>
     </tr>
     <tr>
       <td>Sprint Penalty</td>
       <td>Unable to sprint</td>
-      <td class="align-center">All</td>
+      <td class="align-center">PotD</td>
     </tr>
   </tbody>
 </table>
@@ -373,6 +402,69 @@ the same group will never be stacked.
     </tr>
   </tbody>
 </table>
+
+[Back to top](#top)
+
+## Votives
+
+<div class="surfacePane" markdown="1">
+Votives are objects unique to PT which randomly spawn on a floor. Interacting
+with a votive activates it, adding a random effect to the next floor. These
+effects are separate from floor enchantments, and are displayed underneath the
+map; if the current floor has a votive effect, it will be displayed on the
+bottom left next to the votive icon, and if you've activated a votive on the
+current floor, the effect it will apply to the next floor will be shown on the
+bottom right.
+
+When you enter a floor, if a votive is present on the floor, you will see a
+message in the log reading: "Something calls out for warmth..." The room with
+the votive is indicated with an icon on the map, which disappears when the
+votive is activated. Votives will never spawn on floor 9 of a floorset.
+
+Votives can apply any of the following effects (only one effect is applied per
+votive). Negative effects are not applied until floor 31 and later.
+
+#### Positive effects:
+
+* **Anointment**: Grants 100% max HP regen to all party members.
+* **Foes' Frailty**: Applies Frailty to all enemies. Unlike the HoH pomander,
+  this applies even to enemies which spawn after entering the floor (such as
+  respawns, luring traps, or mimics).
+* **Mortification**: Grants 22.4% leech (recover 22.4% of damage dealt as HP)
+  and 30% vulnerability up to all party members. Cancelling the Mortification
+  buff removes both of these effects.
+* **Immolation**: Transforms the party into Godmother Bombs, granting a Big
+  Burst ability which deals massive damage to enemies in a 15y radius from the
+  player. This damage will almost always be a one-shot kill, though at low
+  aetherpool levels or with multiple buff/debuff combinations it might still
+  take two hits to kill some enemies. Also grants all party members double max
+  HP, which is a separate buff and is not removed when you cancel the
+  transformation; this can stack with the barkbalm buff for a total of 4x max
+  HP.
+* **Primordial Flesh**: Transforms the party into mudballs, granting a dash
+  ability which inflicts knockback and 100% HP damage to enemies in its path.
+  Like PotD's Rage and EO's Dread, this does not kill enemies if the floor has
+  the Knockback Penalty enchantment (or if the enemy is immune to knockback),
+  but it does much more damage than those pomanders, allowing you to kill
+  enemies in typically 2-3 hits.
+* **Rapid Recitation**: Grants 50% reduced cooldown time to all party members.
+  This does not affect the GCD, but instead reduces abilities' own cooldowns by
+  half. Abilities with charges are not affected.
+* **Swift Passage**: Grants super sprint to all party members. This sprint is
+  significantly faster than regular sprint and generally outspeeds enemy
+  movement.
+
+#### Negative effects:
+
+* **Blind Faith**: Hides the map. Sight (or mazeroot incense) will cancel the
+  effect.
+* **Gathering Gloom**: Forces the floor to include the Gloom enchantment. The
+  enchantment can be removed with Serenity (or mazeroot incense) as usual. The
+  votive itself has no other effect.
+* **Treacherous Ground**: Increases the number of traps which spawn on the
+  floor. This does not appear to add more than one trap per room or add traps
+  in the starting room or hallways. The traps can be revealed with Sight (or
+  mazeroot incense) or removed with Safety as usual.
 
 [Back to top](#top)
 </div>

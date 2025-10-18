@@ -2,7 +2,7 @@
 name: Lost Goblin
 nickname: Goblin
 image: goblin.png
-start_floor: 4
+start_floor: 3
 end_floor: 6
 patrol: true
 agro: Sight
