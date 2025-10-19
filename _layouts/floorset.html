@@ -51,7 +51,7 @@ layout: default
 {% if enemies_raw %}
 {% assign enemies_sorted = enemies_raw | sort: 'end_floor' | sort: 'start_floor' | sort: 'sort_order' %}
 {% else %}
-{% assign enemies_sorted = null %}
+{% assign enemies_sorted = nil %}
 {% endif %}
 {% assign image_dir = '/assets/images/' | append: page.dungeon | append: '/'
 | append: page.floorset | append: '/' | relative_url %}
