@@ -6,8 +6,8 @@ start_floor: 8
 end_floor: 9
 agro: Sound
 hp: 
-attack_damage: Physical
-attack_type: 
+attack_damage: 
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 

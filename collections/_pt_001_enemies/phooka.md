@@ -18,5 +18,5 @@ abilities:
   - name: Tornado
     potency: 
     type: 
-    description: 'Telegrpahed pointblank AoE, interruptable'
+    description: 'Telegraphed pointblank AoE, interruptable'
 ---
