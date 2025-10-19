@@ -1,6 +1,7 @@
 ---
 name: "Traverse Caracal"
-family: "Coeurl (Panther)"
+image: caracal.png
+family: "Coeurl"
 level: 100
 start_floor: 55
 end_floor: 57

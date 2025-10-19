@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Petulance"
+image: petulance.png
 family: "Calofisteri"
 level: 100
 start_floor: 38

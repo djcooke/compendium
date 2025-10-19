@@ -1,5 +1,6 @@
 ---
 name: "Traverse Guardian"
+image: guardian.png
 family: "Lozatl"
 level: 100
 start_floor: 56

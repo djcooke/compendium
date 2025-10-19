@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Insult"
+image: insult.png
 family: "Hobgoblin"
 level: 100
 start_floor: 21

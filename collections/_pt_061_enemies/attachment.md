@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Attachment"
+image: attachment.png
 family: "Dagon"
 level: 100
 start_floor: 65

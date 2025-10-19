@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Conceit"
+image: conceit.png
 family: "Bear"
 level: 100
 start_floor: 18

@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Complacency"
+image: complacency.png
 family: "Belladonna"
 level: 99
 start_floor: 16

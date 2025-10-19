@@ -1,5 +1,6 @@
 ---
 name: "Traverse Cliffkite"
+image: cliffkite.png
 family: "Kukulkan"
 level: 100
 start_floor: 44

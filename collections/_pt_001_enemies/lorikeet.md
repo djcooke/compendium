@@ -1,7 +1,7 @@
 ---
 name: Traverse Lorikeet
 nickname: Lorikeet
-image: 
+image: lorikeet.png
 start_floor: 
 end_floor: 
 agro:

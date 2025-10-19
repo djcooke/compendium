@@ -1,7 +1,7 @@
 ---
 name: Traverse Rowan
 nickname: Rowan
-image: 
+image: rowan.png
 start_floor: 
 end_floor: 
 agro:

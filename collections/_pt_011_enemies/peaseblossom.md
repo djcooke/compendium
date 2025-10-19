@@ -1,5 +1,6 @@
 ---
-name: "Traverse Peaseblossor"
+name: "Traverse Peaseblossom"
+image: peaseblossom.png
 family: "Biloko"
 level: 98
 start_floor: 13

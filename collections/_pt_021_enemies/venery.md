@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Venery"
+image: venery.png
 family: "Succubus"
 level: 100
 start_floor: 25

@@ -1,7 +1,7 @@
 ---
 name: Traverse Morpho
 nickname: Morpho
-image: 
+image: morpho.png
 start_floor: 
 end_floor: 
 agro: Sight

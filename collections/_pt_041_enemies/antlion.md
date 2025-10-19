@@ -1,5 +1,6 @@
 ---
 name: "Traverse Antlion"
+image: antlion.png
 family: "Damcyan Antlion"
 level: 100
 start_floor: 41

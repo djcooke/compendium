@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Mockery"
+image: mockery.png
 family: "Jester"
 level: 100
 start_floor: 31

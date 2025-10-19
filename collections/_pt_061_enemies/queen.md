@@ -1,5 +1,6 @@
 ---
 name: "Traverse Queen"
+image: queen.png
 family: "Tarantula Hawk"
 level: 100
 start_floor: 65

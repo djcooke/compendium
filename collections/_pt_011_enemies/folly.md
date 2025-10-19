@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Folly"
+image: folly.png
 family: "Mite"
 level: 98
 start_floor: 14

@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Ambition"
+image: ambition.png
 family: "Manticore"
 level: 100
 start_floor: 26

@@ -1,5 +1,6 @@
 ---
-name: "Traverse Tawnvclaw"
+name: "Traverse Tawnyclaw"
+image: tawnyclaw.png
 family: "Karlabos"
 level: 100
 start_floor: 51

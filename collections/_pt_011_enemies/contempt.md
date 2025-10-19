@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Contempt"
+image: contempt.png
 family: "Draco"
 level: 100
 start_floor: 17

@@ -1,5 +1,6 @@
 ---
 name: "Traverse Morgawr"
+image: morgawr.png
 family: "Sea Monk"
 level: 100
 start_floor: 21

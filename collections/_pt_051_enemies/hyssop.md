@@ -1,5 +1,6 @@
 ---
 name: "Traverse Hyssop"
+image: hyssop.png
 family: "Sankchinni"
 level: 100
 start_floor: 51

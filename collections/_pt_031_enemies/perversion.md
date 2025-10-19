@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Perversion"
+image: perversion.png
 family: "Guardian of Paradise"
 level: 100
 start_floor: 34

@@ -1,9 +1,9 @@
 ---
 name: Mimic
 nickname: Mimic
-image: ../mimic_bronze.png
-start_floor: 
-end_floor: 
+image: 
+start_floor: 1
+end_floor: 9
 agro: Proximity
 hp: 
 attack_damage: 

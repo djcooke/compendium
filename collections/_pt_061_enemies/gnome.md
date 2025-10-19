@@ -1,5 +1,6 @@
 ---
 name: "Traverse Gnome"
+image: gnome.png
 family: "Dhara"
 level: 100
 start_floor: 61

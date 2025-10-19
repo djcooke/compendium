@@ -1,7 +1,7 @@
 ---
 name: Traverse Hawker
 nickname: Hawker
-image: 
+image: hawker.png
 start_floor: 
 end_floor: 
 agro:

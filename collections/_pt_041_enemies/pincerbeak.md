@@ -1,5 +1,6 @@
 ---
 name: "Traverse Pincerbeak"
+image: pincerbeak.png
 family: "Alexandrian Axe Beak"
 level: 100
 start_floor: 41

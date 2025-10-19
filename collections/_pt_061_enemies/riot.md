@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Riot"
+image: riot.png
 family: "Stegoceras"
 level: 100
 start_floor: 62

@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Imparity"
+image: imparity.png
 family: "Marolith"
 level: 100
 start_floor: 64

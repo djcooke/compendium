@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Deceit"
+image: deceit.png
 family: "Endymion"
 level: 98
 start_floor: 14

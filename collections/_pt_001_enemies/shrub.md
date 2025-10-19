@@ -1,7 +1,7 @@
 ---
 name: Traverse Shrub
 nickname: Shrub
-image: 
+image: shrub.png
 start_floor: 1
 end_floor: 
 agro: Sight

@@ -1,5 +1,6 @@
 ---
 name: "Traverse Pachamama"
+image: pachamama.png
 family: "Wivre"
 level: 100
 start_floor: 52

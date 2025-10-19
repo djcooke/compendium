@@ -1,5 +1,6 @@
 ---
 name: "Traverse Clionid"
+image: clionid.png
 family: "Clionid"
 level: 100
 start_floor: 24

@@ -1,5 +1,6 @@
 ---
 name: "Traverse Sand Serpent"
+image: serpent.png
 family: "Sea Serpent"
 level: 100
 start_floor: 56

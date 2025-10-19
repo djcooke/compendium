@@ -1,7 +1,7 @@
 ---
 name: Traverse Rosebear
 nickname: Rosebear
-image: 
+image: rosebear.png
 start_floor: 
 end_floor: 
 patrol: true

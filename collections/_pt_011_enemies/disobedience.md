@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Disobedience"
+image: disobedience.png
 family: "Dzo"
 level: 99
 start_floor: 16

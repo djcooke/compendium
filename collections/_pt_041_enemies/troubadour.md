@@ -1,5 +1,6 @@
 ---
 name: "Traverse Troubadour"
+image: troubadour.png
 family: "Adamantoise"
 level: 100
 start_floor: 41

@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Jealousy"
+image: jealousy.png
 family: "Vodoriga/Hallow"
 level: 100
 start_floor: 24

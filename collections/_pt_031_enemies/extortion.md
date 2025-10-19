@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Extortion"
+image: extortion.png
 family: "Bolthound"
 level: 100
 start_floor: 31

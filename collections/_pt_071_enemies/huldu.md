@@ -1,5 +1,6 @@
 ---
-name: "Traverse Hulud"
+name: "Traverse Huldu"
+image: huldu.png
 family: "Dynamite"
 level: 100
 start_floor: 71

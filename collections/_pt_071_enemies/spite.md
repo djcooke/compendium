@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Spite"
+image: spite.png
 family: "Woodwraith"
 level: 100
 start_floor: 72

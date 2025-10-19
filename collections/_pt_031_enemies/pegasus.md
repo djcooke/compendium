@@ -1,5 +1,6 @@
 ---
 name: "Traverse Pegasus"
+image: pegasus.png
 family: "Pegasus"
 level: 100
 start_floor: 31

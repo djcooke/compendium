@@ -1,5 +1,6 @@
 ---
 name: "Traverse Talos"
+image: talos.png
 family: "Talos"
 level: 100
 start_floor: 61

@@ -1,5 +1,6 @@
 ---
-name: "Traverse Phorushacos"
+name: "Traverse Phorusrhacos"
+image: phorusrhacos.png
 family: "Gagana"
 level: 100
 start_floor: 51

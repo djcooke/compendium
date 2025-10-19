@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Arrogance"
+image: arrogance.png
 family: "Decottius"
 level: 100
 start_floor: 74

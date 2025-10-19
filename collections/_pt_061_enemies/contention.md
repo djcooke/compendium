@@ -1,5 +1,6 @@
 ---
 name: "Forgiven Contention"
+image: contention.png
 family: "Gigantender"
 level: 100
 start_floor: 66

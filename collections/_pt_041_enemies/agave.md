@@ -1,5 +1,6 @@
 ---
 name: "Traverse Agave"
+image: agave.png
 family: "Megamaguey"
 level: 100
 start_floor: 47

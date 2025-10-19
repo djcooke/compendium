@@ -1,5 +1,6 @@
 ---
 name: "Traverse Amemet"
+image: amemet.png
 family: "Vinegaroon"
 level: 100
 start_floor: 75

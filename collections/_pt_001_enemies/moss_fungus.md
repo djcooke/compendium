@@ -1,7 +1,7 @@
 ---
 name: Traverse Moss Fungus
 nickname: Moss Fungus
-image: 
+image: fungus.png
 start_floor: 
 end_floor: 
 agro:

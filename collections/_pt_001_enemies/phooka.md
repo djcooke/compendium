@@ -1,7 +1,7 @@
 ---
 name: Traverse Phooka
 nickname: Phooka
-image: 
+image: phooka.png
 start_floor: 1
 end_floor: 
 agro: Sight
