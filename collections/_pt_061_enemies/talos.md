@@ -5,6 +5,7 @@ family: "Talos"
 level: 100
 start_floor: 61
 end_floor: 69
+agro: Sight
 patrol: true
 vulnerabilities:
   bind: 
@@ -17,7 +18,6 @@ abilities:
     potency: 
     type: 
     description: 'untelegraphed circular AoE on random player'
-abilities:
   - name: Subduction
     potency: 
     type: 

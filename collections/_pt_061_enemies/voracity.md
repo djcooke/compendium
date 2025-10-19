@@ -5,6 +5,7 @@ family: "Peiste"
 level: 100
 start_floor: 67
 end_floor: 69
+agro: Sight
 patrol: false
 vulnerabilities:
   bind: 
