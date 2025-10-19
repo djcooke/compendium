@@ -21,5 +21,5 @@ abilities:
   - name: Crystalline Stingers
     potency: 
     type: 
-    description: 'massive pointblank AoE; used at lower life'
+    description: 'massive pointblank AoE; used under 20% HP'
 ---
