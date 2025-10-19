@@ -225,6 +225,7 @@ chests:
     * Mazeroot: Reveals the map (like the Sight pomander), clears all floor
       enchantments (like Serenity), opens the Pylon of Passage and Altar of
       Return, and summons Feo Ul to assist in battle.
+
     For both barkbalm and mazeroot incense, Feo will attack alongside the
     incense user and heal party members whose HP falls below 70%. She also has
     one unique action for each type:
