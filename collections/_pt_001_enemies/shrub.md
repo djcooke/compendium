@@ -3,7 +3,8 @@ name: Traverse Shrub
 nickname: Shrub
 image: shrub.png
 start_floor: 1
-end_floor: 
+end_floor: 3
+patrol: true
 agro: Sight
 hp: 
 attack_damage: 

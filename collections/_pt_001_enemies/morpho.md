@@ -2,8 +2,8 @@
 name: Traverse Morpho
 nickname: Morpho
 image: morpho.png
-start_floor: 
-end_floor: 
+start_floor: 1
+end_floor: 2
 agro: Sight
 hp: 
 attack_damage: 

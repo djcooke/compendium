@@ -2,8 +2,9 @@
 name: Traverse Lorikeet
 nickname: Lorikeet
 image: lorikeet.png
-start_floor: 
-end_floor: 
+start_floor: 4
+end_floor: 6
+patrol: true
 agro:
 hp: 
 attack_damage: 

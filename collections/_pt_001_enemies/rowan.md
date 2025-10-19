@@ -2,8 +2,8 @@
 name: Traverse Rowan
 nickname: Rowan
 image: rowan.png
-start_floor: 
-end_floor: 
+start_floor: 5
+end_floor: 7
 agro:
 hp: 
 attack_damage: 

@@ -2,8 +2,8 @@
 name: Traverse Hawker
 nickname: Hawker
 image: hawker.png
-start_floor: 
-end_floor: 
+start_floor: 3
+end_floor: 5
 agro:
 hp: 
 attack_damage: 

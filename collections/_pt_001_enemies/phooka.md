@@ -3,7 +3,7 @@ name: Traverse Phooka
 nickname: Phooka
 image: phooka.png
 start_floor: 1
-end_floor: 
+end_floor: 4
 agro: Sight
 hp: 
 attack_damage: 
