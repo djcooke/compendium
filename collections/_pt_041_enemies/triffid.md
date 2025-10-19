@@ -5,6 +5,4 @@ level: 100
 start_floor: 46
 end_floor: 49
 patrol: true
-mimic: false
-abilities: ['Vine Whip']
 ---

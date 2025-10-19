@@ -5,6 +5,4 @@ level: 100
 start_floor: 54
 end_floor: 56
 patrol: true
-mimic: false
-abilities: ['Strike']
 ---
