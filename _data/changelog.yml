@@ -1,8 +1,22 @@
+- date: 2025-10-19
+  updates:
+    - "Added PT floorset and enemy pages, courtesy of Artin"
+    - "Added additional PT enemy information for floors 1-10, courtesy of 
+      Aggressive Bread"
+    - "Added PT enemy floor ranges, courtesy of Doctor Agon"
+    - "Added boss and enemy images for PT floors 1-80, courtesy of Doctor Agon"
+- date: 2025-10-17
+  updates:
+    - "Added PT information to the Knowledge section"
+    - "Added max HP reduction ratios for transformation traps"
+    - "Sprint Penalty only appears in PotD"
+    - "Lost Goblin can also appear on PotD floor 3"
+    - "Above changes courtesy of vaxherd"
 - date: 2025-10-10
   updates:
     - "Added PT information to the Preparation, Pomanders, and Resources
       sections"
-    - "Added Finh Bezalh's stream and scoring guide to the Resources page"
+    - "Added Finh Bezahl's stream and scoring guide to the Resources page"
     - "Above changes courtesy of Artin"
 - date: 2025-10-05
   updates:
