@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Complacency"
-species: "Belladonna"
+family: "Belladonna"
 level: 99
 start_floor: 16
 end_floor: 19

@@ -1,6 +1,6 @@
 ---
 name: "Invoked Satana"
-species: "Imp"
+family: "Imp"
 level: 100
 start_floor: 83
 end_floor: 84

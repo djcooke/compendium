@@ -1,6 +1,6 @@
 ---
 name: "Traverse Gigant"
-species: "Eldthurs"
+family: "Eldthurs"
 level: 100
 start_floor: 56
 end_floor: 59

@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Prejudice"
-species: "Curator"
+family: "Curator"
 level: 100
 start_floor: 38
 end_floor: 39

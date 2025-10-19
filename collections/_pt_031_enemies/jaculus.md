@@ -1,6 +1,6 @@
 ---
 name: "Traverse Jaculus"
-species: "Griffin"
+family: "Griffin"
 level: 100
 start_floor: 33
 end_floor: 35

@@ -1,6 +1,6 @@
 ---
 name: "Traverse Pachamama"
-species: "Wivre"
+family: "Wivre"
 level: 100
 start_floor: 52
 end_floor: 55

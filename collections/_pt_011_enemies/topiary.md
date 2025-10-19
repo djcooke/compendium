@@ -1,6 +1,6 @@
 ---
 name: "Traverse Topiary"
-species: "Netzach"
+family: "Netzach"
 level: 99
 start_floor: 15
 end_floor: 17

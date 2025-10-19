@@ -1,6 +1,6 @@
 ---
 name: "Traverse Monitor"
-species: "Drake"
+family: "Drake"
 level: 100
 start_floor: 53
 end_floor: 56

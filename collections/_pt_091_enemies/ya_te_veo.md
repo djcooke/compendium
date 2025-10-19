@@ -1,6 +1,6 @@
 ---
 name: "Traverse Ya-te-veo"
-species: "Rafflesia"
+family: "Rafflesia"
 level: 100
 start_floor: 91
 end_floor: 93

@@ -1,6 +1,6 @@
 ---
 name: "Invoked Poppet"
-species: "Chimera Poppet"
+family: "Chimera Poppet"
 level: 100
 start_floor: 91
 end_floor: 94

@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Riot"
-species: "Stegoceras"
+family: "Stegoceras"
 level: 100
 start_floor: 62
 end_floor: 65

@@ -1,6 +1,6 @@
 ---
 name: "Invoked Gremlin"
-species: "Gremlin"
+family: "Gremlin"
 level: 100
 start_floor: 81
 end_floor: 83

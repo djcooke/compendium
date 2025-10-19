@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Spite"
-species: "Woodwraith"
+family: "Woodwraith"
 level: 100
 start_floor: 72
 end_floor: 75

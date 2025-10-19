@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Disobedience"
-species: "Dzo"
+family: "Dzo"
 level: 99
 start_floor: 16
 end_floor: 17

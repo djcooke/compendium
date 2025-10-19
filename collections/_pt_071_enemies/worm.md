@@ -1,6 +1,6 @@
 ---
 name: "Traverse Worm"
-species: "Sandworm"
+family: "Sandworm"
 level: 100
 start_floor: 74
 end_floor: 76

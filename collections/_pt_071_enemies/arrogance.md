@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Arrogance"
-species: "Decottius"
+family: "Decottius"
 level: 100
 start_floor: 74
 end_floor: 76

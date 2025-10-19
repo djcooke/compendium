@@ -1,6 +1,6 @@
 ---
 name: "Traverse Lizard"
-species: "Lizard"
+family: "Lizard"
 level: 100
 start_floor: 41
 end_floor: 42

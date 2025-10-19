@@ -1,6 +1,6 @@
 ---
 name: "Traverse Saichania"
-species: "Plantoid"
+family: "Plantoid"
 level: 100
 start_floor: 57
 end_floor: 59

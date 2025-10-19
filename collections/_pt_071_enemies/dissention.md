@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Dissention"
-species: "Living Rock"
+family: "Living Rock"
 level: 100
 start_floor: 75
 end_floor: 78

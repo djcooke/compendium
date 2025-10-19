@@ -1,6 +1,6 @@
 ---
 name: "Traverse Mantis"
-species: "Mantis"
+family: "Mantis"
 level: 100
 start_floor: 41
 end_floor: 50

@@ -1,6 +1,6 @@
 ---
 name: "Traverse Petreffigy"
-species: "Golem"
+family: "Golem"
 level: 100
 start_floor: 47
 end_floor: 49

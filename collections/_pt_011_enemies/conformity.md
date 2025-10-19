@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Conformity"
-species: "Hound"
+family: "Hound"
 level: 97
 start_floor: 11
 end_floor: 14

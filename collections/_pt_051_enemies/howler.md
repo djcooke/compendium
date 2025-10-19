@@ -1,6 +1,6 @@
 ---
 name: "Traverse Howler"
-species: "Sloth"
+family: "Sloth"
 level: 100
 start_floor: 57
 end_floor: 59

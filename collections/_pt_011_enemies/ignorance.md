@@ -1,6 +1,6 @@
 ---
 name: "Forgiven Ignorance"
-species: "Miteling"
+family: "Miteling"
 level: 96
 start_floor: 11
 end_floor: 13
