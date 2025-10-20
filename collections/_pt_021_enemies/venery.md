@@ -23,7 +23,12 @@ abilities:
   - name: Sanctified Flare
     potency: 1200
     type: Magic
-    description: "telegraphed circle AoE; will chase the target until in
-    line-of-sight"
+    description: "telegraphed circle AoE used out of combat; chases target
+    until in line-of-sight"
     warning: idle
+notes:
+  - "If a Venery targets you for Sanctified Flare, it will chase you until it
+    gets into line-of-sight for the cast, even into hallways and other rooms.
+    Flare can target even through walls between unconnected adjacent rooms,
+    turning the enemy into a pseudo-patrol."
 ---
