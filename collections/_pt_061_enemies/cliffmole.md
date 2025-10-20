@@ -1,18 +1,9 @@
 ---
-name: Traverse Cliffmole
-nickname: Cliffmole
+name: "Traverse Cliffmole"
 image: cliffmole.png
-family: Cliffmole
+family: "Cliffmole"
+level: 100
 start_floor: 61
 end_floor: 63
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---

@@ -1,18 +1,9 @@
 ---
-name: Forgiven Imparity
-nickname: Imparity
+name: "Forgiven Imparity"
 image: imparity.png
-family: Marolith
+family: "Marolith"
+level: 100
 start_floor: 64
 end_floor: 66
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---

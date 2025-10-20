@@ -1,18 +1,9 @@
 ---
-name: Traverse Gnome
-nickname: Gnome
+name: "Traverse Gnome"
 image: gnome.png
-family: Dhara
+family: "Dhara"
+level: 100
 start_floor: 61
 end_floor: 63
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---

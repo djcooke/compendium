@@ -1,18 +1,9 @@
 ---
-name: Forgiven Riot
-nickname: Riot
+name: "Forgiven Riot"
 image: riot.png
-family: Stegoceras
+family: "Stegoceras"
+level: 100
 start_floor: 62
 end_floor: 65
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---

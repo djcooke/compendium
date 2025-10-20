@@ -1,18 +1,9 @@
 ---
-name: Forgiven Voracity
-nickname: Voracity
+name: "Forgiven Voracity"
 image: voracity.png
-family: Peiste
+family: "Peiste"
+level: 100
 start_floor: 67
 end_floor: 69
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---

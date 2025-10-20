@@ -1,18 +1,9 @@
 ---
-name: Traverse Ngozi
-nickname: Ngozi
+name: "Traverse Ngozi"
 image: ngozi.png
-family: Phoebad
+family: "Phoebad"
+level: 100
 start_floor: 67
 end_floor: 69
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
-vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
-  slow: 
-  stun: 
+patrol: false
 ---
