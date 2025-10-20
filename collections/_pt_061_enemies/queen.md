@@ -1,9 +1,18 @@
 ---
-name: "Traverse Queen"
+name: Traverse Queen
+nickname: Queen
 image: queen.png
-family: "Tarantula Hawk"
-level: 100
+family: Tarantula Hawk
 start_floor: 65
 end_floor: 68
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

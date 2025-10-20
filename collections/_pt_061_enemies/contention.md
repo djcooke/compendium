@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Contention"
+name: Forgiven Contention
+nickname: Contention
 image: contention.png
-family: "Gigantender"
-level: 100
+family: Gigantender
 start_floor: 66
 end_floor: 69
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

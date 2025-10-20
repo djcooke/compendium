@@ -1,9 +1,18 @@
 ---
-name: "Traverse Troubadour"
+name: Traverse Troubadour
+nickname: Troubadour
 image: troubadour.png
-family: "Adamantoise"
-level: 100
+family: Adamantoise
 start_floor: 43
 end_floor: 46
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

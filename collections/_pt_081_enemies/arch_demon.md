@@ -1,8 +1,17 @@
 ---
-name: "Invoked Arch Demon"
-family: "Arch Demon"
-level: 100
+name: Invoked Arch Demon
+nickname: Arch Demon
+family: Arch Demon
 start_floor: 84
 end_floor: 86
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

@@ -1,9 +1,18 @@
 ---
-name: "Traverse Anaconda"
+name: Traverse Anaconda
+nickname: Anaconda
 image: anaconda.png
-family: "Bhujamga"
-level: 100
+family: Bhujamga
 start_floor: 41
 end_floor: 44
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

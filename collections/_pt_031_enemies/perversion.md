@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Perversion"
+name: Forgiven Perversion
+nickname: Perversion
 image: perversion.png
-family: "Guardian of Paradise"
-level: 100
+family: Guardian of Paradise
 start_floor: 34
 end_floor: 35
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

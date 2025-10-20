@@ -1,9 +1,18 @@
 ---
-name: "Traverse Antlion"
+name: Traverse Antlion
+nickname: Antlion
 image: antlion.png
-family: "Damcyan Antlion"
-level: 100
+family: Damcyan Antlion
 start_floor: 47
 end_floor: 49
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

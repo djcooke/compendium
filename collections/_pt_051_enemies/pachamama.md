@@ -1,9 +1,18 @@
 ---
-name: "Traverse Pachamama"
+name: Traverse Pachamama
+nickname: Pachamama
 image: pachamama.png
-family: "Wivre"
-level: 100
+family: Wivre
 start_floor: 52
 end_floor: 55
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

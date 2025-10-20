@@ -1,9 +1,18 @@
 ---
-name: "Traverse Hyssop"
+name: Traverse Hyssop
+nickname: Hyssop
 image: hyssop.png
-family: "Sankchinni"
-level: 100
+family: Sankchinni
 start_floor: 51
 end_floor: 52
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

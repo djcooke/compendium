@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Mockery"
+name: Forgiven Mockery
+nickname: Mockery
 image: mockery.png
-family: "Jester"
-level: 100
+family: Jester
 start_floor: 31
 end_floor: 32
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

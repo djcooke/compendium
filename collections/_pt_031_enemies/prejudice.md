@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Prejudice"
+name: Forgiven Prejudice
+nickname: Prejudice
 image: prejudice.png
-family: "Curator"
-level: 100
+family: Curator
 start_floor: 38
 end_floor: 39
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

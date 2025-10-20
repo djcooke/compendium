@@ -1,9 +1,18 @@
 ---
-name: "Traverse Amemet"
+name: Traverse Amemet
+nickname: Amemet
 image: amemet.png
-family: "Vinegaroon"
-level: 100
+family: Vinegaroon
 start_floor: 75
 end_floor: 77
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

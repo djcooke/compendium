@@ -1,9 +1,18 @@
 ---
-name: "Traverse Germinant"
+name: Traverse Germinant
+nickname: Germinant
 image: germinant.png
-family: "Chichu"
-level: 100
+family: Chichu
 start_floor: 46
 end_floor: 49
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

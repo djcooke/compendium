@@ -1,9 +1,18 @@
 ---
-name: "Traverse Monitor"
+name: Traverse Monitor
+nickname: Monitor
 image: monitor.png
-family: "Drake"
-level: 100
+family: Drake
 start_floor: 53
 end_floor: 56
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

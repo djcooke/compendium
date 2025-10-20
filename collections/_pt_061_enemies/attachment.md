@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Attachment"
+name: Forgiven Attachment
+nickname: Attachment
 image: attachment.png
-family: "Dagon"
-level: 100
+family: Dagon
 start_floor: 65
 end_floor: 67
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

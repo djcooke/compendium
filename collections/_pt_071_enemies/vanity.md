@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Vanity"
+name: Forgiven Vanity
+nickname: Vanity
 image: vanity.png
-family: "Calx"
-level: 100
+family: Calx
 start_floor: 77
 end_floor: 79
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

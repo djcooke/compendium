@@ -1,8 +1,15 @@
 ---
-name: "Mimic"
-level: 100
+name: Mimic
 start_floor: 61
 end_floor: 69
-patrol: false
-sort_order: 10
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

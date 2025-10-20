@@ -1,9 +1,18 @@
 ---
-name: "Traverse Howler"
+name: Traverse Howler
+nickname: Howler
 image: howler.png
-family: "Sloth"
-level: 100
+family: Sloth
 start_floor: 57
 end_floor: 59
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

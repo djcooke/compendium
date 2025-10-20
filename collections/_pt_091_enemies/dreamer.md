@@ -1,8 +1,17 @@
 ---
-name: "Invoked Dreamer"
-family: "Evil Dreamer"
-level: 100
+name: Invoked Dreamer
+nickname: Dreamer
+family: Evil Dreamer
 start_floor: 91
 end_floor: 98
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---
