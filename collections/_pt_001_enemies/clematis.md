@@ -19,6 +19,6 @@ abilities:
   - name: Spinning Attack
     potency: 2100
     type: Physical
-    description: "telegraphed line AoE dash attack; inflicts knockback from the
-    center of the telegraphed area"
+    description: "telegraphed line AoE charge attack; inflicts knockback from
+    the center of the telegraphed area"
 ---

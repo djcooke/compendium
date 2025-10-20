@@ -20,5 +20,5 @@ abilities:
   - name: Head Butt
     potency: 1300
     type: Physical
-    description: "telegraphed line AoE dash attack"
+    description: "telegraphed line AoE charge attack"
 ---
