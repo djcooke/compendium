@@ -18,7 +18,7 @@ title: Resources
 
 ## Community-Produced
 
-{% include note.html content="Want to add your own guide here? Find out [how to contribute](contributing.html)!" %}
+{% include notice.html content="Want to add your own guide here? Find out [how to contribute](contributing.html)!" %}
 
 <div class="surfacePane" markdown="1">
 
