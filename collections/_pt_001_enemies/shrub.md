@@ -6,18 +6,19 @@ start_floor: 1
 end_floor: 3
 patrol: true
 agro: Sight
-hp: 
-attack_damage: 
+level: 92
+hp: 78352
+attack_damage: 1392
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Rustling Wind
-    potency: 
-    type: 
-    description: 'Telegraphed line AoE'
+    potency: 2100
+    type: Magic
+    description: "telegraphed line AoE"
 ---
