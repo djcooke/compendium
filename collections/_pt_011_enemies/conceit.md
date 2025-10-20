@@ -16,12 +16,8 @@ vulnerabilities:
   slow: 
   stun: true
 abilities:
-  - name: Deracinator
-    potency: 150
-    type: Physical
-    description: "instant"
-  - name: Shadow Burst
+  - name: "Savage Swipe (?)"
     potency: 1300
-    type: Magic
-    description: "telegraphed circle AoE"
+    type: Physical
+    description: "telegraphed conal AoE"
 ---

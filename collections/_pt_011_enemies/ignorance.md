@@ -21,4 +21,5 @@ abilities:
     potency: 1300
     type: Magic
     description: "telegraphed line AoE; inflicts knockback"
+    warning: movement
 ---

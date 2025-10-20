@@ -21,4 +21,5 @@ abilities:
     type: Physical
     description: "telegraphed line AoE charge attack; inflicts knockback from
     the center of the telegraphed area"
+    warning: movement
 ---

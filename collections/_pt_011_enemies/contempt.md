@@ -17,8 +17,12 @@ vulnerabilities:
   slow: 
   stun: true
 abilities:
-  - name: "Savage Swipe (?)"
-    potency: 1300
+  - name: Tail Whip
+    potency: 150
     type: Physical
+    description: "instant"
+  - name: Fire Breath
+    potency: 1300
+    type: Magic
     description: "telegraphed conal AoE"
 ---

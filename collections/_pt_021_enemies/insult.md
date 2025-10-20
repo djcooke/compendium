@@ -24,4 +24,5 @@ abilities:
     potency: 1200
     type: Magic
     description: "telegraphed circle AoE; inflicts stun (5s, uncurable)"
+    warning: other
 ---
