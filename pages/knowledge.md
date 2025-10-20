@@ -431,9 +431,9 @@ votive). Negative effects are not applied until floor 31 and later.
 * **Foes' Frailty**: Applies Frailty to all enemies. Unlike the HoH pomander,
   this applies even to enemies which spawn after entering the floor (such as
   respawns, luring traps, or mimics).
-* **Mortification**: Grants 22.4% leech (recover 22.4% of damage dealt as HP)
-  and 30% vulnerability up to all party members. Cancelling the Mortification
-  buff removes both of these effects.
+* **Mortification**: Grants 22.4% leech (recover 22.4% of damage dealt as HP),
+  30% damage up, and 30% vulnerability up to all party members. Cancelling the
+  Mortification buff removes all of these effects.
 * **Immolation**: Transforms the party into Godmother Bombs, granting a Big
   Burst ability which deals massive damage to enemies in a 15y radius from the
   player. This damage will almost always be a one-shot kill, though at low
