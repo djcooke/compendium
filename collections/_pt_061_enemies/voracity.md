@@ -22,5 +22,5 @@ abilities:
   - name: Body Slam
     potency: 
     type: Physical
-    description: 'late small pointblankl AoE'
+    description: 'late small pointblank AoE'
 ---

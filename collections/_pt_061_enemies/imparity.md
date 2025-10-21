@@ -21,5 +21,5 @@ abilities:
   - name: Rockslide
     potency: 
     type: 
-    description: 'screenwide untelegraphed + shaped AoE'
+    description: 'screenwide untelegraphed cross-shaped AoE'
 ---
