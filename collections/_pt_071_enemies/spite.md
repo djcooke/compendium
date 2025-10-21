@@ -20,9 +20,11 @@ abilities:
     potency: 
     type: Magic
     description: 'medium untelegraphed pointblank AoE, followed by large untelegraphed ring - get out, then get in'
+    warning: pointblank
   - name: Shrinking Circles of Ablution
     potency: 
     type: Magic
     description: 'large untelegraphed ring AoE, followed by medium untelegraphed pointblank AoE - get in, then get out'
+    warning: donut
 notes: Both Circles can be line of sighted
 ---

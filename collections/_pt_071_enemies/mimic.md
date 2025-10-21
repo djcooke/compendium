@@ -12,8 +12,8 @@ vulnerabilities:
   bind: false
   heavy: false
   sleep: false
-  slow: true
-  stun: true
+  slow: false
+  stun: false
 sort_order: 10
 abilities:
   - name: Infatuation
