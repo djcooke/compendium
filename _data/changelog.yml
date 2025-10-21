@@ -1,6 +1,9 @@
 - date: 2025-10-20
   updates:
     - "Added PT floor 1-30 enemy data and WHM boss timers, courtesy of vaxherd"
+    - "Added some notes on contributing, courtesy of Artin"
+    - "PT mimics can be slowed, courtesy of Kat"
+    - "PT floor 90 boss kill time for WAR, courtesy of Kat"
 - date: 2025-10-19
   updates:
     - "Added PT floorset and enemy pages, courtesy of Artin"
