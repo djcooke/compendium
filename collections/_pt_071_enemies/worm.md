@@ -20,4 +20,5 @@ abilities:
     potency: 
     type: 
     description: 'medium size pointblank AoE with late telegraph'
+    warning: pointblank
 ---

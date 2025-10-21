@@ -20,8 +20,10 @@ abilities:
     potency: 
     type: 
     description: 'large pointblank AoE with late telegraph'
+    warning: pointblank
   - name: Trounce
     potency: 
     type: 
     description: 'massive front conal AoE with late telegraph'
+    warning: directional
 ---

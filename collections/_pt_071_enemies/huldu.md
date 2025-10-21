@@ -21,6 +21,7 @@ abilities:
     potency: 
     type: 
     description: 'small pointblank AoE with late telegraph'
+    warning: pointblank
   - name: Self-destruct
     potency: 
     type: 
