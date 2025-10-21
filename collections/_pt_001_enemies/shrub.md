@@ -1,10 +1,9 @@
 ---
 name: Traverse Shrub
 nickname: Shrub
-image: shrub.png
+image: 
 start_floor: 1
-end_floor: 3
-patrol: true
+end_floor: 
 agro: Sight
 level: 92
 hp: 78352

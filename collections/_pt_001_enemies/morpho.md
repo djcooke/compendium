@@ -1,9 +1,9 @@
 ---
 name: Traverse Morpho
 nickname: Morpho
-image: morpho.png
-start_floor: 1
-end_floor: 2
+image: 
+start_floor: 
+end_floor: 
 agro: Sight
 level: 91
 hp: 74104
