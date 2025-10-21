@@ -19,5 +19,5 @@ vulnerabilities:
 abilities:
   - name: Slowcall
     potency: n/a
-    description: "telegraphed conal AoE; inflicts slow (50%, 1m, uncurable)
+    description: "telegraphed conal AoE; inflicts slow (50%, 1m, uncurable)"
 ---
