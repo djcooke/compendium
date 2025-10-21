@@ -1,0 +1,8 @@
+<div class="notice">
+  {% if include.title %}
+  <div class="notice-title">{{ include.title }}</div>
+  {% endif %}
+  <div class="notice-content">
+    {{ include.content | markdownify }}
+  </div>
+</div>

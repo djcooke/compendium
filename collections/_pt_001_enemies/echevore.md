@@ -3,7 +3,7 @@ name: Traverse Echevore
 nickname: Echevore
 image: echevore.png
 start_floor: 1
-end_floor: 
+end_floor: 3
 agro: Sight
 level: 91
 hp: 74104

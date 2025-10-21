@@ -127,9 +127,6 @@ This table shows the completeness of each of these items for each job.
   </table>
 </div>
 
-You can use this Google Sheet to easily submit enemy notes. You may want to
-contact me before working on this, so I can make sure there's not someone else
-already working on the same job:
-<a href="https://docs.google.com/spreadsheets/d/1C4dIfZiOjREitlaCMrBMD0VLRh5WWDd5xqcZlGDNBno/edit?usp=sharing">Enemy Notes Submission</a>
+{% include notice.html content="You can use this Google Sheet to easily submit enemy notes. You may want to contact me before working on this, so I can make sure there's not someone else already working on the same job: <a href='https://docs.google.com/spreadsheets/d/1C4dIfZiOjREitlaCMrBMD0VLRh5WWDd5xqcZlGDNBno/edit?usp=sharing'>Enemy Notes Submission</a>" %}
 
 </div>

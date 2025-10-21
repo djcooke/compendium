@@ -17,6 +17,8 @@ title: Wall Traps
 * [HoH 41-79](#hoh-41-79)
 * [HoH 81-99](#hoh-81-99)
 
+{% include notice.html title="Find a wall trap that's missing here?" content="Share a picture with the location, find out how to [contribute](contributing.html)!" %}
+
 ## PotD 1-9
 
 <div class="surfacePane" markdown="1">

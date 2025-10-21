@@ -1,7 +1,7 @@
 ---
 name: Traverse Killer Bee
 nickname: Killer Bee
-image: 
+image: bee.png
 start_floor: 6
 end_floor: 9
 agro: Sight

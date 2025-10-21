@@ -1,9 +1,9 @@
 ---
 name: Traverse Rosebear
 nickname: Rosebear
-image: 
-start_floor: 
-end_floor: 
+image: rosebear.png
+start_floor: 7
+end_floor: 9
 patrol: true
 agro: Sound
 level: 95
