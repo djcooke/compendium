@@ -15,4 +15,12 @@ vulnerabilities:
   sleep: 
   slow: 
   stun: 
----
+abilities:
+  - name: 
+    potency: 
+    type: 
+    description: 
+  - name: 
+    potency: 
+    type: 
+    description: 

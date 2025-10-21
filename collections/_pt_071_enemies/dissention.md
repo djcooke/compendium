@@ -15,4 +15,13 @@ vulnerabilities:
   sleep: 
   slow: 
   stun: 
+abilities:
+  - name: Mighty Spin
+    potency: 
+    type: 
+    description: 'large pointblank AoE with late telegraph'
+  - name: Trounce
+    potency: 
+    type: 
+    description: 'massive front conal AoE with late telegraph'
 ---

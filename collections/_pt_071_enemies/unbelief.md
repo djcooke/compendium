@@ -14,5 +14,14 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Gravel Shower
+    potency: 
+    type: 
+    description: 'short and narrow line AoE with delayed telegraph on a random player - will chase until within casting range'
+  - name: Crushing Fang
+    potency: 
+    type: Physical
+    description: 'mini-enrage under 25% hp; instant auto-attack inflicting higher than normal damage'
 ---

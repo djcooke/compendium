@@ -14,5 +14,10 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Topple
+    potency: 
+    type: 
+    description: 'small pointblank AoE with late telegraph'
 ---

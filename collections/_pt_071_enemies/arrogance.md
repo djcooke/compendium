@@ -15,5 +15,10 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: false
+abilities:
+  - name: Hail of Heels
+    potency: 
+    type: 
+    description: 'small frontal half circle with late telegraph; repeats 4 times but only telegraphs the first'
 ---

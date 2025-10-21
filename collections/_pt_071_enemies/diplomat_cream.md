@@ -14,5 +14,10 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Fire II
+    potency: 
+    type: 
+    description: 'small circular AoE under a random player'
 ---
