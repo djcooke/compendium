@@ -1,9 +1,18 @@
 ---
-name: "Traverse Tawnyclaw"
+name: Traverse Tawnyclaw
+nickname: Tawnyclaw
 image: tawnyclaw.png
-family: "Karlabos"
-level: 100
+family: Karlabos
 start_floor: 51
 end_floor: 54
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

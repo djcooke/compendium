@@ -5,19 +5,20 @@ image: morpho.png
 start_floor: 1
 end_floor: 2
 agro: Sight
-hp: 
-attack_damage: 
-attack_type: 
+level: 91
+hp: 74104
+attack_damage: 1318
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Incubus
-    potency: 
-    type: 
-    description: 'Telegraphed pointblank AoE'
-    warning: 
+    potency: 2100
+    type: Magic
+    description: "telegraphed circle AoE on random player; inflicts sleep
+    (15s, uncurable)"
 ---

@@ -1,8 +1,17 @@
 ---
-name: "Traverse Gnoll"
-family: "Gnoll"
-level: 100
+name: Traverse Gnoll
+nickname: Gnoll
+family: Gnoll
 start_floor: 81
 end_floor: 83
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

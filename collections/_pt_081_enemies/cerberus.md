@@ -1,8 +1,17 @@
 ---
-name: "Invoked Cerberus"
-family: "Cerburus"
-level: 100
+name: Invoked Cerberus
+nickname: Cerberus
+family: Cerburus
 start_floor: 86
 end_floor: 89
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

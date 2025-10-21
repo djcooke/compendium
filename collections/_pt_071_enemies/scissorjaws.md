@@ -1,9 +1,18 @@
 ---
-name: "Traverse Scissorjaws"
+name: Traverse Scissorjaws
+nickname: Scissorjaws
 image: scissorjaws.png
-family: "Antlion"
-level: 100
+family: Antlion
 start_floor: 71
 end_floor: 73
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

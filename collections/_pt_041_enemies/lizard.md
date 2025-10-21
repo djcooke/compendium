@@ -1,9 +1,18 @@
 ---
-name: "Traverse Lizard"
+name: Traverse Lizard
+nickname: Lizard
 image: lizard.png
-family: "Lizard"
-level: 100
+family: Lizard
 start_floor: 41
 end_floor: 42
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

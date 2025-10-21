@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Spite"
+name: Forgiven Spite
+nickname: Spite
 image: spite.png
-family: "Woodwraith"
-level: 100
+family: Woodwraith
 start_floor: 72
 end_floor: 75
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

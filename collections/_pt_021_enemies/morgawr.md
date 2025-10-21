@@ -1,9 +1,27 @@
 ---
-name: "Traverse Morgawr"
+name: Traverse Morgawr
+nickname: Morgawr
 image: morgawr.png
-family: "Sea Monk"
-level: 100
+family: Sea Monk
 start_floor: 21
 end_floor: 23
-patrol: false
+agro: Sight
+hp: 169470
+attack_damage: 3487
+attack_type: Physical
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: true
+  slow: 
+  stun: true
+abilities:
+  - name: Water III
+    potency: 1200
+    type: Magic
+    description: "telegraphed circle AoE on random player"
+  - name: Flood
+    potency: 1200
+    type: Magic
+    description: "telegraphed pointblank AoE"
 ---

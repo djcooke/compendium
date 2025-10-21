@@ -5,18 +5,19 @@ image: phooka.png
 start_floor: 1
 end_floor: 4
 agro: Sight
-hp: 
-attack_damage: 
+level: 93
+hp: 81007
+attack_damage: 1470
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Tornado
-    potency: 
-    type: 
-    description: 'Telegraphed pointblank AoE, interruptable'
+    potency: 2100
+    type: Magic
+    description: "telegraphed circle AoE on random player; can be interrupted"
 ---

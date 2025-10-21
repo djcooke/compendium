@@ -1,9 +1,18 @@
 ---
-name: "Traverse Jaculus"
+name: Traverse Jaculus
+nickname: Jaculus
 image: jaculus.png
-family: "Griffin"
-level: 100
+family: Griffin
 start_floor: 33
 end_floor: 35
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

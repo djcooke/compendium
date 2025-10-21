@@ -1,9 +1,18 @@
 ---
-name: "Traverse Caracal"
+name: Traverse Caracal
+nickname: Caracal
 image: caracal.png
-family: "Coeurl"
-level: 100
+family: Coeurl
 start_floor: 55
 end_floor: 57
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

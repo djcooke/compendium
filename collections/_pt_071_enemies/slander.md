@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Slander"
+name: Forgiven Slander
+nickname: Slander
 image: slander.png
-family: "Regolith"
-level: 100
+family: Regolith
 start_floor: 77
 end_floor: 79
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

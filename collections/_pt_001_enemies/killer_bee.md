@@ -5,19 +5,20 @@ image: bee.png
 start_floor: 6
 end_floor: 9
 agro: Sight
-hp: 
-attack_damage: 
-attack_type: 
+level: 94
+hp: 86559
+attack_damage: 1446
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
-  - name: Unfinal sting
-    potency: 
-    type: 
-    description: 'Telegraphed line AoE, inflicts 15s stacking poison debuff'
-    warning: 
+  - name: Unfinal Sting
+    potency: 1800
+    type: Magic
+    description: "telegraphed line AoE; inflicts stacking poison (magic DoT
+    potency 150, 15s, max 8 stacks)"
 ---

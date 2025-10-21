@@ -5,15 +5,24 @@ image: rosebear.png
 start_floor: 7
 end_floor: 9
 patrol: true
-agro:
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sound
+level: 95
+hp: 95964
+attack_damage: 1485
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
+  - name: Champ
+    potency: 150
+    type: Physical
+    description: "instant"
+  - name: Mind of Its Own
+    potency: 2100
+    type: Magic
+    description: "telegraphed conal AoE"
 ---

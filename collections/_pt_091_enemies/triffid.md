@@ -1,8 +1,17 @@
 ---
-name: "Traverse Triffid"
-family: "Leshy"
-level: 100
+name: Traverse Triffid
+nickname: Triffid
+family: Leshy
 start_floor: 91
 end_floor: 93
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

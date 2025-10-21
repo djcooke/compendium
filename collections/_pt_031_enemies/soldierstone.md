@@ -1,9 +1,18 @@
 ---
-name: "Traverse Soldierstone"
+name: Traverse Soldierstone
+nickname: Soldierstone
 image: soldierstone.png
-family: "Sculpture"
-level: 100
+family: Sculpture
 start_floor: 36
 end_floor: 39
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

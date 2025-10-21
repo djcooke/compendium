@@ -1,9 +1,18 @@
 ---
-name: "Forgiven Corruption"
+name: Forgiven Corruption
+nickname: Corruption
 image: corruption.png
-family: "Akbaba"
-level: 100
+family: Akbaba
 start_floor: 75
 end_floor: 79
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---

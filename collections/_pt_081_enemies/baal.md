@@ -1,8 +1,17 @@
 ---
-name: "Invoked Baal"
-family: "Lion"
-level: 100
+name: Invoked Baal
+nickname: Baal
+family: Lion
 start_floor: 86
 end_floor: 89
-patrol: false
+agro: 
+hp: 
+attack_damage: 
+attack_type: 
+vulnerabilities:
+  bind: 
+  heavy: 
+  sleep: 
+  slow: 
+  stun: 
 ---
