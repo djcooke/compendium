@@ -5,14 +5,23 @@ image: tawnyclaw.png
 family: Karlabos
 start_floor: 51
 end_floor: 54
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 372834
+attack_damage: 10334
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Tail Screw
+    potency: n/a
+    description: "telegraphed circle AoE; on hit, sets target's HP to a random
+    single digit amount"
+  - name: Impale
+    potency: 150
+    type: Physical
+    description: "instant"
 ---

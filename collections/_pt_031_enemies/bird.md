@@ -6,14 +6,25 @@ family: Bird of Paradise
 start_floor: 31
 end_floor: 33
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 224077
+attack_damage: 6542
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Sideslip
+    potency: 900
+    type: Physical
+    description: "telegraphed circle AoE; inflicts knockback"
+    warning: movement
+  - name: Wingbeat
+    potency: 900
+    type: Physical
+    description: "telegraphed conal AoE; inflicts knockback"
+    warning: movement
 ---

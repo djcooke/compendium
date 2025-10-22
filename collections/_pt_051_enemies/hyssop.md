@@ -5,14 +5,20 @@ image: hyssop.png
 family: Sankchinni
 start_floor: 51
 end_floor: 52
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sound
+hp: 338940
+attack_damage: 8958
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Poison Mist
+    potency: 2000
+    type: Magic
+    description: "telegraphed wide conal AoE; inflicts stacking poison (magic
+    DoT potency 60, 15s, max 8 stacks)"
 ---
