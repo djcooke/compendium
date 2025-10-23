@@ -35,5 +35,5 @@ notes:
     and you die"
   - "Easy to deaggro by just running away"
   - "If you get hit with an auto-attack, make sure to wait for the debuff to
-    tall off before reapplying Steel, or the pomander will be wasted!"
+    fall off before reapplying Steel, or the pomander will be wasted!"
 ---
