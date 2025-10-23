@@ -17,7 +17,7 @@ vulnerabilities:
   slow: 
   stun: 
 abilities:
-  - name: Flinging Chrge
+  - name: Flinging Charge
     potency: 
     type: Physical
     description: 'instantly leaps to first player to agro, knocking them very far back; inflicts poison (15s, curable, stacks)
