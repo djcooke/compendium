@@ -25,3 +25,4 @@ abilities:
     potency: 
     type: 
     description: 'massive telegraphed cross-shaped AoE - get to the corners of the "pyramid" shape the monster creates'
+---

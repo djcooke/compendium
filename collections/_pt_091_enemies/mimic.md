@@ -12,4 +12,5 @@ vulnerabilities:
   sleep: 
   slow: true
   stun: 
+sort_order: 10
 ---
