@@ -5,9 +5,9 @@ family: Arachne
 start_floor: 94
 end_floor: 96
 agro: 
-hp: 
-attack_damage: 
-attack_type: 
+hp: 596911
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
