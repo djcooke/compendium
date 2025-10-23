@@ -15,5 +15,16 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: false
+abilities:
+  - name: Fracture
+    potency: 
+    type: 
+    description: 'small pointblank AoE with late telegraph'
+    warning: pointblank
+  - name: Self-destruct
+    potency: 
+    type: 
+    description: 'Explodes after death with a proximity-style damage falloff - dramatically more deadly as you get closer'
+    warning: explosion
 ---

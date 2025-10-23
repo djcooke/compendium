@@ -14,5 +14,10 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Sandblast
+    potency: 
+    type: 
+    description: 'small telegraphed conal AoE'
 ---

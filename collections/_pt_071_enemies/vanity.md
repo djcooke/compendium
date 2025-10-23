@@ -15,4 +15,13 @@ vulnerabilities:
   sleep: 
   slow: 
   stun: 
----
+abilities:
+  - name: 'Peripheral Lasers'
+    potency: 
+    type: 
+    description: 'massive telegraphed ring-shaped AoE'
+    warning: donut
+  - name: 'Cross Lasers'
+    potency: 
+    type: 
+    description: 'massive telegraphed cross-shaped AoE - get to the corners of the "pyramid" shape the monster creates'
