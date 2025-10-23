@@ -6,14 +6,21 @@ family: Leshy
 start_floor: 46
 end_floor: 49
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 280567
+attack_damage: 7992
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: false
+abilities:
+  - name: Creeping Combination
+    potency: 900
+    type: Magic
+    description: "telegraphed conal AoE in front, followed by an untelegraphed
+    conal AoE behind"
+    warning: directional
 ---

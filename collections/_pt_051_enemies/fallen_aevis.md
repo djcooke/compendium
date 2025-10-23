@@ -6,14 +6,23 @@ family: Zu
 start_floor: 54
 end_floor: 56
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 342706
+attack_damage: 11777
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Blazing Trail
+    potency: 2000
+    type: Magic
+    description: "telegraphed wide line AoE"
+  - name: Fireball
+    potency: 2000
+    type: Magic
+    description: "telegraphed circle AoE"
 ---

@@ -6,14 +6,23 @@ family: Kukulkan
 start_floor: 44
 end_floor: 46
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 418026
+attack_damage: 7992
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Aetherial Blast
+    potency: 900
+    type: Magic
+    description: "telegraphed line AoE"
+  - name: Whipcrack
+    potency: 150
+    type: Physical
+    description: "instant"
 ---
