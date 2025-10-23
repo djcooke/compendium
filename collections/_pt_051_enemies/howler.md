@@ -20,13 +20,15 @@ abilities:
     potency: 2000
     type: Physical
     description: "telegraphed charge attack, followed by either Scythe Tail or
-    Master of Levin"
+    Master of Levin depending on player distance"
   - name: Scythe Tail
     potency: 2000
     type: Physical
     description: "pointblank AoE with late telegraph - get OUT"
     warning: donut
   - name: Master of Levin
+    potency: 2000
+    type: Magic
     description: "huge donut AoE with late telegraph - get IN"
     warning: donut
 ---
