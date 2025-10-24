@@ -5,14 +5,14 @@ family: Succubus
 start_floor: 84
 end_floor: 86
 patrol: true
-agro: 
-hp: 
+agro: Sight
+hp: 579964
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: true
 abilities:

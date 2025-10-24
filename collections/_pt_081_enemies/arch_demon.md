@@ -4,23 +4,25 @@ nickname: Arch Demon
 family: Arch Demon
 start_floor: 84
 end_floor: 86
-agro: 
-hp: 
+agro: Sight
+hp: 579964
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Abyssal Swing
-    potency: 300
+    potency: 4000
     type: Physical
     description: "conal AoE with late telegraph"
     warning: directional
   - name: Abyssal Transfixion
-    description: "ranged attack on random player; inflicts paralysis (30s)"
+    potency: 150
+    type: Physical
+    description: "ranged attack on random player; inflicts paralysis (15s)"
     warning: movement
 ---

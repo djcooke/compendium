@@ -4,16 +4,16 @@ nickname: Baal
 family: Lion
 start_floor: 86
 end_floor: 89
-agro: 
+agro: Sight
 hp: 579964
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Abyssal Ray
     potency: 4000

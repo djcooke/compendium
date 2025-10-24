@@ -5,16 +5,16 @@ family: Muud Suud
 start_floor: 86
 end_floor: 89
 patrol: true
-agro: 
-hp: 
+agro: Sight
+hp: 608209
 attack_damage: 22000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: false
 abilities:
   - name: Triple Blow
     potency: 50 (x3)

@@ -4,17 +4,17 @@ nickname: Troubadour
 family: Troubadour
 start_floor: 86
 end_floor: 89
-agro: 
+agro: Proximity
 hp: 579964
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: true
-abilities: 
+abilities:
   - name: Inner Demons
     description: "pointblank AoE with late telegraph"
     warning: pointblank

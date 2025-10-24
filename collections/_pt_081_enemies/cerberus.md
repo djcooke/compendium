@@ -4,16 +4,16 @@ nickname: Cerberus
 family: Cerburus
 start_floor: 86
 end_floor: 89
-agro: 
+agro: Sight
 hp: 608209
 attack_damage: 22000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Lightning Bolt
     potency: 3500

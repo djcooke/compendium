@@ -5,14 +5,14 @@ family: Anchag
 start_floor: 81
 end_floor: 84
 patrol: true
-agro: 
-hp: 
+agro: Proximity
+hp: 579964
 attack_damage: 20000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: true
 abilities:

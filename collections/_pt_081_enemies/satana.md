@@ -4,16 +4,16 @@ nickname: Satana
 family: Imp
 start_floor: 83
 end_floor: 84
-agro: 
-hp: 
+agro: Sight
+hp: 551719
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Void Blizzard II
     description: "telegraphied circle AoE on random player"

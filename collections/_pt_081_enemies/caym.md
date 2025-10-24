@@ -4,7 +4,7 @@ nickname: Caym
 family: Caym
 start_floor: 85
 end_floor: 88
-agro: 
+agro: Sight
 hp: 579964
 attack_damage: 21000
 attack_type: Physical
