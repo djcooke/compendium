@@ -5,16 +5,16 @@ family: Sawtooth
 start_floor: 93
 end_floor: 98
 patrol: true
-agro: 
+agro: Sound
 hp: 627039
 attack_damage: 22000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Honeyed Front
     description: "large wide frontward conal AoE with late telegraph"

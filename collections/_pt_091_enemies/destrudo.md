@@ -4,7 +4,7 @@ nickname: Destrudo
 family: Ahriman
 start_floor: 96
 end_floor: 98
-agro: 
+agro: Sight
 hp: 566783
 attack_damage: 20000
 attack_type: Physical

@@ -13,5 +13,8 @@ vulnerabilities:
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Arachne Web
+    description: "telegraphed circle AoE (follows targeted player position)"
 ---

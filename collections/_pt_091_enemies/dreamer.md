@@ -4,16 +4,16 @@ nickname: Dreamer
 family: Evil Dreamer
 start_floor: 91
 end_floor: 98
-agro: 
-hp: 
+agro: Sight
+hp: 566783
 attack_damage: 20000
 attack_type: type: Magic
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: false
 abilities:
   - name: Dark Vision
     potency: 4000
@@ -31,4 +31,6 @@ notes:
     votive"
   - "The explosion is weaker than other AoEs, and DPS/healers can (barely)
     survive it with double HP from barkbalm incense or the Immolation votive"
+  - "The explosion is blocked if the enemy dies while asleep, either from
+    damage over time or from direct damage that kills"
 ---

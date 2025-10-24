@@ -5,21 +5,21 @@ family: Chimera Poppet
 start_floor: 91
 end_floor: 94
 patrol: true
-agro: 
+agro: Sight
 hp: 596911
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Whinge
     description: "pointblank AoE with late telegraph"
     warning: pointblank
-  - name: "Boom (?)"
+  - name: Big Hug
     potency: 150
     type: Physical
     description: "instant"

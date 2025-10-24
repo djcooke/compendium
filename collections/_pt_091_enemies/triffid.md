@@ -4,16 +4,16 @@ nickname: Triffid
 family: Leshy
 start_floor: 91
 end_floor: 93
-agro: 
+agro: Sound
 hp: 596911
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Entangle
     description: "telegraphed circle AoE on random player"

@@ -4,7 +4,7 @@ nickname: Acheron
 family: Aug Allagan
 start_floor: 96
 end_floor: 98
-agro: 
+agro: Sight
 hp: 596911
 attack_damage: 21000
 attack_type: Physical

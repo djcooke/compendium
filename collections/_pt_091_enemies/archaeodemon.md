@@ -5,7 +5,7 @@ family: Archaeodemon
 start_floor: 95
 end_floor: 98
 patrol: true
-agro: 
+agro: Sight
 hp: 596911
 attack_damage: 21000
 attack_type: Physical
