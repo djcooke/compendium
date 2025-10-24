@@ -21,6 +21,6 @@ abilities:
     warning: directional
   - name: Maul
     description: "single-target enrage attack with long cast; used when HP goes
-    below 30%"
+    below 30%. Can be interrupted"
     warning: explosion
 ---

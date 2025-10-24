@@ -23,6 +23,7 @@ abilities:
   - name: Abyssal Transfixion
     potency: 150
     type: Physical
-    description: "ranged attack on random player; inflicts paralysis (15s)"
+    description: "ranged attack on random player; inflicts paralysis (15s).
+    Can be interrupted"
     warning: movement
 ---
