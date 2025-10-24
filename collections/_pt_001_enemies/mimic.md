@@ -17,7 +17,7 @@ vulnerabilities:
   stun: true
 sort_order: 10
 abilities:
-  - name: Infatuation
+  - name: Malice
     potency: n/a
     description: "inflicts pox (magic DoT potency 5, 10m); can be interrupted"
   - name: Deathtrap
