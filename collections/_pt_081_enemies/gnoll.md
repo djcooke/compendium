@@ -19,7 +19,7 @@ abilities:
     potency: 4000
     description: "wide conal AoE with late telegraph"
     warning: directional
-  - name: "Maul (?)"
+  - name: Maul
     description: "single-target enrage attack with long cast; used when HP goes
     below 30%"
     warning: explosion
