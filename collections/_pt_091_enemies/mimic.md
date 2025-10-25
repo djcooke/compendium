@@ -1,16 +1,30 @@
 ---
 name: Mimic
+nickname: Mimic
+image: 
 start_floor: 91
 end_floor: 98
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Proximity
+hp: 826637
+attack_damage: 20000
+attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
-  sleep: 
+  bind: false
+  heavy: false
+  sleep: false
   slow: true
-  stun: 
+  stun: false
 sort_order: 10
+abilities:
+  - name: Malice
+    potency: n/a
+    description: "inflicts pox (magic DoT potency 5, 10m); can be interrupted"
+  - name: Deathtrap
+    potency: 4000
+    type: Physical
+    description: "telegraphed pointblank AoE"
+notes:
+  - "Sometimes found in gold chests"
+  - "Pomander of Alteration transforms all enemies in a random room on the next
+    floor into either mimics or mandragoras"
 ---
