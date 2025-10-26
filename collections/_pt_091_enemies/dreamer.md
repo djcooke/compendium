@@ -7,7 +7,7 @@ end_floor: 98
 agro: Sight
 hp: 566783
 attack_damage: 20000
-attack_type: type: Magic
+attack_type: Magic
 vulnerabilities:
   bind: 
   heavy: 
@@ -24,7 +24,7 @@ abilities:
     potency: 1500
     type: Magic
     description: "large pointblank AoE with late telegraph used AFTER DEATH -
-    get away after it dies"
+      get away after it dies"
     warning: explosion
 notes:
   - "Immune to knockback, so it cannot be one-shot with the Primordial Flesh
