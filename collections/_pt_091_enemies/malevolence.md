@@ -11,10 +11,12 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Smashing Blow
-    description: "short line AoE with late telegraph"
+    potency: 3500
+    type: Physical
+    description: "large conal AoE with late telegraph; inflicts knockback"
 ---

@@ -11,9 +11,9 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Mortal Gaze
     description: "huge pointblank AoE gaze; probably inflicts instant death"

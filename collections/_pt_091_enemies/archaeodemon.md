@@ -12,12 +12,12 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Unholy Darkness
-    description: "circle AoE with late telegraph"
+    description: "large circle AoE with late telegraph"
     warning: pointblank
   - name: Karma
     description: "huge conal AoE with late telegraph"

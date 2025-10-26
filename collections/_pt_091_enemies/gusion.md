@@ -11,9 +11,9 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
-  stun: 
+  stun: false
 abilities:
   - name: Left Smite
     description: "untelegraphed huge 180-degree AoE to the left, then to the
