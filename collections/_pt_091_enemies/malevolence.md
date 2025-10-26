@@ -4,14 +4,19 @@ nickname: Malevolence
 family: Spartoi
 start_floor: 95
 end_floor: 97
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 596911
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
+abilities:
+  - name: Smashing Blow
+    potency: 3500
+    type: Physical
+    description: "large conal AoE with late telegraph; inflicts knockback"
 ---
