@@ -20,4 +20,8 @@ abilities:
     probably inflicts a loss of control debuff"
   - name: Shadow Burst
     description: "large telegraphed circle AoE on targeted player"
+  - name: "Dark Spike (?)"
+    potency: 150
+    type: Magic
+    description: "instant"
 ---
