@@ -25,7 +25,7 @@ abilities:
     potency: 2000
     type: Physical
     description: "pointblank AoE with late telegraph - get OUT"
-    warning: donut
+    warning: pointblank
   - name: Master of Levin
     potency: 2000
     type: Magic

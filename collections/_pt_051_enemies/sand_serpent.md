@@ -21,6 +21,6 @@ abilities:
     potency: 2000
     type: Magic
     description: "untelegraphed huge 270-degree donut - get inside the target
-    circle or behind"
-    warning: other
+      circle or behind"
+    warning: directional
 ---

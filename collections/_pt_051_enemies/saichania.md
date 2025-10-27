@@ -30,7 +30,7 @@ abilities:
     potency: 2000
     type: Physical
     description: "huge conal AoE with late telegraph"
-    warning: conal
+    warning: directional
 notes:
   - "Temporary misdirection is the debuff which puts a spinning cursor over
     the player's head and only allows movement in the direction of the cursor"
