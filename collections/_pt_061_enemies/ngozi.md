@@ -21,4 +21,5 @@ abilities:
     potency: 
     type: 
     description: 'medium late front conal AoE'
+    warning: directional
 ---

@@ -16,5 +16,7 @@ abilities:
   - name: Sewer Water
     potency: 
     type: Magic
-    description: 'baited front or rear 180 degree cleave'
+    description: "180 degree frontal cone with late telegraph followed by 180
+      degree rear cone"
+    warning: directional
 ---

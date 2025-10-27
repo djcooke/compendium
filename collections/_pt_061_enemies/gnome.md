@@ -22,4 +22,5 @@ abilities:
     potency: 
     type: Physical
     description: 'large untelegraphed pointblank AoE'
+    warning: pointblank
 ---

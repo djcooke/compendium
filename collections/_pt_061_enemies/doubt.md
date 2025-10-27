@@ -18,8 +18,10 @@ abilities:
     potency: 
     type: 
     description: 'invisible until very close in proximity (it will see you first if it''s looking at you)'
+    warning: other
   - name: Body Press
     potency: 
     type: Phsyical
     description: 'fast untelegraphed pointblank AoE'
+    warning: pointblank
 ---

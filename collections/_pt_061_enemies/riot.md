@@ -18,4 +18,5 @@ abilities:
     potency: 
     type: Physical
     description: 'Massive right -> left or left -> right sided cleave, uses one immediately after the other with no cast bar'
+    warning: directional
 ---

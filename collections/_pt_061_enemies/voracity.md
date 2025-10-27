@@ -18,9 +18,11 @@ abilities:
     potency: 
     type: 
     description: 'untelegraphed small front conal AoE; inflicts petrify'
+    warning: directional
 abilities:
   - name: Body Slam
     potency: 
     type: Physical
     description: 'late small pointblank AoE'
+    warning: pointblank
 ---

@@ -21,4 +21,5 @@ abilities:
     potency: 
     type: 
     description: 'targetted enrage under 10% HP'
+    warning: explosion
 ---
