@@ -24,6 +24,6 @@ abilities:
     potency: 150
     type: Physical
     description: "ranged attack on random player; inflicts paralysis (15s).
-    Can be interrupted"
+    Used when below 20% HP. Can be interrupted"
     warning: movement
 ---

@@ -6,19 +6,21 @@ family: Decottius
 start_floor: 74
 end_floor: 76
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 563017
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: false
 abilities:
   - name: Hail of Heels
-    potency: 
-    type: 
-    description: 'small frontal half circle with late telegraph; repeats 4 times but only telegraphs the first'
+    potency: 3500 (x4)
+    type: Physical
+    description: "4 frontal half-circle AoEs, with a late telegraph on the
+    first only - stay behind or away until all 4 hits are done"
+    warning: directional
 ---

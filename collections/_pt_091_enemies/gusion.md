@@ -15,13 +15,9 @@ vulnerabilities:
   slow: 
   stun: false
 abilities:
-  - name: Left Smite
-    description: "untelegraphed huge 180-degree AoE to the left, then to the
-    right"
-    warning: directional
-  - name: Right Smite
-    description: "untelegraphed huge 180-degree AoE to the right, then to the
-    left"
+  - name: Left/Right Smite
+    description: "untelegraphed huge 180-degree AoE to both sides - first the
+    side given in the ability name, then the opposite side immediately after"
     warning: directional
   - name: "Gusion's Embrace"
     potency: 150

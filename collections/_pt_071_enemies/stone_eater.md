@@ -6,20 +6,21 @@ family: Silver Lobo
 start_floor: 71
 end_floor: 79
 patrol: true
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 563017
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Flinging Charge
-    potency: 
+    potency: 80
     type: Physical
-    description: 'instantly leaps to first player to agro, knocking them very far back; inflicts poison (15s, curable, stacks)'
+    description: "instant gap-closer; knocks the target back and inflicts
+    stacking poison (physical DoT potency 43 per stack, 15s, max 8 stacks)"
     warning: movement
 ---

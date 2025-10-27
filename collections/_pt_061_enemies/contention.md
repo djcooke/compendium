@@ -1,12 +1,13 @@
 ---
-name: "Forgiven Contention"
+name: Forgiven Contention
 image: contention.png
-family: "Gigantender"
-level: 100
+family: Gigantender
 start_floor: 66
 end_floor: 69
 agro: Sight
-patrol: false
+hp: 574315
+attack_damage: 22000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -17,5 +18,8 @@ abilities:
   - name: Several Thousand Needles
     potency: 
     type: Physical
-    description: 'very wide line AoE'
+    description: "wide line AoE with late telegraph"
+  - name: Haste
+    potency: n/a
+    description: "grants permanent haste to self; used below 50% HP"
 ---

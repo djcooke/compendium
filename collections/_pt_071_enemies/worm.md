@@ -6,19 +6,19 @@ family: Sandworm
 start_floor: 74
 end_floor: 76
 agro: Sound
-hp: 
-attack_damage: 
-attack_type: 
+hp: 563017
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Earthquake
-    potency: 
-    type: 
-    description: 'medium size pointblank AoE with late telegraph'
+    potency: 3500
+    type: Physical
+    description: "pointblank AoE with late telegraph"
     warning: pointblank
 ---

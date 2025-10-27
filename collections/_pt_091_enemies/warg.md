@@ -32,6 +32,6 @@ notes:
   - "Same mechanic as the 81+ Humbaba - uses either Triple or Quadruple Skull
     Dasher followed by Heavy Smash. Count the hits and move away IMMEDIATELY
     after the last hit to avoid Heavy Smash"
-  - "The hits from Triple/Quadruple Skull Dasher cannot be LoS'd or outranged
+  - "The hits from Triple/Quadruple Skull Dasher cannot be LoSed or outranged
     (the Warg will chase after the target until it gets in range)"
 ---

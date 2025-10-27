@@ -24,6 +24,6 @@ abilities:
     potency: 900
     type: Physical
     description: "telegraphed line AoE with quick cast; used repeatedly when
-    under 30% HP (5.5s interval)"
+    below 30% HP (5.5s interval)"
     warning: directional
 ---

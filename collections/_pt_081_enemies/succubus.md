@@ -22,7 +22,7 @@ abilities:
     description: "ranged attack on random player; inflicts Pyretic (3s). Taking
     any action (including moving or facing a different direction) before the
     debuff runs out inflicts magic damage at potency 4500, which is generally
-    a one-shot. The attack can be LoS'd"
+    a one-shot. The attack can be LoSed"
     warning: other
 notes:
   - "As of patch 7.35, the Pyretic debuff can trigger even if you remain

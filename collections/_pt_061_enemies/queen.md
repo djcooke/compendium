@@ -1,11 +1,12 @@
 ---
-name: "Traverse Queen"
+name: Traverse Queen
 image: queen.png
-family: "Tarantula Hawk"
-level: 100
+family: Tarantula Hawk
 start_floor: 65
 end_floor: 68
-patrol: false
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -16,10 +17,10 @@ abilities:
   - name: Unfinal Sting
     potency: 
     type: 
-    description: 'late small line AoE'
+    description: "short line AoE with late telegraph"
   - name: Final Sting
     potency: 
     type: 
-    description: 'targetted enrage under 10% HP'
+    description: "targeted enrage; used at 15% HP"
     warning: explosion
 ---

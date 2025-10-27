@@ -1,25 +1,29 @@
 ---
-name: "Traverse Talos"
+name: Traverse Talos
 image: talos.png
-family: "Talos"
-level: 100
+family: Talos
 start_floor: 61
 end_floor: 69
 agro: Sight
 patrol: true
+hp: 574315
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: false
 abilities:
   - name: Accelerate
-    potency: 
-    type: 
-    description: 'untelegraphed circular AoE on random player'
+    potency: 1600
+    type: Physical
+    description: "circle AoE with late telegraph on random player"
+    warning: pointblank
   - name: Subduction
-    potency: 
-    type: 
-    description: 'large donut AoE used immediately after Accelerate'
+    potency: 1600
+    type: Physical
+    description: "untelegraphed donut AoE used immediately after Accelerate"
+    warning: donut
 ---

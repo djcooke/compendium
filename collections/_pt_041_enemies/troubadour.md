@@ -26,8 +26,9 @@ abilities:
   - name: Tortoise Stomp
     potency: 750
     type: Physical
-    description: "small AoE with long cast time and very late telegraph; will
-    one-shot DPS and healers through Steel"
+    description: "small pointblank AoE with long cast time and very late
+    telegraph; will one-shot DPS and healers through Steel"
+    warning: pointblank
 notes:
   - "Moves very slowly, but its attacks hurt. Keep your distance when possible"
   - "Be careful fighting other enemies alongside one of these - it's easy to
