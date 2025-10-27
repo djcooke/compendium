@@ -25,5 +25,5 @@ abilities:
     type: Physical
     description: "telegraphed line AoE with quick cast; used repeatedly when
     under 30% HP (5.5s interval)"
-    warning: other
+    warning: directional
 ---
