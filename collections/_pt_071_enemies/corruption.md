@@ -20,6 +20,7 @@ abilities:
     potency: 3500
     type: Physical
     description: "small conal AoE with late telegraph"
+    warning: directional
   - name: Breakbeak
     potency: 150
     type: Physical
