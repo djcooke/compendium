@@ -5,7 +5,7 @@ image:
 start_floor: 61
 end_floor: 69
 agro: Proximity
-hp: 
+hp: 657167
 attack_damage: 11715
 attack_type: Physical
 vulnerabilities:

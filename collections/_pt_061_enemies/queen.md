@@ -15,12 +15,12 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Unfinal Sting
-    potency: 
-    type: 
     description: "short line AoE with late telegraph"
   - name: Final Sting
-    potency: 
-    type: 
-    description: "targeted enrage; used at 15% HP"
+    potency: 3500
+    type: Physical
+    description: "targeted sacrifical enrage; used at 15% HP. Cannot be
+    outranged (the enemy will chase after the target until it gets in range or
+    is killed)"
     warning: explosion
 ---

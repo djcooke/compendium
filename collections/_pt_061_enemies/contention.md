@@ -11,14 +11,15 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Several Thousand Needles
     potency: 
     type: Physical
-    description: "wide line AoE with late telegraph"
+    description: "wide line AoE with late telegraph (no telegraph when hasted)"
+    warning: directional
   - name: Haste
     potency: n/a
     description: "grants permanent haste to self; used below 50% HP"
