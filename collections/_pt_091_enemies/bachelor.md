@@ -16,12 +16,19 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Arachne Web
+    potency: 150
+    type: Magic
     description: "telegraphed circle AoE (follows targeted player position);
-    probably inflicts a loss of control debuff"
+    inflicts heavy (5s)"
   - name: Shadow Burst
-    description: "large telegraphed circle AoE on targeted player"
+    description: "large telegraphed circle AoE on targeted player; used
+    immediately after Arachne Web"
   - name: "Dark Spike (?)"
     potency: 150
     type: Magic
     description: "instant"
+notes:
+  - "The heavy effect of Arachne Web is relatively weak and will let you escape
+    Shadow Burst as long as you keep moving. It is also curable, so it can be
+    blocked with a protomander of purification"
 ---
