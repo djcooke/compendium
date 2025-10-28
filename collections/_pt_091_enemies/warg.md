@@ -26,8 +26,7 @@ abilities:
   - name: Heavy Smash
     potency: 3500
     type: Physical
-    description: "instant circle AoE on the target's position at the last
-    Skull Dasher hit"
+    description: "instant pointblank AoE used after the last Skull Dasher hit"
 notes:
   - "Same mechanic as the 81+ Humbaba - uses either Triple or Quadruple Skull
     Dasher followed by Heavy Smash. Count the hits and move away IMMEDIATELY
