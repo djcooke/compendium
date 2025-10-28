@@ -30,5 +30,5 @@ abilities:
 notes:
   - "The heavy effect of Arachne Web is relatively weak and will let you escape
     Shadow Burst as long as you keep moving. It is also curable, so it can be
-    blocked with a protomander of purification"
+    blocked with a pomander of purification"
 ---
