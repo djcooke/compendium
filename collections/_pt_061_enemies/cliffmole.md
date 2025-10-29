@@ -6,7 +6,9 @@ level: 100
 start_floor: 61
 end_floor: 63
 agro: Sight
-patrol: false
+hp: 519708
+attack_damage: 20000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -15,7 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Head Butt
-    potency: 
+    potency: 1600
     type: Physical
     description: 'tiny conal AoE'
 ---

@@ -23,8 +23,8 @@ abilities:
   - name: Parasitism
     potency: 3500
     type: Physical
-    description: "single-target attack with long cast; used once when HP goes
-    below 25%. One-shots DPS/healers through steel. Cannot be outranged (the
-    clionid will chase after the target until it gets in range or is killed)."
+    description: "targeted enrage with long cast; used at 25% HP. One-shots
+    DPS/healers through steel. Cannot be outranged (the clionid will chase
+    after the target until it gets in range or is killed)."
     warning: explosion
 ---

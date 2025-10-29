@@ -1,26 +1,27 @@
 ---
-name: "Traverse Gnome"
+name: Traverse Gnome
 image: gnome.png
-family: "Dhara"
-level: 100
+family: Dhara
 start_floor: 61
 end_floor: 63
-patrol: false
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
   sleep: 
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Straight Punch
-    potency: 
+    potency: 150
     type: Physical
-    description: 'instant'
+    description: "instant"
 abilities:
   - name: Plain Pound
-    potency: 
+    potency: 1600
     type: Physical
-    description: 'large untelegraphed pointblank AoE'
+    description: "untelegraphed pointblank AoE"
     warning: pointblank
 ---

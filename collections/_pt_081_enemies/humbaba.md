@@ -32,6 +32,6 @@ abilities:
 notes:
   - "Uses either Triple or Quadruple Blow followed by Bellows. Count the hits
     and move behind IMMEDIATELY after the last hit to avoid Bellows"
-  - "The hits from Triple/Quadruple Blow cannot be LoS'd or outranged (the
+  - "The hits from Triple/Quadruple Blow cannot be LoSed or outranged (the
     Humbaba will chase after the target until it gets in range)"
 ---

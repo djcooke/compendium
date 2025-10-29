@@ -5,26 +5,29 @@ image: spite.png
 family: Woodwraith
 start_floor: 72
 end_floor: 75
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Sight
+hp: 563017
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: false
   slow: 
   stun: false
 abilities:
   - name: Growing Circles of Ablution
-    potency: 
+    potency: 3500
     type: Magic
-    description: 'medium untelegraphed pointblank AoE, followed by large untelegraphed ring - get out, then get in'
+    description: "untelegraphed pointblank AoE, followed by untelegraphed huge
+    donut AoE - get out, then get in"
     warning: pointblank
   - name: Shrinking Circles of Ablution
-    potency: 
+    potency: 3500
     type: Magic
-    description: 'large untelegraphed ring AoE, followed by medium untelegraphed pointblank AoE - get in, then get out'
+    description: "untelegraphed huge donut AoE, followed by untelegraphed
+    pointblank AoE - get in, then get out"
     warning: donut
-notes: Both Circles can be line of sighted
+notes:
+  - "The hole for the donut AoE is roughly the same size as the pointblank AoE"
 ---

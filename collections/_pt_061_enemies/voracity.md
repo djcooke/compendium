@@ -1,12 +1,13 @@
 ---
-name: "Forgiven Voracity"
+name: Forgiven Voracity
 image: voracity.png
-family: "Peiste"
-level: 100
+family: Peiste
 start_floor: 67
 end_floor: 69
 agro: Sight
-patrol: false
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -15,14 +16,16 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Stone Gaze
-    potency: 
-    type: 
-    description: 'untelegraphed small front conal AoE; inflicts petrify'
+    potency: n/a
+    description: "untelegraphed conal AoE; inflicts petrify"
     warning: directional
 abilities:
   - name: Body Slam
-    potency: 
+    potency: 1600
     type: Physical
-    description: 'late small pointblank AoE'
+    description: "pointblank AoE with late telegraph"
     warning: pointblank
+notes:
+  - "Unlike other DDs, Stone Gaze is a normal AoE, not a gaze - looking away
+    will not save you!"
 ---

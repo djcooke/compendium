@@ -1,11 +1,13 @@
 ---
-name: "Forgiven Grudge"
+name: Forgiven Grudge
 image: grudge.png
-family: "Hedetet"
-level: 100
+family: Hedetet
 start_floor: 63
 end_floor: 66
 patrol: true
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -14,12 +16,14 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hailfire
-    potency: 
+    potency: 1600
     type: Physical
-    description: 'long, thin untelegraphed line AoE'
+    description: "long line AoE with late telegraph"
+    warning: directional
 abilities:
   - name: Crystalline Stingers
     potency: 
     type: 
-    description: 'massive pointblank AoE; used under 20% HP'
+    description: "telegraphed huge pointblank AoE enrage; used at 30% HP"
+    warning: explosion
 ---

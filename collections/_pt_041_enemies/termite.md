@@ -25,7 +25,7 @@ abilities:
   - name: Haste
     potency: n/a
     description: "grants permanent haste to self - speeds up auto-attacks and
-    Acid Spray casts by a factor of 3. Used when HP falls below 75%, but not
-    until 30 seconds after being pulled"
+    Acid Spray casts by a factor of 3. Used below 75% HP, but not until 30
+    seconds after being pulled"
     warning: other
 ---

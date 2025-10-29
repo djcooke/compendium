@@ -11,9 +11,9 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: "Authority's Edge"
     potency: 3500

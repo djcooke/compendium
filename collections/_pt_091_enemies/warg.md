@@ -26,12 +26,11 @@ abilities:
   - name: Heavy Smash
     potency: 3500
     type: Physical
-    description: "instant circle AoE on the target's position at the last
-    Skull Dasher hit"
+    description: "instant pointblank AoE used after the last Skull Dasher hit"
 notes:
   - "Same mechanic as the 81+ Humbaba - uses either Triple or Quadruple Skull
     Dasher followed by Heavy Smash. Count the hits and move away IMMEDIATELY
     after the last hit to avoid Heavy Smash"
-  - "The hits from Triple/Quadruple Skull Dasher cannot be LoS'd or outranged
+  - "The hits from Triple/Quadruple Skull Dasher cannot be LoSed or outranged
     (the Warg will chase after the target until it gets in range)"
 ---

@@ -1,11 +1,12 @@
 ---
-name: "Traverse Ngozi"
+name: Traverse Ngozi
 image: ngozi.png
-family: "Phoebad"
-level: 100
+family: Phoebad
 start_floor: 67
 end_floor: 69
-patrol: false
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -16,10 +17,10 @@ abilities:
   - name: Boulder Toss
     potency: 
     type: 
-    description: 'telegraphed circular AoE under random player'
+    description: "telegraphed circle AoE on random player"
   - name: Landslip
     potency: 
     type: 
-    description: 'medium late front conal AoE'
+    description: "conal AoE with late telegraph"
     warning: directional
 ---

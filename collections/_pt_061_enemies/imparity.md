@@ -1,11 +1,12 @@
 ---
-name: "Forgiven Imparity"
+name: Forgiven Imparity
 image: imparity.png
-family: "Marolith"
-level: 100
+family: Marolith
 start_floor: 64
 end_floor: 66
-patrol: false
+hp: 547953
+attack_damage: 21000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
@@ -16,10 +17,11 @@ abilities:
   - name: Isle Drop
     potency: 
     type: 
-    description: 'telegraphed circular AoE under random player'
+    description: "telegraphed circle AoE on random player"
 abilities:
   - name: Rockslide
-    potency: 
-    type: 
-    description: 'screenwide untelegraphed cross-shaped AoE'
+    potency: 1600
+    type: Magic
+    description: "untelegraphed long cross-shaped AoE"
+    warning: directional
 ---

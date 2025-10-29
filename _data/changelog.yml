@@ -1,3 +1,8 @@
+- date: 2025-10-27
+  updates:
+    - "Added more PT floor 61-80 enemy data and WHM boss timers"
+    - "Clarified aetherpool rewards and bronze chest contents per PT floorset"
+    - "Above changes courtesy of vaxherd"
 - date: 2025-10-26
   updates:
     - "Added PT floor 81-99 enemy data and WHM boss timers"

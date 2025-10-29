@@ -22,8 +22,8 @@ abilities:
   - name: Unto Dust
     potency: 4500
     type: Magic
-    description: "huge untelegraphed pointblank AoE; used repeatedly when under
-    30% HP (12s interval)"
+    description: "huge untelegraphed pointblank AoE enrage; used repeatedly
+    when below 30% HP (12s interval)"
     warning: explosion
 notes:
   - "Enrages at 30% HP and starts casting Unto Dust over and over. If you leave

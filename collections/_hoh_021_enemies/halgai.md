@@ -17,5 +17,5 @@ vulnerabilities:
 abilities:
   - name: Cure
     potency: n/a
-    description: 'heals self for 30% max HP; only used when HP under 35%'
+    description: 'heals self for 30% max HP; only used when below 35% HP'
 ---

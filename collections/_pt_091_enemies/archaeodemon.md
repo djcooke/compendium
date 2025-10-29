@@ -20,6 +20,6 @@ abilities:
     description: "large circle AoE with late telegraph"
     warning: pointblank
   - name: Karma
-    description: "huge conal AoE with late telegraph"
+    description: "huge conal AoE with late telegraph and quick cast"
     warning: directional
 ---

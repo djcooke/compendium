@@ -5,24 +5,28 @@ image: vanity.png
 family: Calx
 start_floor: 77
 end_floor: 79
-agro: 
-hp: 
-attack_damage: 
-attack_type: 
+agro: Proximity
+hp: 534772
+attack_damage: 20000
+attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: false
 abilities:
-  - name: 'Peripheral Lasers'
-    potency: 
-    type: 
-    description: 'massive telegraphed ring-shaped AoE'
+  - name: Peripheral Lasers
+    potency: 3500
+    type: Magic
+    description: "telegraphed huge donut AoE"
     warning: donut
-  - name: 'Cross Lasers'
-    potency: 
-    type: 
-    description: 'massive telegraphed cross-shaped AoE - get to the corners of the "pyramid" shape the monster creates'
+  - name: Cross Lasers
+    potency: 3500
+    type: Magic
+    description: "telegraphed huge cross-shaped AoE - get to the corners of the
+    triangle telegraphs"
+notes:
+  - "The abilities and telegraphs are the same as those used by the EO floor 90
+    boss"
 ---
