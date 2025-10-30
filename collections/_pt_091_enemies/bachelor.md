@@ -20,6 +20,7 @@ abilities:
     type: Magic
     description: "telegraphed circle AoE (follows targeted player position);
     inflicts heavy (5s)"
+    warning: movement
   - name: Shadow Burst
     description: "large telegraphed circle AoE on targeted player; used
     immediately after Arachne Web"
