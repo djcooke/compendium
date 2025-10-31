@@ -11,7 +11,7 @@ attack_damage: 20000
 attack_type: Physical
 vulnerabilities:
   bind: 
-  heavy: 
+  heavy: true
   sleep: false
   slow: 
   stun: true
