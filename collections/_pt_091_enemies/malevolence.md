@@ -19,4 +19,5 @@ abilities:
     potency: 3500
     type: Physical
     description: "large conal AoE with late telegraph; inflicts knockback"
+    warning: directional
 ---

@@ -19,13 +19,17 @@ abilities:
   - name: "Passions' Heat"
     potency: 150
     type: Magic
-    description: "ranged attack on random player; inflicts Pyretic (3s). Taking
-    any action (including moving or facing a different direction) before the
-    debuff runs out inflicts magic damage at potency 4500, which is generally
-    a one-shot. The attack can be LoSed"
+    description: "untelegraphed circle AoE on random player (the player is
+    indicated with an arrow marker but the circle is not telegraphed). Inflicts
+    Pyretic (3s); taking any action (including moving or facing a different
+    direction) before the debuff runs out inflicts damage at potency 5000,
+    which is generally a one-shot. The attack can be LoSed"
     warning: other
 notes:
-  - "As of patch 7.35, the Pyretic debuff can trigger even if you remain
-    perfectly still. This is probably a bug, but to be safe, treat this as an
-    immediate one-shot and always LoS or stun"
+  - note: 'As of patch 7.35, the Pyretic debuff can trigger even if you remain
+    perfectly still. This seems to be caused by the "Automatically face target
+    when using action" setting in the character target settings, so if you do
+    get hit, make sure to untarget the succubus before it starts moving'
+    subnotes:
+      - "It's still safer to LoS or stun"
 ---

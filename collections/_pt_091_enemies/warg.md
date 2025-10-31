@@ -27,6 +27,7 @@ abilities:
     potency: 3500
     type: Physical
     description: "instant pointblank AoE used after the last Skull Dasher hit"
+    warning: pointblank
 notes:
   - "Same mechanic as the 81+ Humbaba - uses either Triple or Quadruple Skull
     Dasher followed by Heavy Smash. Count the hits and move away IMMEDIATELY

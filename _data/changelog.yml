@@ -1,3 +1,7 @@
+- date: 2025-10-30
+  updates:
+    - "Clarified trigger condition for PT Succubus's Pyretic and other PT 81+
+      fixes, courtesy of vaxherd"
 - date: 2025-10-27
   updates:
     - "Added more PT floor 61-80 enemy data and WHM boss timers"

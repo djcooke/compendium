@@ -26,4 +26,5 @@ abilities:
     type: Magic
     description: "pointblank AoE with late telegraph; used immediately after
     Surprise Attack. Can be interrupted"
+    warning: pointblank
 ---

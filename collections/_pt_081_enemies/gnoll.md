@@ -20,7 +20,8 @@ abilities:
     description: "wide conal AoE with late telegraph"
     warning: directional
   - name: Maul
-    description: "targeted enrage with long cast; used when HP goes below 30%,
-    but not until 30 seconds after pull. Can be interrupted or LoSed"
+    description: "single-target ranged enrage with long cast; used when HP goes
+    below 30%, but not until 30 seconds after pull. Can be interrupted or
+    LoSed"
     warning: explosion
 ---
