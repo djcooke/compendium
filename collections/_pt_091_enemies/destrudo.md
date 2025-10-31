@@ -1,6 +1,7 @@
 ---
 name: Invoked Destrudo
 nickname: Destrudo
+image: destrudo.png
 family: Ahriman
 start_floor: 96
 end_floor: 98

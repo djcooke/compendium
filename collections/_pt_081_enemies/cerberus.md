@@ -1,6 +1,7 @@
 ---
 name: Invoked Cerberus
 nickname: Cerberus
+image: cerberus.png
 family: Cerburus
 start_floor: 86
 end_floor: 89

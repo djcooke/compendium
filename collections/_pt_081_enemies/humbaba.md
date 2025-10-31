@@ -1,6 +1,7 @@
 ---
 name: Invoked Humbaba
 nickname: Humbaba
+image: humbaba.png
 family: Muud Suud
 start_floor: 86
 end_floor: 89

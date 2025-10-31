@@ -1,6 +1,7 @@
 ---
 name: Traverse Gnoll
 nickname: Gnoll
+image: gnoll.png
 family: Gnoll
 start_floor: 81
 end_floor: 83

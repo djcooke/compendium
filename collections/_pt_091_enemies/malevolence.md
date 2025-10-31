@@ -1,6 +1,7 @@
 ---
 name: Traverse Malevolence
 nickname: Malevolence
+image: malevolence.png
 family: Spartoi
 start_floor: 95
 end_floor: 97

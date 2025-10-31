@@ -1,6 +1,7 @@
 ---
 name: Invoked Bachelor
 nickname: Bachelor
+image: bachelor.png
 family: Arachne
 start_floor: 94
 end_floor: 96

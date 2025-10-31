@@ -1,6 +1,7 @@
 ---
 name: Traverse Warg
 nickname: Warg
+image: warg.png
 family: Warg
 start_floor: 93
 end_floor: 96

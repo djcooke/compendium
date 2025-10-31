@@ -1,6 +1,7 @@
 ---
 name: Traverse Ya-te-veo
 nickname: Ya-te-veo
+image: ya-te-veo.png
 family: Rafflesia
 start_floor: 91
 end_floor: 93

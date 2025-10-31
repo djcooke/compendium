@@ -1,6 +1,7 @@
 ---
 name: Invoked Satana
 nickname: Satana
+image: satana.png
 family: Imp
 start_floor: 83
 end_floor: 84

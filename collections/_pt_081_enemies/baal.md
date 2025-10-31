@@ -1,6 +1,7 @@
 ---
 name: Invoked Baal
 nickname: Baal
+image: baal.png
 family: Lion
 start_floor: 86
 end_floor: 89

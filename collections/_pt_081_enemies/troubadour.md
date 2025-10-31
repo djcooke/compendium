@@ -1,6 +1,7 @@
 ---
 name: Invoked Troubadour
 nickname: Troubadour
+image: troubadour.png
 family: Troubadour
 start_floor: 86
 end_floor: 89

@@ -1,6 +1,7 @@
 ---
 name: Invoked Gremlin
 nickname: Gremlin
+image: gremlin.png
 family: Gremlin
 start_floor: 81
 end_floor: 83

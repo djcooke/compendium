@@ -1,6 +1,7 @@
 ---
 name: Invoked Succubus
 nickname: Succubus
+image: succubus.png
 family: Succubus
 start_floor: 84
 end_floor: 86

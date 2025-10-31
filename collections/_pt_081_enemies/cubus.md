@@ -1,6 +1,7 @@
 ---
 name: Traverse Cubus
 nickname: Cubus
+image: cubus.png
 family: Cubus
 start_floor: 81
 end_floor: 84

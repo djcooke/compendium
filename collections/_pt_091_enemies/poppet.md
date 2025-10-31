@@ -1,6 +1,7 @@
 ---
 name: Invoked Poppet
 nickname: Poppet
+image: poppet.png
 family: Chimera Poppet
 start_floor: 91
 end_floor: 94

@@ -1,6 +1,7 @@
 ---
 name: Invoked Arch Demon
 nickname: Arch Demon
+image: archdemon.png
 family: Arch Demon
 start_floor: 84
 end_floor: 86

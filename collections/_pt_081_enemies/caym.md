@@ -1,6 +1,7 @@
 ---
 name: Invoked Caym
 nickname: Caym
+image: caym.png
 family: Caym
 start_floor: 85
 end_floor: 88
