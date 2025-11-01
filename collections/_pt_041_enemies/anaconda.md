@@ -2,7 +2,6 @@
 name: Traverse Anaconda
 nickname: Anaconda
 image: anaconda.png
-family: Bhujamga
 start_floor: 41
 end_floor: 44
 agro: Sight

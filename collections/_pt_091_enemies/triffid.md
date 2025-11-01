@@ -2,7 +2,6 @@
 name: Traverse Triffid
 nickname: Triffid
 image: triffid.png
-family: Leshy
 start_floor: 91
 end_floor: 93
 agro: Sound

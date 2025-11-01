@@ -2,7 +2,6 @@
 name: Traverse Tragopan
 nickname: Tragopan
 image: tragopan.png
-family: Vulture
 start_floor: 21
 end_floor: 22
 agro: Sight

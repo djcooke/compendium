@@ -2,7 +2,6 @@
 name: Traverse Topiary
 nickname: Topiary
 image: topiary.png
-family: Netzach
 start_floor: 15
 end_floor: 17
 agro: Sight

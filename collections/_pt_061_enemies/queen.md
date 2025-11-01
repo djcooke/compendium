@@ -1,7 +1,7 @@
 ---
 name: Traverse Queen
 image: queen.png
-family: Tarantula Hawk
+family: Bee
 start_floor: 65
 end_floor: 68
 hp: 547953

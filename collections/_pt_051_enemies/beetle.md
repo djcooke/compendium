@@ -2,7 +2,6 @@
 name: Traverse Beetle
 nickname: Beetle
 image: beetle.png
-family: Scarab
 start_floor: 51
 end_floor: 53
 agro: Sight

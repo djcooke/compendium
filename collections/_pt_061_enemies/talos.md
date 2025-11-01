@@ -1,7 +1,6 @@
 ---
 name: Traverse Talos
 image: talos.png
-family: Talos
 start_floor: 61
 end_floor: 69
 agro: Sight

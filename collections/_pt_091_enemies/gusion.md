@@ -2,7 +2,6 @@
 name: Invoked Gusion
 nickname: Gusion
 image: gusion.png
-family: Gusion
 start_floor: 96
 end_floor: 98
 agro: Sight

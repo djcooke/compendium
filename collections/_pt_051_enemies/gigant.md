@@ -2,7 +2,6 @@
 name: Traverse Gigant
 nickname: Gigant
 image: gigant.png
-family: Eldthurs
 start_floor: 56
 end_floor: 59
 agro: Sight

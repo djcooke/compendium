@@ -2,7 +2,6 @@
 name: Traverse Scissorjaws
 nickname: Scissorjaws
 image: scissorjaws.png
-family: Antlion
 start_floor: 71
 end_floor: 73
 agro: Sight

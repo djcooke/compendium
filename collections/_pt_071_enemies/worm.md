@@ -2,7 +2,6 @@
 name: Traverse Worm
 nickname: Worm
 image: worm.png
-family: Sandworm
 start_floor: 74
 end_floor: 76
 agro: Sound

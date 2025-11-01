@@ -1,7 +1,6 @@
 ---
 name: Traverse Gnome
 image: gnome.png
-family: Dhara
 start_floor: 61
 end_floor: 63
 hp: 547953
