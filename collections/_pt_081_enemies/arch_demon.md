@@ -10,7 +10,7 @@ hp: 579964
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
-  bind: 
+  bind: true
   heavy: true
   sleep: false
   slow: 
