@@ -2,7 +2,6 @@
 name: Traverse Clionid
 nickname: Clionid
 image: clionid.png
-family: Clionid
 start_floor: 24
 end_floor: 25
 agro: Sight

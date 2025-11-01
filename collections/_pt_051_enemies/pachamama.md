@@ -2,7 +2,6 @@
 name: Traverse Pachamama
 nickname: Pachamama
 image: pachamama.png
-family: Wivre
 start_floor: 52
 end_floor: 55
 agro: Sight

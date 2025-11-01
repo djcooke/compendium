@@ -2,7 +2,6 @@
 name: Traverse Sand Serpent
 nickname: Sand Serpent
 image: serpent.png
-family: Sea Serpent
 start_floor: 56
 end_floor: 59
 patrol: true
