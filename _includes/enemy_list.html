@@ -25,7 +25,7 @@
         <th class="aggroCell" title="Aggro Type">!</th>
         <th class="textCell">Name</th>
         <th class="warningCell">Warnings</th>
-        {% if page.dungeon != "eo" %}
+        {% if page.dungeon != "eo" and page.dungeon != "pt" %}
         {% for job in site.data.jobs %}
         <th class="difficultyCell jobSpecific job{{ job }}" title="Difficulty Rating for {{ job }}">{{ job }}</th>
         {% endfor %}
@@ -91,7 +91,7 @@
             {% endfor %}
           </td>
 
-          {% if page.dungeon != "eo" %}
+          {% if page.dungeon != "eo" and page.dungeon != "pt" %}
           {% for job in site.data.jobs %}
           <td class="difficultyCell jobSpecific job{{ job }}">
             {% if enemy.job_specifics and enemy.job_specifics[job] and enemy.job_specifics[job].difficulty %}
