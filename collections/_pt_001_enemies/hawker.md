@@ -13,7 +13,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Venom

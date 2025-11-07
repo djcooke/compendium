@@ -10,10 +10,10 @@ hp: 81007
 attack_damage: 1410
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Frog Kick

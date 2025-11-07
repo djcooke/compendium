@@ -13,12 +13,12 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Incubus
     potency: 2100
     type: Magic
     description: "telegraphed circle AoE on random player; inflicts sleep
-    (15s, uncurable)"
+      (15s, uncurable)"
 ---

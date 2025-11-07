@@ -10,10 +10,10 @@ hp: 86559
 attack_damage: 1446
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: false
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Spinning Attack
