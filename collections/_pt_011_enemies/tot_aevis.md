@@ -2,6 +2,7 @@
 name: Traverse Tot Aevis
 nickname: Tot Aevis
 image: aevis.png
+family: Zu
 start_floor: 11
 end_floor: 13
 patrol: true
