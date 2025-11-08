@@ -13,7 +13,7 @@ vulnerabilities:
   bind: 
   heavy: 
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Ripper Claw

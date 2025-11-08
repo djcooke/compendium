@@ -10,10 +10,10 @@ hp: 182651
 attack_damage: 3523
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Fists of Rage

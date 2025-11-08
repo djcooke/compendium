@@ -14,7 +14,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Silkscreen

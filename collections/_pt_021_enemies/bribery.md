@@ -11,8 +11,8 @@ hp: 254205
 attack_damage: 3487
 attack_type: Magic
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
   slow: 
   stun: false
