@@ -2,7 +2,6 @@
 name: Traverse Guardian
 nickname: Guardian
 image: guardian.png
-family: Lozatl
 start_floor: 56
 end_floor: 59
 agro: Sight

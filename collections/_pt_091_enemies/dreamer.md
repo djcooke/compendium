@@ -2,7 +2,6 @@
 name: Invoked Dreamer
 nickname: Dreamer
 image: dreamer.png
-family: Evil Dreamer
 start_floor: 91
 end_floor: 98
 agro: Sight

@@ -2,7 +2,6 @@
 name: Invoked Sawtooth
 nickname: Sawtooth
 image: sawtooth.png
-family: Sawtooth
 start_floor: 93
 end_floor: 98
 patrol: true

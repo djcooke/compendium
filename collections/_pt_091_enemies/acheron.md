@@ -2,7 +2,6 @@
 name: Invoked Acheron
 nickname: Acheron
 image: acheron.png
-family: Aug Allagan
 start_floor: 96
 end_floor: 98
 agro: Sight

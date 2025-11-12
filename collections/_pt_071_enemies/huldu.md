@@ -1,6 +1,5 @@
 ---
 name: Traverse Huldu
-nickname: Huldu
 image: huldu.png
 family: Dynamite
 start_floor: 71

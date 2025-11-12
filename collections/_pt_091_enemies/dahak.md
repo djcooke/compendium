@@ -2,7 +2,6 @@
 name: Invoked Dahak
 nickname: Dahak
 image: dahak.png
-family: Dahak
 start_floor: 93
 end_floor: 95
 agro: Sight

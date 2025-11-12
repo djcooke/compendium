@@ -2,7 +2,6 @@
 name: Traverse Statue
 nickname: Statue
 image: statue.png
-family: Sculpture
 start_floor: 28
 end_floor: 29
 agro: Sight

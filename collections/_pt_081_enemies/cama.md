@@ -2,7 +2,6 @@
 name: Traverse Cama
 nickname: Cama
 image: cama.png
-family: Carna
 start_floor: 84
 end_floor: 87
 agro: Sight
