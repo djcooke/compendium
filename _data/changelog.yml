@@ -1,3 +1,6 @@
+- date: 2025-11-14
+  updates:
+    - "Added more PT enemy ability and vulnerability data, courtesy of vaxherd"
 - date: 2025-11-07
   updates:
     - "Removed difficulty column from PT enemy list"

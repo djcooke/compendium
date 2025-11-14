@@ -4,21 +4,21 @@ image: imparity.png
 family: Marolith
 start_floor: 64
 end_floor: 66
+agro: Sound
 hp: 547953
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
-  stun: 
+  stun: true
 abilities:
   - name: Isle Drop
-    potency: 
-    type: 
+    potency: 1600
+    type: Physical
     description: "telegraphed circle AoE on random player"
-abilities:
   - name: Rockslide
     potency: 1600
     type: Magic

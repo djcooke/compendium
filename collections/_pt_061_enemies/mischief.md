@@ -17,8 +17,8 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Hammer Throw
-    potency: 
-    type: Physical
+    potency: 1600
+    type: Magic
     description: "telegraphed circle AoE on random player"
   - name: Schiltron
     potency: n/a

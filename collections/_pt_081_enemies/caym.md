@@ -20,5 +20,7 @@ abilities:
     description: "huge pointblank AoE gaze; inflicts petrify (15s, uncurable)"
     warning: gaze
   - name: Knowing Gleam
+    potency: 4000
+    type: Magic
     description: "telegraphed circle AoE"
 ---

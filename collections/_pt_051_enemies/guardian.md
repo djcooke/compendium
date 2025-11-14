@@ -14,4 +14,6 @@ vulnerabilities:
   sleep: true
   slow: 
   stun: true
+notes:
+  - Only uses auto-attacks
 ---

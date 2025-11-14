@@ -1,22 +1,23 @@
 ---
-name: "Forgiven Attachment"
+name: Forgiven Attachment
 image: attachment.png
-family: "Dagon"
-level: 100
+family: Dagon
 start_floor: 65
 end_floor: 67
-patrol: false
+aggro: Sound
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Sewer Water
-    potency: 
+    potency: 1600
     type: Magic
-    description: "180 degree frontal cone with late telegraph followed by 180
-      degree rear cone"
+    description: "180 degree forward or backward AoE"
     warning: directional
+notes:
+  - "Targets a random player and uses either forward or backward Sewer Water
+    depending on their position"
 ---
