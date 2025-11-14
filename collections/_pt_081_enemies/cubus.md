@@ -18,6 +18,8 @@ abilities:
   - name: Dark
     description: "telegraphed circle AoE on random player"
   - name: Dark II
+    potency: 4000
+    type: Magic
     description: "huge, wide conal AoE with late telegraph - get behind!"
     warning: directional
 ---

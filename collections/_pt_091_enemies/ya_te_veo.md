@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Rotten Stench
-    potency: 3500
+    potency: 4000
     type: Magic
     description: "wide line AoE with late telegraph and quick cast"
     warning: directional

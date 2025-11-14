@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: "Authority's Edge"
-    potency: 3500
+    potency: 4000
     type: Physical
     description: "untelegraphed huge pointblank AoE"
     warning: pointblank

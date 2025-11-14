@@ -17,9 +17,13 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Mortal Gaze
-    description: "huge pointblank AoE gaze; probably inflicts instant death"
+    potency: n/a
+    description: "huge pointblank AoE gaze; inflicts doom (10s)"
     warning: gaze
   - name: Stare
     description: "line AoE with late telegraph"
     warning: directional
+notes:
+  - "The doom is curable, so you can preemptively use a pomander of
+    purification to ignore one instance of Mortal Gaze"
 ---

@@ -16,7 +16,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Several Thousand Needles
-    potency: 
+    potency: 1600
     type: Physical
     description: "wide line AoE with late telegraph (no telegraph when hasted)"
     warning: directional

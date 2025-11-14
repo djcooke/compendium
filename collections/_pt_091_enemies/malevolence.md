@@ -17,7 +17,7 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Smashing Blow
-    potency: 3500
+    potency: 4000
     type: Physical
     description: "large conal AoE with late telegraph; inflicts knockback"
     warning: directional

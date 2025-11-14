@@ -5,7 +5,7 @@ image: disobedience.png
 family: Dzo
 start_floor: 16
 end_floor: 17
-agro: sight
+agro: Sight
 level: 99
 hp: 135756
 attack_damage: 2359
