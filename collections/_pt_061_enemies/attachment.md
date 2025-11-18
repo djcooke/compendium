@@ -4,7 +4,7 @@ image: attachment.png
 family: Dagon
 start_floor: 65
 end_floor: 67
-aggro: Sound
+agro: Sound
 vulnerabilities:
   bind: 
   heavy: 
