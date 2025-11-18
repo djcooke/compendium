@@ -22,6 +22,8 @@ abilities:
     description: "wide line AoE with late telegraph"
     warning: directional
   - name: Incinerating Lahar
+    potency: 4000
+    type: Magic
     description: "huge pointblank AoE used out of combat; long cast time"
     warning: idle
 ---

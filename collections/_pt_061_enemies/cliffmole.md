@@ -1,7 +1,6 @@
 ---
-name: "Traverse Cliffmole"
+name: Traverse Cliffmole
 image: cliffmole.png
-level: 100
 start_floor: 61
 end_floor: 63
 agro: Sight
@@ -11,12 +10,13 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Head Butt
     potency: 1600
     type: Physical
-    description: 'tiny conal AoE'
+    description: "small conal AoE with late telegraph"
+    warning: directional
 ---

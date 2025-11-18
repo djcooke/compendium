@@ -11,19 +11,18 @@ attack_type: Physical
 vulnerabilities:
   bind: 
   heavy: 
-  sleep: 
+  sleep: true
   slow: 
   stun: true
 abilities:
   - name: Stone Gaze
     potency: n/a
-    description: "untelegraphed conal AoE; inflicts petrify"
+    description: "untelegraphed conal AoE; inflicts petrify (15s, uncurable)"
     warning: directional
-abilities:
   - name: Body Slam
     potency: 1600
     type: Physical
-    description: "pointblank AoE with late telegraph"
+    description: "pointblank AoE with late telegraph; inflicts knockback"
     warning: pointblank
 notes:
   - "Unlike other DDs, Stone Gaze is a normal AoE, not a gaze - looking away

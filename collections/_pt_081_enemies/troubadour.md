@@ -19,7 +19,7 @@ abilities:
     description: "pointblank AoE with late telegraph"
     warning: pointblank
   - name: Dark II
-    potency: 3500
+    potency: 4000
     type: Magic
     description: "large conal AoE with late telegraph; has a short cast time"
     warning: directional

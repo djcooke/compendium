@@ -17,9 +17,12 @@ vulnerabilities:
 abilities:
   - name: Nox Blast
     potency: 4000
+    type: Magic
     description: "wide conal AoE with late telegraph"
     warning: directional
   - name: Maul
+    potency: 4000
+    type: Physical
     description: "single-target ranged enrage with long cast; used when HP goes
     below 30%, but not until 30 seconds after pull. Can be interrupted or
     LoSed"

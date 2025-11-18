@@ -16,11 +16,18 @@ vulnerabilities:
   stun: true
 abilities:
   - name: Lightning Bolt
-    potency: 3500
+    potency: 4000
     type: Magic
     description: "circle AoE with late telegraph directly in front of the
     enemy"
   - name: Hellclaw
-    description: "conal AoE with late telegraph"
+    description: "forward conal AoE with late telegraph"
     warning: directional
+  - name: Tail Blow
+    potency: 4000
+    type: Physical
+    description: "backward conal AoE with late telegraph"
+    warning: directional
+notes:
+  - "Uses Lightning Bolt followed by either Hellclaw or Tail Blow"
 ---

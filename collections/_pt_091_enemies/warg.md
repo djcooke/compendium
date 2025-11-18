@@ -24,7 +24,7 @@ abilities:
     type: Physical
     description: "4 attacks on the target, followed by Heavy Smash"
   - name: Heavy Smash
-    potency: 3500
+    potency: 4000
     type: Physical
     description: "instant pointblank AoE used after the last Skull Dasher hit"
     warning: pointblank
