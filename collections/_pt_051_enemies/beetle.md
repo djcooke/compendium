@@ -9,10 +9,10 @@ hp: 346472
 attack_damage: 9304
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Rhino Attack
@@ -22,5 +22,5 @@ abilities:
   - name: Rhino Guard
     potency: n/a
     description: "grants evasion up (30s) to self; used below 50% HP, but not
-    until 20 seconds after pull. Can be interrupted"
+      until 20 seconds after pull. Can be interrupted"
 ---

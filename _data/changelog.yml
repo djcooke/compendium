@@ -1,3 +1,6 @@
+- date: 2025-11-18
+  updates:
+    - "Added more heavy, bind, and slow vulnerabilities for PT 1-70 enemies"
 - date: 2025-11-17
   updates:
     - "Added more PT enemy ability and vulnerability data, courtesy of vaxherd"

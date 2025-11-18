@@ -10,10 +10,10 @@ hp: 419909
 attack_damage: 12055
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Earthen Auger

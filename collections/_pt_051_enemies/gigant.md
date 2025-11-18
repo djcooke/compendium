@@ -9,10 +9,10 @@ hp: 367185
 attack_damage: 9822
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Inhale

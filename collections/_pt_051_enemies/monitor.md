@@ -10,10 +10,10 @@ hp: 355887
 attack_damage: 9446
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Burning Cyclone

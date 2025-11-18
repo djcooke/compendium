@@ -9,10 +9,10 @@ hp: 421792
 attack_damage: 7992
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Magnetic Shock
@@ -23,6 +23,7 @@ abilities:
     potency: 900
     type: Physical
     description: "large pointblank AoE with late telegraph"
+    warning: pointblank
   - name: Stone Skull
     potency: 150
     type: Physical

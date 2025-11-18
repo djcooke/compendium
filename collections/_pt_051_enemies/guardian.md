@@ -9,10 +9,10 @@ hp: 393547
 attack_damage: 10888
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: false
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 notes:
   - Only uses auto-attacks

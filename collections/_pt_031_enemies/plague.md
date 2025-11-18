@@ -11,10 +11,10 @@ hp: 235375
 attack_damage: 6901
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: false
-  slow: 
+  slow: true
   stun: false
 abilities:
   - name: Poison Pollen Pair

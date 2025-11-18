@@ -10,10 +10,10 @@ hp: 418026
 attack_damage: 7992
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: false
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Aetherial Blast

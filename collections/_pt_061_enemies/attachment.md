@@ -6,10 +6,10 @@ start_floor: 65
 end_floor: 67
 agro: Sound
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Sewer Water

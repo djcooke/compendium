@@ -9,10 +9,10 @@ hp: 574315
 attack_damage: 22000
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Several Thousand Needles

@@ -10,10 +10,10 @@ hp: 280567
 attack_damage: 7992
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: false
-  slow: 
+  slow: true
   stun: false
 abilities:
   - name: Creeping Combination
