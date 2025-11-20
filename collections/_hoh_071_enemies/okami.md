@@ -4,7 +4,7 @@ nickname: Okami
 family: Wolf
 image: okami.png
 start_floor: 72
-end_floor: 74
+end_floor: 75
 agro: Sight
 hp: 49038
 attack_damage: 3963
@@ -20,7 +20,7 @@ abilities:
     potency: 100
     type: Physical
     description: 'instant; inflicts frostbite (physical DoT potency 50, 12s);
-    absorbs 95.5% of damage dealt'
+      absorbs 95.5% of damage dealt'
 job_specifics:
   DRK:
     difficulty: Easy
