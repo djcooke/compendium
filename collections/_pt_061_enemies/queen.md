@@ -12,7 +12,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Unfinal Sting
@@ -23,7 +23,7 @@ abilities:
     potency: 3500
     type: Physical
     description: "targeted sacrificial enrage; used at 15% HP. Cannot be
-    outranged (the enemy will chase after the target until it gets in range or
-    is killed)"
+      outranged (the enemy will chase after the target until it gets in range or
+      is killed)"
     warning: explosion
 ---

@@ -13,7 +13,7 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Forward Barrage
@@ -29,6 +29,6 @@ abilities:
     potency: 3500
     type: Magic
     description: "huge pointblank AoE with long cast used out of combat;
-    inflicts knockback"
+      inflicts knockback"
     warning: idle
 ---

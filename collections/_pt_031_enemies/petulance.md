@@ -13,22 +13,24 @@ vulnerabilities:
   bind: false
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Left Tentacle
     potency: 900
     type: Physical
     description: "untelegraphed huge sideways AoE to the enemy's left side -
-    get to the right or LoS"
-    warning: pointblank
+      get to the right or LoS"
+    warning: directional
   - name: Right Tentacle
     potency: 900
     type: Physical
     description: "untelegraphed huge sideways AoE to the enemy's right side -
-    get to the left or LoS"
-    warning: pointblank
+      get to the left or LoS"
+    warning: directional
 notes:
   - "Uses Left and Right Tentacle in pairs (random order), so either be ready
     to swap sides or stay out of line-of-sight until both are done"
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+    Witching since it doesn't normally do melee auto-attacks"
 ---

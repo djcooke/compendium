@@ -13,14 +13,14 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Gravel Shower
     potency: 3500
     type: Physical
     description: "short line AoE with late telegraph on random player - will
-    chase until within casting range"
+      chase until within casting range"
   - name: Crushing Fang
     potency: 150
     type: Physical

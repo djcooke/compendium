@@ -14,7 +14,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: false
-  slow: 
+  slow: true
   stun: false
 abilities:
   - name: Hail of Heels

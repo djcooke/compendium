@@ -13,7 +13,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 start_floor: 77
 abilities:
@@ -26,6 +26,9 @@ abilities:
     potency: 3500
     type: Magic
     description: "large circle AoE with late telegraph on random player - move
-    away from the spot you were at when it began casting"
+      away from the spot you were at when it began casting"
     warning: pointblank
+notes:
+  - "Can only be slowed with Arm's Length if transfigured via Pomander of
+    Witching since it doesn't normally do melee auto-attacks"
 ---

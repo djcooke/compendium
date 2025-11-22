@@ -20,7 +20,7 @@ notes:
   - 'Caster - kiting doesn''t help to mitigate damage'
   - 'Interrupts spell casts very often'
   - "Can only be slowed with Arm's Length if transfigured via Pomander of
-  Witching since it doesn't normally do melee auto-attacks"
+    Witching since it doesn't normally do melee auto-attacks"
 job_specifics:
   GNB:
     difficulty: Easy
