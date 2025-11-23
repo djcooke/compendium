@@ -4,7 +4,7 @@ nickname: Jaki
 family: Demon
 image: jaki.png
 start_floor: 93
-end_floor: 95
+end_floor: 97
 agro: Sight
 hp: 72326
 attack_damage: 6040
@@ -22,7 +22,7 @@ abilities:
   - name: 'Charybdis'
     potency: n/a
     description: 'circle AoE on marked player; drops you to 1 HP; can be
-    interrupted or LoSed'
+      interrupted or LoSed'
     warning: other
 job_specifics:
   DRK:
