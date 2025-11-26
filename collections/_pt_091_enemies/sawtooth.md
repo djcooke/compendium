@@ -10,10 +10,10 @@ hp: 627039
 attack_damage: 22000
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: true
+  heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Honeyed Front
@@ -21,11 +21,11 @@ abilities:
     warning: directional
   - name: Honeyed Left
     description: "large 180 degree AoE with late telegraph to the left and
-    behind"
+      behind"
     warning: directional
   - name: Honeyed Right
     description: "large 180 degree AoE with late telegraph to the right and
-    behind"
+      behind"
     warning: directional
 notes:
   - "The front/left/right AoEs are the same as the EO floor 80 boss"

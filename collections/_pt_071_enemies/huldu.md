@@ -13,7 +13,7 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: false
 abilities:
   - name: Fracture

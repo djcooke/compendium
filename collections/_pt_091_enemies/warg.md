@@ -9,10 +9,10 @@ hp: 596911
 attack_damage: 21000
 attack_type: Physical
 vulnerabilities:
-  bind: 
-  heavy: 
+  bind: false
+  heavy: true
   sleep: false
-  slow: 
+  slow: true
   stun: false
 abilities:
   - name: Triple Skull Dasher

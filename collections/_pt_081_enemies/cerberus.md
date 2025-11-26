@@ -12,14 +12,14 @@ vulnerabilities:
   bind: true
   heavy: true
   sleep: true
-  slow: 
+  slow: true
   stun: true
 abilities:
   - name: Lightning Bolt
     potency: 4000
     type: Magic
     description: "circle AoE with late telegraph directly in front of the
-    enemy"
+      enemy"
   - name: Hellclaw
     description: "forward conal AoE with late telegraph"
     warning: directional
