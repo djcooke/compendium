@@ -15,7 +15,6 @@ vulnerabilities:
   sleep: true
   slow: true
   stun: true
-start_floor: 77
 abilities:
   - name: Metamorphic Blast
     potency: 3500

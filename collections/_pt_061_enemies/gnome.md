@@ -18,7 +18,6 @@ abilities:
     potency: 150
     type: Physical
     description: "instant"
-abilities:
   - name: Plain Pound
     potency: 1600
     type: Physical

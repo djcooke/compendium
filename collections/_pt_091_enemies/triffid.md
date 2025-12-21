@@ -1,6 +1,6 @@
 ---
-name: Traverse Triffid
-nickname: Triffid
+name: Traverse Violet Triffid
+nickname: Violet Triffid
 image: triffid.png
 start_floor: 91
 end_floor: 93

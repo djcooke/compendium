@@ -15,7 +15,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Catching Claw
+  - name: Catching Claws
     potency: 900
     type: Physical
     description: "telegraphed wide but short conal AoE"
