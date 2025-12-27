@@ -1,9 +1,10 @@
 ---
 name: Mimic
 nickname: Mimic
-image: 
+image: ../mimic_silver.png
 start_floor: 41
 end_floor: 49
+level: 100
 agro: Proximity
 hp: 446271
 attack_damage: 9259
