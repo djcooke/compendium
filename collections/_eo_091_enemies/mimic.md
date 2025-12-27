@@ -6,6 +6,7 @@ start_floor: 91
 end_floor: 98
 agro: Proximity
 hp: 466408
+level: 90
 attack_damage: 15459
 attack_type: Physical
 vulnerabilities:
