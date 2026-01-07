@@ -15,10 +15,16 @@ vulnerabilities:
   slow: true
   stun: false
 abilities:
-  - name: Left/Right-sided Shockwave
+  - name: Left-sided Shockwave
     potency: 1600
     type: Physical
-    description: "untelegraphed huge 180 degree AoE to both sides - first the
-    side given in the ability name, then the opposite side immediately after"
+    description: "untelegraphed huge 180 degree AoE to both sides - first 
+    left side, then right side immediately after"
+    warning: directional
+  - name: Right-sided Shockwave
+    potency: 1600
+    type: Physical
+    description: "untelegraphed huge 180 degree AoE to both sides - first 
+    right side, then left side immediately after"
     warning: directional
 ---

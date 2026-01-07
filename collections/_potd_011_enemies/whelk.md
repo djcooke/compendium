@@ -16,7 +16,7 @@ vulnerabilities:
   slow: true
   stun: true
 abilities:
-  - name: Suction
+  - name: Sucker
     potency: 130
     type: Physical
     description: 'instant'

@@ -7,7 +7,6 @@ level: 99
 start_floor: 16
 end_floor: 19
 agro: Sight
-level: 99
 hp: 204472
 attack_damage: 2359
 attack_type: Physical
