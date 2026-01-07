@@ -1,3 +1,11 @@
+- date: 2026-01-07
+  updates:
+    - "Added missing mimic images"
+    - "Updated PT enemies that were renamed in patch 7.4"
+    - "Updated PT Traverse Tolba (previously Troubadour) to remove its effects on Steel, which were
+      removed in patch 7.4"
+    - "Corrected a few enemy ability names"
+    - "Above updates courtesy of MKhayle"
 - date: 2025-11-26
   updates:
     - "Completed vulnerabilities for PT 71-90 enemies"
