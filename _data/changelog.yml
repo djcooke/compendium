@@ -1,3 +1,12 @@
+- date: 2026-01-18
+  updates:
+    - "Updated Knowledge/Preparation pages to reflect patch 7.31 changes to
+      PotD and general differences in PT"
+    - "Updated approprate food/tincture for EO and PT"
+    - "Updated sources of Phoenix Downs"
+    - "Clarified damage from puddles in PotD boss encounters"
+    - "Corrected PotD 130 boss autoattack damage"
+    - "Above changes courtesy of vaxherd"
 - date: 2026-01-07
   updates:
     - "Added missing mimic images"
