@@ -66,7 +66,7 @@ boss - anything you get from bronze chests stays in your inventory.
 **HoH/EO**: Beating floor 30 always gives you a potsherd, so it's easiest to
 just spam floor 21-30 in a party or matched groups.
 
-**PT**: You can spam floor 21-40 like HoH/EO, but floor 31-40 or 51-60 are
+**PT**: You can spam floor 21-30 like HoH/EO, but floor 31-40 or 51-60 are
 usually a better choice because bronze chests drop multiple items and you'll
 have a decent chance of picking up extra potsherds even in a party.
 
