@@ -91,10 +91,11 @@ some jobs in the later floors. You will get tons of Super Potions from HoH.
 | Potion | 40% | 200 | 500 |
 | Hi-Potion | 40% | 440 | 1,257 |
 | Mega-Potion | 35% | 840 | 2,800 |
-| X-Potion | 30% | 1300 | 4,333 |
-| Max-Potion | 30% | 2400 | 9,600 |
-| Super-Potion | 25% | 3600 | 14,400 |
-| Hyper-potion | 25% | 11,000 | n/a |
+| X-Potion | 30% | 1,300 | 4,333 |
+| Max-Potion | 30% | 2,400 | 9,600 |
+| Super-Potion | 25% | 3,600 | 14,400 |
+| Hyper-Potion | 25% | 11,000 | 44,000 |
+| Ultra-Potion | 25% | 39,500 | n/a |
 
 ### Food
 
