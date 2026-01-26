@@ -190,6 +190,10 @@ chests:
   importantly, potsherds. Potsherds ("Orthos Aetherpool Fragments" in EO) can
   be exchanged for several items, including Sustaining/Empyrean/Orthos Potions,
   which grant a potent regen effect and are essential for soloing
+  * Specific to PotD, Sustaining Potions are frequently dropped by normal
+    enemies when defeated, so you typically won't need to farm potsherds to
+    trade for them. Enemies in other DDs drop ordinary potions appropriate
+    to the dungeon level (Max-Potion, Super-Potion, etc.)
 * **Silver**: Can have one of several effects
   * Upgrade your Aetherpool arm or armor
   * Chest explodes, dealing 70% max HP damage to any players and enemies nearby
