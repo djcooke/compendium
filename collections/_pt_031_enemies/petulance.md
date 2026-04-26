@@ -3,7 +3,7 @@ name: Forgiven Petulance
 nickname: Petulance
 image: petulance.png
 family: Calofisteri
-start_floor: 38
+start_floor: 37
 end_floor: 39
 agro: Sight
 hp: 239141
