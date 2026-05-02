@@ -5,46 +5,6 @@ let urlParams;
 function toggleOpen(id) {
   const element = document.getElementById(id);
   element.classList.toggle('open');
-
-  // Auto-open submenus when opening navigation on mobile
-  if (id === 'nav' && element.classList.contains('open')) {
-    autoOpenSubmenu();
-  }
-}
-
-function initializeNavigation() {
-  const currentPath = window.location.pathname;
-  const normalizedCurrentPath = normalizePath(currentPath);
-  const nav = document.getElementById('nav');
-
-  // Highlight current nav item
-  const navLinks = nav.getElementsByTagName('a');
-  for (let i = 0; i < navLinks.length; i++) {
-    const link = navLinks[i];
-    const linkPath = link.getAttribute('href');
-
-    if (!linkPath) continue;
-
-    const normalizedLinkPath = normalizePath(linkPath);
-
-    // Match home page or exact path match
-    if ((isHomePage(normalizedCurrentPath) && isHomePage(normalizedLinkPath)) ||
-      (normalizedCurrentPath === normalizedLinkPath && normalizedLinkPath !== '')) {
-      link.classList.add('current');
-      break; // found page
-    }
-  }
-
-  // Auto-open submenu if on a floorset page
-  const floorsetType = getFloorsetType(currentPath);
-  if (floorsetType) {
-    const floorsMenu = document.getElementById('floorsMenu');
-    const submenu = document.getElementById(floorsetType + 'Menu');
-    submenu.classList.add('open');
-
-    const floorsMainLink = floorsMenu.getElementsByTagName('a')[0];
-    floorsMainLink.classList.add('current');
-  }
 }
 
 function autoOpenSubmenu() {
