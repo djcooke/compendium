@@ -1,4 +1,4 @@
-(() => {
+const search = (() => {
   const MIN_QUERY_LENGTH = 2;
   const MAX_RESULTS = 25;
   const DEBOUNCE_MS = 80;
