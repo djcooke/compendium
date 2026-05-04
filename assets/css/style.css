@@ -606,7 +606,25 @@ span.rotated {
   overflow-x: auto;
 }
 
+/* When navigating to #fragment links (e.g. from search results), keep the
+   target heading clear */
+:target,
+h1[id],
+h2[id],
+h3[id],
+h4[id] {
+  scroll-margin-top: 16px;
+}
+
 @media screen and (max-width: 600px) {
+
+  :target,
+  h1[id],
+  h2[id],
+  h3[id],
+  h4[id] {
+    scroll-margin-top: 48px;
+  }
 
   #nav {
     top: 40px;
@@ -636,16 +654,6 @@ span.rotated {
 
   #nav.open {
     display: flex;
-  }
-
-  /* Offset linked position on page so headings aren't hidden behind fixed topnav */
-  h1:before,
-  h2:before {
-    display: block;
-    height: 40px;
-    margin-top: -40px;
-    content: "";
-    visibility: hidden;
   }
 }
 

@@ -145,4 +145,5 @@ const search = (() => {
 
     input.addEventListener('input', onInput);
     input.addEventListener('focus', loadIndex, { once: true });
+  }
 })();
