@@ -40,10 +40,10 @@ const search = (() => {
             loadPromise = null;
             return null;
           }
-          // This uses minisearch loaded as a global
+          // This uses minisearch loaded as a global.
           // Expected DOM:
-          // <input id="searchInput" type="search">
-          // <ul id="searchResults"></ul>
+          //   <input id="searchInput" type="search">
+          //   <ul id="searchResults"></ul>
           miniSearch = new MiniSearch({
             fields: ['title', 'subtitle', 'keywords'],
             storeFields: ['title', 'subtitle', 'url', 'kind'],
@@ -145,5 +145,4 @@ const search = (() => {
 
     input.addEventListener('input', onInput);
     input.addEventListener('focus', loadIndex, { once: true });
-  }
 })();

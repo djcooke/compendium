@@ -728,9 +728,14 @@ span.rotated {
   color: var(--on-surface);
 }
 
-.searchResult a:hover {
+.searchResult a:hover,
+.searchResult a:focus {
   background-color: var(--surface-highlight);
   color: var(--on-surface-highlight);
+}
+
+.searchResult a:focus {
+  outline: none;
 }
 
 .searchResultTitle {
@@ -742,7 +747,8 @@ span.rotated {
   color: var(--on-surface-dim);
 }
 
-.searchResult a:hover .searchResultMeta {
+.searchResult a:hover .searchResultMeta,
+.searchResult a:focus .searchResultMeta {
   color: var(--on-surface-dim-highlight);
 }
 
