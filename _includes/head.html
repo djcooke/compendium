@@ -46,6 +46,11 @@
   <!-- Scripts -->
   <script src="{{ '/assets/js/utils.js' | relative_url }}?{{ timestamp }}"></script>
   <script src="{{ '/assets/js/site.js' | relative_url }}?{{ timestamp }}"></script>
+  {% if page.external_scripts %}
+    {% for script in page.external_scripts %}
+    <script src="{{ script }}" defer></script>
+    {% endfor %}
+  {% endif %}
   {% if page.scripts %} 
     {% for script in page.scripts %}
     <script src="{{ '/assets/js/' | append: script | relative_url }}?{{ timestamp }}"></script>
