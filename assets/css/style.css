@@ -606,7 +606,25 @@ span.rotated {
   overflow-x: auto;
 }
 
+/* When navigating to #fragment links (e.g. from search results), keep the
+   target heading clear */
+:target,
+h1[id],
+h2[id],
+h3[id],
+h4[id] {
+  scroll-margin-top: 16px;
+}
+
 @media screen and (max-width: 600px) {
+
+  :target,
+  h1[id],
+  h2[id],
+  h3[id],
+  h4[id] {
+    scroll-margin-top: 48px;
+  }
 
   #nav {
     top: 40px;
@@ -637,16 +655,6 @@ span.rotated {
   #nav.open {
     display: flex;
   }
-
-  /* Offset linked position on page so headings aren't hidden behind fixed topnav */
-  h1:before,
-  h2:before {
-    display: block;
-    height: 40px;
-    margin-top: -40px;
-    content: "";
-    visibility: hidden;
-  }
 }
 
 /* Notice Component */
@@ -675,4 +683,85 @@ span.rotated {
 
 .notice .notice-content p:last-child {
   margin-bottom: 0;
+}
+
+#navSearch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#navSearch svg {
+  flex-shrink: 0;
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: var(--background);
+  color: var(--on-background-bright);
+  border: 1px solid var(--on-background-dim);
+  border-radius: 4px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--on-surface-highlight);
+}
+
+.searchResults {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.searchResults .searchResult,
+.searchResults .searchEmpty {
+  margin: 0;
+  padding: 0;
+}
+
+.searchResult + .searchResult {
+  border-top: 1px solid var(--background);
+}
+
+.searchResult a {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: var(--on-surface);
+}
+
+.searchResult a:hover,
+.searchResult a:focus {
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
+}
+
+.searchResult a:focus {
+  outline: none;
+}
+
+.searchResultTitle {
+  font-weight: 600;
+}
+
+.searchResultMeta {
+  font-size: 0.85em;
+  color: var(--on-surface-dim);
+}
+
+.searchResult a:hover .searchResultMeta,
+.searchResult a:focus .searchResultMeta {
+  color: var(--on-surface-dim-highlight);
+}
+
+.searchEmpty {
+  padding: 10px 12px;
+  color: var(--on-surface-dim);
+  font-style: italic;
 }

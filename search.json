@@ -1,0 +1,172 @@
+---
+layout: null
+permalink: /search.json
+sitemap: false
+---
+{%- comment -%}
+================================================================================
+Search index 
+
+This file is GENERATED AT BUILD TIME.
+Consumed by /assets/js/search.js (MiniSearch).
+
+Schema:
+  id        Unique numeric id (required by MiniSearch).
+  kind      One of: "page" | "floorset" | "boss" | "enemy".
+  title     Primary display text.
+  subtitle  Short context line (e.g. "PotD 1-10 · Boss").
+  url       Site-relative URL with optional fragment / query string.
+  keywords  Searchable text blob (alt names, families, ability names, …).
+
+The `sep` variable holds the comma between emitted entries. It starts empty
+and flips to "," after the first entry, so trailing commas never appear no
+matter which entries are skipped.
+================================================================================
+{%- endcomment -%}
+{%- assign dungeon_keys   = "potd,hoh,eo,pt" | split: "," -%}
+{%- assign dungeon_labels = "PotD,HoH,EO,PT" | split: "," -%}
+{%- assign id  = 0  -%}
+{%- assign sep = "" -%}
+[
+{%- comment -%} ──────── Prose pages ──────── {%- endcomment -%}
+{%- comment -%}
+  Heading IDs are emitted by kramdown automatically. The slugs below identify
+  TOC / decorative headings that should NOT appear as search results.
+{%- endcomment -%}
+{%- assign skip_heading_ids = "top,on-this-page" | split: "," -%}
+{%- for page in site.pages -%}
+  {%- unless page.path contains "pages/" -%}{%- continue -%}{%- endunless -%}
+  {%- unless page.title -%}{%- continue -%}{%- endunless -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "page",
+  "title": {{ page.title | jsonify }},
+  "subtitle": "Page",
+  "url": {{ page.url | relative_url | jsonify }},
+  "keywords": {{ page.title | jsonify }}
+}
+  {%- assign id  = id | plus: 1 -%}
+  {%- assign sep = ","          -%}
+
+  {%- comment -%}
+    Heading entries — extracted from rendered HTML for prose pages. Kramdown
+    emits each heading as `<hN id="slug">Title</hN>`. We split first on the
+    closing `</hN>` to scope each piece to a single heading, then split that
+    piece on `">` to separate slug from title.
+  {%- endcomment -%}
+  {%- assign heading_levels = "h2,h3" | split: "," -%}
+  {%- for level in heading_levels -%}
+    {%- assign open_tag  = "<"  | append: level | append: ' id="' -%}
+    {%- assign close_tag = "</" | append: level | append: ">"     -%}
+    {%- assign sections = page.content | split: open_tag -%}
+    {%- for section in sections offset:1 -%}
+      {%- assign opener = section | split: close_tag | first -%}
+      {%- assign parts = opener | split: '">' -%}
+      {%- assign heading_id = parts[0] -%}
+      {%- assign heading_title = parts[1] | strip_html | strip -%}
+      {%- if skip_heading_ids contains heading_id -%}{%- continue -%}{%- endif -%}
+      {%- if heading_title == "" -%}{%- continue -%}{%- endif -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "heading",
+  "title": {{ heading_title | jsonify }},
+  "subtitle": {{ page.title | append: " · Section" | jsonify }},
+  "url": {{ page.url | append: "#" | append: heading_id | relative_url | jsonify }},
+  "keywords": {{ heading_title | jsonify }}
+}
+      {%- assign id  = id | plus: 1 -%}
+      {%- assign sep = ","          -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- comment -%} ──────── Home (emit explicitly) ──────── {%- endcomment -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "page",
+  "title": "Home",
+  "subtitle": "Page",
+  "url": {{ "/" | relative_url | jsonify }},
+  "keywords": "home index deep dungeon compendium"
+}
+{%- assign id  = id | plus: 1 -%}
+{%- assign sep = ","          -%}
+
+{%- comment -%} ──────── Floorsets, bosses, enemies (per dungeon) ──────── {%- endcomment -%}
+{%- for dungeon_key in dungeon_keys -%}
+  {%- assign dungeon_label       = dungeon_labels[forloop.index0]    -%}
+  {%- assign floorset_collection = dungeon_key | append: "_floorsets" -%}
+
+  {%- for floorset in site[floorset_collection] -%}
+    {%- assign floorset_title = floorset.title | default: floorset.name -%}
+
+    {%- comment -%} Floorset entry {%- endcomment -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "floorset",
+  "title": {{ floorset_title | jsonify }},
+  "subtitle": {{ dungeon_label | append: " · Floorset" | jsonify }},
+  "url": {{ floorset.url | relative_url | jsonify }},
+  "keywords": {{ floorset_title | jsonify }}
+}
+    {%- assign id  = id | plus: 1 -%}
+    {%- assign sep = ","          -%}
+
+    {%- comment -%} Boss entry (skipped if floorset has no boss field) {%- endcomment -%}
+    {%- if floorset.boss -%}
+      {%- capture boss_keywords -%}
+        {{ floorset.boss }}
+        {%- if floorset.boss_abilities -%}
+          {%- for ability in floorset.boss_abilities %} {{ ability.name }}{%- endfor -%}
+        {%- endif -%}
+      {%- endcapture -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "boss",
+  "title": {{ floorset.boss | jsonify }},
+  "subtitle": {{ floorset_title | append: " · Boss" | jsonify }},
+  "url": {{ floorset.url | append: "#boss" | relative_url | jsonify }},
+  "keywords": {{ boss_keywords | normalize_whitespace | jsonify }}
+}
+      {%- assign id  = id | plus: 1 -%}
+      {%- assign sep = ","          -%}
+    {%- endif -%}
+
+    {%- comment -%}
+      Enemy entries — sort order MUST match _layouts/floorset.html so the
+      emitted index lines up with the `?enemy=N` parameter consumed by site.js.
+    {%- endcomment -%}
+    {%- assign enemy_collection = dungeon_key | append: "_" | append: floorset.floorset | append: "_enemies" -%}
+    {%- assign enemies_raw      = site[enemy_collection] -%}
+    {%- if enemies_raw -%}
+      {%- assign enemies_sorted = enemies_raw | sort: "end_floor" | sort: "start_floor" | sort: "sort_order" -%}
+      {%- for enemy in enemies_sorted -%}
+        {%- capture enemy_url -%}{{ floorset.url }}?enemy={{ forloop.index0 }}#enemies{%- endcapture -%}
+        {%- capture enemy_subtitle -%}{{ floorset_title }} · Floors {{ enemy.start_floor }}-{{ enemy.end_floor }}{%- endcapture -%}
+        {%- capture enemy_keywords -%}
+          {{ enemy.name }} {{ enemy.nickname }} {{ enemy.family }}
+          {%- if enemy.abilities -%}
+            {%- for ability in enemy.abilities %} {{ ability.name }}{%- endfor -%}
+          {%- endif -%}
+        {%- endcapture -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "enemy",
+  "title": {{ enemy.name | jsonify }},
+  "subtitle": {{ enemy_subtitle | jsonify }},
+  "url": {{ enemy_url | relative_url | jsonify }},
+  "keywords": {{ enemy_keywords | normalize_whitespace | jsonify }}
+}
+        {%- assign id  = id | plus: 1 -%}
+        {%- assign sep = ","          -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+]
