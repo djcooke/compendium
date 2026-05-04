@@ -45,7 +45,7 @@
           Floors
         </a>
         <div id="potdMenu" class="submenu{% if current_dungeon == 'potd' %} open{% endif %}">
-          <a class="navHeading" onclick="toggleOpen('potdMenu')">PotD</a>
+          <a class="navHeading" title="Palace of the Dead" onclick="toggleOpen('potdMenu')">PotD</a>
           <ul>
             {% for floorset in site.potd_floorsets %}
             <li>
@@ -58,7 +58,7 @@
         </div>
 
         <div id="hohMenu" class="submenu{% if current_dungeon == 'hoh' %} open{% endif %}">
-          <a class="navHeading" onclick="toggleOpen('hohMenu')">HoH</a>
+          <a class="navHeading" title="Heaven-on-High" onclick="toggleOpen('hohMenu')">HoH</a>
           <ul>
             {% for floorset in site.hoh_floorsets %}
             <li>
@@ -71,7 +71,7 @@
         </div>
 
         <div id="eoMenu" class="submenu{% if current_dungeon == 'eo' %} open{% endif %}">
-          <a class="navHeading" onclick="toggleOpen('eoMenu')">EO</a>
+          <a class="navHeading" title="Eureka Orthos" onclick="toggleOpen('eoMenu')">EO</a>
           <ul>
             {% for floorset in site.eo_floorsets %}
             <li>
@@ -84,7 +84,7 @@
         </div>
 
         <div id="ptMenu" class="submenu{% if current_dungeon == 'pt' %} open{% endif %}">
-          <a class="navHeading" onclick="toggleOpen('ptMenu')">PT</a>
+          <a class="navHeading" title="Pilgrim's Traverse" onclick="toggleOpen('ptMenu')">PT</a>
           <ul>
             {% for floorset in site.pt_floorsets %}
             <li>
