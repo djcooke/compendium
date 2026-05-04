@@ -5,10 +5,10 @@ sitemap: false
 ---
 {%- comment -%}
 ================================================================================
-Search index — emitted to /search.json at build time.
+Search index 
 
-Consumed by /assets/js/search.js (MiniSearch). One JSON object per searchable
-item: prose page, floorset, boss, or enemy.
+This file is GENERATED AT BUILD TIME.
+Consumed by /assets/js/search.js (MiniSearch).
 
 Schema:
   id        Unique numeric id (required by MiniSearch).
@@ -29,6 +29,11 @@ matter which entries are skipped.
 {%- assign sep = "" -%}
 [
 {%- comment -%} ──────── Prose pages ──────── {%- endcomment -%}
+{%- comment -%}
+  Heading IDs are emitted by kramdown automatically. The slugs below identify
+  TOC / decorative headings that should NOT appear as search results.
+{%- endcomment -%}
+{%- assign skip_heading_ids = "top,on-this-page" | split: "," -%}
 {%- for page in site.pages -%}
   {%- unless page.path contains "pages/" -%}{%- continue -%}{%- endunless -%}
   {%- unless page.title -%}{%- continue -%}{%- endunless -%}
@@ -43,9 +48,54 @@ matter which entries are skipped.
 }
   {%- assign id  = id | plus: 1 -%}
   {%- assign sep = ","          -%}
+
+  {%- comment -%}
+    Heading entries — extracted from rendered HTML for prose pages. Kramdown
+    emits each heading as `<hN id="slug">Title</hN>`. We split first on the
+    closing `</hN>` to scope each piece to a single heading, then split that
+    piece on `">` to separate slug from title.
+  {%- endcomment -%}
+  {%- assign heading_levels = "h2,h3" | split: "," -%}
+  {%- for level in heading_levels -%}
+    {%- assign open_tag  = "<"  | append: level | append: ' id="' -%}
+    {%- assign close_tag = "</" | append: level | append: ">"     -%}
+    {%- assign sections = page.content | split: open_tag -%}
+    {%- for section in sections offset:1 -%}
+      {%- assign opener = section | split: close_tag | first -%}
+      {%- assign parts = opener | split: '">' -%}
+      {%- assign heading_id = parts[0] -%}
+      {%- assign heading_title = parts[1] | strip_html | strip -%}
+      {%- if skip_heading_ids contains heading_id -%}{%- continue -%}{%- endif -%}
+      {%- if heading_title == "" -%}{%- continue -%}{%- endif -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "heading",
+  "title": {{ heading_title | jsonify }},
+  "subtitle": {{ page.title | append: " · Section" | jsonify }},
+  "url": {{ page.url | append: "#" | append: heading_id | relative_url | jsonify }},
+  "keywords": {{ heading_title | jsonify }}
+}
+      {%- assign id  = id | plus: 1 -%}
+      {%- assign sep = ","          -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{{ sep }}
+{
+  "id": {{ id }},
+  "kind": "heading",
+  "title": {{ heading_title | jsonify }},
+  "subtitle": {{ page.title | append: " · Section" | jsonify }},
+  "url": {{ page.url | append: "#" | append: heading_id | relative_url | jsonify }},
+  "keywords": {{ heading_title | jsonify }}
+}
+      {%- assign id  = id | plus: 1 -%}
+      {%- assign sep = ","          -%}
+    {%- endfor -%}
+  {%- endfor -%}
 {%- endfor -%}
 
-{%- comment -%} ──────── Home (no front-matter title, so emit explicitly) ──────── {%- endcomment -%}
+{%- comment -%} ──────── Home (emit explicitly) ──────── {%- endcomment -%}
 {{ sep }}
 {
   "id": {{ id }},
