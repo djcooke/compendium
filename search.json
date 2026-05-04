@@ -80,19 +80,6 @@ matter which entries are skipped.
       {%- assign sep = ","          -%}
     {%- endfor -%}
   {%- endfor -%}
-{{ sep }}
-{
-  "id": {{ id }},
-  "kind": "heading",
-  "title": {{ heading_title | jsonify }},
-  "subtitle": {{ page.title | append: " · Section" | jsonify }},
-  "url": {{ page.url | append: "#" | append: heading_id | relative_url | jsonify }},
-  "keywords": {{ heading_title | jsonify }}
-}
-      {%- assign id  = id | plus: 1 -%}
-      {%- assign sep = ","          -%}
-    {%- endfor -%}
-  {%- endfor -%}
 {%- endfor -%}
 
 {%- comment -%} ──────── Home (emit explicitly) ──────── {%- endcomment -%}
