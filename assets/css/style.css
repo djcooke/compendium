@@ -555,6 +555,164 @@ button.textButton:hover {
 
 .noteImage {
   max-width: 100%;
+  height: auto;
+}
+
+.trapList > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  counter-reset: trap;
+}
+
+.trapList > ul > li {
+  counter-increment: trap;
+  position: relative;
+  padding-left: 44px;
+}
+
+.trapList > ul > li + li {
+  margin-top: 12px;
+}
+
+.trapList > ul > li::before {
+  content: "#" counter(trap);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: var(--on-surface-highlight);
+}
+
+.trapList > ul > li a:has(> img.noteImage) {
+  display: inline-block;
+  margin: 8px 6px 0 0;
+  cursor: zoom-in;
+}
+
+.trapList > ul > li img.noteImage {
+  display: block;
+  max-width: min(420px, 100%);
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.trapList > ul > li a:hover > img.noteImage,
+.trapList > ul > li a:focus-visible > img.noteImage {
+  border-color: var(--on-surface-highlight);
+}
+
+.trapList .imageCredit {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.85em;
+  font-style: italic;
+  color: var(--on-surface-dim);
+}
+
+.trapList > ul > li ul {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding-left: 0;
+}
+
+.trapList > ul > li ul > li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+}
+
+.trapList > ul > li ul > li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--on-surface-highlight);
+  font-weight: bold;
+}
+
+.wallTrapSummary {
+  margin: 16px 0;
+}
+
+.wallTrapDungeon {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wallTrapDungeon h3 {
+  margin: 0 0 8px 0;
+}
+
+.wallTrapGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(10, minmax(0, 72px));
+}
+
+.wallTrapGrid > li {
+  display: contents;
+}
+
+.wallTrapCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  padding: 4px;
+  border: 1px solid var(--surface-highlight);
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
+  text-align: center;
+  text-decoration: none;
+}
+
+a.wallTrapCell:hover,
+a.wallTrapCell:focus-visible {
+  outline: 2px solid var(--on-surface-highlight);
+  outline-offset: 1px;
+}
+
+.wallTrapCell--unknown {
+  background-color: transparent;
+  color: var(--on-surface-dim);
+  border: 1px dashed var(--on-surface-dim);
+}
+
+.wallTrapRange {
+  font-size: 0.8em;
+  color: var(--on-surface-dim-highlight);
+}
+
+.wallTrapCell--unknown .wallTrapRange {
+  color: var(--on-surface-dim);
+}
+
+.wallTrapCount {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.wallTrapLegend,
+.wallTrapSource {
+  font-size: 0.9em;
+  color: var(--on-surface-dim);
+  margin: 4px 0 0 0;
+}
+
+@media (max-width: 480px) {
+  .wallTrapCount {
+    font-size: 1.2em;
+  }
 }
 
 span.rotated {
