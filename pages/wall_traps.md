@@ -317,7 +317,8 @@ you're not careful:
 <div class="surfacePane trapList" markdown="1">
 
 * In the room that has square pits/pools in the corners, making it kind-of "+"
-  shaped, there can be a trap along one of the pits. Picture needed
+  shaped, there can be a trap along one of the pits.
+  * Picture needed
 
 
 [Back to top](#top)
