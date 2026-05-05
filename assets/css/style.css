@@ -579,7 +579,7 @@ button.textButton:hover {
   padding: 0;
   display: grid;
   gap: 6px;
-  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 72px));
 }
 
 .wallTrapGrid > li {
@@ -635,10 +635,6 @@ a.wallTrapCell:focus-visible {
 }
 
 @media (max-width: 480px) {
-  .wallTrapGrid {
-    grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
-  }
-
   .wallTrapCount {
     font-size: 1.2em;
   }
