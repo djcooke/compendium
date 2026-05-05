@@ -558,6 +558,62 @@ button.textButton:hover {
   height: auto;
 }
 
+.trapList > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  counter-reset: trap;
+}
+
+.trapList > ul > li {
+  counter-increment: trap;
+  position: relative;
+  padding-left: 44px;
+}
+
+.trapList > ul > li + li {
+  margin-top: 12px;
+}
+
+.trapList > ul > li::before {
+  content: "#" counter(trap);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: var(--on-surface-highlight);
+}
+
+.trapList > ul > li a:has(> img.noteImage) {
+  display: inline-block;
+  margin: 8px 6px 0 0;
+  cursor: zoom-in;
+}
+
+.trapList > ul > li img.noteImage {
+  display: block;
+  max-width: min(420px, 100%);
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.trapList > ul > li a:hover > img.noteImage,
+.trapList > ul > li a:focus-visible > img.noteImage {
+  border-color: var(--on-surface-highlight);
+}
+
+.trapList > ul > li ul {
+  margin-top: 8px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.trapList > ul > li ul > li {
+  margin-bottom: 6px;
+}
+
 .wallTrapSummary {
   margin: 16px 0;
 }
