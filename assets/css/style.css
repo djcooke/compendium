@@ -558,54 +558,6 @@ button.textButton:hover {
   height: auto;
 }
 
-.trapSection {
-  margin: 8px 0;
-}
-
-.trapSection > summary {
-  cursor: pointer;
-  list-style: none;
-  padding: 8px 12px;
-  background-color: var(--surface);
-  color: var(--on-surface);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.trapSection > summary::-webkit-details-marker {
-  display: none;
-}
-
-.trapSection > summary::before {
-  content: "\25B6";
-  font-size: 0.7em;
-  color: var(--on-surface-dim);
-  transition: transform 0.15s ease;
-}
-
-.trapSection[open] > summary::before {
-  transform: rotate(90deg);
-}
-
-.trapSection > summary > h2 {
-  margin: 0;
-  font-size: 1.1em;
-}
-
-.trapSection > summary:hover,
-.trapSection > summary:focus-visible {
-  color: var(--on-surface-highlight);
-}
-
-.trapSection[open] > summary {
-  margin-bottom: 0;
-}
-
-.trapSection > .surfacePane {
-  margin-top: 0;
-}
-
 .wallTrapSummary {
   margin: 16px 0;
 }
