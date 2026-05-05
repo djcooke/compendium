@@ -221,7 +221,7 @@ title: Wall Traps
   <br><a href="{{ '/assets/images/wall_traps/potd_111_5.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_5.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
 * East wall of the same donut room:
   <br><a href="{{ '/assets/images/wall_traps/potd_111_7.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_7.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
-  <br>Image courtesy of Holo The-wise-wolf (Discord: AbsoluteParadox#5937)
+  <br><small class="imageCredit">Image courtesy of Holo The-wise-wolf (Discord: AbsoluteParadox#5937)</small>
 * By the east entrance to this room:
   <br><a href="{{ '/assets/images/wall_traps/potd_111_3-1.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-1.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
   <br><a href="{{ '/assets/images/wall_traps/potd_111_3-2.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_3-2.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
@@ -258,12 +258,12 @@ title: Wall Traps
   <br><a href="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_1.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
 * Dead-end "Stonehenge" room:
   <br><a href="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_2.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
-  <br>Image courtesy of Nisei (Discord: chakku#3093)
+  <br><small class="imageCredit">Image courtesy of Nisei (Discord: chakku#3093)</small>
 * Room the with blocky wall on the east side. There are other similar rooms,
 but this one will always have the 4-way stair room north of it, and may be
 connected to dead-end rooms to the south (as in the screenshot) and west:
   <br><a href="{{ '/assets/images/wall_traps/potd_151_3.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_3.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
-  <br>Image courtesy of blasterpoard (Discord: blasterpoard#6245)
+  <br><small class="imageCredit">Image courtesy of blasterpoard (Discord: blasterpoard#6245)</small>
 * Dead-end platform - not quite a wall trap, but it's very easy to hit it if
 you're not careful:
   <br><a href="{{ '/assets/images/wall_traps/potd_151_4.png' | relative_url }}" target="_blank" rel="noopener" title="Click to expand"><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_4.png' | relative_url }}" loading="lazy" alt="Wall trap location"></a>
