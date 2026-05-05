@@ -1,0 +1,27 @@
+<section class="wallTrapSummary">
+  {% for dungeon in site.data.wall_traps %}
+  {% assign slug = dungeon.name | slugify %}
+  <section class="wallTrapDungeon" aria-labelledby="wall-traps-{{ slug }}">
+    <h3 id="wall-traps-{{ slug }}">{{ dungeon.name }}</h3>
+    <ul class="wallTrapGrid" role="list">
+      {% for floorset in dungeon.floorsets %}
+      <li>
+        {% if floorset.count == nil %}
+          <span class="wallTrapCell wallTrapCell--unknown" aria-label="{{ floorset.range }} unknown">
+            <span class="wallTrapRange">{{ floorset.range }}</span>
+            <span class="wallTrapCount">?</span>
+          </span>
+        {% else %}
+          <a class="wallTrapCell" href="#{{ floorset.anchor }}">
+            <span class="wallTrapRange">{{ floorset.range }}</span>
+            <span class="wallTrapCount">{{ floorset.count }}</span>
+          </a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  <p class="wallTrapLegend"><strong>?</strong> = not yet documented</p>
+</section>

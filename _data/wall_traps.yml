@@ -1,0 +1,61 @@
+- name: PotD (Palace of the Dead)
+  floorsets:
+    - { range: "1-10",    count: 3,  anchor: "potd-1-9" }
+    - { range: "11-20",   count: 12, anchor: "potd-11-19" }
+    - { range: "21-30",   count: 8,  anchor: "potd-21-29" }
+    - { range: "31-40",   count: 24, anchor: "potd-31-49" }
+    - { range: "41-50",   count: 24, anchor: "potd-31-49" }
+    - { range: "51-60",   count: 21, anchor: "potd-51-79" }
+    - { range: "61-70",   count: 21, anchor: "potd-51-79" }
+    - { range: "71-80",   count: 21, anchor: "potd-51-79" }
+    - { range: "81-90",   count: 1,  anchor: "potd-81-109" }
+    - { range: "91-100",  count: 1,  anchor: "potd-81-109" }
+    - { range: "101-110", count: 1,  anchor: "potd-81-109" }
+    - { range: "111-120", count: 11, anchor: "potd-111-129" }
+    - { range: "121-130", count: 11, anchor: "potd-111-129" }
+    - { range: "131-140", count: 2,  anchor: "potd-131-149" }
+    - { range: "141-150", count: 2,  anchor: "potd-131-149" }
+    - { range: "151-160", count: 4,  anchor: "potd-151-199" }
+    - { range: "161-170", count: 4,  anchor: "potd-151-199" }
+    - { range: "171-180", count: 4,  anchor: "potd-151-199" }
+    - { range: "181-190", count: 4,  anchor: "potd-151-199" }
+    - { range: "191-200", count: 4,  anchor: "potd-151-199" }
+
+- name: HoH (Heaven-on-High)
+  floorsets:
+    - { range: "1-10",   count: 8, anchor: "hoh-1-19" }
+    - { range: "11-20",  count: 8, anchor: "hoh-1-19" }
+    - { range: "21-30",  count: ~ }
+    - { range: "31-40",  count: ~ }
+    - { range: "41-50",  count: 1, anchor: "hoh-41-79" }
+    - { range: "51-60",  count: 1, anchor: "hoh-41-79" }
+    - { range: "61-70",  count: 1, anchor: "hoh-41-79" }
+    - { range: "71-80",  count: 1, anchor: "hoh-41-79" }
+    - { range: "81-90",  count: ~ }
+    - { range: "91-100", count: ~ }
+
+- name: EO (Eureka Orthos)
+  floorsets:
+    - { range: "1-10",   count: ~ }
+    - { range: "11-20",  count: ~ }
+    - { range: "21-30",  count: ~ }
+    - { range: "31-40",  count: ~ }
+    - { range: "41-50",  count: ~ }
+    - { range: "51-60",  count: ~ }
+    - { range: "61-70",  count: ~ }
+    - { range: "71-80",  count: ~ }
+    - { range: "81-90",  count: ~ }
+    - { range: "91-100", count: ~ }
+
+- name: PT (Pilgrim's Traverse)
+  floorsets:
+    - { range: "1-10",   count: ~ }
+    - { range: "11-20",  count: ~ }
+    - { range: "21-30",  count: ~ }
+    - { range: "31-40",  count: ~ }
+    - { range: "41-50",  count: ~ }
+    - { range: "51-60",  count: ~ }
+    - { range: "61-70",  count: ~ }
+    - { range: "71-80",  count: ~ }
+    - { range: "81-90",  count: ~ }
+    - { range: "91-100", count: ~ }

@@ -555,6 +555,141 @@ button.textButton:hover {
 
 .noteImage {
   max-width: 100%;
+  height: auto;
+}
+
+.trapSection {
+  margin: 8px 0;
+}
+
+.trapSection > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 8px 12px;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trapSection > summary::-webkit-details-marker {
+  display: none;
+}
+
+.trapSection > summary::before {
+  content: "\25B6";
+  font-size: 0.7em;
+  color: var(--on-surface-dim);
+  transition: transform 0.15s ease;
+}
+
+.trapSection[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.trapSection > summary > h2 {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.trapSection > summary:hover,
+.trapSection > summary:focus-visible {
+  color: var(--on-surface-highlight);
+}
+
+.trapSection[open] > summary {
+  margin-bottom: 0;
+}
+
+.trapSection > .surfacePane {
+  margin-top: 0;
+}
+
+.wallTrapSummary {
+  margin: 16px 0;
+}
+
+.wallTrapDungeon {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wallTrapDungeon h3 {
+  margin: 0 0 8px 0;
+}
+
+.wallTrapGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+}
+
+.wallTrapGrid > li {
+  display: contents;
+}
+
+.wallTrapCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  padding: 4px;
+  border: 1px solid var(--surface-highlight);
+  background-color: var(--surface-highlight);
+  color: var(--on-surface-highlight);
+  text-align: center;
+  text-decoration: none;
+}
+
+a.wallTrapCell:hover,
+a.wallTrapCell:focus-visible {
+  outline: 2px solid var(--on-surface-highlight);
+  outline-offset: 1px;
+}
+
+.wallTrapCell--unknown {
+  background-color: transparent;
+  color: var(--on-surface-dim);
+  border: 1px dashed var(--on-surface-dim);
+}
+
+.wallTrapRange {
+  font-size: 0.8em;
+  color: var(--on-surface-dim-highlight);
+}
+
+.wallTrapCell--unknown .wallTrapRange {
+  color: var(--on-surface-dim);
+}
+
+.wallTrapCount {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.wallTrapLegend,
+.wallTrapSource {
+  font-size: 0.9em;
+  color: var(--on-surface-dim);
+  margin: 4px 0 0 0;
+}
+
+@media (max-width: 480px) {
+  .wallTrapGrid {
+    grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  }
+
+  .wallTrapCount {
+    font-size: 1.2em;
+  }
 }
 
 span.rotated {

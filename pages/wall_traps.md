@@ -3,24 +3,12 @@ layout: default
 title: Wall Traps
 ---
 
-## On this Page:
-
-* [PotD 1-9](#potd-1-9)
-* [PotD 11-19](#potd-11-19)
-* [PotD 21-29](#potd-21-29)
-* [PotD 31-49](#potd-31-49)
-* [PotD 51-79](#potd-51-79)
-* [PotD 81-109](#potd-81-109)
-* [PotD 111-129](#potd-111-129)
-* [PotD 131-149](#potd-131-149)
-* [PotD 151-199](#potd-151-199)
-* [HoH 1-19](#hoh-1-19)
-* [HoH 41-79](#hoh-41-79)
-* [HoH 81-99](#hoh-81-99)
+{% include wall_trap_summary.html %}
 
 {% include notice.html title="Find a wall trap that's missing here?" content="Share a picture with the location, find out how to [contribute](contributing.html)!" %}
 
-## PotD 1-9
+<details class="trapSection" id="potd-1-9" markdown="1">
+<summary><h2>PotD 1-9</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -34,10 +22,11 @@ title: Wall Traps
   closed off instead, and it might be possible to squeeze by in that case:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_3.png' | relative_url }}" loading="lazy" alt="PotD 1-9 wall trap location 3">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 11-19
+<details class="trapSection" id="potd-11-19" markdown="1">
+<summary><h2>PotD 11-19</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -68,10 +57,11 @@ title: Wall Traps
   wall trap, but you have to hug the crystal tightly to avoid it:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_11_9.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 21-29
+<details class="trapSection" id="potd-21-29" markdown="1">
+<summary><h2>PotD 21-29</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -95,10 +85,11 @@ title: Wall Traps
 * East wall of the last pillar room, when the wall is closed:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_21_8.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 31-49
+<details class="trapSection" id="potd-31-49" markdown="1">
+<summary><h2>PotD 31-49</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -155,10 +146,11 @@ title: Wall Traps
 * East wall of the same room, when the wall is closed:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_31_23.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 51-79
+<details class="trapSection" id="potd-51-79" markdown="1">
+<summary><h2>PotD 51-79</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -201,20 +193,22 @@ title: Wall Traps
 * West side of this long room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_51_20.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 81-109
+<details class="trapSection" id="potd-81-109" markdown="1">
+<summary><h2>PotD 81-109</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
 * Left corner entering the half lava room uphill from a pillar room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_81_1.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 111-129
+<details class="trapSection" id="potd-111-129" markdown="1">
+<summary><h2>PotD 111-129</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -240,10 +234,11 @@ title: Wall Traps
 * By south entrance of this dead-end room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_111_9.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 131-149
+<details class="trapSection" id="potd-131-149" markdown="1">
+<summary><h2>PotD 131-149</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -252,10 +247,11 @@ title: Wall Traps
 * East wall of another donut room:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_131_2.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## PotD 151-199
+<details class="trapSection" id="potd-151-199" markdown="1">
+<summary><h2>PotD 151-199</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -273,10 +269,11 @@ connected to dead-end rooms to the south (as in the screenshot) and west:
 you're not careful:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_151_4.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## HoH 1-19
+<details class="trapSection" id="hoh-1-19" markdown="1">
+<summary><h2>HoH 1-19</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -300,10 +297,11 @@ you're not careful:
 * The Hall of Fallacies has a wall trap near the west end of the south wall:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_1_7.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## HoH 41-79
+<details class="trapSection" id="hoh-41-79" markdown="1">
+<summary><h2>HoH 41-79</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
@@ -311,15 +309,16 @@ you're not careful:
   north-east:
   <br><img class="noteImage" src="{{ '/assets/images/wall_traps/hoh_41_1.png' | relative_url }}" loading="lazy" alt="Wall trap location">
 
-[Back to top](#top)
 </div>
+</details>
 
-## HoH 81-99
+<details class="trapSection" id="hoh-81-99" markdown="1">
+<summary><h2>HoH 81-99</h2></summary>
 
 <div class="surfacePane" markdown="1">
 
 * In the room that has square pits/pools in the corners, making it kind-of "+"
   shaped, there can be a trap along one of the pits. Picture needed
 
-[Back to top](#top)
 </div>
+</details>
