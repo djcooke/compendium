@@ -7,6 +7,7 @@ title: Wall Traps
 
 * [PotD 1-9](#potd-1-9)
 * [PotD 11-19](#potd-11-19)
+* [PotD 21-29](#potd-21-29)
 * [PotD 31-49](#potd-31-49)
 * [PotD 51-79](#potd-51-79)
 * [PotD 81-109](#potd-81-109)
@@ -24,14 +25,14 @@ title: Wall Traps
 <div class="surfacePane" markdown="1">
 
 * South-east corner of this room:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_1.png' | relative_url }}" loading="lazy" alt="Wall trap location" loading="lazy" alt="PotD 1-9 wall trap location 1">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_1.png' | relative_url }}" loading="lazy" alt="PotD 1-9 wall trap location 1">
 * South-east corner of this donut room - note that a trap can also spawn
   slightly outward from this point, so hug the railing when passing this
   corner:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_2.png' | relative_url }}" loading="lazy" alt="Wall trap location" loading="lazy" alt="PotD 1-9 wall trap location 2">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_2.png' | relative_url }}" loading="lazy" alt="PotD 1-9 wall trap location 2">
 * Next to the east exit of the same donut room - note that the wall might be
   closed off instead, and it might be possible to squeeze by in that case:
-  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_3.png' | relative_url }}" loading="lazy" alt="Wall trap location" loading="lazy" alt="PotD 1-9 wall trap location 3">
+  <br><img class="noteImage" src="{{ '/assets/images/wall_traps/potd_1_3.png' | relative_url }}" loading="lazy" alt="PotD 1-9 wall trap location 3">
 
 [Back to top](#top)
 </div>
